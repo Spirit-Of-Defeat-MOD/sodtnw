@@ -1,0 +1,488 @@
+ideologies = {
+
+	communism = {
+
+        types = {
+
+            vanguard_communism_subtype = {}
+			leninist = {}
+			trotskyist = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_vanguard_communism"
+        }
+
+        color = { 170 0 0 } #255 65 65 could work too
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    totalitarian_socialism = {
+
+        types = {
+
+            totalitarian_socialism_subtype = {}
+			anti-revisionist = {}
+			national_bolshevik = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
+        }
+
+        color = { 225 0 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    revolutionary_socialism = {
+
+        types = {
+
+            revolutionary_socialism_subtype = {}
+			anarcho_communist = {}
+			socialist_revolutionary = {}
+			libertarian_socialist = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
+        }
+
+        color = { 140 0 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    democratic_socialism = {
+
+        types = {
+
+            democratic_socialism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_DEMOCRATIC_SOCIALISM"
+        }
+
+        color = { 152 38 38 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    social_democracy = {
+
+        types = {
+
+            social_democracy_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_DEMOCRACY"
+        }
+
+        color = { 195 30 85 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    social_liberal = {
+
+        types = {
+
+            social_liberal_subtype = {}
+			progressivism = {}
+			centrism = {}
+			radical_liberalism = {}
+			keynesian_liberalism = {}
+			liberal_conservatism = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_LIBERAL"
+        }
+
+        color = { 255 170 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    classic_liberal = {
+
+        types = {
+
+            classic_liberal_subtype = {}
+			market_liberalism = {}
+			constitutionalism = {}
+			conservative_liberalism = {}
+			right_libertarianism = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_CLASSIC_LIBERAL"
+        }
+
+        color = { 255 216 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    democratic = {
+
+        types = {
+
+            social_conservatism_subtype = {}
+			fiscal_conservatism = {}
+			traditionalism = {}
+			christian_democracy = {}
+			reactionary_conservatism = {}
+			clerical_conservatism = {}
+
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_CONSERVATISM"
+        }
+
+        color = { 0 0 255 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    neutrality = {
+
+        types = {
+
+            authoritarian_democrat_subtype = {}
+			national_conservatism = {}
+			revolutionary_conservatism = {}
+			managed_democracy = {}
+			partial_democracy = {}
+			oligarchic_state = {}
+			prometheist = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_AUTHORITARIAN_DEMOCRAT"
+        }
+
+        color = { 80 80 80 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    utilitarian_despot = {
+
+        types = {
+
+            utilitarian_despot_subtype = {}
+			paternal_state = {}
+			absolute_monarchy = {}
+			warlord = {}
+			military_junta = {}
+			totalitarian_state = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_UTILITARIAN_DESPOT"
+        }
+
+        color = { 160 160 160 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    fascism = {
+
+        types = {
+
+            national_collectivist_subtype = {}
+			national_syndicalist = {}
+			national_corporatism = {}
+			falangism = {}
+			integral_nationalism = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_NATIONAL_COLLECTIVIST"
+        }
+
+        color = { 40 40 40 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+	
+	nihilistic_extremism = {
+
+        types = {
+
+            nihilistic_extremism_subtype = {}
+			himmlerist_nihilism = {}
+			cioranist_nihilism = {}
+			pronayist_nihilism = {}
+			radical_paramilitarist = {}
+			right_wing_terrorist = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_NIHILISTIC_EXTREMISM"
+        }
+
+        color = { 142 57 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = no
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+}

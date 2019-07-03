@@ -407,11 +407,11 @@ ideologies = {
 
         types = {
 
-            national_collectivist_subtype = {}
+            national_collectivist = {}
 			national_syndicalist = {}
-			national_corporatism = {}
-			falangism = {}
-			integral_nationalism = {}
+			national_corporatist = {}
+			falangist = {}
+			integral_nationalist = {}
 
         }
 

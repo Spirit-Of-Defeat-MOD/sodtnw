@@ -36,8 +36,8 @@ POLITICS_VON_SCHLEICHER_DESC:0 "A well respected figure within the Reichswehr, K
  GER_nihilistic_extremism_DEF:0 "the German Vorherrschaftszustand"
  GER_totalitarian_socialism:0 "German Volksreich"
  GER_totalitarian_socialism_DEF:0 "the German Volksreich"
- GER_utilitarian_despot:0 "German Militärjunta"
- GER_utilitarian_despot_DEF:0 "the German Militärjunta"
+ GER_utilitarian_despot:0 "German Reich"
+ GER_utilitarian_despot_DEF:0 "the German Reich"
  GER_democratic:0 "Federal Republic of Germany"
  GER_democratic_DEF:0 "the Federal Republic of Germany"
  GER_neutrality:1 "German Empire"
@@ -69,7 +69,10 @@ POLITICS_VON_SCHLEICHER_DESC:0 "A well respected figure within the Reichswehr, K
  GER_vanguard_communism_ADJ:0 "German"
 
 #Ministers
-#should be reintegrated
+GER_Franz_Papen_hog:0 "Franz von Papen"
+GER_Alfred_Hugenberg_eco:0 "Alfred Hugenberg "
+GER_Otto_Lossow_sec:0 "Otto von Lossow"
+GER_Ferdinand_Bredow_int:0 "Ferdinand von Bredow"
 
 
  

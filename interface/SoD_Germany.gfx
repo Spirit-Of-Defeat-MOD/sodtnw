@@ -1,0 +1,47 @@
+spriteTypes = {
+
+#Ministers
+
+	spriteType = {
+		name = "GFX_idea_GER_Franz_Papen_hog"
+		texturefile = "gfx/ministers/GER/Franz_Papen.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Alfred_Hugenberg_eco"
+		texturefile = "gfx/ministers/GER/Alfred_Hugenberg.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Otto_Lossow_sec"
+		texturefile = "gfx/ministers/GER/Otto_Lossow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Ferdinand_Bredow_int"
+		texturefile = "gfx/ministers/GER/Ferdinand_Bredow.tga"
+	}
+
+
+#Country Ideas
+
+	
+	spriteType = {
+		name = "GFX_idea_rampant_paramilitaries"
+		texturefile = "gfx/interface/ideas/GER/rampant_paramilitaries.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_economic_troubles"
+		texturefile = "gfx/interface/ideas/GER/economic_troubles.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_black_reichswehr"
+		texturefile = "gfx/interface/ideas/GER/black_reichswehr.tga"
+	}
+	
+	
+
+
+}

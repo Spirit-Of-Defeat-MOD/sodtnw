@@ -6,6 +6,9 @@ ideologies = {
 
             vanguard_communism_subtype = {}
 			leninist = {}
+			marxism = {}
+			leninism = {}
+			stalinism = {}
 			trotskyist = {}
 
         }
@@ -44,7 +47,7 @@ ideologies = {
         types = {
 
             totalitarian_socialism_subtype = {}
-			anti-revisionist = {}
+			anti_revisionism = {}
 			national_bolshevik = {}
 
         }
@@ -83,7 +86,7 @@ ideologies = {
         types = {
 
             revolutionary_socialism_subtype = {}
-			anarcho_communist = {}
+			anarchist_communism = {}
 			socialist_revolutionary = {}
 			libertarian_socialist = {}
 
@@ -327,8 +330,12 @@ ideologies = {
 			revolutionary_conservatism = {}
 			managed_democracy = {}
 			partial_democracy = {}
-			oligarchic_state = {}
+			oligarchism = {}
 			prometheist = {}
+			despotism = {}
+			moderatism = {}
+			centrism = {}
+			
 
         }
 
@@ -410,8 +417,12 @@ ideologies = {
             national_collectivist = {}
 			national_syndicalist = {}
 			national_corporatist = {}
-			falangist = {}
+			falangism = {}
 			integral_nationalist = {}
+			nazism = {
+			}
+			fascism_ideology = {}
+			rexism = {}
 
         }
 

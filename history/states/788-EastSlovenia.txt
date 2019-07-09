@@ -1,0 +1,21 @@
+
+state={
+	id=788
+	name="STATE_788" # Corsica
+	manpower = 78009
+	
+	state_category = town
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CRO
+	}
+
+	provinces={
+		596 665 3654 6672
+	}
+}

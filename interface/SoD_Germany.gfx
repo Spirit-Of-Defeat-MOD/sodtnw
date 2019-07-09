@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_GER_Konstantin_Neurath_frm"
+		texturefile = "gfx/ministers/GER/Konstantin_Neurath.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_GER_Alfred_Hugenberg_eco"
 		texturefile = "gfx/ministers/GER/Alfred_Hugenberg.tga"
 	}
@@ -40,8 +45,4 @@ spriteTypes = {
 		name = "GFX_idea_black_reichswehr"
 		texturefile = "gfx/interface/ideas/GER/black_reichswehr.tga"
 	}
-	
-	
-
-
 }

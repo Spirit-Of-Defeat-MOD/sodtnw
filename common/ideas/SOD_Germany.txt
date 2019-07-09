@@ -28,6 +28,30 @@ ideas = {
 		}
 	}
 	
+	foreign_minister = { ### Foreign Minister ###
+		GER_Konstantin_Neurath_frm = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Konstantin_Neurath_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Konstantin_Neurath_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Konstantin_Neurath_hog"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
 	economy_minister = { ### Minister of the Economy ###
 		GER_Alfred_Hugenberg_eco = {
 			allowed = { original_tag = GER }
@@ -82,7 +106,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Ferdinand_Bredoww_dead }
+					NOT = { has_country_flag = Ferdinand_Bredow_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -90,7 +114,7 @@ ideas = {
 				NOT = { has_country_flag = Otto_Lossow_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Ferdinand_Bredoww_hog"
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ferdinand_Bredow_hog"
 			}
 			traits = {
 				head_of_intel

@@ -8,16 +8,16 @@ state=
 	
 	history =
 	{
-		owner = ITA
+		owner = CRO
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
 			9627 3 
 		}
-		add_core_of = ITA
+		add_core_of = CRO
 		add_core_of = SLV
 	}
 	provinces={
-		596 665 3631 3654 6650 6672 9596 9627 }
+		3631 6650 9596 9627 }
 	}

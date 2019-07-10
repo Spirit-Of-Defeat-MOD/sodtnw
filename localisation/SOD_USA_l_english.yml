@@ -1,0 +1,79 @@
+﻿l_english: 
+
+#Parties
+USA_fascism_party:0 "National Union"
+USA_fascism_party_long:0 "National Union for Social Justice"
+USA_communism_party:0 "RPC"
+USA_communism_party_long:0 "Revolutionary Policy Committee"
+USA_democratic_party:0 "Democrats"
+USA_democratic_party_long:0 "Democratic Party"
+USA_utilitarian_despot_party:0 "NSC"
+USA_utilitarian_despot_party_long:0 "National Security Council"
+USA_neutrality_party:0 "Sentinels"
+USA_neutrality_party_long:0 "Sentinels of The Republic"
+USA_social_democracy_party:0 "FLP"
+USA_social_democracy_party_long:0 "Farmer-Labor Party"
+USA_social_liberal_party:0 "Progressives"
+USA_social_liberal_party_long:0 "Progressive Party"
+USA_classic_liberal_party:0 "Republicans"
+USA_classic_liberal_party_long:0 "Republican Party"
+USA_totalitarian_socialism_party:0 "CP USA"
+USA_totalitarian_socialism_party_long:0 "Communist Party USA"
+USA_revolutionary_socialism_party:0 "SLP"
+USA_revolutionary_socialism_party_long:0 "Socialist Labor Party"
+USA_democratic_socialism_party:0 "SPA"
+USA_democratic_socialism_party_long:0 "Socialist Party of America"
+USA_nihilistic_extremism_party:0 "CNC"
+USA_nihilistic_extremism_party_long:0 "Christian Nationalist Crusade"
+
+#Country Names
+ USA_fascism:0 "United States of America"
+ USA_fascism_DEF:0 "the United States of America"
+ USA_nihilistic_extremism:0 "United States of America"
+ USA_nihilistic_extremism_DEF:0 "the United States of America"
+ USA_totalitarian_socialism:0 "United States of America"
+ USA_totalitarian_socialism_DEF:0 "the United States of America"
+ USA_utilitarian_despot:0 "United States of America"
+ USA_utilitarian_despot_DEF:0 "the United States of America"
+ USA_democratic:0 "United States of America"
+ USA_democratic_DEF:0 "the United States of America"
+ USA_neutrality:1 "United States of America"
+ USA_neutrality_DEF:1 "the United States of America"
+ USA_democratic_socialism:0 "United States of America"
+ USA_democratic_socialism_DEF:0 "the United States of America"
+ USA_revolutionary_socialism:0 "United States of America"
+ USA_revolutionary_socialism_DEF:0 "the United States of America"
+ USA_social_democracy:0 "United States of America"
+ USA_social_democracy_DEF:0 "the United States of America"
+ USA_social_liberal:0 "United States of America"
+ USA_social_liberal_DEF:0 "the United States of America"
+ USA_classic_liberal:0 "United States of America"
+ USA_classic_liberal_DEF:0 "the United States of America"
+ USA_communism:0 "United States of America"
+ USA_communism_DEF:0 "the United States of America"
+ 
+ USA_fascism_ADJ:0 "American"
+ USA_nihilistic_extremism_ADJ:0 "American"
+ USA_totalitarian_socialism:0 "American"
+ USA_democratic_ADJ:0 "American"
+ USA_utilitarian_despot_ADJ:0 "American"
+ USA_democratic_socialism_ADJ:0 "American"
+ USA_neutrality_ADJ:0 "American"
+ USA_revolutionary_socialism:0 "American"
+ USA_social_democracy_ADJ:0 "American"
+ USA_social_liberal_ADJ:0 "American"
+ USA_classic_liberal_ADJ:0 "American"
+ USA_communism_ADJ:0 "American"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions

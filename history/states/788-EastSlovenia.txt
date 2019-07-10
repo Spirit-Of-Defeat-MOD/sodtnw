@@ -1,7 +1,7 @@
 
 state={
 	id=788
-	name="STATE_788" # Corsica
+	name="STATE_788"
 	manpower = 78009
 	
 	state_category = town
@@ -12,7 +12,8 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = CRO
+		add_core_of = CRO 
+		add_core_of = SLV
 	}
 
 	provinces={

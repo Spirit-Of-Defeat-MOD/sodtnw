@@ -1,0 +1,27 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		3893 11842 
+	}
+	state_category = city
+
+	history= {
+		add_claim_by = GRE
+		add_claim_by = TUR
+		add_claim_by = BUL
+		owner = BUL
+		victory_points = {
+			9833 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 2
+		}
+		add_core_of = BUL
+	}
+	manpower=184000
+	buildings_max_level_factor=1.000
+}

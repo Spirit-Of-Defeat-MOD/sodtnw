@@ -1,0 +1,51 @@
+﻿l_english:
+
+#Parties#######done by Unkn0wn3ntity
+ DEN_social_democracy_party:0 "A"
+ DEN_social_democracy_party_long:0 "Socialdemokratiet"
+ DEN_democratic_party:0 "C"
+ DEN_democratic_party_long:0 "Det Konservative Folkeparti"
+ DEN_social_liberal_party:0 "B"
+ DEN_social_liberal_party_long:0 "Radikale Venstre-Radikal Liberale Parti"
+ DEN_classic_liberal_party:0 "V"
+ DEN_classic_liberal_party_long:0 "Venstre, Danmarks Liberale Parti"
+ DEN_communism_party:0 "DKP"
+ DEN_communism_party_long:0 "Danmarks Kommunistiske Parti"
+ DEN_fascism_party:0 "DNSAP"
+ DEN_fascism_party_long:0 "Danmarks Nationalsocialistiske Arbejderparti"
+
+#Country Names
+ DEN_social_democracy:0 "Denmark"
+ DEN_social_democracy_DEF:0 "the Kingdom of Denmark"
+ DEN_social_liberal:0 "Denmark"
+ DEN_social_liberal_DEF:0 "the Kingdom of Denmark"
+ DEN_democratic:0 "Denmark"
+ DEN_democratic_DEF:0 "the Kingdom of Denmark"
+ DEN_classic_liberal:0 "Denmark"
+ DEN_classic_liberal_DEF:0 "the Kingdom of Denmark"
+ DEN_communism:0 "Danish Union"
+ DEN_communism_DEF:0 "the Danish Union"
+ DEN_fascism:0 "Danske Rige"
+ DEN_fascism_DEF:0 "the Danish Reich"
+ DEN_democratic_ADJ:0 "Danish"
+ DEN_social_democracy_ADJ:0 "Danish"
+ DEN_social_liberal_ADJ:0 "Danish"
+ DEN_classic_liberal_ADJ:0 "Danish"
+ DEN_communism_ADJ:0 "Danish"
+ DEN_fascism_ADJ:0 "Danish"
+  
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should NOT be reintegrated
+
+#Events######we should have a separate file for the events
+#should NOT be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

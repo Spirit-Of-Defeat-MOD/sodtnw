@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+ARG_fascism_party:0 "PFA"
+ARG_fascism_party_long:0 "Partido Fascista Argentino"
+ARG_communism_party:0 "PC"
+ARG_communism_party_long:0 "Partido Comunista de la Argentina"
+ARG_democratic_party:0 "PDN"
+ARG_democratic_long:0 "Partido Demócrata Nacional"
+ARG_utilitarian_despot_party:0 "GOU"
+ARG_utilitarian_despot_party_long:0 "Grupo de Oficiales Unidos"
+ARG_neutrality_party:0 "Concordancia"
+ARG_neutrality_party_long:0 "Concordancia"
+ARG_social_democracy_party:0 "UCR"
+ARG_social_democracy_party_long:0 "Unión Cívica Radical"
+ARG_social_liberal_party:0 "PLC"
+ARG_social_liberal_party_long:0 "Partido Liberal de Corrientes"
+ARG_classic_liberal_party:0 "PDP"
+ARG_classic_liberal_party_long:0 "Partido Demócrata Progresista"
+ARG_totalitarian_socialism_party:0 "PC"
+ARG_totalitarian_socialism_party_long:0 "Partido Comunista de la Argentina"
+ARG_revolutionary_socialism_party:0 "PC"
+ARG_revolutionary_socialism_party_long:0 "Partido Comunista de la Argentina"
+ARG_democratic_socialism_party:0 "PS"
+ARG_democratic_socialism_party_long:0 "Partido Socialista"
+ARG_nihilistic_extremism_party:0 ""
+ARG_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ARG_fascism:0 "Argentine State"
+ ARG_fascism_DEF:0 "the Argentine State"
+ ARG_nihilistic_extremism:0 "Argentine Republic"
+ ARG_nihilistic_extremism_DEF:0 "the Argentine Republic"
+ ARG_totalitarian_socialism:0 "Argentine Republic"
+ ARG_totalitarian_socialism_DEF:0 "the Argentine Republic"
+ ARG_utilitarian_despot:0 "Argentine Republic"
+ ARG_utilitarian_despot_DEF:0 "the Argentine Republic"
+ ARG_democratic:0 "Argentine Republic"
+ ARG_democratic_DEF:0 "the Argentine Republic"
+ ARG_neutrality:1 "Argentine Republic"
+ ARG_neutrality_DEF:1 "the Argentine Republic
+ ARG_democratic_socialism:0 "Argentine Republic"
+ ARG_democratic_socialism_DEF:0 "the Argentine Republic"
+ ARG_revolutionary_socialism:0 "Argentine Republic"
+ ARG_revolutionary_socialism_DEF:0 "the Argentine Republic"
+ ARG_social_democracy:0 "Argentine Republic"
+ ARG_social_democracy_DEF:0 "the Argentine Republic"
+ ARG_social_liberal:0 "Argentine Republic"
+ ARG_social_liberal_DEF:0 "the Argentine Republic"
+ ARG_classic_liberal:0 "Argentine Republic"
+ ARG_classic_liberal_DEF:0 "the Argentine Republic"
+ ARG_communism:0 "Argentine Republic"
+ ARG_communism_DEF:0 "the Argentine Republic"
+ 
+ ARG_fascism_ADJ:0 "Argentinean"
+ ARG_fascism_ADJ:0 "Argentinean"
+ ARG_totalitarian_socialism:0 "Argentinean"
+ ARG_democratic_ADJ:0 "Argentinean"
+ ARG_utilitarian_despot_ADJ:0 "Argentinean"
+ ARG_democratic_socialism_ADJ:0 "Argentinean"
+ ARG_neutrality_ADJ:0 "Argentinean"
+ ARG_revolutionary_socialism:0 "Argentinean"
+ ARG_social_democracy_ADJ:0 "Argentinean"
+ ARG_social_liberal_ADJ:0 "Argentinean"
+ ARG_classic_liberal_ADJ:0 "Argentinean"
+ ARG_communism_ADJ:0 "Argentinean"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

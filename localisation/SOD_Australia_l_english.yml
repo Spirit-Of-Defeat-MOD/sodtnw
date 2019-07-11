@@ -1,0 +1,90 @@
+﻿l_english: 
+
+#Parties
+AST_fascism_party:0 "Centre Party"
+AST_fascism_party_long:0 "Centre Party"
+AST_communism_party:0 "CPA"
+AST_communism_party_long:0 "Communist Party of Australia"
+AST_democratic_party:1 "ACP"
+AST_democratic_party_long:0 "Australian Country Party"
+AST_utilitarian_despot_party:0 "Military Junta"
+AST_utilitarian_despot_party_long:0 "Military Junta"
+AST_neutrality_party:0 "AFM"
+AST_neutrality_party_long:0 "Australia First Movement"
+AST_social_democracy_party:0 "ALP(L)"
+AST_social_democracy_party_long:0 "Australian Labor Party(Lang Labour)"
+AST_social_liberal_party:0 "ALP"
+AST_social_liberal_party_long:0 "Australian Labor Party"
+AST_classic_liberal_party:0 "National Party"
+AST_classic_liberal_party_long:0 "National Party"
+AST_totalitarian_socialism_party:0 "CPA"
+AST_totalitarian_socialism_party_long:0 "Communist Party of Australia"
+AST_revolutionary_socialism_party:0 "Socialists"
+AST_revolutionary_socialism_party_long:0 "Australian Socialist Party"
+AST_democratic_socialism_party:0 "ALP"
+AST_democratic_socialism_party_long:0 "Australian Labor Party"
+AST_nihilistic_extremism_party:0 "ASP"
+AST_nihilistic_extremism_party_long:0 "Australian Supremacist Party"
+
+#Country Names
+ AST_fascism:0 "Australia"
+ AST_fascism_DEF:0 "Australia"
+ AST_nihilistic_extremism:0 "Australia"
+ AST_nihilistic_extremism_DEF:0 "Australia"
+ AST_totalitarian_socialism:0 "Australia"
+ AST_totalitarian_socialism_DEF:0 "Australia"
+ AST_utilitarian_despot:0 "Australia"
+ AST_utilitarian_despot_DEF:0 "Australia"
+ AST_democratic:0 "Australia"
+ AST_democratic_DEF:0 "Australia"
+ AST_neutrality:0 "Australia"
+ AST_neutrality_DEF:0 "Australia"
+ AST_democratic_socialism:0 "Australia"
+ AST_democratic_socialism_DEF:0 "Australia"
+ AST_revolutionary_socialism:0 "Australia"
+ AST_revolutionary_socialism_DEF:0 "Australia"
+ AST_social_democracy:0 "Australia"
+ AST_social_democracy_DEF:0 "Australia"
+ AST_social_liberal:0 "Australia"
+ AST_social_liberal_DEF:0 "Australia"
+ AST_classic_liberal:0 "Australia"
+ AST_classic_liberal_DEF:0 "Australia"
+ AST_communism:0 "Australia"
+ AST_communism_DEF:0 "Australia"
+ 
+ AST_fascism_ADJ:0 "Australian"
+ AST_nihilistic_extremism_ADJ:0 "Australian"
+ AST_totalitarian_socialism:0 "Australian"
+ AST_democratic_ADJ:0 "Australian"
+ AST_utilitarian_despot_ADJ:0 "Australian"
+ AST_democratic_socialism_ADJ:0 "Australian"
+ AST_neutrality_ADJ:0 "Australian"
+ AST_revolutionary_socialism:0 "Australian"
+ AST_social_democracy_ADJ:0 "Australian"
+ AST_social_liberal_ADJ:0 "Australian"
+ AST_classic_liberal_ADJ:0 "Australian"
+ AST_communism_ADJ:0 "Australian"
+ 
+ #Cosmetic Names
+ AST_UK_autonomy_dominion:0 "Commonwealth of Australia"
+ AST_UK_autonomy_colony:0 "Six Colonies"
+ AST_UK_autonomy_puppet:0 "New South Wales"
+ AST_UK_autonomy_integrated_puppet:0 "British Australasia"
+ AST_UK_autonomy_dominion_DEF:0 "the Commonwealth of Australia"
+ AST_UK_autonomy_colony_DEF:0 "the Six Colonies"
+ AST_UK_autonomy_puppet_DEF:0 "New South Wales"
+ AST_UK_autonomy_integrated_puppet_DEF:0 "British Australasia"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 

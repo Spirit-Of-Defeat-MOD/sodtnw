@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+AZR_fascism_party:0 ""
+AZR_fascism_party_long:0 ""
+AZR_communism_party:0 "AKP"
+AZR_communism_party_long:0 "Azərbaycan Kommunist Partiyası"
+AZR_democratic_party:0 "Geyrat"
+AZR_democratic_party_long:0 "Türk ədəmi mərkəziyyət firqəsi"
+AZR_utilitarian_despot_party:0 ""
+AZR_utilitarian_despot_party_long:0 ""
+AZR_neutrality_party:0 "Geyrat"
+AZR_neutrality_party_long:0 "Türk ədəmi mərkəziyyət firqəsi"
+AZR_social_democracy_party:0 "Hummet"
+AZR_social_democracy_party_long:0 "Hümmət"
+AZR_social_liberal_party:0 "Musavat"
+AZR_social_liberal_party_long:0 ""Müsavat Partiyası
+AZR_classic_liberal_party:0 "Musavat"
+AZR_classic_liberal_party_long:0 "Müsavat Partiyası"
+AZR_totalitarian_socialism_party:0 "AKP"
+AZR_totalitarian_socialism_party_long:0 "Azərbaycan Kommunist Partiyası"
+AZR_revolutionary_socialism_party:0 ""
+AZR_revolutionary_socialism_party_long:0 ""
+AZR_democratic_socialism_party:0 "Hummet"
+AZR_democratic_socialism_party_long:0 "Hümmət"
+AZR_nihilistic_extremism_party:0 ""
+AZR_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ AZR_fascism:0 "Azerbaijan Democratic Republic"
+ AZR_fascism_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_nihilistic_extremism:0 "Azerbaijan Democratic Republic"
+ AZR_nihilistic_extremism_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_totalitarian_socialism:0 "Azerbaijan Democratic Republic"
+ AZR_totalitarian_socialism_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_utilitarian_despot:0 "Azerbaijan Democratic Republic"
+ AZR_utilitarian_despot_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_democratic:0 "Azerbaijan Democratic Republic"
+ AZR_democratic_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_neutrality:1 "Azerbaijan Democratic Republic"
+ AZR_neutrality_DEF:1 "the Azerbaijan Democratic Republic
+ AZR_democratic_socialism:0 "Azerbaijan Democratic Republic"
+ AZR_democratic_socialism_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_revolutionary_socialism:0 "Azerbaijan Democratic Republic"
+ AZR_revolutionary_socialism_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_social_democracy:0 "Azerbaijan Democratic Republic"
+ AZR_social_democracy_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_social_liberal:0 "Azerbaijan Democratic Republic"
+ AZR_social_liberal_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_classic_liberal:0 "Azerbaijan Democratic Republic"
+ AZR_classic_liberal_DEF:0 "the Azerbaijan Democratic Republic"
+ AZR_communism:0 "Azerbaijan Democratic Republic"
+ AZR_communism_DEF:0 "the Azerbaijan Democratic Republic"
+ 
+ AZR_fascism_ADJ:0 "Azerbaijani"
+ AZR_nihilistic_extremism_ADJ:0 "Azerbaijani"
+ AZR_totalitarian_socialism:0 "Azerbaijani"
+ AZR_democratic_ADJ:0 "Azerbaijani"
+ AZR_utilitarian_despot_ADJ:0 "Azerbaijani"
+ AZR_democratic_socialism_ADJ:0 "Azerbaijani"
+ AZR_neutrality_ADJ:0 "Azerbaijani"
+ AZR_revolutionary_socialism:0 "Azerbaijani"
+ AZR_social_democracy_ADJ:0 "Azerbaijani"
+ AZR_social_liberal_ADJ:0 "Azerbaijani"
+ AZR_classic_liberal_ADJ:0 "Azerbaijani"
+ AZR_communism_ADJ:0 "Azerbaijani"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 

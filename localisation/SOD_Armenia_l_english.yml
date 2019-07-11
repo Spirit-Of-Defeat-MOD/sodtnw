@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+ARM_fascism_party:0 ""
+ARM_fascism_party_long:0 ""
+ARM_communism_party:0 "HKKY"
+ARM_communism_party_long:0 "Hayastani komownistakan kowsakcowt'yown"
+ARM_democratic_party:0 ""
+ARM_democratic_party_long:0 ""
+ARM_utilitarian_despot_party:0 ""
+ARM_utilitarian_despot_party_long:0 ""
+ARM_neutrality_party:0 ""
+ARM_neutrality_party_long:0 ""
+ARM_social_democracy_party:0 ""
+ARM_social_democracy_party_long:0 ""
+ARM_social_liberal_party:0 ""
+ARM_social_liberal_party_long:0 ""
+ARM_classic_liberal_party:0 ""
+ARM_classic_liberal_party_long:0 ""
+ARM_totalitarian_socialism_party:0 "HKKY"
+ARM_totalitarian_socialism_party_long:0 "Hayastani komownistakan kowsakcowt'yown"
+ARM_revolutionary_socialism_party:0 "HYD"
+ARM_revolutionary_socialism_party_long:0 "Hay Yeghap'oxakan Dashnakcowt'iwn"
+ARM_democratic_socialism_party:0 "HYD"
+ARM_democratic_socialism_party_long:0 "Hay Yeghap'oxakan Dashnakcowt'iwn"
+ARM_nihilistic_extremism_party:0 ""
+ARM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ARM_fascism:0 "Democratic Republic of Armenia"
+ ARM_fascism_DEF:0 "the Democratic Republic of Armenia"
+ ARM_nihilistic_extremism:0 "Democratic Republic of Armenia"
+ ARM_nihilistic_extremism_DEF:0 "the Democratic Republic of Armenia"
+ ARM_totalitarian_socialism:0 "Democratic Republic of Armenia"
+ ARM_totalitarian_socialism_DEF:0 "the Democratic Republic of Armenia"
+ ARM_utilitarian_despot:0 "Democratic Republic of Armenia"
+ ARM_utilitarian_despot_DEF:0 "the Democratic Republic of Armenia"
+ ARM_democratic:0 "Democratic Republic of Armenia"
+ ARM_democratic_DEF:0 "the Democratic Republic of Armenia"
+ ARM_neutrality:1 "Democratic Republic of Armenia"
+ ARM_neutrality_DEF:1 "the Democratic Republic of Armenia
+ ARM_democratic_socialism:0 "Democratic Republic of Armenia"
+ ARM_democratic_socialism_DEF:0 "the Democratic Republic of Armenia"
+ ARM_revolutionary_socialism:0 "Democratic Republic of Armenia"
+ ARM_revolutionary_socialism_DEF:0 "the Democratic Republic of Armenia"
+ ARM_social_democracy:0 "Democratic Republic of Armenia"
+ ARM_social_democracy_DEF:0 "the Democratic Republic of Armenia"
+ ARM_social_liberal:0 "Democratic Republic of Armenia"
+ ARM_social_liberal_DEF:0 "the Democratic Republic of Armenia"
+ ARM_classic_liberal:0 "Democratic Republic of Armenia"
+ ARM_classic_liberal_DEF:0 "the Democratic Republic of Armenia"
+ ARM_communism:0 "Democratic Republic of Armenia"
+ ARM_communism_DEF:0 "the Democratic Republic of Armenia"
+ 
+ ARM_fascism_ADJ:0 "Armenian"
+ ARM_nihilistic_extremism_ADJ:0 "Armenian"
+ ARM_totalitarian_socialism:0 "Armenian"
+ ARM_democratic_ADJ:0 "Armenian"
+ ARM_utilitarian_despot_ADJ:0 "Armenian"
+ ARM_democratic_socialism_ADJ:0 "Armenian"
+ ARM_neutrality_ADJ:0 "Armenian"
+ ARM_revolutionary_socialism:0 "Armenian"
+ ARM_social_democracy_ADJ:0 "Armenian"
+ ARM_social_liberal_ADJ:0 "Armenian"
+ ARM_classic_liberal_ADJ:0 "Armenian"
+ ARM_communism_ADJ:0 "Armenian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 

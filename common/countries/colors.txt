@@ -74,7 +74,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
+	color = rgb { 178 155 117 }
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
@@ -94,7 +94,7 @@ DEN = {
 	color_ui = rgb { 142 68 62 }
 }
 BUL = {
-	color = rgb { 72 122 81 }
+	color = rgb { 79 164 40 }
 	color_ui = rgb { 72 122 81 }
 }
 POR = {
@@ -226,8 +226,8 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+		color = rgb { 17  118  10 }
+		color_ui = rgb { 17 118 10 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 1 68 147 }
+	color_ui = rgb { 2 103 223 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
@@ -359,8 +359,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
 }
 
 ICE = {

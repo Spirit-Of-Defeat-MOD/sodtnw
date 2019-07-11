@@ -1,0 +1,45 @@
+capital = 319
+
+oob = "DOM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.5.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 100
+        nihilistic_extremism = 0
+}
+
+create_country_leader = {
+	name = "Rafael Trujillo"
+	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+	picture = "GFX_portrait_dominca_rafael_trujillo"
+	expire = "1965.1.1"
+	ideology = national_collectivist
+	traits = {
+		#
+	}
+}

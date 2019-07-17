@@ -3,7 +3,7 @@
 
 #Position Traits
 head_of_government:0 "Head of Government"
-foreign_minister:0 "Minister of Foreign Affairs"
+foreign_minister:0 "Foreign Minister"
 economy_minister:0 "Economy Minister"
 security_minister:0 "Security Minister"
 head_of_intel:0 "Head of Intelligence"
@@ -17,7 +17,7 @@ social_democrat:0 "Social Democrat"
 social_liberal:0 "Social Liberal"
 classic_liberal:0 "Classic Liberal"
 social_conservative:0 "Social Conservative"
-authoritarian_democrat:0 "Authoritarian Socialist"
+authoritarian_democrat:0 "Authoritarian Democrat"
 utilitarian_despot:0 "Utilitarian Despot"
 national_collectivist:0 "National Collectivist"
 nihilistic_extremist:0 "Nihilistic Extremist"

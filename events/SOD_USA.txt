@@ -1,0 +1,44 @@
+﻿###########################
+# USA Events
+###########################
+
+add_namespace = usa
+
+# Pershing offers to return to service
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_generic_usa_treaty
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		has_war = yes
+		NOT = { has_country_flag = pershing_joins_army }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = { # he returns to army
+		name = usa.1.a
+		add_political_power = -10
+		create_field_marshal = {
+			name = "John J. Pershing"
+			picture = "Portrait_John_Pershing.dds"
+			traits = { old_guard harsh_leader war_hero infantry_officer inflexible_strategist expert_delegator infantry_expert infantry_leader skilled_staffer } 
+                        skill = 6
+	                attack_skill = 5
+                        defense_skill = 6
+                        planning_skill = 6
+                        logistics_skill = 5
+		}
+		set_country_flag = pershing_joins_army
+	}
+	option = { # offer refused
+		name = usa.1.b
+	}
+}

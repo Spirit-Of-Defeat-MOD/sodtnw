@@ -1,5 +1,6 @@
 ﻿name="Spirit of Defeat: TNW"
 path="mod/sodtnw/"
+replace_path = "events"
 tags={
 	"Alternative History"
 	"Ideologies"

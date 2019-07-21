@@ -1,4 +1,4 @@
-﻿name="Spirit of Defeat: TNW"
+﻿name="Spirit of Defeat: The Next War"
 path="mod/sodtnw/"
 replace_path = "events"
 tags={

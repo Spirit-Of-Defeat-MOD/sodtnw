@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+ASI_fascism_party:0 ""
+ASI_fascism_party_long:0 ""
+ASI_communism_party:0 ""
+ASI_communism_party_long:0 ""
+ASI_democratic_party:0 ""
+ASI_democratic_party_long:0 ""
+ASI_utilitarian_despot_party:0 "al-Adārisah"
+ASI_utilitarian_despot_party_long:0 "al-Adārisah"
+ASI_neutrality_party:0 "al-Adārisah"
+ASI_neutrality_party_long:0 "al-Adārisah"
+ASI_social_democracy_party:0 ""
+ASI_social_democracy_party_long:0 ""
+ASI_social_liberal_party:0 ""
+ASI_social_liberal_party_long:0 ""
+ASI_classic_liberal_party:0 ""
+ASI_classic_liberal_party_long:0 ""
+ASI_totalitarian_socialism_party:0 ""
+ASI_totalitarian_socialism_party_long:0 ""
+ASI_revolutionary_socialism_party:0 ""
+ASI_revolutionary_socialism_party_long:0 ""
+ASI_democratic_socialism_party:0 ""
+ASI_democratic_socialism_party_long:0 ""
+ASI_nihilistic_extremism_party:0 ""
+ASI_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ASI_fascism:0 "Idrisid Emirate of Asir"
+ ASI_fascism_DEF:0 "Idrisid Emirate of Asir"
+ ASI_nihilistic_extremism:0 "Idrisid Emirate of Asir"
+ ASI_nihilistic_extremism_DEF:0 "Idrisid Emirate of Asir"
+ ASI_totalitarian_socialism:0 "Idrisid Emirate of Asir"
+ ASI_totalitarian_socialism_DEF:0 "Idrisid Emirate of Asir"
+ ASI_utilitarian_despot:0 "Idrisid Emirate of Asir"
+ ASI_utilitarian_despot_DEF:0 "Idrisid Emirate of Asir"
+ ASI_democratic:0 "Idrisid Emirate of Asir"
+ ASI_democratic_DEF:0 "Idrisid Emirate of Asir"
+ ASI_neutrality:1 "Idrisid Emirate of Asir"
+ ASI_neutrality_DEF:1 "Idrisid Emirate of Asir
+ ASI_democratic_socialism:0 "Idrisid Emirate of Asir"
+ ASI_democratic_socialism_DEF:0 "Idrisid Emirate of Asir"
+ ASI_revolutionary_socialism:0 "Idrisid Emirate of Asir"
+ ASI_revolutionary_socialism_DEF:0 "Idrisid Emirate of Asir"
+ ASI_social_democracy:0 "Idrisid Emirate of Asir"
+ ASI_social_democracy_DEF:0 "Idrisid Emirate of Asir"
+ ASI_social_liberal:0 "Idrisid Emirate of Asir"
+ ASI_social_liberal_DEF:0 "Idrisid Emirate of Asir"
+ ASI_classic_liberal:0 "Idrisid Emirate of Asir"
+ ASI_classic_liberal_DEF:0 "Idrisid Emirate of Asir"
+ ASI_communism:0 "Idrisid Emirate of Asir"
+ ASI_communism_DEF:0 "Idrisid Emirate of Asir"
+ 
+ ASI_fascism_ADJ:0 "Idrisi"
+ ASI_nihilistic_extremism_ADJ:0 "Idrisi"
+ ASI_totalitarian_socialism:0 "Idrisi"
+ ASI_democratic_ADJ:0 "Idrisi"
+ ASI_utilitarian_despot_ADJ:0 "Idrisi"
+ ASI_democratic_socialism_ADJ:0 "Idrisi"
+ ASI_neutrality_ADJ:0 "Idrisi"
+ ASI_revolutionary_socialism:0 "Idrisi"
+ ASI_social_democracy_ADJ:0 "Idrisi"
+ ASI_social_liberal_ADJ:0 "Idrisi"
+ ASI_classic_liberal_ADJ:0 "Idrisi"
+ ASI_communism_ADJ:0 "Idrisi"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

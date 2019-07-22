@@ -544,3 +544,13 @@ AOF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
 }
+
+HEJ = {
+	color = rgb { 140 113 82 }
+	color_ui = rgb { 140 113 82 }
+}
+
+ASI = {
+	color = rgb { 16 156 255 }
+	color_ui = rgb { 16 156 255 }
+}

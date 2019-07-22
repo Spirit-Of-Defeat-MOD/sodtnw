@@ -1,0 +1,22 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		13229 13230
+	}
+	
+	state_category = rural
+
+	history={
+		owner = HEJ
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		add_core_of = HEJ
+	}
+	
+	manpower=29300
+	buildings_max_level_factor=1.000
+}

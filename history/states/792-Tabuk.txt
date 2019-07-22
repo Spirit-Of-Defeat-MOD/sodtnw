@@ -1,0 +1,21 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		1033 2095 8092 12101 13228
+	}
+	
+	history={
+		owner = HEJ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = HEJ
+
+	}
+	
+	manpower=160000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

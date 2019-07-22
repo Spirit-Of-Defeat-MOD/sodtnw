@@ -1,0 +1,25 @@
+
+state={
+	id=793
+	name="STATE_793"
+
+	history={
+		owner = HEJ
+		victory_points = {
+			12758 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = HEJ
+
+	}
+
+	provinces={
+		 2033 13224 13225 13226
+	}
+	manpower=360000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

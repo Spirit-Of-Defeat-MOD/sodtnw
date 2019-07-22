@@ -185,3 +185,5 @@ NIR = "countries/Northern Ireland.txt"
 ################################################# added countries in SoD
 AEF = "countries/French Equatorial Africa.txt"
 AOF = "countries/French West Africa.txt"
+HEJ = "countries/Hejaz.txt"
+ASI = "countries/Asir.txt"

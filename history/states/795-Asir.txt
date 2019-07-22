@@ -1,0 +1,23 @@
+state={
+	id=795
+	name="STATE_795"
+	provinces={
+		13220 13221 13222 13223 
+	}
+	
+	history={
+		owner = ASI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ASI
+		add_core_of = HEJ
+
+	}
+	
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

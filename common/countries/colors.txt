@@ -554,3 +554,7 @@ ASI = {
 	color = rgb { 16 156 255 }
 	color_ui = rgb { 16 156 255 }
 }
+CON = {
+	color = rgb { 100  71  150 }
+	color_ui = rgb { 100  71  150 }
+}

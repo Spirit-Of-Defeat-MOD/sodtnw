@@ -138,7 +138,6 @@ add_ideas = {
 	GER_Alfred_Hugenberg_eco
 	GER_Otto_Lossow_sec
 	GER_Ferdinand_Bredow_int
-	GER_Konstantin_Neurath_frm
 }
 add_ideas = GER_mefo_bills_1
 
@@ -206,7 +205,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = trotskyist
 	traits = {
-		#no comment#thank you, very cool
+		#no comment#
 	}
 }
 

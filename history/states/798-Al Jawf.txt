@@ -1,0 +1,19 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		13235 13236 13237 
+	}
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+			
+		}
+		add_core_of = YEM
+	}
+
+	manpower=38423
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

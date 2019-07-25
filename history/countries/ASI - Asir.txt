@@ -17,6 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	ASI_Muhammad_ibn_Ali_Idrisi_hog
+}
+
 set_popularities = {
 	totalitarian_socialism = 0
 	communism = 0
@@ -30,4 +34,14 @@ set_popularities = {
         utilitarian_despot = 100
         fascism = 0
         nihilistic_extremism = 0
+}
+
+create_country_leader = {
+	name = "Muhammad ibn Ali al-Idrisi"
+	desc = "POLITICS_IDRISI_DESC"
+	picture = "Portrait_ASR_Muhammad_ibn_Ali_al-Idrisi.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
 }

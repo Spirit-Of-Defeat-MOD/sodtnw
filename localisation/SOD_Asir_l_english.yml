@@ -9,8 +9,8 @@ ASI_democratic_party:0 ""
 ASI_democratic_party_long:0 ""
 ASI_utilitarian_despot_party:0 "al-Adārisah"
 ASI_utilitarian_despot_party_long:0 "al-Adārisah"
-ASI_neutrality_party:0 "al-Adārisah"
-ASI_neutrality_party_long:0 "al-Adārisah"
+ASI_neutrality_party:0 ""
+ASI_neutrality_party_long:0 ""
 ASI_social_democracy_party:0 ""
 ASI_social_democracy_party_long:0 ""
 ASI_social_liberal_party:0 ""
@@ -66,7 +66,7 @@ ASI_nihilistic_extremism_party_long:0 ""
  ASI_communism_ADJ:0 "Idrisi"
 
 #Ministers
-#should be reintegrated
+ASI_Muhammad_ibn_Ali_Idrisi_hog:0 "Muhammad ibn Ali al-Idrisi"
 
 
  

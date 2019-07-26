@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+CZE_fascism_party:0 "NOF"
+CZE_fascism_party_long:0 "Národní Obec Fašistická"
+CZE_communism_party:0 "KSČ"
+CZE_communism_party_long:0 "Komunistická Strana Československa"
+CZE_democratic_party:1 "RSZML"
+CZE_democratic_party_long:0 "Republikánská Strana Zemědělského a Malorolnického Lidu"
+CZE_utilitarian_despot_party:0 "SNJ"
+CZE_utilitarian_despot_party_long:0 "Strana Národní Jednoty"
+CZE_neutrality_party:0 "ČSNS"
+CZE_neutrality_party_long:0 "Česká Strana Národně Sociální"
+CZE_social_democracy_party:0 "ČSSD"
+CZE_social_democracy_party_long:0 "Česká Strana Sociálně Demokratická"
+CZE_social_liberal_party:0 "NSP"
+CZE_social_liberal_party_long:0 "Národní Strana Práce"
+CZE_classic_liberal_party:0 "ČŽOS"
+CZE_classic_liberal_party_long:0 "Československá Živnostensko-Obchodnická Strana Středostavovská"
+CZE_totalitarian_socialism_party:0 "KSČ"
+CZE_totalitarian_socialism_party_long:0 "Komunistická Strana Československa"
+CZE_revolutionary_socialism_party:0 "NSS"
+CZE_revolutionary_socialism_party_long:0 "Neodvislá Socialistická Strana"
+CZE_democratic_socialism_party:0 "SPS"
+CZE_democratic_socialism_party_long:0 "Strana Pokrokových Socialistů"
+CZE_nihilistic_extremism_party:0 "Vlajka"
+CZE_nihilistic_extremism_party_long:0 "Vlajka"
+
+#Country Names(one name since this country has little purpose)
+ CZE_fascism:0 "Czechoslovak State"
+ CZE_fascism_DEF:0 "the Czechoslovak State"
+ CZE_nihilistic_extremism:0 "Czechoslovak State"
+ CZE_nihilistic_extremism_DEF:0 "the Czechoslovak State"
+ CZE_totalitarian_socialism:0 "Czechoslovak Socialist Republic"
+ CZE_totalitarian_socialism_DEF:0 "the Czechoslovak Socialist Republic"
+ CZE_utilitarian_despot:0 "Czechoslovak Republic"
+ CZE_utilitarian_despot_DEF:0 "the Czechoslovak Republic"
+ CZE_democratic:0 "Czechoslovak Republic"
+ CZE_democratic_DEF:0 "the Czechoslovak Republic"
+ CZE_neutrality:1 "Czechoslovak Republic"
+ CZE_neutrality_DEF:1 "the Czechoslovak Republic"
+ CZE_democratic_socialism:0 "Czechoslovak Republic"
+ CZE_democratic_socialism_DEF:0 "the Czechoslovak Republic"
+ CZE_revolutionary_socialism:0 "Revolutionary Czechoslovakia"
+ CZE_revolutionary_socialism_DEF:0 "Revolutionary Czechoslovakia"
+ CZE_social_democracy:0 "Czechoslovak Republic"
+ CZE_social_democracy_DEF:0 "the Czechoslovak Republic"
+ CZE_social_liberal:0 "Czechoslovak Republic"
+ CZE_social_liberal_DEF:0 "the Czechoslovak Republic"
+ CZE_classic_liberal:0 "Czechoslovak Republic"
+ CZE_classic_liberal_DEF:0 "the Czechoslovak Republic"
+ CZE_communism:0 "Czechoslovak Socialist Republic"
+ CZE_communism_DEF:0 "the Czechoslovak Socialist Republic"
+ 
+ CZE_fascism_ADJ:0 "Czechoslovakian"
+ CZE_totalitarian_socialism_ADJ:0 "Czechoslovakian"
+ CZE_democratic_ADJ:0 "Czechoslovakian"
+ CZE_utilitarian_despot_ADJ:0 "Czechoslovakian"
+ CZE_democratic_socialism_ADJ:0 "Czechoslovakian"
+ CZE_neutrality_ADJ:0 "Czechoslovakian"
+ CZE_revolutionary_socialism_ADJ:0 "Czechoslovakian"
+ CZE_social_democracy_ADJ:0 "Czechoslovakian"
+ CZE_social_liberal_ADJ:0 "Czechoslovakian"
+ CZE_classic_liberal_ADJ:0 "Czechoslovakian"
+ CZE_communism_ADJ:0 "Czechoslovakian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

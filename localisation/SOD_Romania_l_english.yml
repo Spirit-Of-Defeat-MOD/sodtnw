@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+ROM_fascism_party:0 "Legionară"
+ROM_fascism_party_long:0 "Legiunea Arhanghelului Mihail"
+ROM_communism_party:0 "PCR"
+ROM_communism_party_long:0 "Partidul Comunist Român"
+ROM_democratic_party:1 "PNR"
+ROM_democratic_party_long:0 "Partidul Național Român"
+ROM_utilitarian_despot_party:0 "PND"
+ROM_utilitarian_despot_party_long:0 "Partidul Nationalist-Democrat"
+ROM_neutrality_party:0 "PRN"
+ROM_neutrality_party_long:0 "Frontul Renașterii Naționale"
+ROM_social_democracy_party:0 "PSDR"
+ROM_social_democracy_party_long:0 "Partidul Social Democrat Român"
+ROM_social_liberal_party:0 "PNL"
+ROM_social_liberal_party_long:0 "Partidul National Liberal"
+ROM_classic_liberal_party:0 "PNȚ"
+ROM_classic_liberal_party_long:0 "Partidul National Tărănesc"
+ROM_totalitarian_socialism_party:0 "PMR"
+ROM_totalitarian_socialism_party_long:0 "Partidul Muncitoresc Român"
+ROM_revolutionary_socialism_party:0 "PSMR"
+ROM_revolutionary_socialism_party_long:0 "Partidul Socialist al Muncitorilor din România"
+ROM_democratic_socialism_party:0 "PCDR"
+ROM_democratic_socialism_party_long:0 "Partidul Socialist din România"
+ROM_nihilistic_extremism_party:0 "Nicadori"
+ROM_nihilistic_extremism_party_long:0 "Nicadori"
+
+#Country Names(one name since this country has little purpose)
+ ROM_fascism:0 "National Legionary Romania"
+ ROM_fascism_DEF:0 "National Legionary Romania"
+ ROM_nihilistic_extremism:0 "National Legionary State"
+ ROM_nihilistic_extremism_DEF:0 "the National Legionary State"
+ ROM_totalitarian_socialism:0 "Socialist Republic of Romania"
+ ROM_totalitarian_socialism_DEF:0 "the Socialist Republic of Romania"
+ ROM_utilitarian_despot:0 "Kingdom of Romania"
+ ROM_utilitarian_despot_DEF:0 "the Kingdom of Romania"
+ ROM_democratic:0 "Kingdom of Romania"
+ ROM_democratic_DEF:0 "the Kingdom of Romania"
+ ROM_neutrality:1 "Kingdom of Romania"
+ ROM_neutrality_DEF:1 "the Kingdom of Romania"
+ ROM_democratic_socialism:0 "Romanian People's Republic"
+ ROM_democratic_socialism_DEF:0 "the Romanian People's Republic"
+ ROM_revolutionary_socialism:0 "Romanian People's Republic"
+ ROM_revolutionary_socialism_DEF:0 "Romanian People's Republic"
+ ROM_social_democracy:0 "Republic of Romania"
+ ROM_social_democracy_DEF:0 "the "Republic of Romania
+ ROM_social_liberal:0 "Kingdom of Romania"
+ ROM_social_liberal_DEF:0 "the Kingdom of Romania"
+ ROM_classic_liberal:0 "Kingdom of Romania"
+ ROM_classic_liberal_DEF:0 "the Kingdom of Romania"
+ ROM_communism:0 "Socialist Republic of Romania"
+ ROM_communism_DEF:0 "the Socialist Republic of Romania"
+ 
+ ROM_fascism_ADJ:0 "Romanian"
+ ROM_totalitarian_socialism_ADJ:0 "Romanian"
+ ROM_democratic_ADJ:0 "Romanian"
+ ROM_utilitarian_despot_ADJ:0 "Romanian"
+ ROM_democratic_socialism_ADJ:0 "Romanian"
+ ROM_neutrality_ADJ:0 "Romanian"
+ ROM_revolutionary_socialism_ADJ:0 "Romanian"
+ ROM_social_democracy_ADJ:0 "Romanian"
+ ROM_social_liberal_ADJ:0 "Romanian"
+ ROM_classic_liberal_ADJ:0 "Romanian"
+ ROM_communism_ADJ:0 "Romanian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

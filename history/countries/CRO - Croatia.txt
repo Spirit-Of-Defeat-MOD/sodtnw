@@ -65,7 +65,7 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = classic_liberal
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no
@@ -73,16 +73,16 @@ set_politics = {
 
 set_popularities = {
 	totalitarian_socialism = 0
-	communism = 1
+	communism = 10
 	revolutionary_socialism = 0
 	democratic_socialism = 0
         social_democracy = 0
         social_liberal = 0
-        classic_liberal = 1
-        democratic = 2
+        classic_liberal = 60
+        democratic = 20
         neutrality = 0
-        utilitarian_despot = 0
-        fascism = 96
+        utilitarian_despot = 4
+        fascism = 6
         nihilistic_extremism = 0
 }
 

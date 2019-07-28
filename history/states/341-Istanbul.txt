@@ -10,8 +10,7 @@ state= {
 	state_category = city
 
 	history= {
-		add_claim_by = GRE
-		owner = TUR
+		owner = CON
 		victory_points = {
 			9833 20
 		}
@@ -26,7 +25,8 @@ state= {
 			}
 		}
 		add_core_of = TUR
-                set_demilitarized_zone = yes
+                add_core_of = CON
+		add_core_of = GRE
 	}
 	provinces=
 	{

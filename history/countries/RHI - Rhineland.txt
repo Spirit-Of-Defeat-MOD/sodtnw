@@ -1,0 +1,42 @@
+﻿capital = 51
+
+oob = "RHI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 14
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 6
+        classic_liberal = 3
+        democratic = 21
+        neutrality = 41
+        utilitarian_despot = 0
+        fascism = 15
+        nihilistic_extremism = 0
+}
+
+create_country_leader = {
+	name = "Paul Tirard"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

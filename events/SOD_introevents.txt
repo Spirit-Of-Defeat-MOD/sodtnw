@@ -1,0 +1,41 @@
+﻿###############################
+#intro events by Unkn0wn3ntity#
+###############################
+
+add_namespace = intro
+
+country_event = {
+	id = intro.1
+	title = intro.1.t
+	desc = intro.1.d
+	picture = GFX_none
+
+	is_triggered_only = yes
+
+	option = {
+		name = intro.1.a # i want to play now
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = intro.1.b # faq
+		ai_chance = { factor = 0 }
+		add_political_power = 100
+		country_event = { id = intro.2 }
+	}
+}
+
+country_event = {
+	id = intro.2
+	title = intro.2.t
+	desc = intro.2.d
+	picture = GFX_none
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Damnit just let me keep the PP!"
+		add_political_power = -100
+		country_event = { id = intro.4 }
+	}
+}

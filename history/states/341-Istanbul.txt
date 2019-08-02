@@ -1,7 +1,7 @@
 state= {
 	id=341
 	name="STATE_341"
-	manpower = 1404509
+	manpower = 1032394
 	resources={
 		chromium=45 # was: 84
 		steel = 10 # was: 20
@@ -12,7 +12,7 @@ state= {
 	history= {
 		owner = CON
 		victory_points = {
-			9833 20
+			9833 30
 		}
 		buildings = {
 			infrastructure = 5
@@ -30,5 +30,5 @@ state= {
 	}
 	provinces=
 	{
-849 3879 6895 9833 11829 	}
+9833 	}
 }

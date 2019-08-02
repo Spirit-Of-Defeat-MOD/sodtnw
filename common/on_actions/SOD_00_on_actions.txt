@@ -1,0 +1,37 @@
+on_actions = {
+on_startup = {
+    effect = {
+        every_country = {
+            IF = {
+                limit = {
+                    exists = yes
+                    is_ai = no
+                }
+                country_event = { hours = 1 id = intro.1 }
+            }
+        }
+        random_country = {
+                limit = {
+                    exists = yes
+                }
+       }
+    }
+}
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    any_country = {
+                        exists = no
+                        has_country_flag = statistics_1
+                    }
+                }
+                random_country = {
+                    limit = {
+                        exists = yes
+                    }
+                }
+            }
+        }
+    }
+}

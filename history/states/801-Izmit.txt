@@ -1,0 +1,25 @@
+state=
+{
+	id=801
+	name="STATE_801"
+	
+	state_category = town
+	
+	manpower = 321332
+
+	history=
+	{
+		owner = CON
+                victory_points = {
+			11811 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CON
+	}
+
+	provinces=
+	{
+11811 11829 	}
+}

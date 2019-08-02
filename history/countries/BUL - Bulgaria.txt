@@ -74,11 +74,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
+	name = "Nikola Geshev"
+	desc = "POLITICS_NIKOLA_GESHEV_DESC"
+	picture = "Portrait_Geshev.tga"
 	expire = "1965.1.1"
-	ideology = national_collectivist_ideology
+	ideology = national_corporatist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Asen Kantardzhiev"
+	desc = "POLITICS_ASEN_KANTARDZHIEV_DESC"
+	picture = "Asen_Kantardzhiev.tga"
+	expire = "1965.1.1"
+	ideology = nihilistic_extremism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Damyan Velchev"
+	desc = "POLITICS_DAMYAN_VELCHEV_DESC"
+	picture = "Portrait_Velchev.tga"
+	expire = "1965.1.1"
+	ideology = military_junta
 	traits = {
 		#
 	}

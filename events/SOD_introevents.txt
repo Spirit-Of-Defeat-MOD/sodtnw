@@ -1,5 +1,5 @@
 ﻿###############################
-#intro events by Unkn0wn3ntity and Kstar234#
+#intro events by Unkn0wn3ntity#
 ###############################
 
 add_namespace = intro
@@ -39,47 +39,3 @@ country_event = {
 		country_event = { id = intro.4 }
 	}
 }
-#Countries Here
-#Germany
-country_event = {
-	id = intro.3
-	title = intro.3.t
-	desc = intro.3.d
-	picture = GFX_german_intro
-
-	is_triggered_only = yes
-
-	option = {
-		name = intro.3.a
-	}
-}
-
-#France
-country_event = {
-	id = intro.5
-	title = intro.5.t
-	desc = intro.5.d
-	picture = GFX_french_intro
-
-	is_triggered_only = yes
-
-	option = {
-		name = intro.5.a
-	}
-}
-
-#Italy
-country_event = {
-	id = intro.6
-	title = intro.6.t
-	desc = intro.6.d
-	picture = GFX_italian_intro
-
-	is_triggered_only = yes
-
-	option = {
-		name = intro.6.a
-	}
-}
-
-

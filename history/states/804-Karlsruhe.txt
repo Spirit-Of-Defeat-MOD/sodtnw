@@ -5,15 +5,22 @@ state={
 
 	history={
 		owner = RHI
+		
 		victory_points = {
-			9517 20 
+			3530 10
 		}
+		
 		victory_points = {
-			11499 3 
+			11640 1
 		}
+		
+		victory_points = {
+			6712 3
+		}
+		
 		buildings = {
 			infrastructure = 8
-			arms_factory = 5
+			arms_factory = 3
 			industrial_complex = 1
 			air_base = 3
 

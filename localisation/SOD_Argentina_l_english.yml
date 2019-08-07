@@ -23,8 +23,8 @@ ARG_revolutionary_socialism_party:0 "PC"
 ARG_revolutionary_socialism_party_long:0 "Partido Comunista de la Argentina"
 ARG_democratic_socialism_party:0 "PS"
 ARG_democratic_socialism_party_long:0 "Partido Socialista"
-ARG_nihilistic_extremism_party:0 ""
-ARG_nihilistic_extremism_party_long:0 ""
+ARG_nihilistic_extremism_party:0 "LCA"
+ARG_nihilistic_extremism_party_long:0 "Legión Cívica Argentina"
 
 #Country Names
  ARG_fascism:0 "Argentine State"

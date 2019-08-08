@@ -1,0 +1,83 @@
+﻿l_english: 
+
+#Parties
+HOL_fascism_party:0 "NSB"
+HOL_fascism_party_long:0 "Nationaal-Socialistische Beweging in Nederland"
+HOL_communism_party:0 "RSP"
+HOL_communism_party_long:0 "Revolutionair Socialistische Partij"
+HOL_democratic_party:0 "RKSP"
+HOL_democratic_party_long:0 "Roomsch-Katholieke Staatspartij"
+HOL_utilitarian_despot_party:0 "HGS"
+HOL_utilitarian_despot_party_long:0 "Hervormd Gereformeerde Staatspartij"
+HOL_neutrality_party:0 "SGP"
+HOL_neutrality_party_long:0 "Staatkundig Gereformeerde Partij"
+HOL_social_democracy_party:0 ""
+HOL_social_democracy_party_long:0 ""
+HOL_social_liberal_party:0 "VDB"
+HOL_social_liberal_party_long:0 "Vrijzinnig Democratische Bond"
+HOL_classic_liberal_party:0 "LSP"
+HOL_classic_liberal_party_long:0 "Liberale Staatspartij"
+HOL_totalitarian_socialism_party:0 "CPN"
+HOL_totalitarian_socialism_party_long:0 "Communistische Partij Nederland"
+HOL_revolutionary_socialism_party:0 "OSP"
+HOL_revolutionary_socialism_party_long:0 "Onafhankelijke Socialistische Partij"
+HOL_democratic_socialism_party:0 "SDAP"
+HOL_democratic_socialism_party_long:0 "Sociaal-Democratische Arbeiderspartij"
+HOL_nihilistic_extremism_party:0 "WA"
+HOL_nihilistic_extremism_party_long:0 "Weerbaarheidsafdeling"
+#thats it. every other party doesnt exist
+
+#Country Names
+ HOL_fascism:0 "Netherlands"
+ HOL_fascism_DEF:0 "the Netherlands"
+ HOL_nihilistic_extremism:0 "Netherlands"
+ HOL_nihilistic_extremism_DEF:0 "the Netherlands"
+ HOL_totalitarian_socialism:0 "Netherlands"
+ HOL_totalitarian_socialism_DEF:0 "the Netherlands"
+ HOL_utilitarian_despot:0 "Netherlands"
+ HOL_utilitarian_despot_DEF:0 "the Netherlands"
+ HOL_democratic:0 "Netherlands"
+ HOL_democratic_DEF:0 "the Netherlands"
+ HOL_neutrality:1 "Netherlands"
+ HOL_neutrality_DEF:1 "the Netherlands
+ HOL_democratic_socialism:0 "Netherlands"
+ HOL_democratic_socialism_DEF:0 "the Netherlands"
+ HOL_revolutionary_socialism:0 "Netherlands"
+ HOL_revolutionary_socialism_DEF:0 "the Netherlands"
+ HOL_social_democracy:0 "Netherlands"
+ HOL_social_democracy_DEF:0 "the Netherlands"
+ HOL_social_liberal:0 "Netherlands"
+ HOL_social_liberal_DEF:0 "the Netherlands"
+ HOL_classic_liberal:0 "Netherlands"
+ HOL_classic_liberal_DEF:0 "the Netherlands"
+ HOL_communism:0 "Netherlands"
+ HOL_communism_DEF:0 "the Netherlands"
+ 
+ HOL_fascism_ADJ:0 "Dutch"
+ HOL_nihilistic_extremism_ADJ:0 "Dutch"
+ HOL_totalitarian_socialism:0 "Dutch"
+ HOL_democratic_ADJ:0 "Dutch"
+ HOL_utilitarian_despot_ADJ:0 "Dutch"
+ HOL_democratic_socialism_ADJ:0 "Dutch"
+ HOL_neutrality_ADJ:0 "Dutch"
+ HOL_revolutionary_socialism:0 "Dutch"
+ HOL_social_democracy_ADJ:0 "Dutch"
+ HOL_social_liberal_ADJ:0 "Dutch"
+ HOL_classic_liberal_ADJ:0 "Dutch"
+ HOL_communism_ADJ:0 "Dutch"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

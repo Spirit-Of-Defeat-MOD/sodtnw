@@ -51,6 +51,7 @@ RHI_nihilistic_extremism_party_long:0 "Organisation Consul"
  RHI_classic_liberal_DEF:0 "the Rhenish Republic"
  RHI_communism:0 "Rhenish Republic"
  RHI_communism_DEF:0 "the Rhenish Republic
+ 
  RHI_fascism_ADJ:0 "Rhenish"
  RHI_nihilistic_extremism_ADJ:0 "German"
  RHI_totalitarian_socialism:0 "Rhenish"
@@ -63,6 +64,9 @@ RHI_nihilistic_extremism_party_long:0 "Organisation Consul"
  RHI_social_liberal_ADJ:0 "Rhenish"
  RHI_classic_liberal_ADJ:0 "Rhenish"
  RHI_communism_ADJ:0 "Rhenish"
+ 
+ RHI_FRA_autonomy_military_occupation:0 "Rhine Occupation Zone"
+ RHI_FRA_autonomy_military_occupation_DEF:0 "the Rhine Occupation Zone"
  
  #Ministers
 #should be reintegrated

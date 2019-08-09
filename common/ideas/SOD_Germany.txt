@@ -123,4 +123,62 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
+
+	general_staff = {
+			
+		allowed = {
+			original_tag = GER
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		
+		modifier = {
+			army_org_Factor = 0.05
+			planning_speed = 0.25
+		}
+	}
+
+	black_reichswehr = {
+			
+		allowed = {
+			original_tag = GER
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		
+		modifier = {
+			stability_factor = -0.02
+			training_time_factor = -0.15
+			military_leader_cost_factor = 0.50
+			conscription = 0.01
+
+		}
+	}
+
+	economic_troubles = {
+			
+		allowed = {
+			original_tag = GER
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+
+		removal_cost = -1
+		
+		modifier = {
+			production_factory_start_efficiency_factor = -0.05 
+			production_speed_buildings_factor = -0.1
+		}
+	}
 }

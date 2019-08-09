@@ -135,6 +135,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	GER_Franz_Papen_hog
+	GER_Konstantin_Neurath_frm
 	GER_Alfred_Hugenberg_eco
 	GER_Otto_Lossow_sec
 	GER_Ferdinand_Bredow_int

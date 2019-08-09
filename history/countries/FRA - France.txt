@@ -102,8 +102,8 @@ if = {
 	}
 	set_autonomy = {
 		target = RHI
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
+		autonomous_state = autonomy_military_occupation
+		freedom_level = 0.50
 	}
 	else = {
 		puppet = AEF

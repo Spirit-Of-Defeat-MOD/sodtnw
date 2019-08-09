@@ -23,17 +23,18 @@ HUN_revolutionary_socialism_party:0 ""
 HUN_revolutionary_socialism_party_long:0 ""
 HUN_democratic_socialism_party:0 ""
 HUN_democratic_socialism_party_long:0 ""
-HUN_nihilistic_extremism_party:0 "ZP"
-HUN_nihilistic_extremism_party_long:0 "Prónay Zászlóalj"
+HUN_nihilistic_extremism_party:0 "PZ"
+HUN_nihilistic_extremism_party_long:0 "Prónay Zászlóalj \n§g The infamous perpetrator of the White Terror, Pál Prónay and his battalion have de facto control of the Hungarian countryside. They have become the most powerful organization in the country - striking fear into the legitimate government. Despite the efforts of the Horthy government to control these reactionary forces, the Prónay Battalion has asserted its autonomy and continued to exact reprisals against anyone that they suspect to be a communist. The battalion, which on paper consists of soldiers of the Hungarian military, has long since ignored any chain of command from the National Army. Their methods are brutal and they make no effort to hide their depravity. Prónay and his men bring a sadistic creativity to their torture methods. They often sprinkle powdered sugar onto the battered and swollen faces of the men they bludgeoned, attracting swarms of flies which continue to harass their victims.§!"
 
 #Leaders
 POLITICS_MIKLOS_HORTHY_DESC:0 "."
+POLITICS_PAL_PRONAY_DESC:0 "Born into an aristocratic family, Prónay would attend the Lahne Military Institute and begin his career as a military officer. He quickly became known for his abusive and violent tendencies towards his men. In the aftermath of Bela Kun's coup, Prónay founded what would later become known as the 'White Guard'. He began a campaign of terror in the countryside, brutally retaliating against any suspected communists. As the terror went on, Prónay would become emboldened - doubling down on his signature cruelty and disregarding chain of command with the National Army. Horthy's attempts to stop the Prónay Battalion would be in vain. His forces would become known for cutting off the ears of their vitcims as trophies, sprinkling sugar on the wounds of their enemies to attract flies, and inciting city-wide pogroms. His sadism may only be matched by his fanaticism, in particular his steadfast commitment to enforcing the obedience of the servant classes."
 
 #Country Names
  HUN_fascism:0 "Kingdom of Hungary"
  HUN_fascism_DEF:0 "the Kingdom of Hungary"
- HUN_nihilistic_extremism:0 "Pronayist Hungary"
- HUN_nihilistic_extremism_DEF:0 "Pronayist Hungary"
+ HUN_nihilistic_extremism:0 "Fehér Magyarország"
+ HUN_nihilistic_extremism_DEF:0 "Fehér Magyarország"
  HUN_totalitarian_socialism:0 "Hungarian People's Republic"
  HUN_totalitarian_socialism_DEF:0 "the Hungarian People's Republic"
  HUN_utilitarian_despot:0 "Kingdom of Hungary"

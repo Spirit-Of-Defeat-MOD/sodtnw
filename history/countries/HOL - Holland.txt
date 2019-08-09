@@ -150,6 +150,17 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "portrait_hol_wilhelmina.dds"
 	expire = "1965.1.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "portrait_hol_wilhelmina.dds"
+	expire = "1965.1.1"
 	ideology = social_conservatism_subtype
 	traits = {
 		#

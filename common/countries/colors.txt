@@ -564,3 +564,7 @@ RHI = {
 	color = rgb { 73 107 21 }
 	color_ui = rgb { 73 107 21 }
 }
+SAR = {
+	color = rgb { 37 67 134 }
+	color_ui = rgb { 37 67 134 }
+}

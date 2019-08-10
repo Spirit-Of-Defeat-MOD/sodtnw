@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+SAR_fascism_party:0 "DAP"
+SAR_fascism_party_long:0 "Deutsche Arbeiterpartei"
+SAR_communism_party:0 "KPD"
+SAR_communism_party_long:0 "Kommunistische Partei Deutschlands"
+SAR_democratic_party:0 "Zentrum"
+SAR_democratic_party_long:0 "Deutsche Zentrumspartei"
+SAR_utilitarian_despot_party:0 ""
+SAR_utilitarian_despot_party_long:0 ""
+SAR_neutrality_party:0 ""
+SAR_neutrality_party_long:0 ""
+SAR_social_democracy_party:0 "SPD"
+SAR_social_democracy_party_long:0 "Sozialdemokratische Partei Deutschlands"
+SAR_social_liberal_party:0 ""
+SAR_social_liberal_party_long:0 ""
+SAR_classic_liberal_party:0 ""
+SAR_classic_liberal_party_long:0 ""
+SAR_totalitarian_socialism_party:0 ""
+SAR_totalitarian_socialism_party_long:0 ""
+SAR_revolutionary_socialism_party:0 ""
+SAR_revolutionary_socialism_party_long:0 ""
+SAR_democratic_socialism_party:0 ""
+SAR_democratic_socialism_party_long:0 ""
+SAR_nihilistic_extremism_party:0 ""
+SAR_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ SAR_fascism:0 "Saar Basin Territory"
+ SAR_fascism_DEF:0 "the Saar Basin Territory"
+ SAR_nihilistic_extremism:0 "Saar Basin Territory"
+ SAR_nihilistic_extremism_DEF:0 "the Saar Basin Territory"
+ SAR_totalitarian_socialism:0 "Saar Basin Territory"
+ SAR_totalitarian_socialism_DEF:0 "the Saar Basin Territory"
+ SAR_utilitarian_despot:0 "Saar Basin Territory"
+ SAR_utilitarian_despot_DEF:0 "the Saar Basin Territory"
+ SAR_democratic:0 "Saar Basin Territory"
+ SAR_democratic_DEF:0 "the Saar Basin Territory"
+ SAR_neutrality:1 "Saar Basin Territory"
+ SAR_neutrality_DEF:1 "the Saar Basin Territory
+ SAR_democratic_socialism:0 "Saar Basin Territory"
+ SAR_democratic_socialism_DEF:0 "the Saar Basin Territory"
+ SAR_revolutionary_socialism:0 "Saar Basin Territory"
+ SAR_revolutionary_socialism_DEF:0 "the Saar Basin Territory"
+ SAR_social_democracy:0 "Saar Basin Territory"
+ SAR_social_democracy_DEF:0 "the Saar Basin Territory"
+ SAR_social_liberal:0 "Saar Basin Territory"
+ SAR_social_liberal_DEF:0 "the Saar Basin Territory"
+ SAR_classic_liberal:0 "Saar Basin Territory"
+ SAR_classic_liberal_DEF:0 "the Saar Basin Territory"
+ SAR_communism:0 "Saar Basin Territory"
+ SAR_communism_DEF:0 "the Saar Basin Territory"
+ 
+ SAR_fascism_ADJ:0 "Saar"
+ SAR_nihilistic_extremism_ADJ:0 "Saar"
+ SAR_totalitarian_socialism:0 "Saar"
+ SAR_democratic_ADJ:0 "Saar"
+ SAR_utilitarian_despot_ADJ:0 "Saar"
+ SAR_democratic_socialism_ADJ:0 "Saar"
+ SAR_neutrality_ADJ:0 "Saar"
+ SAR_revolutionary_socialism:0 "Saar"
+ SAR_social_democracy_ADJ:0 "Saar"
+ SAR_social_liberal_ADJ:0 "Saar"
+ SAR_classic_liberal_ADJ:0 "Saar"
+ SAR_communism_ADJ:0 "Saar"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 

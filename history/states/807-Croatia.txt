@@ -1,0 +1,23 @@
+state=
+{
+	id=807
+	name="STATE_807"
+	
+	state_category = town
+	
+	manpower = 23227
+
+	history=
+	{
+		owner = SER
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 6583 5 }
+		add_core_of = SER
+	}
+
+	provinces=
+	{
+11580	}
+}

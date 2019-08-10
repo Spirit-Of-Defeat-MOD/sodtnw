@@ -1,5 +1,43 @@
 ideologies = {
+   
+	totalitarian_socialism = {
 
+        types = {
+
+            totalitarian_socialism_subtype = {}
+			anti_revisionism = {}
+			national_bolshevik = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
+        }
+
+        color = { 115 25 25 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
 	communism = {
 
         types = {
@@ -17,7 +55,7 @@ ideologies = {
             "FACTION_NAME_vanguard_communism"
         }
 
-        color = { 170 0 0 } #255 65 65 could work too
+        color = { 225 0 0 } #255 65 65 could work too
 
         rules = {
 			can_force_government = no
@@ -42,44 +80,7 @@ ideologies = {
 
     }
 
-    totalitarian_socialism = {
 
-        types = {
-
-            totalitarian_socialism_subtype = {}
-			anti_revisionism = {}
-			national_bolshevik = {}
-
-        }
-
-        dynamic_faction_names = {
-            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
-        }
-
-        color = { 225 0 0 }
-
-        rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_join_factions = no
-		}
-		
-		can_host_government_in_exile = yes
-		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		
-		faction_modifiers = {
-			#
-		}
-
-		can_be_boosted = no
-		can_collaborate = yes
-
-    }
 
     revolutionary_socialism = {
 
@@ -96,7 +97,7 @@ ideologies = {
             "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
         }
 
-        color = { 140 0 0 }
+        color = { 231 50 50 }
 
         rules = {
 			can_force_government = no
@@ -133,7 +134,7 @@ ideologies = {
             "FACTION_NAME_DEMOCRATIC_SOCIALISM"
         }
 
-        color = { 152 38 38 }
+        color = { 164 62 62 }
 
         rules = {
 			can_force_government = no
@@ -296,7 +297,7 @@ ideologies = {
             "FACTION_NAME_SOCIAL_CONSERVATISM"
         }
 
-        color = { 0 0 255 }
+        color = { 61 105 153 }
 
         rules = {
 			can_force_government = no
@@ -343,7 +344,7 @@ ideologies = {
             "FACTION_NAME_AUTHORITARIAN_DEMOCRAT"
         }
 
-        color = { 80 80 80 }
+        color = { 160 160 160 }
 
         rules = {
 			can_force_government = no
@@ -385,7 +386,7 @@ ideologies = {
             "FACTION_NAME_UTILITARIAN_DESPOT"
         }
 
-        color = { 160 160 160 }
+        color = { 80 80 80 }
 
         rules = {
 			can_force_government = no
@@ -472,7 +473,7 @@ ideologies = {
             "FACTION_NAME_NIHILISTIC_EXTREMISM"
         }
 
-        color = { 142 57 0 }
+        color = { 0 0 0 }
 
         rules = {
 			can_force_government = no

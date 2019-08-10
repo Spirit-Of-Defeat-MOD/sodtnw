@@ -133,6 +133,7 @@ add_ideas = {
 	general_staff
 	black_reichswehr
 	economic_troubles
+	rampant_paramilitaries
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

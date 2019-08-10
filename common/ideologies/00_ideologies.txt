@@ -297,7 +297,7 @@ ideologies = {
             "FACTION_NAME_SOCIAL_CONSERVATISM"
         }
 
-        color = { 61 105 153 }
+        color = { 0 0 255 }
 
         rules = {
 			can_force_government = no

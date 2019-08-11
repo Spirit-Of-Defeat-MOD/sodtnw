@@ -92,7 +92,6 @@ general_staff_desc:0 "The German General Staff, officially the Great General Sta
 
 
 #Events
-germany.1.t:0 "The Freikorps Counter-Coup"
-germany.1.d:0 "Frustrated by the Schleicher government's inability to contain the leftist threat, reactionaries have prepared to oust Schleicher and replace him with a more reactionary head of government."
-germany.1.a:0 "Feder Becomes Fuhrer"
-germany.1.b:0 "Himmler Becomes Fuhrer"
+germany.1.t:0 "Germany Introduction"
+germany.1.d:0 "The German Empire's defeat in the Great War brought chaos and revolutionary change to Germany. Large swathes of territories were stripped away, and costly war reparations devastated the German economy. The feeble republic, established in the aftermath of the war, was plagued with violence from rogue paramilitaries and revolutionaries. \n\ \n\On November 8th, 1923, the Deutsche Arbeiterpartei under the leadership of Adolph Hitler and Erich Ludendorff attempted to overthrow the government. In response to the coup attempt, martial law was declared and a nationalst triumvirate was formed. The triumvirate: Gustav von Kahr, General Otto von Lossow, and Colonel Hans Ritter von Seisser aligned themselves with the Minister of the Reichswehr, Hans von Seeckt. Hitler was shot by the Bavarian State Police, and General Ludendorff was arrested shortly after. \n\ \n\ Seeckt used the incident as justification to occupy the Reichstag and dissolve the government. The Schutzputsch, as it has come to be known, brought about the demise of the Weimar Republic. Since November of 1923, Germany has been a military dictatorship under Hans von Seeckt..."
+germany.1.a:0 "Enough With These Petty Ramblings..."

@@ -373,8 +373,14 @@ cost = 10
 available_if_capitulated = yes 
 ai_will_do = { 
  factor = 1
- } 
-
+ }
+ available = {
+	has_country_flag = GER_economic_investment
+	has_army_manpower = { size > 450000 }
+}  
+completion_reward = {
+	add_war_support = 0.03
+}
  } 
 
 #Focus for Unity Makes Strength
@@ -538,6 +544,12 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_grantpoliticalappointments } 
 prerequisite = { focus = GER_welfareprograms } 
+completion_reward = {
+	
+	add_stability = 0.05
+	add_political_power = 50
+	set_country_flag = GER_economic_investment
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -693,6 +705,9 @@ prerequisite = { focus = GER_investinourfatherland }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	remove_ideas = economic_troubles
+ }
 
  } 
 
@@ -767,6 +782,9 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_subsidizeindustrialdevelopment } 
 ai_will_do = { 
  factor = 1
+ }
+ completion_reward = {
+	 add_research_slot = 1
  } 
 
  } 
@@ -781,8 +799,18 @@ cost = 10
 available_if_capitulated = yes 
 ai_will_do = { 
  factor = 1
- } 
-
+ }
+ available = {
+	has_country_flag = GER_economic_investment
+} 
+completion_reward = {
+	add_tech_bonus = {
+		name = industrial_bonus
+		bonus = 1.0
+		uses = 1
+		category = industry
+	}
+}
  } 
 
 #Focus for Modernized Production Lines

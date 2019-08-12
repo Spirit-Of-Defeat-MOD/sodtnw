@@ -264,7 +264,7 @@ x = 26
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_ykQTxNJX focus = GER_thedanziguprising } 
+prerequisite = { focus = GER_partitionpoland focus = GER_thedanziguprising } 
 ai_will_do = { 
  factor = 1
  } 

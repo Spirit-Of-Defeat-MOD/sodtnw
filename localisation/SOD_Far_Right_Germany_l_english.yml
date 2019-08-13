@@ -94,12 +94,31 @@ germany.1.d:0 "The German Empire's defeat in the Great War brought chaos and rev
 germany.1.a:0 "Enough With These Petty Ramblings..."
 germany.2.t:0 "Appeasing Working Class Germans"
 germany.2.d:0 "Despite our attempts over the last twelve years, our regime has been unable to appease large portions of the working class. Economic hardships and crackdowns against labor movements have worsened our ties with these groups. Despite the outlawing of the SPD and KPD, many Germans still pledge loyalty to these groups. We need to secure the loyalty of our populace as we prepare for war. It seems that we are going to have to make compromises in order to secure our long term goals..."
-germany.2.a:0 "Option 1"
-germany.2.b:0 "Option 2"
-germany.2.c:0 "Option 3"
+germany.2.a:0 "Meager Compromises"
+germany.2.b:0 "Moderate Compromises"
+germany.2.c:0 "Drastic Compromises"
+germany.3.t:0 "Meager Compromises"
+germany.3.d:0 "We have offered to make concessions that will benefit working class Germans. We have avoided making any large promises and will focus on small efforts. Nonetheless, we beleive that we have offered enough - if the people complain, they are simply being ungrateful of our generousity."
+germany.3.a:0 "Standardize The 40-Hour Work Week"
+germany.3.b:0 "Offer Tax Credit For Parents"
+germany.4.t:0 "Moderate Compromises"
+germany.4.d:0 "We have offered to make concessions that will benefit working class Germans. We have made some commitments which, although costly, will greatly improve the welfare of the working class."
+germany.4.a:0 "Extend Health Insurance Coverage"
+germany.4.b:0 "Extend Unemployment Benfefits"
+germany.5.t:0 "Drastic Compromises"
+germany.5.d:0 "We have offered to make concessions that will benefit working class Germans. They have demanded the legalization of the unions and the right to strike. This has been a tough decision to make, but we may have to listen to their demands to unify the nation."
+germany.5.a:0 "Establish State Run Unions"
+germany.5.b:0 "Open Negotiations With The Unions"
+germany.6.t:0 "The Union Negotiations"
+germany.6.d:0 "We have decided to open dialogue with the leaders of several of Germany's largest unions. The demands for legalization and constitutional reform are unanimous. Many within the government are concerned about potential reforms weakening our grip on power."
+germany.6.a:0 "Amend The 1923 Constitution"
+germany.6.b:0 "To Hell With Their Demands!"
 
 #Flags
 GER_economic_investment:0 "Economic Investments"
+
+#Tool-Tips
+1_GER_tt:0 "There may be consequences for backing out of our negotiations and commitments."
 
 #Focuses 
 GER_easterndealings:0 "Eastern Dealings"

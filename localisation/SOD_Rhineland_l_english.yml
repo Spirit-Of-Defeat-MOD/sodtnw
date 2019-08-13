@@ -74,7 +74,15 @@ RHI_nihilistic_extremism_party_long:0 "Organisation Consul"
 #Leaders
 
 #Focuses
-#should be reintegrated
+RHI_commission_fate:0 "Fate of the High Commission"
+RHI_limit_commission:0 "Limit Commission Power"
+RHI_establish_council:0 "Establish the Landesrat"
+RHI_meet_politicians:0 "Meet Dissident Politicians"
+RHI_legalize_political_parties:0 "Legalize Political Parties"
+RHI_allow_campaigns:0 "Allow Political Campaigning"
+RHI_allow_newspapers:0 "Allow Party Newspapers"
+RHI_abolish_iarhc:0 "Abolish the IRAHC"
+RHI_the_republic:0 "The 'TRUE' German Republic"
 
 #Events
 #should be reintegrated

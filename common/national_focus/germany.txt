@@ -571,6 +571,9 @@ prerequisite = { focus = GER_unitymakesstrength }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	GER = { country_event = germany.7 }
+ }
 
  } 
 

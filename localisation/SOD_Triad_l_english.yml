@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+TRI_fascism_party:0 "Green  Gang (X)"
+TRI_fascism_party_long:0 "Green Gang - Xiaolin Faction"
+TRI_communism_party:0 ""
+TRI_communism_party_long:0 ""
+TRI_democratic_party:1 ""
+TRI_democratic_party_long:0 ""
+TRI_utilitarian_despot_party:0 "Green Gang (Y)"
+TRI_utilitarian_despot_party_long:0 "Green Gang Triad - Yuesheng Faction"
+TRI_neutrality_party:0 "Green Gang (J)"
+TRI_neutrality_party_long:0 "Green Gang - Jinrong Faction"
+TRI_social_democracy_party:0 ""
+TRI_social_democracy_party_long:0 ""
+TRI_social_liberal_party:0 ""
+TRI_social_liberal_party_long:0 ""
+TRI_classic_liberal_party:0 ""
+TRI_classic_liberal_party_long:0 ""
+TRI_totalitarian_socialism_party:0 ""
+TRI_totalitarian_socialism_party_long:0 ""
+TRI_revolutionary_socialism_party:0 ""
+TRI_revolutionary_socialism_party_long:0 ""
+TRI_democratic_socialism_party:0 ""
+TRI_democratic_socialism_party_long:0 ""
+TRI_nihilistic_extremism_party:0 ""
+TRI_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ TRI_fascism:0 "Shanghai Triad Syndicate"
+ TRI_fascism_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_nihilistic_extremism:0 "Shanghai Triad Syndicate"
+ TRI_nihilistic_extremism_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_totalitarian_socialism:0 "Shanghai Triad Syndicate"
+ TRI_totalitarian_socialism_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_utilitarian_despot:0 "Shanghai Triad Syndicate"
+ TRI_utilitarian_despot_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_democratic:0 "Shanghai Triad Syndicate"
+ TRI_democratic_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_neutrality:1 "Shanghai Triad Syndicate"
+ TRI_neutrality_DEF:1 "the Shanghai Triad Syndicate"
+ TRI_democratic_socialism:0 "Shanghai Triad Syndicate"
+ TRI_democratic_socialism_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_revolutionary_socialism:0 "Shanghai Triad Syndicate"
+ TRI_revolutionary_socialism_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_social_democracy:0 "Shanghai Triad Syndicate"
+ TRI_social_democracy_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_social_liberal:0 "Shanghai Triad Syndicate"
+ TRI_social_liberal_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_classic_liberal:0 "Shanghai Triad Syndicate"
+ TRI_classic_liberal_DEF:0 "the Shanghai Triad Syndicate"
+ TRI_communism:0 "Shanghai Triad Syndicate"
+ TRI_communism_DEF:0 "the Shanghai Triad Syndicate"
+ 
+ TRI_fascism_ADJ:0 "Chinese"
+ TRI_fascism_ADJ:0 "Chinese"
+ TRI_totalitarian_socialism:0 "Chinese"
+ TRI_democratic_ADJ:0 "Chinese"
+ TRI_utilitarian_despot_ADJ:0 "Chinese"
+ TRI_democratic_socialism_ADJ:0 "Chinese"
+ TRI_neutrality_ADJ:0 "Chinese"
+ TRI_revolutionary_socialism:0 "Chinese"
+ TRI_social_democracy_ADJ:0 "Chinese"
+ TRI_social_liberal_ADJ:0 "Chinese"
+ TRI_classic_liberal_ADJ:0 "Chinese"
+ TRI_communism_ADJ:0 "Chinese"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

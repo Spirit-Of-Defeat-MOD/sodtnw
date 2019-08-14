@@ -30,7 +30,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
-	
+	#Meager Compromise
 	option = {
 		name = germany.2.a
 		add_political_power = 1
@@ -38,6 +38,7 @@ country_event = {
 	
     }
 
+	#Moderate Compromise
 	option = {
 		name = germany.2.b
 		add_political_power = 1
@@ -45,6 +46,7 @@ country_event = {
 	
     }
 	
+	#Drastic Compromise
 	option = {
 		name = germany.2.c
 		add_political_power = 1
@@ -63,12 +65,13 @@ country_event = {
 	fire_only_once = yes
 
 	
-	
+	#40 hour WK - monthly stability growth probably
 	option = {
 		name = germany.3.a
 		add_political_power = 1
 	
 	}
+	#Tax Credits - monthly population growth
 	option = {
 		name = germany.3.b
 		add_political_power = 1
@@ -86,12 +89,13 @@ country_event = {
 	fire_only_once = yes
 
 	
-	
+	#Healthcare - plus consumer goods and recruitable percentage
 	option = {
 		name = germany.4.a
 		add_political_power = 1
 	
 	}
+	#Unemployment Benefits - minus political power gain and plus stability
 	option = {
 		name = germany.4.b
 		add_political_power = 1
@@ -119,6 +123,7 @@ country_event = {
 		name = germany.5.b
 		add_political_power = 1
 		country_event = { id = germany.6 }
+		complete_national_focus = GER_negotiatewiththeunions
 	
     }
 }
@@ -133,7 +138,7 @@ country_event = {
 	fire_only_once = yes
 
 	
-	
+	#Pass The Reforms - boosts leftwing parties (they gain influence) minus political power (reforms occupy the bureaucracy and whatnot) adds stability
 	option = {
 		name = germany.6.a
 		add_political_power = -100
@@ -146,13 +151,39 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.07
 		}
+		complete_national_focus = GER_protectlaborrights
 	
 	}
+	#Deny Labor Rights - Eventually will lead to strikes, riots, civil war (Once we get to that lol)
 	option = {
 		name = germany.6.b
 		add_political_power = -250
 		add_stability = -0.05
 		custom_effect_tooltip = 1_GER_tt
+	
+    }
+}
+
+#Appease The Eltes
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	#Industrialists - will increase production to simulate investment
+	option = {
+		name = germany.7.a
+		add_political_power = 1
+	
+	}
+	#Junkers - will give political power gain to simulate nepotism
+	option = {
+		name = germany.7.b
+		add_political_power = 1
 	
     }
 }

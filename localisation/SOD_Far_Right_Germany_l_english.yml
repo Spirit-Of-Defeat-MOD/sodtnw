@@ -113,6 +113,10 @@ germany.6.t:0 "The Union Negotiations"
 germany.6.d:0 "We have decided to open dialogue with the leaders of several of Germany's largest unions. The demands for legalization and constitutional reform are unanimous. Many within the government are concerned about potential reforms weakening our grip on power."
 germany.6.a:0 "Amend The 1923 Constitution"
 germany.6.b:0 "To Hell With Their Demands!"
+germany.7.t:0 "Appeasing The Elites"
+germany.7.d:0 "Germany's elites can generally be divided into two distinctive groups - the industrialists and the aristocratic land owners known as Junkers. The Industrialists own the factories and the companies that power our economy. Nonetheless, the Prussian landowners have deep ties with the German military and are the backbone of German agricultural output. Both sides have their merits... But which should we prioritize?"
+germany.7.a:0 "Forge Ties With The Industrialists"
+germany.7.b:0 "Deepen Ties With The Junkers"
 
 #Flags
 GER_economic_investment:0 "Economic Investments"

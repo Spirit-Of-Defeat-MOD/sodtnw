@@ -335,7 +335,6 @@ ideologies = {
 			prometheist = {}
 			despotism = {}
 			moderatism = {}
-			centrism = {}
 			
 
         }

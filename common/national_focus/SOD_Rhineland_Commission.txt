@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {# Fate of the Commission
 		id = RHI_commission_fate
 		icon = GFX_unknown
-		cost = 10
+		cost = 2
 		x = 7
 		y = 0
 		ai_will_do = {
@@ -25,6 +25,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RHI_commission_fate"
+			country_event = { id = rhine_political.1 days = 1}
 		}
 	}
 	
@@ -41,6 +42,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_commission_fate
 		}
+		available = { has_country_flag = move_to_abolition }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RHI_limit_commission"

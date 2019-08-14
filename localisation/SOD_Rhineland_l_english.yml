@@ -75,8 +75,11 @@ RHI_nihilistic_extremism_party_long:0 "Organisation Consul"
 
 #Focuses
 RHI_commission_fate:0 "Fate of the High Commission"
+RHI_commission_fate_desc:0 "With the increased unrest of the populace and the occupation forces due to terror attacks allegedly sponsored by the Seeckt government and Anti-French propganda campaigns the Inter Rhineland Allied High Commission(IRAHC) and its status has been called into question. \nThe Powers that make up the commission will meet in due time discuss it's role and it's very existence with the current state of affairs. "
 RHI_limit_commission:0 "Limit Commission Power"
+RHI_limit_commission_desc:0 "Ever since the occupation of Baden and the Ruhr the powers of the commission have extended to be the sole policy making entity in the region even with opposition from the United States and local German officials. That decision will now be reversed as the first step of abolishing the commission and replacing it with a Legislature for the German people."
 RHI_establish_council:0 "Establish the Landesrat"
+RHI_establish_council_desc:0 "Establish the Landesrat"
 RHI_meet_politicians:0 "Meet Dissident Politicians"
 RHI_legalize_political_parties:0 "Legalize Political Parties"
 RHI_allow_campaigns:0 "Allow Political Campaigning"
@@ -85,4 +88,13 @@ RHI_abolish_iarhc:0 "Abolish the IRAHC"
 RHI_the_republic:0 "The 'TRUE' German Republic"
 
 #Events
-#should be reintegrated
+rhine_political.1.t:0 "Meeting of the Commission"
+rhine_political.1.d:0 "Today a meeting of the IARHC has been called. While issues such as domestic terrorism and social unrest will be discussed the main topic will be the commission itself. Delegates of the Allied powers will meet in this debate along with some German observers. Chairman Paul Tirard claims he looks forward to debate to put forward his views, although the other delegetes are a bit sceptical of this excitement. \n\n The United Kingdom and the United States are clear on their position of limiting and eventually abolishing the council in favour of having the region eventually rejoin the German State or setting up a government to be the true sucessor the German Empire. The French on the other hand are in favour of setting up the Rhine with it's own government to try and separate Rhineland from Germany completely what seems to be apart of thier original Great War Pland of dismantling the German State. \n\n These clashes of ambition will surely be an obstacle in decsion making in the future, but only time will tell."
+rhine_political.1.a:0 "Let the debate begin"
+
+rhine_political.2.t:0 "the Commission Debate"
+rhine_political.2.d:0 ""
+rhine_political.2.a:0 "Time to vote"
+
+#Flags
+move_to_abolition:0 "The Commission has decided to abolish itself."

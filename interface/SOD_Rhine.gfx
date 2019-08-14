@@ -76,4 +76,11 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
+
+ #Events
+ 	spriteType = {
+		name = "GFX_event_commission_meeting"
+		texturefile = "gfx/event_pictures/RHI/commission_meeting.dds"
+	}
 }

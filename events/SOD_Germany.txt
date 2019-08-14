@@ -1,5 +1,5 @@
 ﻿###########################
-# Germany Events by SneakierTech, Lord of Livonia
+# Germany Events by SneakierTech
 ###########################
 
 add_namespace = germany

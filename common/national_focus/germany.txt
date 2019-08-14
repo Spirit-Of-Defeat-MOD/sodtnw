@@ -18,7 +18,7 @@ id = GER_easterndealings
 icon = GFX_goal_generic_more_territorial_claims
 x = 26
 y = 1
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_ourplaceinthesun } 
 ai_will_do = { 
@@ -114,7 +114,38 @@ prerequisite = { focus = GER_militarybuildup1 }
 ai_will_do = { 
  factor = 1
  } 
-
+ completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = arms_factory
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+} 
  } 
 
 #Focus for Rescind Colonial Claims
@@ -339,7 +370,7 @@ id = GER_protectlaborrights
 icon = GFX_focus_hol_the_foundations_of_defense
 x = 1
 y = 4
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_negotiatewiththeunions } 
 ai_will_do = { 
@@ -354,7 +385,7 @@ id = GER_grantpoliticalappointments
 icon = GFX_goal_molotov_ribbentrop_pact
 x = 6
 y = 2
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheelites } 
 ai_will_do = { 
@@ -369,7 +400,7 @@ id = GER_ourplaceinthesun
 icon = GFX_goal_generic_position_armies
 x = 34
 y = 0
-cost = 10
+cost = 2
 available_if_capitulated = yes 
 ai_will_do = { 
  factor = 1
@@ -389,11 +420,16 @@ id = GER_unitymakesstrength
 icon = GFX_goal_generic_national_unity
 x = 5
 y = 0
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	 add_stability = 0.01
+	 add_war_support = 0.01
+	 add_political_power = 50
+ }
 
  } 
 
@@ -470,7 +506,38 @@ prerequisite = { focus = GER_civilianbuildup1 }
 ai_will_do = { 
  factor = 1
  } 
-
+completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}
  } 
 
 #Focus for Approach Crown Prince Wilhelm
@@ -479,7 +546,7 @@ id = GER_approachcrownprincewilhelm
 icon = GFX_goal_tfv_strengthen_commonwealth_ties
 x = 9
 y = 3
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheelites } 
 mutually_exclusive = { focus = GER_negotiatewiththeunions } 
@@ -495,11 +562,23 @@ id = GER_coronatewilhelmiii
 icon = GFX_focus_ger_return_of_the_kaiser
 x = 9
 y = 4
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_approachcrownprincewilhelm } 
 ai_will_do = { 
  factor = 1
+ }
+ completion_reward = {
+	create_country_leader = {
+		name = "Kaiser Wilhelm III"
+		desc = "POLITICS_WILHELM_III_DESC"
+		picture = "Portrait_Wilhelm_III.tga"
+		expire = "1965.1.1"
+		ideology = paternal_state
+		traits = {
+			
+		}
+	}
  } 
 
  } 
@@ -510,7 +589,7 @@ id = GER_appeasetheworkingclass
 icon = GFX_goal_unknown
 x = 2
 y = 1
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_unitymakesstrength } 
 ai_will_do = { 
@@ -528,7 +607,7 @@ id = GER_welfareprograms
 icon = GFX_goal_generic_national_unity
 x = 4
 y = 2
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheworkingclass } 
 ai_will_do = { 
@@ -565,7 +644,7 @@ id = GER_appeasetheelites
 icon = GFX_goal_unknown
 x = 8
 y = 1
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_unitymakesstrength } 
 ai_will_do = { 
@@ -583,7 +662,7 @@ id = GER_negotiatewiththeunions
 icon = GFX_goal_generic_production
 x = 1
 y = 3
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheworkingclass } 
 mutually_exclusive = { focus = GER_approachcrownprincewilhelm } 
@@ -620,7 +699,38 @@ prerequisite = { focus = GER_constructoilrefineries }
 ai_will_do = { 
  factor = 1
  } 
-
+completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+}
  } 
 
 #Focus for Construct Oil Refineries
@@ -650,7 +760,39 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_constructoilrefineries } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+ completion_reward = {
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = arms_factory
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+} 
 
  } 
 
@@ -666,6 +808,13 @@ prerequisite = { focus = GER_scientificresearchgrants }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = radar_tech
+	}
+ }
 
  } 
 
@@ -815,6 +964,36 @@ completion_reward = {
 		bonus = 1.0
 		uses = 1
 		category = industry
+	}
+	random_owned_controlled_state = {
+		limit = {
+			free_building_slots = {
+				building = industrial_complex
+				size > 0
+				include_locked = yes
+			}
+			OR = {
+				is_in_home_area = yes
+				NOT = {
+					owner = {
+						any_owned_state = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+							is_in_home_area = yes
+						}
+					}
+				}
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
 	}
 }
  } 
@@ -1374,7 +1553,7 @@ id = GER_westerndealings
 icon = GFX_goal_unknown
 x = 42
 y = 1
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_ourplaceinthesun } 
 ai_will_do = { 

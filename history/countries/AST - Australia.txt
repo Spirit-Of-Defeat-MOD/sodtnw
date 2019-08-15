@@ -89,4 +89,14 @@ set_popularities = {
         nihilistic_extremism = 0
 }
 
+create_country_leader = {
+	name = "Sir Henry George Chauvel"
+	desc = ""
+	picture = "gfx/leaders/AST/Henry_Chauvel.dds"
+	ideology = social_democracy_subtype
+	traits = {
+		#
+	}
+}
+
 set_convoys = 100

@@ -33,7 +33,7 @@ focus_tree = {
 	focus = {# Limit Power
 		id = RHI_limit_commission
 		icon = GFX_unknown
-		cost = 10
+		cost = 3
 		x = 9
 		y = 1
 		ai_will_do = {
@@ -69,7 +69,7 @@ focus_tree = {
 	
 	focus = {# Meet with Opposition
 		id = RHI_meet_politicians
-		icon = GFX_unknown
+		icon = GFX_RHI_meet_politicians
 		cost = 10
 		x = 10
 		y = 3
@@ -166,7 +166,7 @@ focus_tree = {
 	
 	focus = {# German Republic
 		id = RHI_the_republic
-		icon = GFX_unknown
+		icon = GFX_RHI_german_republic
 		cost = 10
 		x = 9
 		y = 5

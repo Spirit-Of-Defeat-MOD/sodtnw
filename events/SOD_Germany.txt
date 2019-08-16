@@ -151,8 +151,9 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.07
 		}
+		
+		add_ideas = amended_constitution
 		complete_national_focus = GER_protectlaborrights
-	
 	}
 	#Deny Labor Rights - Eventually will lead to strikes, riots, civil war (Once we get to that lol)
 	option = {

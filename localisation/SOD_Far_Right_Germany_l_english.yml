@@ -87,6 +87,8 @@ sour_loser:0 "Bitter Loser"
 sour_loser_desc:0 "The Treaty of Versailles humiliated the German nation, stripping us of everything we had ever worked for. We were so close... so close to achieving victory, so close to taking Paris, so close to taking Rome. If it wasn't those damn Allies that had shown up in France and those traitors who stabbed us in the back in the home front! We will not stand for this! Germany shall rise once again, like a phoenix rising from the ashes. We are that phoenix, and we will show them, we will take revenge! Our goal in the First World War was to crush the Allied powers, and that, as Gott as our witness, is what we will do, to finish what we started two decades prior! Gott Mit Uns!"
 general_staff:0 "German General Staff"
 general_staff_desc:0 "The German General Staff, officially the Great General Staff, is responsible for the continuous study of all aspects of war, whether it be sea or land or air. Some of what they do include the drafting and reviewing of plans for mobilization or campaign. This contributes to a higher level of organization and discipline in the army."
+amended_constitution:0 "Amended Constitution"
+amended_constitution_desc:0 "The 1923 Constitution has been amended to legally recognize worker's unions and allow them basic rights. This will ease tensions between our regime and the labor movements - nonetheless, this compromise does legitimize these organizations. As such we can expect that their voices will become louder and harder to ignore..."
  
 #Events
 germany.1.t:0 "Germany Introduction"

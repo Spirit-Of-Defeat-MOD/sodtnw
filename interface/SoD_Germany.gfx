@@ -45,9 +45,4 @@ spriteTypes = {
 		name = "GFX_idea_black_reichswehr"
 		texturefile = "gfx/interface/ideas/GER/black_reichswehr.tga"
 	}
-	
-	spriteType = {
-		name = "GFX_idea_amended_constitution"
-		texturefile = "gfx/interface/ideas/GER/amended_constitution.tga"
-	}
 }

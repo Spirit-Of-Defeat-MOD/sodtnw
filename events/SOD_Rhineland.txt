@@ -44,7 +44,7 @@ country_event = {
 	id = rhine_political.2
 	title = rhine_political.2.t
 	desc = rhine_political.2.d
-	picture = news_event_german_soldiers
+	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
 	
@@ -55,10 +55,10 @@ country_event = {
 	
     }
 	
-	option = {
-		name = rhine_political.2.b
-		set_country_flag = move_to_expansion
-	
-    }
+	#option = {
+	#	name = rhine_political.2.b
+	#	set_country_flag = move_to_expansion
+	#
+    #}
 }
 

@@ -94,7 +94,8 @@ rhine_political.1.a:0 "Let the debate begin"
 
 rhine_political.2.t:0 "the Commission Debate"
 rhine_political.2.d:0 ""
-rhine_political.2.a:0 "Time to vote"
+rhine_political.2.a:0 "Move to Abolish the Commission"
+rhine_political.2.b:0 "Move to Expand the Commission"
 
 #Flags
 move_to_abolition:0 "The Commission has decided to abolish itself."

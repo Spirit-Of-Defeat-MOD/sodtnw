@@ -848,6 +848,52 @@ ai_will_do = {
 
  } 
 
+focus = { 
+id = GER_x
+icon = GFX_goal_generic
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_shipyardinvestments } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for whatever
+focus = { 
+id = GER_x2
+icon = GFX_goal_generic
+x = 18
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_navalinnovations } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+focus = { 
+id = GER_a_better_germany
+icon = GFX_goal_generic
+x = 15
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_x } 
+prerequisite = { focus = GER_x2 } 
+prerequisite = { focus = GER_civilianbuildup2 } 
+prerequisite = { focus = GER_militarybuildup2 } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
 #Focus for Address Economic Stagnation
 focus = { 
 id = GER_addresseconomicstagnation

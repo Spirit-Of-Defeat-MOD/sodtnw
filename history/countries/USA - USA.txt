@@ -148,11 +148,11 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Andrew Mellon"
-	desc = "POLITICS_ANDREW_MELLON_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	name = "Ogden Mills"
+	desc = "POLITICS_OGDEN_MILLS_DESC"
+	picture = "Portrait_Ogden-Mills.tga"
 	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
+	ideology = market_liberalism
 	traits = {
 		
 	}

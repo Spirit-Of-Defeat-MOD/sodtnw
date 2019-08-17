@@ -1,5 +1,5 @@
 ﻿###########################
-# Germany Events by SneakierTech, Lord of Livonia
+# Germany Events by SneakierTech
 ###########################
 
 add_namespace = germany
@@ -9,14 +9,181 @@ country_event = {
 	id = germany.1
 	title = germany.1.t
 	desc = germany.1.d
-	picture = GFX_report_event_generic_usa_treaty
+	picture = news_event_german_soldiers
 
 	fire_only_once = yes
 	
 	
-	
 	option = {
 		name = germany.1.a
+		add_political_power = 1
+	
+    }
+}
+#Working Class
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = news_event_generic_strike
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Meager Compromise
+	option = {
+		name = germany.2.a
+		add_political_power = 1
+		country_event = { id = germany.3 }
+	
+    }
+
+	#Moderate Compromise
+	option = {
+		name = germany.2.b
+		add_political_power = 1
+		country_event = { id = germany.4 }
+	
+    }
+	
+	#Drastic Compromise
+	option = {
+		name = germany.2.c
+		add_political_power = 1
+		country_event = { id = germany.5 }
+	
+    }
+}
+
+#Meager Compromise
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	#40 hour WK - monthly stability growth probably
+	option = {
+		name = germany.3.a
+		add_political_power = 1
+	
+	}
+	#Tax Credits - monthly population growth
+	option = {
+		name = germany.3.b
+		add_political_power = 1
+	
+    }
+}
+
+#Moderate Compromise
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	#Healthcare - plus consumer goods and recruitable percentage
+	option = {
+		name = germany.4.a
+		add_political_power = 1
+	
+	}
+	#Unemployment Benefits - minus political power gain and plus stability
+	option = {
+		name = germany.4.b
+		add_political_power = 1
+	
+    }
+}
+
+#Drastic Compromise
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	
+	option = {
+		name = germany.5.a
+		add_political_power = 1
+	
+	}
+	option = {
+		name = germany.5.b
+		add_political_power = 1
+		country_event = { id = germany.6 }
+		complete_national_focus = GER_negotiatewiththeunions
+	
+    }
+}
+
+#Union Debate
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	#Pass The Reforms - boosts leftwing parties (they gain influence) minus political power (reforms occupy the bureaucracy and whatnot) adds stability
+	option = {
+		name = germany.6.a
+		add_political_power = -100
+		add_stability = 0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		add_ideas = amended_constitution
+		complete_national_focus = GER_protectlaborrights
+	
+	}
+	#Deny Labor Rights - Eventually will lead to strikes, riots, civil war (Once we get to that lol)
+	option = {
+		name = germany.6.b
+		add_political_power = -250
+		add_stability = -0.05
+		custom_effect_tooltip = 1_GER_tt
+	
+    }
+}
+
+#Appease The Eltes
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	
+	#Industrialists - will increase production to simulate investment
+	option = {
+		name = germany.7.a
+		add_political_power = 1
+	
+	}
+	#Junkers - will give political power gain to simulate nepotism
+	option = {
+		name = germany.7.b
 		add_political_power = 1
 	
     }

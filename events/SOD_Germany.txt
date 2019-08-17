@@ -63,6 +63,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	
 	#40 hour WK - monthly stability growth probably
@@ -87,6 +88,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	
 	#Healthcare - plus consumer goods and recruitable percentage
@@ -111,6 +113,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	
 	
@@ -136,6 +139,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	
 	#Pass The Reforms - boosts leftwing parties (they gain influence) minus political power (reforms occupy the bureaucracy and whatnot) adds stability
@@ -173,6 +177,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	
 	#Industrialists - will increase production to simulate investment

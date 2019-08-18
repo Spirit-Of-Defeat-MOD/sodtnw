@@ -97,5 +97,29 @@ rhine_political.2.d:0 ""
 rhine_political.2.a:0 "Move to Abolish the Commission"
 rhine_political.2.b:0 "Move to Expand the Commission"
 
+rhine_himmler.1.t:0 "Terrorists Bomb Factories In The Rhineland"
+rhine_himmler.1.d:0 "Two large explosions were heard in Bonn this morning. Authorities were in utter shock as they saw the horiffic damages caused by these attacks. Five people in total have been confirmed dead; another two dozen have been hospitalized. The target of the attack was an industrial building manufacturing goods to be exported to France. Although the investigations are still underway, all signs point to Himmler's Organisation Consul being behind the attacks. Garrisons in the area have been place on high alert."
+rhine_himmler.1.a:0 "May God Have Mercy On Us All..."
+
+rhine_himmler.2.t:0 "French Citizens Held Hostage"
+rhine_himmler.2.d:0 "Three French citizens were abducted by the Organisation Consul in Köln. Letters have been sent to the offices of our governing commission demanding the dissolvement of our government and the complete withdrawal of foreign troops. They state that, if we do not comply with their demands, the French hostages will 'drown in their own blood and face a fate worse than any other'. This is not the first crisis we've faced, and it won't be the last; but lately, these terrorists have grown bolder and more violent."
+rhine_himmler.2.a:0 "We Will Never Negotiate With Terrorists!"
+rhine_himmler.2.b:0 "Perhaps We Can Reason With Them"
+
+rhine_himmler.3.t:0 "Kölner Karneval Massacre"
+rhine_himmler.3.d:0 "In one of the worst massacres in history, Himmler's terrorists massacred hundreds of innocent civilians and killed several police officers and military personnel. Dozens of armed radicals stormed the carnival events and laid waste to anyone present. Before large numbers of troops could be dispatched to put down the terrorists, they seemingly disappeared. The unpredictable nature of these attacks eludes us... we struggle to predict and prepare for them. The sickening depravity of this terrorism is unlike anything we've ever witnessed."
+rhine_himmler.3.a:0 "Himmler's Terrorists Will Pay For This..."
+rhine_himmler.3.b:0 "All Hope Seems To Be Lost..."
+
+rhine_himmler.4.t:0 "Teens Abducted From Schools"
+rhine_himmler.4.d:0 "Across our territory, incidents have been popping up of children and teens being abducted by terrorists. Evidence leads us to Himmler's Organisation Consul being behind these kidnappings, in addition to various other attacks and massacres."
+rhine_himmler.4.a:0 "May He Rot In Hell!"
+rhine_himmler.4.b:0 "Even The Children Are No Longer Safe..."
+
+rhine_himmler.5.t:0 "Terrorist Plot Foiled"
+rhine_himmler.5.d:0 "Security forces have just foiled a plot by the terrorists to release toxic mustard gas in the city of Düren, one of the wealthiest and most productive cities in the Rhine. We managed to capture the terrorist before he could execute the attack - but if we hadn't, dozens of lives could have been lost. Our attempts to interrogate the captive terrorist have failed to yield any useful intelligence on the group's plots, organization, or source of funding. This potential lead has turned into a dead end, and this terrorist has seemingly outlived his usefulness."
+rhine_himmler.5.a:0 "Justice Is Best Served With Lead"
+rhine_himmler.5.b:0 "Perhaps We Should Keep Him Around A Bit Longer"
+
 #Flags
 move_to_abolition:0 "The Commission has decided to abolish itself."

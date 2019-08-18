@@ -1,0 +1,28 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 1440000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			12702 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		 1955 12702 10791
+	}
+}

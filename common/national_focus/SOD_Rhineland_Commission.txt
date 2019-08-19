@@ -64,6 +64,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RHI_establish_council"
+			country_event = { id = rhine_political.3 days = 1}
 		}
 	}
 	

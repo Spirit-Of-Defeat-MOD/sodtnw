@@ -1,0 +1,191 @@
+﻿###########################
+# Himmler Events by SneakierTech
+###########################
+
+add_namespace = rhine_himmler
+
+
+country_event = {
+	id = rhine_himmler.1
+	title = rhine_himmler.1.t
+	desc = rhine_himmler.1.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = rhine_himmler.1.a
+		
+	
+    }
+	
+}
+
+country_event = {
+	id = rhine_himmler.2
+	title = rhine_himmler.2.t
+	desc = rhine_himmler.2.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = rhine_himmler.2.a
+		
+	
+    }
+}
+
+	country_event = {
+		id = rhine_himmler.3
+		title = rhine_himmler.3.t
+		desc = rhine_himmler.3.d
+		picture = GFX_report_event_election_vote
+	
+		is_triggered_only = yes
+		
+		
+		option = {
+			name = rhine_himmler.3.a
+			
+		
+		}
+		
+		option = {
+			name = rhine_himmler.3.b
+			
+		
+		}
+
+		country_event = {
+			id = rhine_himmler.4
+			title = rhine_himmler.4.t
+			desc = rhine_himmler.4.d
+			picture = GFX_report_event_election_vote
+		
+			is_triggered_only = yes
+			
+			
+			option = {
+				name = rhine_himmler.4.a
+				
+			
+			}
+			
+			option = {
+				name = rhine_himmler.4.b
+				
+			
+			}
+
+country_event = {
+	id = rhine_himmler.5
+	title = rhine_himmler.5.t
+	desc = rhine_himmler.5.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.5.a
+	}
+				
+	option = {
+		name = rhine_himmler.5.b
+	}
+
+}
+
+country_event = {
+	id = rhine_himmler.6
+	title = rhine_himmler.6.t
+	desc = rhine_himmler.6.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.6.a
+	}
+				
+	option = {
+		name = rhine_himmler.6.b
+	}
+}
+
+country_event = {
+	id = rhine_himmler.7
+	title = rhine_himmler.7.t
+	desc = rhine_himmler.7.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.7.a
+	}
+				
+	option = {
+		name = rhine_himmler.7.b
+	}
+}
+
+country_event = {
+	id = rhine_himmler.8
+	title = rhine_himmler.8.t
+	desc = rhine_himmler.8.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.8.a
+	}
+				
+	option = {
+		name = rhine_himmler.8.b
+	}
+}
+
+country_event = {
+	id = rhine_himmler.9
+	title = rhine_himmler.9.t
+	desc = rhine_himmler.9.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.9.a
+	}
+				
+	option = {
+		name = rhine_himmler.9.b
+	}
+}
+
+country_event = {
+	id = rhine_himmler.10
+	title = rhine_himmler.10.t
+	desc = rhine_himmler.10.d
+	picture = GFX_report_event_election_vote
+			
+	is_triggered_only = yes
+			
+			
+	option = {
+		name = rhine_himmler.10.a
+	}
+				
+	option = {
+		name = rhine_himmler.10.b
+	}
+}
+

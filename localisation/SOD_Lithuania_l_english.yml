@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+LIT_fascism_party:0 "GV"
+LIT_fascism_party_long:0 "Geležinis Vilkas"
+LIT_communism_party:0 "LKP"
+LIT_communism_party_long:0 "Lietuvos Komunistų Partija"
+LIT_democratic_party:1 "LKDP"
+LIT_democratic_party_long:0 "Lietuvos Krikščionių Demokratų Partija"
+LIT_utilitarian_despot_party:0 "LTS"
+LIT_utilitarian_despot_party_long:0 "Lietuvių Tautininkų Ir Respublikonų Sąjunga"
+LIT_neutrality_party:0 ""
+LIT_neutrality_party_long:0 ""
+LIT_social_democracy_party:0 "LSDP"
+LIT_social_democracy_party_long:0 "Lietuvos Socialdemokratų Partija"
+LIT_social_liberal_party:0 "LVLS"
+LIT_social_liberal_party_long:0 "Lietuvos Valstiečių Liaudininkų Sajunga"
+LIT_classic_liberal_party:0 "ŪP"
+LIT_classic_liberal_party_long:0 "Ūkininkų Partija"
+LIT_totalitarian_socialism_party:0 "LBKP"
+LIT_totalitarian_socialism_party_long:0 "Lietuvos Ir Baltarusijos Komunistų Partija (Bolševikai)"
+LIT_revolutionary_socialism_party:0 ""
+LIT_revolutionary_socialism_party_long:0 ""
+LIT_democratic_socialism_party:0 "LSLDP"
+LIT_democratic_socialism_party_long:0 "Lietuvos Socialistų Liaudininkų Demokratų Partija"
+LIT_nihilistic_extremism_party:0 ""
+LIT_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ LIT_fascism:0 "Lithuania"
+ LIT_fascism_DEF:0 "Lithuania"
+ LIT_nihilistic_extremism:0 "Lithuania"
+ LIT_nihilistic_extremism_DEF:0 "Lithuania"
+ LIT_totalitarian_socialism:0 "Lithuanian Socialist Republic"
+ LIT_totalitarian_socialism_DEF:0 "the Lithuanian Socialist Republic"
+ LIT_utilitarian_despot:0 "Lithuania"
+ LIT_utilitarian_despot_DEF:0 "Lithuania"
+ LIT_democratic:0 "Lithuania"
+ LIT_democratic_DEF:0 "Lithuania"
+ LIT_neutrality:1 "Lithuania"
+ LIT_neutrality_DEF:1 "Lithuania"
+ LIT_democratic_socialism:0 "Lithuania"
+ LIT_democratic_socialism_DEF:0 "Lithuania"
+ LIT_revolutionary_socialism:0 "Lithuania"
+ LIT_revolutionary_socialism_DEF:0 "Lithuania"
+ LIT_social_democracy:0 "Lithuania"
+ LIT_social_democracy_DEF:0 "Lithuania"
+ LIT_social_liberal:0 "Lithuania"
+ LIT_social_liberal_DEF:0 "Lithuania"
+ LIT_classic_liberal:0 "Lithuania"
+ LIT_classic_liberal_DEF:0 "Lithuania"
+ LIT_communism:0 "Lithuanian Socialist Republic"
+ LIT_communism_DEF:0 "the Lithuanian Socialist Republic"
+ 
+ LIT_fascism_ADJ:0 "Lithuanian"
+ LIT_fascism_ADJ:0 "Lithuanian"
+ LIT_totalitarian_socialism:0 "Lithuanian"
+ LIT_democratic_ADJ:0 "Lithuanian"
+ LIT_utilitarian_despot_ADJ:0 "Lithuanian"
+ LIT_democratic_socialism_ADJ:0 "Lithuanian"
+ LIT_neutrality_ADJ:0 "Lithuanian"
+ LIT_revolutionary_socialism:0 "Lithuanian"
+ LIT_social_democracy_ADJ:0 "Lithuanian"
+ LIT_social_liberal_ADJ:0 "Lithuanian"
+ LIT_classic_liberal_ADJ:0 "Lithuanian"
+ LIT_communism_ADJ:0 "Lithuanian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

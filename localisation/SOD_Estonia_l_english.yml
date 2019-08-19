@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+EST_fascism_party:0 ""
+EST_fascism_party_long:0 ""
+EST_communism_party:0 "EKP"
+EST_communism_party_long:0 "Eestimaa Kommunistlik Partei"
+EST_democratic_party:1 "AVK"
+EST_democratic_party_long:0 "Asunikkude Ning Väikemaapidajate Koondis"
+EST_utilitarian_despot_party:0 "Vaps Movement"
+EST_utilitarian_despot_party_long:0 "Eesti Vabadussõjalaste Keskliit"
+EST_neutrality_party:0 "Isamaaliit"
+EST_neutrality_party_long:0 "Isamaaliit"
+EST_social_democracy_party:0 "ESTP"
+EST_social_democracy_party_long:0 "Eesti Sotsiaaldemokraatiline Tööliste Partei"
+EST_social_liberal_party:0 "RVP"
+EST_social_liberal_party_long:0 "Rahvuslik Vabameelne Partei"
+EST_classic_liberal_party:0 "RKE"
+EST_classic_liberal_party_long:0 "Rahvuslik Keskerakond"
+EST_totalitarian_socialism_party:0 "EKP"
+EST_totalitarian_socialism_party_long:0 "Eestimaa Kommunistlik Partei"
+EST_revolutionary_socialism_party:0 "EISTP"
+EST_revolutionary_socialism_party_long:0 "Eesti Iseseisev Sotsialistlik Tööliste Partei"
+EST_democratic_socialism_party:0 "ETE"
+EST_democratic_socialism_party_long:0 "Eesti Tööerakond"
+EST_nihilistic_extremism_party:0 ""
+EST_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ EST_fascism:0 "Republic of Estonia"
+ EST_fascism_DEF:0 "the Republic of Estonia"
+ EST_nihilistic_extremism:0 "Republic of Estonia"
+ EST_nihilistic_extremism_DEF:0 "the Republic of Estonia"
+ EST_totalitarian_socialism:0 "Republic of Estonia"
+ EST_totalitarian_socialism_DEF:0 "the Republic of Estonia"
+ EST_utilitarian_despot:0 "Republic of Estonia"
+ EST_utilitarian_despot_DEF:0 "the Republic of Estonia"
+ EST_democratic:0 "Republic of Estonia"
+ EST_democratic_DEF:0 "the Republic of Estonia"
+ EST_neutrality:1 "Republic of Estonia"
+ EST_neutrality_DEF:1 "the Republic of Estonia"
+ EST_democratic_socialism:0 "Republic of Estonia"
+ EST_democratic_socialism_DEF:0 "the Republic of Estonia"
+ EST_revolutionary_socialism:0 "Republic of Estonia"
+ EST_revolutionary_socialism_DEF:0 "the Republic of Estonia"
+ EST_social_democracy:0 "Republic of Estonia"
+ EST_social_democracy_DEF:0 "the Republic of Estonia"
+ EST_social_liberal:0 "Republic of Estonia"
+ EST_social_liberal_DEF:0 "the Republic of Estonia"
+ EST_classic_liberal:0 "Republic of Estonia"
+ EST_classic_liberal_DEF:0 "the Republic of Estonia"
+ EST_communism:0 "Republic of Estonia"
+ EST_communism_DEF:0 "the Republic of Estonia"
+ 
+ EST_fascism_ADJ:0 "Estonian"
+ EST_fascism_ADJ:0 "Estonian"
+ EST_totalitarian_socialism:0 "Estonian"
+ EST_democratic_ADJ:0 "Estonian"
+ EST_utilitarian_despot_ADJ:0 "Estonian"
+ EST_democratic_socialism_ADJ:0 "Estonian"
+ EST_neutrality_ADJ:0 "Estonian"
+ EST_revolutionary_socialism:0 "Estonian"
+ EST_social_democracy_ADJ:0 "Estonian"
+ EST_social_liberal_ADJ:0 "Estonian"
+ EST_classic_liberal_ADJ:0 "Estonian"
+ EST_communism_ADJ:0 "Estonian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

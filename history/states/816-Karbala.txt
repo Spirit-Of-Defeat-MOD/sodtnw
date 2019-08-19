@@ -1,0 +1,20 @@
+state={
+	id=816
+	name="STATE_816" # Karbala
+	manpower = 16101
+	
+	state_category = wasteland
+	impassable = no
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IRQ
+	}
+
+	provinces={
+		3795 8001 10876 12046 12839  
+	}
+}

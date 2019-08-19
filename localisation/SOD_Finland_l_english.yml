@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+FIN_fascism_party:0 "IK"
+FIN_fascism_party_long:0 "Isänmaallinen Kansanliike"
+FIN_communism_party:0 "SKDL (C)"
+FIN_communism_party_long:0 "Suomen Kansan Demokraattinen Liitto (Communists)"
+FIN_democratic_party:0 "KOK"
+FIN_democratic_party_long:0 "Kansallinen Kokoomus"
+FIN_utilitarian_despot_party:0 "IL"
+FIN_utilitarian_despot_party_long:0 "Itsenäisyyden Liitto"
+FIN_neutrality_party:0 "AKS"
+FIN_neutrality_party_long:0 "Akateeminen Karjala-Seura"
+FIN_social_democracy_party:0 "SDP"
+FIN_social_democracy_party_long:0 "Suomen Sosialidemokraattinen Puolue"
+FIN_social_liberal_party:0 "KE"
+FIN_social_liberal_party_long:0 "Kansallinen Edistyspuolue"
+FIN_classic_liberal_party:0 "ML"
+FIN_classic_liberal_party_long:0 "Maalaisliitto"
+FIN_totalitarian_socialism_party:0 "SKP"
+FIN_totalitarian_socialism_party_long:0 "Suomen Kommunistinen Puolue"
+FIN_revolutionary_socialism_party:0 "SSTP"
+FIN_revolutionary_socialism_party_long:0 "Suomen Sosialistinen Työväenpuolue"
+FIN_democratic_socialism_party:0 "SKDL (DS)"
+FIN_democratic_socialism_party_long:0 "Suomen Kansan Demokraattinen Liitto (Democratic Socialists)"
+FIN_nihilistic_extremism_party:0 "VV"
+FIN_nihilistic_extremism_party_long:0 "Vihan Veljet"
+
+#Country Names
+ FIN_fascism:0 "Republic of Finland"
+ FIN_fascism_DEF:0 "the Republic of Finland"
+ FIN_nihilistic_extremism:0 "Republic of Finland"
+ FIN_nihilistic_extremism_DEF:0 "the Republic of Finland"
+ FIN_totalitarian_socialism:0 "People's Republic of Finland"
+ FIN_totalitarian_socialism_DEF:0 "the People's Republic of Finland"
+ FIN_utilitarian_despot:0 "Republic of Finland"
+ FIN_utilitarian_despot_DEF:0 "the Republic of Finland"
+ FIN_democratic:0 "Republic of Finland"
+ FIN_democratic_DEF:0 "the Republic of Finland"
+ FIN_neutrality:1 "Republic of Finland"
+ FIN_neutrality_DEF:1 "the Republic of Finland
+ FIN_democratic_socialism:0 "Republic of Finland"
+ FIN_democratic_socialism_DEF:0 "the Republic of Finland"
+ FIN_revolutionary_socialism:0 "Republic of Finland"
+ FIN_revolutionary_socialism_DEF:0 "the Republic of Finland"
+ FIN_social_democracy:0 "Republic of Finland"
+ FIN_social_democracy_DEF:0 "the Republic of Finland"
+ FIN_social_liberal:0 "Republic of Finland"
+ FIN_social_liberal_DEF:0 "the Republic of Finland"
+ FIN_classic_liberal:0 "Republic of Finland"
+ FIN_classic_liberal_DEF:0 "the Republic of Finland"
+ FIN_communism:0 "People's Republic of Finland"
+ FIN_communism_DEF:0 "the People's Republic of Finland"
+ 
+ FIN_fascism_ADJ:0 "Finnish"
+ FIN_nihilistic_extremism_ADJ:0 "Finnish"
+ FIN_totalitarian_socialism:0 "Finnish"
+ FIN_democratic_ADJ:0 "Finnish"
+ FIN_utilitarian_despot_ADJ:0 "Finnish"
+ FIN_democratic_socialism_ADJ:0 "Finnish"
+ FIN_neutrality_ADJ:0 "Finnish"
+ FIN_revolutionary_socialism:0 "Finnish"
+ FIN_social_democracy_ADJ:0 "Finnish"
+ FIN_social_liberal_ADJ:0 "Finnish"
+ FIN_classic_liberal_ADJ:0 "Finnish"
+ FIN_communism_ADJ:0 "Finnish"
+
+#Ministers
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

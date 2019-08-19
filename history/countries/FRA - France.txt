@@ -135,11 +135,11 @@ add_ideas = {
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	name = "Franchet d'Esperey"
+	desc = "POLITICS_FRANCHET_ESPEREY_DESC"
+	picture = "Portrait_Franchet_Esperey.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = traditionalism
 	traits = {
 		stout_defender
 	}

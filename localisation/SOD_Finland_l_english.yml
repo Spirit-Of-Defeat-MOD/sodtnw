@@ -1,22 +1,22 @@
 ﻿l_english: 
 
 #Parties
-FIN_fascism_party:0 "IK"
+FIN_fascism_party:0 "IKL"
 FIN_fascism_party_long:0 "Isänmaallinen Kansanliike"
 FIN_communism_party:0 "SKDL (C)"
 FIN_communism_party_long:0 "Suomen Kansan Demokraattinen Liitto (Communists)"
 FIN_democratic_party:0 "KOK"
 FIN_democratic_party_long:0 "Kansallinen Kokoomus"
-FIN_utilitarian_despot_party:0 "IL"
-FIN_utilitarian_despot_party_long:0 "Itsenäisyyden Liitto"
-FIN_neutrality_party:0 "AKS"
-FIN_neutrality_party_long:0 "Akateeminen Karjala-Seura"
+FIN_utilitarian_despot_party:0 "AKS"
+FIN_utilitarian_despot_party_long:0 "Akateeminen Karjala-Seura"
+FIN_neutrality_party:0 "IL"
+FIN_neutrality_party_long:0 "Itsenäisyyden Liitto"
 FIN_social_democracy_party:0 "SDP"
 FIN_social_democracy_party_long:0 "Suomen Sosialidemokraattinen Puolue"
-FIN_social_liberal_party:0 "KE"
-FIN_social_liberal_party_long:0 "Kansallinen Edistyspuolue"
-FIN_classic_liberal_party:0 "ML"
-FIN_classic_liberal_party_long:0 "Maalaisliitto"
+FIN_social_liberal_party:0 "ML"
+FIN_social_liberal_party_long:0 "Maalaisliitto"
+FIN_classic_liberal_party:0 "KE"
+FIN_classic_liberal_party_long:0 "Kansallinen Edistyspuolue"
 FIN_totalitarian_socialism_party:0 "SKP"
 FIN_totalitarian_socialism_party_long:0 "Suomen Kommunistinen Puolue"
 FIN_revolutionary_socialism_party:0 "SSTP"
@@ -76,7 +76,7 @@ FIN_nihilistic_extremism_party_long:0 "Vihan Veljet"
 #should be reintegrated
 
 #Descriptions
-POLITICS_ELMO_KAILA_DESC:0 "The founder of the Vihan Veljet, or the 'Brotherhood of Hate', Kaila sought to unite all Finnish and Karelian peoples under the banner of a Greater Finland. Casually he would describe his movement as a 'rush of hatred'. His militant clandestine group, inspired by Himmler's Organisation Consul, would proclaim the necessity for an 'eternal rage' against Russia and all Russians. All members of the Vihan Veljet would be forced to undergo a blood oath, proclaiming their hatred for Russia. Additionally, Kaila would argue for the necessity of purging ethnic Russians and ex-Tsarist officers from the military - arguing that members of the hockey teams would even be a sufficient replacement for them, as even the hockey players were more loyal. Over time, the group would begin to adopt anti-Swedish rhetoric in addition to their virulent anti-Russian views. Kaila nonetheless, has denounced the anti-Swedish perspective of many of his subordinates - arguing that there is no greater danger to the Finnish way of life than the 'Russian threat'."
+POLITICS_ELMO_KAILA_DESC:0 "The founder of the Vihan Veljet, or the 'Brotherhood of Hate', Kaila sought to unite all Finnish and Karelian peoples under the banner of a Greater Finland. Casually he would describe his movement as a 'rush of hatred'. His militant clandestine group, inspired by Himmler's Organisation Consul, would proclaim the necessity for an 'eternal rage' against Russia and all Russians. All members of the Vihan Veljet would be forced to undergo a blood oath, proclaiming their hatred for Russia. Additionally, Kaila would argue for the necessity of purging ethnic Russians and ex-Tsarist officers from the military - arguing that the Jaegers would be a sufficient replacement for them. Over time, the group would begin to adopt anti-Swedish rhetoric in addition to their virulent anti-Russian views. Kaila nonetheless, has denounced the anti-Swedish perspective of many of his subordinates - arguing that there is no greater danger to the Finnish way of life than the 'Russian threat'."
 
 #cosmetic tags
  

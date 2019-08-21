@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+AEF_fascism_party:0 ""
+AEF_fascism_party_long:0 ""
+AEF_communism_party:0 ""
+AEF_communism_party_long:0 ""
+AEF_democratic_party:1 ""
+AEF_democratic_party_long:0 ""
+AEF_utilitarian_despot_party:0 "Colonial Administration"
+AEF_utilitarian_despot_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AEF_neutrality_party:0 "Colonial Administration"
+AEF_neutrality_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AEF_social_democracy_party:0 ""
+AEF_social_democracy_party_long:0 ""
+AEF_social_liberal_party:0 ""
+AEF_social_liberal_party_long:0 ""
+AEF_classic_liberal_party:0 ""
+AEF_classic_liberal_party_long:0 ""
+AEF_totalitarian_socialism_party:0 ""
+AEF_totalitarian_socialism_party_long:0 ""
+AEF_revolutionary_socialism_party:0 ""
+AEF_revolutionary_socialism_party_long:0 ""
+AEF_democratic_socialism_party:0 ""
+AEF_democratic_socialism_party_long:0 ""
+AEF_nihilistic_extremism_party:0 ""
+AEF_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+AEF_fascism:0 "French Equatorial Africa"
+AEF_fascism_DEF:0 "French Equatorial Africa"
+AEF_nihilistic_extremism:0 "French Equatorial Africa"
+AEF_nihilistic_extremism_DEF:0 "French Equatorial Africa"
+AEF_totalitarian_socialism:0 "French Equatorial Africa"
+AEF_totalitarian_socialism_DEF:0 "French Equatorial Africa"
+AEF_utilitarian_despot:0 "French Equatorial Africa"
+AEF_utilitarian_despot_DEF:0 "French Equatorial Africa"
+AEF_democratic:0 "French Equatorial Africa"
+AEF_democratic_DEF:0 "French Equatorial Africa"
+AEF_neutrality:1 "French Equatorial Africa"
+AEF_neutrality_DEF:1 "French Equatorial Africa"
+AEF_democratic_socialism:0 "French Equatorial Africa"
+AEF_democratic_socialism_DEF:0 "French Equatorial Africa"
+AEF_revolutionary_socialism:0 "French Equatorial Africa"
+AEF_revolutionary_socialism_DEF:0 "French Equatorial Africa"
+AEF_social_democracy:0 "French Equatorial Africa"
+AEF_social_democracy_DEF:0 "French Equatorial Africa"
+AEF_social_liberal:0 "French Equatorial Africa"
+AEF_social_liberal_DEF:0 "French Equatorial Africa"
+AEF_classic_liberal:0 "French Equatorial Africa"
+AEF_classic_liberal_DEF:0 "French Equatorial Africa"
+AEF_communism:0 "French Equatorial Africa"
+AEF_communism_DEF:0 "French Equatorial Africa"
+ 
+AEF_fascism_ADJ:0 "Equatorial African"
+AEF_fascism_ADJ:0 "Equatorial African"
+AEF_totalitarian_socialism_ADJ:0 "Equatorial African"
+AEF_democratic_ADJ:0 "Equatorial African"
+AEF_utilitarian_despot_ADJ:0 "Equatorial African"
+AEF_democratic_socialism_ADJ:0 "Equatorial African"
+AEF_neutrality_ADJ:0 "Equatorial African"
+AEF_revolutionary_socialism_ADJ:0 "Equatorial African"
+AEF_social_democracy_ADJ:0 "Equatorial African"
+AEF_social_liberal_ADJ:0 "Equatorial African"
+AEF_classic_liberal_ADJ:0 "Equatorial African"
+AEF_communism_ADJ:0 "Equatorial African"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

@@ -17,6 +17,7 @@ country_event = {
 	option = {
 		name = rhine_himmler.1.a
 		add_timed_idea = { idea = factories_sabotaged days = 120}
+		add_to_variable = { var = population_fear value = 5}
     }
 	
 }

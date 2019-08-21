@@ -1,4 +1,4 @@
-﻿capital = 772
+capital = 772
 
 oob = "AEF_1936"
 
@@ -18,24 +18,34 @@ set_politics = {
 
 set_popularities = {
 	totalitarian_socialism = 0
-	communism = 3
+	communism = 4
 	revolutionary_socialism = 0
 	democratic_socialism = 0
-        social_democracy = 4
-        social_liberal = 3
-        classic_liberal = 0
-        democratic = 0
-        neutrality = 9
-        utilitarian_despot = 81
+        social_democracy = 14
+        social_liberal = 8
+        classic_liberal = 4
+        democratic = 8
+        neutrality = 2
+        utilitarian_despot = 60
         fascism = 0
         nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Ahmed Ben Bella"
+	name = "Felix Eboue"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = utilitarian_despotism_subtype
+	picture = "Portrait_AEF_Felix_Eboue.tga"
+	ideology = utilitarian_despot_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Felix Eboue"
+	desc = ""
+	picture = "Portrait_AEF_Felix_Eboue.tga"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+SWE_fascism_party:0 "SNF"
+SWE_fascism_party_long:0 "Sveriges Nationella Förbund"
+SWE_communism_party:0 "SP"
+SWE_communism_party_long:0 "Socialistiska Partiet"
+SWE_democratic_party:0 "B"
+SWE_democratic_party_long:0 "Bondeförbundet"
+SWE_utilitarian_despot_party:0 "SO"
+SWE_utilitarian_despot_party_long:0 "Svensk Opposition" #fascists, but they wanted to unify all groups against democracy - so sort of a right wing anti-democracy group here
+SWE_neutrality_party:0 "KFP"
+SWE_neutrality_party_long:0 "Kyrkliga Folkpartiet"
+SWE_social_democracy_party:0 "SAP (M)"
+SWE_social_democracy_party_long:0 "Sveriges Socialdemokratiska Arbetareparti (Moderates)"
+SWE_social_liberal_party:0 "FL"
+SWE_social_liberal_party_long:0 "Folkpartiet Liberalerna"
+SWE_classic_liberal_party:0 "AV"
+SWE_classic_liberal_party_long:0 "Allmänna Valmansförbundet"
+SWE_totalitarian_socialism_party:0 "SKP"
+SWE_totalitarian_socialism_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_revolutionary_socialism_party:0 ""
+SWE_revolutionary_socialism_party_long:0 ""
+SWE_democratic_socialism_party:0 "SAP (R)"
+SWE_democratic_socialism_party_long:0 "Sveriges Socialdemokratiska Arbetareparti (Radicals)"
+SWE_nihilistic_extremism_party:0 "V"
+SWE_nihilistic_extremism_party_long:0 "Vikingarna" #youth league/paramilitary for Svenska nationalsocialistiska partiet
+
+#Country Names
+ SWE_fascism:0 "Kingdom of Sweden"
+ SWE_fascism_DEF:0 "Kingdom of Sweden"
+ SWE_nihilistic_extremism:0 "Kingdom of Sweden"
+ SWE_nihilistic_extremism_DEF:0 "Kingdom of Sweden"
+ SWE_totalitarian_socialism:0 "Kingdom of Sweden"
+ SWE_totalitarian_socialism_DEF:0 "Kingdom of Sweden"
+ SWE_utilitarian_despot:0 "Kingdom of Sweden"
+ SWE_utilitarian_despot_DEF:0 "Kingdom of Sweden"
+ SWE_democratic:0 "Kingdom of Sweden"
+ SWE_democratic_DEF:0 "Kingdom of Sweden"
+ SWE_neutrality:1 "Kingdom of Sweden"
+ SWE_neutrality_DEF:1 "Kingdom of Sweden
+ SWE_democratic_socialism:0 "Kingdom of Sweden"
+ SWE_democratic_socialism_DEF:0 "Kingdom of Sweden"
+ SWE_revolutionary_socialism:0 "Kingdom of Sweden"
+ SWE_revolutionary_socialism_DEF:0 "Kingdom of Sweden"
+ SWE_social_democracy:0 "Kingdom of Sweden"
+ SWE_social_democracy_DEF:0 "Kingdom of Sweden"
+ SWE_social_liberal:0 "Kingdom of Sweden"
+ SWE_social_liberal_DEF:0 "Kingdom of Sweden"
+ SWE_classic_liberal:0 "Kingdom of Sweden"
+ SWE_classic_liberal_DEF:0 "Kingdom of Sweden"
+ SWE_communism:0 "Kingdom of Sweden"
+ SWE_communism_DEF:0 "Kingdom of Sweden"
+ 
+ SWE_fascism_ADJ:0 "Swedish"
+ SWE_nihilistic_extremism_ADJ:0 "Swedish"
+ SWE_totalitarian_socialism_ADJ:0 "Swedish"
+ SWE_democratic_ADJ:0 "Swedish"
+ SWE_utilitarian_despot_ADJ:0 "Swedish"
+ SWE_democratic_socialism_ADJ:0 "Swedish"
+ SWE_neutrality_ADJ:0 "Swedish"
+ SWE_revolutionary_socialism_ADJ:0 "Swedish"
+ SWE_social_democracy_ADJ:0 "Swedish"
+ SWE_social_liberal_ADJ:0 "Swedish"
+ SWE_classic_liberal_ADJ:0 "Swedish"
+ SWE_communism_ADJ:0 "Swedish"
+
+#Ministers
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

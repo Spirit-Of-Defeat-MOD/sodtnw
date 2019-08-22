@@ -58,12 +58,12 @@ POLITICS_VON_SEECKT_DESC:0 "In the midst of chaos, Germany needed a strong leade
  
  GER_fascism_ADJ:0 "German"
  GER_nihilistic_extremism_ADJ:0 "German"
- GER_totalitarian_socialism:0 "German"
+ GER_totalitarian_socialism_ADJ:0 "German"
  GER_democratic_ADJ:0 "German"
  GER_utilitarian_despot_ADJ:0 "German"
  GER_democratic_socialism_ADJ:0 "German"
  GER_neutrality_ADJ:0 "German"
- GER_revolutionary_socialism:0 "German"
+ GER_revolutionary_socialism_ADJ:0 "German"
  GER_social_democracy_ADJ:0 "German"
  GER_social_liberal_ADJ:0 "German"
  GER_classic_liberal_ADJ:0 "German"
@@ -91,7 +91,7 @@ amended_constitution:0 "Amended Constitution"
  
 #Events
 germany.1.t:0 "Germany Introduction"
-germany.1.d:0 "The German Empire's defeat in the Great War brought chaos and revolutionary change to Germany. Large swathes of territories were stripped away, and costly war reparations devastated the German economy. The feeble republic, established in the aftermath of the war, was plagued with violence from rogue paramilitaries and revolutionaries. \n\ \n\On November 8th, 1923, the Deutsche Arbeiterpartei under the leadership of Adolph Hitler and Erich Ludendorff attempted to overthrow the government. In response to the coup attempt, martial law was declared and a nationalst triumvirate was formed. The triumvirate: Gustav von Kahr, General Otto von Lossow, and Colonel Hans Ritter von Seisser aligned themselves with the Minister of the Reichswehr, Hans von Seeckt. Hitler was shot by the Bavarian State Police, and General Ludendorff was arrested shortly after. \n\ \n\ Seeckt used the incident as justification to occupy the Reichstag and dissolve the government. The Schutzputsch, as it has come to be known, brought about the demise of the Weimar Republic. Since November of 1923, Germany has been a military dictatorship under Hans von Seeckt..."
+germany.1.d:0 "The German Empire's defeat in the Great War brought chaos and revolutionary change to Germany. Large swathes of territories were stripped away, and costly war reparations devastated the German economy. The feeble republic, established in the aftermath of the war, was plagued with violence from rogue paramilitaries and revolutionaries. \n\n On November 8th, 1923, the Deutsche Arbeiterpartei under the leadership of Adolph Hitler and Erich Ludendorff attempted to overthrow the government. In response to the coup attempt, martial law was declared and a nationalst triumvirate was formed. The triumvirate: Gustav von Kahr, General Otto von Lossow, and Colonel Hans Ritter von Seisser aligned themselves with the Minister of the Reichswehr, Hans von Seeckt. Hitler was shot by the Bavarian State Police, and General Ludendorff was arrested shortly after. \n\n Seeckt used the incident as justification to occupy the Reichstag and dissolve the government. The Schutzputsch, as it has come to be known, brought about the demise of the Weimar Republic. Since November of 1923, Germany has been a military dictatorship under Hans von Seeckt..."
 germany.1.a:0 "Enough With These Petty Ramblings..."
 germany.2.t:0 "Appeasing Working Class Germans"
 germany.2.d:0 "Despite our attempts over the last twelve years, our regime has been unable to appease large portions of the working class. Economic hardships and crackdowns against labor movements have worsened our ties with these groups. Despite the outlawing of the SPD and KPD, many Germans still pledge loyalty to these groups. We need to secure the loyalty of our populace as we prepare for war. It seems that we are going to have to make compromises in order to secure our long term goals..."

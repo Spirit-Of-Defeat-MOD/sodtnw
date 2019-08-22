@@ -25,7 +25,7 @@ SER_neutrality_party_long:0 "House of Karedordevic"
  SER_neutrality_DEF:1 "the Kingdom of Serbia"
   
  SER_fascism_ADJ:0 "Serbian"
- SER_totalitarian_socialism:0 "Serbian"
+ SER_totalitarian_socialism_ADJ:0 "Serbian"
  SER_democratic_ADJ:0 "Serbian"
  SER_utilitarian_despot_ADJ:0 "Serbian"
  SER_neutrality_ADJ:0 "Serbian"

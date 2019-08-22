@@ -1,0 +1,78 @@
+﻿l_english: 
+
+#Parties
+SYR_fascism_party:0 ""
+SYR_fascism_party_long:0 ""
+SYR_communism_party:0 ""
+SYR_communism_party_long:0 ""
+SYR_democratic_party:0 ""
+SYR_democratic_party_long:0 ""
+SYR_utilitarian_despot_party:0 ""
+SYR_utilitarian_despot_party_long:0 ""
+SYR_neutrality_party:0 "Fayṣal Regime"
+SYR_neutrality_party_long:0 "Fayṣal Regime"
+SYR_social_democracy_party:0 ""
+SYR_social_democracy_party_long:0 ""
+SYR_social_liberal_party:0 ""
+SYR_social_liberal_party_long:0 ""
+SYR_classic_liberal_party:0 ""
+SYR_classic_liberal_party_long:0 ""
+SYR_totalitarian_socialism_party:0 ""
+SYR_totalitarian_socialism_party_long:0 ""
+SYR_revolutionary_socialism_party:0 ""
+SYR_revolutionary_socialism_party_long:0 ""
+SYR_democratic_socialism_party:0 ""
+SYR_democratic_socialism_party_long:0 ""
+SYR_nihilistic_extremism_party:0 ""
+SYR_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ SYR_fascism:0 "Arab Kingdom of Syria"
+ SYR_fascism_DEF:0 "Arab Kingdom of Syria"
+ SYR_nihilistic_extremism:0 "Arab Kingdom of Syria"
+ SYR_nihilistic_extremism_DEF:0 "Arab Kingdom of Syria"
+ SYR_totalitarian_socialism:0 "Arab Kingdom of Syria"
+ SYR_totalitarian_socialism_DEF:0 "Arab Kingdom of Syria"
+ SYR_utilitarian_despot:0 "Arab Kingdom of Syria"
+ SYR_utilitarian_despot_DEF:0 "Arab Kingdom of Syria"
+ SYR_democratic:0 "Arab Kingdom of Syria"
+ SYR_democratic_DEF:0 "Arab Kingdom of Syria"
+ SYR_neutrality:1 "Arab Kingdom of Syria"
+ SYR_neutrality_DEF:1 "Arab Kingdom of Syria
+ SYR_democratic_socialism:0 "Arab Kingdom of Syria"
+ SYR_democratic_socialism_DEF:0 "Arab Kingdom of Syria"
+ SYR_revolutionary_socialism:0 "Arab Kingdom of Syria"
+ SYR_revolutionary_socialism_DEF:0 "Arab Kingdom of Syria"
+ SYR_social_democracy:0 "Arab Kingdom of Syria"
+ SYR_social_democracy_DEF:0 "Arab Kingdom of Syria"
+ SYR_social_liberal:0 "Arab Kingdom of Syria"
+ SYR_social_liberal_DEF:0 "Arab Kingdom of Syria"
+ SYR_classic_liberal:0 "Arab Kingdom of Syria"
+ SYR_classic_liberal_DEF:0 "Arab Kingdom of Syria"
+ SYR_communism:0 "Arab Kingdom of Syria"
+ SYR_communism_DEF:0 "Arab Kingdom of Syria"
+ 
+ SYR_fascism_ADJ:0 "Syrian"
+ SYR_nihilistic_extremism_ADJ:0 "Syrian"
+ SYR_totalitarian_socialism_ADJ:0 "Syrian"
+ SYR_democratic_ADJ:0 "Syrian"
+ SYR_utilitarian_despot_ADJ:0 "Syrian"
+ SYR_democratic_socialism_ADJ:0 "Syrian"
+ SYR_neutrality_ADJ:0 "Syrian"
+ SYR_revolutionary_socialism_ADJ:0 "Syrian"
+ SYR_social_democracy_ADJ:0 "Syrian"
+ SYR_social_liberal_ADJ:0 "Syrian"
+ SYR_classic_liberal_ADJ:0 "Syrian"
+ SYR_communism_ADJ:0 "Syrian"
+
+#Ministers
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions

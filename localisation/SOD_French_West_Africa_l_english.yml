@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+AOF_fascism_party:0 ""
+AOF_fascism_party_long:0 ""
+AOF_communism_party:0 ""
+AOF_communism_party_long:0 ""
+AOF_democratic_party:1 ""
+AOF_democratic_party_long:0 ""
+AOF_utilitarian_despot_party:0 "Colonial Administration"
+AOF_utilitarian_despot_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AOF_neutrality_party:0 "Colonial Administration"
+AOF_neutrality_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AOF_social_democracy_party:0 ""
+AOF_social_democracy_party_long:0 ""
+AOF_social_liberal_party:0 ""
+AOF_social_liberal_party_long:0 ""
+AOF_classic_liberal_party:0 ""
+AOF_classic_liberal_party_long:0 ""
+AOF_totalitarian_socialism_party:0 ""
+AOF_totalitarian_socialism_party_long:0 ""
+AOF_revolutionary_socialism_party:0 ""
+AOF_revolutionary_socialism_party_long:0 ""
+AOF_democratic_socialism_party:0 ""
+AOF_democratic_socialism_party_long:0 ""
+AOF_nihilistic_extremism_party:0 ""
+AOF_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+AOF_fascism:0 "French West Africa"
+AOF_fascism_DEF:0 "French West Africa"
+AOF_nihilistic_extremism:0 "French West Africa"
+AOF_nihilistic_extremism_DEF:0 "French West Africa"
+AOF_totalitarian_socialism:0 "French West Africa"
+AOF_totalitarian_socialism_DEF:0 "French West Africa"
+AOF_utilitarian_despot:0 "French West Africa"
+AOF_utilitarian_despot_DEF:0 "French West Africa"
+AOF_democratic:0 "French West Africa"
+AOF_democratic_DEF:0 "French West Africa"
+AOF_neutrality:1 "French West Africa"
+AOF_neutrality_DEF:1 "French West Africa"
+AOF_democratic_socialism:0 "French West Africa"
+AOF_democratic_socialism_DEF:0 "French West Africa"
+AOF_revolutionary_socialism:0 "French West Africa"
+AOF_revolutionary_socialism_DEF:0 "French West Africa"
+AOF_social_democracy:0 "French West Africa"
+AOF_social_democracy_DEF:0 "French West Africa"
+AOF_social_liberal:0 "French West Africa"
+AOF_social_liberal_DEF:0 "French West Africa"
+AOF_classic_liberal:0 "French West Africa"
+AOF_classic_liberal_DEF:0 "French West Africa"
+AOF_communism:0 "French West Africa"
+AOF_communism_DEF:0 "French West Africa"
+ 
+AOF_fascism_ADJ:0 "West African"
+AOF_fascism_ADJ:0 "West African"
+AOF_totalitarian_socialism_ADJ:0 "West African"
+AOF_democratic_ADJ:0 "West African"
+AOF_utilitarian_despot_ADJ:0 "West African"
+AOF_democratic_socialism_ADJ:0 "West African"
+AOF_neutrality_ADJ:0 "West African"
+AOF_revolutionary_socialism_ADJ:0 "West African"
+AOF_social_democracy_ADJ:0 "West African"
+AOF_social_liberal_ADJ:0 "West African"
+AOF_classic_liberal_ADJ:0 "West African"
+AOF_communism_ADJ:0 "West African"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

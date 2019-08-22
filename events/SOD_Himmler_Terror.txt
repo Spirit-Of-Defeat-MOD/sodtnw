@@ -33,6 +33,7 @@ country_event = {
 	
 	option = {
 		name = rhine_himmler.2.a
+		add_to_variable = { var = population_fear value = 10}
 
     }
 }
@@ -48,12 +49,14 @@ country_event = {
 	
 	option = {
 		name = rhine_himmler.3.a
+		subtract_from_variable = { var = population_fear value = 3}
 		
 	
 	}
 	
 	option = {
 		name = rhine_himmler.3.b
+		add_to_variable = { var = population_fear value = 7}
 		
 	
 	}
@@ -70,13 +73,14 @@ country_event = {
 	
 		option = {
 			name = rhine_himmler.4.a
+			add_to_variable = { var = population_fear value = 5}
 			
 		
 		}
 		
 		option = {
 			name = rhine_himmler.4.b
-			
+			add_to_variable = { var = population_fear value = 15}
 		
 		}
 	}
@@ -92,10 +96,12 @@ country_event = {
 			
 	option = {
 		name = rhine_himmler.5.a
+		subtract_from_variable = { var = population_fear value = 5}
 	}
 				
 	option = {
 		name = rhine_himmler.5.b
+		add_to_variable = { var = population_fear value = 10}
 	}
 
 }
@@ -165,10 +171,12 @@ country_event = {
 			
 	option = {
 		name = rhine_himmler.9.a
+		subtract_from_variable = { var = population_fear value = 10}
 	}
 				
 	option = {
 		name = rhine_himmler.9.b
+		add_to_variable = { var = population_fear value = 5}
 	}
 }
 
@@ -183,10 +191,12 @@ country_event = {
 			
 	option = {
 		name = rhine_himmler.10.a
+		subtract_from_variable = { var = population_fear value = 15}
 	}
 				
 	option = {
 		name = rhine_himmler.10.b
+		subtract_from_variable = { var = population_fear value = 5}
 	}
 }
 

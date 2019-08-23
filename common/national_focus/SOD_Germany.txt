@@ -51,6 +51,12 @@ y = 9
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_demandrhenishplebiscite } 
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = FRA
+	}
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -66,6 +72,12 @@ y = 10
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = HOL
+	}
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -80,7 +92,13 @@ x = 40
 y = 10
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_warwithfrance } 
+prerequisite = { focus = GER_warwithfrance }
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = BEL
+	}
+} 
 ai_will_do = { 
  factor = 1
  } 
@@ -1654,6 +1672,12 @@ y = 10
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = DEN
+	}
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1685,6 +1709,12 @@ y = 10
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = CZE
+	}
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1700,6 +1730,12 @@ y = 10
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
+completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = SWI
+	}
+}
 ai_will_do = { 
  factor = 1
  } 

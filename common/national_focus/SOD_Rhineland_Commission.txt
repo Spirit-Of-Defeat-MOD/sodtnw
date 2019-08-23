@@ -200,8 +200,7 @@ focus_tree = {
 				}
 				WGR = {
 					set_political_power = -100
-					#set_cosmetic_tag = WGR_provisional
-					set_country_flag = GER_inquart_incapable
+					set_cosmetic_tag = WGR_provisional
 					set_politics = { ruling_party = democratic elections_allowed = no }
 					#remove_ideas_with_trait = head_of_government
 					#remove_ideas_with_trait = foreign_minister

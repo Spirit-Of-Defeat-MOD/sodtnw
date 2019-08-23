@@ -105,5 +105,8 @@ rhine_political.3.a:0 "An excellent way forward"
 #Flags
 move_to_abolition:0 "The Commission has decided to abolish itself."
 
+#Tooltips
+RHI_swtich_to_WGR:0 "The Occupation Zone will formally become the German Democratic Republic"
+
 #Ideas
 factories_sabotaged:0 "Factories Sabotaged"

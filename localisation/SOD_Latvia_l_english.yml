@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+LAT_fascism_party:0 ""
+LAT_fascism_party_long:0 ""
+LAT_communism_party:0 "LKP"
+LAT_communism_party_long:0 "Latvijas Komunistiskā partija"
+LAT_democratic_party:1 "LZS"
+LAT_democratic_party_long:0 "Latvijas Zemnieku savienība"
+LAT_utilitarian_despot_party:0 ""
+LAT_utilitarian_despot_party_long:0 ""
+LAT_neutrality_party:0 ""
+LAT_neutrality_party_long:0 ""
+LAT_social_democracy_party:0 "LSDSP"
+LAT_social_democracy_party_long:0 "Latvijas Sociāldemokrātiskā strādnieku partija"
+LAT_social_liberal_party:0 ""
+LAT_social_liberal_party_long:0 ""
+LAT_classic_liberal_party:0 ""
+LAT_classic_liberal_party_long:0 ""
+LAT_totalitarian_socialism_party:0 "LKP"
+LAT_totalitarian_socialism_party_long:0 "Latvijas Komunistiskā partija"
+LAT_revolutionary_socialism_party:0 "LKP"
+LAT_revolutionary_socialism_party_long:0 "Latvijas Komunistiskā partija"
+LAT_democratic_socialism_party:0 "
+LAT_democratic_socialism_party_long:0 ""
+LAT_nihilistic_extremism_party:0 ""
+LAT_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ LAT_fascism:0 "Republic of Latvia"
+ LAT_fascism_DEF:0 "Republic of Latvia"
+ LAT_nihilistic_extremism:0 "Republic of Latvia"
+ LAT_nihilistic_extremism_DEF:0 "Republic of Latvia"
+ LAT_totalitarian_socialism:0 "Latvian Socialist Soviet Republic"
+ LAT_totalitarian_socialism_DEF:0 "the Latvian Socialist Soviet Republic"
+ LAT_utilitarian_despot:0 "Republic of Latvia"
+ LAT_utilitarian_despot_DEF:0 "Republic of Latvia"
+ LAT_democratic:0 "Republic of Latvia"
+ LAT_democratic_DEF:0 "Republic of Latvia"
+ LAT_neutrality:1 "Republic of Latvia"
+ LAT_neutrality_DEF:1 "Republic of Latvia"
+ LAT_democratic_socialism:0 "Republic of Latvia"
+ LAT_democratic_socialism_DEF:0 "Republic of Latvia"
+ LAT_revolutionary_socialism:0 "Republic of Latvia"
+ LAT_revolutionary_socialism_DEF:0 "Republic of Latvia"
+ LAT_social_democracy:0 "Republic of Latvia"
+ LAT_social_democracy_DEF:0 "Republic of Latvia"
+ LAT_social_liberal:0 "Republic of Latvia"
+ LAT_social_liberal_DEF:0 "Republic of Latvia"
+ LAT_classic_liberal:0 "Republic of Latvia"
+ LAT_classic_liberal_DEF:0 "Republic of Latvia"
+ LAT_communism:0 "Latvian Socialist Soviet Republic"
+ LAT_communism_DEF:0 "the Latvian Socialist Soviet Republic"
+ 
+ LAT_fascism_ADJ:0 "Latvian"
+ LAT_fascism_ADJ:0 "Latvian"
+ LAT_totalitarian_socialism_ADJ:0 "Latvian"
+ LAT_democratic_ADJ:0 "Latvian"
+ LAT_utilitarian_despot_ADJ:0 "Latvian"
+ LAT_democratic_socialism_ADJ:0 "Latvian"
+ LAT_neutrality_ADJ:0 "Latvian"
+ LAT_revolutionary_socialism_ADJ:0 "Latvian"
+ LAT_social_democracy_ADJ:0 "Latvian"
+ LAT_social_liberal_ADJ:0 "Latvian"
+ LAT_classic_liberal_ADJ:0 "Latvian"
+ LAT_communism_ADJ:0 "Latvian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

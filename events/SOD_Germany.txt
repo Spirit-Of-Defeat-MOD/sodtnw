@@ -127,7 +127,7 @@ country_event = {
 	option = {
 		name = germany.5.b
 		add_political_power = 1
-		country_event = { id = germany.6 }
+		country_event = { id = germany.6 days = 3 }
 		complete_national_focus = GER_negotiatewiththeunions
 	
     }

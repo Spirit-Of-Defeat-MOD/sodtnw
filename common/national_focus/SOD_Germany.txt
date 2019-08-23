@@ -371,6 +371,9 @@ icon = GFX_focus_hol_the_foundations_of_defense
 x = 1
 y = 4
 cost = 5
+available = {
+	has_country_flag = GER_negotiations_successful
+}
 available_if_capitulated = yes 
 prerequisite = { focus = GER_negotiatewiththeunions } 
 ai_will_do = { 
@@ -663,6 +666,9 @@ icon = GFX_goal_generic_production
 x = 1
 y = 3
 cost = 5
+available = {
+	has_country_flag = GER_negotiations_opened
+} 
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheworkingclass } 
 mutually_exclusive = { focus = GER_approachcrownprincewilhelm } 

@@ -88,6 +88,9 @@ sour_loser_desc:0 "The Treaty of Versailles humiliated the German nation, stripp
 general_staff:0 "German General Staff"
 general_staff_desc:0 "The German General Staff, officially the Great General Staff, is responsible for the continuous study of all aspects of war, whether it be sea or land or air. Some of what they do include the drafting and reviewing of plans for mobilization or campaign. This contributes to a higher level of organization and discipline in the army."
 amended_constitution:0 "Amended Constitution"
+factory_strikes:0 "Factory Strkes"
+riots:0 "Riots"
+state_unions:0 "State Unions"
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -115,12 +118,22 @@ germany.6.d:0 "We have decided to open dialogue with the leaders of several of G
 germany.6.a:0 "Amend The 1923 Constitution"
 germany.6.b:0 "To Hell With Their Demands!"
 germany.7.t:0 "Appeasing The Elites"
-germany.7.d:0 "Germany's elites can generally be divided into two distinctive groups - the industrialists and the aristocratic land owners known as Junkers. The Industrialists own the factories and the companies that power our economy. Nonetheless, the Prussian landowners have deep ties with the German military and are the backbone of German agricultural output. Both sides have their merits... But which should we prioritize?"
+germany.7.d:0 "Germany's elites can generally be divided into two distinctive groups - the industrialists and the aristocratic land owners known as Junkers. The Industrialists own the factories and the companies that power our economy. Nonetheless, the Prussian landowners have deep ties with the German military and are the vital to German agricultural output. Both sides have their merits... But which should we prioritize?"
 germany.7.a:0 "Forge Ties With The Industrialists"
 germany.7.b:0 "Deepen Ties With The Junkers"
+germany.8.t:0 ""
+germany.8.d:0 ""
+germany.8.a:0 ""
+germany.8.b:0 ""
+germany.9.t:0 "Riots Break Out"
+germany.9.d:0 "Throughout Germany the worker's strikes have begun to escalate to riots... we have alienated the workers through our failed negotiations. Should we send in the army and crack down on this madness? Or should we turn a blind eye and let it blow over?"
+germany.9.a:0 "Get Back To Work, Ingrateful Protestors!"
+germany.9.b:0 "Let Things Blow Over..."
 
 #Flags
 GER_economic_investment:0 "Economic Investments"
+GER_negotiations_opened:0 "Opened Dialogue With The Unions"
+GER_negotiations_successful:0 "Union Negotiations Successful"
 
 #Tool-Tips
 1_GER_tt:0 "There may be consequences for backing out of our negotiations and commitments."

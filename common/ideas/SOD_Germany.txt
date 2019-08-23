@@ -239,8 +239,69 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_factory_start_efficiency_factor = -0.05 
+				production_factory_start_efficiency_factor = 0.05 
 				political_power_factor = -0.25
+				stability_weekly = 0.02
+			}
+		}
+
+		factory_strikes = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.07 
+				production_speed_buildings_factor = -0.15
+				stability_factor = -0.15
+			}
+		}
+
+		riots = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_weekly = -0.01
+				production_factory_start_efficiency_factor = -0.20 
+			}
+		}
+
+		state_unions = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.03 
+				political_power_factor = -0.15
+				stability_weekly = 0.01
 			}
 		}
 	}	

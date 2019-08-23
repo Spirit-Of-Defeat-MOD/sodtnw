@@ -34,7 +34,7 @@ country_event = {
 	option = {
 		name = germany.2.a
 		add_political_power = 1
-		country_event = { id = germany.3 }
+		country_event = { id = germany.3 days = 1}
 	
     }
 
@@ -42,7 +42,7 @@ country_event = {
 	option = {
 		name = germany.2.b
 		add_political_power = 1
-		country_event = { id = germany.4 }
+		country_event = { id = germany.4 days = 1 }
 	
     }
 	
@@ -50,7 +50,7 @@ country_event = {
 	option = {
 		name = germany.2.c
 		add_political_power = 1
-		country_event = { id = germany.5 }
+		country_event = { id = germany.5 days = 1 }
 	
     }
 }
@@ -116,12 +116,14 @@ country_event = {
 	is_triggered_only = yes
 
 	
-	
+	#State Run Unions
 	option = {
 		name = germany.5.a
-		add_political_power = 1
+		add_political_power = -50
+		add_ideas = state_unions
 	
 	}
+	#Negotiate With Unions
 	option = {
 		name = germany.5.b
 		add_political_power = 1
@@ -155,8 +157,10 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.07
 		}
+		hidden_effect = {
 		add_ideas = amended_constitution
 		complete_national_focus = GER_protectlaborrights
+		}
 	
 	}
 	#Deny Labor Rights - Eventually will lead to strikes, riots, civil war (Once we get to that lol)
@@ -165,6 +169,13 @@ country_event = {
 		add_political_power = -250
 		add_stability = -0.05
 		custom_effect_tooltip = 1_GER_tt
+		hidden_effect = {
+			add_timed_idea = {
+				idea = factory_strikes
+				days = 180
+			}
+			country_event = { id = germany.9 days = 14 }
+		}
 	
     }
 }
@@ -190,6 +201,89 @@ country_event = {
 	option = {
 		name = germany.7.b
 		add_political_power = 1
+	
+    }
+}
+
+#Officer Discontent
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	desc = germany.8.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Appease The Generals Demands - add loyalty
+	option = {
+		name = germany.8.a
+		add_political_power = 1
+	
+	}
+	#Condemn the disloyal generals - remove loyalty
+	option = {
+		name = germany.8.b
+		add_political_power = 1
+	
+    }
+}
+
+#Riots
+country_event = {
+	id = germany.9
+	title = germany.9.t
+	desc = germany.9.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Crack Down
+	option = {
+		name = germany.9.a
+		add_political_power = -100
+		add_timed_idea = {
+			idea = riots
+			days = 20
+		}
+	
+	}
+	#Turn a blind eye
+	option = {
+		name = germany.9.b
+		add_political_power = -100
+		add_timed_idea = {
+			idea = riots
+			days = 20
+		}
+	
+    }
+}
+
+#Welfare
+country_event = {
+	id = germany.10
+	title = germany.10.t
+	desc = germany.10.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#State Housing Programs
+	option = {
+		name = germany.10.a
+		add_political_power = -50
+	
+	}
+	#Pensions
+	option = {
+		name = germany.10.b
+		add_political_power = -50
 	
     }
 }

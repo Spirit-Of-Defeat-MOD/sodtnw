@@ -50,4 +50,19 @@ spriteTypes = {
 		name = "GFX_idea_amended_constitution"
 		texturefile = "gfx/interface/ideas/GER/amended_constitution.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_factory_strikes"
+		texturefile = "gfx/interface/ideas/GER/factory_strikes.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_riots"
+		texturefile = "gfx/interface/ideas/GER/riots.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_state_unions"
+		texturefile = "gfx/interface/ideas/GER/state_unions.tga"
+	}
 }

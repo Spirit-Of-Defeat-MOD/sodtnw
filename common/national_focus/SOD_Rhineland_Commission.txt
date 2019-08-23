@@ -212,6 +212,7 @@ focus_tree = {
 					#}
 					annex_country = { target = RHI transfer_troops = yes }
 					change_tag_from = RHI
+					set_variable = { var = population_fear value = population_fear }
 				}
 			}	
 		}

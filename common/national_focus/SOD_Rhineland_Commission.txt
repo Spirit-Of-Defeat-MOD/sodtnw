@@ -170,7 +170,7 @@ focus_tree = {
 		icon = GFX_RHI_german_republic
 		cost = 10
 		x = 9
-		y = 5
+		y = 6
 		ai_will_do = {
 			factor = 50
 		}

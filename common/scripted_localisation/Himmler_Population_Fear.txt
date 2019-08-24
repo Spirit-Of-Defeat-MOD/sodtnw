@@ -1,0 +1,40 @@
+defined_text = {
+	name = GetPopulationFearEffects
+	
+	text = {
+		trigger = {
+			has_idea = population_very_high_fear
+		}
+		localization_key = population_very_high_fear_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = population_high_fear
+		}
+		localization_key = population_high_fear_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = population_medium_fear
+		}
+		localization_key = population_medium_fear_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = population_low_fear
+		}
+		localization_key = population_low_fear_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = population_very_low_fear
+		}
+		localization_key = population_very_low_fear_effect
+	}
+	
+	
+}

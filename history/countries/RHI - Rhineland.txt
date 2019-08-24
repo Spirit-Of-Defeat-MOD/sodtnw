@@ -30,7 +30,8 @@ set_technology = {
 
 set_convoys = 20
 
-set_variable = { var = population_fear value = 0 } #NO ONE TOUCH THIS UNLESS YOU KNOW HOW IT TIES INTO HIMMLER
+set_variable = { var = population_fear value = 11 } #NO ONE TOUCH THIS UNLESS YOU KNOW HOW IT TIES INTO HIMMLER
+update_population_fear = yes
 
 set_politics = {
 	ruling_party = neutrality

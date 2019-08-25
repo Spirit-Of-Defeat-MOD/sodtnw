@@ -1,21 +1,20 @@
-
-state={
-	id=812
-	name="STATE_812" # Libyan Desert
-	manpower = 633
+state=
+{
+	id=767
+	name="STATE_767" # North Darfur
+	manpower = 8143
 	
 	state_category = wasteland
 	impassable = yes
-
-	history={
+	
+	history= {
+		add_core_of = SUD
 		owner = SUD
 		buildings = {
 			infrastructure = 0
 		}
-		add_core_of = SUD
 	}
-
 	provinces={
-		4191  
+		7987 8103 10900
 	}
 }

@@ -9,11 +9,11 @@ state=
 
 	history=
 	{
-		owner = KON
+		owner = CON
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = KON
+		add_core_of = CON
 	}
 
 	provinces=

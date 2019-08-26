@@ -10,7 +10,7 @@ state= {
 	state_category = city
 
 	history= {
-		owner = CON
+		owner = KON
 		victory_points = {
 			9833 30
 		}
@@ -25,7 +25,7 @@ state= {
 			}
 		}
 		add_core_of = TUR
-                add_core_of = CON
+                add_core_of = KON
 		add_core_of = GRE
 	}
 	provinces=

@@ -2,6 +2,6 @@ organization_consul = {
 	icon = generic_political_actions
 
 	allowed = {
-		always = yes
+		tag = RHI
 	}
 }

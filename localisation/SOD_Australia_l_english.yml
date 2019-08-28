@@ -85,6 +85,10 @@ AST_nihilistic_extremism_party_long:0 "Australian Supremacist Party"
 
 #Events
 #should be reintegrated
+australia.1.t:0 "Out in the country..."
+australia.1.d:0 "It was supposed to be a regular morning for *REDACTED* on the *REDACTED* in *REDACTED*, Australia. That was, until he saw the emus.\n\nOut of nowhere, large flocks of these birds came charging straight at his paddock and stormed the fence. In a panic, he called for his wife for the rifle, but by the time his gun was given and he ran to the field in a panic, 'twas too late. All but a few clumps of his crops remained, the others having been consumed by the emus. Several other reported cases of emu infestation and invasion have been reported in other parts of the outback. Considering how we lost the First Emu War, the government has decided against military intervention, leaving the farmers to deal with the birds." 
+australia.1.a:0 "Not again..."
 
 #Descriptions
- 
+second_emu_war:0 "Second Emu War"
+second_emu_war_desc:0 "Those damned emus are at it again! Out in the outback, an alliance of emus have decided to wage war against our farmers and our crops, wreaking havoc by eating all of the plants!" 

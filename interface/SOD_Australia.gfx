@@ -1,0 +1,10 @@
+spriteTypes = {
+
+#Ministers
+
+	spriteType = {
+		name = "GFX_idea_second_emu_war"
+		texturefile = "gfx/interface/ideas/AST/second_emu_war.tga"
+	}
+
+}

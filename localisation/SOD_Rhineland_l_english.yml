@@ -69,7 +69,11 @@ RHI_nihilistic_extremism_party_long:0 "Organisation Consul"
  RHI_FRA_autonomy_military_occupation_DEF:0 "the Rhine Occupation Zone"
  
  #Ministers
-#should be reintegrated
+RHI_IARCH_hog:0 "Inter-Allied Rhineland High Commission"
+RHI_William_Seeds_frm:0 "William Seeds"
+RHI_Pierrepont_Noyes_eco:0 "Pierrepont Noyes"
+RHI_Henry_Tureman_Allen_sec:0 "Henry Tureman Allen"
+RHI_IARCH_int:0 "Inter-Allied Rhineland High Commission"
 
 #Leaders
 
@@ -119,12 +123,18 @@ population_very_low_fear:0 "Population Fear"
 
 #Decisions
 organization_consul:0 "The Organization Consul" 
-organization_consul_desc:0 "A radical militant organization, the far-right paramilitary has been led by Heinrich Himmler since mid-1935. Himmler drastically reshaped the organization's platform, arguing that only embracing nihlism could redeem Germany's degeneracy, this has lead to him organizing terrorist attacks in order to instil fear in the population as a means to try and control them. While not many attacks have been carried out with the ambtition of the IARHC to progress forward we can not rule out him ramping up his efforts.  \n\nPopulation Fear: [GetPopulationFearEffects]"
+organization_consul_desc:0 "A radical militant organization, the far-right paramilitary has been led by Heinrich Himmler since mid-1935. Himmler drastically reshaped the organization's platform, arguing that only embracing nihlism could redeem Germany's degeneracy, this has lead to him organizing terrorist attacks in order to instil fear in the population as a means to try and control them. While not many attacks have been carried out with the ambtition of the IARHC to progress forward we can not rule out him ramping up his efforts.  \n\nPopulation Fear: [GetPopulationFearEffects]                                                                                   \n\nThese are their Bases of operations: [GetOcBasesEffects] [GetOcBasesEffects1] [GetOcBasesEffects2] [GetOcBasesEffects3] [GetOcBasesEffects4]"
 
 
 #Scripted Loc
-population_very_high_fear_effect:0 "§RVery High§!"
-population_high_fear_effect:0 "§HHigh§!"
-population_medium_fear_effect:0 "§YMedium§!"
-population_low_fear_effect:0 "§GLow§!"
-population_very_low_fear_effect:0 "§GVery Low§!"
+population_very_high_fear_effect:0 "§RVery High§! \n§HStability:§! §R-25%§!"
+population_high_fear_effect:0 "§HHigh§! \n§HStability:§! §R-0.20%§!"
+population_medium_fear_effect:0 "§YMedium§! \n§HStability:§! §R-15%!"
+population_low_fear_effect:0 "§GLow§! \n§HStability:§! §R-10%§!"
+population_very_low_fear_effect:0 "§GVery Low§! \n§HStability:§! §R-5%§! \n§HFactory Effeciency:§! §R-5%§!"
+
+himmler_base_colonge_effect:0 "\nColonge £army_experience"
+himmler_base_dusseldorf_effect:0 "\nDüsseldorf"
+himmler_base_bonn_effect:0 "\nBonn"
+himmler_base_koblenz_effect:0 "\nKoblenz"
+himmler_base_trier_effect:0 "\nTrier"

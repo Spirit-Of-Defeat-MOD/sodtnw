@@ -32,6 +32,21 @@ set_convoys = 20
 
 set_variable = { var = population_fear value = 11 } #NO ONE TOUCH THIS UNLESS YOU KNOW HOW IT TIES INTO HIMMLER
 update_population_fear = yes
+set_country_flag = himmler_base_colonge
+set_country_flag = himmler_base_dusseldorf
+set_country_flag = himmler_base_bonn
+set_country_flag = himmler_base_koblenz
+set_country_flag = himmler_base_trier
+
+add_ideas = {
+	RHI_IARCH_hog
+	RHI_William_Seeds_frm
+	RHI_Pierrepont_Noyes_eco
+	RHI_Henry_Tureman_Allen_sec
+	RHI_IARCH_int
+}
+
+
 
 set_politics = {
 	ruling_party = neutrality
@@ -43,16 +58,16 @@ set_politics = {
 set_popularities = {
 	totalitarian_socialism = 0
 	communism = 0
-	revolutionary_socialism = 14
+	revolutionary_socialism = 0
 	democratic_socialism = 0
-        social_democracy = 0
-        social_liberal = 6
-        classic_liberal = 3
-        democratic = 21
-        neutrality = 41
-        utilitarian_despot = 0
-        fascism = 15
-        nihilistic_extremism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 100
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
 create_country_leader = {

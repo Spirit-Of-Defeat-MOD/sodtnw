@@ -3,6 +3,165 @@ ideas = {
   ################################################################################################################################################################################################
   ### RHI
   ################################################################################################################################################################################################
+	head_of_government = { ### Head of Government ###
+		RHI_IARCH_hog = {
+			allowed = { original_tag = RHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = IARCH_dead }
+					has_country_flag = can_replace_hog
+				}
+
+			}
+			visible = {
+				NOT = { has_country_flag = IARCH_dead }
+				OR = {
+					NOT = { has_government = nihilistic_extremism }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RHI_IARCH_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	foreign_minister = { ### Foreign Minister ###
+		RHI_William_Seeds_frm = {
+			allowed = { original_tag = RHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = William_Seeds_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = William_Seeds_dead }
+				OR = {
+					NOT = { has_government = nihilistic_extremism }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RHI_William_Seeds_frm"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	economy_minister = { ### Minister of the Economy ###
+		RHI_Pierrepont_Noyes_eco = {
+			allowed = { original_tag = RHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Pierrepont_Noyes_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Pierrepont_Noyes_dead }
+				OR = {
+					NOT = { has_government = nihilistic_extremism }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea Pierrepont_Noyes_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	security_minister = { ### Minister of Security ###
+		RHI_Henry_Tureman_Allen_sec = {
+			allowed = { original_tag = RHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Henry_Tureman_Allen_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Henry_Tureman_Allen_dead }
+				OR = {
+					NOT = { has_government = nihilistic_extremism }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RHI_Henry_Tureman_Allen_sec"
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	head_of_intel = { ### Head of Mil Intel ###
+		RHI_IARCH_int = {
+			allowed = { original_tag = RHI }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = IARCH_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = IARCH_dead }
+				OR = {
+					NOT = { has_government = nihilistic_extremism }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RHI_IARCH_int"
+				
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	hidden_ideas = {
 		factories_sabotaged = {
 			allowed = {

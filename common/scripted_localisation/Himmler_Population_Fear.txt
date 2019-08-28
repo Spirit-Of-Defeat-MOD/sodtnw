@@ -35,6 +35,57 @@ defined_text = {
 		}
 		localization_key = population_very_low_fear_effect
 	}
+}
+
+defined_text = {
+	name = GetOcBasesEffects
 	
+	text = {
+		trigger = {
+			has_country_flag = himmler_base_colonge
+		}
+		localization_key = himmler_base_colonge_effect
+	}
+}
+
+defined_text = {
+	name = GetOcBasesEffects1
+	text = {
+		trigger = {
+			has_country_flag = himmler_base_dusseldorf
+		}
+		localization_key = himmler_base_dusseldorf_effect
+	}
+}
+
+defined_text = {
+	name = GetOcBasesEffects2
 	
+	text = {
+		trigger = {
+			has_country_flag = himmler_base_bonn
+		}
+		localization_key = himmler_base_bonn_effect
+	}
+}
+defined_text = {
+	name = GetOcBasesEffects3
+	
+	text = {
+		trigger = {
+			has_country_flag = himmler_base_koblenz
+		}
+		localization_key = himmler_base_koblenz_effect
+	}
+}
+
+defined_text = {
+	name = GetOcBasesEffects4
+	
+	text = {
+		trigger = {
+			has_country_flag = himmler_base_trier
+		}
+		localization_key = himmler_base_trier_effect
+	}
 }

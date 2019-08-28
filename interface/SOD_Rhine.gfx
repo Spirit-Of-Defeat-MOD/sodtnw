@@ -1,5 +1,36 @@
 spriteTypes = {
 
+
+
+#Ministers
+
+
+	spriteType = {
+		name = "GFX_idea_RHI_IARCH_hog"
+		texturefile = "gfx/ministers/RHI/IARHC.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RHI_IARCH_eco"
+		texturefile = "gfx/ministers/RHI/IARHC.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RHI_IARCH_int"
+		texturefile = "gfx/ministers/RHI/IARHC.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RHI_William_Seeds_frm"
+		texturefile = "gfx/ministers/RHI/William_Seeds.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RHI_Henry_Tureman_Allen_sec"
+		texturefile = "gfx/ministers/RHI/Henry_Tureman_Allen.tga"
+	}
+	
+	
 #Focuses
 
 	
@@ -230,5 +261,12 @@ spriteTypes = {
  	spriteType = {
 		name = "GFX_event_commission_meeting"
 		texturefile = "gfx/event_pictures/RHI/commission_meeting.dds"
+	}
+	
+#Decisions
+	spriteType = {
+		name = "GFX_himmler"
+		texturefile = "gfx/interface/decisions/RHI/himmler.dds"
+		legacy_lazy_load = no
 	}
 }

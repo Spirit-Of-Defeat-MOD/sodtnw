@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+SAF_fascism_party:0 "OB"
+SAF_fascism_party_long:0 "Ossewabrandwag"
+SAF_communism_party:0 ""
+SAF_communism_party_long:0 ""
+SAF_democratic_party:0 "UP"
+SAF_democratic_party_long:0 "United Party"
+SAF_utilitarian_despot_party:0 "AB"
+SAF_utilitarian_despot_party_long:0 "Afrikaner Broederbond"
+SAF_neutrality_party:0 "NP"
+SAF_neutrality_party_long:0 "Nasionale Party"
+SAF_social_democracy_party:0 "LP (M)"
+SAF_social_democracy_party_long:0 "Labour Party (Moderate)"
+SAF_social_liberal_party:0 ""
+SAF_social_liberal_party_long:0 ""
+SAF_classic_liberal_party:0 "SAP"
+SAF_classic_liberal_party_long:0 "Suid-Afrikaanse Party"
+SAF_totalitarian_socialism_party:0 ""
+SAF_totalitarian_socialism_party_long:0 ""
+SAF_revolutionary_socialism_party:0 ""
+SAF_revolutionary_socialism_party_long:0 ""
+SAF_democratic_socialism_party:0 "LP (R)"
+SAF_democratic_socialism_party_long:0 "Labour Party (Radical)"
+SAF_nihilistic_extremism_party:0 "Gryshemde"
+SAF_nihilistic_extremism_party_long:0 "Gryshemde"
+
+#Country Names
+ SAF_fascism:0 "Union of South Africa"
+ SAF_fascism_DEF:0 "the Union of South Africa"
+ SAF_nihilistic_extremism:0 "Union of South Africa"
+ SAF_nihilistic_extremism_DEF:0 "the Union of South Africa"
+ SAF_totalitarian_socialism:0 "Union of South Africa"
+ SAF_totalitarian_socialism_DEF:0 "the Union of South Africa"
+ SAF_utilitarian_despot:0 "Union of South Africa"
+ SAF_utilitarian_despot_DEF:0 "the Union of South Africa"
+ SAF_democratic:0 "Union of South Africa"
+ SAF_democratic_DEF:0 "the Union of South Africa"
+ SAF_neutrality:1 "Union of South Africa"
+ SAF_neutrality_DEF:1 "the Union of South Africa
+ SAF_democratic_socialism:0 "Union of South Africa"
+ SAF_democratic_socialism_DEF:0 "the Union of South Africa"
+ SAF_revolutionary_socialism:0 "Union of South Africa"
+ SAF_revolutionary_socialism_DEF:0 "the Union of South Africa"
+ SAF_social_democracy:0 "Union of South Africa"
+ SAF_social_democracy_DEF:0 "the Union of South Africa"
+ SAF_social_liberal:0 "Union of South Africa"
+ SAF_social_liberal_DEF:0 "the Union of South Africa"
+ SAF_classic_liberal:0 "Union of South Africa"
+ SAF_classic_liberal_DEF:0 "the Union of South Africa"
+ SAF_communism:0 "Union of South Africa"
+ SAF_communism_DEF:0 "the Union of South Africa"
+ 
+ SAF_fascism_ADJ:0 "South African"
+ SAF_nihilistic_extremism_ADJ:0 "South African"
+ SAF_totalitarian_socialism_ADJ:0 "South African"
+ SAF_democratic_ADJ:0 "South African"
+ SAF_utilitarian_despot_ADJ:0 "South African"
+ SAF_democratic_socialism_ADJ:0 "South African"
+ SAF_neutrality_ADJ:0 "South African"
+ SAF_revolutionary_socialism_ADJ:0 "South African"
+ SAF_social_democracy_ADJ:0 "South African"
+ SAF_social_liberal_ADJ:0 "South African"
+ SAF_classic_liberal_ADJ:0 "South African"
+ SAF_communism_ADJ:0 "South African"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

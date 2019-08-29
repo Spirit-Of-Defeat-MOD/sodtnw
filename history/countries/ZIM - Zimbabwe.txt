@@ -1,0 +1,40 @@
+﻿capital = 545
+
+oob = "ZIM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+
+
+# A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
+#lol PDX, think ya'll made a mistake there... sounds more like Ethiopia than Rhodesia
+
+set_politics = {
+	ruling_party = classic_liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	classic_liberal = 39
+	social_democracy = 17.5
+	social_liberal = 38
+	democratic = 4
+	neutrality = 1.5
+}
+
+create_country_leader = {
+	name = " Godfrey Huggins"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = liberal_conservatism
+	traits = { 
+	}
+}
+

@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+PER_fascism_party:0 "Taraqqi"
+PER_fascism_party_long:0 "Ḥezb-e Taraqqi"
+PER_communism_party:0 "Tūde-ye"
+PER_communism_party_long:0 "Ḥezb-e Tūde-ye Īrān"
+PER_democratic_party:1 "Eṣlāḥṭalabān"
+PER_democratic_party_long:0 "Ḥezb-e Eṣlāḥṭalabān"
+PER_utilitarian_despot_party:0 "Edālat"
+PER_utilitarian_despot_party_long:0 "Ḥezb-e ʿEdālat"
+PER_neutrality_party:0 "Pahlavi"
+PER_neutrality_party_long:0 "Pahlavi Dynasty"
+PER_social_democracy_party:0 "Taǰaddod"
+PER_social_democracy_party_long:0 "Ḥezb-e Taǰaddod"
+PER_social_liberal_party:0 ""
+PER_social_liberal_party_long:0 ""
+PER_classic_liberal_party:0 ""
+PER_classic_liberal_party_long:0 ""
+PER_totalitarian_socialism_party:0 "Melal-e Eslāmi"
+PER_totalitarian_socialism_party_long:0 "Ḥezb-e Melal-e Eslāmi" #Islamist socialists, could be interesting
+PER_revolutionary_socialism_party:0 "Hamrahān"
+PER_revolutionary_socialism_party_long:0 "Hezb-e Hamrahān"
+PER_democratic_socialism_party:0 "Socialyist"
+PER_democratic_socialism_party_long:0 "Hizb-e Socialyist"
+PER_nihilistic_extremism_party:0 "Siahpushan"
+PER_nihilistic_extremism_party_long:0 "Hezb-e Kabud Siahpushan"
+
+#Country Names
+ PER_fascism:0 "Imperial State of Iran"
+ PER_fascism_DEF:0 "the Imperial State of Iran"
+ PER_nihilistic_extremism:0 "Imperial State of Iran"
+ PER_nihilistic_extremism_DEF:0 "the Imperial State of Iran"
+ PER_totalitarian_socialism:0 "Imperial State of Iran"
+ PER_totalitarian_socialism_DEF:0 "the Imperial State of Iran"
+ PER_utilitarian_despot:0 "Imperial State of Iran"
+ PER_utilitarian_despot_DEF:0 "the Imperial State of Iran"
+ PER_democratic:0 "Imperial State of Iran"
+ PER_democratic_DEF:0 "the Imperial State of Iran"
+ PER_neutrality:1 "Imperial State of Iran"
+ PER_neutrality_DEF:1 "the Imperial State of Iran"
+ PER_democratic_socialism:0 "Imperial State of Iran"
+ PER_democratic_socialism_DEF:0 "the Imperial State of Iran"
+ PER_revolutionary_socialism:0 "Imperial State of Iran"
+ PER_revolutionary_socialism_DEF:0 "the Imperial State of Iran"
+ PER_social_democracy:0 "Imperial State of Iran"
+ PER_social_democracy_DEF:0 "the Imperial State of Iran"
+ PER_social_liberal:0 "Imperial State of Iran"
+ PER_social_liberal_DEF:0 "the Imperial State of Iran"
+ PER_classic_liberal:0 "Imperial State of Iran"
+ PER_classic_liberal_DEF:0 "the Imperial State of Iran"
+ PER_communism:0 "Imperial State of Iran"
+ PER_communism_DEF:0 "the Imperial State of Iran"
+ 
+ PER_fascism_ADJ:0 "Persian"
+ PER_totalitarian_socialism_ADJ:0 "Persian"
+ PER_democratic_ADJ:0 "Persian"
+ PER_utilitarian_despot_ADJ:0 "Persian"
+ PER_democratic_socialism_ADJ:0 "Persian"
+ PER_neutrality_ADJ:0 "Persian"
+ PER_revolutionary_socialism_ADJ:0 "Persian"
+ PER_social_democracy_ADJ:0 "Persian"
+ PER_social_liberal_ADJ:0 "Persian"
+ PER_classic_liberal_ADJ:0 "Persian"
+ PER_communism_ADJ:0 "Persian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

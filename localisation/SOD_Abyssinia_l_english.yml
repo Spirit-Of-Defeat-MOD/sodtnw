@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+ETH_fascism_party:0 ""
+ETH_fascism_party_long:0 ""
+ETH_communism_party:0 ""
+ETH_communism_party_long:0 ""
+ETH_democratic_party:0 ""
+ETH_democratic_party_long:0 ""
+ETH_utilitarian_despot_party:0 ""
+ETH_utilitarian_despot_party_long:0 ""
+ETH_neutrality_party:0 ""
+ETH_neutrality_party_long:0 ""
+ETH_social_democracy_party:0 ""
+ETH_social_democracy_party_long:0 ""
+ETH_social_liberal_party:0 ""
+ETH_social_liberal_party_long:0 ""
+ETH_classic_liberal_party:0 ""
+ETH_classic_liberal_party_long:0 ""
+ETH_totalitarian_socialism_party:0 ""
+ETH_totalitarian_socialism_party_long:0 ""
+ETH_revolutionary_socialism_party:0 ""
+ETH_revolutionary_socialism_party_long:0 ""
+ETH_democratic_socialism_party:0 ""
+ETH_democratic_socialism_party_long:0 ""
+ETH_nihilistic_extremism_party:0 ""
+ETH_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ETH_fascism:0 "Abyssinia"
+ ETH_fascism_DEF:0 "Abyssinia"
+ ETH_nihilistic_extremism:0 "Abyssinia"
+ ETH_nihilistic_extremism_DEF:0 "Abyssinia"
+ ETH_totalitarian_socialism:0 "Abyssinia"
+ ETH_totalitarian_socialism_DEF:0 "Abyssinia"
+ ETH_utilitarian_despot:0 "Abyssinia"
+ ETH_utilitarian_despot_DEF:0 "Abyssinia"
+ ETH_democratic:0 "Abyssinia"
+ ETH_democratic_DEF:0 "Abyssinia"
+ ETH_neutrality:1 "Abyssinia"
+ ETH_neutrality_DEF:1 "Abyssinia
+ ETH_democratic_socialism:0 "Abyssinia"
+ ETH_democratic_socialism_DEF:0 "Abyssinia"
+ ETH_revolutionary_socialism:0 "Abyssinia"
+ ETH_revolutionary_socialism_DEF:0 "Abyssinia"
+ ETH_social_democracy:0 "Abyssinia"
+ ETH_social_democracy_DEF:0 "Abyssinia"
+ ETH_social_liberal:0 "Abyssinia"
+ ETH_social_liberal_DEF:0 "Abyssinia"
+ ETH_classic_liberal:0 "Abyssinia"
+ ETH_classic_liberal_DEF:0 "Abyssinia"
+ ETH_communism:0 "Abyssinia"
+ ETH_communism_DEF:0 "Abyssinia"
+ 
+ ETH_fascism_ADJ:0 "Abyssinian"
+ ETH_nihilistic_extremism_ADJ:0 "Abyssinian"
+ ETH_totalitarian_socialism_ADJ:0 "Abyssinian"
+ ETH_democratic_ADJ:0 "Abyssinian"
+ ETH_utilitarian_despot_ADJ:0 "Abyssinian"
+ ETH_democratic_socialism_ADJ:0 "Abyssinian"
+ ETH_neutrality_ADJ:0 "Abyssinian"
+ ETH_revolutionary_socialism_ADJ:0 "Abyssinian"
+ ETH_social_democracy_ADJ:0 "Abyssinian"
+ ETH_social_liberal_ADJ:0 "Abyssinian"
+ ETH_classic_liberal_ADJ:0 "Abyssinian"
+ ETH_communism_ADJ:0 "Abyssinian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

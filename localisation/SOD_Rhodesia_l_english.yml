@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+ZIM_fascism_party:0 ""
+ZIM_fascism_party_long:0 ""
+ZIM_communism_party:0 "SRCP"
+ZIM_communism_party_long:0 "Southern Rhodesia Communist Party"
+ZIM_democratic_party:1 "LP (M)"
+ZIM_democratic_party_long:0 "Southern Rhodesia Liberal Party (Moderate)"
+ZIM_utilitarian_despot_party:0 ""
+ZIM_utilitarian_despot_party_long:0 ""
+ZIM_neutrality_party:0 "LP (R)"
+ZIM_neutrality_party_long:0 "Southern Rhodesia Liberal Party (Reactionary)"
+ZIM_social_democracy_party:0 "RLP"
+ZIM_social_democracy_party_long:0 "Rhodesia Labour Party"
+ZIM_social_liberal_party:0 "RP"
+ZIM_social_liberal_party_long:0 "Reform Party"
+ZIM_classic_liberal_party:0 "RGA"
+ZIM_classic_liberal_party_long:0 "Responsible Government Association"
+ZIM_totalitarian_socialism_party:0 ""
+ZIM_totalitarian_socialism_party_long:0 ""
+ZIM_revolutionary_socialism_party:0 ""
+ZIM_revolutionary_socialism_party_long:0 ""
+ZIM_democratic_socialism_party:0 ""
+ZIM_democratic_socialism_party_long:0 ""
+ZIM_nihilistic_extremism_party:0 ""
+ZIM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ZIM_fascism:0 "Colony of Southern Rhodesia"
+ ZIM_fascism_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_nihilistic_extremism:0 "Colony of Southern Rhodesia"
+ ZIM_nihilistic_extremism_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_totalitarian_socialism:0 "Colony of Southern Rhodesia"
+ ZIM_totalitarian_socialism_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_utilitarian_despot:0 "Colony of Southern Rhodesia"
+ ZIM_utilitarian_despot_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_democratic:0 "Colony of Southern Rhodesia"
+ ZIM_democratic_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_neutrality:1 "Colony of Southern Rhodesia"
+ ZIM_neutrality_DEF:1 "the Colony of Southern Rhodesia"
+ ZIM_democratic_socialism:0 "Colony of Southern Rhodesia"
+ ZIM_democratic_socialism_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_revolutionary_socialism:0 "Colony of Southern Rhodesia"
+ ZIM_revolutionary_socialism_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_social_democracy:0 "Colony of Southern Rhodesia"
+ ZIM_social_democracy_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_social_liberal:0 "Colony of Southern Rhodesia"
+ ZIM_social_liberal_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_classic_liberal:0 "Colony of Southern Rhodesia"
+ ZIM_classic_liberal_DEF:0 "the Colony of Southern Rhodesia"
+ ZIM_communism:0 "Colony of Southern Rhodesia"
+ ZIM_communism_DEF:0 "the Colony of Southern Rhodesia"
+ 
+ ZIM_fascism_ADJ:0 "Rhodesian"
+ ZIM_totalitarian_socialism_ADJ:0 "Rhodesian"
+ ZIM_democratic_ADJ:0 "Rhodesian"
+ ZIM_utilitarian_despot_ADJ:0 "Rhodesian"
+ ZIM_democratic_socialism_ADJ:0 "Rhodesian"
+ ZIM_neutrality_ADJ:0 "Rhodesian"
+ ZIM_revolutionary_socialism_ADJ:0 "Rhodesian"
+ ZIM_social_democracy_ADJ:0 "Rhodesian"
+ ZIM_social_liberal_ADJ:0 "Rhodesian"
+ ZIM_classic_liberal_ADJ:0 "Rhodesian"
+ ZIM_communism_ADJ:0 "Rhodesian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

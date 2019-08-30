@@ -631,6 +631,9 @@ y = 2
 cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_appeasetheworkingclass } 
+completion_reward = {
+	GER = { country_event = germany.10 }
+ }
 ai_will_do = { 
  factor = 1
  } 

@@ -259,6 +259,10 @@ country_event = {
 			idea = riots
 			days = 20
 		}
+		hidden_effect = {
+			
+			country_event = { id = germany.11 days = 15 }
+		}
 	
     }
 }
@@ -286,4 +290,163 @@ country_event = {
 		add_political_power = -50
 	
     }
+}
+
+#Naval Mutiny
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Worker's & Soldier's Councils Form
+	option = {
+		name = germany.11.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.12 days = 3 }
+		}
+	
+	}
+	
+}
+
+#Karl Artelt proposes the United Front
+country_event = {
+	id = germany.12
+	title = germany.12.t
+	desc = germany.12.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Workers of Germany unite!
+	option = {
+		name = germany.12.a
+		add_political_power = -150
+		country_event = { id = germany.13 days = 3 }
+	}
+
+	#To hell with the counter-revolutionaries...
+	option = {
+		name = germany.12.b
+		add_political_power = -150
+		country_event = { id = germany.14 days = 3 }
+	}
+	
+}
+
+#United Front Forms
+country_event = {
+	id = germany.13
+	title = germany.13.t
+	desc = germany.13.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#United Front Forms
+	option = {
+		name = germany.13.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.15 days = 1 }
+		}
+	
+	}
+	
+}
+
+#United Front Fails
+country_event = {
+	id = germany.14
+	title = germany.14.t
+	desc = germany.14.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#United Front Fails
+	option = {
+		name = germany.14.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.16 days = 1 }
+		}
+	
+	}
+	
+}
+
+#Civil War - with UF
+country_event = {
+	id = germany.15
+	title = germany.15.t
+	desc = germany.15.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#To war with the reactionaries!
+	option = {
+		name = germany.15.a
+		add_political_power = -150
+		hidden_effect = {
+			DDR = {
+				set_party_name = {
+					ideology = communism
+					long_name = "Volksbefreiungsfront"
+					name = "Volksbefreiungsfront"
+				}
+				transfer_state = 65
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
+				transfer_state = 55
+				transfer_state = 56
+				transfer_state = 57
+				transfer_state = 800
+
+				declare_war_on = { type = annex_everything    target = GER }
+			}
+		}
+	
+	}
+	
+}
+
+
+#Civil War - without UF
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#To war with the reactionaries!
+	option = {
+		name = germany.16.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+	
 }

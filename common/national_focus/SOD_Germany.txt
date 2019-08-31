@@ -251,7 +251,12 @@ x = 26
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_denouncethetreatyofversailles } 
+prerequisite = { focus = GER_denouncethetreatyofversailles }
+
+completion_reward = {
+	army_experience = 20
+	add_war_support = 0.05
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -509,6 +514,114 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theautobahnproject } 
+
+complete_tooltip = {
+	navy_experience = 25
+	add_extra_state_shared_building_slots = 3
+	add_building_construction = {
+		type = dockyard
+		level = 3
+		instant_build = yes
+	}
+}
+
+completion_reward = {
+	navy_experience = 25
+	if = {
+		limit = {
+			NOT = {
+				any_owned_state = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+			}
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_coastal = yes
+				free_building_slots = {
+					building = dockyard
+					size > 2
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		set_country_flag = naval_effort_built
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = naval_effort_built }
+			any_owned_state = {
+				dockyard > 0
+				free_building_slots = {
+					building = dockyard
+					size > 2
+					include_locked = yes
+				}
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				dockyard > 0
+				free_building_slots = {
+					building = dockyard
+					size > 2
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		set_country_flag = naval_effort_built
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = naval_effort_built }
+			NOT = {
+				any_owned_state = {
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+		random_state = {
+			limit = {
+				controller = { tag = ROOT }
+				free_building_slots = {
+					building = dockyard
+					size > 2
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}			
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -708,6 +821,63 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_infrastructuredevelopment } 
+
+available = {
+	OR = {
+		has_full_control_of_state = 64
+		has_full_control_of_state = 59
+		has_full_control_of_state = 60
+		has_full_control_of_state = 54
+	}
+}
+
+completion_reward = {
+	custom_effect_tooltip = GER_autobahn_tt
+	hidden_effect = {
+		64 = {
+			if = {
+				limit = { is_controlled_by = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		59 = {
+			if = {
+				limit = { is_controlled_by = ROOT }
+
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		60 = {
+			if = {
+				limit = { is_controlled_by = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		54 = {
+			if = {
+				limit = { is_controlled_by = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}		
+}
+
 ai_will_do = { 
  factor = 1
  } 
@@ -770,6 +940,33 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_jobtraininginitiatives } 
 prerequisite = { focus = GER_modernizedproductionlines } 
+
+available = {
+	has_full_control_of_state = 65
+}
+
+completion_reward = {
+	add_tech_bonus = {
+		name = GER_coal_liquidization
+		bonus = 1.5
+		uses = 1
+		category = synth_resources
+	}
+	if = {
+		limit = {
+			has_full_control_of_state = 65
+		}
+		65 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
 ai_will_do = { 
  factor = 1
  } 
@@ -889,6 +1086,20 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_aviationbreakthroughs } 
+
+completion_reward = {
+	add_tech_bonus = {
+		name = sub_op_bonus
+		bonus = 1.0
+		uses = 2
+		technology = convoy_interdiction_ti
+		technology = unrestricted_submarine_warfare
+		technology = wolfpacks
+		technology = advanced_submarine_warfare
+		technology = combined_operations_raiding
+	}
+}
+
 ai_will_do = { 
  factor = 1
  } 

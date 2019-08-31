@@ -1,36 +1,37 @@
 ﻿l_english: 
 
-#Parties
-CRO_fascism_party:0 "Ustaša"
-CRO_fascism_party_long:0 "Ustaša - Hrvatski Revolucionarni Pokret"
-CRO_communism_party:0 "SKH"
-CRO_communism_party_long:0 "Savez Komunista Hrvatska"
-CRO_democratic_party:0 "DSH"
-CRO_democratic_party_long:0 " Demokratska Stranka Hrvatske"
-CRO_utilitarian_despot_party:0 "Vojno Vijeće"
-CRO_utilitarian_despot_party_long:0 "Vojno Vijeće"
-CRO_neutrality_party:0 ""
-CRO_neutrality_party_long:0 "" 
-CRO_classic_liberal_party:0 "HSS"
-CRO_classic_liberal_party_long:0 "Hrvatska Seljačka Stranka"
-CRO_nihilistic_extremism_party:0 "HNO"
-CRO_nihilistic_extremism_party_long:0 "Hrvatski Narodni Otpor"
-#all other parties are banned, hence the lack of names
+ #Parties
+ CRO_fascism_party:0 "HNO"
+ CRO_fascism_party_long:0 "Hrvatski Narodni Otpor"
+ CRO_communism_party:0 "SKH"
+ CRO_communism_party_long:0 "Savez Komunista Hrvatska"
+ CRO_democratic_party:0 "DSH"
+ CRO_democratic_party_long:0 " Demokratska Stranka Hrvatske"
+ CRO_utilitarian_despot_party:0 "Vojno Vijeće"
+ CRO_utilitarian_despot_party_long:0 "Vojno Vijeće"
+ CRO_neutrality_party:0 ""
+ CRO_neutrality_party_long:0 "" 
+ CRO_classic_liberal_party:0 "HSS"
+ CRO_classic_liberal_party_long:0 "Hrvatska Seljačka Stranka"
+ CRO_nihilistic_extremism_party:0 "Ustaša"
+ CRO_nihilistic_extremism_party_long:0 "Ustaša - Hrvatski Revolucionarni Pokret"
 
-#Country Names
- CRO_fascism:0 "Independent State of Croatia"
- CRO_fascism_DEF:0 "the Independent State of Croatia"
+ #Country Names
  CRO_communism:0 "Croatian People's Republic"
  CRO_communism_DEF:0 "the Croatian People's Republic"
- CRO_utilitarian_despot:0 "Independent State of Croatia"
- CRO_utilitarian_despot_DEF:0 "the Independent State of Croatia"
  CRO_democratic:0 "Republic of Croatia"
  CRO_democratic_DEF:0 "the Republic of Croatia"
  CRO_classic_liberal:0 "Republic of Croatia"
  CRO_classic_liberal_DEF:0 "the Republic of Croatia"
- CRO_neutrality:1 "Independent State of Croatia"
- CRO_neutrality_DEF:1 "the Independent State of Croatia"
-  
+ CRO_neutrality:1 "Croatian Kingdom"
+ CRO_neutrality_DEF:1 "the Croatian Kingdom"
+ CRO_utilitarian_despot:0 "Independent State of Croatia"
+ CRO_utilitarian_despot_DEF:0 "the Independent State of Croatia"
+ CRO_fascism:0 "Independent State of Croatia"
+ CRO_fascism_DEF:0 "the Independent State of Croatia"
+ CRO_nihilistic_extremism:0 ""
+ CRO_nihilistic_extremism_DEF:0 ""
+ 
  CRO_fascism_ADJ:0 "Croatian"
  CRO_communism_ADJ:0 "Croatian"
  CRO_democratic_ADJ:0 "Croatian"
@@ -38,15 +39,13 @@ CRO_nihilistic_extremism_party_long:0 "Hrvatski Narodni Otpor"
  CRO_neutrality_ADJ:0 "Croatian"
  CRO_classic_liberal_ADJ:0 "Croatian"
  
-#Ministers
-#should be reintegrated
-
-
+ #Ministers
+ #should be reintegrated
  
-#Focuses
-#should be reintegrated
+ #Focuses
+ #should be reintegrated
 
-#Events
-#should be reintegrated
+ #Events
+ #should be reintegrated
 
-#Descriptions
+ #Descriptions

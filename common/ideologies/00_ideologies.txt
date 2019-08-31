@@ -41,14 +41,13 @@ ideologies = {
 	communism = {
 
         types = {
-
             vanguard_communism_subtype = {}
 			leninist = {}
 			marxism = {}
 			leninism = {}
+			market_socialism = {}
 			stalinism = {}
 			trotskyist = {}
-
         }
 
         dynamic_faction_names = {
@@ -88,6 +87,8 @@ ideologies = {
 
             revolutionary_socialism_subtype = {}
 			anarchist_communism = {}
+			anarchist_syndicalism = {}
+			anarchist_collectivism = {}
 			socialist_revolutionary = {}
 			libertarian_socialist = {}
 

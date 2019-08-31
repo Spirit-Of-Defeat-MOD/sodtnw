@@ -1,16 +1,16 @@
 ﻿l_english: 
 
-#Parties
-SER_fascism_party:0 ""
-SER_fascism_party_long:0 ""
-SER_communism_party:0 "KPS"
-SER_communism_party_long:0 "Komunisti?ka partija Srbije - Communist Party of Serbia"
-SER_democratic_party:1 ""
-SER_democratic_party_long:0 ""
-SER_utilitarian_despot_party:0 "House of Karedordevic"
-SER_utilitarian_despot_party_long:0 "House of Karedordevic"
-SER_neutrality_party:0 "House of Karedordevic"
-SER_neutrality_party_long:0 "House of Karedordevic"
+ #Parties
+ SER_fascism_party:0 ""
+ SER_fascism_party_long:0 ""
+ SER_communism_party:0 "SKS"
+ SER_communism_party_long:0 "Savez Komunista Srbije"
+ SER_democratic_party:0 ""
+ SER_democratic_party_long:0 ""
+ SER_utilitarian_despot_party:0 "House of Karadjordjevic"
+ SER_utilitarian_despot_party_long:0 "House of Karadjordjevic"
+ SER_neutrality_party:0 "House of Karadjordjevic"
+ SER_neutrality_party_long:0 "House of Karadjordjevic"
 
 #Country Names
  SER_fascism:0 "Kingdom of Serbia"
@@ -21,25 +21,27 @@ SER_neutrality_party_long:0 "House of Karedordevic"
  SER_utilitarian_despot_DEF:0 "the Kingdom of Serbia"
  SER_democratic:0 "Kingdom of Serbia"
  SER_democratic_DEF:0 "the Kingdom of Serbia"
- SER_neutrality:1 "Kingdom of Serbia"
- SER_neutrality_DEF:1 "the Kingdom of Serbia"
-  
+ SER_neutrality:0 "Kingdom of Serbia"
+ SER_neutrality_DEF:0 "the Kingdom of Serbia"
+ 
+ SER_totalitarian_socialism_ADJ:0 "Serbian"
+ SER_communism_ADJ:0 "Serbian"
  SER_fascism_ADJ:0 "Serbian"
  SER_totalitarian_socialism_ADJ:0 "Serbian"
  SER_democratic_ADJ:0 "Serbian"
  SER_utilitarian_despot_ADJ:0 "Serbian"
  SER_neutrality_ADJ:0 "Serbian"
  
-#Ministers
-#should be reintegrated
+ #Ministers
+ #should be reintegrated
 
 
  
-#Focuses
-#should be reintegrated
+ #Focuses
+ #should be reintegrated
 
-#Events
-#should be reintegrated
+ #Events
+ #should be reintegrated
 
-#Descriptions
-POLITICS_ALEXANDER_I_DESC:0 "Alexander I of Serbia, or Alexander the Separator as he is commonly known among the general public, was former king of Yugoslavia before it collapsed in the Third Balkan War, splitting into Slovenia, Serbia, Croatia, Macedonia and Montenegro. Montenegro and a part of Macedonia was retaken by his loyalist forces before the Treaty of Milan was signed, confirming the new Balkan borders. Alexander swore revenge upon Italy and Bulgaria for the destruction of the Yugoslav nation, and awaits for the day he will eventually reunify the Southern Slavic States."
+ #Descriptions
+ POLITICS_ALEXANDER_I_DESC:0 "Alexander I of Serbia, or Alexander the Separator as he is commonly known among the general public, was former king of Yugoslavia before it collapsed in the Third Balkan War, splitting into Slovenia, Serbia, Croatia, Macedonia and Montenegro. Montenegro and a part of Macedonia was retaken by his loyalist forces before the Treaty of Milan was signed, confirming the new Balkan borders. Alexander swore revenge upon Italy and Bulgaria for the destruction of the Yugoslav nation, and awaits for the day he will eventually reunify the Southern Slavic States."

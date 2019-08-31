@@ -1,6 +1,8 @@
 ﻿l_english: 
 
  #Parties
+ CRO_totalitarian_communism_party:0 ""
+ CRO_totalitarian_communism_party_long:0 ""
  CRO_communism_party:0 "SKH"
  CRO_communism_party_long:0 "Savez Komunista Hrvatska"
  CRO_democratic_party:0 "DSH"

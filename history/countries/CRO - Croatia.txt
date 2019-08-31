@@ -40,8 +40,8 @@ set_politics = {
 }
 
 set_popularities = {
-	totalitarian_socialism = 0
-	communism = 10
+	totalitarian_socialism = 1
+	communism = 9
 	revolutionary_socialism = 0
 	democratic_socialism = 0
     social_democracy = 0
@@ -50,7 +50,7 @@ set_popularities = {
     democratic = 20
     neutrality = 0
     utilitarian_despot = 0
-    fascism = 7
+    fascism = 6
     nihilistic_extremism = 4
 }
 
@@ -60,6 +60,16 @@ create_country_leader = {
 	picture = "Vladko_Macek.tga"
 	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jure Francetic"
+	desc = "POLITICS_JURE_FRANCETIC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = nihilistic_extremism_subtype
 	traits = {
 		#
 	}

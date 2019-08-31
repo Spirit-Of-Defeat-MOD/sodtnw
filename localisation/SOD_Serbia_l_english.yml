@@ -1,16 +1,20 @@
 ﻿l_english: 
 
  #Parties
- SER_fascism_party:0 ""
- SER_fascism_party_long:0 ""
+ SER_totalitarian_socialism_party:0 ""
+ SER_totalitarian_socialism_party_long:0 ""
  SER_communism_party:0 "SKS"
  SER_communism_party_long:0 "Savez Komunista Srbije"
  SER_democratic_party:0 ""
  SER_democratic_party_long:0 ""
- SER_utilitarian_despot_party:0 "House of Karadjordjevic"
- SER_utilitarian_despot_party_long:0 "House of Karadjordjevic"
  SER_neutrality_party:0 "House of Karadjordjevic"
  SER_neutrality_party_long:0 "House of Karadjordjevic"
+ SER_utilitarian_despot_party:0 "House of Karadjordjevic"
+ SER_utilitarian_despot_party_long:0 "House of Karadjordjevic"
+ SER_fascism_party:0 ""
+ SER_fascism_party_long:0 ""
+ SER_nihilistic_extremism_party:0 "Zbor"
+ SER_nihilistic_extremism_party_long:0 "Zbor"
 
 #Country Names
  SER_totalitarian_socialism:0 "Serbian Workers' Union"

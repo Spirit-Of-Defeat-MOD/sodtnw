@@ -43,7 +43,7 @@ if = {
 
 set_convoys = 32
 
-set_stability = 0.31
+set_stability = 0.61
 set_war_support = 0.90
 
 set_politics = {
@@ -54,7 +54,7 @@ set_politics = {
 }
 
 set_popularities = {
-	totalitarian_socialism = 6
+	totalitarian_socialism = 5
 	communism = 31
 	revolutionary_socialism = 0
 	democratic_socialism = 6
@@ -62,7 +62,7 @@ set_popularities = {
     social_liberal = 8
     classic_liberal = 1
     democratic = 3
-    neutrality = 39
+    neutrality = 37
     utilitarian_despot = 0
     fascism = 5
     nihilistic_extremism = 2

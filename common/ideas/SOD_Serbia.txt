@@ -1,0 +1,97 @@
+ideas = {
+
+	head_of_government = {
+	}
+	
+	foreign_minister = {
+	}
+	
+	economy_minister = { ### Minister of the Economy ###
+	}
+	
+	security_minister = { ### Minister of Security ###
+	}
+	
+	head_of_intel = { ### Head of Mil Intel ###
+	}
+	
+	hidden_ideas = {
+		
+	}
+	country {
+	    SER_podgoricka_skupstina = {
+			
+			allowed = {
+				original_tag = SER
+				NOT = {
+					country_exists = MNT
+				}
+			}
+
+			picture = SER_podgoricka_skupstina
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.10
+				political_power_gain = -0.2
+				conscription_factor = -0.1
+			}
+		}
+		SER_communist_threat = {
+			
+			allowed = {
+				original_tag = SER
+				NOT = {
+					OR = {
+						has_ruling_party = communism
+						has_ruling_party = totalitarian_communism
+						has_ruling_party = democratic_socialism
+						has_ruling_party = revolutionary_socialism
+					}
+				}
+			}
+
+			picture = SER_communist_threat
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.10
+                neutrality_acceptance = -15
+			}
+		}
+		SER_revanchism = {
+			
+			allowed = {
+				original_tag = SER
+			}
+
+			picture = SER_revanchism
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    conscription = 0.01
+				war_support_factor = 0.2
+				surrender_limit = 0.2
+				production_speed_arms_factory_factor = 0.1
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
+	}
+}

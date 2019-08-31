@@ -36,23 +36,7 @@ country_event = {
 	option = {
 		name = rhine_political.1.a
 		country_event = { id = rhine_political.2 days = 7}
-		hidden_effect = {
-			random_list = {
-				10 = {country_event = { id = rhine_himmler.1 days = 3}}
-				10 = {country_event = { id = rhine_himmler.2 days = 3}}
-				10 = {country_event = { id = rhine_himmler.3 days = 3}}
-				10 = {country_event = { id = rhine_himmler.4 days = 3}}
-				10 = {country_event = { id = rhine_himmler.5 days = 3}}
-				10 = {country_event = { id = rhine_himmler.6 days = 3}}
-				10 = {country_event = { id = rhine_himmler.7 days = 3}}
-				10 = {country_event = { id = rhine_himmler.8 days = 3}}
-				10 = {country_event = { id = rhine_himmler.9 days = 3}}
-				10 = {country_event = { id = rhine_himmler.10 days = 3}}
-			}
-		}
-
 		
-	
     }
 }
 
@@ -79,104 +63,17 @@ country_event = {
 }
 
 country_event = {
-	id = rhine_himmler.1
-	title = rhine_himmler.1.t
-	desc = rhine_himmler.1.d
+	id = rhine_political.3
+	title = rhine_political.3.t
+	desc = rhine_political.3.d
 	picture = GFX_report_event_election_vote
 
 	is_triggered_only = yes
 	
 	
 	option = {
-		name = rhine_himmler.1.a
-		
-	
-    }
-	
-}
-
-country_event = {
-	id = rhine_himmler.2
-	title = rhine_himmler.2.t
-	desc = rhine_himmler.2.d
-	picture = GFX_report_event_election_vote
-
-	is_triggered_only = yes
-	
-	
-	option = {
-		name = rhine_himmler.2.a
-		
-	
-    }
-	
-	option = {
-		name = rhine_himmler.2.b
-		
+		name = rhine_political.2.a
 	
     }
 
-	country_event = {
-		id = rhine_himmler.3
-		title = rhine_himmler.3.t
-		desc = rhine_himmler.3.d
-		picture = GFX_report_event_election_vote
-	
-		is_triggered_only = yes
-		
-		
-		option = {
-			name = rhine_himmler.3.a
-			
-		
-		}
-		
-		option = {
-			name = rhine_himmler.3.b
-			
-		
-		}
-
-		country_event = {
-			id = rhine_himmler.4
-			title = rhine_himmler.4.t
-			desc = rhine_himmler.4.d
-			picture = GFX_report_event_election_vote
-		
-			is_triggered_only = yes
-			
-			
-			option = {
-				name = rhine_himmler.4.a
-				
-			
-			}
-			
-			option = {
-				name = rhine_himmler.4.b
-				
-			
-			}
-
-			country_event = {
-				id = rhine_himmler.5
-				title = rhine_himmler.5.t
-				desc = rhine_himmler.5.d
-				picture = GFX_report_event_election_vote
-			
-				is_triggered_only = yes
-				
-				
-				option = {
-					name = rhine_himmler.5.a
-					
-				
-				}
-				
-				option = {
-					name = rhine_himmler.5.b
-					
-				
-				}
-	
 }

@@ -26,6 +26,20 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RHI_commission_fate"
 			country_event = { id = rhine_political.1 days = 1}
+			hidden_effect = {
+				random_list = {
+					10 = {country_event = { id = rhine_himmler.1 days = 4}}
+					10 = {country_event = { id = rhine_himmler.2 days = 4}}
+					10 = {country_event = { id = rhine_himmler.3 days = 4}}
+					10 = {country_event = { id = rhine_himmler.4 days = 4}}
+					10 = {country_event = { id = rhine_himmler.5 days = 4}}
+					10 = {country_event = { id = rhine_himmler.6 days = 4}}
+					10 = {country_event = { id = rhine_himmler.7 days = 4}}
+					10 = {country_event = { id = rhine_himmler.8 days = 4}}
+					10 = {country_event = { id = rhine_himmler.9 days = 4}}
+					10 = {country_event = { id = rhine_himmler.10 days = 4}}
+				}
+			}
 		}
 	}
 	

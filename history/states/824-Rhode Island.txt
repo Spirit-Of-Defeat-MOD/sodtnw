@@ -1,0 +1,20 @@
+
+state={
+	id=824
+	name="STATE_824"
+	manpower = 686000
+	
+	state_category = town
+
+	history={
+
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		13259 
+	}
+}

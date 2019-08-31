@@ -1,0 +1,20 @@
+
+state={
+	id=826
+	name="STATE_826"
+	manpower = 481000
+	
+	state_category = rural
+
+	history={
+
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		733 3712 3715 10481 
+	}
+}

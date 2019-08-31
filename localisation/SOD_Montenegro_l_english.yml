@@ -1,8 +1,12 @@
 ﻿l_english: 
 
  #Parties
+ MNT_totalitarian_socialism_party:0 ""
+ MNT_totalitarian_socialism_party_long:0 ""
  MNT_communism_party:0 "SKCG"
  MNT_communism_party_long:0 "Savez Komunista Crne Gore"
+ MNT_revolutionary_socialism_party:0 ""
+ MNT_revolutionary_socialism_party_long:0 ""
  MNT_democratic_party:0 ""
  MNT_democratic_party_long:0 ""
  MNT_neutrality_party:0 "House of Petrovic-Njegos"
@@ -37,6 +41,9 @@
  MNT_fascism_ADJ:0 "Montenegrin"
  MNT_revolutionary_socialism_ADJ:0 "Montenegrin"
  MNT_democratic_socialism_ADJ:0 "Montenegrin"
+ MNT_social_democracy_ADJ:0 "Montenegrin"
+ MNT_social_liberal:0 "Montenegrin"
+ MNT_classic_liberal_ADJ:0 "Montenegrin"
  MNT_democratic_ADJ:0 "Montenegrin"
  MNT_neutrality_ADJ:0 "Montenegrin"
  MNT_utilitarian_despot_ADJ:0 "Montenegrin"

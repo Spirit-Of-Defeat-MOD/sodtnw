@@ -20,14 +20,14 @@ set_popularities = {
 	communism = 0
 	revolutionary_socialism = 0
 	democratic_socialism = 0
-        social_democracy = 0
-        social_liberal = 21
-        classic_liberal = 38
-        democratic = 0
-        neutrality = 27
-        utilitarian_despot = 14
-        fascism = 0
-        nihilistic_extremism = 0
+    social_democracy = 0
+    social_liberal = 21
+    classic_liberal = 38
+    democratic = 0
+    neutrality = 27
+    utilitarian_despot = 14
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
 set_convoys = 5
@@ -52,7 +52,6 @@ create_field_marshal = {
     planning_skill = 4
     logistics_skill = 2
 }
-
 
 create_corps_commander = {
 	name = "Gustav Mirdashi"

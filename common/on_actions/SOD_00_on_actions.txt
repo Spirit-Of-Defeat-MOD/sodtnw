@@ -1,19 +1,19 @@
 on_actions = {
-on_startup = {
-    effect = {
-        every_country = {
-            IF = {
-                limit = {
+	on_startup = {
+		effect = {
+			every_country = {
+				IF = {
+					limit = {
                     exists = yes
                     is_ai = no
                 }
-                country_event = { hours = 1 id = intro.1 }
+                country_event = { id = intro.1 }
             }
         }
         random_country = {
-                limit = {
-                    exists = yes
-                }
+            limit = {
+                exists = yes
+            }
        }
     }
 }

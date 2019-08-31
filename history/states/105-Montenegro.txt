@@ -2,27 +2,27 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		chromium=20.000
-		aluminium=70.000
+		chromium=20
+		aluminium=71
 	}
 
 	history={
 		victory_points = {
-			9809 3
+			9809 5
+		}
+		victory_points = {
+		    9821 1
 		}
 		owner = SER
 		add_core_of = MNT 
-                add_core_of = SER
+        add_core_of = SER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
 
 	provinces={

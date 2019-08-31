@@ -32,12 +32,15 @@
  CRO_nihilistic_extremism:0 ""
  CRO_nihilistic_extremism_DEF:0 ""
  
- CRO_fascism_ADJ:0 "Croatian"
+ CRO_totalitarian_communism_ADJ:0 "Croatian"
  CRO_communism_ADJ:0 "Croatian"
+ CRO_revolutionary_socialism_ADJ:0 "Croatian"
  CRO_democratic_ADJ:0 "Croatian"
- CRO_utilitarian_despot_ADJ:0 "Croatian"
- CRO_neutrality_ADJ:0 "Croatian"
  CRO_classic_liberal_ADJ:0 "Croatian"
+ CRO_neutrality_ADJ:0 "Croatian"
+ CRO_utilitarian_despot_ADJ:0 "Croatian"
+ CRO_fascism_ADJ:0 "Croatian"
+ CRO_nihilistic_extremism_ADJ:0 "Croatian"
  
  #Ministers
  #should be reintegrated

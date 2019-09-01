@@ -1,0 +1,155 @@
+RHI_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { RHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RHI_INF_01 }
+
+	fallback_name = "%d. Infanterie-Abteilung"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Infanterie-Abteilung" }
+		2 = { "%d. Infanterie-Abteilung" }
+		3 = { "%d. Infanterie-Abteilung" }
+		4 = { "%d. Infanterie-Abteilung" }
+		5 = { "%d. Infanterie-Abteilung" }
+		6 = { "%d. Infanterie-Abteilung" }
+		7 = { "%d. Infanterie-Abteilung" }
+		8 = { "%d. Infanterie-Abteilung" }
+		9 = { "%d. Infanterie-Abteilung" }
+		10 = { "%d. Infanterie-Abteilung" }
+		11 = { "%d. Infanterie-Abteilung" }
+		12 = { "%d. Infanterie-Abteilung" }
+		13 = { "%d. Infanterie-Abteilung" }
+		14 = { "%d. Infanterie-Abteilung" }
+		15 = { "%d. Infanterie-Abteilung" }
+		16 = { "%d. Infanterie-Abteilung" }
+		17 = { "%d. Infanterie-Abteilung" }
+		18 = { "%d. Infanterie-Abteilung" }
+		19 = { "%d. Infanterie-Abteilung" }
+		20 = { "%d. Infanterie-Abteilung" }
+		21 = { "%d. Infanterie-Abteilung" }
+		22 = { "%d. Infanterie-Abteilung" }
+		23 = { "%d. Infanterie-Abteilung" }
+		24 = { "%d. Infanterie-Abteilung" }
+		25 = { "%d. Infanterie-Abteilung" }
+		26 = { "%d. Infanterie-Abteilung" }
+		33 = { "%d. Infanterie-Abteilung" }
+		34 = { "%d. Infanterie-Abteilung" }
+		27 = { "%d. Infanterie-Abteilung" }
+		28 = { "%d. Infanterie-Abteilung" }
+		29 = { "%d. Infanterie-Abteilung" }
+		30 = { "%d. Infanterie-Abteilung" }
+		31 = { "%d. Infanterie-Abteilung" }
+		32 = { "%d. Infanterie-Abteilung" }
+		35 = { "%d. Infanterie-Abteilung" }
+		36 = { "%d. Infanterie-Abteilung" }
+		44 = { "%d. Infanterie-Abteilung" }
+		45 = { "%d. Infanterie-Abteilung" }
+		46 = { "%d. Infanterie-Abteilung" }
+		61 = { "%d. Infanterie-Abteilung" }
+		50 = { "%d. Infanterie-Abteilung" }
+		52 = { "%d. Infanterie-Abteilung" }
+		56 = { "%d. Infanterie-Abteilung" }
+		57 = { "%d. Infanterie-Abteilung" }
+		58 = { "%d. Infanterie-Abteilung" }
+		62 = { "%d. Infanterie-Abteilung" }
+		68 = { "%d. Infanterie-Abteilung" }
+		69 = { "%d. Infanterie-Abteilung" }
+		71 = { "%d. Infanterie-Abteilung" }
+		73 = { "%d. Infanterie-Abteilung" }
+		75 = { "%d. Infanterie-Abteilung" }
+		76 = { "%d. Infanterie-Abteilung" }
+		78 = { "%d. Infanterie-Abteilung" }
+		79 = { "%d. Infanterie-Abteilung" }
+		86 = { "%d. Infanterie-Abteilung" }
+		87 = { "%d. Infanterie-Abteilung" }
+	}
+}
+
+RHI_POL_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { RHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RHI_POL_01 }
+
+	fallback_name = "%d. Polizei"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Polizei" }
+		2 = { "%d. Polizei" }
+		3 = { "%d. Polizei" }
+		4 = { "%d. Polizei" }
+		5 = { "%d. Polizei" }
+		6 = { "%d. Polizei" }
+		7 = { "%d. Polizei" }
+		8 = { "%d. Polizei" }
+		9 = { "%d. Polizei" }
+		10 = { "%d. Polizei" }
+		11 = { "%d. Polizei" }
+		12 = { "%d. Polizei" }
+		13 = { "%d. Polizei" }
+		14 = { "%d. Polizei" }
+		15 = { "%d. Polizei" }
+		16 = { "%d. Polizei" }
+		17 = { "%d. Polizei" }
+		18 = { "%d. Polizei" }
+		19 = { "%d. Polizei" }
+		20 = { "%d. Polizei" }
+		21 = { "%d. Polizei" }
+		22 = { "%d. Polizei" }
+		23 = { "%d. Polizei" }
+		24 = { "%d. Polizei" }
+		25 = { "%d. Polizei" }
+		26 = { "%d. Polizei" }
+		33 = { "%d. Polizei" }
+		34 = { "%d. Polizei" }
+		27 = { "%d. Polizei" }
+		28 = { "%d. Polizei" }
+		29 = { "%d. Polizei" }
+		30 = { "%d. Polizei" }
+		31 = { "%d. Polizei" }
+		32 = { "%d. Polizei" }
+		35 = { "%d. Polizei" }
+		36 = { "%d. Polizei" }
+		44 = { "%d. Polizei" }
+		45 = { "%d. Polizei" }
+		46 = { "%d. Polizei" }
+		61 = { "%d. Polizei" }
+		50 = { "%d. Polizei" }
+		52 = { "%d. Polizei" }
+		56 = { "%d. Polizei" }
+		57 = { "%d. Polizei" }
+		58 = { "%d. Polizei" }
+		62 = { "%d. Polizei" }
+		68 = { "%d. Polizei" }
+		69 = { "%d. Polizei" }
+		71 = { "%d. Polizei" }
+		73 = { "%d. Polizei" }
+		75 = { "%d. Polizei" }
+		76 = { "%d. Polizei" }
+		78 = { "%d. Polizei" }
+		79 = { "%d. Polizei" }
+		86 = { "%d. Polizei" }
+		87 = { "%d. Polizei" }
+	}
+}

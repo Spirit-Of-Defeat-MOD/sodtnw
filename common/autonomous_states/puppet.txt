@@ -35,10 +35,6 @@ autonomy_state = {
 	}
 
 	allowed = {
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = { has_government = fascism }
-		}
 	}
 
 	#ROOT is puppet - FROM is potential OVERLORD
@@ -54,13 +50,15 @@ autonomy_state = {
 			}
 		}
 	}
+	
+	allowed_levels_filter = {
+		autonomy_satellite
+		autonomy_military_occupation
+		autonomy_puppet
+		autonomy_integrated_puppet
+	}
 
 	can_take_level = {
-		capital_scope = { 
-			is_on_continent = europe
-			is_on_continent = north_america
-			is_on_continent = south_america
-		}
 	}
 
 	can_lose_level = {

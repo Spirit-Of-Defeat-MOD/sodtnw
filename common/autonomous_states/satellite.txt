@@ -31,13 +31,14 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
-		has_government = fascism
-		if = {
-			limit = { has_dlc = "Waking the Tiger" }
-			NOT = { OVERLORD = { original_tag = JAP } }
-			NOT = { OVERLORD = { original_tag = MAN } }
-		}
+
+	}
+	
+	allowed_levels_filter = {
+		autonomy_satellite
+		autonomy_military_occupation
+		autonomy_puppet
+		autonomy_integrated_puppet
 	}
 	
 	can_take_level = {

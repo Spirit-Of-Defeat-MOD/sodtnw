@@ -58,4 +58,11 @@ autonomy_state = {
 	can_lose_level = {
 		#trigger here
 	}
+	
+	allowed_levels_filter = {
+		autonomy_satellite
+		autonomy_military_occupation
+		autonomy_puppet
+		autonomy_integrated_puppet
+	}
 }

@@ -36,17 +36,11 @@ autonomy_state = {
 	}
 
 	allowed = {
-		always = yes
-		ROOT = { OVERLORD = { is_on_continent = europe } }	
+		always = yes	
 	}
 	
 	can_take_level = {
-		capital_scope = { 
-			is_on_continent = africa
-			is_on_continent = australia
-			is_on_continent = asia
-			is_on_continent = middle_east
-		}
+
 	}
 
 	can_lose_level = {

@@ -195,12 +195,14 @@ country_event = {
 	option = {
 		name = germany.7.a
 		add_political_power = 1
+		country_event = { id = germany.17 days = 1 }
 	
 	}
 	#Junkers - will give political power gain to simulate nepotism
 	option = {
 		name = germany.7.b
 		add_political_power = 1
+		country_event = { id = germany.18 days = 1 }
 	
     }
 }
@@ -419,6 +421,37 @@ country_event = {
 				transfer_state = 57
 				transfer_state = 800
 
+				change_tag_from = GER
+
+				declare_war_on = { type = annex_everything    target = GER }
+			}
+		}
+	
+	}
+
+	
+	#Down With The Traitors!
+	option = {
+		name = germany.15.b
+		add_political_power = -150
+		hidden_effect = {
+			DDR = {
+				set_party_name = {
+					ideology = communism
+					long_name = "Volksbefreiungsfront"
+					name = "Volksbefreiungsfront"
+				}
+				transfer_state = 65
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
+				transfer_state = 55
+				transfer_state = 56
+				transfer_state = 57
+				transfer_state = 800
+				
+				
+
 				declare_war_on = { type = annex_everything    target = GER }
 			}
 		}
@@ -442,6 +475,72 @@ country_event = {
 	#To war with the reactionaries!
 	option = {
 		name = germany.16.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Industrialists
+country_event = {
+	id = germany.17
+	title = germany.17.t
+	desc = germany.17.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Privatize Industry
+	option = {
+		name = germany.17.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+
+	#Lucrative Contracts
+	option = {
+		name = germany.17.b
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Junkers
+country_event = {
+	id = germany.18
+	title = germany.18.t
+	desc = germany.18.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Farm Subsidies
+	option = {
+		name = germany.18.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+
+	#Minimum Prices
+	option = {
+		name = germany.18.b
 		add_political_power = -150
 		hidden_effect = {
 			

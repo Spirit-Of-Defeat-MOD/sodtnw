@@ -65,8 +65,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jure Francetic"
-	desc = "POLITICS_JURE_FRANCETIC_DESC"
+	name = "Slavko Kvaternik"
+	desc = "POLITICS_SLAVKO_KVATERNIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = nihilistic_extremism_subtype

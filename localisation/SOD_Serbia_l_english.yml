@@ -1,16 +1,20 @@
 ﻿l_english: 
 
  #Parties
- SER_totalitarian_socialism_party:0 ""
- SER_totalitarian_socialism_party_long:0 ""
+ SER_totalitarian_socialism_party:0 "SKS"
+ SER_totalitarian_socialism_party_long:0 "Savez Komunista Srbije"
  SER_communism_party:0 "SKS"
  SER_communism_party_long:0 "Savez Komunista Srbije"
- SER_revolutionary_socialism_party:0 ""
- SER_revolutionary_socialism_party_long:0 ""
- SER_democratic_socialism_party:0 ""
- SER_democratic_socialism_party_long:0 ""
- SER_classic_liberal_party:0 "Demokratska Stranka Srbije"
- SER_classic_liberal_party_long:0 "DSS"
+ SER_revolutionary_socialism_party:0 "Direktasi"
+ SER_revolutionary_socialism_party_long:0 "Direktasi"
+ SER_democratic_socialism_party:0 "SSDS"
+ SER_democratic_socialism_party_long:0 "Srpska Socijaldemokratska Stranka"
+ SER_social_democracy_party:0 "SSDS"
+ SER_social_democracy_party_long:0 "Srpska Socijaldemokratska Stranka"
+ SER_social_liberal_party:0 "SDS"
+ SER_social_liberal_party_long:0 "Samostalna Demokratska Stranka"
+ SER_classic_liberal_party:0 "DSS"
+ SER_classic_liberal_party_long:0 "Demokratska Stranka Srbije"
  SER_democratic_party:0 "NRS"
  SER_democratic_party_long:0 "Narodna Radikalna Stranka"
  SER_neutrality_party:0 "House of Karadjordjevic"
@@ -22,13 +26,21 @@
  SER_nihilistic_extremism_party:0 "Zbor"
  SER_nihilistic_extremism_party_long:0 "Zbor"
 
-#Country Names
+ #Country Names
  SER_totalitarian_socialism:0 "Serbian Workers' Union"
  SER_totalitarian_socialism_DEF:0 "the Serbian Workers' Union"
  SER_communism:0 "Serbian Workers' Union"
  SER_communism_DEF:0 "the Serbian Workers' Union"
  SER_revolutionary_socialism:0 "Serbian Workers' Union"
  SER_revolutionary_socialism_DEF:0 "the Serbian Workers' Union"
+ SER_democratic_socialism:0 "Serbia"
+ SER_democratic_socialism_DEF:0 "Serbia"
+ SER_social_democracy:0 "Serbia"
+ SER_social_democracy_DEF:0 "Serbia"
+ SER_social_liberal:0 "Serbia"
+ SER_social_liberal_DEF:0 "Serbia"
+ SER_classic_liberal:0 "Serbia"
+ SER_classic_liberal_DEF:0 "Serbia"
  SER_democratic:0 "Kingdom of Serbia"
  SER_democratic_DEF:0 "the Kingdom of Serbia"
  SER_neutrality:0 "Kingdom of Serbia"
@@ -48,8 +60,8 @@
  SER_social_liberal:0 "Serbian"
  SER_classic_liberal_ADJ:0 "Serbian"
  SER_democratic_ADJ:0 "Serbian"
- SER_utilitarian_despot_ADJ:0 "Serbian"
  SER_neutrality_ADJ:0 "Serbian"
+ SER_utilitarian_despot_ADJ:0 "Serbian"
  SER_fascism_ADJ:0 "Serbian"
  SER_nihilistic_extremism_ADJ:0 "Serbian"
  
@@ -64,4 +76,5 @@
 
  #Descriptions
  POLITICS_ALEXANDER_I_DESC:0 "Alexander I of Serbia, or Alexander the Separator as he is commonly known among the general public, was former king of Yugoslavia before it collapsed in the Third Balkan War, splitting into Slovenia, Serbia, Croatia, Macedonia and Montenegro. Montenegro and a part of Macedonia was retaken by his loyalist forces before the Treaty of Milan was signed, confirming the new Balkan borders. Alexander swore revenge upon Italy and Bulgaria for the destruction of the Yugoslav nation, and awaits for the day he will eventually reunify the Southern Slavic States."
+ POLITICS_ALEKSANDAR_RANKOVIC_DESC:0 ""
  POLITICS_DIMITRIJE_LJOTIC_DESC:0 ""

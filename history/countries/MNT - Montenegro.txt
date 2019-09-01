@@ -44,7 +44,7 @@ set_popularities = {
 }
 create_country_leader = {
 	name = "Mose Pijade"
-	desc = ""
+	desc = "POLITICS_MOSE_PIJADE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = totalitarian_communism_subtype
@@ -54,7 +54,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Mose Pijade"
-	desc = ""
+	desc = "POLITICS_MOSE_PIJADE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = communism_subtype
@@ -64,7 +64,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Danilo II Petrovic-Njegos"
-	desc = ""
+	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -74,7 +74,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Danilo II Petrovic-Njegos"
-	desc = ""
+	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = utilitarian_despot_subtype
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Sekula Drljevic"
-	desc = ""
+	desc = "POLITICS_SEKULA_DRLJEVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_subtype
@@ -94,11 +94,42 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Pavle Djurisic"
-	desc = ""
+	desc = "POLITICS_PAVLE_DJURISIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = nihilistic_extremism_subtype
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Jovo Becir"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Radomir Vesovic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Milinko Vlahovic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { urban_assault_specialist }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
 }

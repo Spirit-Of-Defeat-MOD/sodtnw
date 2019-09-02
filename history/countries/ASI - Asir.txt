@@ -1,4 +1,4 @@
-capital = 795
+﻿capital = 795
 
 oob = "ASI_1936"
 

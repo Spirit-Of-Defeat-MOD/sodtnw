@@ -47,7 +47,7 @@ create_country_leader = {
 	desc = "POLITICS_MILOVAN_DJILAS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = totalitarian_communism_subtype
+	ideology = totalitarian_socialism_subtype
 	traits = {
 		#
 	}
@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_MILOVAN_DJILAS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = communism_subtype
+	ideology = market_socialism
 	traits = {
 		#
 	}
@@ -87,7 +87,7 @@ create_country_leader = {
 	desc = "POLITICS_SEKULA_DRLJEVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_subtype
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

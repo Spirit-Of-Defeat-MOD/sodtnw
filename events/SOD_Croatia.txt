@@ -1,0 +1,96 @@
+add_namespace = croatia
+
+# Loading ustasha generals
+country_event = {
+	id = croatia.1
+    title = croatia.1	
+	desc = croatia.1.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		tag = CRO
+	}
+	
+	immediate = {
+	hidden = {
+		create_field_marshal = {
+			name = "Jure Francetic"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Eugen Dido Kvaternik"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Rafael Boban"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Vjekoslav 'Max' Luburic"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Miroslav Majstorovic"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Ljubo Milos"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Petar Brzica"
+			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	}
+	
+	option = {
+		name = croatia.1.a
+	}
+}

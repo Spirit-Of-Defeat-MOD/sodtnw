@@ -1,0 +1,33 @@
+add_namespace = croatianews
+
+# Serbs storm Jasenovac
+news_event = {
+	id = croatianews.1
+	title = croatianews.1.t
+	desc = croatianews.1.d
+	picture = GFX_news_event_jasenovac
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "How can they be so cruel?"
+		trigger = {
+			NOT = {
+				TAG = CRO
+				TAG = SER
+			}
+		}
+	}
+	option = {
+		name = "Jesus!"
+		trigger = { TAG = SER }
+	}
+	option = {
+		name = "Oh no! They got us!"
+		trigger = { TAG = CRO }
+	}
+}

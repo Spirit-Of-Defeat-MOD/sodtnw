@@ -1,4 +1,4 @@
-capital = 109
+﻿capital = 109
 
 set_research_slots = 2
 
@@ -10,6 +10,7 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_support = 1
 	tech_recon = 1
+	gw_artillery = 1
 }
 if = {
 	limit = {
@@ -53,7 +54,26 @@ set_popularities = {
     fascism = 6
     nihilistic_extremism = 4
 }
-
+create_country_leader = {
+	name = "Andrija Hebrang"
+	desc = "POLITICS_ANDRIJA_HEBRANG_DESC"
+	picture = "Vladko_Macek.tga"
+	expire = "1965.1.1"
+	ideology = totalitarian_socialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Andrija Hebrang"
+	desc = "POLITICS_ANDRIJA_HEBRANG_DESC"
+	picture = "Vladko_Macek.tga"
+	expire = "1965.1.1"
+	ideology = market_socialism
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	name = "Vladko Macek"
 	desc = "POLITICS_VLADKO_MACEK_DESC"
@@ -64,7 +84,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Jure Francetic"
 	desc = "POLITICS_JURE_FRANCETIC_DESC"

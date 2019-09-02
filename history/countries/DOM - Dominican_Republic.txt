@@ -1,4 +1,4 @@
-capital = 319
+﻿capital = 319
 
 oob = "DOM_1936"
 

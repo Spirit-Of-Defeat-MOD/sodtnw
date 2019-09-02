@@ -49,10 +49,10 @@ ideas = {
 				original_tag = SER
 				NOT = {
 					OR = {
-						has_ruling_party = communism
-						has_ruling_party = totalitarian_communism
-						has_ruling_party = democratic_socialism
-						has_ruling_party = revolutionary_socialism
+						has_government = communism
+						has_government = totalitarian_communism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
 					}
 				}
 			}

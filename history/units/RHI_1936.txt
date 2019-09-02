@@ -1,5 +1,4 @@
-##### Division Templates #####
-division_template = {
+﻿division_template = {
 	name = "Infanterie-Abteilung"		
 	division_names_group = RHI_INF_01
 	# Difference is their equipment
@@ -10,7 +9,6 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 }
-
 division_template = {
 	name = "Polizei"		
 	division_names_group = RHI_POL_01
@@ -30,7 +28,6 @@ units = {
 		division_template = "Infanterie-Abteilung"
 		start_experience_factor = 0.1
 	}
-	
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -40,7 +37,6 @@ units = {
 		division_template = "Polizei"
 		start_experience_factor = 0.1
 	}
-	
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -50,7 +46,6 @@ units = {
 		division_template = "Polizei"
 		start_experience_factor = 0.1
 	}
-	
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -60,7 +55,6 @@ units = {
 		division_template = "Polizei"
 		start_experience_factor = 0.1
 	}
-	
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -70,7 +64,6 @@ units = {
 		division_template = "Polizei"
 		start_experience_factor = 0.1
 	}
-	
 	division = {
 		division_name = {
 			is_name_ordered = yes

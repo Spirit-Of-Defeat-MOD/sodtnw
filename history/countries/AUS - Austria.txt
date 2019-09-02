@@ -1,4 +1,4 @@
-capital = 4# this country is replaced by SRO at start
+﻿capital = 4# this country is replaced by SRO at start
 
 oob = "AUS_1936"
 

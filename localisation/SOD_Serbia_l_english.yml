@@ -70,7 +70,12 @@
  
  #Focuses
  #should be reintegrated
-
+ 
+ #National Spirits
+ SER_revanchism:0 "Revanchism"
+ SER_podgoricka_skupstina:0 "'Podgorica Assembly'"
+ SER_communist_threat:0 "Communist Opposition"
+ 
  #Events
  #should be reintegrated
 

@@ -1,6 +1,8 @@
 ﻿name="Spirit of Defeat: The Next War"
 path="mod/sodtnw/"
-replace_path = "events"
+replace_path="common/bookmarks"
+replace_path="events"
+replace_path="portraits"
 tags={
 	"Alternative History"
 	"Ideologies"

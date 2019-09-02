@@ -1,4 +1,4 @@
-capital = 772
+﻿capital = 772
 
 oob = "AEF_1936"
 

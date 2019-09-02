@@ -65,4 +65,14 @@ spriteTypes = {
 		name = "GFX_idea_state_unions"
 		texturefile = "gfx/interface/ideas/GER/state_unions.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_lucrative_contracts"
+		texturefile = "gfx/interface/ideas/GER/lucrative_contracts.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_privatizations"
+		texturefile = "gfx/interface/ideas/GER/privatizations.tga"
+	}
 }

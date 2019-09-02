@@ -43,8 +43,8 @@ set_popularities = {
     nihilistic_extremism = 0
 }
 create_country_leader = {
-	name = "Mose Pijade"
-	desc = "POLITICS_MOSE_PIJADE_DESC"
+	name = "Milovan Djilas"
+	desc = "POLITICS_MILOVAN_DJILAS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = totalitarian_communism_subtype
@@ -53,8 +53,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Mose Pijade"
-	desc = "POLITICS_MOSE_PIJADE_DESC"
+	name = "Milovan Djilas"
+	desc = "POLITICS_MILOVAN_DJILAS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = communism_subtype

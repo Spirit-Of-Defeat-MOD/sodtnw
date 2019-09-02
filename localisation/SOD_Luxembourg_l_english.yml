@@ -1,0 +1,79 @@
+﻿l_english: 
+
+#Parties
+LUX_fascism_party:0 "VB"
+LUX_fascism_party_long:0 "Volksdeutsche Bewegung"
+LUX_communism_party:0 "KPL"
+LUX_communism_party_long:0 "Kommunistesch Partei vu Lëtzebuerg"
+LUX_democratic_party:0 "PD"
+LUX_democratic_party_long:0 "Rietspartei"
+LUX_utilitarian_despot_party:0 ""
+LUX_utilitarian_despot_party_long:0 ""
+LUX_neutrality_party:0 "ON"
+LUX_neutrality_party_long:0 "Onofhängeg Nationalpartei" #generic populists basically
+LUX_social_democracy_party:0 "LSAP"
+LUX_social_democracy_party_long:0 "Lëtzebuerger Sozialistesch Aarbechterpartei"
+LUX_social_liberal_party:0 "RLP"
+LUX_social_liberal_party_long:0 "Radikal-Liberal Partei"
+LUX_classic_liberal_party:0 "LL"
+LUX_classic_liberal_party_long:0 "Liberal Liga"
+LUX_totalitarian_socialism_party:0 ""
+LUX_totalitarian_socialism_party_long:0 ""
+LUX_revolutionary_socialism_party:0 ""
+LUX_revolutionary_socialism_party_long:0 ""
+LUX_democratic_socialism_party:0 "OL"
+LUX_democratic_socialism_party_long:0 "Onofhängeg Lénkspartei"
+LUX_nihilistic_extremism_party:0 ""
+LUX_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ LUX_fascism:0 "Grand Duchy of Luxembourg"
+ LUX_fascism_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_nihilistic_extremism:0 "Grand Duchy of Luxembourg"
+ LUX_nihilistic_extremism_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_totalitarian_socialism:0 "People's Republic of Luxembourg"
+ LUX_totalitarian_socialism_DEF:0 "the People's Republic of Luxembourg"
+ LUX_utilitarian_despot:0 "Grand Duchy of Luxembourg"
+ LUX_utilitarian_despot_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_democratic:0 "Grand Duchy of Luxembourg"
+ LUX_democratic_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_neutrality:1 "Grand Duchy of Luxembourg"
+ LUX_neutrality_DEF:1 "the Grand Duchy of Luxembourg"
+ LUX_democratic_socialism:0 "People's Republic of Luxembourg"
+ LUX_democratic_socialism_DEF:0 "the People's Republic of Luxembourg"
+ LUX_revolutionary_socialism:0 "Workers' Commune of Luxembourg"
+ LUX_revolutionary_socialism_DEF:0 "the Workers' Commune of Luxembourg"
+ LUX_social_democracy:0 "Grand Duchy of Luxembourg"
+ LUX_social_democracy_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_social_liberal:0 "Grand Duchy of Luxembourg"
+ LUX_social_liberal_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_classic_liberal:0 "Grand Duchy of Luxembourg"
+ LUX_classic_liberal_DEF:0 "the Grand Duchy of Luxembourg"
+ LUX_communism:0 "People's Republic of Luxembourg"
+ LUX_communism_DEF:0 "the People's Republic of Luxembourg"
+ 
+ LUX_fascism_ADJ:0 "Luxembourgish"
+ LUX_nihilistic_extremism_ADJ:0 "Luxembourgish"
+ LUX_totalitarian_socialism_ADJ:0 "Luxembourgish"
+ LUX_democratic_ADJ:0 "Luxembourgish"
+ LUX_utilitarian_despot_ADJ:0 "Luxembourgish"
+ LUX_democratic_socialism_ADJ:0 "Luxembourgish"
+ LUX_neutrality_ADJ:0 "Luxembourgish"
+ LUX_revolutionary_socialism_ADJ:0 "Luxembourgish"
+ LUX_social_democracy_ADJ:0 "Luxembourgish"
+ LUX_social_liberal_ADJ:0 "Luxembourgish"
+ LUX_classic_liberal_ADJ:0 "Luxembourgish"
+ LUX_communism_ADJ:0 "Luxembourgish"
+ 
+ #Ministers
+#should be reintegrated
+
+#Leaders
+
+ 
+#Focuses
+#should be reintegrated
+
+
+#Events
+#should be reintegrated

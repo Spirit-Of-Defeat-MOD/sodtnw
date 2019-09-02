@@ -13,10 +13,10 @@ country_event = {
 	
 	trigger = {
 		tag = CRO
+		has_government = nihilistic_extremism
 	}
 	
 	immediate = {
-	hidden = {
 		create_field_marshal = {
 			name = "Jure Francetic"
 			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
@@ -80,7 +80,7 @@ country_event = {
 		create_corps_commander = {
 			name = "Petar Brzica"
 			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			traits = { }
+			traits = { harsh }
 			skill = 1
 			attack_skill = 2
 			defense_skill = 1
@@ -88,9 +88,10 @@ country_event = {
 			logistics_skill = 1
 		}
 	}
-	}
-	
 	option = {
+		ai_chance = {
+			factor = 100
+		}
 		name = croatia.1.a
 	}
 }

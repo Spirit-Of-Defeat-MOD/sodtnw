@@ -88,9 +88,17 @@ sour_loser_desc:0 "The Treaty of Versailles humiliated the German nation, stripp
 general_staff:0 "German General Staff"
 general_staff_desc:0 "The German General Staff, officially the Great General Staff, is responsible for the continuous study of all aspects of war, whether it be sea or land or air. Some of what they do include the drafting and reviewing of plans for mobilization or campaign. This contributes to a higher level of organization and discipline in the army."
 amended_constitution:0 "Amended Constitution"
-factory_strikes:0 "Factory Strkes"
+amended_constitution_desc:0 "After sucessful negotiations with representatives from amongst Germany's largest unions, we have come to an agreement with their terms. The 1923 Constitution, instated shortly after the Schutzputsch by Hans von Seeckt, has been amended to provide basic protections and rights for workers - including the right of collective bargaining."
+factory_strikes:0 "Factory Strikes"
+factory_strikes_desc:0 "Strikes have broken out in factories across the nation. The workers claim to be acting in solidarity with their union representatives - who we were unable to work with. Increased pay, shorter hours, and the right to unionize are the primary demands of the strikers. Perhaps, we should have listened to their demands... But hopefully things won't get out of hand."
 riots:0 "Riots"
+riots_desc:0 "Outrage against our failed negotiations has spilled out of the workplaces and into the streets. Rioters have thrown stones through windows of shops, assaulted police officers, and there have even been several reports of arson. Subversives tied to the far-left KPD seem to be instigating this unrest..."
 state_unions:0 "State Unions"
+state_unions_desc:0 "Placeholder." #add to this later
+privatizations:0 "Industry Privatization"
+privatizations_desc:0 "After much debate, the government has decided to pursue a policy of privatization. Many of the government corporations selected for privatization were financial burdens and will be more efficiently ran as private entities. Public-held firms in the mining, steel processing, and heavy industries are to be sold off, generating revenue for the state. The extra revenue can be put towards remilitarization, and other high priority areas of the national agenda."
+lucrative_contracts:0 "Lucrative Contracts"
+lucrative_contracts_desc:0 "Millions of Reichsmarks have been set aside for business contracts with German industrialists. Under the guise of front companies, they will produce armaments that will be be used to refit the Reichswehr. These contracts are expected to be highly sought after, and highly profitable for the contractor. Nonetheless, this has been determined to be the best method for maintaining control of the rearming process, whilst also keeping our hands clean in the event we are caught."
  
 #Events
 germany.1.t:0 "Germany Introduction"

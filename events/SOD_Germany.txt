@@ -498,20 +498,14 @@ country_event = {
 	#Privatize Industry
 	option = {
 		name = germany.17.a
-		add_political_power = -150
-		hidden_effect = {
-			
-		}
+		add_ideas = privatizations
 	
 	}
 
 	#Lucrative Contracts
 	option = {
 		name = germany.17.b
-		add_political_power = -150
-		hidden_effect = {
-			
-		}
+		add_ideas = lucrative_contracts
 	
 	}
 	

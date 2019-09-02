@@ -304,5 +304,47 @@ ideas = {
 				stability_weekly = 0.01
 			}
 		}
+
+		privatizations = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.05
+				stability_weekly = 0.03
+			}
+		}
+
+		lucrative_contracts = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.05
+				stability_weekly = -0.03
+			}
+		}
 	}	
 }

@@ -75,4 +75,14 @@ spriteTypes = {
 		name = "GFX_idea_privatizations"
 		texturefile = "gfx/interface/ideas/GER/privatizations.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_healthcare"
+		texturefile = "gfx/interface/ideas/GER/healthcare.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_unemployment_benefits"
+		texturefile = "gfx/interface/ideas/GER/unemployment_benefits.tga"
+	}
 }

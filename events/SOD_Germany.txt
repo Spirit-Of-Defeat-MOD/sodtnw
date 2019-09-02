@@ -94,13 +94,15 @@ country_event = {
 	#Healthcare - plus consumer goods and recruitable percentage
 	option = {
 		name = germany.4.a
-		add_political_power = 1
+		add_political_power = -25
+		add_ideas = healthcare
 	
 	}
 	#Unemployment Benefits - minus political power gain and plus stability
 	option = {
 		name = germany.4.b
-		add_political_power = 1
+		add_political_power = -25
+		add_ideas = unemployment_benefits
 	
     }
 }

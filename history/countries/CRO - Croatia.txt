@@ -89,6 +89,16 @@ create_country_leader = {
 	desc = "POLITICS_JURE_FRANCETIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jure Francetic"
+	desc = "POLITICS_JURE_FRANCETIC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
 	ideology = nihilistic_extremism_subtype
 	traits = {
 		#

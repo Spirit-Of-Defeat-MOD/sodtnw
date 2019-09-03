@@ -83,8 +83,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Sekula Drljevic"
-	desc = "POLITICS_SEKULA_DRLJEVIC_DESC"
+	name = "Pavle Djurisic"
+	desc = "POLITICS_PAVLE_DJURISIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

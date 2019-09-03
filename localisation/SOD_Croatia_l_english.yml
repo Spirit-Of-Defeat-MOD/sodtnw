@@ -21,8 +21,8 @@
  CRO_neutrality_party_long:0 ""
  CRO_utilitarian_despot_party:0 ""
  CRO_utilitarian_despot_party_long:0 ""
- CRO_fascism_party:0 "HNO"
- CRO_fascism_party_long:0 "Hrvatski Narodni Otpor"
+ CRO_fascism_party:0 "UHRO"
+ CRO_fascism_party_long:0 "Ustaša - Hrvatska Revolucionarna Organizacija"
  CRO_nihilistic_extremism_party:0 "UHRO"
  CRO_nihilistic_extremism_party_long:0 "Ustaša - Hrvatska Revolucionarna Organizacija"
 
@@ -43,8 +43,8 @@
  CRO_utilitarian_despot_DEF:0 "the Independent State of Croatia"
  CRO_fascism:0 "Independent State of Croatia"
  CRO_fascism_DEF:0 "the Independent State of Croatia"
- CRO_nihilistic_extremism:0 ""
- CRO_nihilistic_extremism_DEF:0 ""
+ CRO_nihilistic_extremism:0 "Independent State of Croatia"
+ CRO_nihilistic_extremism_DEF:0 "the Independent State of Croatia"
  
  CRO_totalitarian_socialism_ADJ:0 "Croatian"
  CRO_communism_ADJ:0 "Croatian"

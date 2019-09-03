@@ -19,6 +19,17 @@ if = {
 	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
 	}
 }
 if = {
@@ -28,10 +39,9 @@ if = {
 	set_technology = {
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
+		early_light_cruiser = 1
 	}
 }
-
-set_convoys = 19
 
 set_politics = {
 	ruling_party = classic_liberal
@@ -41,18 +51,18 @@ set_politics = {
 }
 
 set_popularities = {
-	totalitarian_socialism = 1
-	communism = 9
+	totalitarian_socialism = 2
+	communism = 6
 	revolutionary_socialism = 0
-	democratic_socialism = 0
-    social_democracy = 0
-    social_liberal = 0
-    classic_liberal = 60
-    democratic = 20
-    neutrality = 0
-    utilitarian_despot = 0
-    fascism = 6
-    nihilistic_extremism = 4
+	democratic_socialism = 1
+    social_democracy = 2
+    social_liberal = 11
+    classic_liberal = 64
+    democratic = 0
+    neutrality = 3
+    utilitarian_despot = 3
+    fascism = 8
+    nihilistic_extremism = 0
 }
 create_country_leader = {
 	name = "Andrija Hebrang"
@@ -75,11 +85,61 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Andrija Hebrang"
+	desc = "POLITICS_ANDRIJA_HEBRANG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vladko Macek"
+	desc = "POLITICS_VLADKO_MACEK_DESC"
+	picture = "Vladko_Macek.tga"
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vladko Macek"
+	desc = "POLITICS_VLADKO_MACEK_DESC"
+	picture = "Vladko_Macek.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Vladko Macek"
 	desc = "POLITICS_VLADKO_MACEK_DESC"
 	picture = "Vladko_Macek.tga"
 	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ante Pavelic"
+	desc = "POLITICS_ANTE_PAVELIC_DESC"
+	picture = "Portrait_Ante_Pavelic.tga"
+	expire = "1965.1.1"
+	ideology = utilitarian_despot_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ante Pavelic"
+	desc = "POLITICS_ANTE_PAVELIC_DESC"
+	picture = "Portrait_Ante_Pavelic.tga"
+	expire = "1965.1.1"
+	ideology = oligarchism
 	traits = {
 		#
 	}
@@ -103,4 +163,44 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_field_marshal = {
+	name = "Vladimir Laxa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Miroslav Navratil"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = {  }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Matija Canic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vilko Begic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { urban_assault_specialist }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
 }

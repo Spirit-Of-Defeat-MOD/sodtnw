@@ -103,6 +103,8 @@ healthcare:0 "Healthcare Reforms"
 healthcare_desc:0 "Placeholder." #add to this later
 unemployment_benefits:0 "Unemployment Benefits"
 unemployment_benefits_desc:0 "Placeholder" #add to this later
+army_purge:0 "Army Purge"
+army_purge_desc:0 "In response to subversion and sabotage from within the armed forces, a purge of both leadership and infantry has been initiated. The purge has negatively impacted our stability and struck fear into our loyal generals - but ultimately these actions were deemed necessary to root o"
  
 #Events
 germany.1.t:0 "Germany Introduction"

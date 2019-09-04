@@ -1,22 +1,26 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			GER = {
+				country_event = germany.1
+			}
+			CRO = {
+				country_event = croatia.2
+			}
+			SER = {
+				country_event = serbia.1
+			}
 			every_country = {
-				IF = {
+				if = {
 					limit = {
-                    exists = yes
-                    is_ai = no
-                }
-                country_event = { id = intro.1 }
-            }
-        }
-        random_country = {
-            limit = {
-                exists = yes
-            }
-       }
-    }
-}
+						exists = yes
+						is_ai = no
+					}
+					country_event = { id = intro.1 }
+				}
+			}
+		}
+	}
     on_daily = {
         effect = {
             if = {

@@ -24,7 +24,7 @@ country_event = {
 	CRO = {
 		create_field_marshal = {
 			name = "Jure Francetic"
-			portrait_path = "Portrait_Jure_Francetic.tga"
+			portrait_path = "gfx/leaders/CRO/Portrait_Jure_Francetic.tga"
 			traits = { politically_connected }
 			skill = 4
 			attack_skill = 4
@@ -99,5 +99,19 @@ country_event = {
 			factor = 100
 		}
 		name = croatia.1.a
+	}
+}
+country_event = {
+	id = croatia.2
+    title = croatia.2.t
+	desc = croatia.2.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.2.a
 	}
 }

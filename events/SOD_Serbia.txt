@@ -1,0 +1,16 @@
+add_namespace = serbia
+
+country_event = {
+	id = serbia.1
+    title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.1.a
+	}
+}

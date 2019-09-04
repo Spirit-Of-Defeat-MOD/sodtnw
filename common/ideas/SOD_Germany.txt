@@ -408,5 +408,63 @@ ideas = {
 				conscription = -0.02
 			}
 		}
+
+		job_training = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.01
+				stability_weekly = 0.01
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		public_works = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		modernized_production = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
 	}	
 }

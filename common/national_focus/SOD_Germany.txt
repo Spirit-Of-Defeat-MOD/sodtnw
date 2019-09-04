@@ -1197,6 +1197,9 @@ prerequisite = { focus = GER_publicworksprograms }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	add_ideas = job_training
+ }
 
  } 
 
@@ -1227,6 +1230,9 @@ prerequisite = { focus = GER_subsidizeindustrialdevelopment }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	 add_ideas = public_works
+ }
 
  } 
 
@@ -1314,6 +1320,9 @@ prerequisite = { focus = GER_scientificresearchgrants }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	add_ideas = modernized_production
+}
 
  } 
 

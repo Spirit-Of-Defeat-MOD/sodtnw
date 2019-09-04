@@ -104,7 +104,13 @@ healthcare_desc:0 "Placeholder." #add to this later
 unemployment_benefits:0 "Unemployment Benefits"
 unemployment_benefits_desc:0 "Placeholder" #add to this later
 army_purge:0 "Army Purge"
-army_purge_desc:0 "In response to subversion and sabotage from within the armed forces, a purge of both leadership and infantry has been initiated. The purge has negatively impacted our stability and struck fear into our loyal generals - but ultimately these actions were deemed necessary to root o"
+army_purge_desc:0 "In response to subversion and sabotage from within the armed forces, a purge of both leadership and infantry has been initiated. The purge has negatively impacted our stability and struck fear into our loyal generals - but ultimately, these actions were deemed necessary to root out treasonous elements from within the armed forces, and thus, to preserve the nation."
+job_training:0 "Job Training Initiatives"
+job_training_desc:0 "" #add to this later
+public_works:0 "Public Works"
+public_works_desc:0 "" #add to this later
+modernized_production:0 "Mordernized Production Lines"
+modernized_production_desc:0 "" #add to this later
  
 #Events
 germany.1.t:0 "Germany Introduction"

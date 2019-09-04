@@ -5,21 +5,26 @@ country_event = {
 	id = croatia.1
     title = croatia.1	
 	desc = croatia.1.d
-	picture = GFX_report_event_europe_funeral
+	picture = GFX_report_event_generic_battle
 	
 	fire_only_once = yes
 	
 	hidden = yes
 	
 	trigger = {
-		tag = CRO
-		has_government = nihilistic_extremism
+		CRO = {
+			OR = {
+				has_government = nihilistic_extremism
+				has_government = fascism
+			}
+		}
 	}
 	
 	immediate = {
+	CRO = {
 		create_field_marshal = {
 			name = "Jure Francetic"
-			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			portrait_path = "Portrait_Jure_Francetic.tga"
 			traits = { politically_connected }
 			skill = 4
 			attack_skill = 4
@@ -87,6 +92,7 @@ country_event = {
 			planning_skill = 1
 			logistics_skill = 1
 		}
+	}
 	}
 	option = {
 		ai_chance = {

@@ -51,9 +51,7 @@ ideologies = {
 			join_faction_tension = 0.80
 			generate_wargoal_tension = 0.25
 		}
-		faction_modifiers = {
-			#
-		}
+		faction_modifiers = { }
 		can_be_boosted = no
 		can_collaborate = yes
     }
@@ -83,9 +81,7 @@ ideologies = {
 			join_faction_tension = 0.80
 			generate_wargoal_tension = 0.25
 		}
-		faction_modifiers = {
-			#
-		}
+		faction_modifiers = { }
 		can_be_boosted = no
 		can_collaborate = yes
     }
@@ -287,13 +283,13 @@ ideologies = {
 
     fascism = {
         types = {
+			fascism_ideology = {}
             national_collectivist = {}
 			national_syndicalist = {}
 			national_corporatist = {}
 			falangism = {}
 			integral_nationalist = {}
 			nazism = {}
-			fascism_ideology = {}
 			rexism = {}
         }
         dynamic_faction_names = {

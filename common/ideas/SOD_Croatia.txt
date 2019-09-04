@@ -1,0 +1,23 @@
+ideas = {
+
+	head_of_government = {
+	}
+	
+	foreign_minister = {
+	}
+	
+	economy_minister = { ### Minister of the Economy ###
+	}
+	
+	security_minister = { ### Minister of Security ###
+	}
+	
+	head_of_intel = { ### Head of Mil Intel ###
+	}
+	
+	hidden_ideas = {
+		
+	}
+	country {
+	}
+}

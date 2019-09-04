@@ -109,7 +109,6 @@ add_ideas = {
 	george_v
 }
 	
-
 set_convoys = 800
 
 # DIPLOMACY

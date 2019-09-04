@@ -31,8 +31,7 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-CRO_INF_01 = 
-{
+CRO_INF_01 = {
 	name = "Infantry Divisions"
 
 	for_countries = { CRO }
@@ -87,22 +86,22 @@ CRO_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d. Konjièka Divizija"
+	fallback_name = "%d. Konjicka Divizija"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Konjièka Divizija" }
-		2 = { "%d. Konjièka Divizija" }
-		3 = { "%d. Konjièka Divizija" }
-		4 = { "%d. Konjièka Divizija" }
-		5 = { "%d. Konjièka Divizija" }
-		6 = { "%d. Konjièka Divizija" }
-		7 = { "%d. Konjièka Divizija" }
-		8 = { "%d. Konjièka Divizija" }
-		9 = { "%d. Konjièka Divizija" }
-		10 = { "%d. Konjièka Divizija" }
+		1 = { "%d. Konjicka Divizija" }
+		2 = { "%d. Konjicka Divizija" }
+		3 = { "%d. Konjicka Divizija" }
+		4 = { "%d. Konjicka Divizija" }
+		5 = { "%d. Konjicka Divizija" }
+		6 = { "%d. Konjicka Divizija" }
+		7 = { "%d. Konjicka Divizija" }
+		8 = { "%d. Konjicka Divizija" }
+		9 = { "%d. Konjicka Divizija" }
+		10 = { "%d. Konjicka Divizija" }
 
 	}
 }
@@ -160,8 +159,6 @@ CRO_MOT_01 =
 		29 = { "%d. Brza Divizija" }
 		30 = { "%d. Brza Divizija" }
 
-		#List goes up to #30 so there's no oddness with first three 'hard-numbered' divs
-
 	}
 }
 
@@ -206,7 +203,7 @@ CRO_MEC_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "mechanized"  }
+	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { CRO_MOT_01 }

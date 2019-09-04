@@ -1,5 +1,4 @@
 ﻿l_english: 
-
  #Parties
  CRO_totalitarian_socialism_party:0 "SKH"
  CRO_totalitarian_socialism_party_long:0 "Savez Komunista Hrvatske"
@@ -70,3 +69,4 @@
  croatianews.1.d:0 "After the last croatian troops have retreated from Stara Gradiska, serb armies entered the city and found a horrifying concentration camp, called Jasenovac. Before abandoning the camp shortly after the serbian breakthrough, the Ustaše killed the remaining prisoners and torched the buildings, guardhouses, torture rooms, the 'Piccili Furnace', and all the other structures in the camp. Upon entering the camp in May, the Serbs came across only ruins, soot, smoke, and the skeletal remains of thousands of victims. 'This is just another proof of how brutal Croats are towards non-croatian civilians and jews', says the Serbian leader."
 
  #Descriptions
+ POLITICS_JURE_FRANCETIC_DESC:0 ""

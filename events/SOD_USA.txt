@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # USA Events
 ###########################
 
@@ -6,9 +6,9 @@ add_namespace = usa
 
 # Pershing offers to return to service
 country_event = {
-	id = usa.1
-	title = usa.1.t
-	desc = usa.1.d
+	id = usa.101
+	title = usa.101.t
+	desc = usa.101.d
 	picture = GFX_report_event_generic_usa_treaty
 
 	fire_only_once = yes
@@ -24,7 +24,7 @@ country_event = {
 	}
 	
 	option = { # he returns to army
-		name = usa.1.a
+		name = usa.101.a
 		add_political_power = -10
 		create_field_marshal = {
 			name = "John J. Pershing"
@@ -39,6 +39,544 @@ country_event = {
 		set_country_flag = pershing_joins_army
 	}
 	option = { # offer refused
-		name = usa.1.b
+		name = usa.101.b
+	}
+}
+
+###################################
+#### Election events by Gtfan4ever#
+###################################
+
+country_event = { #the february agriclure strike
+	id = usa.1
+	title = usa.1.t 
+	desc = usa.1.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.2.11
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {#shit
+		name = usa.1.a 
+		
+		add_stability = -0.03
+		
+		hidden_effect = {
+			set_country_flag = farmer_strikes
+		}
+	}
+}
+
+country_event = {#economy worsens
+	id = usa.2
+	title = usa.2.t 
+	desc = usa.2.d 
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		has_country_flag = farmer_strikes
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {#make republicans weak, or nahhhhh, THIS WILL MAKE HOOVER APPEAR!!!
+		name = usa.2.a 
+		ai_chance = { factor = 50 }
+		add_stability = -0.02
+		add_political_power = -25
+		add_ideas = weak_economy #y'all can make that later
+		
+		hidden_effect = {
+			set_country_flag = hoover_can_appear
+			country_event = { days = 30 id = usa.3 }
+		}
+	}
+	option = {#lower tariffs and fix economy 
+		name = usa.2.b 
+		ai_chance = { factor = 50 }
+		add_political_power = -150
+		add_stability = 0.01
+		
+		hidden_effect = {
+			country_event = { days = 30 id = usa.4 }
+		}
+	}
+}
+
+country_event = { #republican popularity tumbles
+	id = usa.3
+	title = usa.3.t 
+	desc = usa.3.d 
+	
+	is_triggered_only = yes 
+	
+	option = {#oops
+		name = usa.3.a 
+		
+		add_political_power = -50
+		
+		add_popularity = {
+			ideology = classical_liberal
+			popularity = -0.07
+		}
+		hidden_effect = {
+			country_event = { days = 10 id = usa.5 }
+		}
+	}
+}
+
+country_event = {#farmers end strikes
+	id = usa.4
+	title = usa.4.t 
+	desc = usa.4.d 
+	picture = INSERT_HERE
+	
+	is_triggered_only = yes 
+	
+	option = {#yayyyy
+		name = usa.4.a 
+		
+		add_political_power = 100
+		add_stability = 0.07
+		hidden_effect = {
+			country_event = { days = 30 id = usa.7 }
+			set_country_flag = republicans_good
+			clr_country_flag = farmer_strikes
+		}
+	}
+}
+
+country_event = {#republicans fighting
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d 
+	
+	is_triggered_only = yes 
+	
+	option = {#force them to cooperate
+		name = usa.5.a 
+		ai_chance = { factor = 10 }
+		add_political_power = -200
+		hidden_effect = {
+			set_country_flag = republican_cooperation 
+		}
+	}
+	option = {#screw them 
+		name = usa.5.b 
+		ai_chance = { factor = 90 }
+		add_stability = 0.01
+		
+		hidden_effect = {
+			set_country_flag = republican_fighting
+		}
+	}
+}
+
+country_event = {#democrat national convention
+	id = usa.6
+	title = usa.6.t 
+	desc = usa.6.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.7.24
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {#nominate the democrat, i forgot his name srry
+		name = usa.6.a 
+		
+		add_popularity = {
+			ideology = democratic #change for republican
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = dem_convention_over
+		}
+	}
+}
+
+country_event = {#republican popularity increases
+	id = usa.7
+	title = usa.7.t 
+	desc = usa.7.d 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = usa.7.a 
+		
+		add_political_power = 100
+		add_popularity = 0.02
+		
+		hidden_effect = {
+			set_country_flag = republicans_popular
+		}
+	}
+}
+
+country_event = {#republican convention - calm one
+	id = usa.8
+	title = usa.8.t 
+	desc = usa.8.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+		
+	trigger = {
+		tag = USA 
+		has_country_flag = dem_convention_over
+		date > 1936.7.30
+		has_country_flag = republicans_popular
+	}
+	
+	mean_time_to_happen = { days = 1}
+	
+	option = {#republicans nominate mellon #boring
+		name = usa.8.a 
+		
+		hidden_effect = {
+			set_country_flag = rep_convention_over
+			set_country_flag = republican_mellon
+		}
+	}
+}
+
+country_event = {#republican_convention - version 2 with curtis
+	id = usa.9
+	title = usa.9.t 
+	desc = usa.9.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.7.30
+		has_country_flag = dem_convention_over 
+		has_country_flag = farmer_strikes
+		has_country_flag = republican_cooperation
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {#mellon has heart attack, so go with curtis!
+		name = usa.9.a 
+		
+		hidden_effect = {
+			set_country_flag = republican_curtis
+			set_country_flag = rep_convention_over
+			kill_country_leader = yes 
+		}
+	}
+}
+
+country_event = { #CRAZY HOOVER TIME
+	id = usa.10
+	title = usa.10.t 
+	desc = usa.10.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.7.30
+		has_country_flag = dem_convention_over
+		has_country_flag = farmer_strikes
+		has_country_flag = republican_fighting
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {HOOVER TIME
+		name = usa.10.a 
+		
+		hidden_effect = {
+			set_country_flag = republican_hoover
+			set_country_flag = rep_convention_over
+		}
+	}
+	option = {#curtis
+		name = usa.10.b 
+		
+		hidden_effect = {
+			set_country_flag = republican_curtis
+			set_country_flag = rep_convention_over
+		}
+	}
+}
+
+country_event = {#election #1, mellon vs democrat 
+	id = usa.11
+	title = usa.11.t 
+	desc = usa.11.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.10.1
+		has_country_flag = rep_convention_over
+		has_country_flag = dem_convention_over
+		has_country_flag = republican_mellon
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {#mellon
+		name = usa.11.a 
+		ai_chance = { factor = 50 }
+		
+		hidden_effect = {
+			set_country_flag = mellon_wins
+		}
+	}
+	option = {#other guy
+		name = usa.11.b 
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			set_country_flag = democrat_wins
+		}
+	}
+}
+
+country_event = {#election #2, curtis VS democrat
+	id = usa.12
+	title = usa.12.t 
+	desc = usa.12.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.10.1
+		has_country_flag = rep_convention_over
+		has_country_flag = dem_convention_over
+		has_country_flag = republican_curtis
+	}
+	
+	mean_time_to_happen = { days = 1}
+	
+	option = {#curtis wins
+		name = usa.12.a 
+		ai_chance = { factor = 50 }
+		add_stability = 0.01
+		
+		hidden_effect = {
+			set_country_flag = curtis_wins
+		}
+	}
+	option = {#democrat wins
+		name = usa.12.b 
+		ai_chance = { factor = 50 }
+		add_stability = 0.01
+		
+		hidden_effect = {
+			set_country_flag = democrat_wins 
+		}
+	}
+}
+
+country_event = {#election #3, J. EDGAR HOOVER TIME BOYS
+	id = usa.13
+	title = usa.13.t 
+	desc = usa.13.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA
+		date > 1936.10.1
+		has_country_flag = rep_convention_over
+		has_country_flag = dem_convention_over
+		has_country_flag = republican_hoover
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	option = {#HOOOOOOVVVERRRRR
+		name = usa.13.a 
+		ai_chance = { factor = 50 }
+		add_stability = 0.01
+		
+		hidden_effect = {
+			set_country_flag = hoover_wins
+		}
+	}
+	option = { #democrat
+		name = usa.13.b 
+		ai_chance = { factor = 50 }
+		add_stability = 0.01
+		
+		hidden_effect = {
+			set_country_flag = democrat_wins
+		}
+	}
+}
+
+country_event = {#these events are hidden so they'll fire on exact date, january 9th, this is for democrat win
+	id = usa.14
+	
+	hidden = yes 
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		date > 1937.1.1
+		has_country_flag = democrat_wins
+		tag = USA 
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = usa.14.a 
+		ai_chance = { factor = 100 }
+		
+		country_event = { days = 8 id = usa.15 }
+	}
+}
+
+country_event = {#black sword in 
+	id = usa.15
+	title = usa.15.t 
+	desc = usa.15.d 
+	picture = INSERT_HERE
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = usa.15.a 
+		add_political_power = 100
+		add_stability = 0.02
+		
+		hidden_effect = {
+			
+			create_country_leader = {
+				name = "Hugo Black"
+				desc = "Hugo_black_desc"
+				picture = "hugo_black.dds"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}
+	}
+}
+
+country_event = {#Mellon sworn in 
+	id = usa.16
+	title = usa.16.t 
+	desc = usa.16.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA 
+		date > 1937.1.1
+		has_country_flag = mellon_wins
+	}
+	
+	option = {
+		name = usa.16.a 
+		
+		add_political_power = 100
+		add_stability = 0.02
+		
+		hidden_effect = {
+			
+			create_country_leader = {
+				name = "Andrew Mellon"
+				desc = "mellon_desc"
+				picture = "andrew_mellon.dds"
+				ideology = market_liberal
+				traits = { # }
+			}
+		}
+	}
+}
+
+country_event = {#curtis sworn in 
+	id = usa.17
+	title = usa.17.t 
+	desc = usa.17.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA 
+		date > 1937.1.1
+		has_country_flag = curtis_wins
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = usa.17.a 
+		add_political_power = 100
+		add_stability = 0.02
+		
+		hidden_effect = {
+			
+			create_country_leader = {
+				name = "Charles Curtis"
+				desc = "curtis_desc"
+				picture = "charles_curtis.dds"
+				ideology = market_liberal
+				traits = { # }
+			}
+		}
+	}
+}
+
+country_event = {#HOOOOOOOOOVER
+	id = usa.18
+	title = usa.18.t 
+	desc = usa.18.d 
+	picture = INSERT_HERE
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = USA 
+		date > 1937.1.1
+		has_country_flag = hoover_wins
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = usa.18.a 
+		add_political_power = 100
+		add_stability = 0.02
+		
+		hidden_effect = { 
+			
+			create_country_leader = {
+				name = "J. Edgar Hoover"
+				desc = "Hoover_desc"
+				picture = "hoover.dds"
+				ideology = market_liberal
+				traits = { # }
+			}
+		}
 	}
 }

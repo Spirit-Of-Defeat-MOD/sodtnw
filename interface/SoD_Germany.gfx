@@ -85,4 +85,24 @@ spriteTypes = {
 		name = "GFX_idea_unemployment_benefits"
 		texturefile = "gfx/interface/ideas/GER/unemployment_benefits.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_job_training"
+		texturefile = "gfx/interface/ideas/GER/job_training.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_public_works"
+		texturefile = "gfx/interface/ideas/GER/public_works.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_modernized_production"
+		texturefile = "gfx/interface/ideas/GER/modernized_production.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_army_purge"
+		texturefile = "gfx/interface/ideas/GER/army_purge.tga"
+	}
 }

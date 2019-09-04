@@ -9,9 +9,16 @@ news_event = {
 	
 	major = yes
 	
-	is_triggered_only = yes
+	trigger = {
+		832 = { is_controlled_by = SER }
+		832 = { is_owned_by = CRO }
+		SER = { has_war_with = CRO }
+		NOT = { has_global_flag = jasenovac_ser }
+	}
 	
-	fire_only_once = yes
+	immediate = {
+		set_global_flag = jasenovac_ser
+	}
 	
 	option = {
 		name = "How can they be so cruel?"

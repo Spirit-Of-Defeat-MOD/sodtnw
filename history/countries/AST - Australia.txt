@@ -99,4 +99,70 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Brudenell White"
+	picture = "Portrait_AST_Brudenell_White.tga"
+	traits = { old_guard war_hero }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Thomas Blamey"
+	picture = "Portrait_AST_Thomas_Blamey.tga"
+	traits = { old_guard war_hero infantry_officer }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "John Northcott"
+	picture = "Portrait_AST_John_Northcott.tga"
+	traits = { armor_officer }
+	skill = 1
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "John Gregory Crace"
+	picture = "Portrait_AST_John_Gregory_Crace.tga"
+	traits = { gentlemanly navy_career_officer superior_tactician }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Guy Royle"
+	picture = "Portrait_AST_Guy_Royle.tga"
+	traits = { superior_tactician }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Ragnar Colvin"
+	picture = "Portrait_AST_Ragnar_Colvin.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
 set_convoys = 100

@@ -94,22 +94,22 @@ factory_strikes_desc:0 "Strikes have broken out in factories across the nation. 
 riots:0 "Riots"
 riots_desc:0 "Outrage against our failed negotiations has spilled out of the workplaces and into the streets. Rioters have thrown stones through windows of shops, assaulted police officers, and there have even been several reports of arson. Subversives tied to the far-left KPD seem to be instigating this unrest..."
 state_unions:0 "State Unions"
-state_unions_desc:0 "Placeholder." #add to this later
+state_unions_desc:0 "State run unions will help to appease the working class families of Germany, while keeping the traditional unions out of the conversation. With the implementation of these state unions, we will solidify our grasp on power and stabilize our economy."
 privatizations:0 "Industry Privatization"
 privatizations_desc:0 "After much debate, the government has decided to pursue a policy of privatization. Many of the government corporations selected for privatization were financial burdens and will be more efficiently ran as private entities. Public-held firms in the mining, steel processing, and heavy industries are to be sold off, generating revenue for the state. The extra revenue can be put towards remilitarization, and other high priority areas of the national agenda."
 lucrative_contracts:0 "Lucrative Contracts"
 lucrative_contracts_desc:0 "Millions of Reichsmarks have been set aside for business contracts with German industrialists. Under the guise of front companies, they will produce armaments that will be be used to refit the Reichswehr. These contracts are expected to be highly sought after, and highly profitable for the contractor. Nonetheless, this has been determined to be the best method for maintaining control of the rearming process, whilst also keeping our hands clean in the event we are caught."
 healthcare:0 "Healthcare Reforms"
-healthcare_desc:0 "Placeholder." #add to this later
+healthcare_desc:0 "Healthcare reforms have been long overdue, a healthy populace is much better to conscript from. A strong state requires healthy people."
 unemployment_benefits:0 "Unemployment Benefits"
-unemployment_benefits_desc:0 "Placeholder" #add to this later
+unemployment_benefits_desc:0 "Unemployment has been a serious issue in Germany. The economy has still not fully recovered from the Great War, and many people suffer hardships that stem from our defeat in 1918. We cannot turn our back on the poor and force them to sympathize with the enemy."
 army_purge:0 "Army Purge"
 army_purge_desc:0 "In response to subversion and sabotage from within the armed forces, a purge of both leadership and infantry has been initiated. The purge has negatively impacted our stability and struck fear into our loyal generals - but ultimately, these actions were deemed necessary to root out treasonous elements from within the armed forces, and thus, to preserve the nation."
 job_training:0 "Job Training Initiatives"
-job_training_desc:0 "" #add to this later
+job_training_desc:0 "Our focus must be directed towards getting the hundreds of thousands of idle Germans back into the workforce. These people must be provided the skills and tools to provide for themselves, and more importantly to provide for their nation. Many of these people could be recruited into paramilitary roles that will evenutally be coalesced into the Reichswehr once we publicly denounce the Treaty of Versailles."
 public_works:0 "Public Works"
 public_works_desc:0 "" #add to this later
-modernized_production:0 "Mordernized Production Lines"
+modernized_production:0 "Modernized Production Lines"
 modernized_production_desc:0 "" #add to this later
 guiding_hand:0 "The Guiding Hand"
 guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."

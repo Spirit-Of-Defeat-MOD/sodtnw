@@ -20,6 +20,11 @@ state={
 		victory_points = {
 			12384 10 
 		}
+		victory_points = { 7583 5 }
+		victory_points = { 11975 3 }
+		victory_points = { 7118 2 }
+		victory_points = { 10492 1 }
+		victory_points = { 638 1 }
 
 		1939.1.1 = {
 			buildings = {

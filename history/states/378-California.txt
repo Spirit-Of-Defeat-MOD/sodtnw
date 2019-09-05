@@ -45,6 +45,12 @@ state={
 		victory_points = {
 			9713 1 
 		}
+		victory_points = { 4518 3 }
+		victory_points = { 3678 5 }
+		victory_points = { 941 1 }
+		victory_points = { 11859 1 }
+		victory_points = { 610 1 }
+		victory_points = { 3677 5 }
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 7

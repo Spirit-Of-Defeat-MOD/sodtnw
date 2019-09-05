@@ -545,3 +545,122 @@ country_event = {
 	}
 	
 }
+
+#Anschluss
+country_event = {
+	id = germany.19
+	title = germany.19.t
+	desc = germany.19.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.19.a
+		4 = {
+			add_core_of = GER
+		}
+		152 = {
+			add_core_of = GER
+		}
+		153 = {
+			add_core_of = GER
+		}
+		annex_country = {
+			target = AUS
+			transfer_troops = yes
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Austrian Intervention
+country_event = {
+	id = germany.20
+	title = germany.20.t
+	desc = germany.20.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Intervene
+	option = {
+		name = germany.20.a
+		AUS = {
+			set_ruling_party = neutrality
+			country_event = germany.21 days = 3
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+}
+
+#Austria's Choice
+country_event = {
+	id = germany.21
+	title = germany.21.t
+	desc = germany.21.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.21.a
+		GER = {
+			country_event = germany.19 days = 1
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+
+	#Austria Refusal
+	option = {
+		name = germany.21.b
+		GER = {
+			country_event = germany.22
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+}
+
+
+#Austrian War
+country_event = {
+	id = germany.22
+	title = germany.22.t
+	desc = germany.22.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.22.a
+		
+		hidden_effect = {
+			
+		}
+	
+	}
+}

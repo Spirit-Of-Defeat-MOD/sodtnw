@@ -116,7 +116,11 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_supportrhenishinsurgents focus = GER_withdrawoursupport } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_war_support = 0.05
+	add_political_power = 50
+} 
 
  } 
 
@@ -1182,6 +1186,9 @@ prerequisite = { focus = GER_investinourfatherland }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	add_ideas = guiding_hand
+}
 
  } 
 
@@ -1765,6 +1772,29 @@ prerequisite = { focus = GER_grodeutschland }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	28 = {
+		add_core_of = GER
+	}
+	69 = {
+		add_core_of = GER
+	}
+	74 = {
+		add_core_of = GER
+	}
+	85 = {
+		add_core_of = GER
+	}
+	86 = {
+		add_core_of = GER
+	}
+	188 = {
+		add_core_of = GER
+	}
+	762 = {
+		add_core_of = GER
+	}
+}
 
  } 
 
@@ -1779,7 +1809,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_pangermanistrhetoric } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	GER = { country_event = germany.20 }
+} 
 
  } 
 
@@ -1940,6 +1973,21 @@ prerequisite = { focus = GER_repatriatethewolgadeutsche }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	541 = {
+		add_claim_by = GER
+	}
+	546 = {
+		add_claim_by = GER
+	}
+	773 = {
+		add_claim_by = GER
+	}
+	777 = {
+		add_claim_by = GER
+	}
+	add_threat = 5
+}
 
  } 
 

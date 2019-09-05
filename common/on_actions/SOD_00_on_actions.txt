@@ -50,10 +50,10 @@ on_actions = {
 						has_civil_war = yes
 					}
 					NOT = { 
-						has_global_flag = SER_COM_battle_of_prokuplje
+						has_global_flag = SER_battle_of_prokuplje
 					}
 				}
-				set_global_flag = SER_COM_battle_of_prokuplje
+				set_global_flag = SER_battle_of_prokuplje
 				news_event = {
 					id = serbianews.2
 					hours = 2
@@ -70,12 +70,12 @@ on_actions = {
 						has_civil_war = yes
 					}
 					NOT = { 
-						has_global_flag = SER_CHE_battle_of_prokuplje
+						has_global_flag = SER_battle_of_prokuplje
 					}
 				}
-				set_global_flag = SER_CHE_battle_of_prokuplje
+				set_global_flag = SER_battle_of_prokuplje
 				news_event = {
-					id = serbianews.2
+					id = serbianews.3
 					hours = 2
 					random = 2
 				}

@@ -15,3 +15,36 @@ news_event = {
 		name = "Fascinating."
 	}
 }
+news_event = {
+	id = serbianews.2
+	title = serbianews.2.t
+	desc = serbianews.2.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Fascinating."
+		trigger = {
+			NOT = {
+				original_tag = SER
+			}
+		}
+	}
+	option = {
+		name = "Who could have thought?"
+		trigger = {
+			original_tag = SER
+			has_government = communism
+		}
+	}
+	option = {
+		name = "The end is near!"
+		trigger = {
+			original_tag = SER
+			has_government = neutrality
+		}
+	}
+}

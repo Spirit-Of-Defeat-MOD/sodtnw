@@ -1,0 +1,22 @@
+
+state={
+	id=837 #bruh
+	name="STATE_837"
+	manpower = 42069
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			6780 5 
+		}
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		611 11570    
+	}
+}

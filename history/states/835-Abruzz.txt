@@ -1,0 +1,19 @@
+
+state={
+	id=835 #bruh
+	name="STATE_835"
+	manpower = 42069
+	
+	state_category = small_town
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		963 3923 3966 6831  
+	}
+}

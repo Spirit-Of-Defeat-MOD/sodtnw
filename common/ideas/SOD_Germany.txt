@@ -466,5 +466,24 @@ ideas = {
 				industrial_capacity_dockyard = 0.02
 			}
 		}
+
+		guiding_hand = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_weekly = 0.01
+			}
+		}
 	}	
 }

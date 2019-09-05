@@ -111,6 +111,8 @@ public_works:0 "Public Works"
 public_works_desc:0 "" #add to this later
 modernized_production:0 "Mordernized Production Lines"
 modernized_production_desc:0 "" #add to this later
+guiding_hand:0 "The Guiding Hand"
+guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -150,7 +152,7 @@ germany.9.d:0 "Throughout Germany the worker's strikes have begun to escalate to
 germany.9.a:0 "Get Back To Work, Ingrateful Protestors!"
 germany.9.b:0 "Let Things Blow Over..."
 germany.10.t:0 "Institute Welfare Reforms"
-germany.10.d:0 ""
+germany.10.d:0 "The standard of living for the poor and elderly is far from ideal. Enacting policy to resolve these issues will increase the popularity of the regime amongst the populace, and increase our national unity. Our budget is tight, and we can only pass limited reforms, so we must choose carefully which programs will be enacted."
 germany.10.a:0 "State Housing Programs"
 germany.10.b:0 "Offer Old-Age Pensions"
 germany.11.t:0 "Naval Mutiny in Kiel"
@@ -177,7 +179,7 @@ germany.17.d:0 "The support of the industrialists is key to maintaining financia
 germany.17.a:0 "Privatize Segments Of Industry"
 germany.17.b:0 "Offer Lucrative Contracts"
 germany.18.t:0 "Concessions To The Junkers"
-germany.18.d:0 ""
+germany.18.d:0 "The junkers, and the agricultural sector at large, is struggling due to low prices that originated from a surplus harvest and cheap imported agricultural products flooding the markets. We hear the demands for action from the farmers, it is time that we enact legislation to resolve this crisis before it becomes exponentially worse."
 germany.18.a:0 "Increase Farm Subsidies"
 germany.18.b:0 "Instate Minimum Price Laws"
 

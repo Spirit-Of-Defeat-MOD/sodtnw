@@ -4,11 +4,17 @@ state={
 	name="STATE_834"
 	manpower = 42069
 	
-	state_category = small_town
+	state_category = town
 
 	history={
 		victory_points = {
 			11837 15 
+		}
+		victory_points = {
+			9784 2 
+		}
+		victory_points = {
+			883 1 
 		}
 		owner = ITA
 		buildings = {

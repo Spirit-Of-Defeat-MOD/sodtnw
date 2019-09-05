@@ -2,9 +2,9 @@
 state={
 	id=835 #bruh
 	name="STATE_835"
-	manpower = 42069
+	manpower = 388000
 	
-	state_category = small_town
+	state_category = town
 
 	history={
 		owner = ITA

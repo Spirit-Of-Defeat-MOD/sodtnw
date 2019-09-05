@@ -1,4 +1,4 @@
-
+#why the fuck is this named Britain PDX? - sincerely sneakiertech
 state={
 	id=39
 	name="STATE_39" # South Tyrol
@@ -13,6 +13,9 @@ state={
 	history={
 		victory_points = {
 			11598 1
+		}
+		victory_points = {
+			9598 1
 		}
 		owner = ITA
 		buildings = {

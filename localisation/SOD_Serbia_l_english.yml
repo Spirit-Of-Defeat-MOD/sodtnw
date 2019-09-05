@@ -72,15 +72,25 @@
  
  #National Spirits
  SER_revanchism:0 "Revanchism"
- SER_podgoricka_skupstina:0 "'Podgorica Assembly'"
+ SER_podgoricka_skupstina:0 "The Podgorica Assembly"
  SER_communist_threat:0 "Communist Opposition"
  
  #Events
  serbia.1.t:0 "Serbia Introduction"
  serbia.1.d:0 "The remnants of the short-lived Yugoslav government, forced out of Croatia, Macedonia, and Slovenia, were forced to reogranize into the Kingdom of Serbia after the disastrous Third Balkan War. Serbia took the brunt of the war, large swathes of land remain desolated and much of the nation's infrastructure is still damaged. Time has not healed the wounds that Serbia has faced; rather it has made the scars of war all the more visible to the common people. \n\n King Alexander I, once a widely beloved figure, is now despised for having humiliated Serbia and leaving the nation in ruins. Several attempts have been made on the king's life, and opposition groups become emboldened further with each passing day. Unrest on the streets is becoming harder for the police to pacify. Whether King Alexander will even be able to maintain power for much longer is quite uncertain. The tides of revolution seem to be drifting ever closer to Serbia, and the reactionary response echoes through the cities and hillsides. Dire times await..."
  serbia.1.a:0 "Enough with these petty ramblings..."
+ serbia.2.t:0 "Communist coup!"
+ serbia.2.d:0 "Earlier today, a group of high ranking officials led by Aleksandar Rankovic stormed the parliament of Serbia and announced that a coup by the communist party is undergoing. King fled the country to Romania, and proclaimed Dragoljub Mihalovic as the commander-in-chief of the Serbian Army in Fatherland which views the king as the only legimate ruler of the country. \n\n Clashes between royalist chetniks and communists have errupted in various parts of the country and the country is now embroiled in a civil war."
+ serbia.2.a:0 "The Chetniks!"
+ serbia.2.b:0 "The Communists!"
+ chetniks_chosen:0 "Death to the Reds!"
+ communists_chosen:0 "Death to the Chetniks!"
+ 
+ serbianews.1.t:0 "Serbian Civil War"
+ serbianews.1.d:0 "Earlier today, a group of high ranking officials led by Aleksandar Rankovic stormed the parliament of Serbia and announced that a coup by the communist party is undergoing. King fled the country to Romania, and proclaimed Dragoljub Mihalovic as the commander-in-chief of the Serbian Army in Fatherland which views the king as the only legimate ruler of the country. \n\n Clashes between royalist chetniks and communists have errupted in various parts of the country and the country is now embroiled in a civil war."
 
  #Descriptions
  POLITICS_ALEXANDER_I_DESC:0 "Alexander I of Serbia, or Alexander the Separator as he is commonly known among the general public, was former king of Yugoslavia before it collapsed in the Third Balkan War, splitting into Slovenia, Serbia, Croatia, Macedonia and Montenegro. Montenegro and a part of Macedonia was retaken by his loyalist forces before the Treaty of Milan was signed, confirming the new Balkan borders. Alexander swore revenge upon Italy and Bulgaria for the destruction of the Yugoslav nation, and awaits for the day he will eventually reunify the Southern Slavic States."
  POLITICS_ALEKSANDAR_RANKOVIC_DESC:0 ""
+ POLITICS_NIKOLA_PASIC_DESC:0 ""
  POLITICS_DIMITRIJE_LJOTIC_DESC:0 ""

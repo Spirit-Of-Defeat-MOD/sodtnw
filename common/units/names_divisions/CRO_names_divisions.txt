@@ -73,6 +73,50 @@ CRO_INF_01 = {
 	}
 }
 
+CRO_UST_01 = {
+	name = "Ustasha Paramilitaries"
+
+	for_countries = { CRO }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { CRO_MTN_01 }
+
+	fallback_name = "%d. Ustaska Divizija"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		20 = { "Poglavnikova Tjelesna Divizija" }
+	}
+}
+
+CRO_DOM_01 = {
+	name = "Domobrani Divisions"
+
+	for_countries = { CRO }
+
+	can_use = { has_government = fascism }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { CRO_MTN_01 }
+
+	fallback_name = "%d. Domobranska Divizija"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Domobranska Divizija" }
+	}
+}
+
 CRO_CAV_01 = 
 {
 	name = "Cavalry Divisions"
@@ -102,12 +146,10 @@ CRO_CAV_01 =
 		8 = { "%d. Konjicka Divizija" }
 		9 = { "%d. Konjicka Divizija" }
 		10 = { "%d. Konjicka Divizija" }
-
 	}
 }
 
-CRO_MOT_01 = 
-{
+CRO_MOT_01 = {
 	name = "Motorised Divisions"
 
 	for_countries = { CRO }

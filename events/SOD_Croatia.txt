@@ -22,6 +22,7 @@ country_event = {
 	
 	immediate = {
 	CRO = {
+		load_oob = "CRO_ustase"
 		create_field_marshal = {
 			name = "Jure Francetic"
 			portrait_path = "gfx/leaders/CRO/Portrait_Jure_Francetic.tga"
@@ -84,7 +85,7 @@ country_event = {
 		}
 		create_corps_commander = {
 			name = "Petar Brzica"
-			portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			portrait_path = "gfx/leaders/CRO/Portrait_Petar_Brzica.tga"
 			traits = { harsh }
 			skill = 1
 			attack_skill = 2

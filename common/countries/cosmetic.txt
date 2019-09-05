@@ -1,3 +1,7 @@
+SER_civil_war = {
+	color = rgb { 102 168 183 }
+	color_ui = rgb { 96 150 163 }
+}
 
 MAL_UK = {
     color = rgb { 201 56 93 }

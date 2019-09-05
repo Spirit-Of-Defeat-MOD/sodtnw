@@ -1,0 +1,17 @@
+add_namespace = serbianews
+
+# Serbian Civil War
+news_event = {
+	id = serbianews.1
+	title = serbianews.1.t
+	desc = serbianews.1.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Fascinating."
+	}
+}

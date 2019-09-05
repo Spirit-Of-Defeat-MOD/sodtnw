@@ -38,4 +38,48 @@ on_actions = {
             }
         }
     }
+	on_army_leader_won_combat = { 
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						AND = {
+							original_tag = SER
+							has_government = communism
+						}
+						has_civil_war = yes
+					}
+					NOT = { 
+						has_global_flag = SER_COM_battle_of_prokuplje
+					}
+				}
+				set_global_flag = SER_COM_battle_of_prokuplje
+				news_event = {
+					id = serbianews.2
+					hours = 2
+					random = 2
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						AND = {
+							original_tag = SER
+							has_government = neutrality
+						}
+						has_civil_war = yes
+					}
+					NOT = { 
+						has_global_flag = SER_CHE_battle_of_prokuplje
+					}
+				}
+				set_global_flag = SER_CHE_battle_of_prokuplje
+				news_event = {
+					id = serbianews.2
+					hours = 2
+					random = 2
+				}
+			}
+		} 
+	}
 }

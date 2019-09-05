@@ -1,5 +1,6 @@
 add_namespace = serbia
 
+# Intro event
 country_event = {
 	id = serbia.1
     title = serbia.1.t
@@ -12,5 +13,142 @@ country_event = {
 	
 	option = {
 		name = serbia.1.a
+	}
+}
+
+# Serbian Civil War
+country_event = {
+	id = serbia.2
+	title = serbia.2.t
+	desc = serbia.2.d
+	picture = GFX_report_event_yugoslavian_partisans
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_global_flag = serbcw_over }
+		tag = SER
+		date > 1936.2.12
+	}
+	
+	immediate = {
+		hidden_effect = {
+			create_country_leader = {
+				name = "Dragoljub 'Draza' Mihailovic"
+				desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
+				picture = "Portrait_Draza_Mihailovic.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Dragoljub 'Draza' Mihailovic"
+				desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
+				picture = "Portrait_Draza_Mihailovic.dds"
+				expire = "1965.1.1"
+				ideology = utilitarian_despot_subtype
+				traits = {
+					#
+				}
+			}
+		}
+	}
+	
+	option = { # Support Chetniks
+		name = serbia.2.a
+		hidden_effect = {
+			set_capital = 176
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = communism
+				size = 0.5
+				states = { 105 107 764 807 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = SER
+					has_government = communism
+				}
+				set_cosmetic_tag = SER_civil_war
+				load_oob = "SER_Communist_Civil_War"
+				set_equipment_fraction = 0.5
+				set_stability = 0.9
+				set_war_support = 0.8
+				set_popularities = {
+					totalitarian_socialism = 10
+					communism = 83
+					revolutionary_socialism = 2
+					democratic_socialism = 3
+					social_democracy = 1
+				}
+			}
+			news_event = { hours = 6 id = serbianews.1 }
+			set_global_flag = serbian_civil_war
+			
+			load_oob = "SER_Chetnik_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.9
+			set_war_support = 0.8
+			
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 1
+				neutrality = 89
+				utilitarian_despot = 4
+				fascism = 6
+				nihilistic_extremism = 0
+			}
+		}
+		custom_effect_tooltip = chetniks_chosen
+	}
+	option = { # Support Communists
+		name = serbia.2.b
+		trigger = { is_ai = no }
+		hidden_effect = {
+			start_civil_war = {
+				ruling_party = communism
+				ideology = neutrality
+				size = 0.5
+				states = { 45 108 831 833 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = SER
+					has_government = neutrality
+				}
+				set_cosmetic_tag = SER_civil_war
+				load_oob = "SER_Chetnik_Civil_War"
+				set_equipment_fraction = 0.5
+				set_stability = 0.9
+				set_war_support = 0.8
+				set_popularities = {
+					democratic = 1
+					neutrality = 89
+					utilitarian_despot = 4
+					fascism = 6
+				}
+			}
+			news_event = { hours = 6 id = serbianews.1 }
+			set_global_flag = serbian_civil_war
+
+			set_popularities = {
+				totalitarian_socialism = 10
+				communism = 83
+				revolutionary_socialism = 2
+				democratic_socialism = 3
+				social_democracy = 1
+			}
+			load_oob = "SER_Communist_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.9
+			set_war_support = 0.8
+			
+		}
+		custom_effect_tooltip = communists_chosen
 	}
 }

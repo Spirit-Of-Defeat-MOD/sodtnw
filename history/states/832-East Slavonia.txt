@@ -4,15 +4,15 @@ state={
 	
 	state_category = rural
 	
-	manpower = 23227
+	manpower = 1120670
 
 	history = {
 		owner = CRO
+		victory_points = {
+			6647 1
+		}
 		buildings = {
 			infrastructure = 5
-		}
-		victory_points = {
-		6647 1
 		}
 		add_core_of = CRO
 	}

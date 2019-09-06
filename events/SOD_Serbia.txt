@@ -58,6 +58,11 @@ country_event = {
 				long_name = SER_chetnik_movement_party_long
 				name = SER_chetnik_movement_party
 			}
+			set_party_name = { 
+				ideology = neutrality
+				long_name = SER_chetnik_movement_party_long
+				name = SER_chetnik_movement_party
+			}
 		}
 	}
 	

@@ -29,6 +29,13 @@ ITA_nihilistic_extremism_party_long:0 "Milizia Volontaria per la Sicurezza Nazio
 #Leaders
 POLITICS_LUIGI_FEDERZONI_DESC:0 "The strongman leader of Italy, Luigi Federzoni and the Associazione Nazionalista Italiana have ruled with an iron fist since the 'Rivoluzione Nazionale' in 1922. Federzoni's regime legitimized itself following the victory of the Third Balkan War - seizing Dalmazia and Corfu, as well as dismantling the Yugoslav state. In the wake of his success, Federzoni has built a strong national-syndicalist Italy with a cult of personality revolving around himself and invoking Roman imagery."
 
+#Ministers
+ITA_Luigi_Federzoni_hog:0 "Luigi Federzoni"
+ITA_Gabriele_Anunnzio_frm:0 "Gabriele d'Anunnzio"
+ITA_Edmondo_Rossoni_eco:0 "Edmondo Rossoni"
+ITA_Rodolfo_Graziani_sec:0 "Rodolfo Graziani"
+ITA_Italo_Balbo_int:0 "Italo Balbo"
+
 #Country Names
  ITA_fascism:0 "Kingdom of Italy"
  ITA_fascism_DEF:0 "the Kingdom of Italy"

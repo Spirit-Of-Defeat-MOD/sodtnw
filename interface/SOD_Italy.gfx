@@ -1,0 +1,30 @@
+spriteTypes = {
+
+#Ministers
+
+
+	spriteType = {
+		name = "GFX_idea_ITA_Luigi_Federzoni_hog"
+		texturefile = "gfx/ministers/ITA/Luigi_Federzoni.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Gabriele_Anunnzio_frm"
+		texturefile = "gfx/ministers/ITA/Gabriele_Anunnzio.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Edmondo_Rossoni_eco"
+		texturefile = "gfx/ministers/ITA/Edmondo_Rossoni.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Rodolfo_Graziani_sec"
+		texturefile = "gfx/ministers/ITA/Rodolfo_Graziani.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Italo_Balbo_int"
+		texturefile = "gfx/ministers/ITA/Italo_Balbo.tga"
+	}
+}

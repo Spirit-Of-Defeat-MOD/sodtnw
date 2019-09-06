@@ -105,4 +105,19 @@ spriteTypes = {
 		name = "GFX_idea_army_purge"
 		texturefile = "gfx/interface/ideas/GER/army_purge.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Ernst_Rohm_sec"
+		texturefile = "gfx/ministers/GER/Ernst_Rohm.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Ludwig_Krosigk_eco"
+		texturefile = "gfx/ministers/GER/Ludwig_Krosigk.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_Hans_von_Seeckt_hog"
+		texturefile = "gfx/ministers/GER/Hans_von_Seeckt.tga"
+	}
 }

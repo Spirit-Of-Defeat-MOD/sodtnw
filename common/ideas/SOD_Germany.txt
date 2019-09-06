@@ -26,6 +26,28 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		GER_Hans_von_Seeckt_hog = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Seeckt_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Seeckt_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_von_Seeckt_hog"
+			}
+			traits = {
+				head_of_government
+				utilitarian_despot
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
 	foreign_minister = { ### Foreign Minister ###
@@ -74,6 +96,28 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
+		GER_Ludwig_Krosigk_eco = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ludwig_Krosigk_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ludwig_Krosigk_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ludwig_Krosigk_hog"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
 	security_minister = { ### Minister of Security ###
@@ -95,6 +139,28 @@ ideas = {
 			traits = {
 				security_minister
 				utilitarian_despot
+			}
+			cancel_if_invalid = yes
+		}
+
+		GER_Ernst_Rohm_sec = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ernst_Rohm_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ernst_Rohm_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Rohm_hog"
+			}
+			traits = {
+				security_minister
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}

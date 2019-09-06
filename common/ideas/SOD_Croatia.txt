@@ -1,23 +1,133 @@
 ideas = {
-
 	head_of_government = {
+		CRO_osman_kulenovic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_osman_kulenovic"
+			}
+			traits = {
+				head_of_government
+				fascist
+			}
+			cancel_if_invalid = yes
+		}
 	}
-	
 	foreign_minister = {
+		CRO_mile_budak = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_mile_budak"
+			}
+			traits = {
+				foreign_minister
+				fascist
+			}
+			cancel_if_invalid = yes
+		}
 	}
-	
-	economy_minister = { ### Minister of the Economy ###
+	economy_minister = {
+		CRO_lovro_susic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_lovro_susic"
+			}
+			traits = {
+				economy_minister
+				fascist
+			}
+			cancel_if_invalid = yes
+		}
 	}
-	
-	security_minister = { ### Minister of Security ###
+	security_minister = {
+		CRO_andrija_artukovic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_andrija_artukovic"
+			}
+			traits = {
+				security_minister
+				fascist
+			}
+			cancel_if_invalid = yes
+		}
 	}
-	
-	head_of_intel = { ### Head of Mil Intel ###
+	head_of_intel = {
+		CRO_slavko_kvaternik = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_slavko_kvaternik"
+			}
+			traits = {
+				head_of_intel
+				fascist
+			}
+			cancel_if_invalid = yes
+		}
 	}
-	
 	hidden_ideas = {
-		
+		#
 	}
 	country {
+		#
 	}
 }

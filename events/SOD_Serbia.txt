@@ -53,6 +53,11 @@ country_event = {
 					#
 				}
 			}
+			set_party_name = { 
+				ideology = utilitarian_despot
+				long_name = SER_chetnik_movement_party_long
+				name = SER_chetnik_movement_party
+			}
 		}
 	}
 	
@@ -61,7 +66,7 @@ country_event = {
 		hidden_effect = {
 			set_capital = 176
 			start_civil_war = {
-				ruling_party = neutrality
+				ruling_party = utilitarian_despot
 				ideology = communism
 				size = 0.5
 				states = { 105 107 764 807 }
@@ -83,34 +88,197 @@ country_event = {
 					democratic_socialism = 3
 					social_democracy = 1
 				}
+				create_field_marshal = {
+					name = "Sava Kovacevic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 4
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 5
+					logistics_skill = 5
+				}
 				create_corps_commander = {
-					name = "Jovo Becir"
+					name = "Milovan Saranovic"
 					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 					traits = { }
 					skill = 3
 					attack_skill = 3
-					defense_skill = 4
-					planning_skill = 3
+					defense_skill = 3
+					planning_skill = 2
 					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Koca Popovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "Blazo Jovanovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Kosta Nadj"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Arso Jovanovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Peko Dapcevic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Vladimir Smirnov"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Ivan Milutinovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Gojko Nikolis"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
 				}
 			}
 			news_event = { hours = 6 id = serbianews.1 }
 			set_global_flag = serbian_civil_war
-			
-			set_party_name = { 
-				ideology = neutrality
-				long_name = SER_chetnik_movement_party_long
-				name = SER_chetnik_movement_party
-			}
 			load_oob = "SER_Chetnik_Civil_War"
 			set_equipment_fraction = 0.5
 			set_stability = 0.9
 			set_war_support = 0.8
-			
+			create_field_marshal = {
+				name = "Nikola Kalabic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 4
+				logistics_skill = 4
+			}
+			create_corps_commander = {
+				name = "Kosta Pecanac"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Zaharije Ostojic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Dragoslav Racic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Petar Bacovic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Vojislav Lukacevic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Dragutin Keserovic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Velimir Piletic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
 			set_popularities = {
 				democratic = 1
-				neutrality = 89
-				utilitarian_despot = 4
+				neutrality = 4
+				utilitarian_despot = 89
 				fascism = 6
 				nihilistic_extremism = 0
 			}
@@ -123,14 +291,14 @@ country_event = {
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = communism
-				ideology = neutrality
+				ideology = utilitarian_despot
 				size = 0.5
 				states = { 45 108 831 833 }
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SER
-					has_government = neutrality
+					has_government = utilitarian_despot
 				}
 				set_cosmetic_tag = SER_civil_war
 				load_oob = "SER_Chetnik_Civil_War"
@@ -142,6 +310,106 @@ country_event = {
 					neutrality = 89
 					utilitarian_despot = 4
 					fascism = 6
+				}
+				create_field_marshal = {
+					name = "Sava Kovacevic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 4
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 5
+					logistics_skill = 5
+				}
+				create_corps_commander = {
+					name = "Milovan Saranovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Koca Popovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "Blazo Jovanovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Kosta Nadj"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Arso Jovanovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Peko Dapcevic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Vladimir Smirnov"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Ivan Milutinovic"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Gojko Nikolis"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
 				}
 			}
 			news_event = { hours = 6 id = serbianews.1 }
@@ -158,7 +426,86 @@ country_event = {
 			set_equipment_fraction = 0.5
 			set_stability = 0.9
 			set_war_support = 0.8
-			
+			create_field_marshal = {
+				name = "Nikola Kalabic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 4
+				logistics_skill = 4
+			}
+			create_corps_commander = {
+				name = "Kosta Pecanac"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Zaharije Ostojic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Dragoslav Racic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Petar Bacovic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Vojislav Lukacevic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Dragutin Keserovic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Velimir Piletic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 2
+			}
 		}
 		custom_effect_tooltip = communists_chosen
 	}

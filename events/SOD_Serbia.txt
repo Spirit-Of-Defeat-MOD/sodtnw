@@ -21,7 +21,7 @@ country_event = {
 	id = serbia.2
 	title = serbia.2.t
 	desc = serbia.2.d
-	picture = GFX_report_event_yugoslavian_partisans
+	picture = GFX_report_event_spain_civil_war_volunteers_02
 	
 	fire_only_once = yes
 	
@@ -285,7 +285,6 @@ country_event = {
 				neutrality = 4
 				utilitarian_despot = 89
 				fascism = 6
-				nihilistic_extremism = 0
 			}
 		}
 		custom_effect_tooltip = chetniks_chosen
@@ -300,6 +299,7 @@ country_event = {
 				size = 0.5
 				states = { 45 108 831 833 }
 			}
+			country_event = { id = serbia.3 days = 2 }
 			random_other_country = {
 				limit = {
 					original_tag = SER
@@ -421,10 +421,10 @@ country_event = {
 			set_global_flag = serbian_civil_war
 
 			set_popularities = {
-				totalitarian_socialism = 10
-				communism = 83
-				revolutionary_socialism = 2
-				democratic_socialism = 3
+				totalitarian_socialism = 9
+				communism = 84
+				revolutionary_socialism = 1
+				democratic_socialism = 5
 				social_democracy = 1
 			}
 			load_oob = "SER_Communist_Civil_War"
@@ -513,5 +513,21 @@ country_event = {
 			}
 		}
 		custom_effect_tooltip = communists_chosen
+	}
+}
+
+# Serbian navy is captured!
+country_event = {
+	id = serbia.3
+	title = serbia.3.t
+	desc = serbia.3.d
+	picture = GFX_report_event_destroyers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.3.a
 	}
 }

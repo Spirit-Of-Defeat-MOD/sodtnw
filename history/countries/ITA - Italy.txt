@@ -105,7 +105,7 @@ if = {
 	}
 	set_autonomy = {
 		target = CRO
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
 	else = {

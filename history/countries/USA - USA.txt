@@ -142,6 +142,51 @@ add_ideas = {
 
 
 # DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NIC
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.7
+	}
+	
+	set_autonomy = {
+		target = CUB
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.7
+	}
+
+	set_autonomy = {
+		target = HON
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	}
+
+	set_autonomy = {
+		target = HAI
+		autonomous_state = autonomy_military_occupation
+		freedom_level = 0.25
+	}
+
+	set_autonomy = {
+		target = DOM
+		autonomous_state = autonomy_military_occupation
+		freedom_level = 0.25
+	}
+
+	else = {
+		puppet = NIC
+		puppet = CUB
+		puppet = HON
+		puppet = HAI
+		puppet = DOM
+	}
+}
 set_autonomy = {
 	target = PHI
 	autonomous_state =  autonomy_puppet

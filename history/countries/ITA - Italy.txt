@@ -11,6 +11,11 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	ITA_Italo_Balbo_int
+	ITA_Rodolfo_Graziani_sec
+	ITA_Edmondo_Rossoni_eco
+	ITA_Gabriele_Anunnzio_frm
+	ITA_Luigi_Federzoni_hog
 }
 
 # Starting tech
@@ -133,6 +138,7 @@ set_popularities = {
 	fascism = 76
 	communism = 2
 }
+
 
 create_country_leader = {
 	name = "Luigi Federzoni"

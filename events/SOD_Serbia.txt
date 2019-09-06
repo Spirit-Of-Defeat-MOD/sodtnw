@@ -292,7 +292,7 @@ country_event = {
 	}
 	option = { # Support Communists
 		name = serbia.2.b
-		trigger = { is_ai = yes }
+		trigger = { is_ai = no }
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = communism
@@ -312,8 +312,8 @@ country_event = {
 				set_war_support = 0.8
 				set_popularities = {
 					democratic = 1
-					neutrality = 89
-					utilitarian_despot = 4
+					utilitarian_despot = 89
+					neutrality = 4
 					fascism = 6
 				}
 				create_field_marshal = {

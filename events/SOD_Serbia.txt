@@ -83,19 +83,30 @@ country_event = {
 					democratic_socialism = 3
 					social_democracy = 1
 				}
+				create_corps_commander = {
+					name = "Jovo Becir"
+					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+					traits = { }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 3
+				}
 			}
 			news_event = { hours = 6 id = serbianews.1 }
 			set_global_flag = serbian_civil_war
 			
+			set_party_name = { 
+				ideology = neutrality
+				long_name = SER_chetnik_movement_party_long
+				name = SER_chetnik_movement_party
+			}
 			load_oob = "SER_Chetnik_Civil_War"
 			set_equipment_fraction = 0.5
 			set_stability = 0.9
 			set_war_support = 0.8
 			
-			set_politics = {
-				ruling_party = neutrality
-				elections_allowed = no
-			}
 			set_popularities = {
 				democratic = 1
 				neutrality = 89
@@ -108,7 +119,7 @@ country_event = {
 	}
 	option = { # Support Communists
 		name = serbia.2.b
-		trigger = { is_ai = no }
+		trigger = { is_ai = yes }
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = communism

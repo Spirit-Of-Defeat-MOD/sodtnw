@@ -24,6 +24,9 @@
  SER_fascism_party_long:0 "Srpska Radikalna Zajednica"
  SER_nihilistic_extremism_party:0 "Zbor"
  SER_nihilistic_extremism_party_long:0 "Zbor"
+ 
+ SER_chetnik_movement_party:0 "Četnici"
+ SER_chetnik_movement_party_long:0 "Ravnogorski četnički pokret"
 
  #Country Names
  SER_totalitarian_socialism:0 "Serbian Workers' Union"

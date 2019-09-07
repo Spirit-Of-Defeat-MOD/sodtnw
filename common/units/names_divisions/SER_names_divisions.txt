@@ -7,9 +7,6 @@
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SER_GAR_01 }
-
 	fallback_name = "%d. Pešadijska Divizija"
 
 	ordered = {
@@ -49,8 +46,7 @@
 
 	}
 }
-SER_CAV_01 = 
-{
+SER_CAV_01 = {
 	name = "Cavalry Divisions"
 
 	for_countries = { SER }
@@ -58,9 +54,6 @@ SER_CAV_01 =
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
 
 	fallback_name = "%d. Konjička Divizija"
 
@@ -81,8 +74,7 @@ SER_CAV_01 =
 
 	}
 }
-SER_CAV_02 = 
-{
+SER_CAV_02 = {
 	name = "Mixed Cavalry Divisions"
 
 	for_countries = { SER }
@@ -96,10 +88,7 @@ SER_CAV_02 =
 
 	fallback_name = "%d. Mešana Konjička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mešana Konjička Divizija" }
 		2 = { "%d. Mešana Konjička Divizija" }
 		3 = { "%d. Mešana Konjička Divizija" }
@@ -113,9 +102,7 @@ SER_CAV_02 =
 
 	}
 }
-
-SER_MOT_01 = 
-{
+SER_MOT_01 = {
 	name = "Motorised Divisions"
 
 	for_countries = { SER }
@@ -146,9 +133,7 @@ SER_MOT_01 =
 
 	}
 }
-
-SER_ARM_01 = 
-{
+SER_ARM_01 = {
 	name = "Tank Battalions"
 
 	for_countries = { SER }
@@ -157,14 +142,9 @@ SER_ARM_01 =
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	
-
 	fallback_name = "%d. Oklopna Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Oklopna Divizija" }
 		2 = { "%d. Oklopna Divizija" }
 		3 = { "%d. Oklopna Divizija" }
@@ -178,8 +158,7 @@ SER_ARM_01 =
 
 	}
 }
-SER_ARM_02 = 
-{
+SER_ARM_02 = {
 	name = "Tank Division"
 
 	for_countries = { SER }

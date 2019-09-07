@@ -116,6 +116,7 @@ units = {
 		location = 11586
 		division_template = "Zandarmerija"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -125,15 +126,7 @@ units = {
 		location = 9809
 		division_template = "Zandarmerija"
 		start_experience_factor = 0.1
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9906
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -143,24 +136,7 @@ units = {
 		location = 619
 		division_template = "Pesadijska Divizija"
 		start_experience_factor = 0.2
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 6634
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.2
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 6970
-		division_template = "Pesadijska Divizija"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
 	}
 	division = {
 		division_name = {
@@ -170,33 +146,17 @@ units = {
 		location = 9602
 		division_template = "Konjička Divizija"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 6953
+		location = 6940
 		division_template = "Konjička Divizija"
 		start_experience_factor = 0.2
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 937
-		division_template = "Konjička Divizija"
-		start_experience_factor = 0.2
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 797
-		division_template = "Mešana Konjička Divizija"
-		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -206,6 +166,7 @@ units = {
 		location = 630
 		division_template = "Tenkovski Bataljon"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
 	}
 	division = {
 		division_name = {
@@ -213,18 +174,17 @@ units = {
 			name_order = 1
 		}
 		location = 11586
-		division_template = "Tenkovska Divizija"
+		division_template = "Tenkovski Bataljon"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
 	}
 }
 
-
 air_wings = {
 	107 = {
-		# 1. Vazduhoplovna Brigada
 		fighter_equipment_0 = {
 			owner = "SER" 
-			amount = 24
+			amount = 12
 		}
 	}
 }

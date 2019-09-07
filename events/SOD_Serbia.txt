@@ -68,6 +68,7 @@ country_event = {
 	
 	option = { # Support Chetniks
 		name = serbia.2.a
+		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
 			start_civil_war = {
@@ -291,7 +292,6 @@ country_event = {
 	}
 	option = { # Support Communists
 		name = serbia.2.b
-		trigger = { is_ai = no }
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = communism

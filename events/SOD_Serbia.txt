@@ -81,6 +81,7 @@ country_event = {
 					original_tag = SER
 					has_government = communism
 				}
+				ai_focus_aggressive_factor = 0.25
 				state_event = { id = serbia.3 days = 2 }
 				state_event = { id = serbia.5 days = 1 }
 				set_cosmetic_tag = SER_civil_war
@@ -303,6 +304,7 @@ country_event = {
 			}
 			state_event = { id = serbia.3 days = 2 }
 			state_event = { id = serbia.5 days = 1 }
+			ai_focus_aggressive_factor = 0.25
 			random_other_country = {
 				limit = {
 					original_tag = SER
@@ -595,7 +597,7 @@ country_event = {
 		name = "Thanks!"
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 1500
+			amount = 1750
 			producer = SOV
 		}
 	}

@@ -59,7 +59,11 @@
  CRO_nihilistic_extremism_ADJ:0 "Croatian"
  
  #Ministers
- #should be reintegrated
+ CRO_osman_kulenovic:0 "Osman Kulenovic"
+ CRO_mile_budak:0 "Mile Budak"
+ CRO_lovro_susic:0 "Lovro Susic"
+ CRO_andrija_artukovic:0 "Andrija Artukovic"
+ CRO_slavko_kvaternik:0 "Slavko Kvaternik"
  
  #Focuses
  #should be reintegrated
@@ -77,3 +81,4 @@
 
  #Descriptions
  POLITICS_JURE_FRANCETIC_DESC:0 ""
+ POLITICS_ANTE_PAVELIC_DESC:0 ""

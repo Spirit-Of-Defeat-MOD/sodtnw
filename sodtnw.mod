@@ -1,4 +1,4 @@
-﻿name="Spirit of Defeat"
+﻿name="Spirit of Defeat: The Next War"
 path="mod/sodtnw/"
 tags={
 	"Alternative History"
@@ -23,3 +23,4 @@ replace_path = "common/scripted_effects"
 replace_path = "common/scripted_localisation"
 replace_path = "common/national_focus"
 replace_path = "common/ai_equipment"
+replace_path = "gfx/loadingscreens"

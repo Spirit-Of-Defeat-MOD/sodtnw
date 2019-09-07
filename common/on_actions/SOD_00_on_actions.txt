@@ -68,7 +68,7 @@ on_actions = {
 					FROM = {
 						AND = {
 							original_tag = SER
-							has_government = neutrality
+							has_government = utilitarian_despot
 						}
 						has_civil_war = yes
 					}
@@ -84,5 +84,31 @@ on_actions = {
 				}
 			}
 		} 
+	}
+	on_civil_war_end = { 
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SER
+						has_government = communism
+					}
+				}
+				set_global_flag = serbcw_end
+				set_global_flag = communistsercw_win
+				news_event = { id = serbianews.4 random = 6 }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SER
+						has_government = neutrality
+					}
+				}
+				set_global_flag = serbcw_end
+				set_global_flag = chetniksercw_win
+				news_event = { id = serbianews.5 random = 6 }
+			}
+		}
 	}
 }

@@ -81,6 +81,8 @@ country_event = {
 					original_tag = SER
 					has_government = communism
 				}
+				state_event = { id = serbia.3 days = 2 }
+				state_event = { id = serbia.5 days = 1 }
 				set_cosmetic_tag = SER_civil_war
 				load_oob = "SER_Communist_Civil_War"
 				add_manpower = 30000
@@ -299,7 +301,8 @@ country_event = {
 				size = 0.5
 				states = { 45 108 831 833 }
 			}
-			country_event = { id = serbia.3 days = 2 }
+			state_event = { id = serbia.3 days = 2 }
+			state_event = { id = serbia.5 days = 1 }
 			random_other_country = {
 				limit = {
 					original_tag = SER
@@ -530,5 +533,70 @@ country_event = {
 	
 	option = {
 		name = serbia.3.a
+	}
+}
+# Montenegrin war of independence
+country_event = {
+	id = serbia.4
+	title = serbia.4.t
+	desc = serbia.4.d
+	picture = GFX_report_event_destroyers
+	
+	trigger = {
+		has_global_flag = chetniksercw_win
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Already?!"
+		custom_effect_tooltip = montenegrin_cw_war
+		hidden_effect = {
+			if = {
+				limit = {
+					MNT = {
+						is_puppet_of = SER
+					}
+				}
+				end_puppet = MNT
+			}
+			release = MNT
+			declare_war_on = {
+				target = MNT
+				type = annex_everything
+			}
+			MNT = {
+				add_manpower = 30000
+				army_experience = 50
+				add_political_power = 150
+				load_oob = "MNT_1936"
+				set_war_support = 1
+				add_command_power = 75
+			}
+		}
+	}
+}
+# Soviets send equipment
+country_event = {
+	id = serbia.5
+	title = serbia.5.t
+	desc = serbia.5.d
+	picture = GFX_report_event_destroyers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Thanks!"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = SOV
+		}
 	}
 }

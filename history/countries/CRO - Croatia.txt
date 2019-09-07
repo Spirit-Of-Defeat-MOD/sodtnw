@@ -4,6 +4,14 @@ oob = "CRO_1936"
 
 set_research_slots = 2
 
+add_ideas = {
+	CRO_osman_kulenovic
+	CRO_mile_budak
+	CRO_lovro_susic
+	CRO_andrija_artukovic
+	CRO_slavko_kvaternik
+}
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

@@ -4,6 +4,9 @@ on_actions = {
 			GER = {
 				country_event = germany.1
 			}
+			ITA = {
+				country_event = italy.1
+			}
 			CRO = {
 				country_event = croatia.2
 			}

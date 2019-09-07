@@ -134,15 +134,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
-	fascism = 76
+	democratic = 13
+	social_democracy = 11
+	fascism = 65
+	revolutionary_socialism = 9
 	communism = 2
 }
 
 
 create_country_leader = {
 	name = "Luigi Federzoni"
-	desc = "POLITICS_LUIGI_FEDERZONI_DESC"
+	desc = "POLITICS_FEDERZONI_DESC"
 	picture = "Portrait_Luigi_Federzoni.tga"
 	expire = "1965.1.1"
 	ideology = national_syndicalist

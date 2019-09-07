@@ -19,7 +19,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				fascist
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}
@@ -69,7 +69,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				fascist
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}
@@ -94,7 +94,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				fascist
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}
@@ -119,7 +119,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				fascist
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}

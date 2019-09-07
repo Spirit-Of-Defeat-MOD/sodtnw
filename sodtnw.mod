@@ -2,6 +2,7 @@
 path="mod/sodtnw/"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
+replace_path="common/bookmarks"
 replace_path="common/countries"
 replace_path="common/country_tags"
 replace_path="common/decisions"

@@ -40,10 +40,36 @@
 		49 = { "%d. 'Sremska' Pešadijska Divizija" }
 		50 = { "%d. 'Drinska' Pešadijska Divizija" }
 		51 = { "%d. Pešadijska Divizija" }
-		52 = { "%d. Pešadijska Divizija" }
-		53 = { "%d. Pešadijska Divizija" }
-		54 = { "%d. Pešadijska Divizija" }
+	}
+}
+SER_CML_01 = {
+	name = "Communist Militias"
 
+	for_countries = { SER }
+
+	can_use = { AND = { has_government = communism has_civil_war = yes } }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Komunisticka Milicija"
+
+	ordered = {
+		1 = { "%d. Komunisticka Milicija" }
+	}
+}
+SER_CHE_01 = {
+	name = "Chetnik Battalions"
+
+	for_countries = { SER }
+
+	can_use = { AND = { has_government = ulititarian_despot has_civil_war = yes } }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Cetnicki Odred"
+
+	ordered = {
+		1 = { "%d. Cetnicki Odred" }
 	}
 }
 SER_CAV_01 = {
@@ -57,10 +83,7 @@ SER_CAV_01 = {
 
 	fallback_name = "%d. Konjička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Konjička Divizija" }
 		2 = { "%d. Konjička Divizija" }
 		3 = { "%d. Konjička Divizija" }
@@ -71,7 +94,6 @@ SER_CAV_01 = {
 		8 = { "%d. Konjička Divizija" }
 		9 = { "%d. Konjička Divizija" }
 		10 = { "%d. Konjička Divizija" }
-
 	}
 }
 SER_CAV_02 = {
@@ -82,9 +104,6 @@ SER_CAV_02 = {
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
 
 	fallback_name = "%d. Mešana Konjička Divizija"
 
@@ -99,7 +118,6 @@ SER_CAV_02 = {
 		8 = { "%d. Mešana Konjička Divizija" }
 		9 = { "%d. Mešana Konjička Divizija" }
 		10 = { "%d. Mešana Konjička Divizija" }
-
 	}
 }
 SER_MOT_01 = {
@@ -111,15 +129,9 @@ SER_MOT_01 = {
 
 	division_types = { "motorized" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { SER_INF_01 }
-
 	fallback_name = "%d. Motorizovana Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Motorizovana Divizija" }
 		2 = { "%d. Motorizovana Divizija" }
 		3 = { "%d. Motorizovana Divizija" }
@@ -130,7 +142,6 @@ SER_MOT_01 = {
 		8 = { "%d. Motorizovana Divizija" }
 		9 = { "%d. Motorizovana Divizija" }
 		10 = { "%d. Motorizovana Divizija" }
-
 	}
 }
 SER_ARM_01 = {
@@ -155,7 +166,6 @@ SER_ARM_01 = {
 		8 = { "%d. Oklopna Divizija" }
 		9 = { "%d. Oklopna Divizija" }
 		10 = { "%d. Oklopna Divizija" }
-
 	}
 }
 SER_ARM_02 = {
@@ -167,14 +177,9 @@ SER_ARM_02 = {
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	
-
 	fallback_name = "%d. Teška Oklopna Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Teška Oklopna Divizija" }
 		2 = { "%d. Teška Oklopna Divizija" }
 		3 = { "%d. Nezavisna Teška Oklopna Divizija" }
@@ -185,29 +190,22 @@ SER_ARM_02 = {
 		8 = { "%d. Teška Oklopna Divizija" }
 		9 = { "%d. Teška Oklopna Divizija" }
 		10 = { "%d. Teška Oklopna Divizija" }
-
 	}
 }
-
-SER_MEC_01 = 
-{
+SER_MEC_01 = {
 	name = "Mechanised Divisions"
 
 	for_countries = { SER }
 
 	can_use = { always = yes }
 
-	division_types = { "mechanized"  }
-
-	# Number reservation system will tie to another group.
+	division_types = { "mechanized" }
+	
 	link_numbering_with = { SER_INF_01 }
 
 	fallback_name = "%d. Mehanizovana Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mehanizovana Divizija" }
 		2 = { "%d. Mehanizovana Divizija" }
 		3 = { "%d. Mehanizovana Divizija" }
@@ -218,12 +216,9 @@ SER_MEC_01 =
 		8 = { "%d. Mehanizovana Divizija" }
 		9 = { "%d. Mehanizovana Divizija" }
 		10 = { "%d. Mehanizovana Divizija" }
-
 	}
 }
-
-SER_GAR_01 = 
-{
+SER_GAR_01 = {
 	name = "Garrison Divisions"
 
 	for_countries = { SER }
@@ -232,13 +227,11 @@ SER_GAR_01 =
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
 	link_numbering_with = { SER_INF_01 }
 
 	fallback_name = "%d. Pešadijska Divizija"
 
-	ordered =
-	{
+	ordered = {
 		25 = { "%d. 'Vardarska' Pešadijska Div." }
 		27 = { "%d. 'Savska' Pešadijska Div." }
 		30 = { "%d. 'Osiječka' Pešadijska Div." }
@@ -264,12 +257,9 @@ SER_GAR_01 =
 		58 = { "%d. Pešadijska Divizija" }
 		59 = { "%d. Pešadijska Divizija" }
 		60 = { "%d. Pešadijska Divizija" }
-
 	}
 }
-
-SER_MAR_01 = 
-{
+SER_MAR_01 = {
 	name = "Marine Divisions"
 
 	for_countries = { SER }
@@ -281,10 +271,7 @@ SER_MAR_01 =
 
 	fallback_name = "%d. Mornarička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mornarička Divizija" }
 		2 = { "%d. Mornarička Divizija" }
 		3 = { "%d. Mornarička Divizija" }
@@ -297,7 +284,6 @@ SER_MAR_01 =
 		10 = { "%d. Mornarička Divizija" }
 	}
 }
-
 SER_MTN_01 = {
 	name = "Mountain Divisions"
 
@@ -309,10 +295,7 @@ SER_MTN_01 = {
 
 	fallback_name = "%d. Planinski Odred"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "Triglavski Odred" }
 		2 = { "Rišnajaski Odred" }
 		3 = { "Staroplaninski Odred" }
@@ -333,7 +316,6 @@ SER_MTN_01 = {
 		18 = { "%d. Planinski Odred" }
 		19 = { "%d. Planinski Odred" }
 		20 = { "%d. Planinski Odred" }
-
 	}
 }
 SER_ZAN_01 = {
@@ -345,12 +327,9 @@ SER_ZAN_01 = {
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-
 	fallback_name = "%d. Žandarmerijski Odred"
 
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Beogradski Žandarmerijski Odred" }
 		2 = { "%d. Kragujevački Žandarmerijski Odred" }
 		3 = { "%d. Niški Žandarmerijski Odred" }
@@ -371,8 +350,7 @@ SER_PAR_01 = {
 
 	fallback_name = "%d. Padobranska Divizija"
 
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. 'Orlovska' Padobranska Divizija" }
 		2 = { "%d. Padobranska Divizija" }
 		3 = { "%d. Padobranska Divizija" }
@@ -383,6 +361,5 @@ SER_PAR_01 = {
 		8 = { "%d. Padobranska Divizija" }
 		9 = { "%d. Padobranska Divizija" }
 		10 = { "%d. Padobranska Divizija" }
-
 	}
 }

@@ -26,6 +26,7 @@ ideas = {
 			traits = {
 				head_of_government
 				authoritarian_democrat
+				hog_legislative_council
 			}
 			cancel_if_invalid = yes
 		}
@@ -53,6 +54,7 @@ ideas = {
 			traits = {
 				foreign_minister
 				authoritarian_democrat
+				frm_charismatic_diplomat
 			}
 			cancel_if_invalid = yes
 		}
@@ -80,6 +82,7 @@ ideas = {
 			traits = {
 				economy_minister
 				authoritarian_democrat
+				eco_laissez_faire_capitalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -107,6 +110,7 @@ ideas = {
 			traits = {
 				security_minister
 				authoritarian_democrat
+				sec_crime_fighter
 			}
 			cancel_if_invalid = yes
 		}

@@ -11,8 +11,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_RHI_IARCH_eco"
-		texturefile = "gfx/ministers/RHI/IARHC.tga"
+		name = "GFX_idea_RHI_Pierrepont_Noyes_eco"
+		texturefile = "gfx/ministers/RHI/Pierrepont_Noyes.tga"
 	}
 	
 	spriteType = {

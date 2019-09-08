@@ -16,7 +16,7 @@ leader_traits = {
 #####################
 
 	frm_charismatic_diplomat = {
-		opinion_gain_monthly_same_ideology_factor = 0.25
+		opinion_gain_monthly = 0.25
 
 		random = no
 	}
@@ -53,6 +53,12 @@ leader_traits = {
 #####################
 # Head of Intel
 #####################
+
+	int_foreign_expert = { 
+		decryption = 1
+
+		random = no
+	}
 
 
 

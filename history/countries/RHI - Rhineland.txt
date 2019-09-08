@@ -43,7 +43,7 @@ add_ideas = {
 	RHI_William_Seeds_frm
 	RHI_Pierrepont_Noyes_eco
 	RHI_Henry_Tureman_Allen_sec
-	RHI_IARCH_int
+	RHI_Harold_Stuart_int
 }
 
 

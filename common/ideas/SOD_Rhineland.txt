@@ -117,7 +117,7 @@ ideas = {
 	}
 	
 	head_of_intel = { ### Head of Mil Intel ###
-		RHI_IARCH_int = {
+		RHI_Harold_Stuart_int = {
 			allowed = { original_tag = RHI }
 			available = {
 				custom_trigger_tooltip = {
@@ -139,6 +139,7 @@ ideas = {
 			traits = {
 				head_of_intel
 				authoritarian_democrat
+				int_foreign_expert
 			}
 			cancel_if_invalid = yes
 		}

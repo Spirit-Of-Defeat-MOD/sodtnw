@@ -5,11 +5,16 @@ oob = "CRO_1936"
 set_research_slots = 2
 
 add_ideas = {
-	CRO_osman_kulenovic
-	CRO_mile_budak
-	CRO_lovro_susic
-	CRO_andrija_artukovic
-	CRO_slavko_kvaternik
+	CRO_stjepan_radic
+	CRO_ante_trumbic
+	CRO_antun_radic
+	CRO_ivan_subasic
+	CRO_ivan_pernar
+#	CRO_osman_kulenovic
+#	CRO_mile_budak
+#	CRO_lovro_susic
+#	CRO_andrija_artukovic
+#	CRO_slavko_kvaternik
 }
 
 set_technology = {

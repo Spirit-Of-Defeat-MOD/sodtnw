@@ -1,5 +1,25 @@
 ideas = {
 	head_of_government = {
+		CRO_stjepan_radic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = liberal_conservatism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_stjepan_radic"
+			}
+			traits = {
+				head_of_government
+				liberal_conservatism
+			}
+			cancel_if_invalid = yes
+		}
 		CRO_osman_kulenovic = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -25,6 +45,26 @@ ideas = {
 		}
 	}
 	foreign_minister = {
+		CRO_ante_trubmic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = liberal_conservatism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_ante_trubmic"
+			}
+			traits = {
+				foreign_minister
+				liberal_conservatism
+			}
+			cancel_if_invalid = yes
+		}
 		CRO_mile_budak = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -50,6 +90,26 @@ ideas = {
 		}
 	}
 	economy_minister = {
+		CRO_antun_radic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = liberal_conservatism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_antun_radic"
+			}
+			traits = {
+				economy_minister
+				liberal_conservatism
+			}
+			cancel_if_invalid = yes
+		}
 		CRO_lovro_susic = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -75,6 +135,26 @@ ideas = {
 		}
 	}
 	security_minister = {
+		CRO_ivan_subasic = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = liberal_conservatism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_ivan_subasic"
+			}
+			traits = {
+				security_minister
+				liberal_conservatism
+			}
+			cancel_if_invalid = yes
+		}
 		CRO_andrija_artukovic = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -100,6 +180,26 @@ ideas = {
 		}
 	}
 	head_of_intel = {
+		CRO_ivan_pernar = {
+			allowed = { original_tag = CRO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = liberal_conservatism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRO_ivan_pernar"
+			}
+			traits = {
+				head_of_intel
+				liberal_conservatism
+			}
+			cancel_if_invalid = yes
+		}
 		CRO_slavko_kvaternik = {
 			allowed = { original_tag = CRO }
 			available = {

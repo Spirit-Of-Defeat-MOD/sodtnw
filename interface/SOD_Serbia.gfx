@@ -1,0 +1,10 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_SER_communist_threat"
+		texturefile = "gfx/interface/ideas/SER/Communist_Opposition.tga"
+	}
+}

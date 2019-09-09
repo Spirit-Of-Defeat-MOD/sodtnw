@@ -1406,7 +1406,12 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_partitionpoland } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+
+ completion_reward = {
+		GER = { country_event = germany.23 days = 1 }
+	 
+ }
 
  } 
 

@@ -1,18 +1,118 @@
 ideas = {
 
 	head_of_government = {
+		SER_nikola_pasic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_nikola_pasic"
+			}
+			traits = {
+				head_of_government
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
 	foreign_minister = {
+		SER_vojislav_marinkovic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_vojislav_marinkovic"
+			}
+			traits = {
+				foreign_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
-	economy_minister = { ### Minister of the Economy ###
+	economy_minister = {
+		SER_zelimir_mazuranic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_zelimir_mazuranic"
+			}
+			traits = {
+				economy_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
-	security_minister = { ### Minister of Security ###
+	security_minister = {
+		SER_dimitrije_ljotic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_dimitrije_ljotic"
+			}
+			traits = {
+				security_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
-	head_of_intel = { ### Head of Mil Intel ###
+	head_of_intel = {
+		SER_petar_zivkovic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_petar_zivkovic"
+			}
+			traits = {
+				head_of_intel
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
 	}
 	
 	hidden_ideas = {

@@ -5,7 +5,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = liberal_conservatism
+					has_government = classic_liberal
 				}
 			}
 			visible = {
@@ -50,7 +50,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = liberal_conservatism
+					has_government = classic_liberal
 				}
 			}
 			visible = {
@@ -95,7 +95,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = liberal_conservatism
+					has_government = classic_liberal
 				}
 			}
 			visible = {
@@ -140,7 +140,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = liberal_conservatism
+					has_government = classic_liberal
 				}
 			}
 			visible = {
@@ -185,7 +185,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = liberal_conservatism
+					has_government = classic_liberal
 				}
 			}
 			visible = {

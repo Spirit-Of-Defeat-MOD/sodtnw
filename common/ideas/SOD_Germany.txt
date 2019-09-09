@@ -23,6 +23,7 @@ ideas = {
 			traits = {
 				head_of_government
 				authoritarian_democrat
+				hog_conservative_aristocrat
 			}
 			cancel_if_invalid = yes
 		}
@@ -45,6 +46,7 @@ ideas = {
 			traits = {
 				head_of_government
 				utilitarian_despot
+				hog_pragmatist
 			}
 			cancel_if_invalid = yes
 		}
@@ -69,6 +71,7 @@ ideas = {
 			traits = {
 				foreign_minister
 				authoritarian_democrat
+				frm_skilled_negotiator
 			}
 			cancel_if_invalid = yes
 		}
@@ -93,6 +96,7 @@ ideas = {
 			traits = {
 				economy_minister
 				authoritarian_democrat
+				eco_economic_interventionist
 			}
 			cancel_if_invalid = yes
 		}
@@ -139,6 +143,7 @@ ideas = {
 			traits = {
 				security_minister
 				utilitarian_despot
+				sec_devout_nationalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -161,6 +166,7 @@ ideas = {
 			traits = {
 				security_minister
 				national_collectivist
+				sec_radical_militarist
 			}
 			cancel_if_invalid = yes
 		}
@@ -185,6 +191,8 @@ ideas = {
 			traits = {
 				head_of_intel
 				utilitarian_despot
+				int_brash_buffoon
+				
 			}
 			cancel_if_invalid = yes
 		}

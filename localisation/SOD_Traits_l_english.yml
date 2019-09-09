@@ -22,14 +22,22 @@ utilitarian_despot:0 "Utilitarian Despot"
 national_collectivist:0 "National Collectivist"
 nihilistic_extremist:0 "Nihilistic Extremist"
 
+#Head of Government Traits
 hog_legislative_council:0 "Legislative Council"
-
+hog_conservative_aristocrat:0 "Conservative Aristocrat"
+hog_pragmatist:0 "Pragmatist"
+#Foreign Minister Traits
 frm_charismatic_diplomat:0 "Charismatic Diplomat"
-
+frm_skilled_negotiator:0 "Skilled Negotiator"
+#Economic Minister Traits
 eco_laissez_faire_capitalist:0 "Laissez-faire Capitalist"
-
+eco_economic_interventionist:0 "Economic Interventionist"
+#Security Minister Traits
 sec_crime_fighter:0 "Crime Fighter"
-
+sec_devout_nationalist:0 "Devout Nationalist"
+sec_radical_militarist:0 "Radical Militarist"
+#Intel Minister Traits
 int_foreign_expert:0 "Overseas Intelligence Expert"
+int_brash_buffoon:0 "Brash Buffoon"
 
  

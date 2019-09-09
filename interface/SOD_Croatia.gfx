@@ -1,0 +1,49 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+spriteType = {
+		name = "GFX_idea_CRO_stjepan_radic"
+		texturefile = "gfx/ministers/CRO/Stjepan_Radic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_osman_kulenovic"
+		texturefile = "gfx/ministers/CRO/Osman_Kulenovic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_ante_trubmic"
+		texturefile = "gfx/ministers/CRO/Ante_Trumbic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_mile_budak"
+		texturefile = "gfx/ministers/CRO/Mile_Budak.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_antun_radic"
+		texturefile = "gfx/ministers/CRO/Antun_Radic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_ivan_subasic"
+		texturefile = "gfx/ministers/CRO/Ivan_Subasic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_andrija_artukovic"
+		texturefile = "gfx/ministers/CRO/Andrija_Artukovic.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_ivan_pernar"
+		texturefile = "gfx/ministers/CRO/Ivan_Pernar.tga"
+	}
+	
+spriteType = {
+		name = "GFX_idea_CRO_slavko_kvaternik"
+		texturefile = "gfx/ministers/CRO/Slavko_Kvaternik.tga"
+	}
+}

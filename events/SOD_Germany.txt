@@ -664,3 +664,84 @@ country_event = {
 	
 	}
 }
+
+# Propose Russian Alliance
+country_event = {
+	id = germany.23
+	title = germany.23.t
+	desc = germany.23.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = germany.23.a
+		SOV = {
+			country_event = germany.24
+		}
+	
+    }
+}
+
+#Russian Response
+country_event = {
+	id = germany.24
+	title = germany.24.t
+	desc = germany.24.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	#form the alliance
+	option = {
+		name = germany.24.a
+		ai_chance = { 
+			factor = 85
+		}
+		SOV = { create_faction = "Continental Bloc" }
+		SOV = { add_to_faction = GER }
+		GER = {country_event = { days = 1 id = germany.26 }}
+	}
+	
+	#reject the proposal
+	option = {
+		name = germany.24.b
+		ai_chance = { 
+			factor = 15
+		}
+		GER = {country_event = { days = 1 id = germany.25 }}
+	
+    }
+}
+
+# Germany Denied
+country_event = {
+	id = germany.25
+	title = germany.25.t
+	desc = germany.25.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = germany.25.a
+		
+	
+    }
+}
+
+# Continental Bloc Announcement
+country_event = {
+	id = germany.26
+	title = germany.26.t
+	desc = germany.26.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = germany.26.a
+		
+	
+    }
+}

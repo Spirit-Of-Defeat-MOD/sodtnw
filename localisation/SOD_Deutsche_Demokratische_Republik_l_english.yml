@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+DDR_fascism_party:0 "LVB"
+DDR_fascism_party_long:0 "Landvolkbewegung"
+DDR_communism_party:0 "KPD"
+DDR_communism_party_long:0 "Kommunistische Partei Deutschlands"
+DDR_democratic_party:0 "DVP"
+DDR_democratic_party_long:0 "Deutsche Volkspartei"
+DDR_utilitarian_despot_party:0 "Militärregierung"
+DDR_utilitarian_despot_party_long:0 "Reichswehr Militärregierung"
+DDR_neutrality_party:0 "DNVP"
+DDR_neutrality_party_long:0 "Deutschnationale Volkspartei"
+DDR_social_democracy_party:0 "SPD"
+DDR_social_democracy_party_long:0 "Sozialdemokratische Partei Deutschlands"
+DDR_social_liberal_party:0 "DDP"
+DDR_social_liberal_party_long:0 "Deutsche Demokratische Partei"
+DDR_classic_liberal_party:0 "Zentrum"
+DDR_classic_liberal_party_long:0 "Deutsche Zentrumspartei"
+DDR_totalitarian_socialism_party:0 "Alte SPD"
+DDR_totalitarian_socialism_party_long:0 "Alte Sozialdemokratische Partei Deutschlands"
+DDR_revolutionary_socialism_party:0 "KAPD"
+DDR_revolutionary_socialism_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands"
+DDR_democratic_socialism_party:0 "SAPD"
+DDR_democratic_socialism_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
+DDR_nihilistic_extremism_party:0 "OC"
+DDR_nihilistic_extremism_party_long:0 "Organisationconsul"
+
+#Country Names
+ DDR_fascism:0 "German Volksreich"
+ DDR_fascism_DEF:0 "the German Volksreich"
+ DDR_nihilistic_extremism:0 "German Volksreich"
+ DDR_nihilistic_extremism_DEF:0 "the German Volksreich"
+ DDR_totalitarian_socialism:0 "German Democratic Republic"
+ DDR_totalitarian_socialism_DEF:0 "the German Democratic Republic"
+ DDR_utilitarian_despot:0 "German Democratic Republic"
+ DDR_utilitarian_despot_DEF:0 "the German Democratic Republic"
+ DDR_democratic:0 "German Democratic Republic"
+ DDR_democratic_DEF:0 "the German Democratic Republic"
+ DDR_neutrality:1 "German Democratic Republic"
+ DDR_neutrality_DEF:1 "the German Democratic Republic
+ DDR_democratic_socialism:0 "German Democratic Republic"
+ DDR_democratic_socialism_DEF:0 "the German Democratic Republic"
+ DDR_revolutionary_socialism:0 "German Democratic Republic"
+ DDR_revolutionary_socialism_DEF:0 "the German Democratic Republic"
+ DDR_social_democracy:0 "German Democratic Republic"
+ DDR_social_democracy_DEF:0 "the German Democratic Republic"
+ DDR_social_liberal:0 "German Democratic Republic"
+ DDR_social_liberal_DEF:0 "the German Democratic Republic"
+ DDR_classic_liberal:0 "German Democratic Republic"
+ DDR_classic_liberal_DEF:0 "the German Democratic Republic"
+ DDR_communism:0 "German Democratic Republic"
+ DDR_communism_DEF:0 "the German Democratic Republic"
+ 
+ DDR_fascism_ADJ:0 "German"
+ DDR_nihilistic_extremism_ADJ:0 "German"
+ DDR_totalitarian_socialism_ADJ:0 "German"
+ DDR_democratic_ADJ:0 "German"
+ DDR_utilitarian_despot_ADJ:0 "German"
+ DDR_democratic_socialism_ADJ:0 "German"
+ DDR_neutrality_ADJ:0 "German"
+ DDR_revolutionary_socialism_ADJ:0 "German"
+ DDR_social_democracy_ADJ:0 "German"
+ DDR_social_liberal_ADJ:0 "German"
+ DDR_classic_liberal_ADJ:0 "German"
+ DDR_communism_ADJ:0 "German"
+
+#Ministers
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

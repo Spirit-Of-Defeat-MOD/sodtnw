@@ -228,6 +228,72 @@ ideas = {
 		#
 	}
 	country {
-		#
+		CRO_bog_i_hrvati = {
+				
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+					is_puppet_of = SER
+				}
+			}
+	
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			picture = CRO_bog_i_hrvati
+	
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+				totalitarian_socialism_drift = -0.01
+				revolutionary_socialism_drift = -0.01
+				fascism_drift = 0.03
+			}
+		}
+		CRO_anti_serbian_rhetoric = {
+				
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+					is_puppet_of = SER
+				}
+			}
+	
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			picture = CRO_bog_i_hrvati
+	
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.05
+			}
+		}
 	}
 }

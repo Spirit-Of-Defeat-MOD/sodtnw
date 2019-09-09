@@ -84,7 +84,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				fascist
+				national_collectivist
 			}
 			cancel_if_invalid = yes
 		}

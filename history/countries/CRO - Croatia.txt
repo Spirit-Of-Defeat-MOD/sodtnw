@@ -77,6 +77,7 @@ set_popularities = {
     fascism = 8
     nihilistic_extremism = 0
 }
+
 create_country_leader = {
 	name = "Andrija Hebrang"
 	desc = "POLITICS_ANDRIJA_HEBRANG_DESC"

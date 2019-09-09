@@ -28,10 +28,17 @@ ideas = {
 				}
 			}
 
-			picture = SER_podgoricka_skupstina
+			picture = generic_king_handled
 
 			allowed_civil_war = {
-				always = yes
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_communism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
+					}
+				}
 			}
 
 			removal_cost = -1
@@ -60,7 +67,14 @@ ideas = {
 			picture = SER_communist_threat
 
 			allowed_civil_war = {
-				always = yes
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_communism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
+					}
+				}
 			}
 
 			removal_cost = -1

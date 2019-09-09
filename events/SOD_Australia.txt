@@ -24,12 +24,19 @@ country_event = {
     
     option = {
         name = australia.1.a 
-        add_ideas = { second_emu_war }
+        add_timed_idea = { 
+            idea = second_emu_war
+            days = 180 
+    }
     }
         
         option = {
         name = australia.1.b 
-        add_ideas = { second_emu_war }
+        add_manpower = -10 # removed as they are the soldiers going to kill emus
+        add_timed_idea = { 
+            idea = second_emu_war
+            days = 180 
+    }
                 custom_effect_tooltip = emu_war_2_begins
                 hidden_effect = {
             random_list = {

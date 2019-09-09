@@ -7,9 +7,6 @@
 
 	division_types = { "infantry" }
 
-	# Number reMNTvation system will tie to another group.
-	#link_numbering_with = { MNT_GAR_01 }
-
 	fallback_name = "%d. Pešadijska Divizija"
 
 	ordered = {
@@ -29,9 +26,6 @@ MNT_KRO_01 = {
 
 	division_types = { "infantry" }
 
-	# Number reMNTvation system will tie to another group.
-	#link_numbering_with = { MNT_GAR_01 }
-
 	fallback_name = "%d. Kraljevski Odred"
 
 	ordered = {
@@ -46,8 +40,7 @@ MNT_KRO_01 = {
 		9 = { "%d. Plavski Kraljevski Odred" }
 	}
 }
-MNT_CAV_01 = 
-{
+MNT_CAV_01 = {
 	name = "Cavalry Divisions"
 
 	for_countries = { MNT }
@@ -56,15 +49,9 @@ MNT_CAV_01 =
 
 	division_types = { "cavalry" }
 
-	# Number reMNTvation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
-
 	fallback_name = "%d. Konjička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Konjička Divizija" }
 		2 = { "%d. Konjička Divizija" }
 		3 = { "%d. Konjička Divizija" }
@@ -75,11 +62,9 @@ MNT_CAV_01 =
 		8 = { "%d. Konjička Divizija" }
 		9 = { "%d. Konjička Divizija" }
 		10 = { "%d. Konjička Divizija" }
-
 	}
 }
-MNT_CAV_02 = 
-{
+MNT_CAV_02 = {
 	name = "Mixed Cavalry Divisions"
 
 	for_countries = { MNT }
@@ -88,15 +73,9 @@ MNT_CAV_02 =
 
 	division_types = { "cavalry" }
 
-	# Number reMNTvation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
-
 	fallback_name = "%d. Mešana Konjička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mešana Konjička Divizija" }
 		2 = { "%d. Mešana Konjička Divizija" }
 		3 = { "%d. Mešana Konjička Divizija" }
@@ -107,12 +86,10 @@ MNT_CAV_02 =
 		8 = { "%d. Mešana Konjička Divizija" }
 		9 = { "%d. Mešana Konjička Divizija" }
 		10 = { "%d. Mešana Konjička Divizija" }
-
 	}
 }
 
-MNT_MOT_01 = 
-{
+MNT_MOT_01 = {
 	name = "Motorised Divisions"
 
 	for_countries = { MNT }
@@ -121,15 +98,9 @@ MNT_MOT_01 =
 
 	division_types = { "motorized" }
 
-	# Number reMNTvation system will tie to another group.
-	link_numbering_with = { MNT_INF_01 }
-
 	fallback_name = "%d. Motorizovana Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Motorizovana Divizija" }
 		2 = { "%d. Motorizovana Divizija" }
 		3 = { "%d. Motorizovana Divizija" }
@@ -140,12 +111,10 @@ MNT_MOT_01 =
 		8 = { "%d. Motorizovana Divizija" }
 		9 = { "%d. Motorizovana Divizija" }
 		10 = { "%d. Motorizovana Divizija" }
-
 	}
 }
 
-MNT_ARM_01 = 
-{
+MNT_ARM_01 = {
 	name = "Tank Battalions"
 
 	for_countries = { MNT }
@@ -154,14 +123,9 @@ MNT_ARM_01 =
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	
-
 	fallback_name = "%d. Oklopna Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Oklopna Divizija" }
 		2 = { "%d. Oklopna Divizija" }
 		3 = { "%d. Oklopna Divizija" }
@@ -172,11 +136,9 @@ MNT_ARM_01 =
 		8 = { "%d. Oklopna Divizija" }
 		9 = { "%d. Oklopna Divizija" }
 		10 = { "%d. Oklopna Divizija" }
-
 	}
 }
-MNT_ARM_02 = 
-{
+MNT_ARM_02 = {
 	name = "Tank Division"
 
 	for_countries = { MNT }
@@ -185,14 +147,9 @@ MNT_ARM_02 =
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	
-
 	fallback_name = "%d. Teška Oklopna Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Teška Oklopna Divizija" }
 		2 = { "%d. Teška Oklopna Divizija" }
 		3 = { "%d. Nezavisna Teška Oklopna Divizija" }
@@ -203,12 +160,10 @@ MNT_ARM_02 =
 		8 = { "%d. Teška Oklopna Divizija" }
 		9 = { "%d. Teška Oklopna Divizija" }
 		10 = { "%d. Teška Oklopna Divizija" }
-
 	}
 }
 
-MNT_MEC_01 = 
-{
+MNT_MEC_01 = {
 	name = "Mechanised Divisions"
 
 	for_countries = { MNT }
@@ -217,15 +172,9 @@ MNT_MEC_01 =
 
 	division_types = { "mechanized"  }
 
-	# Number reMNTvation system will tie to another group.
-	link_numbering_with = { MNT_INF_01 }
-
 	fallback_name = "%d. Mehanizovana Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mehanizovana Divizija" }
 		2 = { "%d. Mehanizovana Divizija" }
 		3 = { "%d. Mehanizovana Divizija" }
@@ -236,12 +185,10 @@ MNT_MEC_01 =
 		8 = { "%d. Mehanizovana Divizija" }
 		9 = { "%d. Mehanizovana Divizija" }
 		10 = { "%d. Mehanizovana Divizija" }
-
 	}
 }
 
-MNT_GAR_01 = 
-{
+MNT_GAR_01 = {
 	name = "Garrison Divisions"
 
 	for_countries = { MNT }
@@ -250,13 +197,11 @@ MNT_GAR_01 =
 
 	division_types = { "infantry" }
 
-	# Number reMNTvation system will tie to another group.
 	link_numbering_with = { MNT_INF_01 }
 
 	fallback_name = "%d. Pešadijska Divizija"
 
-	ordered =
-	{
+	ordered = {
 		51 = { "%d. Pešadijska Divizija" }
 		52 = { "%d. Pešadijska Divizija" }
 		53 = { "%d. Pešadijska Divizija" }
@@ -267,12 +212,10 @@ MNT_GAR_01 =
 		58 = { "%d. Pešadijska Divizija" }
 		59 = { "%d. Pešadijska Divizija" }
 		60 = { "%d. Pešadijska Divizija" }
-
 	}
 }
 
-MNT_MAR_01 = 
-{
+MNT_MAR_01 = {
 	name = "Marine Divisions"
 
 	for_countries = { MNT }
@@ -284,10 +227,7 @@ MNT_MAR_01 =
 
 	fallback_name = "%d. Mornarička Divizija"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. Mornarička Divizija" }
 		2 = { "%d. Mornarička Divizija" }
 		3 = { "%d. Mornarička Divizija" }
@@ -312,10 +252,7 @@ MNT_MTN_01 = {
 
 	fallback_name = "%d. Planinski Odred"
 
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "Triglavski Odred" }
 		2 = { "Rišnajaski Odred" }
 		3 = { "Staroplaninski Odred" }
@@ -336,30 +273,6 @@ MNT_MTN_01 = {
 		18 = { "%d. Planinski Odred" }
 		19 = { "%d. Planinski Odred" }
 		20 = { "%d. Planinski Odred" }
-
-	}
-}
-MNT_ZAN_01 = {
-	name = "Gendarmerie"
-
-	for_countries = { MNT }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reMNTvation system will tie to another group.
-
-	fallback_name = "%d. Žandarmerijski Odred"
-
-	ordered =
-	{
-		1 = { "%d. Beogradski Žandarmerijski Odred" }
-		2 = { "%d. Kragujevački Žandarmerijski Odred" }
-		3 = { "%d. Niški Žandarmerijski Odred" }
-		4 = { "%d. Novosadski Žandarmerijski Odred" }
-		5 = { "%d. Prištinski Žandarmerijski Odred" }
-		6 = { "%d. Prijepoljski Žandarmerijski Odred" }
 	}
 }
 MNT_PAR_01 = {
@@ -371,11 +284,9 @@ MNT_PAR_01 = {
 
 	division_types = { "paratrooper" }
 
-
 	fallback_name = "%d. Padobranska Divizija"
 
-	ordered =
-	{
+	ordered = {
 		1 = { "%d. 'Orlovska' Padobranska Divizija" }
 		2 = { "%d. Padobranska Divizija" }
 		3 = { "%d. Padobranska Divizija" }
@@ -386,6 +297,5 @@ MNT_PAR_01 = {
 		8 = { "%d. Padobranska Divizija" }
 		9 = { "%d. Padobranska Divizija" }
 		10 = { "%d. Padobranska Divizija" }
-
 	}
 }

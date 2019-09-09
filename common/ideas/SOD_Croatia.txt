@@ -287,7 +287,7 @@ ideas = {
 				}
 			}
 
-			picture = CRO_bog_i_hrvati
+			picture = CRO_anti_serbian_rhetoric
 	
 			removal_cost = -1
 			

@@ -1,0 +1,26 @@
+add_namespace = sod_peace
+
+country_event = {
+	id = sod_peace.1
+	title = sod_peace.1.t
+	desc = sod_peace.1.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		#ai_chance = { factor = 10 }
+		name = sod_peace.1.a
+		CRO = {
+			transfer_state = 807 #Srem
+			transfer_state = 215 #Vojvodina
+		}
+		SER = {
+			release = MNT
+		}
+		puppet = MNT
+		puppet = SER
+		#news_event = { id = sod_peace.5 days = 1}
+	}
+}

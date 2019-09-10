@@ -1,4 +1,3 @@
-
 state={
 	id=103
 	name="STATE_103" # Dalmatia
@@ -6,14 +5,16 @@ state={
 
 	state_category = large_town
 
-
 	history={
 		owner = ITA
 		victory_points = {
 			3924 3
 		}
 		victory_points = {
-			11564 1 
+			11564 1
+		}
+		victory_points = {
+			6889 2
 		}
 		buildings = {
 			infrastructure = 5

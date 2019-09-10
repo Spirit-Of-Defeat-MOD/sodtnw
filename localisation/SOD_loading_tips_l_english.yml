@@ -1,4 +1,7 @@
 ﻿l_english:
+ 
+ #\n-
+ 
  LOADING_TIP_0:0 "The harder the conflict, the greater the triumph. \n- George Washington"
  LOADING_TIP_1:0 "After I am dead the boy will ruin himself in 12 months. \n- George V, referring to his son, Edward."
  LOADING_TIP_2:0 "Every soldier must know, before he goes into battle, how the little battle he is to fight fits into the larger picture. \n- Bernard L. Montgomery"
@@ -34,17 +37,17 @@
  LOADING_TIP_32:0 "Fortifications, artillery, and foreign aid will be of no value unless the ordinary soldier knows that he is defending his country.\n- Carl Gustaf Emil Mannerheim"
  LOADING_TIP_33:0 "Not believing in force is the same as not believing in gravity.\n- Leon Trotsky"
  LOADING_TIP_34:0 "I don't know whether war is an interlude during peace, or peace an interlude during war.\n- Georges Clemenceau"
- LOADING_TIP_35:0 ""
+ LOADING_TIP_35:0 "Yugoslavs, our darkest hour is upon us! With all your strength you must defend your homes and your nation!\n- Alexander I of Serbia, upon the declaration of war on Italy"
  LOADING_TIP_36:0 "It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.\n- Julius Caesar"
- LOADING_TIP_37:0 ""
+ LOADING_TIP_37:0 "We need fighters, not voters. Because only combatants remain loyal to the end.\n- Dimitrije Ljotic"
  LOADING_TIP_38:0 "You will all wind up shining the shoes of the monarchists!\n- Italo Balbo"
  LOADING_TIP_39:0 "We should have known better after the first war.\n- Gerd von Rundstedt"
- LOADING_TIP_40:0 ""
- LOADING_TIP_41:0 ""
- LOADING_TIP_42:0 ""
+ LOADING_TIP_40:0 "For king and fatherland; freedom or death!\n- Motto of the Serbian Chetnik Movement"
+ LOADING_TIP_41:0 "The sky cannot have two suns.\n- Chiang Kai-shek"
+ LOADING_TIP_42:0 "The Chinese revolution has not yet succeeded. Comrades, we must carry on!\n- Sun Yat-Sen"
  LOADING_TIP_43:0 "Those who cannot remember the past are condemned to repeat it.\n- George Santanyana"
  LOADING_TIP_44:0 "Every man a king, but no one wears a crown\n- Huey Long"
- LOADING_TIP_45:0 "It is us today. It will be you tomorrow.\n- Haile Selassie I, 1931"
+ LOADING_TIP_45:0 "It is us today. It will be you tomorrow.\n- Haile Selassie I on the Italian invasion of Ethiopia, 1931"
  LOADING_TIP_46:0 "The more I see of men, the better I like my dog. \n- Frederick The Great"
  LOADING_TIP_47:0 "Those who deny freedom to others deserve it not for themselves. \n- Abraham Lincoln
  LOADING_TIP_48:0 "If you want a thing done well, do it yourself. \n- Napoleon Bonaparte"
@@ -66,3 +69,9 @@
  LOADING_TIP_64:0 "Brutality is respected, the people need wholesome fear. They want to fear someone. They want someone to frighten them and make them shudderingly submissive. \n- Ernst Röhm"
  LOADING_TIP_65:0 "All revolutions devour their own children. \n- Ernst Röhm"
  LOADING_TIP_66:0 "Man's consciousness not only reflects the objective world, but creates it. \n- Vladimir Lenin"
+ LOADING_TIP_67:0 "A fully equipped Duke costs as much to keep up as two dreadnoughts, and Dukes are just as great a terror, and they last longer.\n- David Lloyd George"
+ LOADING_TIP_68:0 "Once blood is shed in a national quarrel reason and right are swept aside by the rage of angry men.\n- David Lloyd George"
+ LOADING_TIP_69:0 "What did France demand? Not enlarged territory, not annexation, not even the satisfaction of amour propre, nothing but her security.\n- Paul Tirard"
+ LOADING_TIP_70:0 "Our mortal enemies are the Greeks for they created democracy.\n- Heinrich Himmler"
+ LOADING_TIP_71:0 "Conscription if necessary, but not necessarily conscription.\n- William Lyon Mackenzie King"
+ LOADING_TIP_72:0 "Pro Deo, pro Patria et pro Libertate.\n- Motto of the Venetian Republic"

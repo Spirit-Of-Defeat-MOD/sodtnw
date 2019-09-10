@@ -691,6 +691,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	#form the alliance
 	option = {
@@ -722,6 +723,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = germany.25.a
@@ -738,6 +740,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = germany.26.a

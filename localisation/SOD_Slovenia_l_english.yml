@@ -1,0 +1,78 @@
+﻿l_english: 
+ #Parties
+ #SLV_totalitarian_socialism_party:0 "SKS"
+ #SLV_totalitarian_socialism_party_long:0 "Savez Komunista Srbije"
+ #SLV_communism_party:0 "SKS"
+ #SLV_communism_party_long:0 "Savez Komunista Srbije"
+ #SLV_revolutionary_socialism_party:0 "Direktasi"
+ #SLV_revolutionary_socialism_party_long:0 "Direktasi"
+ #SLV_democratic_socialism_party:0 "SSDS"
+ #SLV_democratic_socialism_party_long:0 "Srpska Socijaldemokratska Stranka"
+ #SLV_social_democracy_party:0 "SSDS"
+ #SLV_social_democracy_party_long:0 "Srpska Socijaldemokratska Stranka"
+ #SLV_social_liberal_party:0 "SDS"
+ #SLV_social_liberal_party_long:0 "Samostalna Demokratska Stranka"
+ #SLV_classic_liberal_party:0 "DSS"
+ #SLV_classic_liberal_party_long:0 "Demokratska Stranka Srbije"
+ #SLV_democratic_party:0 "NRS"
+ #SLV_democratic_party_long:0 "Narodna Radikalna Stranka"
+ #SLV_neutrality_party:0 "House of Karadjordjevic"
+ #SLV_neutrality_party_long:0 "House of Karadjordjevic"
+ #SLV_utilitarian_despot_party:0 "House of Karadjordjevic"
+ #SLV_utilitarian_despot_party_long:0 "House of Karadjordjevic"
+ #SLV_fascism_party:0 "SRZ"
+ #SLV_fascism_party_long:0 "Srpska Radikalna Zajednica"
+ #SLV_nihilistic_extremism_party:0 "Zbor"
+ #SLV_nihilistic_extremism_party_long:0 "Zbor"
+ 
+ SLV_chetnik_movement_party:0 "Četnici"
+ SLV_chetnik_movement_party_long:0 "Ravnogorski četnički pokret"
+
+ #Country Names
+ SLV_totalitarian_socialism:0 "Slovenian Workers' Union"
+ SLV_totalitarian_socialism_DEF:0 "the Slovenian Workers' Union"
+ SLV_communism:0 "Slovenian Workers' Union"
+ SLV_communism_DEF:0 "the Slovenian Workers' Union"
+ SLV_revolutionary_socialism:0 "Slovenian Workers' Union"
+ SLV_revolutionary_socialism_DEF:0 "the Slovenian Workers' Union"
+ SLV_democratic_socialism:0 "Slovenia"
+ SLV_democratic_socialism_DEF:0 "Slovenia"
+ SLV_social_democracy:0 "Slovenia"
+ SLV_social_democracy_DEF:0 "Slovenia"
+ SLV_social_liberal:0 "Slovenia"
+ SLV_social_liberal_DEF:0 "Slovenia"
+ SLV_classic_liberal:0 "Slovenia"
+ SLV_classic_liberal_DEF:0 "Slovenia"
+ SLV_democratic:0 "Slovenia"
+ SLV_democratic_DEF:0 "Slovenia"
+ SLV_neutrality:0 "Slovenia"
+ SLV_neutrality_DEF:0 "Slovenia"
+ SLV_utilitarian_despot:0 "Slovenia"
+ SLV_utilitarian_despot_DEF:0 "Slovenia"
+ SLV_fascism:0 "Greater Slovenia"
+ SLV_fascism_DEF:0 "the Greater Slovenia"
+ SLV_nihilistic_extremism:0 "Slovenian Order"
+ SLV_nihilistic_extremism_DEF:0 "the Slovenian Order"
+ 
+ SLV_totalitarian_socialism_ADJ:0 "Slovenian"
+ SLV_communism_ADJ:0 "Slovenian"
+ SLV_revolutionary_socialism_ADJ:0 "Slovenian"
+ SLV_democratic_socialism_ADJ:0 "Slovenian"
+ SLV_social_democracy_ADJ:0 "Slovenian"
+ SLV_social_liberal:0 "Slovenian"
+ SLV_classic_liberal_ADJ:0 "Slovenian"
+ SLV_democratic_ADJ:0 "Slovenian"
+ SLV_neutrality_ADJ:0 "Slovenian"
+ SLV_utilitarian_despot_ADJ:0 "Slovenian"
+ SLV_fascism_ADJ:0 "Slovenian"
+ SLV_nihilistic_extremism_ADJ:0 "Slovenian"
+ 
+ #Ministers
+ 
+ #Focuses
+ 
+ #National Spirits
+ 
+ #Events
+ 
+ #Descriptions

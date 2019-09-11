@@ -559,5 +559,63 @@ ideas = {
 				stability_weekly = 0.01
 			}
 		}
+
+		russian_diplomacy = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				communism_acceptance = 35
+				totalitarian_socialism_acceptance = 25
+			}
+		}
+
+		russian_hostility = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				communism_acceptance = -35
+				totalitarian_socialism_acceptance = -25
+			}
+		}
+
+		joint_exercises = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				max_planning = 0.25
+				army_attack_factor = 0.1
+			}
+		}
 	}	
 }

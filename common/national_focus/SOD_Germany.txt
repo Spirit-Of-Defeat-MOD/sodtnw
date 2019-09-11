@@ -474,7 +474,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_enemyofmyenemy } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = joint_exercises
+} 
 
  } 
 
@@ -505,7 +508,11 @@ prerequisite = { focus = GER_easterndealings }
 mutually_exclusive = { focus = GER_byothermeans } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = russian_diplomacy
+	add_opinion_modifier = { target = SOV modifier = large_increase }
+} 
 
  } 
 
@@ -1376,7 +1383,14 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_borderprovactions } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	create_wargoal = {
+		type = take_state_focus
+		target = POL
+		generator = { 85 86 762 }
+	}
+}
 
  } 
 
@@ -1443,7 +1457,11 @@ prerequisite = { focus = GER_easterndealings }
 mutually_exclusive = { focus = GER_enemyofmyenemy } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = russian_hostility
+	add_opinion_modifier = { target = SOV modifier = large_decrease }
+} 
 
  } 
 

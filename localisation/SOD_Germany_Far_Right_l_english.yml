@@ -116,6 +116,12 @@ modernized_production:0 "Modernized Production Lines"
 modernized_production_desc:0 "" #add to this later
 guiding_hand:0 "The Guiding Hand"
 guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."
+russian_diplomacy:0 "Diplomacy With The USSR"
+russian_diplomacy_desc:0 "" #addtothislater
+russian_hostility:0 "Hostility With The USSR"
+russian_hostility_desc:0 "" #addtothislater
+joint_exercises:0 "Joint Military Exercises"
+joint_exercises_desc:0 "" #addtothislater
  
 #Events
 germany.1.t:0 "Germany Introduction"

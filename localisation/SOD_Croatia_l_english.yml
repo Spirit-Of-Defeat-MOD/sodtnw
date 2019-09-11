@@ -74,12 +74,13 @@
  #should be reintegrated
 
  #Events
- croatia.1.t:0 ""
- croatia.1.d:0 ""
- croatia.1.a:0 ""
- croatia.2.t:0 "Croatia Introduction"
- croatia.2.d:0 "Established in the aftermath of the Third Balkan War, the Republic of Croatia has faced severe domestic and international tensions. Croatia was promised independence from the Kingdom of Serbs, Croats, and Slovenes in a secret pact with Italian leader Luigi Federzoni. The Croatians were promised that they would no longer be subjugated by the government in Beograd, and members of the HSS reluctantly signed the agreement. Large numbers of Croats revolted against the Yugoslav government, as Italian troops began to flood into the nation. Bulgarian forces would begin to enter Macedonia, further straining the government in Beograd. After months of brutal conflict, the Italian led coalition would proclaim victory. \n\n The Croats were given Slovenia and Bosnia as further concessions, but were denied ownership of Dalmatia – which strained ties with Italy. Furthermore, Bosnian Serbs and the ‘mountain Croats’ of Slovenia were not particularly fond of their occupation by a Greater Croatia. Unrest and tensions remain high, and these borders will almost certainly be anything but permanent. The Balkans remain a powderkeg..."
- croatia.2.a:0 "Enough with these petty ramblings..."
+ croatia.1.t:0 "Croatia Introduction"
+ croatia.1.d:0 "Established in the aftermath of the Third Balkan War, the Republic of Croatia has faced severe domestic and international tensions. Croatia was promised independence from the Kingdom of Serbs, Croats, and Slovenes in a secret pact with Italian leader Luigi Federzoni. The Croatians were promised that they would no longer be subjugated by the government in Beograd, and members of the HSS reluctantly signed the agreement. Large numbers of Croats revolted against the Yugoslav government, as Italian troops began to flood into the nation. Bulgarian forces would begin to enter Macedonia, further straining the government in Beograd. After months of brutal conflict, the Italian led coalition would proclaim victory. \n\n The Croats were given Slovenia and Bosnia as further concessions, but were denied ownership of Dalmatia – which strained ties with Italy. Furthermore, Bosnian Serbs and the ‘mountain Croats’ of Slovenia were not particularly fond of their occupation by a Greater Croatia. Unrest and tensions remain high, and these borders will almost certainly be anything but permanent. The Balkans remain a powderkeg..."
+ croatia.1.a:0 "Enough with these petty ramblings..."
+ croatia.2.t:0 "The Handschar Division"
+ croatia.2.d:0 ""
+ croatia.2.a:0 "Great."
+ handschar_division_spawn:0 "Spawns an elite division made from Bosnian Muslims in Sarajevo."
  
  croatianews.1.t:0 "Jasenovac"
  croatianews.1.d:0 "After the last croatian troops have retreated from Stara Gradiska, serb armies entered the city and found a horrifying concentration camp, called Jasenovac. Before abandoning the camp shortly after the serbian breakthrough, the Ustaše killed the remaining prisoners and torched the buildings, guardhouses, torture rooms, the 'Piccili Furnace', and all the other structures in the camp. Upon entering the camp in May, the Serbs came across only ruins, soot, smoke, and the skeletal remains of thousands of victims. 'This is just another proof of how brutal Croats are towards non-croatian civilians and jews', says the Serbian leader."

@@ -63,7 +63,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
 set_popularities = {
 	totalitarian_socialism = 5
 	communism = 31

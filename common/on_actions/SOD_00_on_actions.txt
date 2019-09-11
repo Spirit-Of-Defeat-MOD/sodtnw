@@ -8,7 +8,7 @@ on_actions = {
 				country_event = italy.1
 			}
 			CRO = {
-				country_event = croatia.2
+				country_event = croatia.1
 			}
 			SER = {
 				country_event = serbia.1

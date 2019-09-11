@@ -1,121 +1,120 @@
-﻿##### SERBIA NAME LISTS #####
+﻿##### CROATIA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-SER_DD_HISTORICAL = {
+CRO_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Razarac %d"					
 
 	unique = {											
-		"Dubrovnik" "Split" "Beograd" "Zagreb" "Ljubljana" "Kotor" "Pula" "Triglav" "Biokovo" "Durmitor" "Ucka" "Koper" "Nada" 
-		"Golesnica" "Cer" 
+		"Zagreb" "Dubrovnik" "Split" "Zadar" "Imotski" "Hvar" "Vukovar" "Osijek" "Varazdin" "Pula" "Makarska" "Metkovic" "Sarajevo" "Banja Luka" "Srebrenica"
+		"Velebit" "Gruda" "Trebinje" "Daruvar" "Knin" "Ljubljana" "Maribor"
 	}
 }
 
-### LIGHT CRUISER NAMES###
-SER_CL_HISTORICAL = {
+### LIGHT CRUICRO NAMES###
+CRO_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Laka Krstarica %d"
 
 	unique = {
-		"Dalmacija" "Sarajevo" "Brus" "Nis" "Smederovo" "Manasija" "Vrsac" "Ljubljana" "Belgrade" "Novi Sad" 
-		"Budva" "Cetinje" "Dubrovnik" "Pec" "Pizren" "Pristina" "Split" "Banja Luka" 
+		"Zagreb" "Dubrovnik" "Split" "Zadar" "Imotski" "Hvar" "Vukovar" "Osijek" "Varazdin" "Pula" "Makarska" "Metkovic" "Sarajevo" "Banja Luka" "Srebrenica"
+		"Velebit" "Gruda" "Trebinje" "Daruvar" "Knin" "Ljubljana" "Maribor"
 	}
 }
 
-### HEAVY CRUISER NAMES###
-SER_CA_HISTORICAL = {
+### HEAVY CRUICRO NAMES###
+CRO_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Teska Krstarica %d"
 
 	unique = {
-		"Belgrade" "Zagreb" "Novi Sad" "Budva" "Cetinje" "Dubrovnik" "Pec" "Pizren" "Pristina" "Sarajevo" "Split" "Skopje"  
-		"Nis" "Banja Luka" 
+		"Zagreb" "Dubrovnik" "Split" "Zadar" "Imotski" "Hvar" "Vukovar" "Osijek" "Varazdin" "Pula" "Makarska" "Metkovic" "Sarajevo" "Banja Luka" "Srebrenica"
+		"Velebit" "Gruda" "Trebinje" "Daruvar" "Knin" "Ljubljana" "Maribor"
 	}
 }
 
 
 ### BATTLESHIP NAMES ###
-SER_BB_HISTORICAL = {
+CRO_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Vojni Brod %d"		
 
 	unique = {
-		"Belgrade" "Zagreb" "Novi Sad" "Budva" "Cetinje" "Dubrovnik" "Pec" "Pizren" "Pristina" "Sarajevo" 
-		"Srbija" "Hrvatska" "Bosna" "Hercegovina" "Makedonija" "Slovenija" "Crna Gora" "Vojvodina" 
+		"Junak" "Tvrtko" "Ante"
 	}
 }
 
-### BATTLECRUISER NAMES ###
-SER_BC_HISTORICAL = {
+### BATTLECRUICRO NAMES ###
+CRO_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Vojna Krstarica %d"		
 
 	unique = {
-		"Brus" "Nis" "Srbija" "Hrvatska" "Bosna" "Hercegovina" "Makedonija" "Slovenija" "Crna Gora" "Vojvodina" 
+		"Hrvatska" "Hrvati" "Kralj Tomislav"
 	}
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-SER_CV_HISTORICAL = {
+CRO_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Nosac Aviona %d"	
 
 	unique = {
-		"Zmaj" "Smederovo" "Manasija" "Vrsac" "Ljubljana" "Brus" "Belgrade" "Zagreb" "Novi Sad" "Budva" 
+		"Sveti Ilija" "Kralj Zvonimir"
 	}
 }
 
 ### SUBMARINES ###
-SER_SS_HISTORICAL = {
+CRO_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "KB "
+	prefix = "HB "
 	fallback_name = "Podmornica %d"
 	
 	unique = {
@@ -124,15 +123,16 @@ SER_SS_HISTORICAL = {
 	}
 }
 
-### THEME: SERBIAN REGIONS ###
-SER_REGIONS = {
+
+### THEME: CROATIAN REGIONS ###
+CRO_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 
-	prefix = "KB "
+	prefix = "HB "
 	unique = {
 		"Srbija" "Hrvatska" "Bosna" "Hercegovina" "Makedonija" "Slovenija" "Crna Gora" "Vojvodina" 
 		"Dalmacija" "Slavonija" "Banat" "Bačka" "Baranja" "Dunavska" "Dravska" "Drinska" "Primorska" "Moravska" "Savska" 
@@ -140,15 +140,15 @@ SER_REGIONS = {
 	}
 }
 
-## THEME: SERBIAN CITIES ###
-SER_CITIES = {
+## THEME: CROATIAN CITIES ###
+CRO_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SER }
+	for_countries = { CRO }
 
 	type = ship
 
-	prefix = "KB "
+	prefix = "HB "
 	unique = {
 		"Belgrade" "Zagreb" "Novi Sad" "Budva" "Cetinje" "Dubrovnik" "Ljubljana" "Pec" "Pizren" "Pristina" "Sarajevo" "Split" "Skopje"  
 		"Nis" "Banja Luka" "Kotor" "Podgorica" "Smederevo" "Vukovar" "Vranje" "Bitola" "Čačak" "Gornji Milanovac" "Kavadarci" "Kolasin" 

@@ -15,6 +15,7 @@ country_event = {
 		CRO = {
 			transfer_state = 807 #Srem
 			transfer_state = 215 #Vojvodina
+			transfer_state = 838 #Kotor
 		}
 		SER = {
 			release = MNT

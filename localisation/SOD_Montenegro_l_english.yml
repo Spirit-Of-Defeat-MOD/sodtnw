@@ -48,8 +48,8 @@
  MNT_utilitarian_despot_DEF:0 "the Kingdom of Montenegro"
  MNT_fascism:0 "Independent Montenegro"
  MNT_fascism_DEF:0 "the Independent Montenegro"
- MNT_nihilistic_extremism:0 "Montenegrin Military Junta"
- MNT_nihilistic_extremism_DEF:0 "the Montenegrin Military Junta"
+ MNT_nihilistic_extremism:0 "Zeta"
+ MNT_nihilistic_extremism_DEF:0 "Zeta"
  
  MNT_totalitarian_socialism_ADJ:0 "Montenegrin"
  MNT_communism_ADJ:0 "Montenegrin"
@@ -63,7 +63,7 @@
  MNT_neutrality_ADJ:0 "Montenegrin"
  MNT_utilitarian_despot_ADJ:0 "Montenegrin"
  MNT_fascism_ADJ:0 "Montenegrin"
- MNT_nihilistic_extremism_ADJ:0 "Montenegrin"
+ MNT_nihilistic_extremism_ADJ:0 "Zetan"
  
  #Ministers
  #should be reintegrated

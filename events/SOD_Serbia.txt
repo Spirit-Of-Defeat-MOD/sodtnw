@@ -74,7 +74,7 @@ country_event = {
 				ruling_party = utilitarian_despot
 				ideology = communism
 				size = 0.5
-				states = { 105 107 764 807 }
+				states = { 105 107 764 807 833 }
 			}
 			random_other_country = {
 				limit = {
@@ -300,7 +300,7 @@ country_event = {
 				ruling_party = communism
 				ideology = utilitarian_despot
 				size = 0.5
-				states = { 45 108 831 833 }
+				states = { 45 108 831 833 838 840 }
 			}
 			state_event = { id = serbia.3 days = 2 }
 			state_event = { id = serbia.5 days = 1 }

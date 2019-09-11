@@ -13,9 +13,11 @@ country_event = {
 	option = {
 		name = sod_peace.1.a
 		CRO = {
+			transfer_state = 45 #Vojvodina
 			transfer_state = 807 #Srem
-			transfer_state = 215 #Vojvodina
 			transfer_state = 838 #Kotor
+			transfer_state = 840 #Pljevlja
+			transfer_state = 841 #Zlatibor
 		}
 		SER = {
 			release = MNT

@@ -1,5 +1,6 @@
 add_namespace = sod_peace
 
+# Serbo-croat war - Croatian victory
 country_event = {
 	id = sod_peace.1
 	title = sod_peace.1.t
@@ -10,7 +11,6 @@ country_event = {
 	hidden = yes
 
 	option = {
-		#ai_chance = { factor = 10 }
 		name = sod_peace.1.a
 		CRO = {
 			transfer_state = 807 #Srem
@@ -22,6 +22,34 @@ country_event = {
 		}
 		puppet = MNT
 		puppet = SER
-		#news_event = { id = sod_peace.5 days = 1}
+		news_event = { id = sod_peacenews.1 days = 1}
+	}
+}
+# Serbo-croat war - Serbian victory
+country_event = {
+	id = sod_peace.2
+	title = sod_peace.2.t
+	desc = sod_peace.2.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = sod_peace.2.a
+		SER = {
+			transfer_state = 104 #Bosnia
+		}
+		if = {
+			limit = {
+				country_exists = MNT
+			}
+			annex_country = {
+				target = MNT
+				transfer_troops = yes
+			}
+		}
+		puppet = CRO
+		news_event = { id = sod_peacenews.2 days = 1}
 	}
 }

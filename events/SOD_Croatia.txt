@@ -102,6 +102,7 @@ country_event = {
 		name = croatia.1.a
 	}
 }
+# Intro event
 country_event = {
 	id = croatia.2
     title = croatia.2.t

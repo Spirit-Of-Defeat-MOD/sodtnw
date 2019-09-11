@@ -1,0 +1,68 @@
+﻿l_english: 
+ #Parties
+ BOS_totalitarian_socialism_party:0 "SKBiH"
+ BOS_totalitarian_socialism_party_long:0 "Savez Komunista Bosne i Hercegovine"
+ BOS_communism_party:0 "SKBiH"
+ BOS_communism_party_long:0 "Savez Komunista Bosne i Hercegovine"
+ BOS_revolutionary_socialism_party:0 "SABiH"
+ BOS_revolutionary_socialism_party_long:0 "Savez Anarhista Bosne i Hercegovine"
+ BOS_democratic_socialism_party:0 "SKBiH"
+ BOS_democratic_socialism_party_long:0 "Savez Komunista Bosne i Hercegovine"
+ BOS_social_democracy_party:0 "HSS"
+ BOS_social_democracy_party_long:0 "Hrvatska Seljačka Stranka"
+ BOS_social_liberal_party:0 "HSS"
+ BOS_social_liberal_party_long:0 "Hrvatska Seljačka Stranka"
+ BOS_classic_liberal_party:0 "HSS"
+ BOS_classic_liberal_party_long:0 "Hrvatska Seljačka Stranka"
+ BOS_democratic_party:0 "HFSS"
+ BOS_democratic_party_long:0 " Hrvatska Federalisticka Seljačka Stranka"
+ BOS_neutrality_party:0 "HSP"
+ BOS_neutrality_party_long:0 "Hrvatska Stranka Prava"
+ BOS_utilitarian_despot_party:0 "HSP"
+ BOS_utilitarian_despot_party_long:0 "Hrvatska Stranka Prava"
+ BOS_fascism_party:0 "UHRO"
+ BOS_fascism_party_long:0 "Ustaša - Hrvatska Revolucionarna Organizacija"
+ BOS_nihilistic_extremism_party:0 "UHRO"
+ BOS_nihilistic_extremism_party_long:0 "Ustaša - Hrvatska Revolucionarna Organizacija"
+
+ #Country Names
+ BOS_totalitarian_socialism:0 "Bosnian People's Republic"
+ BOS_totalitarian_socialism_DEF:0 "the Bosnian People's Republic"
+ BOS_communism:0 "Bosnian People's Republic"
+ BOS_communism_DEF:0 "the Bosnian People's Republic"
+ BOS_democratic:0 "Republic of Bosnia"
+ BOS_democratic_DEF:0 "the Republic of Bosnia"
+ BOS_social_liberal:0 "Republic of Bosnia"
+ BOS_social_liberal_DEF:0 "the Republic of Bosnia"
+ BOS_classic_liberal:0 "Republic of Bosnia"
+ BOS_classic_liberal_DEF:0 "the Republic of Bosnia"
+ BOS_neutrality:0 "Bosnian Kingdom"
+ BOS_neutrality_DEF:0 "the Bosnian Kingdom"
+ BOS_utilitarian_despot:0 "Bosnian Condominium"
+ BOS_utilitarian_despot_DEF:0 "the Bosnian Condominium"
+ BOS_fascism:0 "Independent State of Bosnia"
+ BOS_fascism_DEF:0 "the Independent State of Bosnia"
+ BOS_nihilistic_extremism:0 "Bosnian Jihadist State"
+ BOS_nihilistic_extremism_DEF:0 "the Bosnian Jihadist State"
+ 
+ BOS_totalitarian_socialism_ADJ:0 "Bosnian"
+ BOS_communism_ADJ:0 "Bosnian"
+ BOS_revolutionary_socialism_ADJ:0 "Bosnian"
+ BOS_democratic_socialism_ADJ:0 "Bosnian"
+ BOS_social_democracy_ADJ:0 "Bosnian"
+ BOS_social_liberal_ADJ:0 "Bosnian"
+ BOS_classic_liberal_ADJ:0 "Bosnian"
+ BOS_democratic_ADJ:0 "Bosnian"
+ BOS_neutrality_ADJ:0 "Bosnian"
+ BOS_utilitarian_despot_ADJ:0 "Bosnian"
+ BOS_fascism_ADJ:0 "Bosnian"
+ BOS_nihilistic_extremism_ADJ:0 "Bosnian"
+ 
+ #Ministers
+ 
+ #Focuses
+ #should be reintegrated
+
+ #Events
+
+ #Descriptions

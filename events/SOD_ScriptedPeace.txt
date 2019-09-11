@@ -39,6 +39,7 @@ country_event = {
 		name = sod_peace.2.a
 		SER = {
 			transfer_state = 104 #Bosnia
+			transfer_state = 839 #Herzegovina
 		}
 		if = {
 			limit = {

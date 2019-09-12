@@ -1418,6 +1418,9 @@ prerequisite = { focus = GER_jointmilitaryexercises }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	POL = { country_event = germany.28 }
+}
 
  } 
 

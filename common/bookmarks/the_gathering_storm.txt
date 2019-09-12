@@ -151,9 +151,20 @@ bookmarks = {
 
 			}
 		}
+		"SER"={
+			minor = yes
+			history = "SER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
 		"CRO"={
 			minor = yes
-			history = "CROATIA_GATHERING_STORM_DESC"
+			history = "CRO_GATHERING_STORM_DESC"
 			ideology = classic_liberal
 			ideas = {
 			

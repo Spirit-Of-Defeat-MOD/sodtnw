@@ -1,4 +1,4 @@
-add_namespace = serbia
+﻿add_namespace = serbia
 
 # Intro event
 country_event = {

@@ -1,4 +1,4 @@
-add_namespace = croatianews
+﻿add_namespace = croatianews
 
 # Serbs storm Jasenovac
 news_event = {

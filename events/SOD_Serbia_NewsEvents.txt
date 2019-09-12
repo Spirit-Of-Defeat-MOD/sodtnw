@@ -1,4 +1,4 @@
-add_namespace = serbianews
+﻿add_namespace = serbianews
 
 # Serbian Civil War
 news_event = {

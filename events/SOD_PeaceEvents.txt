@@ -1,4 +1,4 @@
-add_namespace = sod_peacenews
+﻿add_namespace = sod_peacenews
 
 # Serbo-croat war - Croatian victory
 news_event = {

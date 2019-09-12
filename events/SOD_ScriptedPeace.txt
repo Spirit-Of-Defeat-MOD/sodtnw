@@ -1,4 +1,4 @@
-add_namespace = sod_peace
+﻿add_namespace = sod_peace
 
 # Serbo-croat war - Croatian victory
 country_event = {

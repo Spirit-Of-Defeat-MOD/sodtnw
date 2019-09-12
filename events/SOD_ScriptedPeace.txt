@@ -22,8 +22,37 @@ country_event = {
 		SER = {
 			release = MNT
 		}
+		if = {
+			limit = {
+				AND = {
+					SER = {
+						owns_state = 106
+					}
+					NOT = {
+						country_exists = MAC
+					}
+				}
+			}
+			SER = {
+				release = MAC
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					MAC = {
+						is_puppet_of = SER
+					}
+					country_exists = MAC
+				}
+			}
+			SER = {
+				release = MAC
+			}
+		}
 		puppet = MNT
 		puppet = SER
+		puppet = MAC
 		news_event = { id = sod_peacenews.1 days = 1}
 	}
 }
@@ -40,7 +69,10 @@ country_event = {
 	option = {
 		name = sod_peace.2.a
 		SER = {
+			transfer_state = 103 #Dalmatia
 			transfer_state = 104 #Bosnia
+			transfer_state = 163 #Zadar
+			transfer_state = 832 #Eastern Slavonia
 			transfer_state = 839 #Herzegovina
 		}
 		if = {

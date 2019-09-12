@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+IRQ_fascism_party:0 "GC"
+IRQ_fascism_party_long:0 "Golden Circle"
+IRQ_communism_party:0 "ICP"
+IRQ_communism_party_long:0 "Al-Ḥizb ash-Shiyūʿī al-ʿIrāqī"
+IRQ_democratic_party:0 ""
+IRQ_democratic_party_long:0 ""
+IRQ_utilitarian_despot_party:0 "AH"
+IRQ_utilitarian_despot_party_long:0 "Al-Hāshimīyūn"
+IRQ_neutrality_party:0 "HMCS"
+IRQ_neutrality_party_long:0 "His Majesty's Colonial Service" #Hizb al-Ikha al-Watani (for anti-colonial regime)
+IRQ_social_democracy_party:0 ""
+IRQ_social_democracy_party_long:0 ""
+IRQ_social_liberal_party:0 ""
+IRQ_social_liberal_party_long:0 ""
+IRQ_classic_liberal_party:0 ""
+IRQ_classic_liberal_party_long:0 ""
+IRQ_totalitarian_socialism_party:0 ""
+IRQ_totalitarian_socialism_party_long:0 ""
+IRQ_revolutionary_socialism_party:0 ""
+IRQ_revolutionary_socialism_party_long:0 ""
+IRQ_democratic_socialism_party:0 "AG"
+IRQ_democratic_socialism_party_long:0 "Ahali Group"
+IRQ_nihilistic_extremism_party:0 ""
+IRQ_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ IRQ_fascism:0 "British Mesopotamia"
+ IRQ_fascism_DEF:0 "British Mesopotamia"
+ IRQ_nihilistic_extremism:0 "British Mesopotamia"
+ IRQ_nihilistic_extremism_DEF:0 "British Mesopotamia"
+ IRQ_totalitarian_socialism:0 "British Mesopotamia"
+ IRQ_totalitarian_socialism_DEF:0 "British Mesopotamia"
+ IRQ_utilitarian_despot:0 "Hashemite Kingdom of Iraq"
+ IRQ_utilitarian_despot_DEF:0 "the Hashemite Kingdom of Iraq"
+ IRQ_democratic:0 "British Mesopotamia"
+ IRQ_democratic_DEF:0 "British Mesopotamia"
+ IRQ_neutrality:1 "British Mesopotamia"
+ IRQ_neutrality_DEF:1 "British Mesopotamia"
+ IRQ_democratic_socialism:0 "British Mesopotamia"
+ IRQ_democratic_socialism_DEF:0 "British Mesopotamia"
+ IRQ_revolutionary_socialism:0 "British Mesopotamia"
+ IRQ_revolutionary_socialism_DEF:0 "British Mesopotamia"
+ IRQ_social_democracy:0 "British Mesopotamia"
+ IRQ_social_democracy_DEF:0 "British Mesopotamia"
+ IRQ_social_liberal:0 "British Mesopotamia"
+ IRQ_social_liberal_DEF:0 "British Mesopotamia"
+ IRQ_classic_liberal:0 "British Mesopotamia"
+ IRQ_classic_liberal_DEF:0 "British Mesopotamia"
+ IRQ_communism:0 "British Mesopotamia"
+ IRQ_communism_DEF:0 "British Mesopotamia"
+ 
+ IRQ_fascism_ADJ:0 "Mesopotamian"
+ IRQ_nihilistic_extremism_ADJ:0 "Mesopotamian"
+ IRQ_totalitarian_socialism_ADJ:0 "Mesopotamian"
+ IRQ_democratic_ADJ:0 "Mesopotamian"
+ IRQ_utilitarian_despot_ADJ:0 "Mesopotamian"
+ IRQ_democratic_socialism_ADJ:0 "Mesopotamian"
+ IRQ_neutrality_ADJ:0 "Mesopotamian"
+ IRQ_revolutionary_socialism_ADJ:0 "Mesopotamian"
+ IRQ_social_democracy_ADJ:0 "Mesopotamian"
+ IRQ_social_liberal_ADJ:0 "Mesopotamian"
+ IRQ_classic_liberal_ADJ:0 "Mesopotamian"
+ IRQ_communism_ADJ:0 "Mesopotamian"
+
+#Ministers
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

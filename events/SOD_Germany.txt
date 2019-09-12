@@ -673,6 +673,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = germany.23.a
@@ -762,6 +763,9 @@ country_event = {
 	#deport them
 	option = {
 		name = germany.27.a
+		ai_chance = { 
+			factor = 55
+		}
 		add_manpower = -285000
 		add_stability = 0.1
 		add_political_power = 50
@@ -771,8 +775,187 @@ country_event = {
 	#keep them
 	option = {
 		name = germany.27.b
+		ai_chance = { 
+			factor = 45
+		}
 		add_stability = -0.1
 		add_political_power = -50
 	
     }
+}
+
+# Border Provocation - Poland
+country_event = {
+	id = germany.28
+	title = germany.28.t
+	desc = germany.28.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#stand up to Germany
+	option = {
+		name = germany.28.a
+		ai_chance = { 
+			factor = 80
+		}
+		POL = { declare_war_on = { type = puppet_wargoal_focus
+			target = GER} }
+		add_war_support = 0.1
+		add_stability = -0.03
+
+		hidden_effect = {
+			GER = {country_event = { days = 1 id = germany.29 }}
+		}
+	
+	}
+	
+	#back down
+	option = {
+		name = germany.28.b
+		ai_chance = { 
+			factor = 20
+		}
+		add_stability = -0.1
+		add_war_support = -0.15
+		add_political_power = -150
+		hidden_effect = {
+			GER = {country_event = { days = 1 id = germany.32 }}
+		}
+	
+    }
+}
+
+# Call USSR To Arms
+country_event = {
+	id = germany.29
+	title = germany.29.t
+	desc = germany.29.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Call USSR To Arms
+	option = {
+		name = germany.29.a
+		ai_chance = { 
+			factor = 75
+		}
+		SOV = {country_event = { days = 1 id = germany.30 }}
+	
+	}
+	
+	#Ignore Them
+	option = {
+		name = germany.29.b
+		ai_chance = { 
+			factor = 25
+		}
+		add_stability = -0.1
+		add_political_power = -50
+		SOV = {country_event = { days = 1 id = germany.31 }}
+    }
+}
+
+# German Call To Arms
+country_event = {
+	id = germany.30
+	title = germany.30.t
+	desc = germany.30.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#To War!
+	option = {
+		name = germany.30.a
+		ai_chance = { 
+			factor = 90
+		}
+		SOV = {country_event = { days = 1 id = germany.33 }}
+		SOV = { declare_war_on = { type = annex_everything    target = POL } }
+	
+	}
+	
+	#Oh HELL Nah...
+	option = {
+		name = germany.30.b
+		ai_chance = { 
+			factor = 10
+		}
+		add_stability = -0.1
+		add_political_power = -50
+		SOV = {country_event = { days = 1 id = germany.34 }}
+    }
+}
+
+# Germans Ignore Us
+country_event = {
+	id = germany.31
+	title = germany.31.t
+	desc = germany.31.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#OOF
+	option = {
+		name = germany.31.a
+	
+	}
+}
+
+# Polish Back Down
+country_event = {
+	id = germany.32
+	title = germany.32.t
+	desc = germany.32.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Demand The Danzig Corridor
+	option = {
+		name = germany.32.a
+	
+	}
+}
+
+# Soviets Join The War
+country_event = {
+	id = germany.33
+	title = germany.33.t
+	desc = germany.33.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#WAR
+	option = {
+		name = germany.33.a
+	
+	}
+}
+
+# Soviets Decline
+country_event = {
+	id = germany.34
+	title = germany.34.t
+	desc = germany.34.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#NO WAR
+	option = {
+		name = germany.34.a
+	
+	}
 }

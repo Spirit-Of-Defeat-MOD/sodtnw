@@ -120,4 +120,19 @@ spriteTypes = {
 		name = "GFX_idea_GER_Hans_von_Seeckt_hog"
 		texturefile = "gfx/ministers/GER/Hans_von_Seeckt.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_russian_diplomacy"
+		texturefile = "gfx/interface/ideas/GER/ussr_coop.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_russian_hostility"
+		texturefile = "gfx/interface/ideas/GER/ussr_rival.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_joint_exercises"
+		texturefile = "gfx/interface/ideas/GER/joint_exercises.tga"
+	}
 }

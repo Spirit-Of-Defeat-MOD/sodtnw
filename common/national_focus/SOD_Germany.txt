@@ -105,7 +105,7 @@ ai_will_do = {
 
  } 
 
-#Focus for Großdeutschland
+#Focus for Grossdeutschland
 focus = { 
 id = GER_grodeutschland
 icon = GFX_focus_usa_focus_on_europe
@@ -492,7 +492,51 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_enemyofmyenemy } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	10 = {
+		add_claim_by = SOV
+	}
+	87 = {
+		add_claim_by = SOV
+	}
+	88 = {
+		add_claim_by = SOV
+	}
+	89 = {
+		add_claim_by = SOV
+	}
+	90 = {
+		add_claim_by = SOV
+	}
+	91 = {
+		add_claim_by = SOV
+	}
+	92 = {
+		add_claim_by = SOV
+	}
+	93 = {
+		add_claim_by = SOV
+	}
+	94 = {
+		add_claim_by = SOV
+	}
+	95 = {
+		add_claim_by = SOV
+	}
+	96 = {
+		add_claim_by = SOV
+	}
+	97 = {
+		add_claim_by = SOV
+	}
+	98 = {
+		add_claim_by = SOV
+	}
+	784 = {
+		add_claim_by = SOV
+	}
+}
 
  } 
 
@@ -512,6 +556,11 @@ ai_will_do = {
 completion_reward = {
 	add_ideas = russian_diplomacy
 	add_opinion_modifier = { target = SOV modifier = large_increase }
+	diplomatic_relation = {
+		country = SOV
+		relation = non_aggression_pact
+		active = yes
+	}
 } 
 
  } 
@@ -1390,6 +1439,7 @@ completion_reward = {
 		target = POL
 		generator = { 85 86 762 }
 	}
+	SOV = { create_wargoal = { type = annex_everything target = POL } }
 }
 
  } 
@@ -1880,7 +1930,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_pangermanistrhetoric } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	SOV = { country_event = germany.27 days = 1 }
+} 
 
  } 
 

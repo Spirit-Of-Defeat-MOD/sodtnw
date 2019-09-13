@@ -2,22 +2,24 @@
 
 GER_anti_komintern_category = {
 
+	#FINLAND INVITATION
 	GER_ak_finland = {
 
-		allowed = { always = no }
 		fire_only_once = yes
 
 		icon = generic_political_actions
 
-		visible = {
-			has_manpower > 0
-	   }
 		available = {
 			NOT = { has_government = totalitarian_socialism }
 			NOT = { has_government = communism }
             NOT = { has_government = revolutionary_socialism }
-            NOT = { has_government = democratic_socialism }
+			NOT = { has_government = democratic_socialism }
+			has_country_flag = GER_antikom
 		}
+
+		visible = {
+			has_country_flag = GER_antikom
+	   }
 
 		cost = 15
 
@@ -25,6 +27,37 @@ GER_anti_komintern_category = {
 			FIN = {
 				country_event = {
 					id = antikom.1
+					days = 0
+				}
+			}
+		}
+	}
+
+	#ROMANIA INVITATION
+	GER_ak_romania = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			NOT = { has_government = totalitarian_socialism }
+			NOT = { has_government = communism }
+            NOT = { has_government = revolutionary_socialism }
+			NOT = { has_government = democratic_socialism }
+			has_country_flag = GER_antikom
+		}
+
+		visible = {
+			has_country_flag = GER_antikom
+	   }
+
+		cost = 15
+
+        complete_effect = {
+			ROM = {
+				country_event = {
+					id = antikom.4
 					days = 0
 				}
 			}

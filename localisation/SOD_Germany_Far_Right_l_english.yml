@@ -252,15 +252,33 @@ antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"
 antikom.1.b:0 "This Alliance Is Of No Use To Us..."
+antikom.2.t:0 "Finland Joins The Antikomintern Pact"
+antikom.2.d:0 ""
+antikom.2.a:0 "Welcome Finland!"
+antikom.3.t:0 "Finland Declines To Join The Antikomintern Pact"
+antikom.3.d:0 ""
+antikom.3.a:0 "They Will Regret That Choice..."
+antikom.4.t:0 "Romania Invited To The Anti-Komintern Pact"
+antikom.4.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
+antikom.4.a:0 "We Must Protect Our Selves From The Reds"
+antikom.4.b:0 "This Alliance Is Of No Use To Us..."
+antikom.5.t:0 "Romania Joins The Antikomintern Pact"
+antikom.5.d:0 ""
+antikom.5.a:0 "Welcome Romania!"
+antikom.6.t:0 "Romania Declines To Join The Antikomintern Pact"
+antikom.6.d:0 ""
+antikom.6.a:0 "They Will Regret That Choice..."
 
 #Flags
 GER_economic_investment:0 "Economic Investments"
 GER_negotiations_opened:0 "Opened Dialogue With The Unions"
 GER_negotiations_successful:0 "Union Negotiations Successful"
+GER_antikom:0 "Antikomintern Pact Formed"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"
 GER_ak_finland:0 "Invite Finland To The Anti-Komintern Pact"
+GER_ak_romania:0 "Invite Romania To The Anti-Komintern Pact"
 
 #Tool-Tips
 1_GER_tt:0 "There may be consequences for backing out of our negotiations and commitments."

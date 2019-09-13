@@ -981,6 +981,7 @@ country_event = {
 
 
 #Anti-Komintern
+
 # Finland Offer
 country_event = {
 	id = antikom.1
@@ -997,6 +998,8 @@ country_event = {
 			factor = 90
 		}
 		GER = { add_to_faction = FIN }
+		GER = {country_event = { days = 1 id = antikom.2 }}
+		add_opinion_modifier = { target = GER modifier = large_increase }
 	
 	}
 	
@@ -1005,7 +1008,111 @@ country_event = {
 		ai_chance = { 
 			factor = 10
 		}
+		GER = {country_event = { days = 1 id = antikom.3 }}
+		add_opinion_modifier = { target = GER modifier = large_decrease }
+    }
+}
+
+# Finland Joins
+country_event = {
+	id = antikom.2
+	title = antikom.2.t
+	desc = antikom.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.2.a
+		add_opinion_modifier = { target = FIN modifier = large_increase }
+	
+	}
+}
+
+# Finland Declines
+country_event = {
+	id = antikom.3
+	title = antikom.3.t
+	desc = antikom.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.3.a
+		add_opinion_modifier = { target = FIN modifier = large_decrease }
+	
+	}
+}
+
+# Romania Offer
+country_event = {
+	id = antikom.4
+	title = antikom.4.t
+	desc = antikom.4.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = antikom.4.a
+		ai_chance = { 
+			factor = 65
+		}
+		GER = { add_to_faction = FIN }
+		GER = {country_event = { days = 1 id = antikom.5 }}
+		add_opinion_modifier = { target = GER modifier = large_increase }
+	
+	}
+	
+	option = {
+		name = antikom.4.a
+		ai_chance = { 
+			factor = 35
+		}
+		GER = {country_event = { days = 1 id = antikom.6 }}
+		add_opinion_modifier = { target = GER modifier = large_decrease }
 		
     }
 }
-#GER = { create_faction = "Anti-Komintern Pact" }
+
+# Romania Joins
+country_event = {
+	id = antikom.5
+	title = antikom.5.t
+	desc = antikom.5.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.5.a
+		add_opinion_modifier = { target = ROM modifier = large_increase }
+	
+	}
+}
+
+# Romania Declines
+country_event = {
+	id = antikom.6
+	title = antikom.6.t
+	desc = antikom.6.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.6.a
+		add_opinion_modifier = { target = ROM modifier = large_decrease }
+	
+	}
+}

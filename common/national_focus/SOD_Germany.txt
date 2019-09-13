@@ -1461,7 +1461,7 @@ ai_will_do = {
  }
 completion_reward = {
 	GER = { country_event = germany.35 }
-	activate_decision = GER_ak_finland
+	set_country_flag = GER_antikom
 
 }
 

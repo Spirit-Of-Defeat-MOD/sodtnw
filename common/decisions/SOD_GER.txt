@@ -1,0 +1,30 @@
+#Germany Decisions By SneakierTech
+
+GER_anti_komintern_category = {
+
+	GER_ak_finland = {
+
+		allowed = { always = no }
+
+		icon = generic_political_actions
+
+		available = {
+			NOT = { has_government = totalitarian_socialism }
+			NOT = { has_government = communism }
+            NOT = { has_government = revolutionary_socialism }
+            NOT = { has_government = democratic_socialism }
+			has_political_power > 0
+		}
+
+		cost = 15
+
+        complete_effect = {
+			FIN = {
+				country_event = {
+					id = antikom.1
+					days = 0
+				}
+			}
+		}
+	}
+}

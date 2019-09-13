@@ -1,11 +1,7 @@
-#################
-#### GERMANY ####
-#################
-
 GER_anti_komintern_category = {
 	icon = generic_political_actions
 
 	allowed = {
-		original_tag = GER
+		tag = GER
 	}
 }

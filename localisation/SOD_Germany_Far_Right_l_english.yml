@@ -245,9 +245,9 @@ germany.33.a:0 "Poland Shall Be Erased From The Maps!"
 germany.34.t:0 "Soviets Decline Our Offer"
 germany.34.d:0 "Despite our prior agreements, the Soviets seem no longer interested in cooperating with us against Poland. It seems that they may have plans of their own... Regardless, we will easily defeat the Polish on our own."
 germany.34.a:0 "We Didn't Need Them Anyway..."
-germany.35.t:0 ""
+germany.35.t:0 "The Anti-Komintern Pact"
 germany.35.d:0 "After assessing the concerns of right-wing officers within the Reichswehr, Hans von Seeckt has called for the termination of all plans to align Germany with the USSR. Kurt von Schleicher, a highly respected general, ultimately convinced Seeckt of the true dangers of the Red Menace to the East. In lieu of previous plans, an Anti-Komintern Pact has been drafted. The Pact will align us closer with Soviet Russia's enemies... but such is fate! "
-germany.35.a:0 "Form The Anti-Komintern Pact"
+germany.35.a:0 "Better Dead Than Red!"
 antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"
@@ -259,6 +259,7 @@ GER_negotiations_opened:0 "Opened Dialogue With The Unions"
 GER_negotiations_successful:0 "Union Negotiations Successful"
 
 #Decisions
+GER_anti_komintern_category:0 "The Anti-Komintern Pact"
 GER_ak_finland:0 "Invite Finland To The Anti-Komintern Pact"
 
 #Tool-Tips

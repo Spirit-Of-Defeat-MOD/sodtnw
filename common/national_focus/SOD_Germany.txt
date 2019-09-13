@@ -1458,7 +1458,12 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_thedanziguprising } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	GER = { country_event = germany.35 }
+	activate_decision = GER_ak_finland
+
+}
 
  } 
 

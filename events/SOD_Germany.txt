@@ -974,6 +974,7 @@ country_event = {
 	#Form It!
 	option = {
 		name = germany.35.a
+		GER = { create_faction = "Anti-Komintern Pact" }
 	
 	}
 }
@@ -992,12 +993,18 @@ country_event = {
 	
 	option = {
 		name = antikom.1.a
+		ai_chance = { 
+			factor = 90
+		}
 		GER = { add_to_faction = FIN }
 	
 	}
 	
 	option = {
 		name = antikom.1.a
+		ai_chance = { 
+			factor = 10
+		}
 		
     }
 }

@@ -25,4 +25,22 @@ spriteTypes = {
 		texturefile = "gfx/parties/GER/dvp.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_grw"
+		texturefile = "gfx/parties/GER/grw.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ddp"
+		texturefile = "gfx/parties/GER/ddp.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_dnvp"
+		texturefile = "gfx/parties/GER/dnvp.dds"
+		legacy_lazy_load = no
+	}
 }

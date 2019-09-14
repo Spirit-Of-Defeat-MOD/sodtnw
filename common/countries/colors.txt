@@ -537,7 +537,6 @@ AOF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
 }
-
 HEJ = {
 	color = rgb { 140 113 82 }
 	color_ui = rgb { 140 113 82 }
@@ -557,4 +556,8 @@ RHI = {
 SAR = {
 	color = rgb { 37 67 134 }
 	color_ui = rgb { 37 67 134 }
+}
+ITK = {
+	color = rgb { 35 88 39 }
+	color_ui = rgb { 35 88 39 }
 }

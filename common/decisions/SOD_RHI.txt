@@ -7,5 +7,41 @@ organization_consul = {
 #			}
 		}
 	}
+	
+	anti_terrorism_propoganda = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	house_raids = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	crack_down_on_nationalism = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	patrol_colonge = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
 }
 	

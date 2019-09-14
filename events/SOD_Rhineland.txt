@@ -73,6 +73,7 @@ country_event = {
 	
 	option = {
 		name = rhine_political.2.a
+		add_political_power = 25
 	
     }
 

@@ -307,6 +307,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Wilhelm Keitel"
+	picture = "Portrait_Germany_Wilhelm_Keitel.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Paul Hausser"
 	picture = "Portrait_Germany_Paul_Hausser.dds"
 	traits = { }

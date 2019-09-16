@@ -48,7 +48,7 @@ id = GER_warwithfrance
 icon = GFX_focus_attack_france
 x = 42
 y = 9
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_demandrhenishplebiscite } 
 completion_reward = {
@@ -69,7 +69,7 @@ id = GER_warwiththenetherlands
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 38
 y = 10
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
@@ -90,7 +90,7 @@ id = GER_warwithbelgium
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 40
 y = 10
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance }
 completion_reward = {
@@ -469,7 +469,7 @@ id = GER_jointmilitaryexercises
 icon = GFX_focus_generic_little_entente
 x = 25
 y = 3
-cost = 10
+cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_enemyofmyenemy } 
 ai_will_do = { 
@@ -487,7 +487,7 @@ id = GER_the1914frontier
 icon = GFX_focus_generic_provoke_border_clashes
 x = 23
 y = 3
-cost = 10
+cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_enemyofmyenemy } 
 ai_will_do = { 
@@ -546,7 +546,7 @@ id = GER_enemyofmyenemy
 icon = GFX_focus_chi_mission_to_the_soviet_union
 x = 24
 y = 2
-cost = 10
+cost = 3
 available_if_capitulated = yes 
 prerequisite = { focus = GER_easterndealings } 
 mutually_exclusive = { focus = GER_byothermeans } 
@@ -1411,7 +1411,7 @@ id = GER_borderprovactions
 icon = GFX_goal_generic_political_pressure
 x = 24
 y = 4
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_the1914frontier } 
 prerequisite = { focus = GER_jointmilitaryexercises } 
@@ -1430,7 +1430,7 @@ id = GER_partitionpoland
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 24
 y = 5
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_borderprovactions } 
 ai_will_do = { 
@@ -1453,7 +1453,7 @@ id = GER_antikominternpakt
 icon = GFX_goal_anti_comintern_pact
 x = 30
 y = 6
-cost = 10
+cost = 7
 available_if_capitulated = yes 
 prerequisite = { focus = GER_thedanziguprising } 
 ai_will_do = { 
@@ -1473,7 +1473,7 @@ id = GER_formalizethesovietalliance
 icon = GFX_focus_prc_agrarian_socialism
 x = 22
 y = 6
-cost = 10
+cost = 7
 available_if_capitulated = yes 
 prerequisite = { focus = GER_partitionpoland } 
 ai_will_do = { 
@@ -1493,7 +1493,7 @@ id = GER_stagetheincident
 icon = GFX_goal_generic_small_arms
 x = 28
 y = 4
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_agitateukrainianseparatists } 
 prerequisite = { focus = GER_agitatelithuanianseparatists } 
@@ -1509,7 +1509,7 @@ id = GER_byothermeans
 icon = GFX_goal_generic_intelligence_exchange
 x = 28
 y = 2
-cost = 10
+cost = 3
 available_if_capitulated = yes 
 prerequisite = { focus = GER_easterndealings } 
 mutually_exclusive = { focus = GER_enemyofmyenemy } 
@@ -1529,7 +1529,7 @@ id = GER_agitateukrainianseparatists
 icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 x = 27
 y = 3
-cost = 10
+cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_byothermeans } 
 ai_will_do = { 
@@ -1544,7 +1544,7 @@ id = GER_agitatelithuanianseparatists
 icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 x = 29
 y = 3
-cost = 10
+cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_byothermeans } 
 ai_will_do = { 
@@ -1559,7 +1559,7 @@ id = GER_thedanziguprising
 icon = GFX_goal_generic_position_armies
 x = 28
 y = 5
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_stagetheincident } 
 ai_will_do = { 
@@ -2029,7 +2029,7 @@ id = GER_warwithdenmark
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 42
 y = 10
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
@@ -2081,7 +2081,7 @@ id = GER_warwithczechoslovakia
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 44
 y = 10
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
@@ -2102,7 +2102,7 @@ id = GER_warwithswitzerland
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 46
 y = 10
-cost = 10
+cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
@@ -2280,6 +2280,12 @@ prerequisite = { focus = GER_unrestrictedsubmarinewarfare }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = USA
+	}
+}
 
  } 
 
@@ -2313,7 +2319,13 @@ prerequisite = { focus = GER_backthekurdishrevolts }
 mutually_exclusive = { focus = GER_anunlikelyalliance } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+ completion_reward = {
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = ENG
+	}
+} 
 
  } 
 

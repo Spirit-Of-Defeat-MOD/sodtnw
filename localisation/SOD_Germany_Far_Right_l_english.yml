@@ -28,7 +28,8 @@ GER_nihilistic_extremism_party_long:0 "Organisation Consul \n§g A radical milit
 
 #Leaders
 POLITICS_VON_SCHLEICHER_DESC:0 "A well respected figure within the Reichswehr, Kurt von Schleicher despised the republican government and sought to instate a nationalistic dictatorship - a stance embraced by most of the other Reichswehr officers and generals. With Hans von Seeckt's November Putsch, Schleicher's desire to see the republic crumble was granted. Nonetheless, Schleicher has become disillusioned with the 'Bolshevization' of Seeckt's regime. With Seeckt's age becoming apparent, Schleicher has come to recognize that an opportunity to steer Germany down a different path is soon to be opening. Schleicher is an opportunist and a staunch nationalist who will do whatever is necessary to restore Germany's greatness."
-POLITICS_VON_SEECKT_DESC:0 "In the midst of chaos, Germany needed a strong leader to rise and save the nation from collapse. Hans von Seeckt aligned himself with the Bavarian triumvirate (Gustav Ritter von Kahr, Hans Ritter von Seisser, and Otto von Lossow) to crush the Hitler-Ludendorff Putsch and restore order. With the feeble republic crumbling apart, Seeckt recognized that this would be the only opportunity to seize power and restructure Germany into a nation that could one-day reclaim its rightful lands. The Reichswehr occupied the Reichstag and declared the dissolution of the Weimar Republic. Hans von Seeckt single-handedly reformed the Reichswehr into a capable fighting force - in spite of the harsh restrictions imposed by the French and British. He strengthened ties between Germany and the Soviet Union and has vastly improved Germany's military readiness. His military expertise is unquestioned within the Reichswehr, although his fondness towards the Bolsheviks has made more reactionary generals uneasy."
+POLITICS_VON_SEECKT_DESC:0 "In the midst of chaos, Germany needed a strong leader to rise and save the nation from collapse. Hans von Seeckt aligned himself with the Bavarian triumvirate (Gustav Ritter von Kahr, Hans Ritter von Seisser, and Otto von Lossow) to crush the Hitler-Ludendorff Putsch and restore order. With the feeble republic crumbling apart, Seeckt recognized that this would be the only opportunity to seize power and restructure Germany into a nation that could one-day reclaim its rightful lands. The Reichswehr occupied the Reichstag and declared the dissolution of the Weimar Republic. Under his rule, the German Reich would undergo vast changes. Hans von Seeckt single-handedly reformed the Reichswehr into a capable fighting force - in spite of the harsh restrictions imposed by the French and British. He strengthened ties between Germany and the Soviet Union and has vastly improved Germany's military readiness. His military expertise is unquestioned within the Reichswehr, although his fondness towards the Bolsheviks has made more reactionary generals uneasy."
+POLITICS_GOTTFRIED_FEDER_DESC:0 "Vocal in his opposition to Seeckt's 'capitulation towards the Bolsheviks', Gottfried Feder and the DAP have become the face of the anti-communist far-right in Germany."
 
 #Country Names
  GER_fascism:0 "German Reich"
@@ -111,9 +112,9 @@ army_purge_desc:0 "In response to subversion and sabotage from within the armed 
 job_training:0 "Job Training Initiatives"
 job_training_desc:0 "Our focus must be directed towards getting the hundreds of thousands of idle Germans back into the workforce. These people must be provided the skills and tools to provide for themselves, and more importantly to provide for their nation. Many of these people could be recruited into paramilitary roles that will evenutally be coalesced into the Reichswehr once we publicly denounce the Treaty of Versailles."
 public_works:0 "Public Works"
-public_works_desc:0 "" #add to this later
+public_works_desc:0 "Public works programs have been enacted by the government to alleviate unemployment and to provide improvements to Germany's infrastructure. These new public workers will ensure that our roads, bridges, and railways are well-maintained and suffieciently capable of aiding in the defense of the Fatherland."
 modernized_production:0 "Modernized Production Lines"
-modernized_production_desc:0 "" #add to this later
+modernized_production_desc:0 "New advancements in production line layouts and equipment have the potential to greatly improve factory output. We are in the process of retooling factories to modernize the production lines."
 guiding_hand:0 "The Guiding Hand"
 guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."
 russian_diplomacy:0 "Diplomacy With The USSR"
@@ -121,7 +122,7 @@ russian_diplomacy_desc:0 "" #addtothislater
 russian_hostility:0 "Hostility With The USSR"
 russian_hostility_desc:0 "" #addtothislater
 joint_exercises:0 "Joint Military Exercises"
-joint_exercises_desc:0 "" #addtothislater
+joint_exercises_desc:0 "Joint military exercises with the Union of Soviet Socialist Republics has afforded the Reichswehr an opportunity to engage in live fire testing, strategic positioning, and simulated warfare exercises. Additionally, collaboration with Soviet generals has offered us a perspective of contemporary grand strategy doctrine. These exercises will be crucial to our future military successes."
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -212,7 +213,7 @@ germany.24.d:0 "The Germans have sent a delegation of diplomats to negotiate the
 germany.24.a:0 "Form The Alliance"
 germany.24.b:0 "Reject The Proposal"
 germany.25.t:0 "Russo-German Alliance Rejected"
-germany.25.d:0 ""
+germany.25.d:0 "The Soviet delegation has refused to compromise during our negotiation, and any attempt at forming an alliance has seemingly been lost. We may have to recoup our losses and look elsewhere for allies."
 germany.25.a:0 "Damn Those Russians!"
 germany.26.t:0 "The Continental Bloc"
 germany.26.d:0 "Today diplomats from the Union of Soviet Socialist Republics and the German Reich have come together to sign the most powerful document of the century. The final setbacks in the negotiation process have been overcome; the Soviet Union and Germany have now signed and ratified the Continental Bloc Treaty. Provisions of the treaty call for the mutual military aid in the event of war, the exchange of technology between nations, joint military exercises, and the delineation of 'zones of influence' in the event that the borders of Europe should change."
@@ -252,20 +253,20 @@ antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"
 antikom.1.b:0 "This Alliance Is Of No Use To Us..."
-antikom.2.t:0 "Finland Joins The Antikomintern Pact"
-antikom.2.d:0 ""
+antikom.2.t:0 "Finland Joins The Anti-Komintern Pact"
+antikom.2.d:0 "Finland has accepted our strategic offer and has signed the Anti-Komintern Pact. Their loyalty to our cause shall not be overlooked."
 antikom.2.a:0 "Welcome Finland!"
-antikom.3.t:0 "Finland Declines To Join The Antikomintern Pact"
+antikom.3.t:0 "Finland Declines To Join The Anti-Komintern Pact"
 antikom.3.d:0 ""
 antikom.3.a:0 "They Will Regret That Choice..."
 antikom.4.t:0 "Romania Invited To The Anti-Komintern Pact"
 antikom.4.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.4.a:0 "We Must Protect Our Selves From The Reds"
 antikom.4.b:0 "This Alliance Is Of No Use To Us..."
-antikom.5.t:0 "Romania Joins The Antikomintern Pact"
-antikom.5.d:0 ""
+antikom.5.t:0 "Romania Joins The Anti-Komintern Pact"
+antikom.5.d:0 "Romania has accepted our strategic offer and has signed the Anti-Komintern Pact. Their loyalty to our cause shall not be overlooked."
 antikom.5.a:0 "Welcome Romania!"
-antikom.6.t:0 "Romania Declines To Join The Antikomintern Pact"
+antikom.6.t:0 "Romania Declines To Join The Anti-Komintern Pact"
 antikom.6.d:0 ""
 antikom.6.a:0 "They Will Regret That Choice..."
 
@@ -273,7 +274,7 @@ antikom.6.a:0 "They Will Regret That Choice..."
 GER_economic_investment:0 "Economic Investments"
 GER_negotiations_opened:0 "Opened Dialogue With The Unions"
 GER_negotiations_successful:0 "Union Negotiations Successful"
-GER_antikom:0 "Antikomintern Pact Formed"
+GER_antikom:0 "Anti-Komintern Pact Formed"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"
@@ -390,7 +391,7 @@ GER_modernizedproductionlines:0 "Modernized Production Lines"
 GER_modernizedproductionlines_desc:0 ""
 GER_sidewithromania:0 "Side With Romania"
 GER_sidewithromania_desc:0 "Romania's oil fields are crucial to our military success. We must give in to their demands and condemn Hungary's militarism - furthermore, we must be prepared to defend our ally from Hungarian aggression."
-GER_borderprovactions:0 "Border Provactions"
+GER_borderprovactions:0 "Border Provocations"
 GER_borderprovactions_desc:0 "We must provoke the Poles into committing an act of aggression against our border troops. This can justify our military retaliation against them - where we can call to arm the Soviets who will push from the East. Warsaw will be unable to defend themselves in a two-front war..."
 GER_partitionpoland:0 "Partition Poland"
 GER_partitionpoland_desc:0 "As per our agreements with the Soviets, Poland will be partitioned - restoring the proper 1914 borders. We will regain the corridor that had been stolen from us - likewise the Ukrainian and Belarusian Soviet Socialist Republics will be greatly expanded, in addition to the newly formed Polish SSR that will be created."

@@ -10,7 +10,7 @@ autonomy_state = {
 	
 	min_freedom_level = 0.25
 	
-	manpower_influence = 0.9
+	manpower_influence = 0.8
 	
 	rule = {
 		can_not_declare_war = yes
@@ -40,8 +40,8 @@ autonomy_state = {
 
 	allowed_levels_filter = {
 		autonomy_satellite
-		autonomy_military_occupation
 		autonomy_puppet
+		autonomy_military_occupation
 		autonomy_integrated_puppet
 	}
 	

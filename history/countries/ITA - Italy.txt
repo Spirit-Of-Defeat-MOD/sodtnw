@@ -6,11 +6,6 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
 	ITA_Italo_Balbo_int
 	ITA_Rodolfo_Graziani_sec
 	ITA_Edmondo_Rossoni_eco
@@ -85,7 +80,6 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 # DIPLOMACY / WAR 36
@@ -98,7 +92,6 @@ if = {
 		target = ETH
 		type = annex_everything
 	}
-	give_guarantee = ALB
 }
 
 if = {
@@ -111,13 +104,11 @@ if = {
 	set_autonomy = {
 		target = CRO
 		autonomous_state = autonomy_satellite
-		freedom_level = 0.2
 	}
 	
 	set_autonomy = {
 		target = ALB
 		autonomous_state = autonomy_satellite
-		freedom_level = 0.5
 	}
 	else = {
 		puppet = CRO

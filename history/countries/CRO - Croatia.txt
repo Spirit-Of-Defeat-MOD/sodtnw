@@ -6,7 +6,7 @@ set_research_slots = 2
 
 add_ideas = {
 	CRO_stjepan_radic
-	CRO_ante_trumbic
+	CRO_ante_trubmic
 	CRO_antun_radic
 	CRO_ivan_subasic
 	CRO_ivan_pernar

@@ -73,6 +73,7 @@ POLITICS_GOTTFRIED_FEDER_DESC:0 "Vocal in his opposition to Seeckt's 'capitulati
 #Ministers
 GER_Franz_Papen_hog:0 "Franz von Papen"
 GER_Hans_von_Seeckt_hog:0 "Hans von Seeckt"
+GER_military_council_hog:0 "Reichswehr Truppenamt"
 GER_Konstantin_Neurath_frm:0 "Konstantin von Neurath"
 GER_Alfred_Hugenberg_eco:0 "Alfred Hugenberg"
 GER_Ludwig_Krosigk_eco:0 "Johann Ludwig von Krosigk"
@@ -249,6 +250,10 @@ germany.34.a:0 "We Didn't Need Them Anyway..."
 germany.35.t:0 "The Anti-Komintern Pact"
 germany.35.d:0 "After assessing the concerns of right-wing officers within the Reichswehr, Hans von Seeckt has called for the termination of all plans to align Germany with the USSR. Kurt von Schleicher, a highly respected general, ultimately convinced Seeckt of the true dangers of the Red Menace to the East. In lieu of previous plans, an Anti-Komintern Pact has been drafted. The Pact will align us closer with Soviet Russia's enemies... but such is fate! "
 germany.35.a:0 "Better Dead Than Red!"
+germany.36.t:0 "The Paramilitary Question"
+germany.36.d:0 "There has been great internal debate as to the solution of Germany's paramilitary issue. For years our nation has struggled with violence at the hands of rogue thugs, many of whom continue to plot against the government. Some within the regime believe that an official paramilitary organization should be established, allowing us to keep tabs on potential radicals. Other officials believe that we should fully abolish them, and instate martial law in the cities to disarm the civilian populace... Both arguments have their merit, but a choice must be made."
+germany.36.a:0 "No More Paramilitaries!"
+germany.36.b:0 "Establish The ..." #add a name later
 antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"

@@ -979,6 +979,33 @@ country_event = {
 	}
 }
 
+# Paramilitaries
+country_event = {
+	id = germany.36
+	title = germany.36.t
+	desc = germany.36.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Purge Them
+	option = {
+		name = germany.36.a
+		remove_ideas = rampant_paramilitaries
+		add_stability = 0.02
+	
+	}
+	
+	#They May Be Useful
+	option = {
+		name = germany.36.a
+		remove_ideas = rampant_paramilitaries
+		add_ideas = official_paramilitaries
+	
+    }
+}
+
 
 #Anti-Komintern
 

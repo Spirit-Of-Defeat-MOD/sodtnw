@@ -1821,7 +1821,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_consolidatetheblackreichswehr } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+GER = { country_event = germany.36 }
+} 
 
  } 
 

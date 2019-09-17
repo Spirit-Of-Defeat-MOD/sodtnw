@@ -51,6 +51,27 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
+
+	GER_military_council_hog = {
+		allowed = { original_tag = GER }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = minister_available
+				has_country_flag = can_replace_hog
+			}
+		}
+		visible = {
+		}
+		on_add = {
+			log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_von_Seeckt_hog"
+		}
+		traits = {
+			head_of_government
+			utilitarian_despot
+		}
+		cancel_if_invalid = yes
+	}
+}
 	
 	foreign_minister = { ### Foreign Minister ###
 		GER_Konstantin_Neurath_frm = {
@@ -615,6 +636,26 @@ ideas = {
 				army_org_factor = 0.05
 				max_planning = 0.25
 				army_attack_factor = 0.1
+			}
+
+			official_paramilitaries = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					conscription = 0.01
+					political_power_factor = -0.15
+					army_attack_factor = 0.1
+				}
 			}
 		}
 	}	

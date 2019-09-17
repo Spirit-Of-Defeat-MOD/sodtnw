@@ -133,7 +133,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	GER_Franz_Papen_hog
+	GER_military_council_hog
 	GER_Konstantin_Neurath_frm
 	GER_Alfred_Hugenberg_eco
 	GER_Otto_Lossow_sec

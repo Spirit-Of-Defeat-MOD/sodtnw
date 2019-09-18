@@ -135,4 +135,9 @@ spriteTypes = {
 		name = "GFX_idea_joint_exercises"
 		texturefile = "gfx/interface/ideas/GER/joint_exercises.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_military_council_hog"
+		texturefile = "gfx/ministers/GER/GER_military_council_hog.tga"
+	}
 }

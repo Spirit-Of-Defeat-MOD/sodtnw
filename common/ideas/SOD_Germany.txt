@@ -50,7 +50,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-	}
+	
 
 	GER_military_council_hog = {
 		allowed = { original_tag = GER }
@@ -637,6 +637,7 @@ ideas = {
 				max_planning = 0.25
 				army_attack_factor = 0.1
 			}
+		}
 
 			official_paramilitaries = {
 				
@@ -659,4 +660,4 @@ ideas = {
 			}
 		}
 	}	
-}
+

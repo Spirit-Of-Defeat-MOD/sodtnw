@@ -1,0 +1,26 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	state_category = town
+
+	history={
+		
+		victory_points = {
+			572 5
+		}
+		owner = POL
+		add_core_of = POL
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+			
+		}
+	}
+
+	provinces={
+		572 13261 13263
+	}
+	manpower=985600
+	buildings_max_level_factor=1.000
+}

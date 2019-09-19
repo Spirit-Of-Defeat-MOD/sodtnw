@@ -1,0 +1,29 @@
+state={
+	id=850
+	name="STATE_850"
+	manpower = 366730
+	
+	state_category = city
+	history={
+		owner = POL
+		victory_points = {
+			362 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			362 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = POL
+		add_core_of = GER
+	}
+
+	provinces={
+		362
+	}
+}

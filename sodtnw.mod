@@ -1,4 +1,4 @@
-﻿name="Spirit of Defeat"
+﻿name="Spirit of Defeat: The Next War"
 path="mod/sodtnw/"
 tags={
 	"Alternative History"

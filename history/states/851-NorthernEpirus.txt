@@ -1,0 +1,28 @@
+
+state={
+	id=851
+	name="STATE_851"
+	manpower = 228000
+	resources={
+		aluminium=1
+	}
+	
+	state_category = town
+	
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+		}
+		add_core_of = ALB
+		add_core_of = GRE
+		add_claim_by = ITA
+
+	}
+
+	provinces={
+		914 13273 13274 
+	}
+}

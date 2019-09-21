@@ -1,6 +1,6 @@
 ﻿capital = 341
 
-#none, its basically a DMZ council oob = "CON_1936"
+#none, its basically a DMZ council oob = "KON_1936"
 
 set_research_slots = 3
 
@@ -61,11 +61,11 @@ set_convoys = 20
 set_stability = 0.55
 
 create_country_leader = {
-	name = "straits zone governor placeholder name"
-	desc = "POLITICS_STRAITS_COMMISSION_BOARD_DESC"
-	picture = ""
+	name = "T.E. Lawrence"
+	desc = "POLITICS_TE_LAWRENCE_DESC"
+	picture = "TE_Lawrence.tga"
 	expire = "1965.1.1"
-	ideology = utilitarian_despot_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

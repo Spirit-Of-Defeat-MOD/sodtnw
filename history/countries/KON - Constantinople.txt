@@ -1,6 +1,6 @@
 ﻿capital = 341
 
-#none, its basically a DMZ council oob = "KON_1936"
+oob = "KON_1936"
 
 set_research_slots = 3
 

@@ -48,13 +48,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = utilitarian_despot
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	utilitarian_despot = 100
 }
 
 set_convoys = 20
@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_TE_LAWRENCE_DESC"
 	picture = "TE_Lawrence.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = utilitarian_despot_subtype
 	traits = {
 		#
 	}

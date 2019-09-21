@@ -48,13 +48,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = utilitarian_despot
+	ruling_party = neutrality
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	utilitarian_despot = 100
+	neutrality = 100
 }
 
 set_convoys = 20

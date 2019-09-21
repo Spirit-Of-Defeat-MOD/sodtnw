@@ -7,7 +7,6 @@ tags={
 	"Map"
 }
 supported_version="1.7.*"
-replace_path = "common/ideas"
 replace_path = "history/countries"
 replace_path = "history/units"
 replace_path = "history/states"

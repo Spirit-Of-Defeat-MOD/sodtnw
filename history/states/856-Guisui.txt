@@ -1,25 +1,25 @@
 state={
-	id=621
-	name="STATE_621"
+	id=856
+	name="STATE_856"
 
 	history={
-		owner = SHX
+		owner = AHI
 		add_core_of = SHX
+        add_core_of = AHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		
-
+	
 	}
 
 	provinces={
-		7048 7158 7631 10424 12331 12403 
+		2087 4525 10629 12609 12880
 	}
 	manpower=1583700
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }

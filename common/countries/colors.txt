@@ -311,7 +311,7 @@ PRC = {
 	color_ui = rgb { 178 34 60 }
 }
 GXC = {
-	color = rgb { 71 113 97 }
+	color = rgb { 42 67 58 }
 	color_ui = rgb { 71 113 97 }
 }
 SHX = {
@@ -568,4 +568,8 @@ AHI = {
 XIN = {
 	color = rgb { 141 95 80 }
 	color_ui = rgb { 141 95 80 }
+}
+BEI = {
+	color = rgb { 0 82 141 }
+	color_ui = rgb { 0 82 141 }
 }

@@ -1,0 +1,25 @@
+state=
+{
+	id=852
+	name="STATE_852" #Dezhou
+	manpower = 373200
+	state_category = town
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+
+	}
+	provinces={
+		1084 7160 7189 9987 11933 11962 12093 
+	}
+}

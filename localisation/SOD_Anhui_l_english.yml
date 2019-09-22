@@ -1,0 +1,83 @@
+﻿l_english: 
+
+#Parties
+AHI_fascism_party:0 ""
+AHI_fascism_party_long:0 ""
+AHI_communism_party:0 ""
+AHI_communism_party_long:0 ""
+AHI_democratic_party:0 ""
+AHI_democratic_party_long:0 ""
+AHI_utilitarian_despot_party:0 "Wǎn Xì Jūn Fá"
+AHI_utilitarian_despot_party_long:0 "Wǎn Xì Jūn Fá"
+AHI_neutrality_party:0 ""
+AHI_neutrality_party_long:0 ""
+AHI_social_democracy_party:0 ""
+AHI_social_democracy_party_long:0 ""
+AHI_social_liberal_party:0 ""
+AHI_social_liberal_party_long:0 ""
+AHI_classic_liberal_party:0 ""
+AHI_classic_liberal_party_long:0 ""
+AHI_totalitarian_socialism_party:0 ""
+AHI_totalitarian_socialism_party_long:0 ""
+AHI_revolutionary_socialism_party:0 ""
+AHI_revolutionary_socialism_party_long:0 ""
+AHI_democratic_socialism_party:0 ""
+AHI_democratic_socialism_party_long:0 ""
+AHI_nihilistic_extremism_party:0 ""
+AHI_nihilistic_extremism_party_long:0 ""
+#thats it. every other party doesnt exist
+
+#Country Names
+ AHI_fascism:0 "Anhui Clique"
+ AHI_fascism_DEF:0 "the Anhui Clique"
+ AHI_nihilistic_extremism:0 "Anhui Clique"
+ AHI_nihilistic_extremism_DEF:0 "the Anhui Clique"
+ AHI_totalitarian_socialism:0 "Anhui Clique"
+ AHI_totalitarian_socialism_DEF:0 "the Anhui Clique"
+ AHI_utilitarian_despot:0 "Anhui Clique"
+ AHI_utilitarian_despot_DEF:0 "the Anhui Clique"
+ AHI_democratic:0 "Anhui Clique"
+ AHI_democratic_DEF:0 "the Anhui Clique"
+ AHI_neutrality:1 "Anhui Clique"
+ AHI_neutrality_DEF:1 "the Anhui Clique
+ AHI_democratic_socialism:0 "Anhui Clique"
+ AHI_democratic_socialism_DEF:0 "the Anhui Clique"
+ AHI_revolutionary_socialism:0 "Anhui Clique"
+ AHI_revolutionary_socialism_DEF:0 "the Anhui Clique"
+ AHI_social_democracy:0 "Anhui Clique"
+ AHI_social_democracy_DEF:0 "the Anhui Clique"
+ AHI_social_liberal:0 "Anhui Clique"
+ AHI_social_liberal_DEF:0 "the Anhui Clique"
+ AHI_classic_liberal:0 "Anhui Clique"
+ AHI_classic_liberal_DEF:0 "the Anhui Clique"
+ AHI_communism:0 "Anhui Clique"
+ AHI_communism_DEF:0 "the Anhui Clique"
+ 
+ AHI_fascism_ADJ:0 "Chinese"
+ AHI_nihilistic_extremism_ADJ:0 "Chinese"
+ AHI_totalitarian_socialism_ADJ:0 "Chinese"
+ AHI_democratic_ADJ:0 "Chinese"
+ AHI_utilitarian_despot_ADJ:0 "Chinese"
+ AHI_democratic_socialism_ADJ:0 "Chinese"
+ AHI_neutrality_ADJ:0 "Chinese"
+ AHI_revolutionary_socialism_ADJ:0 "Chinese"
+ AHI_social_democracy_ADJ:0 "Chinese"
+ AHI_social_liberal_ADJ:0 "Chinese"
+ AHI_classic_liberal_ADJ:0 "Chinese"
+ AHI_communism_ADJ:0 "Chinese"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+XIN_fascism_party:0 ""
+XIN_fascism_party_long:0 ""
+XIN_communism_party:0 "MFDLH"
+XIN_communism_party_long:0 "Mínzhòng Fan Dì Liánhé Huì"
+XIN_democratic_party:0 ""
+XIN_democratic_party_long:0 ""
+XIN_utilitarian_despot_party:0 "KSTAR ADD THE GLORIOUS SULTAN"
+XIN_utilitarian_despot_party_long:0 "KSTAR ADD THE GLORIOUS SULTAN"
+XIN_neutrality_party:0 ""
+XIN_neutrality_party_long:0 ""
+XIN_social_democracy_party:0 ""
+XIN_social_democracy_party_long:0 ""
+XIN_social_liberal_party:0 ""
+XIN_social_liberal_party_long:0 ""
+XIN_classic_liberal_party:0 ""
+XIN_classic_liberal_party_long:0 ""
+XIN_totalitarian_socialism_party:0 ""
+XIN_totalitarian_socialism_party_long:0 ""
+XIN_revolutionary_socialism_party:0 ""
+XIN_revolutionary_socialism_party_long:0 ""
+XIN_democratic_socialism_party:0 ""
+XIN_democratic_socialism_party_long:0 ""
+XIN_nihilistic_extremism_party:0 ""
+XIN_nihilistic_extremism_party_long:0 ""
+#thats it. every other party doesnt exist
+
+#Country Names
+ XIN_fascism:0 "Nanjiang Sultanate"
+ XIN_fascism_DEF:0 "the Nanjiang Sultanate"
+ XIN_nihilistic_extremism:0 "Nanjiang Sultanate"
+ XIN_nihilistic_extremism_DEF:0 "the Nanjiang Sultanate"
+ XIN_totalitarian_socialism:0 "Nanjiang Sultanate"
+ XIN_totalitarian_socialism_DEF:0 "the Nanjiang Sultanate"
+ XIN_utilitarian_despot:0 "Nanjiang Sultanate"
+ XIN_utilitarian_despot_DEF:0 "the Nanjiang Sultanate"
+ XIN_democratic:0 "Nanjiang Sultanate"
+ XIN_democratic_DEF:0 "the Nanjiang Sultanate"
+ XIN_neutrality:1 "Nanjiang Sultanate"
+ XIN_neutrality_DEF:1 "the Nanjiang Sultanate
+ XIN_democratic_socialism:0 "Nanjiang Sultanate"
+ XIN_democratic_socialism_DEF:0 "the Nanjiang Sultanate"
+ XIN_revolutionary_socialism:0 "Nanjiang Sultanate"
+ XIN_revolutionary_socialism_DEF:0 "the Nanjiang Sultanate"
+ XIN_social_democracy:0 "Nanjiang Sultanate"
+ XIN_social_democracy_DEF:0 "the Nanjiang Sultanate"
+ XIN_social_liberal:0 "Nanjiang Sultanate"
+ XIN_social_liberal_DEF:0 "the Nanjiang Sultanate"
+ XIN_classic_liberal:0 "Nanjiang Sultanate"
+ XIN_classic_liberal_DEF:0 "the Nanjiang Sultanate"
+ XIN_communism:0 "Nanjiang Sultanate"
+ XIN_communism_DEF:0 "the Nanjiang Sultanate"
+ 
+ XIN_fascism_ADJ:0 "Uyghur"
+ XIN_nihilistic_extremism_ADJ:0 "Uyghur"
+ XIN_totalitarian_socialism_ADJ:0 "Uyghur"
+ XIN_democratic_ADJ:0 "Uyghur"
+ XIN_utilitarian_despot_ADJ:0 "Uyghur"
+ XIN_democratic_socialism_ADJ:0 "Uyghur"
+ XIN_neutrality_ADJ:0 "Uyghur"
+ XIN_revolutionary_socialism_ADJ:0 "Uyghur"
+ XIN_social_democracy_ADJ:0 "Uyghur"
+ XIN_social_liberal_ADJ:0 "Uyghur"
+ XIN_classic_liberal_ADJ:0 "Uyghur"
+ XIN_communism_ADJ:0 "Uyghur"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions

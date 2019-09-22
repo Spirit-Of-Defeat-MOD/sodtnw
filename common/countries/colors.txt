@@ -142,8 +142,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 67 88 109 }
+	color_ui = rgb { 67 88 109 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -560,4 +560,12 @@ SAR = {
 ITK = {
 	color = rgb { 35 88 39 }
 	color_ui = rgb { 35 88 39 }
+}
+AHI = {
+	color = rgb { 218 165 32 }
+	color_ui = rgb { 218 165 32 }
+}
+XIN = {
+	color = rgb { 141 95 80 }
+	color_ui = rgb { 141 95 80 }
 }

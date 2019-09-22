@@ -64,6 +64,7 @@ ideologies = {
 			anarchist_collectivism = {}
 			socialist_revolutionary = {}
 			libertarian_socialist = {}
+			chen_ideology = {}
         }
         dynamic_faction_names = {
             "FACTION_NAME_REVOLUTIONARY_SOCIALISM"

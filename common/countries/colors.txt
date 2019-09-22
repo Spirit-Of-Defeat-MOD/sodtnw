@@ -416,8 +416,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
+	color = rgb { 153 72 42 }
+	color_ui = rgb { 153 72 42 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -572,4 +572,8 @@ XIN = {
 BEI = {
 	color = rgb { 0 82 141 }
 	color_ui = rgb { 0 82 141 }
+}
+GDG = {
+	color = rgb { 157 69 103 }
+	color_ui = rgb { 157 69 103 }
 }

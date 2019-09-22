@@ -1,0 +1,83 @@
+﻿l_english: 
+
+#Parties
+GDG_fascism_party:0 ""
+GDG_fascism_party_long:0 ""
+GDG_communism_party:0 ""
+GDG_communism_party_long:0 ""
+GDG_democratic_party:0 ""
+GDG_democratic_party_long:0 ""
+GDG_utilitarian_despot_party:0 ""
+GDG_utilitarian_despot_party_long:0 ""
+GDG_neutrality_party:0 ""
+GDG_neutrality_party_long:0 ""
+GDG_social_democracy_party:0 ""
+GDG_social_democracy_party_long:0 ""
+GDG_social_liberal_party:0 ""
+GDG_social_liberal_party_long:0 ""
+GDG_classic_liberal_party:0 ""
+GDG_classic_liberal_party_long:0 ""
+GDG_totalitarian_socialism_party:0 ""
+GDG_totalitarian_socialism_party_long:0 ""
+GDG_revolutionary_socialism_party:0 "ZNM"
+GDG_revolutionary_socialism_party_long:0 "Zhōngguó Nónggōng Mínzhǔdǎng"
+GDG_democratic_socialism_party:0 ""
+GDG_democratic_socialism_party_long:0 ""
+GDG_nihilistic_extremism_party:0 ""
+GDG_nihilistic_extremism_party_long:0 ""
+#thats it. every other party doesnt exist
+
+#Country Names
+ GDG_fascism:0 "Guangdong Clique"
+ GDG_fascism_DEF:0 "the Guangdong Clique"
+ GDG_nihilistic_extremism:0 "Guangdong Clique"
+ GDG_nihilistic_extremism_DEF:0 "the Guangdong Clique"
+ GDG_totalitarian_socialism:0 "Guangdong Clique"
+ GDG_totalitarian_socialism_DEF:0 "the Guangdong Clique"
+ GDG_utilitarian_despot:0 "Guangdong Clique"
+ GDG_utilitarian_despot_DEF:0 "the Guangdong Clique"
+ GDG_democratic:0 "Guangdong Clique"
+ GDG_democratic_DEF:0 "the Guangdong Clique"
+ GDG_neutrality:1 "Guangdong Clique"
+ GDG_neutrality_DEF:1 "the Guangdong Clique
+ GDG_democratic_socialism:0 "Guangdong Clique"
+ GDG_democratic_socialism_DEF:0 "the Guangdong Clique"
+ GDG_revolutionary_socialism:0 "Guangdong Clique"
+ GDG_revolutionary_socialism_DEF:0 "the Guangdong Clique"
+ GDG_social_democracy:0 "Guangdong Clique"
+ GDG_social_democracy_DEF:0 "the Guangdong Clique"
+ GDG_social_liberal:0 "Guangdong Clique"
+ GDG_social_liberal_DEF:0 "the Guangdong Clique"
+ GDG_classic_liberal:0 "Guangdong Clique"
+ GDG_classic_liberal_DEF:0 "the Guangdong Clique"
+ GDG_communism:0 "Guangdong Clique"
+ GDG_communism_DEF:0 "the Guangdong Clique"
+ 
+ GDG_fascism_ADJ:0 "Chinese"
+ GDG_nihilistic_extremism_ADJ:0 "Chinese"
+ GDG_totalitarian_socialism_ADJ:0 "Chinese"
+ GDG_democratic_ADJ:0 "Chinese"
+ GDG_utilitarian_despot_ADJ:0 "Chinese"
+ GDG_democratic_socialism_ADJ:0 "Chinese"
+ GDG_neutrality_ADJ:0 "Chinese"
+ GDG_revolutionary_socialism_ADJ:0 "Chinese"
+ GDG_social_democracy_ADJ:0 "Chinese"
+ GDG_social_liberal_ADJ:0 "Chinese"
+ GDG_classic_liberal_ADJ:0 "Chinese"
+ GDG_communism_ADJ:0 "Chinese"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

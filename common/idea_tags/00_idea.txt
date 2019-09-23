@@ -15,9 +15,11 @@ idea_categories = {
 	}
 	
 	government = {
-		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
+		slot = foreign_policy
+		slot = economic_focus
+		slot = mobilization_laws
 
 		#cost = 150
 		removal_cost = -1

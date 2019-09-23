@@ -11,4 +11,18 @@ head_of_intel:0 "Head of Intelligence"
 #Autonomy
 autonomy_military_occupation:0 "Military Occupation"
 
+#Government Slot
+government:0 "Government Policies"
+trade_laws:0 "Trade Policy"
+economy:0 "Economic System"
+foreign_policy:0 "Foreign Policy"
+economic_focus:0 "Economic Foucs"
+mobilization_laws:0 "Conscription Policy"
+
+volunteer_only:0 "Volunteer Army"
+one_year_draft:0 "One Year Draft"
+two_year_draft:0 "Two Year Draft"
+three_year_draft:0 "Three Year Draft"
+service_by_requirement:0 "Service by Requirement"
+
  

@@ -86,6 +86,11 @@ set_popularities = {
 	revolutionary_socialism = 100
 }
 
+create_faction = chen_faction
+add_to_faction = GXC
+add_to_faction = MAN
+add_to_faction = YUN
+
 create_country_leader = {
 	name = "Chen Jiongming"
 	desc = "POLITICS_CHEN_JIONGMING_DESC"

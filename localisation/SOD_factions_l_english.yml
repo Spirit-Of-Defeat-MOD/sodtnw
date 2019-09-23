@@ -12,6 +12,8 @@
  Allies:0 "Imperial Defense Accord"
  Axis:0 "Axis"
  Comintern:0 "Communist International"
+ chen_faction:0 "Guangzhou Pact"
+ kmt_faction:0 "Chinese Nationalist Front"
  
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"

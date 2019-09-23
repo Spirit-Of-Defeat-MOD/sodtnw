@@ -1,0 +1,36 @@
+
+state={
+	id=857
+	name="STATE_857" # Shanghai
+	manpower = 6305100
+	
+	state_category = large_city
+	
+	history={
+		owner = TRI
+        add_core_of = TRI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		
+		victory_points = {
+			7014 5
+		}
+		
+
+	}
+
+	provinces={
+		7014 12076 
+	}
+}

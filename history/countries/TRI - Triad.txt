@@ -29,3 +29,14 @@ set_popularities = {
     fascism = 0
     nihilistic_extremism = 0
 }
+
+create_country_leader = {
+	name = "Du Yuesheng"
+	desc = "POLITICS_YUESHENG_DESC"
+	picture = "Du_Yuesheng.tga"
+	expire = "1965.1.1"
+	ideology = warlord
+	traits = {
+		#
+	}
+}

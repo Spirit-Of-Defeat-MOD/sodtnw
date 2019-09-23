@@ -76,22 +76,22 @@ set_convoys = 40
 
 
 set_politics = {
-	ruling_party = utilitarian_despot
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	utilitarian_despot = 100
+	democratic = 100
 }
 
 create_country_leader = {
 	name = "Li Yuanhong"
 	desc = "POLITICS_YUANHONG_DESC"
-	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+	picture = "Li_Yuanhong.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = social_conservatism_subtype
 	traits = {
 	}
 }
@@ -142,101 +142,3 @@ create_field_marshal = {
 	logistics_skill = 3
 }
 
-create_field_marshal = {
-	name = "Hsueh Yueh"
-	gfx = "GFX_portrait_chi_xue_yue"
-	traits = { offensive_doctrine trait_reckless brilliant_strategist war_hero }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Tai An-lan"
-	gfx = "GFX_portrait_chi_tai_an_lan"
-	traits = {  offensive_doctrine trait_reckless career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Wang Yao-wu"
-	gfx = "GFX_portrait_chi_wang_yaowu"
-	traits = { defensive_doctrine trait_cautious infantry_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sun Li Jen"
-	gfx = "GFX_portrait_chi_sun_li_jen"
-	traits = { brilliant_strategist }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Hu Zongnan"
-	gfx = "GFX_portrait_chi_hu_zongnan"
-	traits = { politically_connected }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Gu Zhutong"
-	gfx = "GFX_portrait_chi_gu_zhutong"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Wei Lihuang"
-	gfx = "GFX_portrait_chi_wei_lihuang"
-	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Fu Zuoyi"
-	gfx = "GFX_portrait_chi_fu_zuoyi"
-	traits = { }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Zhang Xueliang"
-	gfx = "GFX_portrait_chi_zhang_xueliang"
-	traits = { }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}

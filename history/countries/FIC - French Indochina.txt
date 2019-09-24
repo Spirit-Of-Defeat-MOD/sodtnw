@@ -31,6 +31,8 @@ set_popularities = {
         nihilistic_extremism = 0
 }
 
+set_cosmetic_tag = FIC_FRA_subject
+
 create_country_leader = {
 	name = "Eugène Jean Louis René Robin"
 	desc = "POLITICS_RENE_ROBIN_DESC"

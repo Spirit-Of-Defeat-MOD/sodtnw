@@ -1,5 +1,4 @@
-state=
-{
+state = {
 	id=163
 	name="STATE_163"
 	manpower = 18000
@@ -7,6 +6,9 @@ state=
 	state_category = enclave
 	
 	history={
+		victory_points = {
+			3943 2
+		}
 		owner = ITA
 		buildings = {
 			infrastructure = 5

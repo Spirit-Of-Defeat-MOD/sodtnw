@@ -1,0 +1,23 @@
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		victory_points = {
+			937 2
+		}
+		owner = SER
+		add_core_of = MNT 
+        add_core_of = SER
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		937 6913
+	}
+	manpower=217540
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

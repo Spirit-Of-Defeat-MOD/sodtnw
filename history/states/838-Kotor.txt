@@ -3,8 +3,8 @@ state={
 	name="STATE_838"
 	resources={
 		aluminium=4
+		tungsten=1
 	}
-
 	history={
 		victory_points = {
 		    9821 1
@@ -19,7 +19,6 @@ state={
 			}
 		}
 	}
-
 	provinces={
 		9821
 	}

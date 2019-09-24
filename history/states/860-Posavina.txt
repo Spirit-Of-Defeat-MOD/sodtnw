@@ -1,0 +1,24 @@
+state={
+	id=860
+	name="STATE_860"
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			6799 3
+		}
+		owner = CRO
+		add_core_of = CRO
+		add_core_of = BOS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		606 9591 6799 11572 11574
+	}
+	manpower=93159
+	buildings_max_level_factor=1.000
+}

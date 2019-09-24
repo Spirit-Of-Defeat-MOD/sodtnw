@@ -19,7 +19,7 @@ units = {
 		}
 		location = 11586
 		division_template = "Dobrovoljci"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		division_name = {
@@ -28,7 +28,7 @@ units = {
 		}
 		location = 9809
 		division_template = "Dobrovoljci"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		division_name = {
@@ -37,7 +37,7 @@ units = {
 		}
 		location = 9821
 		division_template = "Dobrovoljci"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		division_name = {
@@ -46,7 +46,7 @@ units = {
 		}
 		location = 937
 		division_template = "Dobrovoljci"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
 	}
 	division = {
 		division_name = {
@@ -55,6 +55,6 @@ units = {
 		}
 		location = 11580
 		division_template = "Dobrovoljci"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
 	}
 }

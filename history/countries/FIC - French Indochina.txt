@@ -17,24 +17,24 @@ set_politics = {
 }
 
 set_popularities = {
-	totalitarian_socialism = 0
+	totalitarian_socialism = 2
 	communism = 4
-	revolutionary_socialism = 0
-	democratic_socialism = 0
+	revolutionary_socialism = 3
+	democratic_socialism = 15
         social_democracy = 14
-        social_liberal = 8
-        classic_liberal = 4
-        democratic = 8
-        neutrality = 2
+        social_liberal = 6
+        classic_liberal = 0
+        democratic = 0
+        neutrality = 0
         utilitarian_despot = 60
         fascism = 0
         nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Rene Robin blah blah blah"
-	desc = ""
-	picture = "Portrait_AEF_Felix_Eboue.tga"
+	name = "Eugène Jean Louis René Robin"
+	desc = "POLITICS_RENE_ROBIN_DESC"
+	picture = ""
 	ideology = utilitarian_despot_subtype
 	traits = {
 		#
@@ -42,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Felix Eboue"
+	name = "Eugène Jean Louis René Robin"
 	desc = ""
-	picture = "Portrait_AEF_Felix_Eboue.tga"
+	picture = ""
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#

@@ -42,3 +42,13 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Joseph Jules Brevie"
+	desc = ""
+	picture = "Portrait_AOF_Joseph_Jules_Brevie.tga"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

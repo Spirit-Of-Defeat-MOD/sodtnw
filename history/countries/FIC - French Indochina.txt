@@ -34,7 +34,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Eugène Jean Louis René Robin"
 	desc = "POLITICS_RENE_ROBIN_DESC"
-	picture = ""
+	picture = "Eugene_Jean_Louis_Rene_Robin.tga"
 	ideology = utilitarian_despot_subtype
 	traits = {
 		#
@@ -43,8 +43,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Eugène Jean Louis René Robin"
-	desc = ""
-	picture = ""
+	desc = "POLITICS_RENE_ROBIN_DESC"
+	picture = "Eugene_Jean_Louis_Rene_Robin.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#

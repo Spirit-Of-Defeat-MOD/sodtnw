@@ -42,6 +42,33 @@
 		51 = { "%d. Pešadijska Divizija" }
 	}
 }
+SER_DOB_01 = {
+	name = "Volunteer Divisions"
+
+	for_countries = { SER }
+
+	can_use = { has_war = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Dobrovoljacka Divizija"
+
+	ordered = {
+		1 = { "1. Beogradska Divizija" }
+		2 = { "2. Beogradska Divizija" }
+		3 = { "3. Beogradska Divizija" }
+		4 = { "Smederevska Divizija" }
+		5 = { "Uzicka Divizija" }
+		6 = { "Valjevska Divizija" }
+		7 = { "Podgorica Divizija" }
+		8 = { "Pristinska Divizija" }
+		9 = { "Niska Divizija" }
+		10 = { "Novosadska Divizija" }
+		11 = { "Budvanska Divizija" }
+		12 = { "Zemunska Divizija" }
+		13 = { "Prijepoljska Divizija" }
+	}
+}
 SER_CML_01 = {
 	name = "Communist Militias"
 

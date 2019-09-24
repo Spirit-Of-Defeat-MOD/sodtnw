@@ -31,7 +31,33 @@
 		19 = { "%d. Pesadijska Divizija" }
 	}
 }
+CRO_DOB_01 = {
+	name = "Volunteer Divisions"
 
+	for_countries = { CRO }
+
+	can_use = { has_war = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Dobrovoljacka Divizija"
+
+	ordered = {
+		1 = { "1. Zagrebacka Divizija" }
+		2 = { "2. Zagrebacka Divizija" }
+		3 = { "3. Zagrebacka Divizija" }
+		4 = { "Osijecka Divizija" }
+		5 = { "Sarajevska Divizija" }
+		6 = { "Velebitska Divizija" }
+		7 = { "Dubrovacka Divizija" }
+		8 = { "Splitska Divizija" }
+		9 = { "Tuzlanska Divizija" }
+		10 = { "Mostarska Divizija" }
+		11 = { "Peljeska Divizija" }
+		12 = { "Daruvarska Divizija" }
+		13 = { "Trebinjska Divizija" }
+	}
+}
 CRO_UST_01 = {
 	name = "Ustasha Paramilitaries"
 
@@ -48,7 +74,6 @@ CRO_UST_01 = {
 		20 = { "Poglavnikova Tjelesna Divizija" }
 	}
 }
-
 CRO_DOM_01 = {
 	name = "Domobrani Divisions"
 
@@ -64,7 +89,6 @@ CRO_DOM_01 = {
 		1 = { "%d. Domobranska Divizija" }
 	}
 }
-
 CRO_CAV_01 = {
 	name = "Cavalry Divisions"
 
@@ -89,7 +113,6 @@ CRO_CAV_01 = {
 		10 = { "%d. Konjicka Divizija" }
 	}
 }
-
 CRO_MOT_01 = {
 	name = "Motorised Divisions"
 
@@ -135,10 +158,8 @@ CRO_MOT_01 = {
 		28 = { "%d. Brza Divizija" }
 		29 = { "%d. Brza Divizija" }
 		30 = { "%d. Brza Divizija" }
-
 	}
 }
-
 CRO_ARM_01 = {
 	name = "Armoured Divisions"
 
@@ -190,7 +211,6 @@ CRO_MEC_01 = {
 		10 = { "%d. Mehanizirana Divizija" }
 	}
 }
-
 CRO_GAR_01 = {
 	name = "Garrison Divisions"
 

@@ -1,10 +1,4 @@
-﻿
-
-
-
-units = {
-	
-
+﻿units = {
 	##### Naval OOB #####
 	fleet = {
 		name = "Royal Australian Navy"			
@@ -25,5 +19,3 @@ units = {
 		}				
 	}
 }
-
-

@@ -1,0 +1,11 @@
+﻿units= {
+	fleet = {
+		name = "Ustaska Flota"			
+		naval_base = 9809
+		task_force = {				
+			name = "1. Ustaska Flota"			
+			location = 9809
+			ship = { name = "HB Peljesac" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }			
+		}				
+	}
+} 

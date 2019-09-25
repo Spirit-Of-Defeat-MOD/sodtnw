@@ -5,7 +5,7 @@ country_event = {
 	id = croatia.1
     title = croatia.1.t
 	desc = croatia.1.d
-	picture = GFX_report_event_hitler_parade
+	picture = GFX_report_event_generic_rally
 	
 	fire_only_once = yes
 	
@@ -29,5 +29,35 @@ country_event = {
 	option = {
 		name = croatia.2.a
 		custom_effect_tooltip = handschar_division_spawn
+	}
+}
+# Italian Destroyed captured
+country_event = {
+	id = croatia.3
+    title = croatia.3.t
+	desc = croatia.3.d
+	picture = GFX_report_event_destroyers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.3.a
+		custom_effect_tooltip = italian_destroyed_captured
+		hidden_effect = {
+			if = {
+				limit = {
+					not = { has_dlc = "Man the Guns" }
+				}
+				set_naval_oob = "CRO_ITAc_naval_legacy"
+			}
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				set_naval_oob = "CRO_ITAc_naval_mtg"
+			}
+		}
 	}
 }

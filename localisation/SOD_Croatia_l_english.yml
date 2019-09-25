@@ -81,6 +81,10 @@
  croatia.2.d:0 ""
  croatia.2.a:0 "Great."
  handschar_division_spawn:0 "Spawns an elite division made from Bosnian Muslims in Sarajevo."
+ croatia.3.t:0 "Italian Destroyer Captured!"
+ croatia.3.d:0 "While the Italian fled Split in chaos, they left one of their destroyers in the city port, and it was quickly captured by the croatian army that entered Split earlier today. Considering that Croatian navy was non-existant until now, this is an amazing discovery."
+ croatia.3.a:0 "Amazing news!"
+ italian_destroyer_captured:0 "The captured destroyer will now serve in the Croatian navy."
  
  croatianews.1.t:0 "Jasenovac"
  croatianews.1.d:0 "After the last Croatian troops have retreated from Stara Gradiska, Serb armies entered the city and found a horrifying concentration camp, called Jasenovac. Before abandoning the camp shortly after the Serbian breakthrough, the Ustaše killed the remaining prisoners and torched the buildings, guardhouses, torture rooms, the 'Piccili Furnace', and all the other structures in the camp. Upon entering the camp in May, the Serbs came across only ruins, soot, smoke, and the skeletal remains of thousands of victims. 'This is just another proof of how brutal Croats are towards non-Croatian civilians and Jews', says the Serbian leader."

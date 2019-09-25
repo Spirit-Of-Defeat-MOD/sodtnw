@@ -74,7 +74,7 @@ country_event = {
 				ruling_party = utilitarian_despot
 				ideology = communism
 				size = 0.5
-				states = { 105 107 764 807 833 }
+				states = { 105 107 764 807 833 838 }
 			}
 			add_ideas = {
 				SER_illegitimate_regime
@@ -88,11 +88,11 @@ country_event = {
 					SER_podgoricka_skupstina
 					SER_communist_threat
 				}
-				state_event = { id = serbia.3 days = 2 }
-				state_event = { id = serbia.5 days = 1 }
+				country_event = { id = serbia.3 days = 2 }
+				country_event = { id = serbia.5 days = 1 }
 				set_cosmetic_tag = SER_civil_war
 				load_oob = "SER_Communist_Civil_War"
-				add_manpower = 30000
+				add_manpower = 40000
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
 				set_war_support = 0.8
@@ -208,8 +208,8 @@ country_event = {
 			set_global_flag = serbian_civil_war
 			load_oob = "SER_Chetnik_Civil_War"
 			set_equipment_fraction = 0.5
-			set_stability = 0.9
-			set_war_support = 0.8
+			set_stability = 0.8
+			set_war_support = 0.7
 			create_field_marshal = {
 				name = "Nikola Kalabic"
 				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
@@ -306,10 +306,10 @@ country_event = {
 				ruling_party = communism
 				ideology = utilitarian_despot
 				size = 0.5
-				states = { 45 108 831 833 838 840 }
+				states = { 45 108 831 833 840 841 }
 			}
-			state_event = { id = serbia.5 days = 1 }
-			state_event = { id = serbia.3 days = 2 }
+			country_event = { id = serbia.5 days = 1 }
+			country_event = { id = serbia.3 days = 2 }
 			remove_ideas = {
 				SER_podgoricka_skupstina
 				SER_communist_threat
@@ -593,6 +593,7 @@ country_event = {
 		}
 	}
 }
+
 # Soviets send equipment
 country_event = {
 	id = serbia.5
@@ -605,11 +606,52 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Thanks!"
+		name = serbia.5.a
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 1750
 			producer = SOV
 		}
+		add_political_power = 5
+	}
+}
+
+# Italians send guns
+country_event = {
+	id = serbia.6
+	title = serbia.6.t
+	desc = serbia.6.d
+	picture = GFX_report_event_destroyers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.6.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 250
+			producer = ITA
+		}
+		add_political_power = 5
+	}
+}
+
+# January assasination
+country_event = {
+	id = serbia.7
+	title = serbia.7.t
+	desc = serbia.7.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.7.a
+		add_political_power = -50
+		add_stability = -0.1
 	}
 }

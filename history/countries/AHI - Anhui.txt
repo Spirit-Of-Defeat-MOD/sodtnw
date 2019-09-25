@@ -45,7 +45,6 @@ add_ideas = {
 	german_advisors
 }
 
-
 set_convoys = 40
 
 

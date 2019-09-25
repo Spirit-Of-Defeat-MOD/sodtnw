@@ -65,13 +65,12 @@ set_popularities = {
 	communism = 0
 	revolutionary_socialism = 0
 	democratic_socialism = 19
-        social_democracy = 14
-        social_liberal = 0
-        classic_liberal = 9
-        democratic = 30
-        neutrality = 28
-        utilitarian_despot = 0
-        fascism = 0
-        nihilistic_extremism = 0
+    social_democracy = 14
+    social_liberal = 0
+    classic_liberal = 9
+    democratic = 30
+    neutrality = 28
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
 }
-

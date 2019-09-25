@@ -44,7 +44,7 @@ news_event = {
 		name = "The end is near!"
 		trigger = {
 			original_tag = SER
-			has_government = neutrality
+			has_government = utilitarian_despot
 		}
 	}
 }
@@ -77,7 +77,40 @@ news_event = {
 		name = "The end is near!"
 		trigger = {
 			original_tag = SER
-			has_government = neutrality
+			has_government = utilitarian_despot
+		}
+	}
+}
+# Fall of Sarajevo
+news_event = {
+	id = serbianews.4
+	title = serbianews.4.t
+	desc = serbianews.4.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Onwards!"
+		trigger = {
+			original_tag = SER
+		}
+	}
+	option = {
+		name = "This is a disaster!"
+		trigger = {
+			original_tag = CRO
+		}
+	}
+	option = {
+		name = "This is getting out of hand."
+		trigger = {
+			NOT = {
+				original_tag = CRO
+				original_tag = SER
+			}
 		}
 	}
 }

@@ -2,15 +2,12 @@
 
 oob = "ZIM_1936"
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	tech_mountaineers = 1
 }
 
 set_convoys = 5
-
-
 
 # A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
 #lol PDX, think ya'll made a mistake there... sounds more like Ethiopia than Rhodesia
@@ -30,11 +27,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = " Godfrey Huggins"
+	name = "Godfrey Huggins"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = liberal_conservatism
 	traits = { 
 	}
 }
-

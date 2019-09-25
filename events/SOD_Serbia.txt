@@ -79,6 +79,7 @@ country_event = {
 			add_ideas = {
 				SER_illegitimate_regime
 			}
+			country_event = { id = serbia.6 days = 1 }
 			random_other_country = {
 				limit = {
 					original_tag = SER
@@ -319,6 +320,7 @@ country_event = {
 					original_tag = SER
 					has_government = utilitarian_despot
 				}
+				country_event = { id = serbia.6 days = 1 }
 				add_ideas = {
 					SER_illegitimate_regime
 				}
@@ -653,5 +655,29 @@ country_event = {
 		name = serbia.7.a
 		add_political_power = -50
 		add_stability = -0.1
+	}
+}
+
+# Factory sabotaged, february
+country_event = {
+	id = serbia.8
+	title = serbia.8.t
+	desc = serbia.8.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.8.a
+		add_stability = -0.2
+		add_war_support = 0.1
+		107 = {
+			damage_building = {
+				type = arms_factory
+				damage = 1
+			}
+		}
 	}
 }

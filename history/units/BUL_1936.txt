@@ -18,7 +18,6 @@
 		engineer = { x = 0 y = 0 }   
 	}
 }
-
 division_template = {
 	name = "Konna Divizija"
 
@@ -40,7 +39,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 949  # Sofia
+		location = 949
 		division_template = "Konna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -51,7 +50,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 949  # Sofia
+		location = 949
 		division_template = "Konna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -62,50 +61,46 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9902  # Varna
+		location = 9902
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		#name = "7-ma 'Dupnica' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 9783 # Burgas
+		location = 9783
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		#name = "2-ra 'Plovdiv' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 6923  # Plovdiv
+		location = 6923
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		#name = "8-a 'Stara Zagora' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 935  # Plovdiv
+		location = 935
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		#name = "10-a 'Kirdzali' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 10
@@ -117,7 +112,6 @@ units = {
 
 	}
 	division = {
-		#name = "3-ta 'Sliven' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
@@ -129,24 +123,22 @@ units = {
 
 	}
 	division = {
-		#name = "4-ta 'Schumen' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 6857  # Varna
+		location = 6857
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	division = {
-		#name = "5-ta 'Russe' Pekhotna Divizija"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 11774  # Pleven
+		location = 11774
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -158,7 +150,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 11905  # Pleven
+		location = 11842
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -170,7 +162,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 9610  # Pleven
+		location = 9610
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3

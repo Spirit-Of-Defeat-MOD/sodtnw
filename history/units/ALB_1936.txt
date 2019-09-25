@@ -17,7 +17,6 @@
 		recon = { x = 0 y = 0 }
 	}
 }
-
 units = {
 	division = {
 		division_name = {
@@ -27,7 +26,7 @@ units = {
 		location = 9914
 		division_template = "Këmbësori Pjesëtim"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 	division = {
@@ -38,11 +37,10 @@ units = {
 		location = 11767
 		division_template = "Këmbësori Pjesëtim"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 
 	}
 }
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

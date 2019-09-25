@@ -1,10 +1,10 @@
 ﻿units= {
 	fleet = {
 		name = "Ustaska Flota"			
-		naval_base = 9809
+		naval_base = 3924
 		task_force = {				
 			name = "1. Ustaska Flota"			
-			location = 9809
+			location = 3924
 			ship = { name = "HB Peljesac" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }			
 		}				
 	}

@@ -29,6 +29,9 @@ country_event = {
 	option = {
 		name = croatia.2.a
 		custom_effect_tooltip = handschar_division_spawn
+		hidden_effect = {
+			load_oob = CRO_Handschar
+		}
 	}
 }
 # Italian Destroyed captured
@@ -44,7 +47,7 @@ country_event = {
 	
 	option = {
 		name = croatia.3.a
-		custom_effect_tooltip = italian_destroyed_captured
+		custom_effect_tooltip = italian_destroyer_captured
 		hidden_effect = {
 			if = {
 				limit = {

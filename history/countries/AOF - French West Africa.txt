@@ -1,4 +1,4 @@
-﻿capital = 779
+﻿capital = 272
 
 oob = "AOF_1936"
 

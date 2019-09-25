@@ -76,12 +76,18 @@ country_event = {
 				size = 0.5
 				states = { 105 107 764 807 833 }
 			}
+			add_ideas = {
+				SER_illegitimate_regime
+			}
 			random_other_country = {
 				limit = {
 					original_tag = SER
 					has_government = communism
 				}
-				ai_focus_aggressive_factor = 0.25
+				remove_ideas = {
+					SER_podgoricka_skupstina
+					SER_communist_threat
+				}
 				state_event = { id = serbia.3 days = 2 }
 				state_event = { id = serbia.5 days = 1 }
 				set_cosmetic_tag = SER_civil_war
@@ -302,13 +308,19 @@ country_event = {
 				size = 0.5
 				states = { 45 108 831 833 838 840 }
 			}
-			state_event = { id = serbia.3 days = 2 }
 			state_event = { id = serbia.5 days = 1 }
-			ai_focus_aggressive_factor = 0.25
+			state_event = { id = serbia.3 days = 2 }
+			remove_ideas = {
+				SER_podgoricka_skupstina
+				SER_communist_threat
+			}
 			random_other_country = {
 				limit = {
 					original_tag = SER
 					has_government = utilitarian_despot
+				}
+				add_ideas = {
+					SER_illegitimate_regime
 				}
 				set_cosmetic_tag = SER_civil_war
 				load_oob = "SER_Chetnik_Civil_War"
@@ -404,7 +416,6 @@ country_event = {
 			}
 			news_event = { hours = 6 id = serbianews.1 }
 			set_global_flag = serbian_civil_war
-
 			set_popularities = {
 				totalitarian_socialism = 9
 				communism = 84

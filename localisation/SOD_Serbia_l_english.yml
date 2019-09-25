@@ -68,7 +68,11 @@
  SER_nihilistic_extremism_ADJ:0 "Serbian"
  
  #Ministers
- #should be reintegrated
+ SER_nikola_pasic:0 "Nikola Pasic"
+ SER_vojislav_marinkovic:0 "Vojislav Marinkovic"
+ SER_zelimir_mazuranic:0 "Zelimir Mazuranic"
+ SER_dimitrije_ljotic:0 "Dimitrije Ljotic"
+ SER_petar_zivkovic:0 "Petar Zivkovic"
  
  #Focuses
  #should be reintegrated
@@ -77,6 +81,7 @@
  SER_revanchism:0 "Revanchism"
  SER_podgoricka_skupstina:0 "The Podgorica Assembly"
  SER_communist_threat:0 "Communist Opposition"
+ SER_illegitimate_regime:0 "Illegitimate Regime"
  
  #Events
  serbia.1.t:0 "Serbia Introduction"
@@ -105,3 +110,4 @@
  POLITICS_ALEKSANDAR_RANKOVIC_DESC:0 ""
  POLITICS_NIKOLA_PASIC_DESC:0 ""
  POLITICS_DIMITRIJE_LJOTIC_DESC:0 ""
+ POLITICS_DRAZA_MIHAILOVIC_DESC:0 ""

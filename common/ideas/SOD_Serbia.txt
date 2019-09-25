@@ -1,5 +1,4 @@
 ideas = {
-
 	head_of_government = {
 		SER_nikola_pasic = {
 			allowed = { original_tag = SER }
@@ -22,7 +21,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
-	
 	foreign_minister = {
 		SER_vojislav_marinkovic = {
 			allowed = { original_tag = SER }
@@ -45,7 +43,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
-	
 	economy_minister = {
 		SER_zelimir_mazuranic = {
 			allowed = { original_tag = SER }
@@ -68,14 +65,16 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
-	
 	security_minister = {
 		SER_dimitrije_ljotic = {
 			allowed = { original_tag = SER }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = neutrality
+					OR = {
+						has_government = neutrality
+						has_governemnt = nihilistic_extremism
+					}
 				}
 			}
 			visible = {
@@ -91,7 +90,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
-	
 	head_of_intel = {
 		SER_petar_zivkovic = {
 			allowed = { original_tag = SER }
@@ -115,10 +113,10 @@ ideas = {
 		}
 	}
 	
-	hidden_ideas = {
-		
-	}
+	hidden_ideas = { }
+	
 	country {
+	# STARTING
 	    SER_podgoricka_skupstina = {
 			
 			allowed = {
@@ -204,6 +202,34 @@ ideas = {
 				surrender_limit = 0.2
 				production_speed_arms_factory_factor = 0.1
 				ai_focus_aggressive_factor = 0.5
+			}
+		}
+	# COMMUNIST
+	
+	# CHETNIK
+		SER_illegitimate_regime = {
+			
+			allowed = {
+				original_tag = SER
+				has_government = utilitarian_despot
+			}
+
+			picture = SER_illegitimate_regime
+
+			allowed_civil_war = {
+				has_government = utilitarian_despot
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.35
+				surrender_limit = -0.2
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+				fuel_gain_factor = -0.15
+				research_speed_factor = -0.05
 			}
 		}
 	}

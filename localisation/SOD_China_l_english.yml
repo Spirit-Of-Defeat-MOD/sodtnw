@@ -1,9 +1,9 @@
 ﻿l_english: 
 
 #Parties
-CHI_fascism_party:0 ""
-CHI_fascism_party_long:0 ""
-CHI_communism_party:0 "ZG"
+CHI_fascism_party:0 " Blue Shirts Society"
+CHI_fascism_party_long:0 "The Practical Society of Three Principles of the People"
+CHI_communism_party:0 "CPC"
 CHI_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
 CHI_democratic_party:0 ""
 CHI_democratic_party_long:0 ""

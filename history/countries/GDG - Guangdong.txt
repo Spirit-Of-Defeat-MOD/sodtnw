@@ -83,7 +83,10 @@ set_politics = {
 }
 
 set_popularities = {
-	revolutionary_socialism = 100
+	communism = 25
+	revolutionary_socialism = 55
+	democratic_socialism = 5
+    social_democracy = 15
 }
 
 create_faction = chen_faction

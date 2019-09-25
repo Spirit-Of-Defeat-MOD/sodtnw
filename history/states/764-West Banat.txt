@@ -6,6 +6,9 @@ state={
 	state_category = rural
 
 	history={
+		victory_points = {
+			6643 2
+		}
 		owner = SER
 		controller = SER
 

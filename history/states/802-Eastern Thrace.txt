@@ -1,0 +1,22 @@
+state=
+{
+	id=802
+	name="STATE_802"
+	
+	state_category = town
+	
+	manpower = 143213
+
+	history=
+	{
+		owner = KON
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KON
+	}
+
+	provinces=
+	{
+849 3879 6895 	}
+}

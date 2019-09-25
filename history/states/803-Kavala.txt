@@ -1,0 +1,23 @@
+state = {
+	id=803
+	name="STATE_803"
+	
+	state_category = town
+	
+	manpower = 149720
+
+	history = {
+		victory_points = {
+			9930 2
+		}
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		6990 9930 9791 
+	}
+}

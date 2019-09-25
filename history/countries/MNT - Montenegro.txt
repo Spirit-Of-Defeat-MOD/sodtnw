@@ -4,8 +4,7 @@ oob = "MNT_1936"
 
 set_research_slots = 2
 
-add_ideas = {
-}
+add_ideas = { }
 
 set_technology = {
 	tech_support = 1		
@@ -62,9 +61,29 @@ create_country_leader = {
 		#
 	}
 }
+#create_country_leader = {
+#	name = "Danilo II Petrovic-Njegos"
+#	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
+#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+#	expire = "1965.1.1"
+#	ideology = despotism
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Danilo II Petrovic-Njegos"
+#	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
+#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+#	expire = "1965.1.1"
+#	ideology = utilitarian_despot_subtype
+#	traits = {
+#		#
+#	}
+#}
 create_country_leader = {
-	name = "Danilo II Petrovic-Njegos"
-	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
+	name = "Krsto Popovic"
+	desc = "POLITICS_KRSTO_POPOVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -73,8 +92,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Danilo II Petrovic-Njegos"
-	desc = "POLITICS_DANILO_PETROVIC_NJEGOS_DESC"
+	name = "Krsto Popovic"
+	desc = "POLITICS_KRSTO_POPOVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = utilitarian_despot_subtype
@@ -102,7 +121,16 @@ create_country_leader = {
 		#
 	}
 }
-
+create_field_marshal = {
+	name = "Krsto Popovic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	traits = { defensive_doctrine }
+	skill = 5
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 4
+}
 create_corps_commander = {
 	name = "Jovo Becir"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"

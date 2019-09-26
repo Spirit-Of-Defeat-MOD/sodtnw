@@ -90,7 +90,20 @@ news_event = {
 	
 	major = yes
 	
-	is_triggered_only = yes
+	trigger = {
+		104 = { is_controlled_by = SER }
+		104 = { is_owned_by = CRO }
+		SER = { has_war_with = CRO }
+		NOT = { has_global_flag = fall_of_sarajevo }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_sarajevo
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
 	
 	option = {
 		name = "Onwards!"
@@ -106,6 +119,100 @@ news_event = {
 	}
 	option = {
 		name = "This is getting out of hand."
+		trigger = {
+			NOT = {
+				original_tag = CRO
+				original_tag = SER
+			}
+		}
+	}
+}
+
+# Fall of Zagreb
+news_event = {
+	id = serbianews.5
+	title = serbianews.5.t
+	desc = serbianews.5.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	trigger = {
+		109 = { is_controlled_by = SER }
+		109 = { is_owned_by = CRO }
+		SER = { has_war_with = CRO }
+		NOT = { has_global_flag = fall_of_zagreb }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_zagreb
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Finally!"
+		trigger = {
+			original_tag = SER
+		}
+	}
+	option = {
+		name = "We're doomed!"
+		trigger = {
+			original_tag = CRO
+		}
+	}
+	option = {
+		name = "Interesting."
+		trigger = {
+			NOT = {
+				original_tag = CRO
+				original_tag = SER
+			}
+		}
+	}
+}
+
+# Fall of Beograd
+news_event = {
+	id = serbianews.6
+	title = serbianews.6.t
+	desc = serbianews.6.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	trigger = {
+		109 = { is_controlled_by = SER }
+		109 = { is_owned_by = CRO }
+		SER = { has_war_with = CRO }
+		NOT = { has_global_flag = fall_of_zagreb }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_zagreb
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "This is a disaster!"
+		trigger = {
+			original_tag = SER
+		}
+	}
+	option = {
+		name = "We will destroy them!"
+		trigger = {
+			original_tag = CRO
+		}
+	}
+	option = {
+		name = "Interesting."
 		trigger = {
 			NOT = {
 				original_tag = CRO

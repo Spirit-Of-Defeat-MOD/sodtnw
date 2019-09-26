@@ -35,6 +35,7 @@ country_event = {
 			}
 			SER = {
 				release = MAC
+				transfer_state = 862 # Pirot
 			}
 		}
 		if = {
@@ -74,10 +75,16 @@ country_event = {
 			transfer_state = 163 #Zadar
 			transfer_state = 832 #Eastern Slavonia
 			transfer_state = 839 #Herzegovina
+			transfer_state = 859 #Bosnian Krajina
+			transfer_state = 860 #Posavina
+			transfer_state = 861 #Mostar
 		}
 		if = {
 			limit = {
 				country_exists = MNT
+				MNT = {
+					is_in_faction_with = SER
+				}
 			}
 			annex_country = {
 				target = MNT

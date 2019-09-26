@@ -111,4 +111,30 @@ on_actions = {
 			}
 		}
 	}
+	on_capitulation = { 
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = CRO
+						has_war_with = SER
+					}
+				}
+				SER = {
+					country_event = sod_peace.2
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SER
+						has_war_with = CRO
+					}
+				}
+				CRO = {
+					country_event = sod_peace.1
+				}
+			}
+		} 
+	}
 }

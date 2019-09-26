@@ -8,6 +8,7 @@ add_ideas = {
 	SER_communist_threat
 	SER_podgoricka_skupstina
 	SER_revanchism
+	SER_serbian_general_staff
 }
 
 set_technology = {

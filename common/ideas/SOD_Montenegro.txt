@@ -1,0 +1,85 @@
+ideas = {
+	head_of_government = {
+		
+	}
+	foreign_minister = {
+		
+	}
+	economy_minister = {
+		
+	}
+	security_minister = {
+		
+	}
+	head_of_intel = {
+		
+	}
+	
+	country {
+		MNT_Greens = {
+			
+			allowed = {
+				original_tag = MNT
+			}
+
+			picture = generic_fascism_drift_bonus
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.15
+			}
+		}
+		MNT_Kpcg = {
+			
+			allowed = {
+				original_tag = MNT
+			}
+
+			picture = generic_communism_drift_bonus
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.15
+			}
+		}
+		MNT_crkva = {
+			
+			allowed = {
+				original_tag = MNT
+			}
+
+			picture = idea_yug_orthodox_church_support
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+					has_government = totalitarian_socialism
+					has_government = democratic_socialism
+					has_government = revolutionary_socialism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				mobilization_laws_cost_factor = -0.25
+				army_morale_factor = 0.1
+			}
+		}
+	}
+}

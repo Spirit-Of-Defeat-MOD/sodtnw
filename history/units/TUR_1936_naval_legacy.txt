@@ -1,0 +1,20 @@
+﻿units= {
+	### Türk Donanmasi ###
+	fleet = {
+		name = "Türk Donanmasi"			
+		naval_base = 11881 # Samsun
+		task_force = {				
+			name = "Türk Donanmasi"			
+			location = 11881 # Samsun
+			ship = { name = "TCG Yavuz" pride_of_the_fleet = yes definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = TUR } } }			
+			ship = { name = "TCG Mecidiye" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Peyk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		}				
+		task_force = {				
+			name = "Filotilla Denizalti Kücük"			
+			location = 11881 # Samsun
+			ship = { name = "TCG Birinci Inönü" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR } } }		
+			ship = { name = "TCG Ikinci Inönü" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR } } }		
+		}				
+	}
+} 

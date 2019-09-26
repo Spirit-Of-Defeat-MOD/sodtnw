@@ -9,7 +9,20 @@ country_event = {
 
 	is_triggered_only = yes
 	hidden = yes
-
+	
+	immediate = {
+		hidden_effect = {
+			CRO = {
+				white_peace = {
+					tag = SER
+				}
+				white_peace = {
+					tag = MNT
+				}
+			}
+		}
+	}
+	
 	option = {
 		name = sod_peace.1.a
 		CRO = {
@@ -66,6 +79,16 @@ country_event = {
 
 	is_triggered_only = yes
 	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			SER = {
+				white_peace = {
+					tag = CRO
+				}
+			}
+		}
+	}
 
 	option = {
 		name = sod_peace.2.a

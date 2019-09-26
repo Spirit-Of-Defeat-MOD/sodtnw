@@ -1,0 +1,23 @@
+state={
+	id=865
+	name="STATE_865"
+
+	history={
+		owner = FIC
+		add_core_of = FIC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+					13295 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13295
+	}
+	manpower=2711
+	state_category=small_island
+	buildings_max_level_factor=1.000
+}

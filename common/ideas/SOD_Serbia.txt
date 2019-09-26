@@ -73,7 +73,7 @@ ideas = {
 					tooltip = minister_available
 					OR = {
 						has_government = neutrality
-						has_governemnt = nihilistic_extremism
+						has_government = nihilistic_extremism
 					}
 				}
 			}

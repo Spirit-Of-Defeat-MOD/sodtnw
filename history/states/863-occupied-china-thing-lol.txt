@@ -1,0 +1,24 @@
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		
+		owner = FIC
+		add_core_of = FIC
+		add_core_of = CHI
+		add_core_of = BEI
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		13292 13293
+	}
+	manpower=329500
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

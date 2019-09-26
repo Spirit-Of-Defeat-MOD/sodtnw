@@ -90,6 +90,8 @@ news_event = {
 	
 	major = yes
 	
+	fire_only_once = yes
+	
 	trigger = {
 		104 = { is_controlled_by = SER }
 		104 = { is_owned_by = CRO }
@@ -137,6 +139,8 @@ news_event = {
 	
 	major = yes
 	
+	fire_only_once = yes
+	
 	trigger = {
 		109 = { is_controlled_by = SER }
 		109 = { is_owned_by = CRO }
@@ -183,6 +187,8 @@ news_event = {
 	picture = GFX_news_event_hungarian_soldiers
 	
 	major = yes
+	
+	fire_only_once = yes
 	
 	trigger = {
 		109 = { is_controlled_by = SER }

@@ -597,7 +597,9 @@ country_event = {
 	option = {
 		name = germany.20.a
 		AUS = {
-			set_ruling_party = neutrality
+			set_politics = {
+				ruling_party = neutrality
+			}
 			country_event = germany.21 days = 3
 		}
 		hidden_effect = {

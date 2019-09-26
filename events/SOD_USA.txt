@@ -127,7 +127,7 @@ country_event = { #republican popularity tumbles
 		add_political_power = -50
 		
 		add_popularity = {
-			ideology = classical_liberal
+			ideology = classic_liberal
 			popularity = -0.07
 		}
 		hidden_effect = {

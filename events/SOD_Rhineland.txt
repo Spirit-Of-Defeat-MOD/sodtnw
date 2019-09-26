@@ -7,16 +7,15 @@ add_namespace = rhine_himmler
 
 # Introduction Event
 country_event = {
-	id = rhine.0
-	title = rhine.0.t
-	desc = rhine.0.d
+	id = rhine_political.0
+	title = rhine_political.0.t
+	desc = rhine_political.0.d
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
 	
-	
 	option = {
-		name = rhine.0.a
+		name = rhine_political.0.a
 		add_political_power = 0
 	
     }

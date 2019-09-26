@@ -30,6 +30,10 @@ HUN_nihilistic_extremism_party_long:0 "Prónay Zászlóalj \n§g The infamous pe
 POLITICS_MIKLOS_HORTHY_DESC:0 "."
 POLITICS_PAL_PRONAY_DESC:0 "Born into an aristocratic family, Prónay would attend the Lahne Military Institute and begin his career as a military officer. He quickly became known for his abusive and violent tendencies towards his men. In the aftermath of Bela Kun's coup, Prónay founded what would later become known as the 'White Guard'. He began a campaign of terror in the countryside, brutally retaliating against any suspected communists. As the terror went on, Prónay would become emboldened - doubling down on his signature cruelty and disregarding chain of command with the National Army. Horthy's attempts to stop the Prónay Battalion would be in vain. His forces would become known for cutting off the ears of their vitcims as trophies, sprinkling sugar on the wounds of their enemies to attract flies, and inciting city-wide pogroms. His sadism may only be matched by his fanaticism, in particular his steadfast commitment to enforcing the obedience of the servant classes."
 
+#Ideas
+pronayist_defections:0 "Pronayist Defections"
+pronayist_defections_desc:0 "Members of the Hungarian armed forces have become disillusioned with the 'stagnant' Horthy regime. Their frustrations over Hungary's lack of territorial changes, despite Bulgarian and Croatian successes in restoring their nation's glory, has led to the belief that Horthy is running the nation into the ground. Pál Prónay and his rogue battalions control swathes of the countryside, and are plotting a full-blown takeover. With each passing day, more members of the armed forces turn to Prónay as the solution to Hungary's humiliation. Horthy's days seem to be numbered, and he fully recognizes that he is cornered. If only he had taken action against Prónay earlier..."
+
 #Country Names
  HUN_fascism:0 "Kingdom of Hungary"
  HUN_fascism_DEF:0 "the Kingdom of Hungary"

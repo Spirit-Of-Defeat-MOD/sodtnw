@@ -213,7 +213,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_governemnt = utilitarian_despot
+				has_government = utilitarian_despot
 			}
 
 			removal_cost = -1
@@ -233,9 +233,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_governemnt = communism
-					has_governemnt = totalitarian_socialism
-					has_governemnt = revolutionary_socialism
+					has_government = communism
+					has_government = totalitarian_socialism
+					has_government = revolutionary_socialism
 				}
 			}
 

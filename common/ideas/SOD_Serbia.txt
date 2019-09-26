@@ -223,6 +223,7 @@ ideas = {
 				max_planning = 0.1
 			}
 		}
+	# COMMUNIST
 		SER_yugoslavian_general_staff = {
 			
 			picture = YUG_yugoslavian_general_staff
@@ -245,8 +246,6 @@ ideas = {
 				max_planning = 0.1
 			}
 		}
-	# COMMUNIST
-	
 	# CHETNIK
 		SER_illegitimate_regime = {
 			

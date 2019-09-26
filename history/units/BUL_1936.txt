@@ -42,7 +42,7 @@ units = {
 		location = 949
 		division_template = "Konna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -53,7 +53,7 @@ units = {
 		location = 949
 		division_template = "Konna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -64,7 +64,7 @@ units = {
 		location = 9902
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -75,7 +75,7 @@ units = {
 		location = 9783
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -86,7 +86,7 @@ units = {
 		location = 6923
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -97,7 +97,7 @@ units = {
 		location = 935
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -108,7 +108,7 @@ units = {
 		location = 9771
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -119,7 +119,7 @@ units = {
 		location = 3796
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -130,7 +130,7 @@ units = {
 		location = 6857
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -141,7 +141,7 @@ units = {
 		location = 11774
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -152,7 +152,7 @@ units = {
 		location = 3893
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -163,7 +163,7 @@ units = {
 		location = 9610
 		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.75
 
 	}
 }

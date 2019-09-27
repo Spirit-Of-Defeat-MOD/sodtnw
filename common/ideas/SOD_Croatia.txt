@@ -379,5 +379,126 @@ ideas = {
 				political_power_factor = -0.10
 			}
 		}
+		
+		CRO_hrk5 = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_chi_hyper_inflation5
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+			}
+		}
+
+		CRO_hrk4 = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_chi_hyper_inflation4
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				line_change_production_efficiency_factor = 0.15
+			}
+		}
+		
+		CRO_hrk3 = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_chi_hyper_inflation3
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				political_power_gain = 0.1
+				local_resources_factor = 0.01
+			}
+		}
+		
+		CRO_hrk2 = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_chi_hyper_inflation2
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				research_speed_factor = 0.05
+				political_power_gain = 0.2
+				local_resources_factor = 0.02
+			}
+		}
+		
+		CRO_hrk1 = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_foreign_capital
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				research_speed_factor = 0.05
+				political_power_gain = 0.5
+				local_resources_factor = 0.05
+			}
+		}
 	}
 }

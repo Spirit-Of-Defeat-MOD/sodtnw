@@ -581,7 +581,7 @@ GDG = {
 	color = rgb { 157 69 103 }
 	color_ui = rgb { 157 69 103 }
 }
-TRI = {
+STS = {
 	color = rgb { 23 170 23 }
 	color_ui = rgb { 23 170 23 }
 }

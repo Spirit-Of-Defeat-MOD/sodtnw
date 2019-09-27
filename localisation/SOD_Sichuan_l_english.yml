@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+SIC_fascism_party:0 ""
+SIC_fascism_party_long:0 ""
+SIC_communism_party:0 ""
+SIC_communism_party_long:0 ""
+SIC_democratic_party:0 ""
+SIC_democratic_party_long:0 ""
+SIC_utilitarian_despot_party:0 ""
+SIC_utilitarian_despot_party_long:0 ""
+SIC_neutrality_party:0 ""
+SIC_neutrality_party_long:0 ""
+SIC_social_democracy_party:0 ""
+SIC_social_democracy_party_long:0 ""
+SIC_social_liberal_party:0 ""
+SIC_social_liberal_party_long:0 ""
+SIC_classic_liberal_party:0 ""
+SIC_classic_liberal_party_long:0 ""
+SIC_totalitarian_socialism_party:0 ""
+SIC_totalitarian_socialism_party_long:0 ""
+SIC_revolutionary_socialism_party:0 ""
+SIC_revolutionary_socialism_party_long:0 ""
+SIC_democratic_socialism_party:0 ""
+SIC_democratic_socialism_party_long:0 ""
+SIC_nihilistic_extremism_party:0 ""
+SIC_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ SIC_fascism:0 "Sichuan Clique"
+ SIC_fascism_DEF:0 "the Sichuan Clique"
+ SIC_nihilistic_extremism:0 "Sichuan Clique"
+ SIC_nihilistic_extremism_DEF:0 "the Sichuan Clique"
+ SIC_totalitarian_socialism:0 "Sichuan Commune"
+ SIC_totalitarian_socialism_DEF:0 "the Sichuan Commune"
+ SIC_utilitarian_despot:0 "Sichuan Clique"
+ SIC_utilitarian_despot_DEF:0 "the Sichuan Clique"
+ SIC_democratic:0 "Sichuan Clique"
+ SIC_democratic_DEF:0 "the Sichuan Clique"
+ SIC_neutrality:1 "Sichuan Clique"
+ SIC_neutrality_DEF:1 "the Sichuan Clique"
+ SIC_democratic_socialism:0 "Sichuan Clique"
+ SIC_democratic_socialism_DEF:0 "the Sichuan Clique"
+ SIC_revolutionary_socialism:0 "Sichuan Clique"
+ SIC_revolutionary_socialism_DEF:0 "the Sichuan Clique"
+ SIC_social_democracy:0 "Sichuan Clique"
+ SIC_social_democracy_DEF:0 "the Sichuan Clique"
+ SIC_social_liberal:0 "Sichuan Clique"
+ SIC_social_liberal_DEF:0 "the Sichuan Clique"
+ SIC_classic_liberal:0 "Sichuan Clique"
+ SIC_classic_liberal_DEF:0 "the Sichuan Clique"
+ SIC_communism:0 "Sichuan Commune"
+ SIC_communism_DEF:0 "the Sichuan Commune"
+ 
+ SIC_fascism_ADJ:0 "Chinese"
+ SIC_fascism_ADJ:0 "Chinese"
+ SIC_totalitarian_socialism_ADJ:0 "Chinese"
+ SIC_democratic_ADJ:0 "Chinese"
+ SIC_utilitarian_despot_ADJ:0 "Chinese"
+ SIC_democratic_socialism_ADJ:0 "Chinese"
+ SIC_neutrality_ADJ:0 "Chinese"
+ SIC_revolutionary_socialism_ADJ:0 "Chinese"
+ SIC_social_democracy_ADJ:0 "Chinese"
+ SIC_social_liberal_ADJ:0 "Chinese"
+ SIC_classic_liberal_ADJ:0 "Chinese"
+ SIC_communism_ADJ:0 "Chinese"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

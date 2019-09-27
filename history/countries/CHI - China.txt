@@ -45,14 +45,9 @@ add_ideas = {
 	german_advisors
 }
 
-
-
 set_convoys = 40
 
-add_puppet = TRI
-create_faction = kmt_faction
-
-
+puppet = STS
 
 set_politics = {
 	ruling_party = neutrality
@@ -64,6 +59,8 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_faction = kmt_faction
 
 create_country_leader = {
 	name = "Chiang Kai-Shek"

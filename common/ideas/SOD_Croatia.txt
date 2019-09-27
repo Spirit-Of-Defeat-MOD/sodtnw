@@ -16,7 +16,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				liberal_conservatism
+				classic_liberal
 			}
 			cancel_if_invalid = yes
 		}
@@ -61,7 +61,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				liberal_conservatism
+				classic_liberal
 			}
 			cancel_if_invalid = yes
 		}
@@ -106,7 +106,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				liberal_conservatism
+				classic_liberal
 			}
 			cancel_if_invalid = yes
 		}
@@ -151,7 +151,7 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				liberal_conservatism
+				classic_liberal
 			}
 			cancel_if_invalid = yes
 		}
@@ -196,7 +196,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				liberal_conservatism
+				classic_liberal
 			}
 			cancel_if_invalid = yes
 		}
@@ -237,8 +237,8 @@ ideas = {
 						has_government = communism
 						has_government = totalitarian_socialism
 						has_government = revolutionary_socialism
+						is_puppet_of = SER
 					}
-					is_puppet_of = SER
 				}
 			}
 	
@@ -263,6 +263,42 @@ ideas = {
 				fascism_drift = 0.03
 			}
 		}
+		
+		CRO_za_dom_spremni = {
+				
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+	
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			picture = CRO_za_dom_spremni
+	
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = 0.15
+				offensive_war_stability_factor = 0.2
+				mobilization_speed = 0.15
+				army_core_defence_factor = 0.2
+			}
+		}
+		
 		CRO_anti_serbian_rhetoric = {
 				
 			allowed = {

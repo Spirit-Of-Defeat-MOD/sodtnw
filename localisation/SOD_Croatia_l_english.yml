@@ -72,6 +72,7 @@
  
  #Focuses
  SER_CRO_war:0 "Serbo-Croat War" # named threat, not a focus
+ CRO_kuna_tp:0 "§GYou will be able to reduce inflation through other focuses§!"
 
  #National Spirits
  CRO_bog_i_hrvati:0 "Bog i Hrvati"

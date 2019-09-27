@@ -1,6 +1,6 @@
 state={
 	id=109
-	name="STATE_109" # Croatia
+	name="STATE_109"
 	manpower = 2224400
 	
 	state_category = large_town
@@ -13,6 +13,12 @@ state={
 		}
 		victory_points = {
 			11581 10
+		}
+		victory_points = {
+			9611 2
+		}
+		victory_points = {
+			11594 2
 		}
 		add_core_of = CRO
 	}

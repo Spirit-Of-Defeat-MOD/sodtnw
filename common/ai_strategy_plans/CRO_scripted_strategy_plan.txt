@@ -40,7 +40,6 @@ CRO_historical = {
 		# something
 		# something
 		CRO_warwithserbia
-		
 	}
 
 	research = {

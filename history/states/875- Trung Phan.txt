@@ -1,15 +1,17 @@
 state={
-	id=286
-	name="STATE_286"
+	id=875
+	name="STATE_875"
 	resources={
-		rubber=45 # was: 94.000
+		rubber=10 # was: 94.000
 	}
 
 	history={
 		add_core_of = VIN
 		add_core_of = FIC
 		owner = FIC
-		
+		victory_points = {
+			4401 3 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,9 +22,9 @@ state={
 	}
 
 	provinces={
-		1285 1300 1328 1400 1605 4334 4363 4405 7238 7271 7347 7380 10162 10232 10261 12109 12150 12176 12204 12232 
+		1374 1520 1563 1577 1592 4260 4539 4554 7426 10195 10238 10326 10453 12210 12297 7280 1302 4379
 	}
-	manpower=5245000
+	manpower=545000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

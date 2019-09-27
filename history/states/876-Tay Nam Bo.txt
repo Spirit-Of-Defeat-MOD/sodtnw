@@ -1,8 +1,8 @@
 state={
-	id=286
-	name="STATE_286"
+	id=876
+	name="STATE_876"
 	resources={
-		rubber=45 # was: 94.000
+		rubber=10 # was: 94.000
 	}
 
 	history={
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1285 1300 1328 1400 1605 4334 4363 4405 7238 7271 7347 7380 10162 10232 10261 12109 12150 12176 12204 12232 
+		1423 4223 4284 4341 7303 7331 12133
 	}
 	manpower=5245000
 	buildings_max_level_factor=1.000

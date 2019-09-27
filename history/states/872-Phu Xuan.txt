@@ -1,0 +1,31 @@
+
+state={
+	id=872
+	name="STATE_872"
+	manpower = 528000
+	
+	state_category = town
+	
+	resources={
+		chromium=6 # was: 8
+		tungsten=27 # was: 38
+	}
+
+
+	history={
+		add_core_of = VIN
+		add_core_of = FIC
+		owner = FIC
+		
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+
+	}
+
+	provinces={
+		1248 4255 7229 10137 10180 10309
+	}
+}

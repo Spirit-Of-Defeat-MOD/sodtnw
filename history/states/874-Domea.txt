@@ -1,7 +1,7 @@
 
 state={
-	id=671
-	name="STATE_671"
+	id=874
+	name="STATE_874"
 	manpower = 7528000
 	
 	state_category = town
@@ -15,19 +15,22 @@ state={
 	history={
 		add_core_of = VIN
 		add_core_of = FIC
-		owner = FIC
+		owner = FRA
 		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
-			
+			4119 = {
+				naval_base = 1
+
+			}
 
 		}
 
 	}
 
 	provinces={
-		1073 1157 1185 4397 4529 7015 7093 7518 9948 9988 10016 10075 10103 10129 11909 11936 12008 12048 12065 12075 12319 
+		4119
 	}
 }

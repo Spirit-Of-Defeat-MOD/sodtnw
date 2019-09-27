@@ -2,7 +2,7 @@ state={
 	id=605
 	name="STATE_605"
 	resources={
-		steel=14.000
+		steel=14
 	}
 
 	history={
@@ -21,17 +21,6 @@ state={
 		victory_points = {
 			6999 20 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				infrastructure = 6
-				air_base = 3
-				arms_factory = 3
-
-			}
-
-		}
-
 	}
 
 	provinces={

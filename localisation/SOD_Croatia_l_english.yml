@@ -71,7 +71,14 @@
  CRO_slavko_kvaternik:0 "Slavko Kvaternik"
  
  #Focuses
- #should be reintegrated
+ SER_CRO_war:0 "Serbo-Croat War" # named threat, not a focus
+
+ #National Spirits
+ CRO_bog_i_hrvati:0 "Bog i Hrvati"
+ CRO_za_dom_spremni:0 "Za Dom - Spremni!"
+ CRO_anti_serbian_rhetoric:0 "Anti-Serbian Rhetoric"
+ CRO_slovene_separatism1:0 "Slovene Separatism"
+ CRO_slovene_separatism2:0 "Slovene Separatism"
 
  #Events
  croatia.1.t:0 "Croatia Introduction"
@@ -85,6 +92,17 @@
  croatia.3.d:0 "While the Italian fled Split in chaos, they left one of their destroyers in the city port, and it was quickly captured by the croatian army that entered Split earlier today. Considering that Croatian navy was non-existant until now, this is an amazing discovery."
  croatia.3.a:0 "Amazing news!"
  italian_destroyer_captured:0 "The captured destroyer will now serve in the Croatian navy."
+ croatia.4.t:0 "Victory!"
+ croatia.4.d:0 ""
+ croatia.4.a:0 "At last! Let's go!"
+ croatia.5.d:0 "Defeat!"
+ croatia.5.a:0 "We must back down."
+ croatia.5.b:0 "Doesn't matter! Onwards!"
+ croatia.6.t:0 "Stalemate!"
+ croatia.6.d:0 ""
+ croatia.6.a:0 "Attack!"
+ dont_declare_war_on_serbia:0 "Don't declare war on Serbia. There won't be another chance to attack them through the focus tree."
+ declare_war_on_serbia:0 "Declare war on Serbia."
  
  croatianews.1.t:0 "Jasenovac"
  croatianews.1.d:0 "After the last Croatian troops have retreated from Stara Gradiska, Serb armies entered the city and found a horrifying concentration camp, called Jasenovac. Before abandoning the camp shortly after the Serbian breakthrough, the Ustaše killed the remaining prisoners and torched the buildings, guardhouses, torture rooms, the 'Piccili Furnace', and all the other structures in the camp. Upon entering the camp in May, the Serbs came across only ruins, soot, smoke, and the skeletal remains of thousands of victims. 'This is just another proof of how brutal Croats are towards non-Croatian civilians and Jews', says the Serbian leader."

@@ -1,4 +1,3 @@
-
 state={
 	id=21
 	name="STATE_21" # Provence
@@ -33,11 +32,6 @@ state={
 			}
 		}
 		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				dockyard = 3
-			}
-		}
 	}
 
 	provinces={

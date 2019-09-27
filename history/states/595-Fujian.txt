@@ -3,8 +3,7 @@ state= {
 	name="STATE_595"
 	manpower = 11755600
 	state_category = city
-	history=
-	{
+	history={
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
@@ -27,13 +26,6 @@ state= {
 		}
 		victory_points = { 
 			7071 1 
-		}
-
-		1938.10.25 = {		
-			JAP = {
-				set_province_controller = 4196
-				set_province_controller = 7071
-			} 			
 		}
 	}
 	provinces={

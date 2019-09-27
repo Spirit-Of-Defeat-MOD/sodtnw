@@ -1,4 +1,3 @@
-
 state={
 	id=392
 	name="STATE_392"
@@ -16,13 +15,6 @@ state={
 		victory_points = {
 			1770 3 
 		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-			}
-		}
-
 	}
 
 	provinces={

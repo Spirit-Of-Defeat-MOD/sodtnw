@@ -331,5 +331,53 @@ ideas = {
 				fascism_drift = 0.05
 			}
 		}
+		
+		CRO_slovene_separatism1 = {
+				
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					country_exists = SLV
+				}
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_constitutional_guarantee
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1
+				stability_factor = -0.05
+				political_power_factor = -0.20
+			}
+		}
+		
+		CRO_slovene_separatism2 = {
+				
+			allowed = {
+				original_tag = CRO
+				NOT = {
+					country_exists = SLV
+				}
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_constitutional_guarantee
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+				stability_factor = -0.02
+				political_power_factor = -0.10
+			}
+		}
 	}
 }

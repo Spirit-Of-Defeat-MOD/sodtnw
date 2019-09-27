@@ -7,6 +7,9 @@ state={
 	manpower = 23227
 
 	history = {
+		victory_points = {
+			11580 1
+		}
 		owner = SER
 		buildings = {
 			infrastructure = 2

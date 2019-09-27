@@ -22,9 +22,21 @@ set_politics = {
 set_popularities = {
 	totalitarian_socialism = 2
 	communism = 6
+	revolutionary_socialism = 0
 	democratic_socialism = 2
 	social_liberal = 13
 	classic_liberal = 76
 	neutrality = 1
 	fascism = 2
+}
+
+create_country_leader = {
+	name = "Anton Korošec"
+	desc = "POLITICS_ANTON_KOROSEC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1953.3.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
 }

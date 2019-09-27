@@ -1,4 +1,3 @@
-
 state={
 	id=152
 	name="STATE_152"
@@ -33,12 +32,6 @@ state={
 			11612 3
 		}
 		add_core_of = AUS
-
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
 	}
 
 	provinces={

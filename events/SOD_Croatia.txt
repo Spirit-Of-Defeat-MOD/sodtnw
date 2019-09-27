@@ -53,13 +53,160 @@ country_event = {
 				limit = {
 					not = { has_dlc = "Man the Guns" }
 				}
-				set_naval_oob = "CRO_ITAc_naval_legacy"
+				load_oob = "CRO_ITAc_naval_legacy"
 			}
 			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
-				set_naval_oob = "CRO_ITAc_naval_mtg"
+				load_oob = "CRO_ITAc_naval_mtg"
+			}
+		}
+	}
+}
+
+# Border war Croatia-Serbia - Victory
+country_event = {
+	id = croatia.4
+    title = croatia.4.t
+	desc = croatia.4.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.4.a
+		custom_effect_tooltip = declare_war_on_serbia
+		hidden_effect = {
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
+			SER = {
+				load_oob = "SER_Dobrovoljci_1"
+			}
+			CRO = {
+				load_oob = "CRO_Dobrovoljci_1"
+			}
+			country_event = { id = croatia.7 days = 3 }
+		}
+	}
+}
+
+# Border war Croatia-Serbia - Lose
+country_event = {
+	id = croatia.5
+    title = croatia.5.t
+	desc = croatia.5.d
+	picture = GFX_report_event_dead_soldiers
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.5.a
+		ai_chance = { factor = 5 }
+		custom_effect_tooltip = dont_declare_war_on_serbia
+		add_political_power = -250
+		add_stability = -0.2
+		add_war_support = -0.25
+	}
+	option = {
+		name = croatia.5.b
+		ai_chance = { factor = 50 }
+		custom_effect_tooltip = declare_war_on_serbia
+		hidden_effect = {
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
+			SER = {
+				load_oob = "SER_Dobrovoljci_1"
+			}
+			CRO = {
+				load_oob = "CRO_Dobrovoljci_1"
+			}
+			country_event = { id = croatia.7 days = 3 }
+		}
+	}
+}
+
+# Border war Croatia-Serbia - Cancel
+country_event = {
+	id = croatia.6
+    title = croatia.6.t
+	desc = croatia.6.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.6.a
+		custom_effect_tooltip = declare_war_on_serbia
+		hidden_effect = {
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
+			SER = {
+				load_oob = "SER_Dobrovoljci_1"
+			}
+			CRO = {
+				load_oob = "CRO_Dobrovoljci_1"
+			}
+			country_event = { id = croatia.7 days = 3 }
+		}
+	}
+}
+
+# 2nd wave of volunteers
+country_event = {
+	id = croatia.7
+    title = croatia.7.t
+	desc = croatia.7.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.7.a
+		hidden_effect = {
+			SER = {
+				load_oob = "SER_Dobrovoljci_2"
+			}
+			CRO = {
+				load_oob = "CRO_Dobrovoljci_2"
+			}
+		}
+	}
+}
+
+# 2nd wave of volunteers
+country_event = {
+	id = croatia.8
+    title = croatia.8.t
+	desc = croatia.8.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.8.a
+		hidden_effect = {
+			SER = {
+				load_oob = "SER_Dobrovoljci_2"
+			}
+			CRO = {
+				load_oob = "CRO_Dobrovoljci_2"
 			}
 		}
 	}

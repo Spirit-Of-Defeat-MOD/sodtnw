@@ -1,4 +1,3 @@
-
 state={
 	id=360
 	name="STATE_360"
@@ -10,7 +9,6 @@ state={
 		steel=44 # was: 80
 	}
 
-
 	history={
 		owner = USA
 		buildings = {
@@ -20,7 +18,6 @@ state={
 			air_base = 2
 			6845 = {
 				naval_base = 8
-
 			}
 		}
 		add_core_of = USA
@@ -37,13 +34,6 @@ state={
 		victory_points = { 11799 2 }
 		victory_points = { 3824 1 }
 		victory_points = { 847 1 }
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				dockyard = 8
-			}
-		}
-
 	}
 
 	provinces={

@@ -73,6 +73,7 @@
  #Focuses
  SER_CRO_war:0 "Serbo-Croat War" # named threat, not a focus
  CRO_kuna_tp:0 "§GYou will be able to reduce inflation through other focuses§!"
+ CRO_tomislav_line_tp:0 "§GAdds level 2 forts next to Serbian border.§."
 
  #National Spirits
  CRO_bog_i_hrvati:0 "Bog i Hrvati"
@@ -80,6 +81,12 @@
  CRO_anti_serbian_rhetoric:0 "Anti-Serbian Rhetoric"
  CRO_slovene_separatism1:0 "Slovene Separatism"
  CRO_slovene_separatism2:0 "Slovene Separatism"
+ CRO_nohrk:0 "Italian Lira"
+ CRO_hrk5:0 "Croatian Kuna"
+ CRO_hrk4:0 "Croatian Kuna"
+ CRO_hrk3:0 "Croatian Kuna"
+ CRO_hrk2:0 "Croatian Kuna"
+ CRO_hrk1:0 "Croatian Kuna"
 
  #Events
  croatia.1.t:0 "Croatia Introduction"

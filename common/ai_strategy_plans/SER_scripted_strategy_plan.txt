@@ -1,0 +1,54 @@
+SER_historical = {
+	name = "Serbian strategy plan"
+	desc = ""
+
+	enable = {
+		original_tag = SER
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = SER_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = SER_AI_RANDOM_HISTORICAL
+			has_game_rule = {
+				rule = SER_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+
+	ai_national_focuses = {
+
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 25.0
+		artillery = 9.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}

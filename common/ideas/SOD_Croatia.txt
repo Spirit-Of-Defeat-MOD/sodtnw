@@ -500,5 +500,28 @@ ideas = {
 				local_resources_factor = 0.05
 			}
 		}
+		
+		CRO_nohrk = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_foreign_capital
+	
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = 0.25
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+			}
+		}
 	}
 }

@@ -1,6 +1,6 @@
 state={
-	id=871
-	name="STATE_871"
+	id=877
+	name="STATE_877"
 	resources={
 		rubber=10 # was: 94.000
 	}
@@ -8,25 +8,18 @@ state={
 	history={
 		add_core_of = VIN
 		add_core_of = FIC
-		owner = FRA
-		victory_points = {
-			4401 3 
-		}
+		owner = FIC
+		
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 2
-			4401 = {
-				naval_base = 4
-
-			}
+			infrastructure = 3
+			
 
 		}
 
 	}
 
 	provinces={
-		4401
+		1396
 	}
 	manpower=545000
 	buildings_max_level_factor=1.000

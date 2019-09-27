@@ -49,8 +49,9 @@ add_ideas = {
 
 set_convoys = 40
 
+add_puppet = TRI
 create_faction = kmt_faction
-puppet = TRI
+
 
 
 set_politics = {

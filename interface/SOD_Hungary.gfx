@@ -1,0 +1,9 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_pronayist_defections"
+		texturefile = "gfx/interface/ideas/HUN/pronayist_defections.tga"
+	}

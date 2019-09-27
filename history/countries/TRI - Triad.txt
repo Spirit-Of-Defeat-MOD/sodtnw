@@ -15,6 +15,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+
 set_popularities = {
 	totalitarian_socialism = 0
 	communism = 0
@@ -30,6 +31,7 @@ set_popularities = {
     nihilistic_extremism = 0
 }
 
+
 create_country_leader = {
 	name = "Du Yuesheng"
 	desc = "POLITICS_YUESHENG_DESC"
@@ -40,3 +42,4 @@ create_country_leader = {
 		#
 	}
 }
+

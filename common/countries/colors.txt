@@ -586,6 +586,14 @@ TRI = {
 	color_ui = rgb { 23 170 23 }
 }
 KUM = {
+	color = rgb { 153 99 0 }
+	color_ui = rgb { 153 99 0 }
+}
+SIC = {
 	color = rgb { 136 172 183 }
 	color_ui = rgb { 136 172 183 }
+}
+HNA = {
+	color = rgb { 132 152 26 }
+	color_ui = rgb { 132 152 26 }
 }

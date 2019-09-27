@@ -585,3 +585,7 @@ TRI = {
 	color = rgb { 23 170 23 }
 	color_ui = rgb { 23 170 23 }
 }
+KUM = {
+	color = rgb { 136 172 183 }
+	color_ui = rgb { 136 172 183 }
+}

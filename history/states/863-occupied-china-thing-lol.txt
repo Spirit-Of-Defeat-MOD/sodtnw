@@ -3,7 +3,9 @@ state={
 	name="STATE_863"
 
 	history={
-		
+		victory_points = {
+			13292 1
+		}
 		owner = FIC
 		add_core_of = FIC
 		add_core_of = CHI

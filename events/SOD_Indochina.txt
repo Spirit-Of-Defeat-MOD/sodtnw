@@ -1,0 +1,36 @@
+﻿#################################
+###########Done by Kstar and DBTOblivion################
+#######################################
+
+add_namespace = indochina
+
+#Change Capital
+country_event = {
+    id = indochina.1
+    title = indochina.1.t    
+    desc = indochina.1.d
+    
+    is_triggered_only = yes
+    
+    
+    option = {
+        name = indochina.1.a 
+
+    }
+        
+    option = {
+        name = indochina.1.b 
+
+    }
+	
+	option = {
+        name = indochina.1.c 
+
+    }
+	
+	option = {
+        name = indochina.1.e
+
+    }
+}
+

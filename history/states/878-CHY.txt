@@ -1,0 +1,26 @@
+state={
+	id=878
+	name="STATE_878"
+	resources={
+		steel=2
+	}
+
+	history={
+		add_core_of = CHY
+		owner = CHY
+		
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+
+	}
+
+	provinces={
+		1630 7511 5057 6638 2022
+	}
+	manpower=276000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

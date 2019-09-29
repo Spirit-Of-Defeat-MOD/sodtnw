@@ -66,14 +66,8 @@ AST_nihilistic_extremism_party_long:0 "Australian Supremacist Party"
  AST_communism_ADJ:0 "Australian"
  
  #Cosmetic Names
- AST_UK_autonomy_dominion:0 "Commonwealth of Australia"
- AST_UK_autonomy_colony:0 "Six Colonies"
- AST_UK_autonomy_puppet:0 "New South Wales"
- AST_UK_autonomy_integrated_puppet:0 "British Australasia"
- AST_UK_autonomy_dominion_DEF:0 "the Commonwealth of Australia"
- AST_UK_autonomy_colony_DEF:0 "the Six Colonies"
- AST_UK_autonomy_puppet_DEF:0 "New South Wales"
- AST_UK_autonomy_integrated_puppet_DEF:0 "British Australasia"
+ AST_ENG_subject:0 "Commonwealth of Australia"
+ AST_ENG_subject_DEF:0 "the Commonwealth of Australia"
 
 #Ministers
 #should be reintegrated

@@ -83,40 +83,27 @@ if = {
 
 set_convoys = 300
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
+
 	set_autonomy = {
 		target = AEF
-		autonomous_state = autonomy_colony
+		autonomous_state = sod_associated_state
 		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = AOF
-		autonomous_state = autonomy_colony
+		autonomous_state = sod_associated_state
 		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = FIC
-		autonomous_state = autonomy_colony
+		autonomous_state = sod_associated_state
 		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = RHI
-		autonomous_state = autonomy_military_occupation
-		freedom_level = 0.25
+		autonomous_state = sod_client_state
 	}
-	else = {
-		puppet = AEF
-		puppet = AOF
-		puppet = FIC
-		puppet = RHI
-	}
-}
+
 
 set_politics = {
 	ruling_party = democratic

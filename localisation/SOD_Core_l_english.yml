@@ -9,7 +9,10 @@ security_minister:0 "Security Minister"
 head_of_intel:0 "Head of Intelligence"
 
 #Autonomy
-autonomy_military_occupation:0 "Military Occupation"
+sod_occupied_territory:0 "Occupied Territory"
+sod_client_state:0 "Client State"
+sod_satellite_state:0 "Satellite State"
+sod_associated_state:0 "Associated State"
 
 #Government Slot
 government:0 "Government Policies"

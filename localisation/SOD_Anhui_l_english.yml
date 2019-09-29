@@ -67,7 +67,11 @@ AHI_nihilistic_extremism_party_long:0 ""
  AHI_communism_ADJ:0 "Chinese"
 
 #Ministers
-#should be reintegrated
+AHI_hog:0 "Duan Qirui"
+AHI_frm:0 "Wang Yitang"
+AHI_eco:0 "Zhang Jingyao"
+AHI_sec:0 "Jin Yunpeng"
+AHI_int:0 "Xu Shuzheng"
 
 
  

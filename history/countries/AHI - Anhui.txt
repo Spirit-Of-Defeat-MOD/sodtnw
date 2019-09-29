@@ -42,7 +42,11 @@ if = {
 }
 
 add_ideas = {
-	german_advisors
+	AHI_hog
+	AHI_eco
+	AHI_sec
+	AHI_frm
+	AHI_int
 }
 
 set_convoys = 40

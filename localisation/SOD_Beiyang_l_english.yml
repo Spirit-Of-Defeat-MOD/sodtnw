@@ -68,9 +68,11 @@ BEI_nihilistic_extremism_party_long:0 ""
  BEI_communism_ADJ:0 "Chinese"
 
 #Ministers
-#should be reintegrated
-
-
+BEI_hog:0 "Tang Shaoyi"
+BEI_frm:0 "Wu Tingfang"
+BEI_eco:0 "Dr. H. H. Kung"
+BEI_sec:0 ""
+BEI_int:0 ""
  
 #Focuses
 #should be reintegrated

@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_PRAJADHIPOK_DESC"
 	picture = "Siam_Prajadhipok.dds"
 	expire = "1965.1.1"
-	ideology = managed_democracy
+	ideology = partial_democracy
 	traits = {
 		#
 	}

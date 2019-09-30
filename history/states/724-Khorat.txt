@@ -1,9 +1,9 @@
 state={
 	id=724
 	name="STATE_724"
-	manpower = 2041700
+	manpower = 102500
 	
-	state_category = rural
+	state_category = large_city
 	
 	resources={
 		rubber=40 # was: 70
@@ -14,14 +14,20 @@ state={
 		owner = SIA
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+			7408 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			7236 1 
+			7408 10 
 		}
 		add_core_of = SIA
 	}
 	
 	provinces={
-		1279 1281 1308 1337 1366 1394 4297 4312 4371 4388 4392 7236 10156 10158 12122 12131 12201 12220 12230 12286 
+		1308 4388 4392 12122 12220 7587 1427 7408 10250 10221 12173 10411 7544 4566 10193 4348 4319 7338 7367
 	}
 }

@@ -1,0 +1,25 @@
+state={
+	id=880
+	name="STATE_880"
+
+	history={
+		add_core_of = SIA
+		owner = SIA
+		
+		buildings = {
+			infrastructure = 5
+				victory_points = {
+			7236 1 
+		}	
+
+		}
+
+	}
+
+	provinces={
+		1279 4297 12131 7236 10156 4371 12286 1337 1394 1366 4312 12201 12230 10158 1281
+	}
+	manpower=120500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,4 +1,4 @@
-﻿capital = 289
+﻿capital = 724
 
 oob = "SIA_1936"
 if = {

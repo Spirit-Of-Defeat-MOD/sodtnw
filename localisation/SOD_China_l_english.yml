@@ -21,8 +21,8 @@ CHI_totalitarian_socialism_party:0 ""
 CHI_totalitarian_socialism_party_long:0 ""
 CHI_revolutionary_socialism_party:0 ""
 CHI_revolutionary_socialism_party_long:0 ""
-CHI_democratic_socialism_party:0 ""
-CHI_democratic_socialism_party_long:0 ""
+CHI_democratic_socialism_party:0 "SRD"
+CHI_democratic_socialism_party_long:0 "Shēngchǎn Rénmín Dǎng"
 CHI_nihilistic_extremism_party:0 ""
 CHI_nihilistic_extremism_party_long:0 ""
 
@@ -66,10 +66,12 @@ CHI_nihilistic_extremism_party_long:0 ""
  CHI_communism_ADJ:0 "Chinese"
 
 #Ministers
-#should be reintegrated
+CHI_hog:0 "Chiang Kai-shek"
+CHI_frm:0 ""
+CHI_eco:0 ""
+CHI_sec:0 ""
+CHI_int:0 "Chen Cheng"
 
-
- 
 #Focuses
 #should be reintegrated
 

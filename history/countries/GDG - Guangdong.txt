@@ -83,10 +83,12 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 25
+	totalitarian_socialism = 4
+	communism = 22
 	revolutionary_socialism = 55
 	democratic_socialism = 5
-    social_democracy = 15
+    social_democracy = 13
+	classic_liberal = 1
 }
 
 create_faction = chen_faction
@@ -109,18 +111,18 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_GUOTAO_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		cornered_fox
 	}
 }
 
 create_country_leader = {
-	name = "Wang Jingwei"
-	desc = "POLITICS_WANG_JINGWEI_DESC"
+	name = "Eugene Chen"
+	desc = "POLITICS_EUGENE_CHEN_DESC"
 	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = social_democracy_subtype
 	traits = {
 		#
 	}
@@ -132,6 +134,39 @@ create_country_leader = {
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hú Hànmín" 
+	desc = "POLITICS_HU_HANMIN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = conservative_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lǐ Jìshēn" 
+	desc = "POLITICS_LI_JISHEN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Deng Yanda" 
+	desc = "POLITICS_DENG_YANDA_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism_subtype
 	traits = {
 		#
 	}

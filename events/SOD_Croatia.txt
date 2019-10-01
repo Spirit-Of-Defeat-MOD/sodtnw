@@ -30,7 +30,7 @@ country_event = {
 		name = croatia.2.a
 		custom_effect_tooltip = handschar_division_spawn
 		hidden_effect = {
-			load_oob = CRO_Handschar
+			load_oob = "CRO_Handschar"
 		}
 	}
 }

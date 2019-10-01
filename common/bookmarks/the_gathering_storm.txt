@@ -109,7 +109,7 @@ bookmarks = {
 			history = "CRO_GATHERING_STORM_DESC"
 			ideology = classic_liberal
 			ideas = {
-			
+				CRO_nohrk
 			}
 			focuses = {
 				CRO_theindependentstateofcroatia

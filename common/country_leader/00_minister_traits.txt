@@ -24,6 +24,20 @@ leader_traits = {
 		random = no
 	}
 
+	hog_federalist = {
+		political_power_gain = 0.10
+		stability_factor = 0.01
+
+		random = no
+	}
+
+	hog_determined_revolutionary = {
+		stability_factor = -0.03
+		communism_drift = 0.03
+
+		random = no
+	}
+
 
 #####################
 # Foreign Minister
@@ -38,6 +52,13 @@ leader_traits = {
 	frm_skilled_negotiator = {
 		opinion_gain_monthly = 0.15
 		political_power_gain = 0.02
+
+		random = no
+	}
+
+	frm_soviet_loyalist = {
+		political_power_gain = -0.02
+		communism_drift = 0.03
 
 		random = no
 	}
@@ -110,6 +131,13 @@ leader_traits = {
 	int_brash_buffoon = { 
 		decryption = 0.5
 		political_power_gain = -0.05
+
+		random = no
+	}
+
+	int_devoted_ideologue = { 
+		decryption = 0.5
+		political_power_gain = -0.03
 
 		random = no
 	}

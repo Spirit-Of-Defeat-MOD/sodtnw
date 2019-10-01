@@ -25,9 +25,12 @@
  hog_legislative_council:0 "Legislative Council"
  hog_conservative_aristocrat:0 "Conservative Aristocrat"
  hog_pragmatist:0 "Pragmatist"
+ hog_determined_revolutionary:0 "Determined Revolutionary"
+ hog_federalist:0 "Federalist"
 #Foreign Minister Traits
  frm_charismatic_diplomat:0 "Charismatic Diplomat"
  frm_skilled_negotiator:0 "Skilled Negotiator"
+ frm_soviet_loyalist:0 "Soviet Loyalist"
 #Economic Minister Traits
  eco_laissez_faire_capitalist:0 "Laissez-faire Capitalist"
  eco_economic_interventionist:0 "Economic Interventionist"
@@ -38,3 +41,4 @@
 #Intel Minister Traits
  int_foreign_expert:0 "Overseas Intelligence Expert"
  int_brash_buffoon:0 "Brash Buffoon"
+ int_devoted_ideologue:0 "Devoted Ideologue"

@@ -17,7 +17,8 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				utilitarian_despot
+				revolutionary_socialist
+				hog_federalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -38,7 +39,8 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				utilitarian_despot
+				vanguard_communist
+				hog_determined_revolutionary
 			}
 			cancel_if_invalid = yes
 		}
@@ -83,7 +85,8 @@ foreign_minister = { ### Foreign Minister ###
 			}
 			traits = {
 				foreign_minister
-				utilitarian_despot
+				vanguard_communist
+				frm_soviet_loyalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -127,7 +130,8 @@ economy_minister = { ### Minister of the Economy ###
 			}
 			traits = {
 				economy_minister
-				utilitarian_despot
+				vanguard_communist
+				eco_economic_interventionist
 			}
 			cancel_if_invalid = yes
 		}
@@ -171,7 +175,8 @@ security_minister = { ### Minister of Security ###
 			}
 			traits = {
 				security_minister
-				utilitarian_despot
+				vanguard_communist
+				sec_crime_fighter
 			}
 			cancel_if_invalid = yes
 		}
@@ -216,7 +221,8 @@ security_minister = { ### Minister of Security ###
 			}
 			traits = {
 				head_of_intel
-				utilitarian_despot
+				vanguard_communist
+				int_devoted_ideologue
 				
 			}
 			cancel_if_invalid = yes

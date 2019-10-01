@@ -1,0 +1,44 @@
+spriteTypes = {
+
+#Ministers
+
+
+	spriteType = {
+		name = "GFX_idea_GDG_chen_hog"
+		texturefile = "gfx/ministers/GDG/GDG_chen_hog.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDG_com_hog"
+		texturefile = "gfx/ministers/GDG/GDG_com_hog.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_com_eco"
+		texturefile = "gfx/ministers/GDG/GDG_com_eco.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_com_frm"
+		texturefile = "gfx/ministers/GDG/GDG_com_frm.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_com_int"
+		texturefile = "gfx/ministers/GDG/GDG_com_int.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_com_sec"
+		texturefile = "gfx/ministers/GDG/GDG_com_sec.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_sec"
+		texturefile = "gfx/ministers/GDG/GDG_int.tga"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_GDG_int"
+		texturefile = "gfx/ministers/GDG/GDG_int.tga"
+	}

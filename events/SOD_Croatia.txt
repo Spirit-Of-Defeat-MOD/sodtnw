@@ -211,3 +211,19 @@ country_event = {
 		}
 	}
 }
+
+# Bosnian Question
+country_event = {
+	id = croatia.9
+    title = croatia.9.t
+	desc = croatia.9.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.9.a
+	}
+}

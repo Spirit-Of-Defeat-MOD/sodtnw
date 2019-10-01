@@ -531,7 +531,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = idea_generic_foreign_capital
+			picture = idea_generic_purge
 	
 			removal_cost = -1
 			
@@ -551,7 +551,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = idea_generic_foreign_capital
+			picture = oppression
 	
 			removal_cost = -1
 			

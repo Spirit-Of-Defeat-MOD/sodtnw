@@ -67,17 +67,22 @@ BUL_nihilistic_extremism_party_long:0 "Ratnitsi Za Napredŭka Na Bŭlgarshtinata
 
 #Ministers
 #should be reintegrated
-
-
  
 #Focuses
 #should be reintegrated
 
-#Events
-#should be reintegrated
+ #Events
+ bulgaria.1.t:0 ""
+ bulgaria.1.d:0 ""
+ bulgaria.1.a:0 ""
+ bulgaria.2.t:0 "Croatia asks for help"
+ bulgaria.2.d:0 ""
+ bulgaria.2.a:0 "Of course we will help them."
+ bulgaria.2.b:0 "Nonsense!"
+ bulgaria.3.t:0 "Send guns to Croatia?"
+ bulgaria.3.d:0 ""
+ bulgaria.3.a:0 "We will help them."
+ bulgaria.3.b:0 "No way!"
 
 #Descriptions
-POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high, with communists and other anti-monarchists seemingly placated in Bulgaria under his rule."
-
-#cosmetic tags
- 
+ POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high, with communists and other anti-monarchists seemingly placated in Bulgaria under his rule."

@@ -1,0 +1,77 @@
+﻿add_namespace = bulgaria
+
+# Intro event
+country_event = {
+	id = bulgaria.1
+    title = bulgaria.1.t
+	desc = bulgaria.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bulgaria.1.a
+	}
+}
+
+# Help Croatia
+country_event = {
+	id = bulgaria.2
+    title = bulgaria.2.t
+	desc = bulgaria.2.d
+	picture = GFX_report_event_handschar_division
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bulgaria.2.a
+		CRO = {
+			create_faction = "Balkan League"
+			add_to_faction = BUL
+			if = {
+				limit = {
+					MAC = {
+						is_puppet_of = BUL
+					}
+				}
+				add_to_faction = MAC
+			}
+		}
+	}
+	
+	option = {
+		name = bulgaria.2.b
+		
+	}
+}
+
+# Send guns to Croatia
+country_event = {
+	id = bulgaria.3
+    title = bulgaria.3.t
+	desc = bulgaria.3.d
+	picture = GFX_report_event_handschar_division
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bulgaria.3.a
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 750
+			target = CRO
+		}
+		
+	}
+	
+	option = {
+		name = bulgaria.3.b
+		
+	}
+}

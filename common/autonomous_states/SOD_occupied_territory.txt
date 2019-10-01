@@ -36,21 +36,22 @@ autonomy_state = {
 	}
 
 	allowed = {
+		NOT = {
+			AND = {
+				tag = SAR
+				tag = IRQ
+				tag = SYR
+			}
+		}
 
 	}
 
 	can_take_level = {
-		custom_trigger_tooltip = {
-			tooltip = can_raise_autonomy_level
-			has_country_flag = KR_can_raise_autonomy_level
-		}
+
 	}
 
 	can_lose_level = {
-		custom_trigger_tooltip = {
-			tooltip = puppet_can_be_annexed
-			has_country_flag = KR_can_be_annexed
-		}
+
 	}
 }
 

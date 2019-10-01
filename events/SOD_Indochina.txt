@@ -20,12 +20,13 @@ country_event = {
         
     option = {
         name = indochina.1.b 
+		set_capital = 286
 
     }
 	
 	option = {
         name = indochina.1.c 
-
+		set_capital = 876
     }
 	
 	option = {

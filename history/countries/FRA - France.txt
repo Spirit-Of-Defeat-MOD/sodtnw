@@ -103,6 +103,16 @@ set_convoys = 300
 		target = RHI
 		autonomous_state = sod_client_state
 	}
+	
+	set_autonomy = {
+		target = SAR
+		autonomous_state = sod_mandate
+	}
+	
+	set_autonomy = {
+		target = SYR
+		autonomous_state = sod_mandate
+	}
 
 
 set_politics = {

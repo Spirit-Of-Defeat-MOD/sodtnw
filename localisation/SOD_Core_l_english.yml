@@ -13,6 +13,8 @@ sod_occupied_territory:0 "Occupied Territory"
 sod_client_state:0 "Client State"
 sod_satellite_state:0 "Satellite State"
 sod_associated_state:0 "Associated State"
+sod_mandate:0 "League of Nations Mandate"
+
 
 #Government Slot
 government:0 "Government Policies"
@@ -36,5 +38,27 @@ interventionism:0 "Interventionism"
 state_capitalism:0 "State Capitalism"
 
 protectionism:0 "Protectionism"
+
+diff_very_easy_player:1 "British"
+diff_easy_player:1 "American"
+diff_hard_player:1 "German"
+diff_very_hard_player:1 "Himmler"
+ 
+LOAD_GFX:1 "Printing Propaganda"
+LOAD_FLAGS:1 "Spreading Revolution"
+PROC_FLAGS:1 "Purging the Party"
+LOAD_GFX_PDXMAP_SHADERS:1 "Sowing Discontent"
+LOAD_GFX_PDXMAP_TERRAIN:1 "Starting Civil Wars"
+LOAD_GFX_PDXMAP_BORDERS:1 "Closing Borders"
+LOAD_GFX_PDXMAP_TEXTURES:1 "Designing New Uniforms"
+LOAD_GFX_PDXMAP_TREES:1 "Fighting Gureilla war"
+LOAD_GFX_PDXMAP_RIVERS:1 "TBD"
+LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "TBD"
+LOAD_INIT:1 "Securing Naval Hegemony"
+LOAD_EVENTS:1 "Creating Banana Republics"
+LOADING_DATABASES:1 "Shooting Revolutionaries"
+LOADING_MAP_SPRITES:1 "Enforcing Article X"
+ 
+FE_NEW:0 "New Campaign"
 
  

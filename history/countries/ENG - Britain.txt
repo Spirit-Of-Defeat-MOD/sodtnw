@@ -146,6 +146,11 @@ set_convoys = 800
 		autonomous_state = sod_associated_state
 		freedom_level = 0.2
 	}
+	
+	set_autonomy = {
+		target = KON
+		autonomous_state = sod_mandate
+	}
 
 
 if = {

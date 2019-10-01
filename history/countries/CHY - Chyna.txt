@@ -1,1 +1,1 @@
-capital = 878
+﻿capital = 878

@@ -5,6 +5,9 @@ oob = "CRO_1936"
 set_research_slots = 2
 
 add_ideas = {
+	#Spirits
+	CRO_nohrk
+	#Ministers
 	CRO_stjepan_radic
 	CRO_ante_trubmic
 	CRO_antun_radic

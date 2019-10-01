@@ -176,7 +176,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 6449;13258;sea;2871;-1;-1;-1;-1;;Channel Islands-Strait
-6550;3401;sea;2871;-1;-1;-1;-1;;Aegean sea
+6550;3401;sea;7226;-1;-1;-1;-1;;Aegean sea
 7303;13296;sea;3218;-1;-1;-1;-1;;Vietnam Strait
 7432;13297;sea;4240;-1;-1;-1;-1;;Vietnam Strait2
+8435;9930;sea;7452;-1;-1;-1;-1;;Aegean sea
+6550;7003;sea;7226;-1;-1;-1;-1;;
 -1;-1;;-1;-1;-1;-1;-1;-1;

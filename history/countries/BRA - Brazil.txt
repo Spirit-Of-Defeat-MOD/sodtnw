@@ -59,14 +59,14 @@ set_popularities = {
 	communism = 2
 	revolutionary_socialism = 1
 	democratic_socialism = 0
-        social_democracy = 0
-        social_liberal = 3
-        classic_liberal = 0
-        democratic = 1
-        neutrality = 91
-        utilitarian_despot = 0
-        fascism = 1
-        nihilistic_extremism = 0
+    social_democracy = 0
+    social_liberal = 3
+    classic_liberal = 0
+    democratic = 1
+    neutrality = 91
+    utilitarian_despot = 0
+    fascismism = 1
+    nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
-	ideology = national_collectivist_ideology
+	ideology = national_collectivist
 	traits = {
 		#
 	}

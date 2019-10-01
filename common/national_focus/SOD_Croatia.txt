@@ -41,9 +41,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-			remove_idea = CRO_hrk2
-			add_idea = CRO_hrk1
-		}
+				remove_idea = CRO_hrk2
+				add_idea = CRO_hrk1
+			}
 		}
 	}
 

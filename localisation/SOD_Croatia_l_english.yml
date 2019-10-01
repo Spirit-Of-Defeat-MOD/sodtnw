@@ -71,7 +71,7 @@
  CRO_slavko_kvaternik:0 "Slavko Kvaternik"
  
  #Focuses
- SER_CRO_war:0 "Serbo-Croat War" # named threat, not a focus
+ SER_CRO_war:0 "Serbo-Croat War"
  CRO_kuna_tp:0 "§GYou will be able to reduce inflation through other focuses§!"
  CRO_tomislav_line_tp:0 "§GAdds level 2 forts next to Serbian border§."
  CRO_warwithslovenia_tp:0 "§RSlovenes declare independence and go to war with you§."
@@ -99,7 +99,7 @@
  CRO_gavriloviccompany:0 "Gavrilovic Company"
  CRO_gavriloviccompany_desc:0 "Gavrilovic Company is the biggest and most influential company in Croatia. We should invest in them."
  CRO_formthehrvatskovazduhoplovstvo:0 "Form the Hrvatsko Vazduhoplovstvo"
- CRO_formthehrvatskovazduhoplovstvo_desc:0 ""
+ CRO_formthehrvatskovazduhoplovstvo_desc:0 "Croatia has developed greatly in the past few years. A huge boost in industry finally allows us to have an air force."
  CRO_slavoniancivilianfactories:0 "Slavonian Civilian Factories"
  CRO_slavoniancivilianfactories_desc:0 ""
  CRO_dalmatiancivilianfactories:0 "Dalmatian Civilian Factories"

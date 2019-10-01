@@ -345,7 +345,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = idea_generic_constitutional_guarantee
+			picture = idea_generic_oppression
 	
 			removal_cost = -1
 			
@@ -369,7 +369,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = idea_generic_constitutional_guarantee
+			picture = idea_generic_oppression
 	
 			removal_cost = -1
 			
@@ -518,6 +518,45 @@ ideas = {
 				line_change_production_efficiency_factor = 0.05
 				research_speed_factor = 0.04
 				local_resources_factor = 0.05
+			}
+		}
+		
+		CRO_ferocity = {
+				
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_foreign_capital
+	
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_org_factor = 0.05
+			}
+		}
+		
+		CRO_highway = {
+		
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_generic_foreign_capital
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
 			}
 		}
 	}

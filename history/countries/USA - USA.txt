@@ -122,14 +122,14 @@ set_popularities = {
 	communism = 0
 	revolutionary_socialism = 0
 	democratic_socialism = 2
-        social_democracy = 0
-        social_liberal = 2
-        classic_liberal = 47
-        democratic = 47
-        neutrality = 2
-        utilitarian_despot = 0
-        fascism = 0
-        nihilistic_extremism = 0
+    social_democracy = 0
+    social_liberal = 2
+    classic_liberal = 47
+    democratic = 47
+    neutrality = 2
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
 add_ideas = {
@@ -139,7 +139,6 @@ add_ideas = {
 	free_trade
 	home_of_the_free
 }
-
 
 # DIPLOMACY
 if = {

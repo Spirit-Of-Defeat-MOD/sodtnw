@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = classic_liberal
 			ideas = {
 
 			}
@@ -30,18 +30,6 @@ bookmarks = {
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
 
 			}
@@ -51,19 +39,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideology = utilitarian_despot
 			ideas = {
 
 			}

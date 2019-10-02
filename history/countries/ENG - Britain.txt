@@ -149,6 +149,10 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+give_guarantee = GRE
+give_guarantee = POR
+give_guarantee = BEL
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"

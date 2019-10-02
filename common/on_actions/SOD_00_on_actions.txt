@@ -42,23 +42,6 @@ on_actions = {
 			}
 		}
 	}
-    on_daily = {
-        effect = {
-            if = {
-                limit = {
-                    any_country = {
-                        exists = no
-                        has_country_flag = statistics_1
-                    }
-                }
-                random_country = {
-                    limit = {
-                        exists = yes
-                    }
-                }
-            }
-        }
-    }
 	on_army_leader_won_combat = { 
 		effect = {
 			if = {

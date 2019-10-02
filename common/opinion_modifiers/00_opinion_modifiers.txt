@@ -1,6 +1,3 @@
-#########################################################################
-# OPINION MODIFIERS
-##########################################################################
 # value
 # min_trust
 # max_trust
@@ -10,7 +7,7 @@
 
 opinion_modifiers = {
 
-	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
+	hostile_status = {
 		value = -100
 	}
 
@@ -221,8 +218,7 @@ opinion_modifiers = {
 		value = 1
 	}
 	
-	puppet_opinion = 
-	{
+	puppet_opinion = {
 		value = 50
 	}
 
@@ -533,7 +529,6 @@ opinion_modifiers = {
 	FRA_go_with_britain_reject = {
 		value = -50
 	}
-
 
 	FRA_alpine_forts = {
 		value = -50
@@ -977,5 +972,17 @@ opinion_modifiers = {
 	
 	CRO_anti_serbian_rhetoric_modifier = {
 		value = -100
+	}
+	
+	CRO_BUL_refuse_alliance = {
+		value = -20
+	}
+	
+	CRO_BUL_refuse_guns = {
+		value = -10
+	}
+	
+	CRO_BUL_allow_guns = {
+		value = 10
 	}
 }

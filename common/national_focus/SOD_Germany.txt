@@ -1685,6 +1685,9 @@ prerequisite = { focus = GER_tariffhikes }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	FRA = { add_ideas = german_counterfeiting }
+}
 
  } 
 
@@ -1716,6 +1719,9 @@ prerequisite = { focus = GER_withdrawoursupport }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	FRA = { add_ideas = german_tariffs }
+}
 
  } 
 
@@ -1731,6 +1737,9 @@ prerequisite = { focus = GER_guerillatrainingcamps }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	RHI = { add_ideas = labor_strikes }
+}
 
  } 
 
@@ -1746,6 +1755,9 @@ prerequisite = { focus = GER_tariffhikes }
 ai_will_do = { 
  factor = 1
  } 
+ completion_reward = {
+	FRA = { add_ideas = german_political_interference }
+}
 
  } 
 
@@ -1760,7 +1772,11 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_guerillatrainingcamps } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	RHI = { add_ideas = infiltrated_bureaucracy }
+}
+ 
 
  } 
 

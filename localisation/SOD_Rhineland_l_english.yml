@@ -130,6 +130,9 @@ RHI_swtich_to_WGR:0 "The Occupation Zone will formally become the German Democra
 
 #Ideas
 factories_sabotaged:0 "Factories Sabotaged"
+infiltrated_bureaucracy:0 "Bureaucracy Infiltrations"
+labor_strikes:0 "Labor Strikes"
+terrorist_attack:0 "Recent Terrorist Attack"
 
 population_very_high_fear:0 "Population Fear"
 population_high_fear:0 "Population Fear"

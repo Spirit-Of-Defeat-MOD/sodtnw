@@ -89,7 +89,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Norodom Sihanouk"
-	picture = "Portrait_Norodm_Sihanouk.tga"
+	picture = "Portrait_Nordom_Sihanouk.tga"
 	traits = { }
 	skill = 1
 	attack_skill = 1

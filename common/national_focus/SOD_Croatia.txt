@@ -56,7 +56,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		available = {
 			is_puppet = no
@@ -94,13 +94,6 @@ focus_tree = {
 				}
 			}
 			859 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			109 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -154,7 +147,7 @@ focus_tree = {
 	#Focus for Introduce the Ustase Paramilitary
 	focus = {
 		id = CRO_introducetheustaseparamilitary
-		icon = GFX_goal_unknown
+		icon = GFX_Ustase
 		x = 8
 		y = 1
 		cost = 10
@@ -1379,7 +1372,7 @@ focus_tree = {
 	#Focus for Greater Croatia
 	focus = {
 		id = CRO_greatercroatia
-		icon = GFX_goal_unknown
+		icon = GFX_greater_croatia
 		x = 3
 		y = 3
 		cost = 10
@@ -1648,6 +1641,12 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = CRO_boom
+				days = 365
+			}
 		}
 	}
 }

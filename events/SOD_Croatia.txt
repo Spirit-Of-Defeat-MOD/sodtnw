@@ -220,10 +220,29 @@ country_event = {
 	picture = GFX_report_event_generic_riot
 	
 	fire_only_once = yes
-	hidden = yes
+	
 	is_triggered_only = yes
 	
 	option = {
 		name = croatia.9.a
+	}
+}
+
+# Maribor Conference
+country_event = {
+	id = croatia.10
+    title = croatia.10.t
+	desc = croatia.10.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.10.a
+		remove_ideas = {
+			CRO_slovene_separatism2
+		}
 	}
 }

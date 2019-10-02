@@ -147,7 +147,7 @@ focus_tree = {
 	#Focus for Introduce the Ustase Paramilitary
 	focus = {
 		id = CRO_introducetheustaseparamilitary
-		icon = GFX_Ustase
+		icon = GFX_ustase
 		x = 8
 		y = 1
 		cost = 10
@@ -497,7 +497,7 @@ focus_tree = {
 	#Focus for Dalmatian Civilian Factories
 	focus = {
 		id = CRO_dalmatiancivilianfactories
-		icon = GFX_goal_generic_construction2
+		icon = GFX_goal_generic_construction
 		x = 18
 		y = 3
 		cost = 10
@@ -1182,7 +1182,7 @@ focus_tree = {
 	#Focus for Form the Sarajevo University
 	focus = {
 		id = CRO_formthesarajevouniversity
-		icon = GFX_focus_research2
+		icon = GFX_focus_research
 		x = 9
 		y = 6
 		cost = 10
@@ -1596,7 +1596,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = { id = croatia.8 days = 3 }
+			country_event = { id = croatia.10 days = 7 }
 		}
 	}
 

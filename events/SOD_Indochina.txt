@@ -1,10 +1,10 @@
-﻿#################################
+﻿########################################################
 ###########Done by Kstar and DBTOblivion################
-#######################################
+########################################################
 
 add_namespace = indochina
 
-#Change Capital
+#Intro event
 country_event = {
     id = indochina.1
     title = indochina.1.t    
@@ -12,26 +12,35 @@ country_event = {
     
     is_triggered_only = yes
     
-    
     option = {
         name = indochina.1.a 
+    }
+}
 
+#Change Capital
+country_event = {
+    id = indochina.2
+    title = indochina.2.t    
+    desc = indochina.2.d
+    
+    is_triggered_only = yes
+    
+    
+    option = {
+        name = indochina.2.a 
     }
         
     option = {
-        name = indochina.1.b 
+        name = indochina.2.b 
 		set_capital = 286
-
     }
 	
 	option = {
-        name = indochina.1.c 
+        name = indochina.2.c 
 		set_capital = 876
     }
 	
 	option = {
-        name = indochina.1.e
-
+        name = indochina.2.e
     }
 }
-

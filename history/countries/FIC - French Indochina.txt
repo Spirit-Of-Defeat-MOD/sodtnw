@@ -2,9 +2,14 @@
 
 oob = "FIC_1936"
 
-# Starting tech
+country_event = { id = indochina.2 days = 247 }
+
 set_technology = {
 	infantry_weapons = 1
+	motorised_infantry = 1
+	tech_support = 1
+	gw_artillery = 1
+	gwtank = 1
 }
 
 set_convoys = 20
@@ -21,14 +26,14 @@ set_popularities = {
 	communism = 4
 	revolutionary_socialism = 3
 	democratic_socialism = 15
-        social_democracy = 14
-        social_liberal = 6
-        classic_liberal = 0
-        democratic = 0
-        neutrality = 0
-        utilitarian_despot = 56
-        fascism = 0
-        nihilistic_extremism = 0
+    social_democracy = 14
+    social_liberal = 6
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 56
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
 set_cosmetic_tag = FIC_FRA_subject
@@ -42,7 +47,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "Eugène Jean Louis René Robin"
 	desc = "POLITICS_RENE_ROBIN_DESC"
@@ -53,7 +57,53 @@ create_country_leader = {
 	}
 }
 
-country_event = {
-	id = indochina.1
-	days = 247
+create_corps_commander = {
+	name = "Sisavang Vong"
+	picture = "Portrait_Sisavang_Vong.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nguyen Van Hinh"
+	picture = "Portrait_Nguyen_Van_Hinh.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Duong Van Minh"
+	picture = "Portrait_Duong_Van_Hinh.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Norodom Sihanouk"
+	picture = "Portrait_Norodm_Sihanouk.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "Le Quang Vy"
+	picture = "Portrait_Le_Quang_Vy.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

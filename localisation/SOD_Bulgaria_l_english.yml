@@ -72,9 +72,9 @@ BUL_nihilistic_extremism_party_long:0 "Ratnitsi Za Napredŭka Na Bŭlgarshtinata
 #should be reintegrated
 
  #Events
- bulgaria.1.t:0 ""
+ bulgaria.1.t:0 "Bulgaria Introduction"
  bulgaria.1.d:0 ""
- bulgaria.1.a:0 ""
+ bulgaria.1.a:0 "Enough with these petty ramblings..."
  bulgaria.2.t:0 "Croatia asks for help"
  bulgaria.2.d:0 ""
  bulgaria.2.a:0 "Of course we will help them."

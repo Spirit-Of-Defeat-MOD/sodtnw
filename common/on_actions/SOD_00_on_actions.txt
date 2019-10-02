@@ -16,6 +16,21 @@ on_actions = {
 			SER = {
 				country_event = serbia.1
 			}
+			GRE = {
+				country_event = greece.1
+			}
+			BUL = {
+				country_event = bulgaria.1
+			}
+			ALB = {
+				country_event = albania.1
+			}
+			FIC = {
+				country_event = indochina.1
+			}
+			TUR = {
+				country_event = turkey.1
+			}
 			every_country = {
 				if = {
 					limit = {

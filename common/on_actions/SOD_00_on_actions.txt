@@ -50,8 +50,8 @@ on_actions = {
 						AND = {
 							original_tag = SER
 							has_government = communism
+							has_civil_war = yes
 						}
-						has_civil_war = yes
 					}
 					NOT = { 
 						has_global_flag = SER_battle_of_prokuplje
@@ -70,8 +70,8 @@ on_actions = {
 						AND = {
 							original_tag = SER
 							has_government = utilitarian_despot
+							has_civil_war = yes
 						}
-						has_civil_war = yes
 					}
 					NOT = { 
 						has_global_flag = SER_battle_of_prokuplje

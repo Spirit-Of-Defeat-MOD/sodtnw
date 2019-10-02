@@ -1008,6 +1008,43 @@ country_event = {
     }
 }
 
+# Guerilla Training
+country_event = {
+	id = germany.37
+	title = germany.37.t
+	desc = germany.37.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Send Them Guns
+	option = {
+		name = germany.37.a
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 100
+			target = RHI
+		}
+	
+	}
+	
+	#Full Fledged Support
+	option = {
+		name = germany.37.a
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 1000
+			target = RHI
+		}
+		hidden_effect = {
+			add_threat = 5
+			set_country_flag = supported_himmler
+		}
+	
+    }
+}
+
 
 #Anti-Komintern
 

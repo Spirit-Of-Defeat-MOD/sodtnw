@@ -7,6 +7,9 @@ on_actions = {
 			ITA = {
 				country_event = italy.1
 			}
+			FRA = {
+				country_event = france.1
+			}
 			RHI = {
 				country_event = rhine_political.0
 			}

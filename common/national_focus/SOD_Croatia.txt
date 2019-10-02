@@ -506,6 +506,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				103 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
 		complete_tooltip = {
 			103 = {
 				add_extra_state_shared_building_slots = 1
@@ -583,6 +594,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				102 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
 		complete_tooltip = {
 			102 = {
 				add_extra_state_shared_building_slots = 1
@@ -624,6 +646,44 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				832 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			832 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		completion_reward = {
+			832 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Wartime Industry
@@ -637,6 +697,58 @@ focus_tree = {
 		prerequisite = { focus = CRO_franceticfabrike }
 		ai_will_do = {
 			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -654,6 +766,10 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 1
+			# CHANGES TO THE EQUIVALENT OF WAR ECONOMY
 		}
 	}
 
@@ -683,6 +799,58 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Vukovar Highway
@@ -698,6 +866,22 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			109 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			832 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Research Tanks
@@ -711,6 +895,14 @@ focus_tree = {
 		prerequisite = { focus = CRO_domobranstvo }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
 		}
 	}
 
@@ -746,6 +938,29 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			109 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			789 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			103 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Motorized Army
@@ -759,6 +974,14 @@ focus_tree = {
 		prerequisite = { focus = CRO_domobranstvo }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = motorized_equipment
+			}
 		}
 	}
 
@@ -774,6 +997,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		add_tech_bonus = {
+			name = special_forces_bonus
+			bonus = 1.0
+			uses = 1
+			technology = marines
+			technology = marines2
+		}
 	}
 
 	#Focus for Better Equipment
@@ -787,6 +1017,15 @@ focus_tree = {
 		prerequisite = { focus = CRO_domobranstvo }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
 		}
 	}
 
@@ -831,6 +1070,17 @@ focus_tree = {
 		mutually_exclusive = { focus = CRO_dominatetheskies }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
 		}
 	}
 
@@ -923,6 +1173,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.05
+		}
 	}
 
 	#Focus for Form the Sarajevo University
@@ -983,6 +1237,18 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 13
+				state = 860
+			}
+			add_resource = {
+				type = steel
+				amount = 2
+				state = 104
+			}
+		}
 	}
 
 	#Focus for Herzeg-Bosnian Paramilitaries
@@ -996,6 +1262,11 @@ focus_tree = {
 		prerequisite = { focus = CRO_thebosnianquestion }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {
+				CRO_herzegbosniaparamilitary
+			}
 		}
 	}
 
@@ -1117,6 +1388,58 @@ focus_tree = {
 		ai_will_do = {
 			factor = 3
 		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Ask Bulgaria for Help
@@ -1134,6 +1457,17 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_completed_focus = CRO_warwithserbia
+			}
+			BUL = {
+				is_puppet = no
+			}
+		}
+		completion_reward = {
+			BUL = {
+				country_event = {
+					id = bulgaria.2
+					days = 2
+				}
 			}
 		}
 	}
@@ -1193,8 +1527,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			BUL = { country_event = { id = bulgaria.1 days = 2 }
-		}
+			BUL = { 
+				country_event = { 
+					id = bulgaria.3
+					days = 2
+				}
+			}
 		}
 	}
 
@@ -1282,8 +1620,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = CRO_warwithslovenia_tp
-			add_threat = 2
 			hidden_effect = {
+				add_threat = 2
 				release = SLV
 				declare_war_on = {
 					target = SLV
@@ -1341,9 +1679,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-    remove_idea = CRO_slovene_separatism1
-    add_idea = CRO_slovene_separatism2
-}
+				remove_idea = CRO_slovene_separatism1
+				add_idea = CRO_slovene_separatism2
+			}
 		}
 	}
 
@@ -1397,7 +1735,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 4
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CRO_slovenianseparatismsolution }
 		mutually_exclusive = { 
@@ -1409,6 +1747,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+		}
 	}
 
 	#Focus for Local Militias
@@ -1417,14 +1759,14 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = 4
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CRO_greatercroatia }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_stability = 0.05
+			add_war_support = 0.05
 		}
 	}
 
@@ -1465,6 +1807,15 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 

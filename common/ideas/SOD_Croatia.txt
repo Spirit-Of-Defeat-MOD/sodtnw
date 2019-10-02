@@ -541,6 +541,27 @@ ideas = {
 			}
 		}
 		
+		CRO_herzegbosniaparamilitary = {
+		
+			allowed = {
+				original_tag = CRO
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_mex_politicised_army_2
+	
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				max_planning = 0.1
+			}
+		
+		}
+		
 		CRO_highway = {
 		
 			allowed = {

@@ -45,7 +45,12 @@ country_event = {
 	
 	option = {
 		name = bulgaria.2.b
-		
+		CRO = {
+			add_opinion_modifier = {
+				target = BUL
+				modifier = CRO_BUL_refuse_alliance
+			}
+		}
 	}
 }
 
@@ -67,11 +72,21 @@ country_event = {
 			amount = 750
 			target = CRO
 		}
-		
+		CRO = {
+			add_opinion_modifier = {
+				target = BUL
+				modifier = CRO_BUL_allow_guns
+			}
+		}
 	}
 	
 	option = {
 		name = bulgaria.3.b
-		
+		CRO = {
+			add_opinion_modifier = {
+				target = BUL
+				modifier = CRO_BUL_refuse_guns
+			}
+		}
 	}
 }

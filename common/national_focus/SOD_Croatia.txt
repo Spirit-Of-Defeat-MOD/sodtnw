@@ -978,7 +978,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 23
 		y = 2
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CRO_thezagrebsarajevohighway }
 		mutually_exclusive = { focus = CRO_vukovarhighway }
@@ -1001,6 +1001,13 @@ focus_tree = {
 				}
 			}
 			103 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			885 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1

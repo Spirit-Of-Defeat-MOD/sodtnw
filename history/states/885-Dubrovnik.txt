@@ -1,0 +1,28 @@
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			6889 3
+		}
+		buildings = {
+			industrial_complex = 1
+			6889 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		3868 6889 11816
+	}
+	manpower=257129
+	buildings_max_level_factor=1.000
+	state_category=town
+}

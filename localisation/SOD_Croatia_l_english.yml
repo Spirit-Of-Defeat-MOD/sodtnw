@@ -196,8 +196,8 @@
  CRO_croatiannavy_desc:0 "We weren't granted the access to the sea after the Third Balkan war, but we have the access now. We should start building our navy."
  CRO_largenavy:0 "Large Navy"
  CRO_largenavy_desc:0 "Rather than having a mobile, flexible navy, we should focus on having a big navy."
- CRO_croatianeconomyboom:0 "Croatian Economy Boom"
- CRO_croatianeconomyboom_desc:0 ""
+ CRO_croatianeconomyboom:0 "Croatian Economic Boom"
+ CRO_croatianeconomyboom_desc:0 "We have greatly improved our economy and industry recently. We can receive the effects of this for another year."
 
  #National Spirits
  CRO_bog_i_hrvati:0 "Bog i Hrvati"
@@ -207,6 +207,8 @@
  CRO_slovene_separatism2:0 "Slovene Separatism"
  CRO_ferocity:0 "Croatian Ferocity"
  CRO_highway: "Croatian Highways"
+ CRO_herzegbosniaparamilitary:0 "Herzeg-Bosnian Paramilitary"
+ CRO_boom:0 "Economic Boom"
  CRO_nohrk:0 "Italian Lira"
  CRO_hrk5:0 "Croatian Kuna"
  CRO_hrk4:0 "Croatian Kuna"

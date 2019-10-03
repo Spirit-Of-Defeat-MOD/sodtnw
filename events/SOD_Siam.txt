@@ -1,0 +1,17 @@
+﻿add_namespace = siam
+
+# Intro event
+country_event = {
+	id = siam.1
+    title = siam.1.t
+	desc = siam.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = siam.1.a
+	}
+}

@@ -1001,7 +1001,7 @@ country_event = {
 	
 	#They May Be Useful
 	option = {
-		name = germany.36.a
+		name = germany.36.b
 		remove_ideas = rampant_paramilitaries
 		add_ideas = official_paramilitaries
 	
@@ -1018,29 +1018,47 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	
-	#Send Them Guns
+	#Mild Support
 	option = {
 		name = germany.37.a
-		send_equipment = {
-			equipment = infantry_equipment
-			amount = 100
-			target = RHI
-		}
+		#add fear
 	
 	}
 	
 	#Full Fledged Support
 	option = {
-		name = germany.37.a
-		send_equipment = {
-			equipment = infantry_equipment
-			amount = 1000
-			target = RHI
-		}
+		name = germany.37.b
+		#add more fear
 		hidden_effect = {
 			add_threat = 5
 			set_country_flag = supported_himmler
 		}
+	
+    }
+}
+
+#British Alliance
+country_event = {
+	id = germany.38
+	title = germany.38.t
+	desc = germany.38.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Allow Germany To Join
+	option = {
+		name = germany.38.a
+		ENG = { add_to_faction = GER }
+	
+	}
+	
+	#Deny Them
+	option = {
+		name = germany.38.b
+		
+	
 	
     }
 }

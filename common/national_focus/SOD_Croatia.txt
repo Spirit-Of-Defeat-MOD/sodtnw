@@ -1610,11 +1610,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 50
-			custom_effect_tooltip = CRO_kuna_tp
 			swap_ideas = {
 				remove_idea = CRO_nohrk
 				add_idea = CRO_hrk5
 			}
+			custom_effect_tooltip = CRO_kuna_tp
 		}
 	}
 

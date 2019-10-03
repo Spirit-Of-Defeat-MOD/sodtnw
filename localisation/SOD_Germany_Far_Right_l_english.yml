@@ -124,6 +124,10 @@ russian_hostility:0 "Hostility With The USSR"
 russian_hostility_desc:0 "" #addtothislater
 joint_exercises:0 "Joint Military Exercises"
 joint_exercises_desc:0 "Joint military exercises with the Union of Soviet Socialist Republics has afforded the Reichswehr an opportunity to engage in live fire testing, strategic positioning, and simulated warfare exercises. Additionally, collaboration with Soviet generals has offered us a perspective of contemporary grand strategy doctrine. These exercises will be crucial to our future military successes."
+official_paramilitaries:0 "Official Paramilitaries"
+official_paramilitaries_desc:0 "" #addtothislater
+grain_imports:0 "Grain Imports"
+grain_imports_desc:0 "" #addtothislater
  
 #Events
 germany.1.t:0 "Germany Introduction"

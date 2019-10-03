@@ -1,10 +1,10 @@
-﻿add_namespace = turkey
+﻿add_namespace = poland
 
 # Intro event
 country_event = {
-	id = turkey.1
-    title = turkey.1.t
-	desc = turkey.1.d
+	id = poland.1
+    title = poland.1.t
+	desc = poland.1.d
 	picture = GFX_report_event_generic_rally
 	
 	fire_only_once = yes
@@ -12,6 +12,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = turkey.1.a
+		name = poland.1.a
 	}
 }

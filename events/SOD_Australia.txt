@@ -49,13 +49,13 @@ country_event = {
 
 country_event = { 
     id = australia.2
-        title = australia.2.t    
+    title = australia.2.t    
     desc = australia.2.d
     picture = GFX_report_event_ANZAC_day
     
-        is_triggered_only = yes 
+    is_triggered_only = yes 
 
-        option = {
+    option = {
         name = australia.2.a 
         hidden_effect = { country_event = { id = australia.4 days = 30 } } #second battle of campion-victory
     }
@@ -63,13 +63,13 @@ country_event = {
 
 country_event = { 
     id = australia.3
-        title = australia.3.t    
+    title = australia.3.t    
     desc = australia.3.d
     picture = GFX_report_event_ast_ANZAC_day
     
-        is_triggered_only = yes 
+    is_triggered_only = yes 
 
-        option = {
+    option = {
         name = australia.3.a 
         hidden_effect = { country_event = { id = australia.6 days = 30 } } #second battle of campion-defeat
     }
@@ -77,27 +77,27 @@ country_event = {
 
 country_event = { 
     id = australia.6
-        title = australia.6.t    
+    title = australia.6.t    
     desc = australia.6.d
     picture = GFX_report_event_ast_transfer_singapore
     
-        is_triggered_only = yes 
+    is_triggered_only = yes 
 
-        option = {
+    option = {
         name = australia.6.a 
-        hidden_effect = { country_event = { id = australia.7 days = 30 }} #second emu war defeat
+        hidden_effect = { country_event = { id = australia.7 days = 30 } } #second emu war defeat
     }
 }
 
 country_event = { 
     id = australia.7
-        title = australia.7.t    
+    title = australia.7.t    
     desc = australia.7.d
     picture = GFX_report_event_ast_parliament_house
     
-        is_triggered_only = yes 
+    is_triggered_only = yes 
 
-        option = {
+    option = {
         name = australia.7.a 
         add_political_power = -50
     }
@@ -105,28 +105,28 @@ country_event = {
 
 country_event = { 
     id = australia.4
-        title = australia.4.t    
+    title = australia.4.t    
     desc = australia.4.d
     picture = GFX_report_event_ast_planning
     
-        is_triggered_only = yes
+    is_triggered_only = yes
 
-        option = {
+    option = {
         name = australia.4.a 
-        hidden_effect = {  country_event = { id = australia.5 days = 30 }} 
+        hidden_effect = { country_event = { id = australia.5 days = 30 }} 
     }
 }
 
 country_event = { #victory against the emus!
     id = australia.5
-        title = australia.5.t    
+    title = australia.5.t    
     desc = australia.5.d
     picture = GFX_report_event_europe_funeral
     
-        is_triggered_only = yes
+    is_triggered_only = yes
 
-        option = {
+    option = {
         name = australia.5.a 
-                remove_ideas = second_emu_war
+        remove_ideas = second_emu_war
     }
 }

@@ -5,7 +5,7 @@ country_event = {
 	id = albania.1
     title = albania.1.t
 	desc = albania.1.d
-	picture = GFX_report_event_europe_funeral
+	picture = GFX_report_event_generic_rally
 	
 	fire_only_once = yes
 	

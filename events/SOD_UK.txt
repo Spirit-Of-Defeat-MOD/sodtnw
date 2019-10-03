@@ -28,4 +28,18 @@ country_event = {
 	}
 }
 
-
+# Intro event
+country_event = {
+	id = uk.1
+    title = uk.1.t
+	desc = uk.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uk.1.a
+	}
+}

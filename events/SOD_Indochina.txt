@@ -10,6 +10,8 @@ country_event = {
     title = indochina.1.t    
     desc = indochina.1.d
     
+	picture = GFX_report_event_generic_rally
+	
     is_triggered_only = yes
     
     option = {
@@ -24,22 +26,21 @@ country_event = {
     desc = indochina.2.d
     
     is_triggered_only = yes
-    
-    
+
     option = {
         name = indochina.2.a 
     }
-        
+
     option = {
         name = indochina.2.b 
 		set_capital = 286
     }
-	
+
 	option = {
         name = indochina.2.c 
 		set_capital = 876
     }
-	
+
 	option = {
         name = indochina.2.e
     }

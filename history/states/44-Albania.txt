@@ -1,7 +1,7 @@
 state={
 	id=44
 	name="STATE_44"
-	manpower = 803000
+	manpower = 603090
 	resources={
 		aluminium=3
 		chromium=3
@@ -13,9 +13,6 @@ state={
 		owner = ALB
 		victory_points = {
 			9914 5
-		}
-		victory_points = {
-			11767 1
 		}
 		victory_points = {
 			3896 1
@@ -34,6 +31,6 @@ state={
 	}
 
 	provinces={
-		3448 3884 3896 6900 9780 9875 9914 11762 11767 
+		3448 3884 6900 9875 9914 11767 
 	}
 }

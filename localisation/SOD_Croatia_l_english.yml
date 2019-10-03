@@ -72,6 +72,8 @@
  
  #Focuses
  SER_CRO_war:0 "Serbo-Croat War"
+ BUL_CRO_alliance:0 "Bulgaria accepted alliance."
+ slovene_rebellion:0 "Slovenians have rebelled."
  CRO_kuna_tp:0 "§GYou will be able to reduce inflation through other focuses§!"
  CRO_tomislav_line_tp:0 "§GAdds level 2 forts next to Serbian border§."
  CRO_warwithslovenia_tp:0 "§RSlovenes declare independence and go to war with you§."
@@ -239,6 +241,12 @@
  croatia.10.t:0 "Maribor Conference"
  croatia.10.d:0 ""
  croatia.10.a:0 "Excellent."
+ croatia.11.t:0 "Bulgaria accepts alliance!"
+ croatia.11.d:0 ""
+ croatia.11.a:0 ""
+ croatia.12.t:0 "Bulgaria denies alliance!"
+ croatia.12.d:0 ""
+ croatia.12.a:0 ""
  dont_declare_war_on_serbia:0 "Don't declare war on Serbia. There won't be another chance to attack them through the focus tree."
  declare_war_on_serbia:0 "Declare war on Serbia."
  

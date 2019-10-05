@@ -50,6 +50,9 @@ x = 42
 y = 9
 cost = 5
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = FRA
+}
 prerequisite = { focus = GER_demandrhenishplebiscite } 
 completion_reward = {
 	create_wargoal = {
@@ -71,6 +74,9 @@ x = 38
 y = 10
 cost = 4
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = HOL
+}
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
 	create_wargoal = {
@@ -92,6 +98,9 @@ x = 40
 y = 10
 cost = 4
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = BEL
+}
 prerequisite = { focus = GER_warwithfrance }
 completion_reward = {
 	create_wargoal = {
@@ -332,7 +341,11 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_partitionpoland focus = GER_thedanziguprising } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = versailles_denounced
+	set_country_flag = GER_versailles_denounced
+} 
 
  } 
 
@@ -2060,6 +2073,9 @@ x = 42
 y = 10
 cost = 4
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = DEN
+}
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
 	create_wargoal = {
@@ -2112,6 +2128,9 @@ x = 44
 y = 10
 cost = 4
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = CZE
+}
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
 	create_wargoal = {
@@ -2133,6 +2152,9 @@ x = 46
 y = 10
 cost = 4
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = SWI
+}
 prerequisite = { focus = GER_warwithfrance } 
 completion_reward = {
 	create_wargoal = {
@@ -2293,7 +2315,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_notaninch } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	GER = { country_event = germany.39 }
+}
 
  } 
 
@@ -2305,6 +2330,9 @@ x = 65
 y = 7
 cost = 10
 available_if_capitulated = yes 
+bypass = {
+	has_war_with = USA
+}
 prerequisite = { focus = GER_unrestrictedsubmarinewarfare } 
 ai_will_do = { 
  factor = 1
@@ -2342,7 +2370,10 @@ icon = GFX_focus_attack_britain
 x = 53
 y = 7
 cost = 10
-available_if_capitulated = yes 
+available_if_capitulated = yes
+bypass = {
+	has_war_with = ENG
+}
 prerequisite = { focus = GER_condemnbritishposturing } 
 prerequisite = { focus = GER_backthekurdishrevolts } 
 mutually_exclusive = { focus = GER_anunlikelyalliance } 
@@ -2369,7 +2400,12 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_challengeamericanauthority } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = diplomatic_standoffs
+	add_opinion_modifier = { target = USA modifier = large_decrease }
+	add_threat = 1
+}
 
  } 
 
@@ -2479,7 +2515,11 @@ prerequisite = { focus = GER_thebritishquestion }
 mutually_exclusive = { focus = GER_standourground } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_opinion_modifier = { target = ENG modifier = large_increase }
+	set_country_flag = GER_pro_britain
+}
 
  } 
 
@@ -2510,7 +2550,11 @@ prerequisite = { focus = GER_thebritishquestion }
 mutually_exclusive = { focus = GER_focusonappeasement } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+ completion_reward = {
+	add_opinion_modifier = { target = ENG modifier = large_decrease }
+	set_country_flag = GER_anti_britain
+} 
 
  } 
 

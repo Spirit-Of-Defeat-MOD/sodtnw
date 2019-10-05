@@ -1031,7 +1031,7 @@ country_event = {
 		#add more fear
 		hidden_effect = {
 			add_threat = 5
-			set_country_flag = supported_himmler
+			set_country_flag = GER_supported_himmler
 		}
 	
     }
@@ -1063,6 +1063,27 @@ country_event = {
     }
 }
 
+#Unrestricted Submarine Warfare
+country_event = {
+	id = germany.39
+	title = germany.39.t
+	desc = germany.39.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#What could possibly go wrong
+	option = {
+		name = germany.39.a
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			USA = {country_event = { days = 40 id = sodnews.2 }}
+		}
+	
+	}
+}
 
 #Anti-Komintern
 

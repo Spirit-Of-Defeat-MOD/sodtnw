@@ -5,7 +5,7 @@ news_event = {
 	title = sodnews.1.t
 	desc = sodnews.1.d
 
-    picture = GFX_report_event_ANZAC_day
+    picture = news_event_generic_sign_treaty
     major = yes
     
     is_triggered_only = yes
@@ -14,5 +14,22 @@ news_event = {
 
     option = {
         name = sodnews.1.a
+    }
+}
+
+news_event = { 
+	id = sodnews.2
+	title = sodnews.2.t
+	desc = sodnews.2.d
+
+    picture = news_event_020
+    major = yes
+    
+    is_triggered_only = yes
+	
+    fire_only_once = yes
+
+    option = {
+        name = sodnews.2.a
     }
 }

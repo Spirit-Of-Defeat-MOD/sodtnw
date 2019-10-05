@@ -676,6 +676,45 @@ ideas = {
 					MONTHLY_POPULATION = 0.5
 				}
 			}
+
+			diplomatic_standoffs = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					justify_war_goal_time = -0.05
+					drift_defence_factor = 0.25
+				}
+			}
+
+			versailles_denounced = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					justify_war_goal_time = -0.25
+					conscription_factor = 0.1
+					training_time_army_factor = -0.1
+				}
+			}
 		}
 	}	
 

@@ -149,7 +149,6 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-give_guarantee = GRE
 give_guarantee = POR
 give_guarantee = BEL
 

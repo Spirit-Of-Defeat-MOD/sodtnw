@@ -303,6 +303,7 @@ GER_supported_himmler:0 "Supported Himmler"
 GER_anti_britain:0 "Anti-British Diplomacy"
 GER_pro_britain:0 "Pro-British Diplomacy"
 GER_versailles_denounced:0 "Denounced Treaty of Versailles"
+GER_anti_japan:0 "Anti-Japanese Diplomacy"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"

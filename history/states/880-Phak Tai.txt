@@ -6,7 +6,10 @@ state={
 		owner = SIA
 		add_core_of = SIA
 		victory_points = {
-			7236 1 
+			7236 2 
+		}
+		victory_points = {
+			12230 1 
 		}
 		buildings = {
 			infrastructure = 5

@@ -130,3 +130,25 @@ country_event = { #victory against the emus!
         remove_ideas = second_emu_war
     }
 }
+
+
+country_event = { 
+    id = australia.8
+        title = australia.8.t    
+    desc = australia.8.d
+    picture = GFX_report_event_europe_funeral
+
+        trigger = {
+        tag = AST
+        } 
+    
+        mean_time_to_happen = {
+		days = 1 # Historical outbreak time after elections
+	}
+
+        option = {
+        name = australia.5.a 
+        set_country_flag = AST_1938_election 
+        complete_national_focus = AST_1938_election
+    }
+}

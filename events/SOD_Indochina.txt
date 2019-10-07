@@ -115,10 +115,10 @@ country_event = {
 				add_manpower = 30000
 				load_oob = IDC_rebellion
 			}
-                 declare_war_on = { 
-				target = FIC
+                 FIC = { declare_war_on = { 
+				target = IDC
 				type = annex_everything
-                        }
+                       } }
 	}
      }
      option = {
@@ -177,10 +177,10 @@ country_event = {
 				load_oob = IDC_rebellion
 			}
                
-		declare_war_on = { 
-				target = FIC
+		FIC = { declare_war_on = { 
+				target = IDC
 				type = annex_everything
-                       }
+                       } }
 		IDC = {
 			change_tag_from = FIC
 		}

@@ -64,6 +64,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Prajadhipok"
+	desc = "POLITICS_PRAJADHIPOK_DESC"
+	picture = "Siam_Prajadhipok.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
+}
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

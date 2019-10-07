@@ -1,0 +1,242 @@
+scripted_gui = {
+	coal_container = {
+		context_type = player_context
+
+		window_name = "coal_container"
+
+		parent_window_token = top_bar
+
+		visible = {
+			always = yes
+		}
+	}
+	coal_highlight_totalitarian_socialism = {
+		window_name = "highlight_totalitarian_socialism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 1
+			}
+		}
+	}
+	coal_highlight_communism = {
+		window_name = "highlight_communism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 2
+			}
+		}
+	}
+	coal_highlight_revolutionary_socialism = {
+		window_name = "highlight_revolutionary_socialism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 3
+			}
+		}
+	}
+	coal_highlight_democratic_socialism = {
+		window_name = "highlight_democratic_socialism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 4
+			}
+		}
+	}
+	coal_highlight_social_democracy = {
+		window_name = "highlight_social_democracy"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 5
+			}
+		}
+	}
+	coal_highlight_social_liberal = {
+		window_name = "highlight_social_liberal"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 6
+			}
+		}
+	}
+	coal_highlight_classic_liberal = {
+		window_name = "highlight_classic_liberal"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 7
+			}
+		}
+	}
+	coal_highlight_democratic = {
+		window_name = "highlight_democratic"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 8
+			}
+		}
+	}
+	coal_highlight_neutrality = {
+		window_name = "highlight_neutrality"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 9
+			}
+		}
+	}
+	coal_highlight_utilitarian_despot = {
+		window_name = "highlight_utilitarian_despot"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 10
+			}
+			
+		}
+	}
+	coal_highlight_fascism = {
+		window_name = "highlight_fascism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 11
+			}
+		}
+	}
+	coal_highlight_nihilistic_extremism = {
+		window_name = "highlight_nihilistic_extremism"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			is_in_array = {
+				array = coal_list
+				value = 12
+			}
+		}
+	}
+	coal_totalitarian_socialism_ideology_icon = {
+		window_name = "totalitarian_socialism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = totalitarian_socialism
+		}
+	}
+	coal_communism_ideology_icon = {
+		window_name = "communism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = communism 
+		}
+	}
+	coal_revolutionary_socialism_ideology_icon = {
+		window_name = "revolutionary_socialism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = revolutionary_socialism
+		}
+	}
+	coal_democratic_socialism_ideology_icon = {
+		window_name = "democratic_socialism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = democratic_socialism
+		}
+	}
+	coal_social_democracy_ideology_icon = {
+		window_name = "social_democracy_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = social_democracy
+		}
+	}
+	coal_social_liberal_ideology_icon = {
+		window_name = "social_liberal_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = social_liberal
+		}
+	}
+	coal_classic_liberal_ideology_icon = {
+		window_name = "classic_liberal_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = classic_liberal
+		}
+	}
+	coal_democratic_ideology_icon = {
+		window_name = "democratic_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = democratic
+		}
+	}
+	coal_neutrality_ideology_icon = {
+		window_name = "neutrality_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = neutrality
+		}
+	}
+	coal_utilitarian_despot_ideology_icon = {
+		window_name = "utilitarian_despot_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = utilitarian_despot
+		}
+	}
+	coal_fascism_ideology_icon = {
+		window_name = "fascism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = fascism
+		}
+	}
+	coal_nihilistic_extremism_ideology_icon = {
+		window_name = "nihilistic_extremism_icon"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = nihilistic_extremism
+		}
+	}
+}

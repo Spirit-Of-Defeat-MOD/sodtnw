@@ -1,0 +1,27 @@
+###Part of Flizzy's coalition system, delete if you already have a week on action
+on_actions = {
+	on_startup = {
+		set_variable = {
+			var = global_week 
+			value = 1
+		}
+	}
+	on_daily = {
+		if = {
+			limit = {
+				check_variable = { global_week < 8 }
+			}
+			add_to_variable = {
+				var = global_week
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { global_week = 8 }
+			}
+			WEEK_END = yes
+			set_variable = { global_week = 1 }
+		}
+	}
+}

@@ -201,6 +201,7 @@ ideas = {
 				conscription = 0.01
 			}
 		}
+	}
 	
 	
 	

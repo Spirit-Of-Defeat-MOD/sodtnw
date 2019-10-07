@@ -98,6 +98,36 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Cuong De"
+	picture = "Cuong_De.tga"
+	traits = { politically_connected harsh_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Duy Tan"
+	picture = "Duy_Tan.tga"
+	traits = { cavalry_officer harsh_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Gabriel Sabattier"
+	picture = "Gabriel_Sabattier.tga"
+	traits = { infantry_officer harsh_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
 create_navy_leader = {
 	name = "Le Quang Vy"
 	picture = "Portrait_Le_Quang_Vy.tga"

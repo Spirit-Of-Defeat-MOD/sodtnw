@@ -52,7 +52,7 @@ country_event = {
     title = indochina.4.t    
     desc = indochina.4.d
 
-    picture = GFX_report_event_generic_rally
+    picture = GFX_report_event_spain_civil_war_volunteers_02
     
     is_triggered_only = yes
 

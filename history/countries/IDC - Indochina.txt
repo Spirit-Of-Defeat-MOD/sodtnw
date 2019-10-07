@@ -70,3 +70,14 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_corps_commander = {
+	name = "Vo Nguyen Giap"
+	picture = "Vo_Nguyen_Giap.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

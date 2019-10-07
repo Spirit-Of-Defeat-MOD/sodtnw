@@ -19,7 +19,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	classic_liberal = 100
 }
 
 create_country_leader = {
@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = "POLITICS_FEDERICO_PAEZ_DESC"
 	picture = "GFX_Portrait_ecuador_federico_paez"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = market_socialism
 	traits = {
 		#
 	}
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_AURELIO_MOSQUERA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservative_liberalism
 	traits = {
 		#
 	}

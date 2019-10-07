@@ -41,9 +41,11 @@ if = {
 	}
 }
 
-#add_ideas = {
-#	independence_war
-#}
+add_ideas = {
+	two_year_draft
+	autarky
+	interventionism
+}
 
 set_convoys = 40
 

@@ -131,7 +131,13 @@ grain_imports_desc:0 "" #addtothislater
 diplomatic_standoffs:0 "Diplomatic Standoffs"
 diplomatic_standoffs_desc:0 "We are currently in the midst of diplomatic standoffs with the United States of America."
 versailles_denounced:0 "Versailles Denounced"
-versailles_denounced_desc:0 ""
+versailles_denounced_desc:0 "" #addlater
+naval_limitations:0 "Naval Limitations Imposed"
+naval_limitations_desc:0 "" #addlater
+british_audits:0 "British Audits Authorized"
+british_audits_desc:0 "" #addlater
+deny_british_audits:0 "British Audits Denied"
+deny_british_audits_desc:0 "" #addlater
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -304,6 +310,8 @@ GER_anti_britain:0 "Anti-British Diplomacy"
 GER_pro_britain:0 "Pro-British Diplomacy"
 GER_versailles_denounced:0 "Denounced Treaty of Versailles"
 GER_anti_japan:0 "Anti-Japanese Diplomacy"
+GER_claimed_colonies:0 "Claimed Colonial Holdings"
+GER_soviet_alliance:0 "German-Soviet Alliance"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"

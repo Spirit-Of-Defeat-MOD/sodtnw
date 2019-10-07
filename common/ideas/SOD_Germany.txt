@@ -715,6 +715,62 @@ ideas = {
 					training_time_army_factor = -0.1
 				}
 			}
+
+			naval_limitations = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					industrial_capacity_dockyard = -0.10
+					ships_at_battle_start = -0.10 
+					navy_max_range_factor = -0.05
+				}
+			}
+
+			british_audits = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.10 
+				}
+			}
+
+			deny_british_audits = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = 0.10 
+				}
+			}
 		}
 	}	
 

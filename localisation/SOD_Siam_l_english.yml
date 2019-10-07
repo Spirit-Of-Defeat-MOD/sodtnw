@@ -26,6 +26,7 @@ l_english:
  SIA_nihilistic_extremism_party:0 "-"
  SIA_nihilistic_extremism_party_long:0 "-"
 
+#Country Names
  SIA_totalitarian_socialism:0 ""
  SIA_totalitarian_socialism_DEF:0 ""
  SIA_communism:0 ""
@@ -51,6 +52,7 @@ l_english:
  SIA_nihilistic_extremism:0 ""
  SIA_nihilistic_extremism_DEF:0 ""
  
+#Country Adjectives
  SIA_totalitarian_socialism_ADJ:0 "Siamese"
  SIA_communism_ADJ:0 "Siamese"
  SIA_fascism_ADJ:0 "Thai"
@@ -63,3 +65,6 @@ l_english:
  SIA_neutrality_ADJ:0 "Siamese"
  SIA_utilitarian_despot_ADJ:0 "Siamese"
  SIA_nihilistic_extremism_ADJ:0 "Siamese"
+
+#News
+ 

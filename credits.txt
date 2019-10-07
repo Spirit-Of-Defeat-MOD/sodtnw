@@ -1,8 +1,12 @@
 *Insert dev names here*
 SneakierTech
 kstar234
+fire peanut
+pp-man (best dev)
+Lakshmi
+Zhu Ba
 
-Other People
+*Other People*
 Shiroe and the Kaissereich Team
 The Fuhrerreich Team
 The Mod Coop and all of our partner mods
@@ -11,5 +15,5 @@ Gemini
 Lugash
 TheBolshevikJew
 Eywor
-pp-man (best dev)
 Flizzy for their coalition system
+Yard1 for Division Limiter

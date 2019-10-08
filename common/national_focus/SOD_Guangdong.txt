@@ -1,0 +1,13 @@
+focus_tree = {
+    id = 1936_election
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            
+            tag = GDG
+        }
+    }
+}

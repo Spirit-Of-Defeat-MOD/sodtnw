@@ -597,3 +597,7 @@ HNA = {
 	color = rgb { 132 152 26 }
 	color_ui = rgb { 132 152 26 }
 }
+IDC = {
+        color = rgb { 255 243 112 }
+        color_ui = rgb { 255 243 112 }
+}

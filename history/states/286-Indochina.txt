@@ -14,6 +14,7 @@ state={
 		}
 		add_core_of = VIN
 		add_core_of = FIC
+		add_core_of = IDC
 		owner = FIC
 		
 		buildings = {

@@ -1,0 +1,17 @@
+﻿add_namespace = ireland
+
+# Intro event
+country_event = {
+	id = ireland.1
+    title = ireland.1.t
+	desc = ireland.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ireland.1.a
+	}
+}

@@ -89,7 +89,6 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 	set_global_flag = MTG_second_london_conference
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
@@ -97,9 +96,7 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
+	
 }
 	
 set_convoys = 800
@@ -148,6 +145,9 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
+
+give_guarantee = POR
+give_guarantee = BEL
 
 set_politics = {
 	ruling_party = democratic
@@ -204,24 +204,12 @@ add_to_faction = MAL
 # Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
-
-create_country_leader = {
 	name = "Stanley Baldwin"
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = fiscal_conservatism
 	traits = {
-		conservative_grandee
 	}
 }
 
@@ -243,8 +231,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		champion_of_peace_1
-		economic_reformer
 	}
 }
 
@@ -255,7 +241,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		staunch_stalinist
 	}
 }
 

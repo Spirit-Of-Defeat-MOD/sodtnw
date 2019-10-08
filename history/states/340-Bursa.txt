@@ -1,10 +1,9 @@
-
 state={
 	id=340
 	name="STATE_340"
 	manpower = 1026527
 	resources={
-		chromium=39 # was: 54
+		chromium=39
 	}
 
 	state_category = town
@@ -20,7 +19,6 @@ state={
 			947 1 
 		}
 		add_core_of = TUR
-                add_core_of = GRE
 		add_core_of = KON
 	}
 

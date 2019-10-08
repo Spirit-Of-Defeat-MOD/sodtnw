@@ -45,7 +45,7 @@ units = {
 	}
 	division= {	# 
 		name = "Division de Cochinchine-Cambodge"
-		location = 4075
+		location = 7376 
 		division_template = "Division Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FIC" } }
 		start_experience_factor = 0.1
@@ -54,7 +54,7 @@ units = {
 	}
 	division= {	
 		name = "Brigade d'Annam-Laos"	
-		location = 7376
+		location = 4075
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FIC" } }
 		start_experience_factor = 0.1

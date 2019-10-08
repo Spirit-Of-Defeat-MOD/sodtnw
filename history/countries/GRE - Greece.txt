@@ -13,6 +13,8 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	megali_idea
+	GRE_third_balkan_war
 }
 
 set_technology = {

@@ -2278,7 +2278,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_peaceforourtimes } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = strict_engagement
+} 
 
  } 
 
@@ -2428,7 +2431,13 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_jointheleagueofnations } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+ completion_reward = {
+ add_timed_idea = {
+    idea = war_reparations
+    days = 180
+}
+} 
 
  } 
 
@@ -2623,6 +2632,9 @@ prerequisite = { focus = GER_focusonappeasement }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	add_ideas = germany_league
+}
 
  } 
 
@@ -2652,7 +2664,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_expandthekriegsmarine } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = deny_british_audits
+} 
 
  } 
 
@@ -2683,6 +2698,9 @@ prerequisite = { focus = GER_reaffirmnavallimitations }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	add_ideas = british_audits
+}
 
  } 
 

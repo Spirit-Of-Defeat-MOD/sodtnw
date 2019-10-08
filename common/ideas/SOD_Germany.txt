@@ -771,6 +771,66 @@ ideas = {
 					political_power_factor = 0.10 
 				}
 			}
+
+			germany_league = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.25
+					justify_war_goal_time = 0.50
+					democratic_acceptance = 50
+					classic_liberal_acceptance = 40 
+					social_liberal_acceptance = 30
+					 
+				}
+			}
+
+			strict_engagement = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					navy_submarine_attack_factor = -0.1
+					naval_coordination = -0.01
+				}
+			}
+
+			war_reparations = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = 0.05
+				}
+			}
 		}
 	}	
 

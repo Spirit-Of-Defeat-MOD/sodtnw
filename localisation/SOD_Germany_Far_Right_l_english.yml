@@ -119,9 +119,9 @@ modernized_production_desc:0 "New advancements in production line layouts and eq
 guiding_hand:0 "The Guiding Hand"
 guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."
 russian_diplomacy:0 "Diplomacy With The USSR"
-russian_diplomacy_desc:0 "" #addtothislater
+russian_diplomacy_desc:0 "Germany and the Soviet Union have common enemies in the current liberal-democratic world order. Furthermore, the very existence of a Polish state contradicts the interests of both the Soviet people, as well as that of the German people. Diplomatic ties with the USSR are a necessary evil; we may not be fond of their Godless Bolshevism, yet there is simply no use in denying their usefulness towards achieving our nation's goals."
 russian_hostility:0 "Hostility With The USSR"
-russian_hostility_desc:0 "" #addtothislater
+russian_hostility_desc:0 "To the East lie the two greatest enemies of our people; the Republic of Poland, and the Union of Soviet Socialist Republics. These states contradict our values and threaten our interests. Neither the Poles nor the Soviets can ever be trusted. Germany must work to eradicate their regimes and adjust the borders to suit our interests!"
 joint_exercises:0 "Joint Military Exercises"
 joint_exercises_desc:0 "Joint military exercises with the Union of Soviet Socialist Republics has afforded the Reichswehr an opportunity to engage in live fire testing, strategic positioning, and simulated warfare exercises. Additionally, collaboration with Soviet generals has offered us a perspective of contemporary grand strategy doctrine. These exercises will be crucial to our future military successes."
 official_paramilitaries:0 "Official Paramilitaries"
@@ -138,6 +138,12 @@ british_audits:0 "British Audits Authorized"
 british_audits_desc:0 "" #addlater
 deny_british_audits:0 "British Audits Denied"
 deny_british_audits_desc:0 "" #addlater
+germany_league:0 "League of Nations Member"
+germany_league_desc:0 "" #addlater
+strict_engagement:0 "Strict Engagement Rules"
+strict_engagement_desc:0 "Our nation has agreed to sign naval treaties that enforce strict regulations on naval combat. These treaties were designed to limit civilian casualties, but they also will hinder our navy's flexibility."
+war_reparations:0 "Resumed Reparations Payments"
+war_reparations_desc:0 "We have agreed to resume payments of war reparations and make expedited payments of amounts we have neglected to pay. This will have a toll on our economy in the next few months as we make large payments towards foreign nations. It is an unfortunate truth, that these sacrifices were necessary to improve our diplomatic relations with Britain and the world at large..."
  
 #Events
 germany.1.t:0 "Germany Introduction"

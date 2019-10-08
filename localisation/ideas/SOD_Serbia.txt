@@ -1,0 +1,276 @@
+ideas = {
+	head_of_government = {
+		SER_nikola_pasic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_nikola_pasic"
+			}
+			traits = {
+				head_of_government
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	foreign_minister = {
+		SER_vojislav_marinkovic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_vojislav_marinkovic"
+			}
+			traits = {
+				foreign_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	economy_minister = {
+		SER_zelimir_mazuranic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_zelimir_mazuranic"
+			}
+			traits = {
+				economy_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	security_minister = {
+		SER_dimitrije_ljotic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					OR = {
+						has_government = neutrality
+						has_government = nihilistic_extremism
+					}
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_dimitrije_ljotic"
+			}
+			traits = {
+				security_minister
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	head_of_intel = {
+		SER_petar_zivkovic = {
+			allowed = { original_tag = SER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = neutrality
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SER_petar_zivkovic"
+			}
+			traits = {
+				head_of_intel
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	hidden_ideas = { }
+	
+	country {
+	# STARTING
+	    SER_podgoricka_skupstina = {
+			
+			allowed = {
+				original_tag = SER
+				NOT = {
+					country_exists = MNT
+				}
+			}
+
+			picture = generic_king_handled
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.10
+				political_power_gain = -0.2
+				conscription_factor = -0.1
+			}
+		}
+		SER_communist_threat = {
+			
+			allowed = {
+				original_tag = SER
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			picture = SER_communist_threat
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = totalitarian_socialism
+						has_government = democratic_socialism
+						has_government = revolutionary_socialism
+					}
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.10
+                neutrality_acceptance = -15
+			}
+		}
+		SER_revanchism = {
+			
+			allowed = {
+				original_tag = SER
+			}
+
+			picture = SER_revanchism
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    conscription = 0.01
+				surrender_limit = 0.2
+				production_speed_arms_factory_factor = 0.1
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
+		SER_serbian_general_staff = {
+			
+			picture = YUG_serbian_general_staff
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = utilitarian_despot
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				military_leader_cost_factor = 0.50
+				max_planning = 0.1
+			}
+		}
+	# COMMUNIST
+		SER_yugoslavian_general_staff = {
+			
+			picture = YUG_yugoslavian_general_staff
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = communism
+					has_government = totalitarian_socialism
+					has_government = revolutionary_socialism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				max_planning = 0.1
+			}
+		}
+	# CHETNIK
+		SER_illegitimate_regime = {
+			
+			allowed = {
+				original_tag = SER
+				has_government = utilitarian_despot
+			}
+
+			picture = SER_illegitimate_regime
+
+			allowed_civil_war = {
+				has_government = utilitarian_despot
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.35
+				surrender_limit = -0.2
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+				fuel_gain_factor = -0.15
+				research_speed_factor = -0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,230 @@
+ideas = {
+    head_of_government = { ### Head of Government ###
+		GDG_chen_hog = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Duan_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Duan_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_hog"
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_federalist
+			}
+			cancel_if_invalid = yes
+		}
+        GDG_com_hog = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Duan_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Duan_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_hog"
+			}
+			traits = {
+				head_of_government
+				vanguard_communist
+				hog_determined_revolutionary
+			}
+			cancel_if_invalid = yes
+		}
+	}
+
+foreign_minister = { ### Foreign Minister ###
+		GDG_frm = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Wang_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Wang_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_frm"
+			}
+			traits = {
+				foreign_minister
+				utilitarian_despot
+			}
+			cancel_if_invalid = yes
+		}
+        GDG_com_frm = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Wang_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Wang_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_frm"
+			}
+			traits = {
+				foreign_minister
+				vanguard_communist
+				frm_soviet_loyalist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+economy_minister = { ### Minister of the Economy ###
+		GDG_eco = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = _dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = _dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_eco"
+			}
+			traits = {
+				economy_minister
+				utilitarian_despot
+			}
+			cancel_if_invalid = yes
+		}
+        GDG_com_eco = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = _dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = _dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_eco"
+			}
+			traits = {
+				economy_minister
+				vanguard_communist
+				eco_economic_interventionist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+security_minister = { ### Minister of Security ###
+		GDG_sec = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yunpeng_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yunpeng_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_sec"
+			}
+			traits = {
+				security_minister
+				utilitarian_despot
+			}
+			cancel_if_invalid = yes
+		}
+        GDG_com_sec = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Yunpeng_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yunpeng_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_sec"
+			}
+			traits = {
+				security_minister
+				vanguard_communist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	head_of_intel = { ### Head of Mil Intel ###
+		GDG_int = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Shuzheng_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Shuzheng_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_hog"
+			}
+			traits = {
+				head_of_intel
+				utilitarian_despot
+				
+			}
+			cancel_if_invalid = yes
+		}
+        GDG_com_int = {
+			allowed = { original_tag = GDG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Shuzheng_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Shuzheng_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDG_hog"
+			}
+			traits = {
+				head_of_intel
+				vanguard_communist
+				int_devoted_ideologue
+				
+			}
+			cancel_if_invalid = yes
+		}
+	}

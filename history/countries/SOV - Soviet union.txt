@@ -85,8 +85,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	trotskyite_plot
-	home_of_revolution
+    home_of_revolution
+	SOV_territorial_draft
 }
 
 create_country_leader = {

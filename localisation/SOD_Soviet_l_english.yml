@@ -1,30 +1,30 @@
 ﻿l_english: 
 
 #Parties
-SOV_fascism_party:0 ""
-SOV_fascism_party_long:0 ""
+SOV_fascism_party:0 "VNSP"
+SOV_fascism_party_long:0 "Vserosiyskaya Nacional-Syndikalisticheskaya Partiya"
 SOV_communism_party:0 "VKP"
 SOV_communism_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya \n\n\n\n£vkp\n\n\n\n\n"
-SOV_democratic_party:1 ""
-SOV_democratic_party_long:0 ""
-SOV_utilitarian_despot_party:0 ""
-SOV_utilitarian_despot_party_long:0 ""
-SOV_neutrality_party:0 ""
-SOV_neutrality_party_long:0 ""
-SOV_social_democracy_party:0 ""
-SOV_social_democracy_party_long:0 ""
-SOV_social_liberal_party:0 ""
-SOV_social_liberal_party_long:0 ""
-SOV_classic_liberal_party:0 ""
-SOV_classic_liberal_party_long:0 ""
+SOV_democratic_party:1 "Oktyabristy"
+SOV_democratic_party_long:0 "Soyuz 17 oktyabrya"
+SOV_utilitarian_despot_party:0 "ROVS"
+SOV_utilitarian_despot_party_long:0 "Russky Obshevoyinsky Soyuz"
+SOV_neutrality_party:0 "Voyennye"
+SOV_neutrality_party_long:0 "Voyennaya Hunta"
+SOV_social_democracy_party:0 "Enesy"
+SOV_social_democracy_party_long:0 "Trudovaya Narodno-Socialisticheskaya Partiya"
+SOV_social_liberal_party:0 "Kadets"
+SOV_social_liberal_party_long:0 "Konstitucionno-Demokraticheskaya Partiya"
+SOV_classic_liberal_party:0 "RDP"
+SOV_classic_liberal_party_long:0 "Radikalno-Demokraticheskaya Partiya"
 SOV_totalitarian_socialism_party:0 "VKP"
 SOV_totalitarian_socialism_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya \n\n\n\n£vkp\n\n\n\n"
-SOV_revolutionary_socialism_party:0 "VKP"
-SOV_revolutionary_socialism_party_long:0 "Vsesoyuznaya Kommunisticheskaya Partiya \n\n\n\n£vkp\n\n\n\n"
-SOV_democratic_socialism_party:0 ""
-SOV_democratic_socialism_party_long:0 ""
-SOV_nihilistic_extremism_party:0 ""
-SOV_nihilistic_extremism_party_long:0 ""
+SOV_revolutionary_socialism_party:0 "PRC"
+SOV_revolutionary_socialism_party_long:0 "Partiya Revolucionnogo Komunizma"
+SOV_democratic_socialism_party:0 "Mensheviky"
+SOV_democratic_socialism_party_long:0 "Rossiyskaya Social-Demokratichnaya Partiya"
+SOV_nihilistic_extremism_party:0 "NN"
+SOV_nihilistic_extremism_party_long:0 "Novonarodniki"
 
 #Country Names
  SOV_fascism:0 "Union of Soviet Socialist Republics"
@@ -67,6 +67,8 @@ SOV_nihilistic_extremism_party_long:0 ""
 #Ministers
 #should be reintegrated
 
+#National Spirits
+ SOV_territorial_draft:0 "Territorial Draft"
 
  
 #Focuses

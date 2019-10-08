@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+    pronayist_defections = {
+				
+			allowed = {
+				original_tag = HUN
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+                stability_weekly = -0.01
+				training_time_factor = -0.15
+				conscription = -0.05
+				nihilistic_extremism_drift = 0.1
+	
+			}
+		}
+}
+}

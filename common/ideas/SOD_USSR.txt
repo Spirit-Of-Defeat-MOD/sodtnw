@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+	
+		SOV_territorial_draft = {
+			
+			picture = idea_SOV_territorial_draft
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = { 
+                                 has_government = communism 
+                          }
+
+			removal_cost = -1
+			
+			modifier = {
+				 conscription = 0.1 
+                                  industrial_capacity_factory = -0.05
+			              }
+		    }
+	    }
+	}

@@ -1,13 +1,15 @@
+###########################
+# Guangdong Focus Tree base
+# By Warhistory
+###########################
+
 focus_tree = {
-    id = 1936_election
-    
-    country = {
-        factor = 0
-        
-        modifier = {
-            add = 10
-            
-            tag = GDG
-        }
-    }
+        id = GDG_focus
+        country = {
+                factor = 0
+                modifier = {
+                        add = 10
+                        tag = GDG
+                }
+         }
 }

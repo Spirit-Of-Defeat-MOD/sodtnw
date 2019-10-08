@@ -1,5 +1,0 @@
-WEEK_END = {
-	every_country = {
-		coal_calc_total = yes
-	}
-}

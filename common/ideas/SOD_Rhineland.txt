@@ -144,64 +144,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
-
-	country = {
-		infiltrated_bureaucracy = {
-				
-			allowed = {
-				original_tag = RHI
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-		
-			modifier = {
-				stability_factor = -0.02
-				political_power_factor = -0.10
-			}
-		}
-
-		labor_strikes = {
-				
-			allowed = {
-				original_tag = RHI
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-		
-			modifier = {
-				production_factory_start_efficiency_factor = -0.07 
-				production_speed_buildings_factor = -0.15
-				stability_factor = -0.15
-			}
-		}
-
-		terrorist_attack = {
-				
-			allowed = {
-				original_tag = RHI
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-		
-			modifier = {
-				stability_factor = -0.10
-				political_power_factor = -0.10
-				conscription = 0.01
-			}
-		}
-	}
 	
 	
 	

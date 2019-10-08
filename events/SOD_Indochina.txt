@@ -1,188 +1,37 @@
-﻿########################################################
-###########Done by Kstar, Unkn0wn3ntity and DBTOblivion################
-########################################################
+﻿#################################
+###########Done by Kstar and DBTOblivion################
+#######################################
 
 add_namespace = indochina
 
-#Intro event
+#Change Capital
 country_event = {
     id = indochina.1
     title = indochina.1.t    
     desc = indochina.1.d
     
-	picture = GFX_report_event_generic_rally
-	
     is_triggered_only = yes
+    
     
     option = {
         name = indochina.1.a 
+
     }
-}
-
-#Change Capital
-country_event = {
-    id = indochina.2
-    title = indochina.2.t    
-    desc = indochina.2.d
-    
-    is_triggered_only = yes
-
+        
     option = {
-        name = indochina.2.a 
-    }
-
-    option = {
-        name = indochina.2.b 
+        name = indochina.1.b 
 		set_capital = 286
-    }
 
+    }
+	
 	option = {
-        name = indochina.2.c 
+        name = indochina.1.c 
 		set_capital = 876
     }
-
+	
 	option = {
-        name = indochina.2.e
+        name = indochina.1.e
+
     }
 }
 
-#the rebellion, INDOCHINA, RISE UP!
-country_event = {
-    id = indochina.4
-    title = indochina.4.t    
-    desc = indochina.4.d
-
-    picture = GFX_report_event_spain_civil_war_volunteers_02
-    
-    is_triggered_only = yes
-
-    immediate = {
-		set_country_flag = FIC_indochina_rebellion
-	}
-
-   option = {
-		name = indochina.4.a
-		ai_chance = {
-			factor = 100
-		}
-		IDC = {
-			set_country_flag = choice_made
-		}
-		add_stability = 0.15
-		add_war_support = 0.2
-		IDC = {
-			if = {
-				limit = {
-					FROM = {
-						controls_state = 876
-					}
-				}
-				transfer_state = 876
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 883
-					}
-				}
-				transfer_state = 883
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 877
-					}
-				}
-				transfer_state = 877
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 872
-					}
-				}
-				transfer_state = 872
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 671
-					}
-				}
-				transfer_state = 671
-			}
-                 IDC = {
-				add_manpower = 30000
-				load_oob = IDC_rebellion
-			}
-                 FIC = { declare_war_on = { 
-				target = IDC
-				type = annex_everything
-                       } }
-	}
-     }
-     option = {
-		name = indochina.4.b
-		ai_chance = {
-			factor = 0
-		}
-		IDC = {
-			set_country_flag = choice_made
-		} 
-                add_stability = 0.15
-		add_war_support = 0.2
-               IDC = {
-			if = {
-				limit = {
-					FROM = {
-						controls_state = 876
-					}
-				}
-				transfer_state = 876
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 883
-					}
-				}
-				transfer_state = 883
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 877
-					}
-				}
-				transfer_state = 877
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 872
-					}
-				}
-				transfer_state = 872
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 671
-					}
-				}
-				transfer_state = 671
-			}
-               IDC = {
-				add_manpower = 30000
-				load_oob = IDC_rebellion
-			}
-               
-		FIC = { declare_war_on = { 
-				target = IDC
-				type = annex_everything
-                       } }
-		IDC = {
-			change_tag_from = FIC
-		}
-	}
-}

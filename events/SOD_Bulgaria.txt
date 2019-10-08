@@ -30,18 +30,22 @@ country_event = {
 	option = {
 		name = bulgaria.2.a
 		CRO = {
-			country_event = { id = croatia.11 days = 2 }
-		}
-		hidden_effect = {
-			set_global_flag = BUL_CRO_alliance
+			create_faction = "Balkan League"
+			add_to_faction = BUL
+			if = {
+				limit = {
+					MAC = {
+						is_puppet_of = BUL
+					}
+				}
+				add_to_faction = MAC
+			}
 		}
 	}
 	
 	option = {
 		name = bulgaria.2.b
-		CRO = {
-			country_event = { id = croatia.12 days = 2 }
-		}
+		
 	}
 }
 
@@ -63,15 +67,11 @@ country_event = {
 			amount = 750
 			target = CRO
 		}
-		CRO = {
-			country_event = { id = croatia.13 days = 2 }
-		}
+		
 	}
 	
 	option = {
 		name = bulgaria.3.b
-		CRO = {
-			country_event = { id = croatia.14 days = 2 }
-		}
+		
 	}
 }

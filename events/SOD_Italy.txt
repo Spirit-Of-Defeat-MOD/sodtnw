@@ -15,5 +15,7 @@ country_event = {
 	
 	option = {
 		name = italy.1.a
+		add_political_power = 1
+	
     }
 }

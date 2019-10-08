@@ -1,13 +1,5 @@
 spriteTypes = {
 #focuses
-spriteType = {
-		name = "GFX_ustase"
-		texturefile = "gfx/interface/goals/CRO/Ustase.tga"
-	}
-spriteType = {
-		name = "GFX_greater_croatia"
-		texturefile = "gfx/interface/goals/CRO/Greater_Croatia.tga"
-	}
 #events
 #ministers
 spriteType = {

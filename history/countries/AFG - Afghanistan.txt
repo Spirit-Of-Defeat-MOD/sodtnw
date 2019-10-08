@@ -32,7 +32,7 @@ set_popularities = {
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "Mohammed Nadir Shah"
+	name = "Mohammed Nahir Shah"
 	desc = "POLITICS_MOHAMMED_NADIR_SHAH_DESC"
 	picture = "Portrait_AFG_Mohammed_Nadir_Shah.tga"
 	expire = "1965.1.1"

@@ -11,7 +11,6 @@ state={
 		}
 		add_core_of = VIN
 		add_core_of = FIC
-		add_core_of = IDC
 		owner = FIC
 		victory_points = {
 			4401 3 

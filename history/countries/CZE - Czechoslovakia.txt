@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism_subtype
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -112,4 +112,24 @@ create_corps_commander = {
     logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		CZE_skoda_works
+		CZE_divided_nation
+}
+	give_guarantee = YUG
+	give_guarantee = ROM
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "Death or Dishonor" }
+	}
+	add_ideas = {
+		CZE_fortification_focus
+	}
+}
 

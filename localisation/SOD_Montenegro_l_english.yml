@@ -73,14 +73,8 @@
 
  #Events
  #should be reintegrated
- 
- #National Spirits
- MNT_kpcg:0 "The KPCG"
- MNT_greens:0 "The Greens"
- MNT_crkva:0 "The Church"
 
  #Descriptions
  POLITICS_MILOVAN_DJILAS_DESC:0 ""
- POLITICS_KRSTO_POPOVIC_DESC:0 ""
  POLITICS_DANILO_PETROVIC_NJEGOS_DESC:0 ""
  POLITICS_PAVLE_DJURISIC_DESC:0 ""

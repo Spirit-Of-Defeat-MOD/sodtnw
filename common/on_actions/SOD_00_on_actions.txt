@@ -1,25 +1,21 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			GER = { country_event = germany.1 }
-			SOV = { country_event = soviet.1 }
-			ITA = { country_event = italy.1 }
-			ENG = { country_event = uk.2 }
-			FRA = { country_event = france.1 }
-			SPR = { country_event = spain.1 }
-			POL = { country_event = poland.1 }
-			RHI = { country_event = rhine_political.0 }
-			TUR = { country_event = turkey.1 }
-			CRO = { country_event = croatia.1 }
-			SER = { country_event = serbia.1 }
-			GRE = { country_event = greece.1 }
-			BUL = { country_event = bulgaria.1 }
-			IRE = { country_event = ireland.1 }
-			FIC = { country_event = indochina.1 }
-			#ALB = { country_event = albania.1 }
-			#AST = { country_event = ? }
-			#SIA = { country_event = siam.1 }
-			
+			GER = {
+				country_event = germany.1
+			}
+			ITA = {
+				country_event = italy.1
+			}
+			RHI = {
+				country_event = rhine_political.0
+			}
+			CRO = {
+				country_event = croatia.1
+			}
+			SER = {
+				country_event = serbia.1
+			}
 			every_country = {
 				if = {
 					limit = {
@@ -31,6 +27,23 @@ on_actions = {
 			}
 		}
 	}
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    any_country = {
+                        exists = no
+                        has_country_flag = statistics_1
+                    }
+                }
+                random_country = {
+                    limit = {
+                        exists = yes
+                    }
+                }
+            }
+        }
+    }
 	on_army_leader_won_combat = { 
 		effect = {
 			if = {
@@ -39,8 +52,8 @@ on_actions = {
 						AND = {
 							original_tag = SER
 							has_government = communism
-							has_civil_war = yes
 						}
+						has_civil_war = yes
 					}
 					NOT = { 
 						has_global_flag = SER_battle_of_prokuplje
@@ -59,8 +72,8 @@ on_actions = {
 						AND = {
 							original_tag = SER
 							has_government = utilitarian_despot
-							has_civil_war = yes
 						}
+						has_civil_war = yes
 					}
 					NOT = { 
 						has_global_flag = SER_battle_of_prokuplje

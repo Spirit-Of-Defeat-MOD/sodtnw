@@ -63,11 +63,11 @@ country_event = {
 			SER = {
 				release = MAC
 			}
-			puppet = MAC
 		}
 		puppet = MNT
 		puppet = SER
-		news_event = { id = sod_peacenews.1 days = 1 }
+		puppet = MAC
+		news_event = { id = sod_peacenews.1 days = 1}
 	}
 }
 # Serbo-croat war - Serbian victory
@@ -101,39 +101,24 @@ country_event = {
 			transfer_state = 859 #Bosnian Krajina
 			transfer_state = 860 #Posavina
 			transfer_state = 861 #Mostar
-			if = {
-				limit = {
-					country_exists = MNT
-					MNT = {
-						is_in_faction_with = SER
-					}
-				}
-				annex_country = {
-					target = MNT
-					transfer_troops = yes
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						country_exists = SLV
-					}
-					OR = {
-						CRO = {
-							owns_state = 788
-						}
-						CRO = {
-							owns_state = 102
-						}
-					}
-				}
-				CRO = {
-					release = SLV
-				}
-				puppet = SLV
-			}
-			puppet = CRO
 		}
-		news_event = { id = sod_peacenews.2 days = 1 }
+		if = {
+			limit = {
+				country_exists = MNT
+				MNT = {
+					is_in_faction_with = SER
+				}
+			}
+			annex_country = {
+				target = MNT
+				transfer_troops = yes
+			}
+		}
+		CRO = {
+			release = SLV
+		}
+		puppet = SLV
+		puppet = CRO
+		news_event = { id = sod_peacenews.2 days = 1}
 	}
 }

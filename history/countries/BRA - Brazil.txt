@@ -2,6 +2,7 @@
 
 oob = "BRA_1936"
 
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		
@@ -11,6 +12,7 @@ set_technology = {
 	gwtank = 1
 	early_fighter = 1
 	CAS1 = 1
+	
 }
 if = {
 	limit = {
@@ -63,7 +65,7 @@ set_popularities = {
     democratic = 1
     neutrality = 91
     utilitarian_despot = 0
-    fascism = 1
+    fascismism = 1
     nihilistic_extremism = 0
 }
 

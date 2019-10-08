@@ -23,23 +23,3 @@ ideas = {
 		    }
 	    }
 	}
-	country = {
-    joint_exercises_sov = {
-				
-			allowed = {
-				original_tag = SOV
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-			
-			modifier = {
-				army_org_factor = 0.05
-				max_planning = 0.25
-				army_attack_factor = 0.1
-			}
-		}
-}

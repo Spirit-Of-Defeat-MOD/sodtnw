@@ -163,6 +163,12 @@ if = {
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.5
 	}
+	
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	}
 
 	set_autonomy = {
 		target = HAI
@@ -182,11 +188,8 @@ if = {
 		puppet = HON
 		puppet = HAI
 		puppet = DOM
+		puppet = PHI
 	}
-}
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
 }
 
 create_country_leader = {

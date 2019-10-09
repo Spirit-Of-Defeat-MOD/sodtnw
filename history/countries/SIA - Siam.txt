@@ -47,11 +47,7 @@ set_politics = {
 set_popularities = {
 	neutrality = 55
 	utilitarian_despot = 35
-<<<<<<< HEAD
 	democratic = 10
-=======
-	democracy = 10
->>>>>>> parent of 8a5f31d... Revert "Merge branch 'master' of https://github.com/Spirit-Of-Defeat-MOD/sodtnw"
 }
 
 coal_add_neutrality = yes

@@ -45,11 +45,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 75
-	utilitarian_despot = 10
-	social_democracy = 5
-	social_liberal = 5
-	classic_liberal = 5
+	neutrality = 55
+	utilitarian_despot = 35
+	democratic = 10
 }
 
 create_country_leader = {
@@ -58,6 +56,17 @@ create_country_leader = {
 	picture = "Siam_Prajadhipok.dds"
 	expire = "1965.1.1"
 	ideology = partial_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prajadhipok"
+	desc = "POLITICS_PRAJADHIPOK_DESC"
+	picture = "Siam_Prajadhipok.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}

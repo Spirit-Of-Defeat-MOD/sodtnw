@@ -22,6 +22,7 @@ ideas = {
 			              }
 		    }
 	    }
+<<<<<<< HEAD
 	}
 	country = {
     joint_exercises_sov = {
@@ -43,3 +44,6 @@ ideas = {
 			}
 		}
 }
+=======
+	}
+>>>>>>> parent of d19ad2d... Revert "My first commitment"

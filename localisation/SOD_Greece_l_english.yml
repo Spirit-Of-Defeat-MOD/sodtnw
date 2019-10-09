@@ -25,7 +25,7 @@
  GRE_nihilistic_extremism_party:0 "Poulos Klíka"
  GRE_nihilistic_extremism_party_long:0 "Poulos Klíka"
 
-#Country Names
+ #Country Names
  GRE_fascism:0 "Hellenic Republic"
  GRE_fascism_DEF:0 "the Hellenic Republic"
  GRE_nihilistic_extremism:0 "Regime of the Colonels"
@@ -66,11 +66,17 @@
 
  #Ministers
  #should be reintegrated
+
+ #Ideas
+ megali_idea:0 "Megali Idea"
+ GRE_third_balkan_war:0 "Aftermath Of The Third Balkan War"
  
  #Focuses
  #should be reintegrated
 
  #Events
- #should be reintegrated
+ greece.1.t:0 "Greece Introduction"
+ greece.1.d:0 ""
+ greece.1.a:0 "Enough with these petty ramblings..."
 
  #Descriptions

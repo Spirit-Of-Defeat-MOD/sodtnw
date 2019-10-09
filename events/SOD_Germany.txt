@@ -1001,13 +1001,89 @@ country_event = {
 	
 	#They May Be Useful
 	option = {
-		name = germany.36.a
+		name = germany.36.b
 		remove_ideas = rampant_paramilitaries
 		add_ideas = official_paramilitaries
 	
     }
 }
 
+# Guerilla Training
+country_event = {
+	id = germany.37
+	title = germany.37.t
+	desc = germany.37.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Mild Support
+	option = {
+		name = germany.37.a
+		#add fear
+	
+	}
+	
+	#Full Fledged Support
+	option = {
+		name = germany.37.b
+		#add more fear
+		hidden_effect = {
+			add_threat = 5
+			set_country_flag = GER_supported_himmler
+		}
+	
+    }
+}
+
+#British Alliance
+country_event = {
+	id = germany.38
+	title = germany.38.t
+	desc = germany.38.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Allow Germany To Join
+	option = {
+		name = germany.38.a
+		ENG = { add_to_faction = GER }
+	
+	}
+	
+	#Deny Them
+	option = {
+		name = germany.38.b
+		
+	
+	
+    }
+}
+
+#Unrestricted Submarine Warfare
+country_event = {
+	id = germany.39
+	title = germany.39.t
+	desc = germany.39.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#What could possibly go wrong
+	option = {
+		name = germany.39.a
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			USA = {country_event = { days = 40 id = sodnews.2 }}
+		}
+	
+	}
+}
 
 #Anti-Komintern
 

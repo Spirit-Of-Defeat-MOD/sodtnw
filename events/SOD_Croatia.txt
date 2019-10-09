@@ -220,10 +220,115 @@ country_event = {
 	picture = GFX_report_event_generic_riot
 	
 	fire_only_once = yes
-	hidden = yes
+	
 	is_triggered_only = yes
 	
 	option = {
 		name = croatia.9.a
+	}
+}
+
+# Maribor Conference
+country_event = {
+	id = croatia.10
+    title = croatia.10.t
+	desc = croatia.10.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.10.a
+		remove_ideas = {
+			CRO_slovene_separatism2
+		}
+	}
+}
+
+# Bulgaria accepts alliance
+country_event = {
+	id = croatia.11
+    title = croatia.11.t
+	desc = croatia.11.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.11.a
+		create_faction = "Balkan League"
+		add_to_faction = BUL
+		if = {
+			limit = {
+				MAC = {
+					is_puppet_of = BUL
+				}
+			}
+			add_to_faction = MAC
+		}
+	}
+}
+
+# Bulgaria denies alliance
+country_event = {
+	id = croatia.12
+    title = croatia.12.t
+	desc = croatia.12.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.12.a
+		add_opinion_modifier = {
+			target = BUL
+			modifier = CRO_BUL_refuse_alliance
+		}
+	}
+}
+
+# Bulgaria sends guns
+country_event = {
+	id = croatia.13
+    title = croatia.13.t
+	desc = croatia.13.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.13.a
+		add_opinion_modifier = {
+			target = BUL
+			modifier = CRO_BUL_allow_guns
+		}
+	}
+}
+
+# Bulgaria doesn't send guns
+country_event = {
+	id = croatia.14
+    title = croatia.14.t
+	desc = croatia.14.d
+	picture = GFX_report_event_generic_riot
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = croatia.14.a
+		add_opinion_modifier = {
+			target = BUL
+			modifier = CRO_BUL_refuse_guns
+		}
 	}
 }

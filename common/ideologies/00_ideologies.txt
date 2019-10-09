@@ -5,6 +5,7 @@ ideologies = {
             totalitarian_socialism_subtype = {}
 			anti_revisionism = {}
 			national_bolshevik = {}
+			socialist_junta = {}
         }
         dynamic_faction_names = {
             "FACTION_NAME_TOTALITARIAN_SOCIALISM"
@@ -321,6 +322,8 @@ ideologies = {
 			pronayist_nihilism = {}
 			radical_paramilitarist = {}
 			right_wing_terrorist = {}
+			esoteric_nihilist = {}
+			anarcho_nihilist = {}
         }
         dynamic_faction_names = {
             "FACTION_NAME_NIHILISTIC_EXTREMISM"

@@ -93,6 +93,39 @@ bookmarks = {
 
 			}
 		}
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = neutrality #
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"SER"={
 			minor = yes
 			history = "SER_GATHERING_STORM_DESC"
@@ -115,6 +148,39 @@ bookmarks = {
 				CRO_theindependentstateofcroatia
 				CRO_warwithserbia
 				CRO_hrvatskakuna
+			}
+		}
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"IRE"={
+			minor = yes
+			history = "IRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FIC"={
+			minor = yes
+			history = "FIC_GATHERING_STORM_DESC"
+			ideology = neutrality #
+			ideas = {
+				
+			}
+			focuses = {
+				
 			}
 		}
 

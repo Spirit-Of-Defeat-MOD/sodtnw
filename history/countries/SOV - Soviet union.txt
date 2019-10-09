@@ -90,7 +90,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Gregory Zinoviev"
+	name = "Grigory Zinoviev"
 	desc = "POLITICS_GREG_ZINOVIEV_DESC"
 	picture = "Portrait_Zinoviev.tga"
 	expire = "1953.3.1"

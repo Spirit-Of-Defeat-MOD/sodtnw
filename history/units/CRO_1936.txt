@@ -89,7 +89,7 @@ units = {
 		}
 		location = 9627
 		division_template = "Pjesadijska Divizija"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 	}
 	division = {
@@ -117,9 +117,9 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6674
+		location = 11845
 		division_template = "Konjička Divizija"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
 	division = {
@@ -129,7 +129,7 @@ units = {
 		}
 		location = 11594
 		division_template = "Konjička Divizija"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
 	division = {

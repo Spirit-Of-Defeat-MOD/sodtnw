@@ -13,6 +13,8 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	megali_idea
+	GRE_third_balkan_war
 }
 
 set_technology = {
@@ -96,17 +98,47 @@ create_country_leader = {
 	}
 }
 
+#create_country_leader = {
+#	name = "Markos Vafiadis"
+#	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
+#	picture = "Portrait_Greece_Markos_Vafiadis.dds"
+#	expire = "1965.1.1"
+#	ideology = marxism
+#	traits = {
+#		#
+#	}
+#}
+
 create_country_leader = {
-	name = "Markos Vafiadis"
-	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
-	picture = "Portrait_Greece_Markos_Vafiadis.dds"
+	name = "Nikolaos Zachariadis"
+	desc = "POLITICS_NIKOLAOS_ZACHARIADIS_DESC"
+	picture = "Portrait_Nikolaos_Zachariadis.tga"
+	expire = "1965.1.1"
+	ideology = totalitarian_socialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Nikolaos Zachariadis"
+	desc = "POLITICS_NIKOLAOS_ZACHARIADIS_DESC"
+	picture = "Portrait_Nikolaos_Zachariadis.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Nikolaos Zachariadis"
+	desc = "POLITICS_NIKOLAOS_ZACHARIADIS_DESC"
+	picture = "Portrait_Nikolaos_Zachariadis.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	name = "Konstantinos Tsaldaris"
 	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
@@ -130,7 +162,6 @@ create_corps_commander = {
 }
 
 ### VARIANTS ###
-# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

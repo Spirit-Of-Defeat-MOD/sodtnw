@@ -47,13 +47,20 @@ set_politics = {
 set_popularities = {
 	neutrality = 55
 	utilitarian_despot = 35
+<<<<<<< HEAD
 	democratic = 10
+=======
+	democracy = 10
+>>>>>>> parent of 8a5f31d... Revert "Merge branch 'master' of https://github.com/Spirit-Of-Defeat-MOD/sodtnw"
 }
+
+coal_add_neutrality = yes
+coal_add_utilitarian_despot = yes
 
 create_country_leader = {
 	name = "Prajadhipok"
 	desc = "POLITICS_PRAJADHIPOK_DESC"
-	picture = "Siam_Prajadhipok.dds"
+	picture = "Siam_Prajadhipok.tga"
 	expire = "1965.1.1"
 	ideology = partial_democracy
 	traits = {
@@ -64,7 +71,11 @@ create_country_leader = {
 create_country_leader = {
 	name = "Prajadhipok"
 	desc = "POLITICS_PRAJADHIPOK_DESC"
+<<<<<<< HEAD
 	picture = "Siam_Prajadhipok.dds"
+=======
+	picture = "Siam_Prajadhipok.tga"
+>>>>>>> parent of 8a5f31d... Revert "Merge branch 'master' of https://github.com/Spirit-Of-Defeat-MOD/sodtnw"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {

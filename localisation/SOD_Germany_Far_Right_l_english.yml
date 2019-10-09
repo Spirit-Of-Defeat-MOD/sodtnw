@@ -119,11 +119,31 @@ modernized_production_desc:0 "New advancements in production line layouts and eq
 guiding_hand:0 "The Guiding Hand"
 guiding_hand_desc:0 "The German people require a strong leader who is capable of action; they need this in order to see their nation be preserved from all those who have stood in our way and sought to change our way of life. A great leader is the only one who can protect the nation from foreign hostility and domestic subversives."
 russian_diplomacy:0 "Diplomacy With The USSR"
-russian_diplomacy_desc:0 "" #addtothislater
+russian_diplomacy_desc:0 "Germany and the Soviet Union have common enemies in the current liberal-democratic world order. Furthermore, the very existence of a Polish state contradicts the interests of both the Soviet people, as well as that of the German people. Diplomatic ties with the USSR are a necessary evil; we may not be fond of their Godless Bolshevism, yet there is simply no use in denying their usefulness towards achieving our nation's goals."
 russian_hostility:0 "Hostility With The USSR"
-russian_hostility_desc:0 "" #addtothislater
+russian_hostility_desc:0 "To the East lie the two greatest enemies of our people; the Republic of Poland, and the Union of Soviet Socialist Republics. These states contradict our values and threaten our interests. Neither the Poles nor the Soviets can ever be trusted. Germany must work to eradicate their regimes and adjust the borders to suit our interests!"
 joint_exercises:0 "Joint Military Exercises"
 joint_exercises_desc:0 "Joint military exercises with the Union of Soviet Socialist Republics has afforded the Reichswehr an opportunity to engage in live fire testing, strategic positioning, and simulated warfare exercises. Additionally, collaboration with Soviet generals has offered us a perspective of contemporary grand strategy doctrine. These exercises will be crucial to our future military successes."
+official_paramilitaries:0 "Official Paramilitaries"
+official_paramilitaries_desc:0 "" #addtothislater
+grain_imports:0 "Grain Imports"
+grain_imports_desc:0 "" #addtothislater
+diplomatic_standoffs:0 "Diplomatic Standoffs"
+diplomatic_standoffs_desc:0 "We are currently in the midst of diplomatic standoffs with the United States of America."
+versailles_denounced:0 "Versailles Denounced"
+versailles_denounced_desc:0 "" #addlater
+naval_limitations:0 "Naval Limitations Imposed"
+naval_limitations_desc:0 "" #addlater
+british_audits:0 "British Audits Authorized"
+british_audits_desc:0 "" #addlater
+deny_british_audits:0 "British Audits Denied"
+deny_british_audits_desc:0 "" #addlater
+germany_league:0 "League of Nations Member"
+germany_league_desc:0 "" #addlater
+strict_engagement:0 "Strict Engagement Rules"
+strict_engagement_desc:0 "Our nation has agreed to sign naval treaties that enforce strict regulations on naval combat. These treaties were designed to limit civilian casualties, but they also will hinder our navy's flexibility."
+war_reparations:0 "Resumed Reparations Payments"
+war_reparations_desc:0 "We have agreed to resume payments of war reparations and make expedited payments of amounts we have neglected to pay. This will have a toll on our economy in the next few months as we make large payments towards foreign nations. It is an unfortunate truth, that these sacrifices were necessary to improve our diplomatic relations with Britain and the world at large..."
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -254,6 +274,17 @@ germany.36.t:0 "The Paramilitary Question"
 germany.36.d:0 "There has been great internal debate as to the solution of Germany's paramilitary issue. For years our nation has struggled with violence at the hands of rogue thugs, many of whom continue to plot against the government. Some within the regime believe that an official paramilitary organization should be established, allowing us to keep tabs on potential radicals. Other officials believe that we should fully abolish them, and instate martial law in the cities to disarm the civilian populace... Both arguments have their merit, but a choice must be made."
 germany.36.a:0 "No More Paramilitaries!"
 germany.36.b:0 "Establish The ..." #add a name later
+germany.37.t:0 "Guerilla Training Camps"
+germany.37.d:0 "Heinrich Himmler has established" #add later
+germany.37.a:0 "Mild Support"
+germany.37.b:0 "Full-Fledged Support"
+germany.38.t:0 "German Alliance Proposal"
+germany.38.d:0 "The Germans have come to us seeking an alliance. While this proposal is interesting, there are serious concerns within the government as to the sincerity of the Germans. Many believe they are not to be trusted. Nonetheless, there is an offer on the table..."
+germany.38.a:0 "We Do Share Common Interests"
+germany.38.b:0 "We Won't Fall For Germany's Schemes!"
+germany.39.t:0 "Unrestricted Submarine Warfare"
+germany.39.d:0 "Our u-boat fleets are crucial to the projection of power on the seas, we will never cripple our forces or humiliate ourselves through capitulating to the demands of other nations... Germany did not face military defeat in 1918, and the Fatherland will not back down again!"
+germany.39.a:0 ""
 antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"
@@ -280,6 +311,13 @@ GER_economic_investment:0 "Economic Investments"
 GER_negotiations_opened:0 "Opened Dialogue With The Unions"
 GER_negotiations_successful:0 "Union Negotiations Successful"
 GER_antikom:0 "Anti-Komintern Pact Formed"
+GER_supported_himmler:0 "Supported Himmler"
+GER_anti_britain:0 "Anti-British Diplomacy"
+GER_pro_britain:0 "Pro-British Diplomacy"
+GER_versailles_denounced:0 "Denounced Treaty of Versailles"
+GER_anti_japan:0 "Anti-Japanese Diplomacy"
+GER_claimed_colonies:0 "Claimed Colonial Holdings"
+GER_soviet_alliance:0 "German-Soviet Alliance"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"

@@ -46,10 +46,22 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 55
-	utilitarian_despot = 35
-	democratic = 10
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 10
+    neutrality = 55
+    utilitarian_despot = 35
+    fascism = 0
+    nihilistic_extremism = 0
 }
+
+coal_add_neutrality = yes
+coal_add_utilitarian_despot = yes
 
 create_country_leader = {
 	name = "Prajadhipok"

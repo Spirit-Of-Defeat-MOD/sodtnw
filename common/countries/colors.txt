@@ -609,3 +609,11 @@ MCT = {
 	color = rgb { 255 216 102 }
 	color_ui = rgb { 255 216 102 }
 }
+PNR = {
+	color = rgb { 194 54 69 }
+	color_ui = rgb { 194 54 69 }
+}
+VIL = {
+	color = rgb { 125 2 16 }
+	color_ui = rgb { 125 2 16 }
+}

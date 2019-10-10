@@ -50,9 +50,6 @@ set_popularities = {
 	democratic = 10
 }
 
-coal_add_neutrality = yes
-coal_add_utilitarian_despot = yes
-
 create_country_leader = {
 	name = "Prajadhipok"
 	desc = "POLITICS_PRAJADHIPOK_DESC"

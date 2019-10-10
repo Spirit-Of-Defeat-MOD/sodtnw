@@ -119,6 +119,7 @@ country_event = {
 				target = IDC
 				type = annex_everything
                        } }
+		       news_event = { hours = 6 id = sodnews.3 }
 	}
      }
      option = {
@@ -184,5 +185,6 @@ country_event = {
 		IDC = {
 			change_tag_from = FIC
 		}
+		news_event = { hours = 6 id = sodnews.3 }
 	}
 }

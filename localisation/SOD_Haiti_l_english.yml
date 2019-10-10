@@ -1,0 +1,78 @@
+﻿l_english: 
+
+#Parties
+HAI_fascism_party:0 "PhD"
+HAI_fascism_party_long:0 "Parti de l'héritage de Dessalines"
+HAI_communism_party:0 "PCH"
+HAI_communism_party_long:0 "Parti Communiste Haïtien (Marxiste-Léniniste)"
+HAI_democratic_party:0 "PN"
+HAI_democratic_party_long:0 "Parti national"
+HAI_utilitarian_despot_party:0 "House of Dessalines"
+HAI_utilitarian_despot_party_long:0 "House of Dessalines"
+HAI_neutrality_party:0 "American military occupation"
+HAI_neutrality_party_long:0 "American military occupation"
+HAI_neutrality_party:1 "Parti d'Haïti"
+HAI_social_democracy_party:0 "PSD"
+HAI_social_democracy_party_long:0 "Parti social-démocrate"
+HAI_social_liberal_party:0 "PL"
+HAI_social_liberal_party_long:0 "Parti libéral"
+HAI_classic_liberal_party:0 "PL"
+HAI_classic_liberal_party_long:0 "Parti libéral"
+HAI_totalitarian_socialism_party:0 "PCH"
+HAI_totalitarian_socialism_party_long:0 "Parti Communiste Haïtien (Totalitaire)"
+HAI_revolutionary_socialism_party:0 "GHL"
+HAI_revolutionary_socialism_party_long:0 "Gratuit Haiti League"
+HAI_democratic_socialism_party:0 "PSH"
+HAI_democratic_socialism_party_long:0 "Parti socialiste du Haïti"
+HAI_nihilistic_extremism_party:0 "Nihilist exiles"
+HAI_nihilistic_extremism_party_long:0 "Nihilist exiles"
+
+#Country Names
+ HAI_fascism:0 "Haiti"
+ HAI_fascism_DEF:0 "Haiti"
+ HAI_nihilistic_extremism:0 "Haiti"
+ HAI_nihilistic_extremism_DEF:0 "Haiti"
+ HAI_totalitarian_socialism:0 "Haiti"
+ HAI_totalitarian_socialism_DEF:0 "Haiti"
+ HAI_utilitarian_despot:0 "Haiti"
+ HAI_utilitarian_despot_DEF:0 "Haiti"
+ HAI_democratic:0 "Haiti"
+ HAI_democratic_DEF:0 "Haiti"
+ HAI_neutrality:1 "Haiti"
+ HAI_neutrality_DEF:1 "Haiti"
+ HAI_democratic_socialism:0 "Haiti"
+ HAI_democratic_socialism_DEF:0 "Haiti"
+ HAI_revolutionary_socialism:0 "Haiti"
+ HAI_revolutionary_socialism_DEF:0 "Haiti"
+ HAI_social_democracy:0 "Haiti"
+ HAI_social_democracy_DEF:0 "Haiti"
+ HAI_social_liberal:0 "Haiti"
+ HAI_social_liberal_DEF:0 "Haiti"
+ HAI_classic_liberal:0 "Haiti"
+ HAI_classic_liberal_DEF:0 "Haiti"
+ HAI_communism:0 "Haitian Commune"
+ HAI_communism_DEF:0 "the Haitian Commune"
+ 
+ HAI_fascism_ADJ:0 "Haitian"
+ HAI_fascism_ADJ:0 "Haitian"
+ HAI_totalitarian_socialism_ADJ:0 "Haitian"
+ HAI_democratic_ADJ:0 "Haitian"
+ HAI_utilitarian_despot_ADJ:0 "Haitian"
+ HAI_democratic_socialism_ADJ:0 "Haitian"
+ HAI_neutrality_ADJ:0 "Haitian"
+ HAI_revolutionary_socialism_ADJ:0 "Haitian"
+ HAI_social_democracy_ADJ:0 "Haitian"
+ HAI_social_liberal_ADJ:0 "Haitian"
+ HAI_classic_liberal_ADJ:0 "Haitian"
+ HAI_communism_ADJ:0 "Haitian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

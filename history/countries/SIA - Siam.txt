@@ -67,11 +67,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Prajadhipok"
 	desc = "POLITICS_PRAJADHIPOK_DESC"
-<<<<<<< HEAD
-	picture = "Siam_Prajadhipok.dds"
-=======
 	picture = "Siam_Prajadhipok.tga"
->>>>>>> parent of 8a5f31d... Revert "Merge branch 'master' of https://github.com/Spirit-Of-Defeat-MOD/sodtnw"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {

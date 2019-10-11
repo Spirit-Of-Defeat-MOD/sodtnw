@@ -61,9 +61,9 @@ set_convoys = 20
 set_stability = 0.55
 
 create_country_leader = {
-	name = "T.E. Lawrence"
-	desc = "POLITICS_TE_LAWRENCE_DESC"
-	picture = "TE_Lawrence.tga"
+	name = "Winston Churchill"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "KON_Winston_Churchill.tga"
 	expire = "1965.1.1"
 	ideology = utilitarian_despot_subtype
 	traits = {

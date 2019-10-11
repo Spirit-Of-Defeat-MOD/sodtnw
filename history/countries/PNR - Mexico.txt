@@ -1,0 +1,84 @@
+﻿capital = 485
+
+oob = "PNR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+set_popularities = {
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+    social_democracy = 20
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 20
+    neutrality = 20
+    utilitarian_despot = 20
+    fascism = 20
+    nihilistic_extremism = 0
+}
+
+create_country_leader = {
+	name = "Álvaro Obregón"
+	desc = "POLITICS_OBREGON_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Adolfo de la Huerta"
+	desc = "POLITICS_LA_HUERTA_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = reactionary_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Emilio Cándido Portes Gil"
+	desc = "POLITICS_EMILIO_PORTES_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = partial_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Plutarco Elías Calles"
+	desc = "POLITICS_CALLES_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternal_state
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lázaro Cárdenas"
+	desc = "POLITICS_CARDENAS_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = national_collectivist
+	traits = {
+	}
+}

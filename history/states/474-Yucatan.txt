@@ -11,28 +11,22 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			4904 = {
-				naval_base = 2
-			}
 			4965 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = MEX
 		add_core_of = MCT
-		#victory_points = {
-		#	12715 3
-		#}
 		victory_points = {
-			4904 1
+			12715 2
 		}
-		#victory_points = {
-		#	4965 5
-		#}
+		victory_points = {
+			4965 2
+		}
 	}
 
 	provinces={
-		4904 4965 12715 
+		4965 12715 
 	}
 	
 }

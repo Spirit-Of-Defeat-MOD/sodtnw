@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+PAR_fascism_party:0 "PAN"
+PAR_fascism_party_long:0 "Partido de Avivamiento Nacional"
+PAR_communism_party:0 "PCP"
+PAR_communism_party_long:0 "Partido Comunista Paraguayo"
+PAR_democratic_party:0 "Colorado"
+PAR_democratic_party_long:0 "Partido Colorado"
+PAR_utilitarian_despot_party:0 "Junta Militar"
+PAR_utilitarian_despot_party_long:0 "Junta Militar"
+PAR_neutrality_party:0 "PAN"
+PAR_neutrality_party_long:0 "Partido de Avivamiento Nacional"
+PAR_social_democracy_party:0 "PRF"
+PAR_social_democracy_party_long:0 "Partido Revolucionario Febrerista"
+PAR_social_liberal_party:0 "Partido Azul"
+PAR_social_liberal_party_long:0 "Partido Liberal"
+PAR_classic_liberal_party:0 "Partido Azul"
+PAR_classic_liberal_party_long:0 "Partido Liberal"
+PAR_totalitarian_socialism_party:0 "PCP"
+PAR_totalitarian_socialism_party_long:0 "Partido Comunista Paraguayo"
+PAR_revolutionary_socialism_party:0 "PSR"
+PAR_revolutionary_socialism_party_long:0 "Partido Socialista Revolucionario"
+PAR_democratic_socialism_party:0 "PRF"
+PAR_democratic_socialism_party_long:0 "Partido Revolucionario Febrerista"
+PAR_nihilistic_extremism_party:0 "Nihilist Exiles"
+PAR_nihilistic_extremism_party_long:0 "Nihilist Exiles"
+
+#Country Names
+ PAR_fascism:0 "Paraguayan State"
+ PAR_fascism_DEF:0 "the Paraguayan State"
+ PAR_nihilistic_extremism:0 "Paraguayan State"
+ PAR_nihilistic_extremism_DEF:0 "the Paraguayan State"
+ PAR_totalitarian_socialism:0 "Paraguay"
+ PAR_totalitarian_socialism_DEF:0 "the Republic of Paraguay"
+ PAR_utilitarian_despot:0 "Paraguay"
+ PAR_utilitarian_despot_DEF:0 "the Republic of Paraguay"
+ PAR_democratic:0 "Paraguay"
+ PAR_democratic_DEF:0 "the Republic of Paraguay"
+ PAR_neutrality:1 "Paraguay"
+ PAR_neutrality_DEF:1 "the Republic of Paraguay"
+ PAR_democratic_socialism:0 "Paraguay"
+ PAR_democratic_socialism_DEF:0 "the Republic of Paraguay"
+ PAR_revolutionary_socialism:0 "Paraguay"
+ PAR_revolutionary_socialism_DEF:0 "the Republic of Paraguay"
+ PAR_social_democracy:0 "Paraguay"
+ PAR_social_democracy_DEF:0 "the Republic of Paraguay"
+ PAR_social_liberal:0 "Paraguay"
+ PAR_social_liberal_DEF:0 "the Republic of Paraguay"
+ PAR_classic_liberal:0 "Paraguay"
+ PAR_classic_liberal_DEF:0 "the Republic of Paraguay"
+ PAR_communism:0 "Paraguay"
+ PAR_communism_DEF:0 "the Republic of Paraguay"
+ 
+ PAR_fascism_ADJ:0 "Paraguayan"
+ PAR_totalitarian_socialism_ADJ:0 "Paraguayan"
+ PAR_democratic_ADJ:0 "Paraguayan"
+ PAR_utilitarian_despot_ADJ:0 "Paraguayan"
+ PAR_democratic_socialism_ADJ:0 "Paraguayan"
+ PAR_neutrality_ADJ:0 "Paraguayan"
+ PAR_revolutionary_socialism_ADJ:0 "Paraguayan"
+ PAR_social_democracy_ADJ:0 "Paraguayan"
+ PAR_social_liberal_ADJ:0 "Paraguayan"
+ PAR_classic_liberal_ADJ:0 "Paraguayan"
+ PAR_communism_ADJ:0 "Paraguayan"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

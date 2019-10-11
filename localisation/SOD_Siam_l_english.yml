@@ -5,8 +5,8 @@
  SIA_fascism_party_long:0 "-"
  SIA_communism_party:0 "-"
  SIA_communism_party_long:0 "-"
- SIA_democratic_party:0 "-"
- SIA_democratic_party_long:0 "-"
+ SIA_democratic_party:0 "PP"
+ SIA_democratic_party_long:0 "Pak Prachathipat"
  SIA_utilitarian_despot_party:0 "Chakri"
  SIA_utilitarian_despot_party_long:0 "Ratchawong Chakri"
  SIA_neutrality_party:0 "Chakri"
@@ -25,6 +25,10 @@
  SIA_democratic_socialism_party_long:0 "-"
  SIA_nihilistic_extremism_party:0 "-"
  SIA_nihilistic_extremism_party_long:0 "-"
+
+#Custom Parties
+ SIA_PKT_party:0 "PKT"
+ SIA_PKT_party_long:0 "Pak Khon Tai"
 
 #Country Names
  SIA_totalitarian_socialism:0 ""
@@ -68,3 +72,4 @@
 
 #News
  
+#Leaders

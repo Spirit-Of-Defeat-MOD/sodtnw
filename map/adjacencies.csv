@@ -181,4 +181,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7432;13297;sea;4240;-1;-1;-1;-1;;Vietnam Strait2
 8435;9930;sea;7452;-1;-1;-1;-1;;Aegean sea
 6550;7003;sea;7226;-1;-1;-1;-1;;
+2756;5709;sea;13300;-1;-1;-1;-1;NICARAGUA_CANAL;Nic
 -1;-1;;-1;-1;-1;-1;-1;-1;

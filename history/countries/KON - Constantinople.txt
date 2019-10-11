@@ -73,7 +73,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "T.E. Lawrence"
-	desc = "USA_OSCAR_GRISWOLD_ARMY_DESC"
+	desc = "KON_TE_LAWRENCE_ARMY_DESC"
 	picture = "KON_TE_Lawrence.tga"
 	traits = { war_hero media_personality desert_fox }
 	skill = 3

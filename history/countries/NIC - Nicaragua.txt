@@ -61,16 +61,14 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	democratic = 75
+	social_liberal = 25
 }
 
 create_country_leader = {
@@ -84,9 +82,19 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Adolfo Díaz"
+	desc = "POLITICS_ADOLFO_DIAZ_DESC "
+	picture = "Adolfo_Diaz.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism_subtype
+	traits = {
+	}
+}
+
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no
@@ -102,4 +110,15 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Ross Erastus Rowell"
+	picture = "Ross_Erastus_Rowell.dds"
+	traits = { career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
 }

@@ -24,89 +24,89 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_totalitarian_socialism"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 38 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_communism"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 52 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_revolutionary_socialism"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 66 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_democratic_socialism"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 77 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_social_democracy"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 94 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_social_liberal"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 109 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_classic_liberal"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 123 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_democratic"
-		position = { x = 193 y = 150 }
+		position = { x = 193 y = 136 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -117,7 +117,7 @@ guiTypes = {
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -128,7 +128,7 @@ guiTypes = {
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -139,18 +139,18 @@ guiTypes = {
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 264 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "highlight_nihilistic_extremism"
-		position = { x = 193 y = 180 }
+		position = { x = 193 y = 195 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
 			spriteType = "GFX_pol_party_alignment_highlight"
-			position = { x = -19 y = -3 }
+			position = { x = 144 y = 250 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

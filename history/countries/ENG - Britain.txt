@@ -203,16 +203,6 @@ add_to_faction = MAL
 
 # Order matters - here Chamberlain becomes starting leader
 
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = fiscal_conservatism
-	traits = {
-	}
-}
-
 #create_country_leader = {
 #	name = "Neville Chamberlain"
 #	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"

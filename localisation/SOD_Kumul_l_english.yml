@@ -7,8 +7,8 @@ KUM_communism_party:0 ""
 KUM_communism_party_long:0 ""
 KUM_democratic_party:0 ""
 KUM_democratic_party_long:0 ""
-KUM_utilitarian_despot_party:0 ""
-KUM_utilitarian_despot_party_long:0 ""
+KUM_utilitarian_despot_party:0 "Regency"
+KUM_utilitarian_despot_party_long:0 "Yulbars Khan Regency"
 KUM_neutrality_party:0 ""
 KUM_neutrality_party_long:0 ""
 KUM_social_democracy_party:0 ""
@@ -67,3 +67,4 @@ KUM_nihilistic_extremism_party_long:0 ""
 
 #Ministers
 #should be reintegrated
+POLITICS_YULBARS_DESC:0 "§YRegent of the Kumul Khanate§!\n\n"

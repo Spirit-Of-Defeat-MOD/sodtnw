@@ -1,16 +1,16 @@
 ﻿l_english: 
 
 #Parties
-XIN_fascism_party:0 ""
-XIN_fascism_party_long:0 ""
+XIN_fascism_party:0 "YKP"
+XIN_fascism_party_long:0 "Young Kashgar Party"
 XIN_communism_party:0 "MFDLH"
 XIN_communism_party_long:0 "Mínzhòng Fan Dì Liánhé Huì"
 XIN_democratic_party:0 ""
 XIN_democratic_party_long:0 ""
-XIN_utilitarian_despot_party:0 "KSTAR ADD THE GLORIOUS SULTAN"
-XIN_utilitarian_despot_party_long:0 "KSTAR ADD THE GLORIOUS SULTAN"
-XIN_neutrality_party:0 ""
-XIN_neutrality_party_long:0 ""
+XIN_utilitarian_despot_party:0 "Ottoman dynasty"
+XIN_utilitarian_despot_party_long:0 "House of Osman"
+XIN_neutrality_party:0 "CNR"
+XIN_neutrality_party_long:0 "Committee for National Revolution"
 XIN_social_democracy_party:0 ""
 XIN_social_democracy_party_long:0 ""
 XIN_social_liberal_party:0 ""
@@ -69,6 +69,8 @@ XIN_nihilistic_extremism_party_long:0 ""
 
 #Ministers
 #should be reintegrated
+
+POLITICS_EMINE_DESC:0 "§YŞehzade Mehmed Emine Nemika Sultan, Second Sultana of Xinjiang§!\n\n"
 
 
  

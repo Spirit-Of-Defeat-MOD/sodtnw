@@ -1,6 +1,6 @@
-﻿capital = 482
+﻿capital = 894
 
-oob = "VIL_1936"
+oob = "CED_1936"
 
 # Starting tech
 set_technology = {
@@ -27,7 +27,7 @@ declare_war_on = {
 }
 
 declare_war_on = {
-	target = CED
+	target = VIL
 	type = annex_everything
 }
 
@@ -37,7 +37,7 @@ declare_war_on = {
 }
 
 set_politics = {
-	ruling_party = revolutionary_socialism
+	ruling_party = utilitarian_despot
 	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -47,24 +47,24 @@ set_politics = {
 set_popularities = {
 	totalitarian_socialism = 0
 	communism = 0
-	revolutionary_socialism = 100
+	revolutionary_socialism = 0
 	democratic_socialism = 0
     social_democracy = 0
     social_liberal = 0
     classic_liberal = 0
     democratic = 0
     neutrality = 0
-    utilitarian_despot = 0
+    utilitarian_despot = 100
     fascism = 0
     nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Pancho Villa"
-	desc = "POLITICS_OBREGON_DESC"
+	name = "Saturnino Cedillo Martínez"
+	desc = "POLITICS_CEDILLO_DESC"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = socialist_revolutionary
+	ideology = warlord
 	traits = {
 	}
 }

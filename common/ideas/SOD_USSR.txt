@@ -21,9 +21,45 @@ ideas = {
                                   industrial_capacity_factory = -0.05
 			              }
 		    }
-	    }
-	}
-	country = {
+			
+		SOV_spirit_of_trotskism = {
+			
+			picture = idea_SOV_spirit_of_trotskism
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = { 
+                                 has_government = communism 
+                          }
+
+			removal_cost = -1
+			
+			modifier = {
+                        industrial_capacity_factory = -0.1
+			               }
+		    }
+			
+		SOV_lenin_draft = {
+			
+			picture = idea_SOV_lenin_draft
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = { 
+                                 has_government = communism 
+                          }
+
+			removal_cost = -1
+			
+			modifier = {
+                        industrial_capacity_factory = -0.1
+			    }
+		    }
+		
     joint_exercises_sov = {
 				
 			allowed = {
@@ -40,6 +76,7 @@ ideas = {
 				army_org_factor = 0.05
 				max_planning = 0.25
 				army_attack_factor = 0.1
-			}
-		}
-}
+			   }
+		    }
+        }
+    }

@@ -79,12 +79,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Heinrich Himmler"
-	desc = "POLITICS_HEINRICH_HIMMLER_DESC"
-	picture = "Portrait_Himmler.tga"
-	ideology = himmlerist_nihilism
-	traits = {
-	}
-}

@@ -112,16 +112,7 @@ set_convoys = 300
 		target = SYR
 		autonomous_state = sod_mandate
 	}
-	
-	set_autonomy = {
-		target = TUN
-		autonomous_state = sod_mandate
-	}
 
-        set_autonomy = {
-		target = MOR
-		autonomous_state = sod_mandate
-	}
 
 set_politics = {
 	ruling_party = democratic

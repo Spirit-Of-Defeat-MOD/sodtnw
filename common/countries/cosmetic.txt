@@ -236,14 +236,3 @@ EGY_UK = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 204 0 0 }
 }
-
-
-TUN_FRA_subject = {
-        color = rgb { 30 84 183 }
-        color_ui = rgb { 35 101 222 }
-}
-
-MOR_FRA_subject = {
-        color = rgb { 30 84 183 }
-        color_ui = rgb { 35 101 222 }
-}

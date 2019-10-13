@@ -9,6 +9,13 @@ if = {
 	}
 }
 
+add_idas = {
+	ROM_hungarian_nationalists
+	ROM_king_carol
+	ROM_republican_sentiment
+	ROM_up_and_coming_state
+}
+
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.6
@@ -47,32 +54,9 @@ if = {
 	}
 }
 
-add_ideas = neutrality_idea
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		ROM_king_carol_ii_hedonist
-	}
-}
-
 give_guarantee = CZE
 
-#Kick off kings crazy life
-#if = {
-#	limit = {
-#		has_dlc = "Death or Dishonor"
-#	}
-#	ROM = {
-#		#Pick from list of the sane events first
-#		random_list = {
-#			100 = { country_event = { id = DOD_romania.81 days = 2 random = 20 } }
-#		}
-#	}
-#}
-
-set_convoys = 10
+set_convoys = 24
 
 set_politics = {
 	ruling_party = neutrality
@@ -98,6 +82,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Carol II"
+	desc = "POLITICS_CAROL_II_DESC"
+	picture = GFX_Portrait_romania_Carol_II				
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		hedonist
+	}
+}
+			
 create_country_leader = {
 	name = "Constantin Ion Parhon"
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
@@ -198,7 +193,6 @@ create_navy_leader = {
 
 
 ### VARIANTS ###
-# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

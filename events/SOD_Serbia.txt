@@ -104,6 +104,14 @@ country_event = {
 					democratic_socialism = 3
 					social_democracy = 1
 				}
+				coal_add_totalitarian_socialism = yes
+				coal_add_communism = yes
+				coal_add_revolutionary_socialism = yes
+				coal_add_democratic_socialism = yes
+				coal_add_social_democracy = yes
+				coal_add_neutrality= yes
+				coal_rev_neutrality = yes
+
 				create_field_marshal = {
 					name = "Sava Kovacevic"
 					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
@@ -297,6 +305,10 @@ country_event = {
 				utilitarian_despot = 89
 				fascism = 6
 			}
+			coal_add_democratic = yes
+			coal_add_neutrality = yes
+			coal_add_utilitarian_despot = yes
+			coal_add_fascism = yes
 		}
 		custom_effect_tooltip = chetniks_chosen
 	}
@@ -335,6 +347,10 @@ country_event = {
 					neutrality = 4
 					fascism = 6
 				}
+				coal_add_democratic = yes
+				coal_add_neutrality = yes
+				coal_add_utilitarian_despot = yes
+				coal_add_fascism = yes
 			create_field_marshal = {
 				name = "Nikola Kalabic"
 				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
@@ -425,6 +441,11 @@ country_event = {
 				democratic_socialism = 5
 				social_democracy = 1
 			}
+			coal_add_totalitarian_socialism = yes
+			coal_add_communism = yes
+			coal_add_revolutionary_socialism = yes
+			coal_add_democratic_socialism = yes
+			coal_add_social_democracy = yes
 			load_oob = "SER_Communist_Civil_War"
 			add_manpower = 30000
 			set_equipment_fraction = 0.5

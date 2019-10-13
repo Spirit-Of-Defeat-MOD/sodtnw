@@ -51,12 +51,24 @@ set_politics = {
 }
 
 set_popularities = {
-	utilitarian_despot = 100
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 100
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
+
 create_country_leader = {
-	name = "Nasir Shah"
-	desc = "POLITICS_NASIR_SHAH_DESC"
+	name = "Yulbars Khan"
+	desc = "POLITICS_YULBARS_DESC"
 	picture = ""
 	expire = "1965.1.1"
 	ideology = warlord

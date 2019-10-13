@@ -57,7 +57,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_democratic_socialism"
-		position = { x = 193 y = 77 }
+		position = { x = 193 y = 80 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"

@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+JBS_fascism_party:0 ""
+JBS_fascism_party_long:0 ""
+JBS_communism_party:0 ""
+JBS_communism_party_long:0 ""
+JBS_democratic_party:0 ""
+JBS_democratic_party_long:0 ""
+JBS_utilitarian_despot_party:0 ""
+JBS_utilitarian_despot_party_long:0 ""
+JBS_neutrality_party:0 ""
+JBS_neutrality_party_long:0 ""
+JBS_social_democracy_party:0 ""
+JBS_social_democracy_party_long:0 ""
+JBS_social_liberal_party:0 ""
+JBS_social_liberal_party_long:0 ""
+JBS_clasJBS_liberal_party:0 ""
+JBS_clasJBS_liberal_party_long:0 ""
+JBS_totalitarian_socialism_party:0 ""
+JBS_totalitarian_socialism_party_long:0 ""
+JBS_revolutionary_socialism_party:0 ""
+JBS_revolutionary_socialism_party_long:0 ""
+JBS_democratic_socialism_party:0 ""
+JBS_democratic_socialism_party_long:0 ""
+JBS_nihilistic_extremism_party:0 ""
+JBS_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ JBS_fascism:0 "Emirate of Ha'il"
+ JBS_fascism_DEF:0 "the Emirate of Ha'il"
+ JBS_nihilistic_extremism:0 "Emirate of Ha'il"
+ JBS_nihilistic_extremism_DEF:0 "the Emirate of Ha'il"
+ JBS_totalitarian_socialism:0 "Commune of Jabal Shammar"
+ JBS_totalitarian_socialism_DEF:0 "the Commune of Jabal Shammar"
+ JBS_utilitarian_despot:0 "Emirate of Ha'il"
+ JBS_utilitarian_despot_DEF:0 "the Emirate of Ha'il"
+ JBS_democratic:0 "Emirate of Ha'il"
+ JBS_democratic_DEF:0 "the Emirate of Ha'il"
+ JBS_neutrality:1 "Emirate of Ha'il"
+ JBS_neutrality_DEF:1 "the Emirate of Ha'il"
+ JBS_democratic_socialism:0 "Emirate of Ha'il"
+ JBS_democratic_socialism_DEF:0 "the Emirate of Ha'il"
+ JBS_revolutionary_socialism:0 "Emirate of Ha'il"
+ JBS_revolutionary_socialism_DEF:0 "the Emirate of Ha'il"
+ JBS_social_democracy:0 "Emirate of Ha'il"
+ JBS_social_democracy_DEF:0 "the Emirate of Ha'il"
+ JBS_social_liberal:0 "Emirate of Ha'il"
+ JBS_social_liberal_DEF:0 "the Emirate of Ha'il"
+ JBS_clasJBS_liberal:0 "Emirate of Ha'il"
+ JBS_clasJBS_liberal_DEF:0 "the Emirate of Ha'il"
+ JBS_communism:0 "Commune of Jabal Shammar"
+ JBS_communism_DEF:0 "the Commune of Jabal Shammar"
+ 
+ JBS_fascism_ADJ:0 "Arab"
+ JBS_fascism_ADJ:0 "Arab"
+ JBS_totalitarian_socialism_ADJ:0 "Arab"
+ JBS_democratic_ADJ:0 "Arab"
+ JBS_utilitarian_despot_ADJ:0 "Arab"
+ JBS_democratic_socialism_ADJ:0 "Arab"
+ JBS_neutrality_ADJ:0 "Arab"
+ JBS_revolutionary_socialism_ADJ:0 "Arab"
+ JBS_social_democracy_ADJ:0 "Arab"
+ JBS_social_liberal_ADJ:0 "Arab"
+ JBS_clasJBS_liberal_ADJ:0 "Arab"
+ JBS_communism_ADJ:0 "Arab"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

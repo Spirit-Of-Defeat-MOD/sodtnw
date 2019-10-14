@@ -621,3 +621,7 @@ CED = {
 	color = rgb { 2 104 22 }
 	color_ui = rgb { 2 104 22 }
 }
+JBS = {
+	color = rgb { 218 140 16 }
+	color_ui = rgb { 218 140 16 }
+}

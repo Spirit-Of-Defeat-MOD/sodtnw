@@ -5,3 +5,8 @@ WAR_NAME_IDC_FIC:0 "First Indochina War"
 
 WAR_NAME_ENG_TRI:0 "Third Opium War"
 WAR_NAME_TRI_ENG:0 "Third Opium War"
+
+WAR_NAME_MEX_VIL:0 "Mexican Revolution"
+WAR_NAME_VIL_MEX:0 "Mexican Revolution"
+WAR_NAME_MEX_MCT:0 "Mexican Revolution"
+WAR_NAME_MCT_MEX:0 "Mexican Revolution"

@@ -78,6 +78,11 @@ FIC_FRA_subject:0 "French Indochina"
  #Focuses
  #should be reintegrated
 
+#Equipment
+ FIC_gw_tank_equipment:0 "FT-17T"
+ FIC_gw_tank_equipment_desc:0 ""
+ FIC_gw_tank_equipment_short "FT–17T"
+
 #Events
 indochina.1.t:0 "A letter from the Colonial Office." 
 indochina.1.d:0 "A recent letter from a Colonial Offical in Hanoi has sent our Governor a proposal about a new capital for the federation. Hanoi recently has been overcrowded and the local citizens resist plans to improve and renovate the city to preserve its traditional style. The Offical has suggested 4 possibilities: \n\n1.Phu Xuan - The Nguyen Imperial City would be a good candidate for our new administrative centre. Expanding the ancient city around the citadel will not just help the slow modernization of the region but we will also be able to keep a closer watch on our colonial subjects. \n\n2. Da Lat - This is a very popular tourist destination, it has some of the best architechture in the colony. Despiet this it lacks any serious industry so it cannot be an industrial centre without some work.  \n\n3. Can Tho - Sitting at thr base of the Hau River. This Town provides us a very important strategic location and area to expand the local town. The Locals here are noted to be very friendly towards the colonial regime so we should have no issue expediting any plans we have. \n\n4. Hanoi - We can choose to stay in Hanoi and continue renovation as planned, this however won't sit well with the local populace and might cause issues in the future."

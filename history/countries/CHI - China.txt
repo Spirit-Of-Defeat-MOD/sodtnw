@@ -42,7 +42,7 @@ if = {
 }
 
 add_ideas = {
-	german_advisors
+	
 }
 
 set_convoys = 40
@@ -69,7 +69,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		generallissimo
 	}
 }
 
@@ -80,7 +79,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		cornered_fox
 	}
 }
 
@@ -100,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_LAN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = centrism
 	traits = {
 		#
 	}

@@ -17,4 +17,5 @@ state={
 	manpower=7075
 	buildings_max_level_factor=1.000
 	state_category = rural
+	impassable = yes
 }

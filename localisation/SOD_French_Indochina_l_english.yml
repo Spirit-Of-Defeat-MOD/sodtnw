@@ -81,7 +81,7 @@ FIC_FRA_subject:0 "French Indochina"
 #Equipment
  FIC_gw_tank_equipment:0 "FT-17T"
  FIC_gw_tank_equipment_desc:0 ""
- FIC_gw_tank_equipment_short "FT–17T"
+ FIC_gw_tank_equipment_short:0 "FT–17T"
 
 #Events
 indochina.1.t:0 "A letter from the Colonial Office." 

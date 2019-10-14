@@ -1,0 +1,25 @@
+
+state={
+	id=901
+	name="STATE_901"
+	manpower = 29000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = SAU
+	}
+
+	provinces={
+		12749
+	}
+}

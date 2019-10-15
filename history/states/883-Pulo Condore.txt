@@ -8,16 +8,16 @@ state={
 		add_core_of = IDC
 		buildings = {
 			infrastructure = 2
-					13296 = {
-				naval_base = 1
-			}
+		}
+		victory_points = {
+			4379 2
 		}
 	}
 
 	provinces={
-		13296
+		1302 4379 7280 12297
 	}
-	manpower=2706
-	state_category=small_island
+	manpower=82706
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

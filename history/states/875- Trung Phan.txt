@@ -6,9 +6,7 @@ state={
 	}
 
 	history={
-		victory_points = {
-			4379 1
-		}
+	
 		add_core_of = VIN
 		add_core_of = FIC
 		add_core_of = IDC
@@ -26,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1374 1520 1563 1577 1592 4260 4539 4554 7426 10195 10238 10326 10453 12210 12297 7280 1302 4379
+		1374 1520 1563 1577 1592 4260 4539 4554 7426 10195 10238 10326 10453 12210
 	}
 	manpower=545000
 	buildings_max_level_factor=1.000

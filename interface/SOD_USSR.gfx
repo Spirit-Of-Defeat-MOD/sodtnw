@@ -1,0 +1,13 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_SOV_lenin_draft"
+		texturefile = "gfx/interface/ideas/SOV/militia_army.tga"
+	}
+spriteType = {
+		name = "GFX_idea_SOV_territorial_draft"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_territorial_draft.tga"
+	}

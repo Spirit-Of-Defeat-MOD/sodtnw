@@ -69,7 +69,9 @@ MEX_nihilistic_extremism_party_long:0 ""
 #Ministers
 #should be reintegrated
 
-
+#National Spirits
+german_support_mex:0 "German Support Received"
+MEX_failed_state:0 "Failed State"
  
 #Focuses
 #should be reintegrated

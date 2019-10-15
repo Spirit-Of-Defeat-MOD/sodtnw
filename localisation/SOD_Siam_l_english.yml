@@ -70,6 +70,11 @@
  SIA_utilitarian_despot_ADJ:0 "Siamese"
  SIA_nihilistic_extremism_ADJ:0 "Siamese"
 
+#Leader Descriptions
+ POLITICS_PRAJADHIPOK_DESC:0 ""
+
 #News
+ siam.PKTform.t:0 "Formation of the Pak Khon Tai"
+ siam.PKTform.d:0 ""
+ siam.PKTform.a:0 "Concerning..."
  
-#Leaders

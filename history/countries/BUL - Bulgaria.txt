@@ -3,7 +3,6 @@
 oob = "BUL_1936"
 
 add_ideas = {
-	limited_conscription
 }
 
 set_technology = {
@@ -63,11 +62,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Zivko Topalovic"
-	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
+	name = "Yanko Sakazov"
+	desc = "POLITICS_SAKAZOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = democratic_socialism_subtype
 	traits = {
 		#
 	}

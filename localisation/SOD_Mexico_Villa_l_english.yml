@@ -1,0 +1,89 @@
+﻿l_english: 
+
+#Parties
+#too lazy to do now, will add later - tech
+VIL_fascism_party:0 ""
+VIL_fascism_party_long:0 ""
+VIL_communism_party:0 ""
+VIL_communism_party_long:0 ""
+VIL_democratic_party:0 ""
+VIL_democratic_party_long:0 ""
+VIL_utilitarian_despot_party:0 "Escoistas"
+VIL_utilitarian_despot_party_long:0 "Escobar's Faction"
+VIL_neutrality_party:0 ""
+VIL_neutrality_party_long:0 ""
+VIL_social_democracy_party:0 "Villistas"
+VIL_social_democracy_party_long:0 "Villa's Faction"
+VIL_social_liberal_party:0 ""
+VIL_social_liberal_party_long:0 ""
+VIL_classic_liberal_party:0 ""
+VIL_classic_liberal_party_long:0 ""
+VIL_totalitarian_socialism_party:0 ""
+VIL_totalitarian_socialism_party_long:0 ""
+VIL_revolutionary_socialism_party:0 ""
+VIL_revolutionary_socialism_party_long:0 ""
+VIL_democratic_socialism_party:0 ""
+VIL_democratic_socialism_party_long:0 ""
+VIL_nihilistic_extremism_party:0 ""
+VIL_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ VIL_fascism:0 "Escoistas"
+ VIL_fascism_DEF:0 "the Escoistas"
+ VIL_nihilistic_extremism:0 "Villistas"
+ VIL_nihilistic_extremism_DEF:0 "Villistas"
+ VIL_totalitarian_socialism:0 "Villistas"
+ VIL_totalitarian_socialism_DEF:0 "the Villistas"
+ VIL_utilitarian_despot:0 "Escoistas"
+ VIL_utilitarian_despot_DEF:0 "the Escoistas"
+ VIL_democratic:0 "Villistas"
+ VIL_democratic_DEF:0 "the Villistas"
+ VIL_neutrality:1 "Escoistass"
+ VIL_neutrality_DEF:1 "the Escoistas"
+ VIL_democratic_socialism:0 "Villistas"
+ VIL_democratic_socialism_DEF:0 "the Villistas"
+ VIL_revolutionary_socialism:0 "Villista-Escobarists"
+ VIL_revolutionary_socialism_DEF:0 "the Villistas--Escobarists"
+ VIL_social_democracy:0 "Villistas"
+ VIL_social_democracy_DEF:0 "the Villistas"
+ VIL_social_liberal:0 "Villistas"
+ VIL_social_liberal_DEF:0 "the Villistas"
+ VIL_classic_liberal:0 "Villistas"
+ VIL_classic_liberal_DEF:0 "the Villistas"
+ VIL_communism:0 "Villistas"
+ VIL_communism_DEF:0 "the Villistas"
+ 
+ VIL_UNIFIED:0 "Mexican Republic"
+ VIL_UNIFIED_DEF:0 "the Mexican Republic"
+ VIL_UNIFIED_ADJ:0 "Mexican"
+ 
+
+ 
+ VIL_fascism_ADJ:0 "Mexican"
+ VIL_nihilistic_extremism_ADJ:0 "Mexican"
+ VIL_totalitarian_socialism_ADJ:0 "Mexican"
+ VIL_democratic_ADJ:0 "Mexican"
+ VIL_utilitarian_despot_ADJ:0 "Mexican"
+ VIL_democratic_socialism_ADJ:0 "Mexican"
+ VIL_neutrality_ADJ:0 "Mexican"
+ VIL_revolutionary_socialism_ADJ:0 "Mexican"
+ VIL_social_democracy_ADJ:0 "Mexican"
+ VIL_social_liberal_ADJ:0 "Mexican"
+ VIL_classic_liberal_ADJ:0 "Mexican"
+ VIL_communism_ADJ:0 "Mexican"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

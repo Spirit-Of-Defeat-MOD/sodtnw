@@ -10,6 +10,32 @@ set_technology = {
 
 set_convoys = 5
 
+#Mexican Civil War
+declare_war_on = {
+	target = MEX
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PNR
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PLM
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = VIL
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = CED
+	type = annex_everything
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1929.11.1"

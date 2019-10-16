@@ -136,9 +136,6 @@ add_ideas = {
 	GER_Ferdinand_Bredow_int
 }
 
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Gottfried Feder"

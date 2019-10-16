@@ -8,9 +8,7 @@ state={
 
 	history={
 		owner = FRA
-		victory_points = {
-			4512 1
-		}
+		
 		victory_points = {
 			9823 1
 		}
@@ -25,6 +23,6 @@ state={
 	}
 
 	provinces={
-		4512 7620 9823 9912 11739 11759 11871 12387 12416 
+		7620 9823 9912 11759 
 	}
 }

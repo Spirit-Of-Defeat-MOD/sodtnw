@@ -617,3 +617,11 @@ VIL = {
 	color = rgb { 125 2 16 }
 	color_ui = rgb { 125 2 16 }
 }
+CED = {
+	color = rgb { 2 104 22 }
+	color_ui = rgb { 2 104 22 }
+}
+JBS = {
+	color = rgb { 218 140 16 }
+	color_ui = rgb { 218 140 16 }
+}

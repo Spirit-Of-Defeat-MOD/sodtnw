@@ -131,11 +131,11 @@ grain_imports_desc:0 "" #addtothislater
 diplomatic_standoffs:0 "Diplomatic Standoffs"
 diplomatic_standoffs_desc:0 "We are currently in the midst of diplomatic standoffs with the United States of America."
 versailles_denounced:0 "Versailles Denounced"
-versailles_denounced_desc:0 "" #addlater
+versailles_denounced_desc:0 "The Treaty of Versailles, a despicable document that stands as a testament to our 'stab in the back', shall not longer hold back our potential. We will not allow our great nation to be mocked by such a treasonous agreement. The Treaty of Versailles is not worth the paper it was transcribed on, and we will absolutely not respect the awful provisions it contains."
 naval_limitations:0 "Naval Limitations Imposed"
-naval_limitations_desc:0 "" #addlater
+naval_limitations_desc:0 "A necessary evil must sometimes be undertaken in pursuit of a greater cause. These limitations could very well convince the British that we are no threat; that our nations share common interests. Rather than capitulating to the British, we must understand that we are strengthening our cause by drawing closer to Great Britain. It hadn't been long ago that Britain and France were great rivals. We must do all in our power to ensure that we remain by the British, while pushing them away from the French."
 british_audits:0 "British Audits Authorized"
-british_audits_desc:0 "" #addlater
+british_audits_desc:0 "It is quite unfortunate that the British have requested to audit our armed forces. Nonetheless, we've been able to skirt by audits many times. After a few reclassification and reorganization schemes we should be able to cover up our build-up once more. In preparation for the audits, we will have to lay low rather than continue our prior, more ambitious plans."
 deny_british_audits:0 "British Audits Denied"
 deny_british_audits_desc:0 "" #addlater
 germany_league:0 "League of Nations Member"
@@ -530,7 +530,7 @@ GER_instigateindiannationalists:0 "Instigate Indian Nationalists"
 GER_instigateindiannationalists_desc:0 ""
 GER_strictengagementrules:0 "Strict Engagement Rules"
 GER_strictengagementrules_desc:0 ""
-GER_proclaimneutrality:0 "Proclaim Neutrality"
+GER_proclaimneutrality:0 "Support The National Government"
 GER_proclaimneutrality_desc:0 ""
 GER_backcedillosforces:0 "Back Cedillo's Forces"
 GER_backcedillosforces_desc:0 ""

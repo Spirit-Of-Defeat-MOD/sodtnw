@@ -12,7 +12,6 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-	limited_conscription
 }
 
 set_technology = {
@@ -47,9 +46,6 @@ if = {
 
 set_convoys = 5
 
-add_ideas = {
-	limited_conscription
-}
 
 set_politics = {
 	ruling_party = democratic
@@ -77,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -125,12 +121,6 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-
-
-add_ideas = {
-	sisu
 }
 
 create_field_marshal = {

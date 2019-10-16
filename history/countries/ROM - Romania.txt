@@ -9,7 +9,7 @@ if = {
 	}
 }
 
-add_idas = {
+add_ideas = {
 	ROM_hungarian_nationalists
 	ROM_king_carol
 	ROM_republican_sentiment

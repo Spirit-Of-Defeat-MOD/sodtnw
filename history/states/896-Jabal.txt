@@ -1,0 +1,26 @@
+
+state={
+	id=896
+	name="STATE_896"
+	manpower = 40000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = JBS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = SAU
+        add_core_of = JBS
+	}
+
+	provinces={
+		  2057 4974 5027 5058 5099 7970 8101 10815 10901 12455 13253
+	}
+}

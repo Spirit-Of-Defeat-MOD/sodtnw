@@ -1,0 +1,70 @@
+﻿capital = 894
+
+oob = "CED_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+
+#Mexican Civil War
+declare_war_on = {
+	target = MEX
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PNR
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PLM
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = VIL
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = MCT
+	type = annex_everything
+}
+
+set_politics = {
+	ruling_party = utilitarian_despot
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+set_popularities = {
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 100
+    fascism = 0
+    nihilistic_extremism = 0
+}
+
+create_country_leader = {
+	name = "Saturnino Cedillo Martínez"
+	desc = "POLITICS_CEDILLO_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = warlord
+	traits = {
+	}
+}

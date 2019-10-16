@@ -67,6 +67,8 @@ SOV_nihilistic_extremism_party_long:0 "Novonarodniky"
 #Ministers
 #should be reintegrated
 
+POLITICS_GREG_ZINOVIEV_DESC:0 "§YGrigory Yevseyevich Zinoviev, \nGeneral Secretary of the Central Committee of the Communist Party of the Soviet Union§!\n\n"
+
 #National Spirits
  SOV_territorial_draft:0 "Militia Army"
  SOV_spirit_of_trotskism:0 "Spirit of Troskism"

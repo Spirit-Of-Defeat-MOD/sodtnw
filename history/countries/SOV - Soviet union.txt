@@ -78,10 +78,20 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	
+	totalitarian_socialism = 19
+	communism = 50
+	revolutionary_socialism = 10
+	democratic_socialism = 2
+	social_democracy = 7
+	democratic = 3
+	neutrality = 5
+	utilitarian_despot = 3
+	fascism = 1
+	nihilistic_extremism = 0
+	
 }
 
 add_ideas = {
@@ -95,7 +105,106 @@ create_country_leader = {
 	desc = "POLITICS_GREG_ZINOVIEV_DESC"
 	picture = "Portrait_Zinoviev.tga"
 	expire = "1953.3.1"
+	ideology = totalitarian_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigory Zinoviev"
+	desc = "POLITICS_GREG_ZINOVIEV_DESC"
+	picture = "Portrait_Zinoviev.tga"
+	expire = "1953.3.1"
 	ideology = leninist
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Andrey Kolegayev"
+	desc = "POLITICS_ANDREY_KOLEGAYEV_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Fyodor Dan"
+	desc = "POLITICS_FYODOR_DAN_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = democratic_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sergey Melgunov"
+	desc = "POLITICS_SERGEY_MELGUNOV_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = social_democracy_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = progressivism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ivan Yefremov"
+	desc = "POLITICS_IVAN_YEFREMOV_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Guchkov"
+	desc = "POLITICS_ALEXANDER_GUCHKOV_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = reactionary_conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Military Clique"
+	desc = "POLITICS_HUNTA_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Aleksey Archangelsky"
+	desc = "POLITICS_LEHA_LEPEHA_AHAH_BLYAT_DESC"
+	picture = ""
+	expire = "1953.3.1"
+	ideology = paternal_state
 	traits = {
 		
 	}
@@ -112,16 +221,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = democratic_socialism_subtype
-	traits = {
-		
-	}
-}
 
 add_namespace = {
 	name = "unit_leader_sov"

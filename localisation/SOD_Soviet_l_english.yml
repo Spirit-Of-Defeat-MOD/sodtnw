@@ -71,8 +71,11 @@ POLITICS_GREG_ZINOVIEV_DESC:0 "§YGrigory Yevseyevich Zinoviev, \nGeneral Secret
 
 #National Spirits
  SOV_territorial_draft:0 "Militia Army"
+ SOV_territorial_draft_desc:0 "Ever since the October Revolution Soviet Army is relying on numbers of untrained and unmotivated drafted soldiers"
  SOV_spirit_of_trotskism:0 "Spirit of Troskism"
+ SOV_spirit_of_trotskism_desc:0 "While the Zinovyev/Kamenev's domination on political arena is quite obvious, the more suspicious of us still see the phantom threat of Trotsky seizing the power"
  SOV_lenin_draft:0 "Lenin's Draft"
+ SOV_lenin_draft_desc:0 "The Lenin Enrolment or Lenin Levy (after Vladimir Lenin) was an effort from 1923 to 1925 to enroll more members of the proletariat into the Communist party and incite them to become active in party affairs. In total, over 500,000 were recruited. It came in response to growing criticism of the Communist party as elitist by the rank and file. Even though the party claimed to represent the working class, most of its membership, and particularly its leadership, including Lenin himself, came from the educated classes. The criticism reached a peak at the 10th party congress in 1920 when the "workers' opposition" openly challenged Lenin. Even though Lenin managed to put down the rebellion within party ranks that time, the pressure to make the party more representative of its supposed base could no longer be ignored."
 #Ideas
 joint_exercises_sov:0 "Joint Military Exercises"
  
@@ -208,4 +211,6 @@ SOV_triumphofthevindicativedoctrine_desc:0 ""Coups and changes that would take c
 
 
 #Events
-#should be reintegrated
+soviet.1.t:0 "Hey dude"
+ soviet.1.d:0 "Placeholder for later"
+ soviet.1.a:0 "Hey Zhurba!"

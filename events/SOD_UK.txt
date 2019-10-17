@@ -28,11 +28,11 @@ country_event = {
                 create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+        	picture = "Edward_VIII.dds"
         	expire = "1965.1.1"
         	ideology = social_conservatism_subtype
         	traits = {
-        		chamberlain_appeaser rearmer
+        		#
         	}
         }
         set_country_flag = KGV_dead

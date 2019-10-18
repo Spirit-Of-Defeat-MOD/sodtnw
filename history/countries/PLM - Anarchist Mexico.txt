@@ -5,7 +5,14 @@ oob = "PLM_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
 	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 set_convoys = 5
@@ -13,27 +20,27 @@ set_convoys = 5
 #Mexican Civil War
 declare_war_on = {
 	target = MEX
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = PNR
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = CED
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = VIL
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = MCT
-	type = annex_everything
+	type = civil_war
 }
 
 set_politics = {
@@ -67,4 +74,48 @@ create_country_leader = {
 	ideology = anarchist_communism
 	traits = {
 	}
+}
+
+create_field_marshal = {
+	name = "Carol Ap Rhys Pryce"
+	picture = ""
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill =4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "José María Leyva"
+	picture = ""
+	traits = {  }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Manuel Macario Diéguez Lara"
+	picture = ""
+	traits = {  }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jose Maria Rangel"
+	picture = ""
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
 }

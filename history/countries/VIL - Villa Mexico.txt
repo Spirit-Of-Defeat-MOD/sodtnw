@@ -5,7 +5,14 @@ oob = "VIL_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
 	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 set_convoys = 5
@@ -13,27 +20,27 @@ set_convoys = 5
 #Mexican Civil War
 declare_war_on = {
 	target = MEX
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = PNR
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = PLM
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = CED
-	type = annex_everything
+	type = civil_war
 }
 
 declare_war_on = {
 	target = MCT
-	type = annex_everything
+	type = civil_war
 }
 
 set_politics = {
@@ -60,11 +67,76 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Pancho Villa"
-	desc = "POLITICS_OBREGON_DESC"
+	name = "Francisco "Pancho" Villa"
+	desc = "POLITICS_VILLA_DESC"
 	picture = ""
 	expire = "1965.1.1"
 	ideology = socialist_revolutionary
 	traits = {
 	}
 }
+
+create_field_marshal = {
+	name = "Francisco Villa"
+	picture = ""
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "José Gonzalo Escobar"
+	picture = ""
+	traits = {  }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Manuel Chao"
+	picture = ""
+	traits = {  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Rosalío Hernández"
+	picture = ""
+	traits = {  }
+	skill = 1
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Severino Ceniceros"
+	picture = ""
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Miguel S. González"
+	picture = ""
+	traits = {  }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 5

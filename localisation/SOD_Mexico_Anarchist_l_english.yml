@@ -1,0 +1,86 @@
+﻿l_english: 
+
+#Parties
+#too lazy to do now, will add later - tech
+PLM_fascism_party:0 ""
+PLM_fascism_party_long:0 ""
+PLM_communism_party:0 ""
+PLM_communism_party_long:0 ""
+PLM_democratic_party:0 ""
+PLM_democratic_party_long:0 ""
+PLM_utilitarian_despot_party:0 ""
+PLM_utilitarian_despot_party_long:0 ""
+PLM_neutrality_party:0 ""
+PLM_neutrality_party_long:0 ""
+PLM_social_democracy_party:0 ""
+PLM_social_democracy_party_long:0 ""
+PLM_social_liberal_party:0 ""
+PLM_social_liberal_party_long:0 ""
+PLM_classic_liberal_party:0 ""
+PLM_classic_liberal_party_long:0 ""
+PLM_totalitarian_socialism_party:0 ""
+PLM_totalitarian_socialism_party_long:0 ""
+PLM_revolutionary_socialism_party:0 "PLM"
+PLM_revolutionary_socialism_party_long:0 "Partido Liberal Mexicano"
+PLM_democratic_socialism_party:0 "
+PLM_democratic_socialism_party_long:0 ""
+PLM_nihilistic_extremism_party:0 ""
+PLM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ PLM_fascism:0 "Magonistas"
+ PLM_fascism_DEF:0 "the Magonistas"
+ PLM_nihilistic_extremism:0 "Magonistas"
+ PLM_nihilistic_extremism_DEF:0 "Magonistas"
+ PLM_totalitarian_socialism:0 "Magonistas"
+ PLM_totalitarian_socialism_DEF:0 "the Magonistas"
+ PLM_utilitarian_despot:0 "Magonistas"
+ PLM_utilitarian_despot_DEF:0 "the Magonistas"
+ PLM_democratic:0 "Magonistas"
+ PLM_democratic_DEF:0 "the Magonistas"
+ PLM_neutrality:1 "Magonistas"
+ PLM_neutrality_DEF:1 "the Magonistas"
+ PLM_democratic_socialism:0 "Magonistas"
+ PLM_democratic_socialism_DEF:0 "the Magonistas"
+ PLM_revolutionary_socialism:0 "Magonistas"
+ PLM_revolutionary_socialism_DEF:0 "the Magonistas"
+ PLM_social_democracy:0 "Magonistas"
+ PLM_social_democracy_DEF:0 "the Magonistas"
+ PLM_social_liberal:0 "Magonistas"
+ PLM_social_liberal_DEF:0 "the Magonistas"
+ PLM_classic_liberal:0 "Magonistas"
+ PLM_classic_liberal_DEF:0 "the Magonistas"
+ PLM_communism:0 "Magonistas"
+ PLM_communism_DEF:0 "the Magonistas"
+ 
+ #Should be able to change to huerta, cardenas etc. when thier ideologies are known
+ 
+ PLM_fascism_ADJ:0 "Mexican"
+ PLM_nihilistic_extremism_ADJ:0 "Mexican"
+ PLM_totalitarian_socialism_ADJ:0 "Mexican"
+ PLM_democratic_ADJ:0 "Mexican"
+ PLM_utilitarian_despot_ADJ:0 "Mexican"
+ PLM_democratic_socialism_ADJ:0 "Mexican"
+ PLM_neutrality_ADJ:0 "Mexican"
+ PLM_revolutionary_socialism_ADJ:0 "Mexican"
+ PLM_social_democracy_ADJ:0 "Mexican"
+ PLM_social_liberal_ADJ:0 "Mexican"
+ PLM_classic_liberal_ADJ:0 "Mexican"
+ PLM_communism_ADJ:0 "Mexican"
+
+#Ministers
+#should be reintegrated
+
+#National Spirits
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

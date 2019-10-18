@@ -1,22 +1,22 @@
 ﻿l_english: 
 
  #Parties
- KUR_fascism_party:0 ""
- KUR_fascism_party_long:0 ""
- KUR_communism_party:0 ""
- KUR_communism_party_long:0 ""
- KUR_democratic_party:0 ""
- KUR_democratic_party_long:0 ""
- KUR_utilitarian_despot_party:0 ""
- KUR_utilitarian_despot_party_long:0 ""
- KUR_neutrality_party:0 ""
- KUR_neutrality_party_long:0 ""
- KUR_social_democracy_party:0 ""
- KUR_social_democracy_party_long:0 ""
- KUR_social_liberal_party:0 ""
- KUR_social_liberal_party_long:0 ""
- KUR_classic_liberal_party:0 ""
- KUR_classic_liberal_party_long:0 ""
+ KUR_fascism_party:0 "Xoybun"
+ KUR_fascism_party_long:0 "Xoybun"
+ KUR_communism_party:0 "Communists"
+ KUR_communism_party_long:0 "Communists"
+ KUR_democratic_party:0 "Moderates"
+ KUR_democratic_party_long:0 "Moderates"
+ KUR_utilitarian_despot_party:0 "Traditionalists"
+ KUR_utilitarian_despot_party_long:0 "Barzanji Clan"
+ KUR_neutrality_party:0 "Barzani Clan"
+ KUR_neutrality_party_long:0 "Barzani Clan"
+ KUR_social_democracy_party:0 "Republicans"
+ KUR_social_democracy_party_long:0 "Republicans"
+ KUR_social_liberal_party:0 "Republicans"
+ KUR_social_liberal_party_long:0 "Republicans"
+ KUR_classic_liberal_party:0 "Republicans"
+ KUR_classic_liberal_party_long:0 "Republicans"
  KUR_totalitarian_socialism_party:0 ""
  KUR_totalitarian_socialism_party_long:0 ""
  KUR_revolutionary_socialism_party:0 ""
@@ -27,18 +27,18 @@
  KUR_nihilistic_extremism_party_long:0 ""
 
  #Country Names
- KUR_fascism:0 ""
- KUR_fascism_DEF:0 ""
+ KUR_fascism:0 "Republic of Kurdistan"
+ KUR_fascism_DEF:0 "The Republic of Kurdistan"
  KUR_nihilistic_extremism:0 ""
  KUR_nihilistic_extremism_DEF:0 ""
  KUR_totalitarian_socialism:0 "People's Republic of Kurdistan"
  KUR_totalitarian_socialism_DEF:0 "The People's Republic of Kurdistan"
- KUR_utilitarian_despot:0 ""
- KUR_utilitarian_despot_DEF:0 ""
- KUR_democratic:0 "Republic of Kurdistan"
- KUR_democratic_DEF:0 "The Republic of Kurdistan"
- KUR_neutrality:0 ""
- KUR_neutrality_DEF:0 ""
+ KUR_utilitarian_despot:0 "Kingdom of Kurdistan"
+ KUR_utilitarian_despot_DEF:0 "the Kingdom of Kurdistan"
+ KUR_democratic:0 "Kingdom of Kurdistan"
+ KUR_democratic_DEF:0 "the Kingdom of Kurdistan"
+ KUR_neutrality:0 "Kingdom of Kurdistan"
+ KUR_neutrality_DEF:0 "the Kingdom of Kurdistan"
  KUR_democratic_socialism:0 "Republic of Kurdistan"
  KUR_democratic_socialism_DEF:0 "The Republic of Kurdistan"
  KUR_revolutionary_socialism:0 "Revolutionary Kurdistan"
@@ -67,6 +67,7 @@
 
  #Ministers
  #should be reintegrated
+ POLITICS_AHMED_BARZANI_DESC:0 "§YEhmed Mihemed Barzanî,\nKing of the Kurds§!\n\n"
  
  #Focuses
  #should be reintegrated

@@ -111,7 +111,7 @@ country_event = {
 				}
 			}
 			#RAJ = { country_event = raj.1 }
-			#BRM = { set_cosmetic_tag = BRM_UK }
+			BRM = { set_cosmetic_tag = BRM_UK }
 			BRM = { add_state_core = 288 }
 			BRM = { add_state_core = 640 }
 			#BRM = { load_oob = BRM_1937 }
@@ -195,7 +195,7 @@ country_event = {
 				}
 			}
 			#RAJ = { country_event = raj.1 }
-			#BRM  = { set_cosmetic_tag = BRM_UK }
+			BRM  = { set_cosmetic_tag = BRM_UK }
 			BRM  = { add_state_core = 288 }
 			BRM = { add_state_core = 640 }
 			#BRM = { load_oob = BRM_1937 }

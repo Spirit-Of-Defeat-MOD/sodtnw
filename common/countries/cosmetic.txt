@@ -247,3 +247,8 @@ MOR_FRA_subject = {
         color = rgb { 30 84 183 }
         color_ui = rgb { 35 101 222 }
 }
+
+BRM_UK_subject = {
+        color = rgb { 158 77 95 }
+	color_ui = rgb { 120 7 32 }
+}

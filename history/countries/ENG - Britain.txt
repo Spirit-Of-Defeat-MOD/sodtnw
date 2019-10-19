@@ -1,6 +1,9 @@
 ﻿capital = 126
 
 set_oob = "ENG_1936"
+
+country_event = { id = uk.1000 days = 314 }
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

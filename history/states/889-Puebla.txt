@@ -14,10 +14,11 @@ state={
 		owner = PLM
 		buildings = {
 			infrastructure = 4
-			dockyard = 1
+			arms_factory = 2
 		}
 		add_core_of = MEX
         add_core_of = PLM
+		
 		
 		victory_points = {
 			8089 10

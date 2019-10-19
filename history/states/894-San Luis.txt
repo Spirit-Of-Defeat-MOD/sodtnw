@@ -2,7 +2,7 @@
 state={
 	id=894
 	name="STATE_894"
-	manpower = 72988
+	manpower = 579800 #source - populstat
 	
 	state_category = town
 
@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = MEX
 		add_core_of = CED
+		
 		victory_points = {
 			4956 10
 		}

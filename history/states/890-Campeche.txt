@@ -17,6 +17,7 @@ state={
 		add_core_of = MEX
 		add_core_of = PNR
 		
+		
 		victory_points = {
 			4904 2
 		}

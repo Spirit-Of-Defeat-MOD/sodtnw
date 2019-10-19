@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+        cavalry_tactics = {
+				
+			allowed = {
+				original_tag = CED
+				original_tag = MCT
+				original_tag = PNR
+				original_tag = PLM
+				original_tag = VIL
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+			}
+		}
+	}
+}

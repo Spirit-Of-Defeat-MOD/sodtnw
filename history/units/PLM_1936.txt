@@ -54,35 +54,35 @@ division_template = {
 
 units = {
 	division = {
-		location = 9089
+		location = 8089
 		division_template = "Ejército Magonista"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
-		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 	
 	division = {
-		location = 8032
+		location = 8089
 		division_template = "Brigada Agrarista"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
-		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 	
 	division = {
-		location = 9089
+		location = 8089
 		division_template = "Brigada Agrarista"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
-		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 	
 	division = {
-		location = 10889
+		location = 8089
 		division_template = "Brigada Agrarista"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
-		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 }
 

@@ -53,6 +53,10 @@ MEX_nihilistic_extremism_party_long:0 ""
  MEX_communism:0 "Mexican People's Republic"
  MEX_communism_DEF:0 "the Mexican People's Republic"
  
+ MEX_CIVIL_WAR:0 "Federales"
+ MEX_CIVIL_WAR_DEF:0 "the Federales"
+ MEX_CIVIL_WAR_ADJ:0 "Federal"
+ 
  MEX_fascism_ADJ:0 "Mexican"
  MEX_nihilistic_extremism_ADJ:0 "Mexican"
  MEX_totalitarian_socialism_ADJ:0 "Mexican"

@@ -1,0 +1,28 @@
+﻿l_english: 
+
+
+#Focuses
+REV_fortification_effort:0 "Fortification Effort"
+REV_army_effort:0 "Militia Training"
+REV_equipment_effort:0 "Buy Local Guns"
+REV_cavalry_effort:0 "Cavalry Tactics"
+REV_doctrine_effort:0 "New Battle Plans"
+REV_equipment_effort_2:0 "Buying Weapons Internationally"
+REV_fortification_effort:0 "Fortify our Base"
+REV_doctrine_effort_2:0 "Conventional Tactics"
+REV_equipment_effort_3:0 "Start Weapon Manufacturing"
+REV_armor_effort:0 "Utilize Trucks"
+REV_special_forces:0 "Specialized Units"
+
+#Events
+mexrev.1.t:0 "A request for help"
+mexrev.1.d:0 "[ROOT.GetLeader] of the [ROOT.GetName] faction of the Mexican Revolution is requesting assiastance for their internal struggle, they claim it is necessary to win as Mexico burns the flames of revolution"
+mexrev.1.a:0 "Send Assistance"
+mexrev.1.b:0 "This is not our concern"
+mexrev.1.c:0 "We've already intervened enough"
+
+#Descriptions
+cavalry_tactics:0 "Cavalry Tactics"
+
+#cosmetic tags
+ 

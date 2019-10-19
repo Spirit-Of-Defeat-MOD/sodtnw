@@ -43,6 +43,8 @@ declare_war_on = {
 	type = civil_war
 }
 
+set_war_support = 0.7
+
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1929.11.1"

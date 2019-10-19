@@ -1,0 +1,6 @@
+﻿###########################
+# Mexico Events by kstar
+###########################
+
+add_namespace = mexico
+add_namespace = mexrev

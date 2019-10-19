@@ -43,6 +43,8 @@ declare_war_on = {
 	type = civil_war
 }
 
+set_war_support = 0.7
+
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1929.11.1"
@@ -78,7 +80,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Carol Ap Rhys Pryce"
-	picture = ""
+	picture = "Carol_Pryce.tga"
 	traits = {  }
 	skill = 4
 	attack_skill = 3
@@ -100,7 +102,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Manuel Macario Diéguez Lara"
-	picture = ""
+	picture = "Manuel_Lara.tga"
 	traits = {  }
 	skill = 1
 	attack_skill = 3

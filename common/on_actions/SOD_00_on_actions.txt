@@ -29,8 +29,56 @@ on_actions = {
 					country_event = { id = intro.1 }
 				}
 			}
+			
+			MEX = { set_cosmetic_tag = MEX_CIVIL_WAR }
 		}
 	}
+	
+	on_startup = { #Mexico Cores, this is so factions can gain manpower once they annex someone
+		effect = {
+			every_state = {
+				limit = {
+					is_core_of = MEX
+				}
+				add_core_of = CED
+				add_core_of = MCT
+				add_core_of = PNR
+				add_core_of = PLM
+				add_core_of = VIL
+			}
+			
+			every_state = {
+				limit = {
+					is_claimed_by = MEX
+				}
+				add_claim_by = CED
+				add_claim_by = MCT
+				add_claim_by = PNR
+				add_claim_by = PLM
+				add_claim_by = VIL
+			}
+		}
+	}
+	
+	on_annex = { #Should remove cores of dead factions so no revivals mid civil war
+		effect = {
+			every_state = {
+				limit = {
+					is_core_of = FROM
+				}
+				remove_core_of = FROM
+			}
+			
+			every_state = {
+				limit = {
+					is_claimed_by = FROM
+				}
+				remove_claim_by = FROM
+			}
+		}
+	}
+	
+	
 	on_army_leader_won_combat = { 
 		effect = {
 			if = {

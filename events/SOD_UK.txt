@@ -243,5 +243,26 @@ country_event = {
 				}
 			}
 		}
+}
+
+country_event = { 
+	id = uk.1000
+	title = uk.1000.t
+	desc = uk.1000.d
+	#picture = GFX_news_event_006
+
+	is_triggered_only = yes
+
+	option = {
+		name = uk.1000.a
+		add_political_power = 10
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = uk.1000
+					days = 365
+				}
+			}
+		}
 	}
 }

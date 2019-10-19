@@ -16,6 +16,7 @@ country_event = {
 	trigger = {
 		tag = ENG 
 		date > 1936.1.20
+		NOT = { has_country_flag = KGV_dead }
 	}
 	
 	mean_time_to_happen = {

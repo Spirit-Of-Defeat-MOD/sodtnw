@@ -249,7 +249,7 @@ country_event = {
 	id = uk.1000
 	title = uk.1000.t
 	desc = uk.1000.d
-	#picture = GFX_news_event_006
+	picture = GFX_report_event_royal_visit
 
 	is_triggered_only = yes
 

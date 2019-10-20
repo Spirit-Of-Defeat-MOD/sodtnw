@@ -51,6 +51,8 @@ add_ideas = {
 	PLM_Rivera_eco
 	PLM_Sarabia_sec
 	PLM_Villarreal_int
+	
+	PLM_anarchist_revolution
 }
 
 set_politics = {

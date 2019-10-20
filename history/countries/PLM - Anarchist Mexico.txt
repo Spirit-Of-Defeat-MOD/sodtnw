@@ -45,6 +45,14 @@ declare_war_on = {
 
 set_war_support = 0.7
 
+add_ideas = {
+	PLM_Flores_Magon_hog
+	PLM_Enrique_frm
+	PLM_Rivera_eco
+	PLM_Sarabia_sec
+	PLM_Villarreal_int
+}
+
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1929.11.1"
@@ -69,9 +77,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ricardo Flores Magón"
-	desc = "POLITICS_MAGON_DESC"
-	picture = ""
+	name = "Junta del Partido Liberal Mexicano"
+	desc = "POLITICS_PLM_DESC"
+	picture = "PLM_Junta.tga"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {
@@ -84,7 +92,7 @@ create_field_marshal = {
 	traits = {  }
 	skill = 4
 	attack_skill = 3
-	defense_skill =4
+	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 3
 }

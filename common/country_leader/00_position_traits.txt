@@ -52,5 +52,6 @@ leader_traits = {
 # Unique/Personal ideologies
 #####################
 
+	magonist = {}
 
 }

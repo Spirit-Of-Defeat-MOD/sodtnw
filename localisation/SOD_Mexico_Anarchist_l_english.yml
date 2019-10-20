@@ -69,7 +69,11 @@ PLM_nihilistic_extremism_party_long:0 ""
  PLM_communism_ADJ:0 "Mexican"
 
 #Ministers
-#should be reintegrated
+PLM_Flores_Magon_hog:0 "Ricardo Flores Magón "
+PLM_Enrique_frm:0 "Enrique Flores Magón"
+PLM_Rivera_eco:0 "Librado Rivera"
+PLM_Sarabia_sec:0 "Juan Sarabia Díaz de León"
+PLM_Villarreal_int:0 "José Antonio Villarreal González"
 
 #National Spirits
 

@@ -1,0 +1,32 @@
+MEX_revolution = {
+	#Villa's Decisions - to be finished eventually
+	VIL_seize_haciendas = {
+		allowed = {
+			tag = VIL
+		}
+	
+	}
+	
+	VIL_demand_funding = {
+		allowed = {
+			tag = VIL
+		}
+	
+	}
+	
+	VIL_raid_us_border = { 
+		allowed = {
+			tag = VIL
+		}
+	} 
+	VIL_confiscate_gold = {
+		allowed = {
+			tag = VIL
+		}
+	}
+	VIL_build_chihuahua_railroad = {
+		allowed = {
+			tag = VIL
+		}
+	}
+}

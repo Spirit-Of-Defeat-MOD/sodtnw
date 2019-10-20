@@ -148,37 +148,37 @@ if = {
 	}
 	set_autonomy = {
 		target = NIC
-		autonomous_state = autonomy_protectorate
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.7
 	}
 	
 	set_autonomy = {
 		target = CUB
-		autonomous_state = autonomy_protectorate
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.7
 	}
 
 	set_autonomy = {
 		target = HON
-		autonomous_state = autonomy_puppet
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.5
 	}
 	
 	set_autonomy = {
 		target = PHI
-		autonomous_state = autonomy_puppet
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.5
 	}
 
 	set_autonomy = {
 		target = HAI
-		autonomous_state = autonomy_military_occupation
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.25
 	}
 
 	set_autonomy = {
 		target = DOM
-		autonomous_state = autonomy_military_occupation
+		autonomous_state = sod_occupied_territory
 		freedom_level = 0.25
 	}
 

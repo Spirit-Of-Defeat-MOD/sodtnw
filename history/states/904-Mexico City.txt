@@ -1,0 +1,57 @@
+
+state={
+	id=904
+	name="STATE_904"
+	manpower = 1029100
+	
+	state_category = city
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = MEX 
+		victory_points = {
+			1965 25
+		}
+		victory_points = {
+			1965 25
+		}
+		victory_points = {
+			13308 5
+		}
+		victory_points = {
+			13309 5
+		}
+		victory_points = {
+			13310 5
+		}
+		victory_points = {
+			13311 5
+		}
+		victory_points = {
+			13312 5
+		}
+		victory_points = {
+			13313 5
+		}
+		victory_points = {
+			13314 5
+		}
+		victory_points = {
+			13315 5
+		}
+		victory_points = {
+			13316 5
+		}
+	}
+
+	provinces={
+		1965 13308 13309 13310 13311 13312 13313 13314 13315 13316
+	}
+	
+}

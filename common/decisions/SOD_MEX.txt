@@ -73,10 +73,58 @@ MEX_revolution = {
 
 		ai_will_do = {
 			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+		}
+	}
+	
+	#MCT Decisions
+	MCT_form_mexico = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = MCT
 			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				NOT = {
+					country_exists = CED
+					country_exists = PNR
+					country_exists = PLM
+					country_exists = VIL
+					country_exists = MEX
+				}
+			}
+			NOT = {
+				country_exists = CED
+				country_exists = PNR
+				country_exists = PLM
+				country_exists = VIL
+				country_exists = MEX
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = MCT
+			}
+			NOT = { has_global_flag = mexico_reformed }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MEX_UNIFIED_MCT
+			hidden_effect = {
+				#news_event = { id = mexican_unification hours = 6 }
+				set_global_flag = mexico_reformed
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
 		}
 	}
 }

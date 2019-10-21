@@ -20,27 +20,27 @@ set_convoys = 5
 #Mexican Civil War
 declare_war_on = {
 	target = MEX
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = CED
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = PLM
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = VIL
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = MCT
-	type = civil_war
+	type = annex_everything
 }
 
 set_politics = {

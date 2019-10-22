@@ -1,0 +1,31 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+	spriteType = {
+		name = "GFX_idea_PLM_Flores_Magon_hog"
+		texturefile = "gfx/ministers/PLM/PLM_Flores_Magon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Enrique_frm"
+		texturefile = "gfx/ministers/PLM/PLM_Enrique_Magon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Rivera_eco"
+		texturefile = "gfx/ministers/PLM/PLM_Rivera.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Sarabia_sec"
+		texturefile = "gfx/ministers/PLM/PLM_Sarabia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Villarreal_int"
+		texturefile = "gfx/ministers/PLM/PLM_Villarreal.tga"
+	}
+#national spirits
+
+}

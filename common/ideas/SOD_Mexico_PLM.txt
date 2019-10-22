@@ -1,0 +1,145 @@
+ideas = {
+
+  ################################################################################################################################################################################################
+  ### GER
+  ################################################################################################################################################################################################
+
+	head_of_government = { ### Head of Government ###
+		PLM_Flores_Magon_hog = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Flores_Magon_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Flores_Magon_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Flores_Magon_hog"
+			}
+			traits = {
+				head_of_government
+				magonist
+				father_of_magonism
+			}
+			cancel_if_invalid = yes
+		}
+
+}
+	
+	foreign_minister = { ### Foreign Minister ###
+		PLM_Enrique_frm = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Enrique_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Enrique_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Enrique_frm"
+			}
+			traits = {
+				foreign_minister
+				magonist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	economy_minister = { ### Minister of the Economy ###
+		PLM_Rivera_eco = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Rivera_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Rivera_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Rivera_eco"
+			}
+			traits = {
+				economy_minister
+				magonist
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+	
+	security_minister = { ### Minister of Security ###
+		PLM_Sarabia_sec = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Sarabia_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Sarabia_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Sarabia_sec"
+			}
+			traits = {
+				security_minister
+				magonist
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+	
+	head_of_intel = { ### Head of Mil Intel ###
+		PLM_Villarreal_int = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Villarreal_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Villarreal_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Villarreal_int"
+			}
+			traits = {
+				head_of_intel
+				magonist
+				
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	country = {
+		PLM_anarchist_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PLM_anarchist_revolution"}
+			allowed = { always = no }
+			modifier = {
+				war_support_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			removal_cost = -1
+		}
+
+	}	
+}
+

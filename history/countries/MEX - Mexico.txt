@@ -1,4 +1,4 @@
-﻿capital = 277
+﻿capital = 904
 
 oob = "MEX_1936"
 if = {
@@ -47,7 +47,7 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 45
 set_stability = 0.2
-set_war_support = 0.1
+set_war_support = 0.7
 
 #Mexican Civil War
 declare_war_on = {

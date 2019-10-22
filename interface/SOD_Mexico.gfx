@@ -3,7 +3,8 @@ spriteTypes = {
 #events
 #ministers
 #national spirits
-spriteType = {
+	spriteType = {
 		name = "GFX_idea_MEX_failed_state"
 		texturefile = "gfx/interface/ideas/MEX/failed_state.tga"
 	}
+}

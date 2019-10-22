@@ -1,0 +1,215 @@
+MEX_revolution = {
+	#Villa's Decisions - to be finished eventually
+	REV_recruitment = {
+
+		available = {
+			has_completed_focus = REV_doctrine_effort
+		}
+		
+		days_re_enable = 100
+		
+		complete_effect = {
+			ROOT = { country_event = { id = mexrev.1}}
+		}
+	}
+	
+	VIL_seize_haciendas = {
+		allowed = {
+			tag = VIL
+		}
+	
+	}
+	
+	VIL_demand_funding = {
+		allowed = {
+			tag = VIL
+		}
+	
+	}
+	 
+	VIL_confiscate_gold = {
+		allowed = {
+			tag = VIL
+		}
+	}
+	VIL_build_chihuahua_railroad = {
+		allowed = {
+			tag = VIL
+		}
+		
+		cost = 50 
+		
+		days_remove = 200
+
+		available = {
+			controls_state = 482
+		}
+		
+		complete_effect = {}
+		
+		remove_effect = {
+			482 = {
+				set_building_level = {
+					type = infrastructure
+					level = 7
+				}
+			}
+
+		}
+	}
+	
+	VIL_form_mexico = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = VIL
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				NOT = {
+					country_exists = CED
+					country_exists = PNR
+					country_exists = PLM
+					country_exists = MCT
+					country_exists = MEX
+				}
+			}
+			NOT = {
+				country_exists = CED
+				country_exists = PNR
+				country_exists = PLM
+				country_exists = MCT
+				country_exists = MEX
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = VIL
+			}
+			NOT = { has_global_flag = mexico_reformed }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MEX_UNIFIED_VIL
+			hidden_effect = {
+				#news_event = { id = mexican_unification hours = 6 }
+				set_global_flag = mexico_reformed
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#MCT Decisions
+	MCT_form_mexico = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = MCT
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				NOT = {
+					country_exists = CED
+					country_exists = PNR
+					country_exists = PLM
+					country_exists = VIL
+					country_exists = MEX
+				}
+			}
+			NOT = {
+				country_exists = CED
+				country_exists = PNR
+				country_exists = PLM
+				country_exists = VIL
+				country_exists = MEX
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = MCT
+			}
+			NOT = { has_global_flag = mexico_reformed }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MEX_UNIFIED_MCT
+			hidden_effect = {
+				#news_event = { id = mexican_unification hours = 6 }
+				set_global_flag = mexico_reformed
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#MCT Decisions
+	PLM_form_mexico = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = PLM
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				NOT = {
+					country_exists = CED
+					country_exists = PNR
+					country_exists = MCT
+					country_exists = VIL
+					country_exists = MEX
+				}
+			}
+			NOT = {
+				country_exists = CED
+				country_exists = PNR
+				country_exists = MCT
+				country_exists = VIL
+				country_exists = MEX
+			}
+
+		}
+
+		visible = {
+			OR = {
+				original_tag = PLM
+			}
+			NOT = { has_global_flag = mexico_reformed }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MEX_UNIFIED_PLM
+			hidden_effect = {
+				#news_event = { id = mexican_unification hours = 6 }
+				set_global_flag = mexico_reformed
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

@@ -20,30 +20,40 @@ set_convoys = 5
 #Mexican Civil War
 declare_war_on = {
 	target = MEX
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = PNR
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = CED
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = VIL
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = MCT
-	type = civil_war
+	type = annex_everything
 }
 
 set_war_support = 0.7
+
+add_ideas = {
+	PLM_Flores_Magon_hog
+	PLM_Enrique_frm
+	PLM_Rivera_eco
+	PLM_Sarabia_sec
+	PLM_Villarreal_int
+	
+	PLM_anarchist_revolution
+}
 
 set_politics = {
 	ruling_party = revolutionary_socialism
@@ -69,9 +79,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ricardo Flores Magón"
-	desc = "POLITICS_MAGON_DESC"
-	picture = ""
+	name = "Junta del Partido Liberal Mexicano"
+	desc = "POLITICS_PLM_DESC"
+	picture = "PLM_Junta.tga"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {
@@ -84,7 +94,7 @@ create_field_marshal = {
 	traits = {  }
 	skill = 4
 	attack_skill = 3
-	defense_skill =4
+	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 3
 }

@@ -1,0 +1,3 @@
+MEX_revolution = {
+	icon = border_conflicts
+}

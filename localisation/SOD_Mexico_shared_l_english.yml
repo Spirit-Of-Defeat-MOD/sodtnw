@@ -6,7 +6,7 @@ REV_fortification_effort:0 "Fortification Effort"
 REV_army_effort:0 "Militia Training"
 REV_equipment_effort:0 "Buy Local Guns"
 REV_cavalry_effort:0 "Cavalry Tactics"
-REV_doctrine_effort:0 "New Battle Plans"
+REV_doctrine_effort:0 "Recruitment Drive"
 REV_equipment_effort_2:0 "Buying Weapons Internationally"
 REV_fortification_effort:0 "Fortify our Base"
 REV_doctrine_effort_2:0 "Conventional Tactics"
@@ -15,12 +15,28 @@ REV_armor_effort:0 "Utilize Trucks"
 REV_special_forces:0 "Specialized Units"
 
 #Decisions
+REV_recruitment:0 "Recruitment Drive"
 MEX_revolution:0 "The Mexican Revolution"
 VIL_form_mexico:0 "Reform the Mexican State"
 MCT_form_mexico:0 "Reform the Mexican State"
+PLM_form_mexico:0 "Abolish the Mexican State"
 
-#Descriptions
+#Ideas
 cavalry_tactics:0 "Cavalry Tactics"
+
+#Events
+mexrev.1.t:0 "The Push for Recruitment"
+mexrev.1.d:0 ""
+mexrev.1.a:0 "We can only hope"
+mexrev.2.t:0 "Success"
+mexrev.2.d:0 ""
+mexrev.2.a:0 "Wonderful"
+mexrev.3.t:0 "Mild Success"
+mexrev.3.d:0 ""
+mexrev.3.a:0 "We'll work with what we can get"
+mexrev.4.t:0 "Failure"
+mexrev.4.d:0 ""
+mexrev.4.a:0 "We'll work with what we can have"
 
 #cosmetic tags
  MEX_UNIFIED_VIL_fascism:0 "United Mexican States"

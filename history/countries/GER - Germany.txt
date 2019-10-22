@@ -126,9 +126,10 @@ add_ideas = {
 	black_reichswehr
 	economic_troubles
 	rampant_paramilitaries
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	protectionism
+	one_year_draft
+	interventionism
+	mixed_focus
 	GER_military_council_hog
 	GER_Konstantin_Neurath_frm
 	GER_Alfred_Hugenberg_eco
@@ -144,8 +145,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = national_collectivist
 	traits = {
-		dictator
-		warmonger
 	}
 }
 
@@ -156,7 +155,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = military_junta
 	traits = {
-		dictator
 	}
 }
 
@@ -221,8 +219,6 @@ create_country_leader = {
 	expire = "1939.1.16"
 	ideology = democratic_socialism_subtype
 	traits = {
-		exiled
-		union_man
 	}
 }
 

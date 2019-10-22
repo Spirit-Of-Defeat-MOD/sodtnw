@@ -21,5 +21,24 @@ ideas = {
 				cavalry_defence_factor = 0.05
 			}
 		}
+
+		failed_state = {
+				
+			allowed = {
+				original_tag = MEX
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				training_time_factor = -0.10
+				stability_factor = -0.15
+				political_power_factor = -0.25 
+			}
+		}
 	}
 }

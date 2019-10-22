@@ -146,8 +146,8 @@ CHI = {
 	color_ui = rgb { 67 88 109 }
 }
 CHL = {
-	color = rgb { 249 146 98 }
-	color_ui = rgb { 249 146 98 }
+	color = rgb { 255 53 94 }
+	color_ui = rgb { 255 53 94 }
 }
 COL = {
 	color = rgb { 222 187 91 }

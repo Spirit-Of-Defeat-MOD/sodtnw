@@ -12,7 +12,7 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-	limited_conscription
+	two_year_draft
 	megali_idea
 	GRE_third_balkan_war
 }

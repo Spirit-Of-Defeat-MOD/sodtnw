@@ -60,7 +60,9 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 25	communism = 75
+set_popularities = {
+	democratic = 25
+	communism = 75
 }
 
 create_country_leader = {
@@ -68,7 +70,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = liberalism
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}

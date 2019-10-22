@@ -88,13 +88,23 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		cornered_fox
 	}
 }
 
 create_country_leader = {
 	name = "Eugene Chen"
 	desc = "POLITICS_EUGENE_CHEN_DESC"
+	picture = "GFX_portrait_chi_wang_jingwei"
+	expire = "1965.1.1"
+	ideology = totalitarian_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Li Jishen"
+	desc = "POLITICS_JISHEN_DESC"
 	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
 	ideology = social_democracy_subtype
@@ -104,11 +114,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Weng Wenhao" 
-	desc = "POLITICS_ZHANG_LAN_DESC"
+	name = "Deng Yanda" 
+	desc = "POLITICS_DENG_YANDA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = centrism
 	traits = {
 		#
 	}

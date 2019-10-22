@@ -85,17 +85,6 @@ if = {
 
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		HOL_aloof_neutrality
-		HOL_shell_shocked_spectator_5
-		HOL_de_crisisjaren_5
-		HOL_weak_government
-	}
-}
 
 set_politics = {
 	ruling_party = democratic
@@ -121,17 +110,6 @@ create_country_leader = {
 	desc = "POLITICS_WILHELMINA_DESC"
 	picture = "portrait_hol_wilhelmina.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "portrait_hol_wilhelmina.dds"
-	expire = "1965.1.1"
 	ideology = social_democracy_subtype
 	traits = {
 		#
@@ -144,17 +122,6 @@ create_country_leader = {
 	picture = "portrait_hol_wilhelmina.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "portrait_hol_wilhelmina.dds"
-	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
 	traits = {
 		#
 	}
@@ -233,7 +200,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninist
 	traits = {
-		veteran_communist
 	}
 }
 

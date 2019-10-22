@@ -8,28 +8,8 @@ set_war_support = 0.8
 set_research_slots = 4
 set_fuel_ratio = 1.0
 add_ideas = {
-	state_shintoism
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
 }
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -147,9 +127,6 @@ create_country_leader = {
 	expire = "1989.1.1"
 	ideology = fascism_ideology
 	traits = {
-		warrior_code
-		emperor_showa
-		imperial_sanction
 	}
 	id = 700 #Hirohito
 }
@@ -169,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_tetsu_katayama"
 	expire = "1989.1.1"
-	ideology = liberalism
+	ideology = conservative_liberalism
 	traits = {
 	}
 }

@@ -173,7 +173,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_NIEKISCH_DESC"
 	picture = "Portrait_Ernst_Niekisch.tga"
 	expire = "1965.1.1"
-	ideology = anti-revisionist
+	ideology = national_bolshevik
 	traits = {
 		#literally a nazbol lol#
 	}
@@ -184,7 +184,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_REIMANN_DESC"
 	picture = "Portrait_Reimann.tga"
 	expire = "1965.1.1"
-	ideology = anti-revisionist
+	ideology = marxism
 	traits = {
 		#commie#
 	}

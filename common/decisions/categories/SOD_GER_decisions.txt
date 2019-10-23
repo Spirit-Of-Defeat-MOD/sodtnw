@@ -5,3 +5,29 @@ GER_anti_komintern_category = {
 		tag = GER
 	}
 }
+
+GER_reichswehr_category = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = GER
+	}
+}
+
+
+GER_diplomacy_category = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = GER
+	}
+}
+
+
+GER_industry_category = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = GER
+	}
+}

@@ -10,6 +10,7 @@ GER_anti_komintern_category = {
 		icon = generic_political_actions
 
 		available = {
+			original_tag = GER
 			NOT = { has_government = totalitarian_socialism }
 			NOT = { has_government = communism }
             NOT = { has_government = revolutionary_socialism }
@@ -41,6 +42,7 @@ GER_anti_komintern_category = {
 		icon = generic_political_actions
 
 		available = {
+			original_tag = GER
 			NOT = { has_government = totalitarian_socialism }
 			NOT = { has_government = communism }
             NOT = { has_government = revolutionary_socialism }
@@ -60,6 +62,113 @@ GER_anti_komintern_category = {
 					id = antikom.4
 					days = 0
 				}
+			}
+		}
+	}
+}
+
+GER_reichswehr_category = {
+
+	#REICHSWEHR/ARMY Decisions
+	GER_conscript_recruits = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GER
+			has_war_support > 40
+		}
+
+		visible = {
+		
+	   }
+
+		cost = 100
+
+        complete_effect = {
+			add_manpower = 10000
+		}
+	}
+
+	GER_purchase_arms = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GER
+			has_war_support > 40
+		}
+
+		visible = {
+		
+	   }
+
+		cost = 100
+
+        complete_effect = {
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment
+    			amount = 100
+    			producer = GER
+			}
+		}
+	}
+
+	GER_training_exercises = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GER
+			has_war_support > 40
+		}
+
+		visible = {
+		
+	   }
+
+		cost = 25
+
+        complete_effect = {
+			army_experience = 10
+		}
+	}
+
+	GER_emergency_militia_deployment = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GER
+			has_war_support > 40
+		}
+
+		visible = {
+		
+	   }
+
+		cost = 25
+
+        complete_effect = {
+			division_template = {
+    		name = "Notheimwache"
+    		regiments = {
+        		infantry = { x = 0 y = 0 }
+        		infantry = { x = 0 y = 1 }
+        		infantry = { x = 0 y = 2 }
+        		infantry = { x = 0 y = 3 }
+    		}
+    		support = { 
+        		military_police = { x = 0 y = 0 }
+    		} 
 			}
 		}
 	}

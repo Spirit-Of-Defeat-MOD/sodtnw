@@ -22,7 +22,7 @@ ideas = {
 			}
 		}
 
-		failed_state = {
+		MEX_failed_state = {
 				
 			allowed = {
 				original_tag = MEX

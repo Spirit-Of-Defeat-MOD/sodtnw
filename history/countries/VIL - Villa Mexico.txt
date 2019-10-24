@@ -102,7 +102,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Manuel Chao"
-	picture = ""
+	picture = "Manuel_Chao.tga"
 	traits = {  }
 	skill = 3
 	attack_skill = 1

@@ -323,6 +323,11 @@ GER_soviet_alliance:0 "German-Soviet Alliance"
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"
 GER_ak_finland:0 "Invite Finland To The Anti-Komintern Pact"
 GER_ak_romania:0 "Invite Romania To The Anti-Komintern Pact"
+GER_reichswehr_category:0 "Reichswehr Policies"
+GER_conscript_recruits:0 "Conscript New Recruits"
+GER_purchase_arms:0 ""
+GER_training_exercises:0 "Training Exercises"
+GER_emergency_militia_deployment:0 "Deploy Notheimwache Militias"
 
 #Tool-Tips
 1_GER_tt:0 "There may be consequences for backing out of our negotiations and commitments."

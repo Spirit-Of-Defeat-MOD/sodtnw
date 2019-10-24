@@ -3,7 +3,7 @@
 oob = "FIC_1936"
 
 country_event = { id = indochina.2 days = 247 }
-country_event = { id = indochina.4 days = 555 }
+country_event = { id = indochina.5 days = 555 }
 
 set_technology = {
 	infantry_weapons = 1

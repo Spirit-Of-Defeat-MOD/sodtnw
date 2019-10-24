@@ -11,6 +11,16 @@ MEX_revolution = {
 			original_tag = MEX
 			has_completed_focus = REV_doctrine_effort
 		}
+
+		visible = {
+			original_tag = VIL
+			original_tag = PLM
+			original_tag = CED
+			original_tag = MCT
+			original_tag = PNR
+			original_tag = MEX
+			has_completed_focus = REV_doctrine_effort
+		}
 		
 		days_re_enable = 100
 		

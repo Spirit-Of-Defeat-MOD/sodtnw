@@ -215,8 +215,9 @@ GER_reichswehr_category = {
 	GER_diplomacy_category = {
 
 		GER_diplomacy_britain = {
-
-			fire_only_once = yes
+			fire_only_once = no
+			days_remove = 120
+			days_re_enable = 225
 	
 			icon = generic_political_actions
 	
@@ -231,12 +232,23 @@ GER_reichswehr_category = {
 			cost = 25
 	
 			complete_effect = {
+				add_opinion_modifier = {
+					target = ENG
+					modifier = GER_foreign_diplomats
+				}
+				ENG ={
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_foreign_diplomats
+					}
+				}
 			}
 		}
 
 		GER_diplomacy_russia = {
-
-			fire_only_once = yes
+			fire_only_once = no
+			days_remove = 120
+			days_re_enable = 225
 	
 			icon = generic_political_actions
 	
@@ -251,12 +263,23 @@ GER_reichswehr_category = {
 			cost = 25
 	
 			complete_effect = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = GER_foreign_diplomats
+				}
+				SOV ={
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_foreign_diplomats
+					}
+				}
 			}
 		}
 
 		GER_diplomacy_usa = {
-
-			fire_only_once = yes
+			fire_only_once = no
+			days_remove = 120
+			days_re_enable = 225
 	
 			icon = generic_political_actions
 	
@@ -271,12 +294,160 @@ GER_reichswehr_category = {
 			cost = 25
 	
 			complete_effect = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = GER_foreign_diplomats
+				}
+				USA ={
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_foreign_diplomats
+					}
+				}
+			}
+		}
+
+		GER_diplomacy_fra = {
+			fire_only_once = no
+			days_remove = 120
+			days_re_enable = 225
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 25
+	
+			complete_effect = {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = GER_foreign_diplomats
+				}
+				FRA ={
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_foreign_diplomats
+					}
+				}
+			}
+		}
+
+		GER_diplomacy_jap = {
+			fire_only_once = no
+			days_remove = 120
+			days_re_enable = 225
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 25
+	
+			complete_effect = {
+				add_opinion_modifier = {
+					target = JAP
+					modifier = GER_foreign_diplomats
+				}
+				JAP ={
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_foreign_diplomats
+					}
+				}
 			}
 		}
 	}
 	GER_industry_category = {
 		GER_civilian_construction = {
-			fire_only_once = yes
+			fire_only_once = no
+			days_re_enable = 365
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+				any_state = {
+				is_fully_controlled_by = GER
+            	is_owned_by = GER
+				free_building_slots = { building = industrial_complex size > 1 include_locked = no }
+				}
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 150
+	
+			complete_effect = {
+				random_owned_state = {
+					limit = {
+						is_fully_controlled_by = GER
+						is_owned_by = GER
+						free_building_slots = { building = industrial_complex size > 1 include_locked = no }
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		GER_military_construction = {
+			fire_only_once = no
+			days_re_enable = 365
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+				any_state = {
+				is_fully_controlled_by = GER
+            	is_owned_by = GER
+				free_building_slots = { building = arms_factory size > 1 include_locked = no }
+				}
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 150
+	
+			complete_effect = {
+				random_owned_state = {
+					limit = {
+						is_fully_controlled_by = GER
+						is_owned_by = GER
+						free_building_slots = { building = arms_factory size > 1 include_locked = no }
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		GER_construction_subsidies = {
+			fire_only_once = no
+			days_remove = 225
+			days_re_enable = 365
 	
 			icon = generic_political_actions
 	
@@ -288,9 +459,90 @@ GER_reichswehr_category = {
 				original_tag = GER
 		   }
 	
-			cost = 25
+			cost = 75
 	
 			complete_effect = {
+				production_speed_buildings_factor = 0.1
+				industry_repair_factor = 0.25
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		GER_production_subsidies = {
+			fire_only_once = no
+			days_remove = 225
+			days_re_enable = 365
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 75
+	
+			complete_effect = {
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.03
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		GER_refinery_subsidies = {
+			fire_only_once = no
+			days_remove = 225
+			days_re_enable = 365
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+			}
+	
+			visible = {
+				original_tag = GER
+		   }
+	
+			cost = 75
+	
+			complete_effect = {
+				production_oil_factor = 0.10
+				local_resources_factor = 0.10
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		GER_encourage_migrant_workers = {
+			fire_only_once = no
+			days_remove = 225
+			days_re_enable = 365
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+				has_government = social_liberal
+				has_government = classic_liberal
+			}
+	
+			visible = {
+				original_tag = GER
+				has_government = social_liberal
+				has_government = classic_liberal
+		   }
+	
+			cost = 75
+	
+			complete_effect = {
+				MONTHLY_POPULATION = 0.5
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.10
+				stability_weekly = -0.01
+				consumer_goods_factor = 0.03
 			}
 		}
 	}

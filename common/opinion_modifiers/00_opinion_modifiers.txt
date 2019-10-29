@@ -985,4 +985,10 @@ opinion_modifiers = {
 	CRO_BUL_allow_guns = {
 		value = 10
 	}
+
+	#SOD NEW MODIFIERS
+
+	GER_foreign_diplomats = {
+		value = 25
+	}
 }

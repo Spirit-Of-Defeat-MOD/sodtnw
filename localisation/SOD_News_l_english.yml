@@ -1,9 +1,22 @@
 ﻿l_english: 
 
 #events
-sodnews.1.t:0 "Der Große Kampf"
+sodnews.1.t:0 "[ROOT.GetNewspaperHeader]Der Große Kampf"
 sodnews.1.d:0 "Paul Joseph Goebbels, an obscure writer, known only among German far-right circles, made headlines with the release of Der Große Kampf. The novel, which translates to 'The Great Struggle' in English, details an alternate history in which Adolf Hitler survived being shot by the Bavarian State Police. Seeckt's Schutzputsch in retaliation to Hitler's would also crumble apart after SPD led strikes and French reprisals. \n\n In the aftermath of the Hitler-Ludendorff Putsch, the young Hitler would face five years of imprisonment, during which time he would lay out his vision for a Third Reich. He recognized he would have to use the political system against itself, and would blame the Jews, foreginers, and traitors within the military for his failures. \n\n The novel concludes with Hitler ascending to power in 1931, after great political turmoil in Germany... \n\n Historians have laughed off the novel's premise as unthinkable, and the Seeckt administration has outlawed the work as treasonous material. Goebbels is believed to have fled to Geneva to avoid prosecution ofr 'authoring treasonous materials'."
 sodnews.1.a:0 "How Bizzare"
-sodnews.2.t:0 "American Ship Sunk By German U-Boat"
+sodnews.2.t:0 "[ROOT.GetNewspaperHeader]American Ship Sunk By German U-Boat"
 sodnews.2.d:0 "History has an unfortunate manner of repreating itself. Today a German U-Boat has sunk an American passenger ship in the Atlantic Ocean. The German ambassador has claimed that the strike was accidental, stating that the ship had been misidentified. Public outrage will likely force the hand of the president into signing a declaration of war... The Sleeping Giant has been awoken."
 sodnews.2.a:0 "This Was An Act Of War"
+
+ serbianews.1.t:0 "[ROOT.GetNewspaperHeader]Serbian Civil War"
+ serbianews.1.d:0 "Earlier today, a group of high ranking officials led by Aleksandar Rankovic stormed the parliament of Serbia in response to the 'January Diktat' and announced that a coup by the communist party is undergoing. King fled the country to Romania, and proclaimed Dragoljub 'Draza' Mihalovic as the commander-in-chief of the Serbian Army in Fatherland which views the king as the only legimate ruler of the country. \n\n Clashes between royalist chetniks and communists have errupted in various parts of the country and the country is now embroiled in a civil war."
+ serbianews.2.t:0 "[ROOT.GetNewspaperHeader]Battle of Prokuplje"
+ serbianews.2.d:0 "Today, near the town of Prokuplje in Serbia, one of the most important battles of the civil war occured. While two best chetnik volunteer divisions were preparing an ambush on the hills where they had their main headquaters and setting up artillery, chetnik forces encircled them from three sides, leaving a gap intentionally. Then, communists started a huge artillery barrage that inflicted heavy casualties on the chetniks an disorganized them, as well as blowing up the ammo depot. Chetniks decided to retreat through the gap in communist encirclement when the communist cavalry and tanks started overrunning them and smashing through their lines. Communists ambushed the remaining chetnik forces and massacred them. Communists reportedly captured a lot of equipment and took thousands of prisoners, while the chetnik general was able to escape the encirclement. Experts believe that this is the end of monarchism in Serbia."
+ serbianews.3.t:0 "[ROOT.GetNewspaperHeader]Battle of Prokuplje"
+ serbianews.3.d:0 "Today, near the town of Prokuplje in Serbia, one of the most important battles of the civil war occured. While two best communist volunteer divisions were preparing an ambush on the hills where they had their main headquaters and setting up artillery, chetnik forces encircled them from three sides, leaving a gap intentionally. Then, chetniks started a huge artillery barrage that inflicted heavy casualties on the communists an disorganized them, as well as blowing up the ammo depot. Communists decided to retreat through the gap in chetnik encirclement when the chetnik cavalry and tanks started overrunning them and smashing through their lines. Chetniks ambushed the remaining communist forces and massacred them. Chetniks reportedly captured a lot of equipment and took thousands of prisoners, while the communist general was able to escape the encirclement. Experts believe that this is the end of communism in Serbia."
+ serbianews.4.t:0 "[ROOT.GetNewspaperHeader]Fall of Sarajevo"
+ serbianews.4.d:0 ""
+ serbianews.5.t:0 "[ROOT.GetNewspaperHeader]Fall of Zagreb"
+ serbianews.5.d:0 ""
+ serbianews.6.t:0 "[ROOT.GetNewspaperHeader]Fall of Belgrade"
+ serbianews.6.d:0 ""

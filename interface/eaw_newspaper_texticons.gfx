@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_eaw_newspaper_header_1"
+		texturefile = "gfx/interface/newspaper_headers/title_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_eaw_newspaper_header_2"
+		texturefile = "gfx/interface/newspaper_headers/title_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_newspaper_header_SOV"
+		texturefile = "gfx/interface/newspaper_headers/title_SOV.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_newspaper_header_FIC"
+		texturefile = "gfx/interface/newspaper_headers/title_FIC.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_newspaper_header_IDC"
+		texturefile = "gfx/interface/newspaper_headers/title_IDC.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = AST_1938_election
 		icon = GFX_goal_generic_construction
-		x = 7
+		x = 8
 		y = 0
 
 		cost = 0
@@ -118,7 +118,7 @@ focus = {
 		id = AST_empowering_unions
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
                 prerequisite = { focus = AST_status_quo }
-		x = 0
+		x = 1
 		y = 1
                 relative_position_id = AST_status_quo
 
@@ -138,10 +138,10 @@ focus = {
 focus = {
 		id = AST_social_reforms
 		icon = GFX_goal_generic_construction
-                prerequisite = { focus = AST_status_quo }
-		x = 3
+                prerequisite = { focus = AST_empowering_unions }
+		x = 1
 		y = 1
-                relative_position_id = AST_status_quo
+                relative_position_id = AST_empowering_unions
 
 		cost = 5
 
@@ -202,7 +202,7 @@ focus = {
 		id = AST_australian_work_office
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_empowering_unions }
-		x = 0
+		x = -2
 		y = 1
                 relative_position_id = AST_empowering_unions
 
@@ -262,34 +262,15 @@ focus = {
 		}
 	}
 
-focus = {
-		id = AST_restoration_of_lands
-		icon = GFX_goal_generic_construction
-                prerequisite = { focus = AST_indigenous_australian_act }
-		x = 0
-		y = 1
-                relative_position_id = AST_indigenous_australian_act
 
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-                #
-		}
-	}
 
 focus = {
 		id = AST_pacific_safeguard
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_ANZUS }
                 prerequisite = { focus = AST_tearing_down_slums }
-                prerequisite = { focus = AST_restoration_of_lands }
-		x = 0
+                prerequisite = { focus = AST_indigenous_australian_act }
+		x = 1
 		y = 1
                 relative_position_id = AST_tearing_down_slums
 
@@ -381,7 +362,7 @@ focus = {
 		id = AST_reaffirm_imperial_alliance
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_new_party_new_policies }
-		x = 0
+		x = -3
 		y = 1
                 relative_position_id = AST_new_party_new_policies
 
@@ -402,7 +383,7 @@ focus = {
 		id = AST_industry_reforms
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_new_party_new_policies }
-		x = -3
+		x = 1
 		y = 1
                 relative_position_id = AST_new_party_new_policies
 
@@ -423,7 +404,7 @@ focus = {
 		id = AST_continue_with_white_australia
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_new_party_new_policies }
-		x = 3
+		x = -1
 		y = 1
                 relative_position_id = AST_new_party_new_policies
 
@@ -444,7 +425,7 @@ focus = {
 		id = AST_australian_british_training_program
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_reaffirm_imperial_alliance }
-		x = 0
+		x = -1
 		y = 1
                 relative_position_id = AST_reaffirm_imperial_alliance
 
@@ -483,48 +464,6 @@ focus = {
 	}
 
 focus = {
-		id = AST_invite_white_migrants
-		icon = GFX_goal_generic_construction
-                prerequisite = { focus = AST_continue_with_white_australia }
-		x = 0
-		y = 1
-                relative_position_id = AST_continue_with_white_australia
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-                #
-		}
-	}
-
-focus = {
-		id = AST_classification_of_aliens
-		icon = GFX_goal_generic_construction
-                prerequisite = { focus = AST_invite_white_migrants }
-		x = 0
-		y = 1
-                relative_position_id = AST_invite_white_migrants
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-                #
-		}
-	}
-
-focus = {
 		id = AST_no_more_powerful_unions
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_industry_reforms }
@@ -546,10 +485,10 @@ focus = {
 	}
 
 focus = {
-		id = AST_crackdown_on_radical_organisations
+		id = AST_deal_with_union_bosses
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_no_more_powerful_unions }
-		x = 0
+		x = 1
 		y = 1
                 relative_position_id = AST_no_more_powerful_unions
 
@@ -567,14 +506,56 @@ focus = {
 	}
 
 focus = {
+		id = AST_a_deal
+		icon = GFX_goal_generic_construction
+                prerequisite = { focus = AST_deal_with_union_bosses }
+		x = 1
+		y = 1
+                relative_position_id = AST_deal_with_union_bosses
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                #
+		}
+	}
+
+focus = {
+		id = AST_no_compromise
+		icon = GFX_goal_generic_construction
+                prerequisite = { focus = AST_deal_with_union_bosses }
+		x = -1
+		y = 1
+                relative_position_id = AST_deal_with_union_bosses
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                #
+		}
+	}
+
+
+focus = {
 		id = AST_australia_bastion_of_democracy
 		icon = GFX_goal_generic_construction
-                prerequisite = { focus = AST_crackdown_on_radical_organisations }
                 prerequisite = { focus = AST_invite_british_businesses }
-                prerequisite = { focus = AST_classification_of_aliens }
+                prerequisite = { focus = AST_continue_with_white_australia }
 		x = 0
 		y = 1
-                relative_position_id = AST_invite_british_businesses
+                relative_position_id = AST_continue_with_white_australia
 
 		cost = 5
 
@@ -594,7 +575,7 @@ focus = {
 		icon = GFX_goal_generic_construction
                 prerequisite = { focus = AST_australia_bastion_of_democracy }
 		x = 0
-		y = 2
+		y = 3
                 relative_position_id = AST_australia_bastion_of_democracy
 
 		cost = 5
@@ -643,6 +624,7 @@ focus = {
 		x = -1
 		y = 1
                 relative_position_id = AST_air_force
+                mutually_exclusive = { focus = AST_williams_strategy } 
 
 		cost = 5
 
@@ -665,6 +647,7 @@ focus = {
 		x = 1
 		y = 1
                 relative_position_id = AST_air_force
+                mutually_exclusive = { focus = AST_kingsford_smith_plan} 
 
 		cost = 5
 

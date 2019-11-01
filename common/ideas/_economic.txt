@@ -115,8 +115,7 @@ ideas = {
 					has_government = utilitarian_despot
 					has_government = fascism
 					has_government = nihilistic_extremism
-	
-	
+					}
 				}
 			
 				cost = 150

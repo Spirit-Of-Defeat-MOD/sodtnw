@@ -24,7 +24,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_totalitarian_socialism"
-		position = { x = 193 y = 38 }
+		position = { x = 350 y = 35 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -35,7 +35,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_communism"
-		position = { x = 193 y = 52 }
+		position = { x = 350 y = 53 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -46,7 +46,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_revolutionary_socialism"
-		position = { x = 193 y = 66 }
+		position = { x = 350 y = 71 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -68,7 +68,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_social_democracy"
-		position = { x = 193 y = 94 }
+		position = { x = 350 y = 105 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -79,7 +79,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_social_liberal"
-		position = { x = 193 y = 109 }
+		position = { x = 350 y = 122 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -90,7 +90,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_classic_liberal"
-		position = { x = 193 y = 123 }
+		position = { x = 350 y = 139 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -101,7 +101,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_democratic"
-		position = { x = 193 y = 136 }
+		position = { x = 350 y = 155 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -112,7 +112,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_neutrality"
-		position = { x = 193 y = 150 }
+		position = { x = 350 y = 172 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -123,7 +123,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_utilitarian_despot"
-		position = { x = 193 y = 165 }
+		position = { x = 350 y = 189 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"
@@ -134,7 +134,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "highlight_fascism"
-		position = { x = 193 y = 180 }
+		position = { x = 350 y = 205 }
 		clipping = no
 		iconType = {
 			name = "highlight_icon"

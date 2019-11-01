@@ -115,13 +115,13 @@ country_event = {
 				add_manpower = 30000
 				load_oob = IDC_rebellion
 			}
-                 FIC = { declare_war_on = { 
+            FIC = { declare_war_on = { 
 				target = IDC
 				type = annex_everything
-                       } }
-		       news_event = { hours = 6 id = sodnews.3 }
-	}
-     }
+            }}
+		    news_event = { hours = 6 id = sodnews.3 }
+		}
+    }
      option = {
 		name = indochina.5.b
 		ai_chance = {
@@ -132,7 +132,7 @@ country_event = {
 		} 
                 add_stability = 0.15
 		add_war_support = 0.2
-               IDC = {
+        IDC = {
 			if = {
 				limit = {
 					FROM = {
@@ -186,5 +186,6 @@ country_event = {
 			change_tag_from = FIC
 		}
 		news_event = { hours = 6 id = sodnews.3 }
+		}
 	}
 }

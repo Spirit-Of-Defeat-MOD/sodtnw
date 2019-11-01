@@ -4,7 +4,23 @@ on_actions = {
             every_country = {
                 coal_set_up = yes
             }
+			
+			every_country = {
+                set_variable = {
+					var = coal_pop_effects
+					value = total_coal_pop
+				}
+				divide_variable = {
+					var = coal_pop_effects
+					value = 100
+				}
+            }
         }
+		effect = {		
+			every_country = {
+                add_dynamic_modifier = {modifier = coalition_popularity_dynamic_modifier}
+            }			
+		}
     }
     on_government_change = {
     	effect = {

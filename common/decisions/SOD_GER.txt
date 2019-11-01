@@ -210,9 +210,53 @@ GER_reichswehr_category = {
 			}
 		}
 	}
+
+	GER_war_propaganda = {
+
+		fire_only_once = no
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GER
+			has_war_support > 0.40
+		}
+
+		visible = {
+			original_tag = GER
+	   }
+
+		cost = 25
+
+		complete_effect = {
+			add_war_support = 0.05
+		}
+	}
 }
 
 	GER_diplomacy_category = {
+
+		GER_diplomacy_league = {
+			fire_only_once = yes
+	
+			icon = generic_political_actions
+	
+			available = {
+				original_tag = GER
+				has_country_flag = GER_league_of_nations
+			}
+	
+			visible = {
+				original_tag = GER
+				has_country_flag = GER_league_of_nations
+		   }
+	
+			cost = 100
+	
+			complete_effect = {
+				
+			}
+		}
 
 		GER_diplomacy_britain = {
 			fire_only_once = no

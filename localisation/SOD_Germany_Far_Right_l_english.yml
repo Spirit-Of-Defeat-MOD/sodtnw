@@ -319,6 +319,7 @@ GER_anti_japan:0 "Anti-Japanese Diplomacy"
 GER_claimed_colonies:0 "Claimed Colonial Holdings"
 GER_soviet_alliance:0 "German-Soviet Alliance"
 GER_notheimwache:0 "Formed The Notheimwache Militias"
+GER_league_of_nations:0 "Pursuing League of Nations Membership"
 
 #Decisions
 GER_anti_komintern_category:0 "The Anti-Komintern Pact"
@@ -346,6 +347,8 @@ GER_construction_subsidies:0 "Construction Industry Subsidies"
 GER_production_subsidies:0 "Armament Industry Subsidies"
 GER_refinery_subsidies:0 "Refinery Industry Subsidies"
 GER_encourage_migrant_workers:0 "Encourage Migrant Workers"
+GER_diplomacy_league:0 "Join The League of Nations"
+GER_war_propaganda:0 "Propaganda Campaigns"
 
 #Tool-Tips
 1_GER_tt:0 "There may be consequences for backing out of our negotiations and commitments."

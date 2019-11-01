@@ -95,6 +95,7 @@ set_popularities = {
 }
 
 add_ideas = {
+    SOV_underdeveloped_army
 	SOV_territorial_draft
 	SOV_lenin_draft
 	SOV_spirit_of_trotskism

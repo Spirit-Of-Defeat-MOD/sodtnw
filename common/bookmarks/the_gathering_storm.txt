@@ -72,11 +72,13 @@ bookmarks = {
 			ideology = communism
 			ideas = {
             SOV_territorial_draft
-			SOV_spirit_of_trotskism
 			SOV_lenin_draft
+			SOV_spirit_of_trotskism
 			}
 			focuses = {
-
+            SOV_everythingfortheredarmy
+			SOV_finishtheiindfiveyearplan
+			SOV_reworkthemilitiasystem
 			}	
 		}
 		"---"={

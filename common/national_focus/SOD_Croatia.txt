@@ -296,7 +296,7 @@ focus_tree = {
 	#Focus for War with Serbia
 	focus = {
 		id = CRO_warwithserbia
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_serbia_knife
 		x = 11
 		y = 5
 		cost = 10
@@ -1621,7 +1621,7 @@ focus_tree = {
 	#Focus for Our Rival
 	focus = {
 		id = CRO_ourrival
-		icon = GFX_serbia_knife
+		icon = GFX_focus_generic_provoke_border_clashes
 		x = 11
 		y = 3
 		cost = 10
@@ -1664,7 +1664,7 @@ focus_tree = {
 		x = 6
 		y = 5
 		cost = 10
-		available_if_capitulated = yes
+		available_if_capitulated = no
 		prerequisite = { focus = CRO_slovenianseparatismsolution }
 		mutually_exclusive = { 
 			focus = CRO_peacefulcompromise 

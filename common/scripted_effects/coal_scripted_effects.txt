@@ -505,6 +505,15 @@ coal_calc_total = {
 		value = 100
 	}
 	round_variable = total_coal_pop
+	
+	set_variable = {
+		var = coal_pop_effects
+		value = total_coal_pop
+	}
+	divide_variable = {
+		var = total_coal_pop
+		value = 1000
+	}
 }
 coal_rev_totalitarian_socialism = {
 	if = {

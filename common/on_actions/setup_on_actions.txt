@@ -12,7 +12,7 @@ on_actions = {
 				}
 				divide_variable = {
 					var = coal_pop_effects
-					value = 100
+					value = 1000
 				}
             }
         }

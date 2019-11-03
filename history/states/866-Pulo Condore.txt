@@ -7,14 +7,14 @@ state={
 		add_core_of = FIC
 		buildings = {
 			infrastructure = 2
-					13296 = {
+			13296 = {
 				naval_base = 1
 			}
 		}
 	}
 
 	provinces={
-		13296
+		13300
 	}
 	manpower=2706
 	state_category=small_island

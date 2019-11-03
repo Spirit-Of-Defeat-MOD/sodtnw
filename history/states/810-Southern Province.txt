@@ -1,12 +1,11 @@
-
 state={
 	id=810
 	name="STATE_810"
-	manpower = 1440000
+	manpower = 249000
 	
 	state_category = rural
 	resources={
-		oil=3 # was: 3
+		oil=3
 	}
 
 	history={
@@ -15,9 +14,9 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
-		}
-		victory_points = {
-			12727 5
+			5081 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = IRQ
 		add_core_of = SAU

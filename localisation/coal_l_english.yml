@@ -1,7 +1,7 @@
 ﻿l_english:
  #Coalition GUI
- COAL_TOOLTIP:0 "[This.is_there_coal_loc]\nOur current ruling party is the §Y[ROOT.GetRulingParty]"
- is_coalition:0 "Our current coalition is made up of §Y[?ROOT.coal_list^num]§  §Wparties with a combined popularity of §Y[?ROOT.total_coal_pop]% \n§WThe members of our coalition are[This.is_totalitarian_socialism][This.is_communism][This.is_revolutionary_socialism][This.is_democratic_socialism][This.is_social_democracy][This.is_social_liberal][This.is_classic_liberal][This.is_democratic][This.is_neutrality][This.is_fascism][This.is_nihilistic_extremism]"
+ #COAL_TOOLTIP:0 "[This.is_there_coal_loc]\nOur current ruling party is the §Y[ROOT.GetRulingParty]"
+ is_coalition:0 "Our current coalition is made up of §Y[?ROOT.coal_list^num]§  §Wparties with a combined popularity of §Y[?ROOT.total_coal_pop]% \n§WThe members of our coalition are[ROOT.GetRulingParty][This.is_totalitarian_socialism][This.is_communism][This.is_revolutionary_socialism][This.is_democratic_socialism][This.is_social_democracy][This.is_social_liberal][This.is_classic_liberal][This.is_democratic][This.is_neutrality][This.is_fascism][This.is_nihilistic_extremism]"
  no_coalition:0 "We currently have no coalition in government"
  totalitarian_socialism_yes:0 "\nTotalitarian Socialism §Y[?party_popularity@totalitarian_socialism|%0]§W"
  communism_yes:0 "\nThe Vanguardists §Y[?party_popularity@communism|%0]§W"

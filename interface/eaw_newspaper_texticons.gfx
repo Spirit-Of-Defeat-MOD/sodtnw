@@ -27,4 +27,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/newspaper_headers/title_IDC.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_newspaper_header_FRA_con"
+		texturefile = "gfx/interface/newspaper_headers/title_FRA_con.dds"
+		legacy_lazy_load = no
+	}
 }

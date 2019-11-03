@@ -1621,7 +1621,7 @@ focus_tree = {
 	#Focus for Our Rival
 	focus = {
 		id = CRO_ourrival
-		icon = GFX_goal_unknown
+		icon = GFX_serbia_knife
 		x = 11
 		y = 3
 		cost = 10

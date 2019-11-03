@@ -12,6 +12,10 @@ spriteType = {
 	name = "GFX_serbia_knife"
 	texturefile = "gfx/interface/goals/CRO/Serbia_Knife.tga"
 }
+spriteType = {
+	name = "GFX_CRO_NDH"
+	texturefile = "gfx/interface/goals/CRO/NDH.tga"
+}
 #events
 #ministers
 spriteType = {

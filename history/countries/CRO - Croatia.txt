@@ -2,7 +2,7 @@
 
 oob = "CRO_1936"
 
-set_research_slots = 2
+set_research_slots = 3
 
 add_ideas = {
 	#Spirits
@@ -79,6 +79,8 @@ set_popularities = {
     fascism = 8
     nihilistic_extremism = 0
 }
+coal_add_classic_liberal = yes
+coal_add_social_liberal = yes
 
 create_country_leader = {
 	name = "Josip Broz 'Tito'"

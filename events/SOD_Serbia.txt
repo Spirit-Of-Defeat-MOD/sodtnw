@@ -109,8 +109,6 @@ country_event = {
 				coal_add_revolutionary_socialism = yes
 				coal_add_democratic_socialism = yes
 				coal_add_social_democracy = yes
-				coal_add_neutrality= yes
-				coal_rev_neutrality = yes
 
 				create_field_marshal = {
 					name = "Sava Kovacevic"

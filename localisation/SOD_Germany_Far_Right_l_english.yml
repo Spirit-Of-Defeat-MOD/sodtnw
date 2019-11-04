@@ -144,6 +144,8 @@ strict_engagement:0 "Strict Engagement Rules"
 strict_engagement_desc:0 "Our nation has agreed to sign naval treaties that enforce strict regulations on naval combat. These treaties were designed to limit civilian casualties, but they also will hinder our navy's flexibility."
 war_reparations:0 "Resumed Reparations Payments"
 war_reparations_desc:0 "We have agreed to resume payments of war reparations and make expedited payments of amounts we have neglected to pay. This will have a toll on our economy in the next few months as we make large payments towards foreign nations. It is an unfortunate truth, that these sacrifices were necessary to improve our diplomatic relations with Britain and the world at large..."
+peace_promises:0 "Promises of Peace"
+peace_promises:0 "We have offered lip service towards the ideals of peace for our times. Although our policy does not fully align with these promises, we are still beholden to our words. Perhaps we should be more careful with the promises we make..."
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -305,6 +307,16 @@ antikom.5.a:0 "Welcome Romania!"
 antikom.6.t:0 "Romania Declines To Join The Anti-Komintern Pact"
 antikom.6.d:0 ""
 antikom.6.a:0 "They Will Regret That Choice..."
+eng-ger.1.t:0 "Germany Proposes A Non-Aggression Pact"
+eng-ger.1.d:0 "" #add later
+eng-ger.1.a:0 "Non-Aggression Is Beneficial To Us"
+eng-ger.1.b:0 "We Have No Interest In Such A Pact"
+eng-ger.2.t:0 "Great Britain Accepts Our Offer"
+eng-ger.2.d:0 "" #add later
+eng-ger.2.a:0 "Excellent"
+eng-ger.3.t:0 "Great Britain Declines Our Offer"
+eng-ger.3.d:0 "" #add later
+eng-ger.3.a:0 "Those Bastards!"
 
 #Flags
 GER_economic_investment:0 "Economic Investments"

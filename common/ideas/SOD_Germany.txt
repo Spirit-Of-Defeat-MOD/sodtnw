@@ -795,6 +795,25 @@ ideas = {
 				}
 			}
 
+			peace_promises = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.25
+					justify_war_goal_time = 0.50
+				}
+			}
+
 			strict_engagement = {
 				
 				allowed = {

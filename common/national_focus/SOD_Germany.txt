@@ -2722,6 +2722,14 @@ prerequisite = { focus = GER_allowbritishaudits }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	ENG = {
+		country_event = {
+			id = eng-ger.1
+			days = 1
+		}
+	}
+}
 
  } 
 

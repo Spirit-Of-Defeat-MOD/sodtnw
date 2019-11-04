@@ -4,6 +4,7 @@
 
 add_namespace = germany
 add_namespace = antikom
+add_namespace = eng-ger
 
 # Introduction Event
 country_event = {
@@ -1220,4 +1221,88 @@ country_event = {
 		add_opinion_modifier = { target = ROM modifier = large_decrease }
 	
 	}
+}
+
+#BRITAIN/GERMAN EVENTS
+
+#Non-Aggression Offer
+country_event = {
+	id = eng-ger.1
+	title = eng-ger.1.t
+	desc = eng-ger.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#UK ACCEPTS
+	option = {
+		name = eng-ger.1.a
+		ai_chance = { 
+			factor = 65
+		}
+		add_political_power = -10
+		diplomatic_relation = {
+			country = GER
+			relation = non_aggression_pact
+			active = yes
+		}
+		GER = {
+			country_event = {
+				id = eng-ger.2
+				days = 1
+			}
+		}
+	
+	}
+	#UK DECLINES
+	option = {
+		name = eng-ger.1.b
+		ai_chance = { 
+			factor = 35
+		}
+		add_political_power = 10
+		GER = {
+			country_event = {
+				id = eng-ger.3
+				days = 1
+			}
+		}
+	
+    }
+}
+
+# Pact Accepted
+country_event = {
+	id = eng-ger.2
+	title = eng-ger.2.t
+	desc = eng-ger.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = eng-ger.2.a
+		add_political_power = 10
+		add_opinion_modifier = { target = ENG modifier = large_increase }
+	
+    }
+}
+
+# Pact Declined
+country_event = {
+	id = eng-ger.3
+	title = eng-ger.3.t
+	desc = eng-ger.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = eng-ger.3.a
+		add_political_power = -10
+		add_opinion_modifier = { target = ENG modifier = large_decrease }
+	
+    }
 }

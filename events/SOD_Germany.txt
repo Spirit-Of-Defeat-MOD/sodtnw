@@ -1086,6 +1086,94 @@ country_event = {
 	}
 }
 
+#Political Appointments
+country_event = {
+	id = germany.40
+	title = germany.40.t
+	desc = germany.40.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Keep Him
+	option = {
+		name = germany.40.a
+		add_political_power = -5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Sack Him
+	option = {
+		name = germany.40.b
+		add_political_power = -5
+		country_event = { id = germany.41 days = 1 }
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+}
+
+#Replace Hugenberg
+country_event = {
+	id = germany.41
+	title = germany.41.t
+	desc = germany.41.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	#Appoint Julius Curtius (Pro-Soviet)
+	option = {
+		name = germany.41.a
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Kurt Schmitt (National Collectivist)
+	option = {
+		name = germany.41.b
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Hjalmar Schacht (Pro-Market Aut Dem)
+	option = {
+		name = germany.41.c
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Walter Eucken (Neoliberal)
+	option = {
+		name = germany.41.e
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+}
+
 #Anti-Komintern
 
 # Finland Offer

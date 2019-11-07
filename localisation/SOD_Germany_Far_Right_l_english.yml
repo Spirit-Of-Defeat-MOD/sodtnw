@@ -145,7 +145,16 @@ strict_engagement_desc:0 "Our nation has agreed to sign naval treaties that enfo
 war_reparations:0 "Resumed Reparations Payments"
 war_reparations_desc:0 "We have agreed to resume payments of war reparations and make expedited payments of amounts we have neglected to pay. This will have a toll on our economy in the next few months as we make large payments towards foreign nations. It is an unfortunate truth, that these sacrifices were necessary to improve our diplomatic relations with Britain and the world at large..."
 peace_promises:0 "Promises of Peace"
-peace_promises:0 "We have offered lip service towards the ideals of peace for our times. Although our policy does not fully align with these promises, we are still beholden to our words. Perhaps we should be more careful with the promises we make..."
+peace_promises_desc:0 "We have offered lip service towards the ideals of peace for our times. Although our policy does not fully align with these promises, we are still beholden to our words. Perhaps we should be more careful with the promises we make..."
+panzer_school_kama:0 "Panzerschule Kama"
+panzer_school_kama_desc:0 "" #later
+rapid_annihilation:0 ""
+rapid_annihilation_desc:0 "" #later
+blitzkrieg_idea:0 "Blitzkrieg"
+blitzkrieg_idea_desc:0 "" #later
+achtung_panzer:0 "Achtung Panzer"
+achtung_panzer_desc:0 "" #later
+
  
 #Events
 germany.1.t:0 "Germany Introduction"
@@ -287,6 +296,16 @@ germany.38.b:0 "We Won't Fall For Germany's Schemes!"
 germany.39.t:0 "Unrestricted Submarine Warfare"
 germany.39.d:0 "Our u-boat fleets are crucial to the projection of power on the seas, we will never cripple our forces or humiliate ourselves through capitulating to the demands of other nations... Germany did not face military defeat in 1918, and the Fatherland will not back down again!"
 germany.39.a:0 ""
+germany.40.t:0 "Reshuffling Our Cabinet"
+germany.40.d:0 "This nation must overcome its disease and return to the forefront of European dominance. It is clear that to achieve our goals we must bring about change. Our allies within the traditional elite are also seeking political appointments in turn for their loyalty. We should seek to strike a balance between loyalty and efficiency to revitalize our nation. To kick off these plans, we must assess the capabilities of our Minister of the Economy, Alfred Hugenberg."
+germany.40.a:0 "Hugenberg Has Done Well"
+germany.40.b:0 "Hugenberg Has Failed Us"
+germany.41.t:0 "Economic Minister Appointment"
+germany.41.d:0 "" #later
+germany.41.a:0 "Julius Curtius"
+germany.41.b:0 "Kurt Schmitt"
+germany.41.c:0 "Hjalmar Schacht"
+germany.41.e:0 "Walter Eucken"
 antikom.1.t:0 "Finland Invited To The Anti-Komintern Pact"
 antikom.1.d:0 "We have received an invitation to the Anti-Komintern Pact, a German-backed alliance against the Union of Soviet Socialist Republics."
 antikom.1.a:0 "We Must Protect Our Selves From The Reds"

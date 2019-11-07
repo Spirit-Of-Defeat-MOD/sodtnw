@@ -850,6 +850,74 @@ ideas = {
 					consumer_goods_factor = 0.05
 				}
 			}
+
+			panzer_school_kama = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+				}
+			}
+
+			rapid_annihilation = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+				}
+			}
+
+			blitzkrieg_idea = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+				}
+			}
+
+			achtung_panzer = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+				}
+			}
 		}
 	}	
 

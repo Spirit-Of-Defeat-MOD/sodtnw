@@ -991,4 +991,12 @@ opinion_modifiers = {
 	GER_foreign_diplomats = {
 		value = 25
 	}
+	
+	MCW_diplomatic_recognition = {
+		value = 30
+	}
+	
+	MCW_no_diplomatic_recognition = {
+		value = -30
+	}
 }

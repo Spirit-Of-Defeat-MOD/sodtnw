@@ -1,0 +1,126 @@
+#### Foreign Interventiob Decisions by Kstar ####
+
+MCW_foreign_intervention_decisions = {# Level 1 - Diplomatic Recognition
+	MCW_recognize_ced = {# Support the Cedillo
+		icon = ger_military_buildup
+		allowed = {
+			NOT = {
+				tag = MEX
+				tag = VIL
+				tag = PNR
+				tag = PLM
+				tag = CED
+				tag = MCT
+			}
+			always = yes
+		}
+		available = {
+			country_exists = CED
+			
+		}
+		visible = {
+			country_exists = CED
+			has_global_flag = mexican_revolution
+			NOT = { has_global_flag = mexican_revolution_over }
+			NOT = {
+				has_war_with = CED
+				has_country_flag = MCW_recognized_vil
+				has_country_flag = MCW_recognized_mex
+				has_country_flag = MCW_recognized_mct
+				has_country_flag = MCW_recognized_pnr
+				has_country_flag = MCW_recognized_plm
+			}
+		}
+		fire_only_once = yes
+		cost = 25
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_equipment = { infantry_equipment < 4000 }
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = CED_intervention }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MCW_recognize_ced"
+			set_country_flag = MCW_recognize_ced
+			CSA = {
+				#country_event = recognition_events
+			}
+			add_opinion_modifier = { target = CED modifier = MCW_diplomatic_recognition }
+			add_opinion_modifier = { target = MEX modifier = MCW_no_diplomatic_recognition }
+			add_opinion_modifier = { target = VIL modifier = MCW_no_diplomatic_recognition }
+			add_opinion_modifier = { target = PNR modifier = MCW_no_diplomatic_recognition }
+			add_opinion_modifier = { target = PLM modifier = MCW_no_diplomatic_recognition }
+			add_opinion_modifier = { target = MCT modifier = MCW_no_diplomatic_recognition }
+		}
+	}
+	
+	MCW_support_ced = {# Level 2 - Guns
+		icon = ger_military_buildup
+		allowed = {
+			NOT = {
+				tag = MEX
+				tag = VIL
+				tag = PNR
+				tag = PLM
+				tag = CED
+				tag = MCT
+			}
+		}
+		available = {
+			country_exists = CED
+			has_decision = MCW_recognize_ced
+		}
+		visible = {
+			country_exists = CED
+			has_decision = MCW_recognize_ced
+			has_global_flag = mexican_revolution
+			has_country_flag = MCW_recognize_ced
+			NOT = { has_global_flag = mexican_revolution_over }
+			NOT = {
+				has_war_with = CED
+				has_country_flag = MCW_recognized_vil
+				has_country_flag = MCW_recognized_mex
+				has_country_flag = MCW_recognized_mct
+				has_country_flag = MCW_recognized_pnr
+				has_country_flag = MCW_recognized_plm
+			}
+		}
+		fire_only_once = yes
+		cost = 50
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_equipment = { infantry_equipment < 4000 }
+			}
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = CED_intervention }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MCW_support_ced"
+			set_country_flag = MCW_supported_ced
+			send_equipment = { target = CED type = infantry_equipment amount = 2000 }
+			CED = {
+				#country_event = guns events
+			}
+		}
+	}
+}
+			
+
+	

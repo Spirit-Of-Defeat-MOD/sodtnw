@@ -21,6 +21,11 @@ VIL_form_mexico:0 "Reform the Mexican State"
 MCT_form_mexico:0 "Reform the Mexican State"
 PLM_form_mexico:0 "Abolish the Mexican State"
 
+MCW_foreign_intervention_decisions:0 "Foreign Intervention: Mexican Revolution"
+
+MCW_recognize_ced:0 "Recognize Cedillistas"
+MCW_recognize_ced_desc:0 "Mexico is in flames, in our own interests we must reocgnize the Cedilliastas as the legitimate rulers of Mexico."
+MCW_support_ced:0 "Support Cedillistas with Weaponry"
 #Ideas
 cavalry_tactics:0 "Cavalry Tactics"
 

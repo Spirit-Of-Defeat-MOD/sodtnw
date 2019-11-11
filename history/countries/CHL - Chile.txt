@@ -51,6 +51,69 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 20
 
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "CHL_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "CHL_1939_naval_mtg"
+		else = {
+			set_naval_oob = "CHL_1939_naval_legacy"
+		}
+	}
+
+	set_technology = {
+		tactical_bomber1 = 1
+		CAS1 = 1
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_convoys = 5
 set_politics = {
 	ruling_party = totalitarian_socialism
@@ -59,12 +122,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	utilitarian_despot = 36
-	classic_liberal = 42
-	democratic = 13
-	communism = 1
-	revolutionary_socialism = 4
-	social_liberal = 4
+	totalitarian_socialism = 59
+	fascism = 3
+	democratic_socialism = 10
+	communism = 10
+	revolutionary_socialism = 7
+	
 }
 
 create_country_leader = {
@@ -97,7 +160,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
-		#
+		dictator
 	}
 }
 
@@ -128,9 +191,9 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CAMPO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = military_junta
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
+		dictator
 	}
 }
 
@@ -146,7 +209,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francisco Javier Díaz Valderrama"
+	name = "Jorge Gonzales von Marées"
 	desc = "POLITICS_FRANCISCO_VALDERRAMA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -157,13 +220,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jorge Gonzales von Mareés"
+	name = "Francisco Javier Díaz Valderrama"
 	desc = "POLITICS_JORGE_MAREES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
+		dictator
 	}
 }
 
@@ -179,7 +242,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Juan Antonio Ríos"
+	name = Gustavo Ross Santa María"
 	desc = "POLITICS_JUAN_RIOS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -190,13 +253,44 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jerónimo Méndez Arancibia"
+	name = "Juan Antonio Ríos"
 	desc = "POLITICS_JERONIMO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy_subtype
 	traits = {
 		#
+	}
+}
+
+}
+
+1941.11.28 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1938.10.25"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+	totalitarian_socialism = 59
+	fascism = 3
+	democratic_socialism = 10
+	communism = 10
+	revolutionary_socialism = 7
+	
+	}
+
+	create_country_leader = {
+		name = "Jeronimo Mendez Arancibia"
+		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = democratic_socialism_subtype
+		traits = {
+			#
+		}
 	}
 }
 

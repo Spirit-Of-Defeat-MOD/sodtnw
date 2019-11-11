@@ -301,7 +301,7 @@ germany.40.d:0 "This nation must overcome its disease and return to the forefron
 germany.40.a:0 "Hugenberg Has Done Well"
 germany.40.b:0 "Hugenberg Has Failed Us"
 germany.41.t:0 "Economic Minister Appointment"
-germany.41.d:0 "" #later
+germany.41.d:0 "There are several candidates for whom we have considered as Hugenberg's replacement. Each one maintains a different approach to economic development. We should choose wisely based on the needs of the state and the people." # finish later
 germany.41.a:0 "Julius Curtius"
 germany.41.b:0 "Kurt Schmitt"
 germany.41.c:0 "Hjalmar Schacht"
@@ -336,6 +336,19 @@ eng-ger.2.a:0 "Excellent"
 eng-ger.3.t:0 "Great Britain Declines Our Offer"
 eng-ger.3.d:0 "" #add later
 eng-ger.3.a:0 "Those Bastards!"
+separatists.1.t:0 "Agitating Poland's Ukrainian Minority"
+separatists.1.d:0 "Poland is divided between minority groups who wish nothing more than to maintain their own sovereignty. The Ukrainians are no different in that regard. We can capitalize on these divisions and agitate them, destabilizing Poland for our own benefit..."
+separatists.1.a:0 "For Blood And Soil!"
+separatists.2.t:0 "Lwów Protests"
+separatists.2.d:0 "Unrest has broken in Lwów as the city's Ukrainian population protests for autonomy and rights. A small group of radicals has vowed militant action, although the public at large appears to be willing to accept peaceful change. Nonetheless, tensions remain high due to the threats of a violent revolution."
+separatists.2.a:0 "We Should Address Their Demands"
+separatists.2.b:0 "They Will Learn Their Place..."
+separatists.3.t:0 "Unrest In Poland"
+separatists.3.d:0 "Our operations to sew unrest in Poland have been successful. The time will soon come for us to march through Poland and claim what is rightfully ours!"
+separatists.3.a:0 "Our Destiny Awaits Us"
+separatists.4.t:0 "Lwów Uprising"
+separatists.4.d:0 "" #add later
+separatists.4.a:0 "We Must Crush The Separatist Traitors!"
 
 #Flags
 GER_economic_investment:0 "Economic Investments"

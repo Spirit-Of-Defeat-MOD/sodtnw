@@ -1,5 +1,7 @@
 ﻿capital = 877
 
+country_event = { id = freeindochina.1 days = 62}
+
 oob = "IDC_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }

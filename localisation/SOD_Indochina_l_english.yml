@@ -71,3 +71,12 @@
  #should be reintegrated
 
  #Events
+freeindochina.1.t:0 "The Prototype"
+freeindochina.1.d:0 "Tran Dai Nghia, a mostly unknown military engineer and architect studying in France, met with the commanders of the revolt in [Root.Capital.GetName] today. He presented them with the blueprints of his new design, a submachine gun based off of the designs of two other notable submachine guns in military use; the Erma EMP-35 - used by the wretched French - and the Thompson SMG, a famous American design, infamous for being the signature weapon of the many crime syndicates of the Continental United States. Nghia claims the weapon parts are readily accessible via the black market, and the assembly of the weapon is simple; so simple, in fact, a child could make it. The ammunition needed is cheap and common as well. Tran Dai Nghia promises we will match the French in firepower should his weapon be used.\n\nTesting of this prototype has proved that it can excellently tear through human flesh (as demonstrated with the bodies of our dead French oppressors), and many of the military high command are quite optimistic of this weapon’s success. Yet others hold opposite views, stating that they could instead order other weapons and receive the same effectiveness.\n\nThe submachine gun has been named by high command as FIMIC-K39-Liberator, although Nghia prefers to call it the "Cuồng Phong", meaning hurricane. If it is approved, it should begin production within the next month or so."
+freeindochina.1.a:0 "We shall fund this revolutionary breakthrough!"
+freeindochina.1.b:0 "There is no need for it."
+
+#Ideas
+
+#cosmetic tags
+IDC_revolt_revolutionary_socialism:0 "Indochinese Revolt"

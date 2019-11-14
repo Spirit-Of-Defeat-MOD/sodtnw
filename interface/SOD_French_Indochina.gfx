@@ -1,0 +1,21 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_army_defections"
+		texturefile = "gfx/interface/ideas/FIC/Army_defections.tga"
+	}
+spriteType = {
+		name = "GFX_idea_unstable_colonial_admin"
+		texturefile = "gfx/interface/ideas/FIC/Unstable_Colonial_Admin.tga"
+	}
+spriteType = {
+		name = "GFX_idea_cho_lon_unrest"
+		texturefile = "gfx/interface/ideas/FIC/Cho_Lon_Unrest.tga"
+	}
+spriteType = {
+		name = "GFX_idea_nguyen_dynasty_rule"
+		texturefile = "gfx/interface/ideas/FIC/Nguyen_Dynasty_Power_Struggle.tga"
+	}

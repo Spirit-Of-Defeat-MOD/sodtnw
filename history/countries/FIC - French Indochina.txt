@@ -37,6 +37,17 @@ set_popularities = {
     nihilistic_extremism = 0
 }
 
+add_ideas = {
+	army_defections
+        cho_lon_unrest
+        unstable_colonial_admin
+        nguyen_dynasty_rule
+	protectionism
+	one_year_draft
+	interventionism
+	mixed_focus
+}
+
 set_cosmetic_tag = FIC_FRA_subject
 
 create_country_leader = {

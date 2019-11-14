@@ -1,0 +1,18 @@
+add_namespace = freeindochina
+
+country_event = {
+    id = freeindochina.1
+    title = freeindochina.1.t    
+    desc = freeindochina.1.d
+    
+    is_triggered_only = yes
+
+    option = {
+        name = freeindochina.1.a 
+             add_war_support = 0.15
+             add_stability = 0.15
+    }
+    option = {
+        name = freeindochina.1.b
+    }
+}

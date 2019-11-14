@@ -625,3 +625,7 @@ JBS = {
 	color = rgb { 218 140 16 }
 	color_ui = rgb { 218 140 16 }
 }
+QUE = {
+        color = rgb { 0 143 204 }
+        color_ui = rgb { 0 143 204 }
+}

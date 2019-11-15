@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+ECU_fascism_party:0 "FA"
+ECU_fascism_party_long:0 "Frente anticomunista"
+ECU_communism_party:0 "PCE"
+ECU_communism_party_long:0 "Partido Comunista del Ecuador"
+ECU_democratic_party:0 "PC"
+ECU_democratic_party_long:0 "Partido Conservador"
+ECU_utilitarian_despot_party:0 "BSN"
+ECU_utilitarian_despot_party_long:0 "Bloque para la Salvación Nacional"
+ECU_neutrality_party:0 "BSN"
+ECU_neutrality_party_long:0 "Bloque para la Salvación Nacional"
+ECU_social_democracy_party:0 "PLRE"
+ECU_social_democracy_party_long:0 "Partido Liberal Radical Ecuatoriano"
+ECU_social_liberal_party:0 "PLRE"
+ECU_social_liberal_party_long:0 "Partido Liberal Radical Ecuatoriano"
+ECU_classic_liberal_party:0 "PC"
+ECU_classic_liberal_party_long:0 "Partido Conservador"
+ECU_totalitarian_socialism_party:0 "PCE"
+ECU_totalitarian_socialism_party_long:0 "Partido Comunista del Ecuador"
+ECU_revolutionary_socialism_party:0 "PSE-R"
+ECU_revolutionary_socialism_party_long:0 "Partido Socialista Ecuatoriano - Radicales"
+ECU_democratic_socialism_party:0 "PSE"
+ECU_democratic_socialism_party_long:0 "Partido Socialista Ecuatoriano"
+ECU_nihilistic_extremism_party:0 "La Partido"
+ECU_nihilistic_extremism_party_long:0 "La Partido"
+
+#Country Names
+ ECU_fascism:0 "State of Ecuador"
+ ECU_fascism_DEF:0 "the State of Ecuador"
+ ECU_nihilistic_extremism:0 "Equator Land"
+ ECU_nihilistic_extremism_DEF:0 "the Land at the Equator
+ ECU_totalitarian_socialism:0 "Ecuadorian Worker's Federation"
+ ECU_totalitarian_socialism_DEF:0 "the Ecuadorian Worker's Federation"
+ ECU_utilitarian_despot:0 "State of Ecuador"
+ ECU_utilitarian_despot_DEF:0 "the State of Ecuador"
+ ECU_democratic:0 "Republic of Ecuador"
+ ECU_democratic_DEF:0 "the Republic of Ecuador"
+ ECU_neutrality:1 "State of Ecuador"
+ ECU_neutrality_DEF:1 "the State of Ecuador"
+ ECU_democratic_socialism:0 "Republic of Ecuador"
+ ECU_democratic_socialism_DEF:0 "the Republic of Ecuador"
+ ECU_revolutionary_socialism:0 "Ecuadorian Worker's Federation"
+ ECU_revolutionary_socialism_DEF:0 "the Ecuadorian Worker's Federation"
+ ECU_social_democracy:0 "Republic of Ecuador"
+ ECU_social_democracy_DEF:0 "the Republic of Ecuador"
+ ECU_social_liberal:0 "Republic of Ecuador"
+ ECU_social_liberal_DEF:0 "the Republic of Ecuador"
+ ECU_classic_liberal:0 "Republic of Ecuador"
+ ECU_classic_liberal_DEF:0 "the Republic of Ecuador"
+ ECU_communism:0 "Ecuadorian Worker's Federation"
+ ECU_communism_DEF:0 "the Ecuadorian Worker's Federation"
+ 
+ ECU_fascism_ADJ:0 "Ecuadorian"
+ ECU_nihilistic_extremism_ADJ:0 "Ecuadorian"
+ ECU_totalitarian_socialism_ADJ:0 "Ecuadorian"
+ ECU_democratic_ADJ:0 "Ecuadorian"
+ ECU_utilitarian_despot_ADJ:0 "Ecuadorian"
+ ECU_democratic_socialism_ADJ:0 "Ecuadorian"
+ ECU_neutrality_ADJ:0 "Ecuadorian"
+ ECU_revolutionary_socialism_ADJ:0 "Ecuadorian"
+ ECU_social_democracy_ADJ:0 "Ecuadorian"
+ ECU_social_liberal_ADJ:0 "Ecuadorian"
+ ECU_classic_liberal_ADJ:0 "Ecuadorian"
+ ECU_communism_ADJ:0 "Ecuadorian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 

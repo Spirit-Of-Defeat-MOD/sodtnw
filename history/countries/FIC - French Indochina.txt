@@ -129,6 +129,16 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Charles Piroth"
+	picture = "Charles_Piroth.tga"
+	traits = { jungle_rat }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
 create_field_marshal = {
 	name = "Gabriel Sabattier"
 	picture = "Gabriel_Sabattier.tga"

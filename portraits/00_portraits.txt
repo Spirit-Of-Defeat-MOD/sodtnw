@@ -1493,3 +1493,19 @@ BLZ = {
 	}
 
 }
+FIC = {
+	army = {
+		male = {
+			"gfx/leaders/FIC/Portrait_Indochina_Generic_1.tga"
+		}
+	}
+
+}
+IDC = {
+	army = {
+		male = {
+			"gfx/leaders/FIC/Portrait_Indochina_Generic_1.tga"
+		}
+	}
+
+}

@@ -1,0 +1,404 @@
+focus_tree = {
+	id = FIC_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FIC
+		}
+	}
+	#Focus for the New Governor
+	focus = {
+		id = FIC_newgovernor
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 4
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_julesbrevie
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_newgovernor }
+		x = -6
+		y = 1
+                relative_position_id = FIC_newgovernor
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_velvetglove
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_julesbrevie }
+		x = 0
+		y = 2
+                relative_position_id = FIC_julesbrevie
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_palaceagreements
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_velvetglove }
+		x = -4
+		y = 1
+                relative_position_id = FIC_velvetglove
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_autonomy_act
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_palaceagreements }
+		x = -3
+		y = 1
+                relative_position_id = FIC_palaceagreements
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_legalisegroups
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_palaceagreements }
+		x = 0
+		y = 1
+                relative_position_id = FIC_palaceagreements
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_radicalistcrackdown
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_palaceagreements }
+		x = 3
+		y = 1
+                relative_position_id = FIC_palaceagreements
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_motet_decree
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_legalisegroups }
+		prerequisite = { focus = FIC_autonomy_act }
+                prerequisite = { focus = FIC_radicalistcrackdown }
+                x = 0
+		y = 1
+                relative_position_id = FIC_legalisegroups
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_concessions
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_velvetglove }
+                x = 2
+		y = 1
+                relative_position_id = FIC_velvetglove
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_reparation_agreements
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_concessions }
+                x = -1
+		y = 1
+                relative_position_id = FIC_concessions
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_apologies_and_amnesty
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_concessions }
+                x = 1
+		y = 1
+                relative_position_id = FIC_concessions
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_reconciliation_council
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_reparation_agreements }
+                prerequisite = { focus = FIC_apologies_and_amnesty }
+                x = 1
+		y = 1
+                relative_position_id = FIC_reparation_agreements
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	} 
+        focus = {
+		id = FIC_work_reforms
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_velvetglove }
+                x = 5
+		y = 1
+                relative_position_id = FIC_velvetglove
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_minimum_wage_act
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_work_reforms }
+                x = 0
+		y = 1
+                relative_position_id = FIC_work_reforms
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_labour_code
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_work_reforms }
+                x = 2
+		y = 1
+                relative_position_id = FIC_work_reforms
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_maximum_working_hours_act
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_minimum_wage_act }
+                x = -1
+		y = 1
+                relative_position_id = FIC_minimum_wage_act
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_reform_committee
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_minimum_wage_act }
+                prerequisite = { focus = FIC_labour_code }
+                x = 3
+		y = 1
+                relative_position_id = FIC_minimum_wage_act
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_georgescatroux
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_newgovernor }
+                x = 7
+		y = 1
+                relative_position_id = FIC_newgovernor
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_ironfist
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_georgescatroux }
+                x = 0
+		y = 2
+                relative_position_id = FIC_georgescatroux
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_intense_crackdown
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_ironfist }
+                x = -2
+		y = 1
+                relative_position_id = FIC_ironfist
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	} 
+        focus = {
+		id = FIC_arrest_ringleaders
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_intense_crackdown }
+                x = -1
+		y = 1
+                relative_position_id = FIC_intense_crackdown
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_infiltrate_revolutionary_circles
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_intense_crackdown }
+                x = 1
+		y = 1
+                relative_position_id = FIC_intense_crackdown
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_dispersecrowds
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_infiltrate_revolutionary_circles }
+                x = 0
+		y = 1
+                relative_position_id = FIC_infiltrate_revolutionary_circles
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_emergency_work_committee
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_ironfist }
+                x = 2
+		y = 1
+                relative_position_id = FIC_ironfist
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_expand_igso
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_emergency_work_committee }
+                x = 0
+		y = 2
+                relative_position_id = FIC_emergency_work_committee
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = FIC_to_work_or_to_jail
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = FIC_expand_igso }
+                prerequisite = { focus = FIC_dispersecrowds }
+                x = -1
+		y = 1
+                relative_position_id = FIC_expand_igso
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+}

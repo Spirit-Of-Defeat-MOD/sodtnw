@@ -162,6 +162,7 @@ country_event = {
 				target = IDC
 				type = annex_everything
             }}
+	    set_cosmetic_tag = IDC_revolt
 		    news_event = { hours = 6 id = sodnews.3 }
 		}
     }
@@ -225,6 +226,7 @@ country_event = {
 				target = IDC
 				type = annex_everything
                        } }
+		set_cosmetic_tag = IDC_revolt
 		IDC = {
 			change_tag_from = FIC
 		}

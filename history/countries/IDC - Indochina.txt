@@ -76,10 +76,65 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Vo Nguyen Giap"
 	picture = "Vo_Nguyen_Giap.tga"
-	traits = {  }
-	skill = 2
+	traits = { jungle_rat }
+	skill = 3
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Van Tien Dung"
+	picture = "Van_Tien_Dung.tga"
+	traits = { infantry_officer jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Souphanouvong"
+	picture = "Souphanouvong.tga"
+	traits = { hill_fighter politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Le Van Vien"
+	picture = "Le_Van_Vien.tga"
+	traits = { politically_connected harsh_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hoang Van Thai"
+	picture = "Hoang_Van_Thai.tga"
+	traits = { jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Duong Van Duong"
+	picture = "Duong_Van_Duong.tga"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
 }

@@ -154,13 +154,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arturo Puga Osorio"
+	name = "Luis Emilio Recabarren"
 	desc = "POLITICS_ARTURO_OSORIO_DESC"
-	picture = "CHL_Arturo_Puga.tga"
+	picture = "CHL_Recabarren.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
-		dictator
+		union_man	
+		
 	}
 }
 
@@ -194,6 +195,7 @@ create_country_leader = {
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		dictator
+		generalissimo
 	}
 }
 
@@ -213,9 +215,10 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_VALDERRAMA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = integral_nationalist
 	traits = {
-		#
+		anti_democrat	
+		
 	}
 }
 
@@ -248,7 +251,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberal_conservatism
 	traits = {
-		#
+		conservative_grandee
 	}
 }
 

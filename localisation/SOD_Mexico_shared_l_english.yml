@@ -2,17 +2,22 @@
 
 
 #Focuses
-REV_fortification_effort:0 "Fortification Effort"
-REV_army_effort:0 "Militia Training"
-REV_equipment_effort:0 "Buy Local Guns"
-REV_cavalry_effort:0 "Cavalry Tactics"
-REV_doctrine_effort:0 "Recruitment Drive"
-REV_equipment_effort_2:0 "Buying Weapons Internationally"
-REV_fortification_effort:0 "Fortify our Base"
-REV_doctrine_effort_2:0 "Conventional Tactics"
-REV_equipment_effort_3:0 "Start Weapon Manufacturing"
-REV_armor_effort:0 "Utilize Trucks"
-REV_special_forces:0 "Specialized Units"
+MCW_rev_politics:0 "Revolutionary Policies"
+MCW_pro_gov:0 "Pro-Government Stance"
+MCW_seize_chruch_property:0 "Seize Church Property"
+MCW_new_elite:0 "New Political Elite"
+MCW_foreign_industry:0 "Outsource Local Factories"
+MCW_harsher_working_conditions:0 "Work Harder!"
+MCW_outsource_resources:0 "Outsource Resources"
+MCW_anti_gov:0 "Anti-Government Stance"
+MCW_protect_clerics:0 "Protect Clerics"
+MCW_minority_rights:0 "Minority Rights"
+MCW_improve_working_conditions:0 "Work Smarter"
+MCW_mexico_for_mexicans:0 "Mexico for Mexicans"
+MCW_expropriation:0 "Resource Expropriation"
+MCW_own_way:0 ""
+MCW_loyalty_mexico_city:0 "Loyalty to Mexico City"
+MCW_strike_mexico_city:0 "Strike Mexico City"
 
 #Decisions
 REV_recruitment:0 "Recruitment Drive"
@@ -27,7 +32,6 @@ MCW_recognize_ced:0 "Recognize Cedillistas"
 MCW_recognize_ced_desc:0 "Mexico is in flames, in our own interests we must recognize the Cedillistas as the legitimate rulers of Mexico."
 MCW_support_ced:0 "Support Cedillistas with Weaponry"
 #Ideas
-cavalry_tactics:0 "Cavalry Tactics"
 
 #Events
 mexrev.1.t:0 "The Push for Recruitment"

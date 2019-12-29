@@ -1,0 +1,66 @@
+ideas = {
+	head_of_government = {
+		CHL_Carlos_Keller = {
+			allowed = { original_tag = CHL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = fascism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CHL_Carlos_Keller"
+			}
+			traits = {
+				head_of_government
+				national_collectivist
+			}
+			cancel_if_invalid = yes
+		}
+		CHL_Oscar_Schnake = {
+			allowed = { original_tag = CHL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = revolutionary_socialism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CHL_Oscar_Schnake"
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	foreign_minister = {
+		CHL_Salvador_Allende = {
+			allowed = { original_tag = CHL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_government = revolutionary_socialism
+				}
+			}
+			visible = {
+				#
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CHL_Salvador_Allende"
+			}
+			traits = {
+				foreign_minister
+				revolutionary_socialist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

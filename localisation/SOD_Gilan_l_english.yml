@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+GIL_fascism_party:0 ""
+GIL_fascism_party_long:0 ""
+GIL_communism_party:0 ""
+GIL_communism_party_long:0 ""
+GIL_democratic_party:1 "
+GIL_democratic_party_long:0 ""
+GIL_utilitarian_despot_party:0 ""
+GIL_utilitarian_despot_party_long:0 ""
+GIL_neutrality_party:0 ""
+GIL_neutrality_party_long:0 ""
+GIL_social_democracy_party:0 ""
+GIL_social_democracy_party_long:0 ""
+GIL_social_liberal_party:0 ""
+GIL_social_liberal_party_long:0 ""
+GIL_classic_liberal_party:0 ""
+GIL_classic_liberal_party_long:0 ""
+GIL_totalitarian_socialism_party:0 ""
+GIL_totalitarian_socialism_party_long:0 ""
+GIL_revolutionary_socialism_party:0 ""
+GIL_revolutionary_socialism_party_long:0 ""
+GIL_democratic_socialism_party:0 ""
+GIL_democratic_socialism_party_long:0 ""
+GIL_nihilistic_extremism_party:0 ""
+GIL_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ GIL_fascism:0 "Persian Socialist Soviet Republic"
+ GIL_fascism_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_nihilistic_extremism:0 "Persian Socialist Soviet Republic"
+ GIL_nihilistic_extremism_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_totalitarian_socialism:0 "Persian Socialist Soviet Republic"
+ GIL_totalitarian_socialism_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_utilitarian_despot:0 "Persian Socialist Soviet Republic"
+ GIL_utilitarian_despot_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_democratic:0 "Persian Socialist Soviet Republic"
+ GIL_democratic_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_neutrality:1 "Persian Socialist Soviet Republic"
+ GIL_neutrality_DEF:1 "the Persian Socialist Soviet Republic"
+ GIL_democratic_socialism:0 "Persian Socialist Soviet Republic"
+ GIL_democratic_socialism_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_revolutionary_socialism:0 "Persian Socialist Soviet Republic"
+ GIL_revolutionary_socialism_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_social_democracy:0 "Persian Socialist Soviet Republic"
+ GIL_social_democracy_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_social_liberal:0 "Persian Socialist Soviet Republic"
+ GIL_social_liberal_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_classic_liberal:0 "Persian Socialist Soviet Republic"
+ GIL_classic_liberal_DEF:0 "the Persian Socialist Soviet Republic"
+ GIL_communism:0 "Persian Socialist Soviet Republic"
+ GIL_communism_DEF:0 "the Persian Socialist Soviet Republic"
+ 
+ GIL_fascism_ADJ:0 "Jangali"
+ GIL_totalitarian_socialism_ADJ:0 "Jangali"
+ GIL_democratic_ADJ:0 "Jangali"
+ GIL_utilitarian_despot_ADJ:0 "Jangali"
+ GIL_democratic_socialism_ADJ:0 "Jangali"
+ GIL_neutrality_ADJ:0 "Jangali"
+ GIL_revolutionary_socialism_ADJ:0 "Jangali"
+ GIL_social_democracy_ADJ:0 "Jangali"
+ GIL_social_liberal_ADJ:0 "Jangali"
+ GIL_classic_liberal_ADJ:0 "Jangali"
+ GIL_communism_ADJ:0 "Jangali"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

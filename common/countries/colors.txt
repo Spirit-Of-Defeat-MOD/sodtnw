@@ -629,3 +629,12 @@ QUE = {
         color = rgb { 0 143 204 }
         color_ui = rgb { 0 143 204 }
 }
+AZA = {
+        color = rgb { 255 153 102 }
+        color_ui = rgb { 255 153 102 }
+}
+
+GIL = {
+        color = rgb { 204 0 0 }
+        color_ui = rgb { 204 0 0 }
+}

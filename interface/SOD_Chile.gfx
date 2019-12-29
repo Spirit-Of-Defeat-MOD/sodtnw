@@ -1,0 +1,18 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+	spriteType = {
+		name = "GFX_idea_CHL_Carlos_Keller"
+		texturefile = "gfx/ministers/CHL/Carlos_Keller.tga"
+	}
+        spriteType = {
+		name = "GFX_idea_CHL_Oscar_Schnake"
+		texturefile = "gfx/ministers/CHL/Oscar_Schnake.tga"
+	}
+        spriteType = {
+		name = "GFX_idea_CHL_Salvador_Allende"
+		texturefile = "gfx/ministers/CHL/Salvador_Allende.tga"
+	}
+}

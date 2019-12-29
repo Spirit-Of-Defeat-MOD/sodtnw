@@ -40,11 +40,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lord Tweedsmuir"
+	name = "Adrien Arcand"
 	desc = "POLITICS_LORD_TWEEDSMUIR_DESC"
-	picture = ""
+	picture = "PedoMaster.tga"
 	expire = "1965.1.1"
-	ideology = social_conservatism_subtype
+	ideology = nazism
 	traits = {
 		#
 	}

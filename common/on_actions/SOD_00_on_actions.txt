@@ -61,6 +61,24 @@ on_actions = {
 		}
 	}
 	
+	on_startup = {
+		effect = {
+			#Mexican oil concessions
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				
+				PNR = {	give_resource_rights = { receiver = ENG state = 476 }}
+				MEX = {
+					give_resource_rights = { receiver = ENG state = 477 }
+					give_resource_rights = { receiver = USA state = 479 }
+					give_resource_rights = { receiver = USA state = 480 }
+				}
+			}
+		}
+	}
+	
 	on_annex = { #Should remove cores of dead factions so no revivals mid civil war
 		effect = {
 			every_state = {

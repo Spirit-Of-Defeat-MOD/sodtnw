@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MCW_seize_chruch_property
-		icon = GFX_goal_unknown
+		icon = GFX_MCW_seize_chruch_property
 		cost = 3
 		prerequisite = {
 			focus = MCW_pro_gov
@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MCW_new_elite
-		icon = GFX_goal_unknown
+		icon = GFX_MCW_new_elites
 		cost = 3
 		prerequisite = {
 			focus = MCW_seize_chruch_property
@@ -112,8 +112,8 @@ focus_tree = {
 	}
 	focus = {
 		id = MCW_protect_clerics
-		icon = GFX_goal_unknown
-		cost = 10
+		icon = GFX_MCW_protect_clerics
+		cost = 3
 		prerequisite = {
 			focus = MCW_anti_gov
 		}
@@ -123,8 +123,8 @@ focus_tree = {
 	}
 	focus = {
 		id = MCW_mexico_for_mexicans
-		icon = GFX_goal_unknown
-		cost = 10
+		icon = GFX_MCW_mexico_for_mexicans
+		cost = 3
 		prerequisite = {
 			focus = MCW_protect_clerics
 		}
@@ -135,7 +135,7 @@ focus_tree = {
 	focus = {
 		id = MCW_minority_rights
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = MCW_anti_gov
 		}
@@ -146,7 +146,7 @@ focus_tree = {
 	focus = {
 		id = MCW_improve_working_conditions
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = MCW_protect_clerics
 			focus = MCW_minority_rights
@@ -157,8 +157,8 @@ focus_tree = {
 	}
 	focus = {
 		id = MCW_expropriation
-		icon = GFX_goal_unknown
-		cost = 10
+		icon = GFX_MCW_expropriation
+		cost = 3
 		prerequisite = {
 			focus = MCW_minority_rights
 		}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = MCW_strike_mexico_city
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 1
 		prerequisite = {
 			focus = MCW_minority_rights
 		}

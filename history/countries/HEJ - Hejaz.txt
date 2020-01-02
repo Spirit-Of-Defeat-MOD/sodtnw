@@ -11,10 +11,21 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = utilitarian_despot
 	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Abd Al-Illah I of Hijaz"
+	desc = "POLITICS_ABDALILLAH_DESC"
+	picture = "portrait_kpopguy.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
 }
 
 set_popularities = {
@@ -26,8 +37,8 @@ set_popularities = {
         social_liberal = 0
         classic_liberal = 0
         democratic = 0
-        neutrality = 51
-        utilitarian_despot = 49
+        neutrality = 49
+        utilitarian_despot = 51
         fascism = 0
         nihilistic_extremism = 0
 }

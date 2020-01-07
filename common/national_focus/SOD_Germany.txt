@@ -42,7 +42,12 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_proclaimtheanschluss } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	DEN = {
+		country_event = ger-demands.1
+	}
+} 
 
  } 
 

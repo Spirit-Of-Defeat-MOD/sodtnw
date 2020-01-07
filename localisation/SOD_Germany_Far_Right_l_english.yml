@@ -349,6 +349,16 @@ separatists.3.a:0 "Our Destiny Awaits Us"
 separatists.4.t:0 "Lwów Uprising"
 separatists.4.d:0 "" #add later
 separatists.4.a:0 "We Must Crush The Separatist Traitors!"
+ger-demands.1.t:0 "Germany Demands Northern Schleswig"
+ger-demands.1.d:0 "The German government has demanded that we hand over Northern Schleswig immediately. They have threatened military retaliation in the event we refuse. Troops have been mobilized in response to these threats, however, many diplomats have suggested that we back down and negotiate with the Germans."
+ger-demands.1.a:0 "We Should Seek To Appease Them"
+ger-demands.1.b:0 "We Won't Give Even An Inch!"
+ger-demands.2.t:0 "The Weak Danes Concede"
+ger-demands.2.d:0 "The weak Danish government has fell in line and conceded to our demands. Those useless politicians will never make their nation great. They at least are smart enough to bend the knee to us... We are one step closer to achieving our ideal borders!"
+ger-demands.2.a:0 "A Great Victory For The Reich"
+ger-demands.3.t:0 "The Stubborn Danes Refused!"
+ger-demands.3.d:0 "We cannot allow Germany to be humiliated by the stubborn Danes. They must be punished for their arrogance... If they seek a war then they shall get one. For blood and soil!"
+ger-demands.3.a:0 "How Dare They..."
 
 #Flags
 GER_economic_investment:0 "Economic Investments"

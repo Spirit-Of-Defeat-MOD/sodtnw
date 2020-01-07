@@ -1,4 +1,5 @@
-﻿capital = 4# this country is replaced by SRO at start
+﻿capital = 4
+#this country is replaced by SRO at start
 
 oob = "AUS_1936"
 
@@ -26,16 +27,26 @@ set_popularities = {
 	communism = 0
 	revolutionary_socialism = 0
 	democratic_socialism = 0
-        social_democracy = 0
-        social_liberal = 0
-        classic_liberal = 0
-        democratic = 0
-        neutrality = 100
-        utilitarian_despot = 0
-        fascism = 0
-        nihilistic_extremism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 5
+    democratic = 0
+    neutrality = 95
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
 }
 
 set_stability = 0.50
 
 #become_exiled_in = { target = GER legitimacy = 50 }
+
+create_country_leader = {
+	name = "Ludwig von Mises"
+	desc = "POLITICS_VON_MISES_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = right_libertarianism
+	traits = {
+	}
+}

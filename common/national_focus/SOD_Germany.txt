@@ -237,6 +237,10 @@ prerequisite = { focus = GER_revamppanzerschulekama }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	army_experience = 10
+	add_ideas = rapid_annihilation
+}
 
  } 
 
@@ -320,6 +324,9 @@ mutually_exclusive = { focus = GER_infiltrationtheory }
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = {
+	add_ideas = blitzkrieg_idea
+}
 
  } 
 
@@ -335,7 +342,10 @@ prerequisite = { focus = GER_strengthensovietpartnerships }
 mutually_exclusive = { focus = GER_revampkampffliegerschulelipezk } 
 ai_will_do = { 
  factor = 1
- } 
+ }
+completion_reward = {
+	add_ideas = panzer_school_kama
+}
 
  } 
 

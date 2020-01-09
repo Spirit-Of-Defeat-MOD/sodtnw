@@ -6,6 +6,7 @@ add_namespace = germany
 add_namespace = antikom
 add_namespace = eng-ger
 add_namespace = separatists
+add_namespace = ger-demands
 
 # Introduction Event
 country_event = {
@@ -1492,5 +1493,78 @@ country_event = {
 	option = {
 		name = separatists.4.a
 		
+    }
+}
+
+#German Demands
+
+# Demand Schleswig
+country_event = {
+	id = ger-demands.1
+	title = ger-demands.1.t
+	desc = ger-demands.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#Cave To Germany
+	option = {
+		name = ger-demands.1.a
+		add_political_power = -15
+		
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = ger-demands.2
+					days = 1
+				}
+			}
+		}
+    }
+	#Stand Up For Ourselves
+	option = {
+		name = ger-demands.1.a
+		add_political_power = -100
+
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = ger-demands.3
+					days = 1
+				}
+			}
+		}
+    }
+}
+
+# Denmark Caves
+country_event = {
+	id = ger-demands.2
+	title = ger-demands.2.t
+	desc = ger-demands.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#Blood and Soil
+	option = {
+		name = ger-demands.2.a
+		add_political_power = 15
+    }
+}
+
+# Stubborn Danes
+country_event = {
+	id = ger-demands.3
+	title = ger-demands.3.t
+	desc = ger-demands.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#They'll Pay!
+	option = {
+		name = ger-demands.3.a
+		add_political_power = -15
     }
 }

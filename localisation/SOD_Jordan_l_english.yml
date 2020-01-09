@@ -1,0 +1,80 @@
+﻿l_english: 
+
+ #Parties
+ JOR_fascism_party:0 ""
+ JOR_fascism_party_long:0 ""
+ JOR_communism_party:0 "Communists"
+ JOR_communism_party_long:0 "Communists"
+ JOR_democratic_party:0 "Moderates"
+ JOR_democratic_party_long:0 "Moderates"
+ JOR_utilitarian_despot_party:0 "Unionists"
+ JOR_utilitarian_despot_party_long:0 "House of Hashim"
+ JOR_neutrality_party:0 "Unionists"
+ JOR_neutrality_party_long:0 "House of Hashim"
+ JOR_social_democracy_party:0 "Republicans"
+ JOR_social_democracy_party_long:0 "Republicans"
+ JOR_social_liberal_party:0 "Republicans"
+ JOR_social_liberal_party_long:0 "Republicans"
+ JOR_classic_liberal_party:0 "Republicans"
+ JOR_classic_liberal_party_long:0 "Republicans"
+ JOR_totalitarian_socialism_party:0 ""
+ JOR_totalitarian_socialism_party_long:0 ""
+ JOR_revolutionary_socialism_party:0 ""
+ JOR_revolutionary_socialism_party_long:0 ""
+ JOR_democratic_socialism_party:0 ""
+ JOR_democratic_socialism_party_long:0 ""
+ JOR_nihilistic_extremism_party:0 ""
+ JOR_nihilistic_extremism_party_long:0 ""
+
+ #Country Names
+ JOR_fascism:0 "Republic of Jordan"
+ JOR_fascism_DEF:0 "The Republic of Jordan"
+ JOR_nihilistic_extremism:0 ""
+ JOR_nihilistic_extremism_DEF:0 ""
+ JOR_totalitarian_socialism:0 "People's Republic of Jordan"
+ JOR_totalitarian_socialism_DEF:0 "The People's Republic of Jordan"
+ JOR_utilitarian_despot:0 "Arab Kingdom of Jordan"
+ JOR_utilitarian_despot_DEF:0 "the Arab Kingdom of Jordan"
+ JOR_democratic:0 "Kingdom of Jordan"
+ JOR_democratic_DEF:0 "the Kingdom of Jordan"
+ JOR_neutrality:0 "Arab Kingdom of Jordan"
+ JOR_neutrality_DEF:0 "the Arab Kingdom of Jordan"
+ JOR_democratic_socialism:0 "Republic of Jordan"
+ JOR_democratic_socialism_DEF:0 "The Republic of Jordan"
+ JOR_revolutionary_socialism:0 "Revolutionary Jordan"
+ JOR_revolutionary_socialism_DEF:0 "Revolutionary Jordan"
+ JOR_social_democracy:0 "Republic of Jordan"
+ JOR_social_democracy_DEF:0 "The Republic of Jordan"
+ JOR_social_liberal:0 "Republic of Jordan"
+ JOR_social_liberal_DEF:0 "The Republic of Jordan"
+ JOR_classic_liberal:0 "Republic of Jordan"
+ JOR_classic_liberal_DEF:0 "The Republic of Jordan"
+ JOR_communism:0 "People's Republic of Jordan"
+ JOR_communism_DEF:0 "The People's Republic of Jordan"
+ 
+ JOR_fascism_ADJ:0 "Jordanian"
+ JOR_nihilistic_extremism_ADJ:0 "Jordanian"
+ JOR_totalitarian_socialism_ADJ:0 "Jordanian"
+ JOR_democratic_ADJ:0 "Jordanian"
+ JOR_utilitarian_despot_ADJ:0 "Jordanian"
+ JOR_democratic_socialism_ADJ:0 "Jordanian"
+ JOR_neutrality_ADJ:0 "Jordanian"
+ JOR_revolutionary_socialism_ADJ:0 "Jordanian"
+ JOR_social_democracy_ADJ:0 "Jordanian"
+ JOR_social_liberal_ADJ:0 "Jordanian"
+ JOR_classic_liberal_ADJ:0 "Jordanian"
+ JOR_communism_ADJ:0 "Jordanian"
+
+ #Ministers
+ #should be reintegrated
+
+ 
+ #Focuses
+ #should be reintegrated
+
+ #Events
+ #should be reintegrated
+
+ #Descriptions
+
+ #cosmetic tags

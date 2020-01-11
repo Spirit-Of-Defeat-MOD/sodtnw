@@ -67,8 +67,8 @@ set_popularities = {
 	totalitarian_socialism = 59
 	fascism = 3
 	democratic_socialism = 10
-	communism = 10
-	revolutionary_socialism = 7
+	communism = 18
+	revolutionary_socialism = 10
 	
 }
 
@@ -132,7 +132,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Carlos Ibañez del Campo"
 	desc = "POLITICS_CARLOS_CAMPO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	picture = "Portrait_Chile_Carlos_Campo.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -167,7 +167,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Francisco Javier Díaz Valderrama"
 	desc = "POLITICS_JORGE_MAREES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	picture = "Portrait_CHL_Fransico_Javier_Dias_Valderrama.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

@@ -191,6 +191,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Evered Poole"
+	desc = "POLITICS_DF_MALAN_DESC"
+	picture = "Portrait_SAF_Evered_Poole.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
 	name = "Moses Kotane"
 	desc = "POLITICS_MOSES_KOTANE_DESC"
 	picture = "GFX_SAF_moses_kotane"

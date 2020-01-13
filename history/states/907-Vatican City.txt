@@ -1,0 +1,20 @@
+state= {
+	id=907
+	name="STATE_2" # Vatican City
+	manpower = 2781971
+	
+	state_category = city
+
+	history= {
+		owner = VAT
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = ITA
+		add_core_of = VAT
+	}
+
+	provinces= {
+		13320
+ 	}
+}

@@ -211,3 +211,4 @@ JBS = "countries/Jabal.txt"
 QUE = "countries/Quebec.txt"
 AZA = "countries/Azadistan.txt"
 GIL = "countries/Gilan.txt"
+VAT = "countries/Vatican City.txt

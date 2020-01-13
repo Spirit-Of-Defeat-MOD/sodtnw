@@ -1,0 +1,20 @@
+state={
+	id=906
+	name="STATE_906"
+	manpower= 3456
+	state_category = rural
+    impassable = no
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PRU
+		add_core_of = CHL
+	}
+
+	provinces={ 13319 13318
+		
+	}
+}

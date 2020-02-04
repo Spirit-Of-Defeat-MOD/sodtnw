@@ -70,6 +70,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Pal Pronay"
+	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	picture = "Pal-Pronay.tga"
+	expire = "1965.1.1"
+	ideology = pronayism
+	traits = {
+		dictator
+	}
+}
+
 
 create_corps_commander = {
 	name = "Géza Lakatos"

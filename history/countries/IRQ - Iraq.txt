@@ -16,22 +16,22 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = utilitarian_despot
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 20
-	neutrality = 80
+	utilitarian_despot = 80
 }
 
 create_country_leader = {
-	name = "Ghazi I"
+	name = "Ghazi of Mesopotamia"
 	desc = "POLITICS_GHAZI_I_DESC"
 	picture = "GFX_portrait_iraq_ghazi"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}

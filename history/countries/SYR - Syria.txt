@@ -1,5 +1,10 @@
 ﻿capital = 554
 
+create_faction = Mesopotamia
+add_to_faction = SYR
+add_to_faction = JOR
+add_to_faction = IRQ
+
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
@@ -8,16 +13,16 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = utilitarian_despot
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
+	democratic = 28
 	fascism = 10
 	communism = 10
-	neutrality = 30
+	utilitarian_despot = 52
 }
 
 create_country_leader = {
@@ -41,10 +46,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ghazi bin Faisal"
+	name = "Ghazi of Mesopotamia"
 	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
+	picture = "portrait_irq_ghazi.dds"
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}

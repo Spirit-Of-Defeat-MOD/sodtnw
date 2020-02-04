@@ -8,11 +8,11 @@ state={
 	impassable = no
 
 	history={
-		owner = IRQ
+		owner = JOR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = IRQ
+		add_core_of = JOR
 		add_core_of = ISR
 		add_core_of = PAL
 	}

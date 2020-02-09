@@ -24,4 +24,4 @@ tags={
 	"Gameplay"
 	"Map"
 }
-supported_version="1.8.1"
+supported_version="1.8.*"

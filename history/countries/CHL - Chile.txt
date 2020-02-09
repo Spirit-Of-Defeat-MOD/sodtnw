@@ -48,8 +48,8 @@ if = {
 }
 
 add_ideas = {
-    CHL_Salvador_Allende
-    CHL_Oscar_Schnake
+      CHL_Salvador_Allende
+      CHL_Oscar_Schnake
 }
 
 set_country_flag = monroe_doctrine
@@ -63,13 +63,13 @@ set_politics = {
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = no
 }
-
 set_popularities = {
 	totalitarian_socialism = 59
 	fascism = 3
 	democratic_socialism = 10
 	communism = 18
 	revolutionary_socialism = 10
+	
 }
 
 create_country_leader = {
@@ -82,6 +82,7 @@ create_country_leader = {
 		#
 	}
 }
+
 
 create_country_leader = {
 	name = "Arturo Alessandri"
@@ -101,7 +102,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
-		union_man
+		union_man	
+		
 	}
 }
 

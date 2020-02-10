@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+CHY_fascism_party:0 ""
+CHY_fascism_party_long:0 ""
+CHY_communism_party:0 ""
+CHY_communism_party_long:0 ""
+CHY_democratic_party:0 ""
+CHY_democratic_party_long:0 ""
+CHY_utilitarian_despot_party:0 ""
+CHY_utilitarian_despot_party_long:0 ""
+CHY_neutrality_party:0 ""
+CHY_neutrality_party_long:0 ""
+CHY_social_democracy_party:0 ""
+CHY_social_democracy_party_long:0 ""
+CHY_social_liberal_party:0 ""
+CHY_social_liberal_party_long:0 ""
+CHY_classic_liberal_party:0 ""
+CHY_classic_liberal_party_long:0 ""
+CHY_totalitarian_socialism_party:0 ""
+CHY_totalitarian_socialism_party_long:0 ""
+CHY_revolutionary_socialism_party:0 ""
+CHY_revolutionary_socialism_party_long:0 ""
+CHY_democratic_socialism_party:0 ""
+CHY_democratic_socialism_party_long:0 ""
+CHY_nihilistic_extremism_party:0 ""
+CHY_nihilistic_extremism_party_long:0 ""
+#thats it. every other party doesnt exist
+
+#Country Names
+ CHY_fascism:0 "Ningxia Ma Clique"
+ CHY_fascism_DEF:0 "the Ningxia Ma Clique"
+ CHY_nihilistic_extremism:0 "Ningxia Ma Clique"
+ CHY_nihilistic_extremism_DEF:0 "the Ningxia Ma Clique"
+ CHY_totalitarian_socialism:0 "Ningxia Ma Clique"
+ CHY_totalitarian_socialism_DEF:0 "the Ningxia Ma Clique"
+ CHY_utilitarian_despot:0 "Ningxia Ma Clique"
+ CHY_utilitarian_despot_DEF:0 "the Ningxia Ma Clique"
+ CHY_democratic:0 "Ningxia Ma Clique"
+ CHY_democratic_DEF:0 "the Ningxia Ma Clique"
+ CHY_neutrality:1 "Ningxia Ma Clique"
+ CHY_neutrality_DEF:1 "the Ningxia Ma Clique
+ CHY_democratic_socialism:0 "Ningxia Ma Clique"
+ CHY_democratic_socialism_DEF:0 "the Ningxia Ma Clique"
+ CHY_revolutionary_socialism:0 "Ningxia Ma Clique"
+ CHY_revolutionary_socialism_DEF:0 "the Ningxia Ma Clique"
+ CHY_social_democracy:0 "Ningxia Ma Clique"
+ CHY_social_democracy_DEF:0 "the Ningxia Ma Clique"
+ CHY_social_liberal:0 "Ningxia Ma Clique"
+ CHY_social_liberal_DEF:0 "the Ningxia Ma Clique"
+ CHY_classic_liberal:0 "Ningxia Ma Clique"
+ CHY_classic_liberal_DEF:0 "the Ningxia Ma Clique"
+ CHY_communism:0 "Ningxia Ma Clique"
+ CHY_communism_DEF:0 "the Ningxia Ma Clique"
+ #sneak i swear to god try this again and i will kick you
+ 
+ CHY_fascism_ADJ:0 "Hui"
+ CHY_nihilistic_extremism_ADJ:0 "Hui"
+ CHY_totalitarian_socialism_ADJ:0 "Hui"
+ CHY_democratic_ADJ:0 "Hui"
+ CHY_utilitarian_despot_ADJ:0 "Hui"
+ CHY_democratic_socialism_ADJ:0 "Hui"
+ CHY_neutrality_ADJ:0 "Hui"
+ CHY_revolutionary_socialism_ADJ:0 "Hui"
+ CHY_social_democracy_ADJ:0 "Hui"
+ CHY_social_liberal_ADJ:0 "Hui"
+ CHY_classic_liberal_ADJ:0 "Hui"
+ CHY_communism_ADJ:0 "Hui"
+
+#Ministers
+#should be reintegrated
+
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions

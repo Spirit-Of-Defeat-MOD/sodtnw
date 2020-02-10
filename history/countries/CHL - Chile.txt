@@ -135,7 +135,6 @@ create_country_leader = {
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		dictator
-		generalissimo
 	}
 }
 
@@ -184,7 +183,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = Gustavo Ross Santa María"
+	name = "Gustavo Ross Santa María"
 	desc = "POLITICS_JUAN_RIOS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -205,37 +204,6 @@ create_country_leader = {
 	}
 }
 
-}
-
-1941.11.28 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.10.25"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-	totalitarian_socialism = 59
-	fascism = 3
-	democratic_socialism = 10
-	communism = 10
-	revolutionary_socialism = 7
-	
-	}
-
-	create_country_leader = {
-		name = "Jeronimo Mendez Arancibia"
-		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = democratic_socialism_subtype
-		traits = {
-			#
-		}
-	}
-}
-
 create_corps_commander = {
 	name = "Escudero Oscar Otárola"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
@@ -246,7 +214,6 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 3
 }
-
 
 ### VARIANTS ###
 # 1936 Start #

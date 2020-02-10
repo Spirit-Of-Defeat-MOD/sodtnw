@@ -119,6 +119,17 @@ create_country_leader = {
 }
 
 create_field_marshal = {
+	name = "Kazimierz Sosnkowski"
+	gfx = "GFX_POL_Kazimierz_Sosnkowski"
+	traits = { old_guard }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	traits = { defensive_doctrine }
@@ -143,12 +154,23 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Stanisław Kopański"
 	gfx = "GFX_POL_stanislav_kopanski"
-	traits = {  offensive_doctrine }
+	traits = { offensive_doctrine }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Juliusz Rómmel"
+	gfx = "GFX_POL_Juliusz_Rómmel"
+	traits = { old_guard cavalry_officer organizer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -184,6 +206,50 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Tadeusz Piskor"
+	gfx = "GFX_POL_Tadeusz_Piskor"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wiktor Thomee"
+	gfx = "GFX_POL_Wiktor_Thomee"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Jan Kołłątaj-Srzednicki"
+	gfx = "GFX_POL_Jan_Kołłątaj_Srzednicki"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Józef Unrug"
+	picture = "Portrait_France_Józef_Unrug.dds"
+	traits = { naval_lineage gentlemantly naval_lineage }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
 create_equipment_variant = {
 	name = "PZL P.24"
 	type = fighter_equipment_0
@@ -196,7 +262,6 @@ create_equipment_variant = {
 }
 
 ### VARIANTS ###
-# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

@@ -227,7 +227,7 @@ ideas = {
 	hidden_ideas = {
 		#
 	}
-	country {
+	country = {
 		CRO_bog_i_hrvati = {
 				
 			allowed = {

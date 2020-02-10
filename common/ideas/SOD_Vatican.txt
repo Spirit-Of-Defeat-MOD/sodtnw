@@ -1,0 +1,19 @@
+country = {
+	CRO_bog_i_hrvati = {
+		allowed = {
+			original_tag = VAT
+		}
+	
+		allowed_civil_war = {
+			always = yes
+		}
+
+		picture = VAT_Papacy
+
+		removal_cost = -1
+		
+		modifier = {
+			# i'll add this tommorow
+		}
+	}
+}

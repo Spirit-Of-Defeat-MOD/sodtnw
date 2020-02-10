@@ -1,6 +1,6 @@
 state= {
 	id=907
-	name="STATE_2" # Vatican City
+	name="STATE_907" # Vatican City
 	manpower = 2781971
 	
 	state_category = city

@@ -13,7 +13,7 @@ state={
 		add_core_of = GRE
 	}
 
-	provinces={ 13317
-		
+	provinces={ 
+		13317
 	}
 }

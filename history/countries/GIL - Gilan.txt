@@ -11,12 +11,43 @@ set_technology = {
 	CAS1 = 1
 }
 
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.9.11"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 1
+	communism = 99
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+    social_democracy = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
+}
+
 create_country_leader = {
 	name = "Mīrzā Kūchak Khān"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = communism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Mīrzā Kūchak Khān"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = totalitarian_socialism_subtype
 	traits = {
 		#
 	}

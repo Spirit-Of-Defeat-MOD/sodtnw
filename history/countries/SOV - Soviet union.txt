@@ -91,7 +91,7 @@ set_popularities = {
 	utilitarian_despot = 3
 	fascism = 1
 	nihilistic_extremism = 0
-	
+
 }
 
 add_ideas = {
@@ -221,7 +221,6 @@ create_country_leader = {
 		
 	}
 }
-
 
 add_namespace = {
 	name = "unit_leader_sov"

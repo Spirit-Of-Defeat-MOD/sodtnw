@@ -1,6 +1,6 @@
 ﻿capital = 419
 
-oob = "PER_1936"
+oob = "AZA_1936"
 
 # Starting tech
 set_technology = {
@@ -11,12 +11,63 @@ set_technology = {
 	CAS1 = 1
 }
 
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1935.9.11"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 2
+    social_democracy = 96
+    social_liberal = 1
+    classic_liberal = 1
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 0
+    fascism = 0
+    nihilistic_extremism = 0
+}
+
 create_country_leader = {
 	name = "Shaikh Mohammad Khiābāni"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = democratic_socialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Shaikh Mohammad Khiābāni"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Shaikh Mohammad Khiābāni"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Shaikh Mohammad Khiābāni"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = classic_liberal_subtype
 	traits = {
 		#
 	}

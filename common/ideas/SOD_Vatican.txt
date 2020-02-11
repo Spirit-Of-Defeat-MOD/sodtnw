@@ -1,5 +1,5 @@
 country = {
-	CRO_bog_i_hrvati = {
+	VAT_Papacy = {
 		allowed = {
 			original_tag = VAT
 		}
@@ -13,7 +13,10 @@ country = {
 		removal_cost = -1
 		
 		modifier = {
-			# i'll add this tommorow
+			stability_factor = 0.05
+			conscription_factor = -0.5
+			ai_join_ally_desire_factor = -50
+			ai_focus_defense_factor = 0.5
 		}
 	}
 }

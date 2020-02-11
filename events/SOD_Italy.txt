@@ -1,19 +1,218 @@
-﻿###########################
-# Italy Events by SneakierTech
-###########################
-
-add_namespace = italy
+﻿add_namespace = italy
 
 # Introduction Event
 country_event = {
 	id = italy.1
 	title = italy.1.t
 	desc = italy.1.d
-	picture = news_event_german_soldiers
+	picture = GFX_report_event_hitler_parade
 
 	fire_only_once = yes
 	
 	option = {
 		name = italy.1.a
     }
+}
+
+# Civil war
+country_event = {
+	id = italy.2
+	title = italy.2.t
+	desc = italy.2.d
+	picture = GFX_report_event_tanks_mexico_city
+
+	fire_only_once = yes
+	
+	option = { # Stay
+		name = italy.2.a
+		hidden_effect = {
+			ITK = {
+				# transfer_state = 
+				load_oob = "ITK_cw"
+			}
+			ITA = {
+				country_event = { id = italy.3 days = 4 }
+				set_autonomy = {
+					target = CRO
+					autonomy_state = autonomy_free
+				}
+				set_autonomy = {
+					target = ALB
+					autonomy_state = autonomy_free
+				}
+			}
+			news_event = { hours = 9 id = italynews.1 }
+			set_global_flag = italian_civil_war
+		}
+		custom_effect_tooltip = italy_1
+    }
+	option = { # Change
+		name = italy.2.a
+		hidden_effect = {
+			ITK = {
+				# transfer_state =
+				if = {
+					limit = {
+						is_ai = no
+					}
+					change_tag_from = ROOT 
+				}
+				load_oob = "ITK_cw"
+				declare_war_on = {
+					target = ITA
+					type = annex_everything
+				}	
+			}
+			ITA = {
+				country_event = { id = italy.3 days = 4 }
+				set_autonomy = {
+					target = CRO
+					autonomy_state = autonomy_free
+				}
+				set_autonomy = {
+					target = ALB
+					autonomy_state = autonomy_free
+				}
+			}
+			news_event = { hours = 9 id = italynews.1 }
+			set_global_flag = italian_civil_war
+		}
+		custom_effect_tooltip = italy_2
+    }
+}
+
+# Civil war - 2nd wave
+country_event = {
+	id = italy.3
+	title = italy.3.t
+	desc = italy.3.d
+	picture = GFX_report_event_hungarian_soldiers
+	
+	fire_only_once = yes
+	
+	
+}
+
+# Civil war - Lybian separatism
+country_event = {
+	id = italy.4
+	title = italy.4.t
+	desc = italy.4.d
+	picture = GFX_report_event_kenya_army
+	
+	fire_only_once = yes
+	
+	option = {
+		TRP = {
+			transfer_state = 448
+			transfer_state = 661
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ITK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RSI
+				type = annex_everything
+			}
+		}
+		SNS = {
+			transfer_state = 663
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ITK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RSI
+				type = annex_everything
+			}
+		}
+	}
+}
+
+# Civil war - East African Separatism
+country_event = {
+	id = italy.5
+	title = italy.5.t
+	desc = italy.5.d
+	picture = GFX_report_event_african_soldiers
+	
+	fire_only_once = yes
+	
+	option = {
+		ETH = {
+			transfer_state = 271
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ITK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RSI
+				type = annex_everything
+			}
+		}
+		ERI = {
+			transfer_state = 550
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ITK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RSI
+				type = annex_everything
+			}
+		}
+	}
+}
+
+# Civil war - Croats take Dalmacija
+country_event = {
+	id = italy.6
+	title = italy.6.t
+	desc = italy.6.d
+	picture = GFX_report_event_yugoslavia_partisans
+	
+	fire_only_once = yes
+	
+	option = {
+		CRO = {
+			transfer_state = 885
+			transfer_state = 103
+			transfer_state = 163
+			transfer_state = 789
+			country_event = { id = croatia.15 }
+		}
+	}
+}
+
+# Civil war - Ottomans take whatever they take
+country_event = {
+	id = italy.7
+	title = italy.7.t
+	desc = italy.7.d
+	picture = GFX_report_event_yugoslavian_cavalry
+	
+	fire_only_once = yes
+	
+	option = {
+		TUR = {
+			transfer_state = 342
+			country_event = { id = turkey.2 }
+		}
+	}
 }

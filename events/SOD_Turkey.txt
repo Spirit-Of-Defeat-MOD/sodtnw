@@ -15,19 +15,3 @@ country_event = {
 		name = turkey.1.a
 	}
 }
-
-country_event = {
-	id = turkey.2
-	title = turkey.2.t
-	desc = turkey.2.desc
-	picture = GFX_report_event_yugoslavian_cavalry
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = turkey.2.a
-		add_political_power = 25
-	}
-}

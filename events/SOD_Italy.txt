@@ -47,7 +47,7 @@ country_event = {
 		custom_effect_tooltip = italy_1
     }
 	option = { # Change
-		name = italy.2.a
+		name = italy.2.b
 		hidden_effect = {
 			ITK = {
 				# transfer_state =
@@ -103,6 +103,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
+		name = italy.4.a
 		TRP = {
 			transfer_state = 448
 			transfer_state = 661
@@ -147,6 +148,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
+		name = italy.5.a
 		ETH = {
 			transfer_state = 271
 			declare_war_on = {
@@ -190,6 +192,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
+		name = italy.6.a
 		CRO = {
 			transfer_state = 885
 			transfer_state = 103
@@ -200,7 +203,7 @@ country_event = {
 	}
 }
 
-# Civil war - Ottomans take whatever they take
+# Civil war - British take whatever they take
 country_event = {
 	id = italy.7
 	title = italy.7.t
@@ -210,9 +213,364 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		TUR = {
+		name = italy.7.a
+		ENG = {
 			transfer_state = 342
-			country_event = { id = turkey.2 }
+			country_event = { id = uk.4 }
+		}
+	}
+}
+
+# ANI Party congress decides to abolish monarchy
+country_event = {
+	id = italy.8
+	title = italy.8.t
+	desc = italy.8.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.8.a
+		country_event = {
+			id = italy.9
+			days = 14
+		}
+	}
+}
+
+# Federzoni Passes the bill through the ANI run Parliament
+country_event = {
+	id = italy.9
+	title = italy.9.t
+	desc = italy.9.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.9.a
+		country_event = {
+			id = italy.10
+			days = 14
+		}
+	}
+}
+
+# Bill is proposed to the King
+country_event = {
+	id = italy.10
+	title = italy.10.t
+	desc = italy.10.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.10.a
+		random_list = {
+			50 = {
+				country_event = {
+					id = italy.11
+					days = 14
+				}
+			}
+			50 = {
+				country_event = {
+					id = italy.12
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+# King Rejects
+country_event = {
+	id = italy.11
+	title = italy.11.t
+	desc = italy.11.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.11.a
+		country_event = {
+			id = italy.13
+			days = 14
+		}
+	}
+}
+
+# King Accepts
+country_event = {
+	id = italy.12
+	title = italy.12.t
+	desc = italy.12.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.12.a
+		country_event = {
+			id = italy.15
+			days = 14
+		}
+	}
+}
+
+# ANI Guards storm royal palace and threaten the king
+country_event = {
+	id = italy.13
+	title = italy.13.t
+	desc = italy.13.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.13.a
+		random_list = {
+			50 = {
+				country_event = {
+					id = italy.14
+					days = 14
+				}
+			}
+			50 = {
+				country_event = {
+					id = italy.16
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+# If king submits
+country_event = {
+	id = italy.14
+	title = italy.14.t
+	desc = italy.14.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.13.a
+		country_event = {
+			id = italy.15
+			days = 14
+		}
+	}
+}
+
+# Royal family is exiled
+country_event = {
+	id = italy.15
+	title = italy.15.t
+	desc = italy.15.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.15.a
+		country_event = {
+			id = italy.20
+			days = 14
+		}
+	}
+}
+
+# If king resists
+country_event = {
+	id = italy.16
+	title = italy.16.t
+	desc = italy.16.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.16.a
+		country_event = {
+			id = italy.17
+			days = 14
+		}
+	}
+}
+
+# King put under house arrest
+country_event = {
+	id = italy.17
+	title = italy.17.t
+	desc = italy.17.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.17.a
+		random_list = {
+			50 = {
+				country_event = {
+					id = italy.15
+					days = 14
+				}
+			}
+			50 = {
+				country_event = {
+					id = italy.18
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+# Royal family executed
+country_event = {
+	id = italy.18
+	title = italy.18.t
+	desc = italy.18.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.18.a
+		country_event = {
+			id = italy.19
+			days = 14
+		}
+	}
+}
+
+# State funeral
+country_event = {
+	id = italy.19
+	title = italy.19.t
+	desc = italy.19.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.19.a
+		country_event = {
+			id = italy.20
+			days = 14
+		}
+	}
+}
+
+# Republic declared
+country_event = {
+	id = italy.20
+	title = italy.20.t
+	desc = italy.20.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.20.a
+		country_event = {
+			id = italy.21
+			days = 14
+		}
+	}
+}
+
+# Small Protests
+country_event = {
+	id = italy.21
+	title = italy.21.t
+	desc = italy.21.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.21.a
+		country_event = {
+			id = italy.22
+			days = 14
+		}
+	}
+}
+
+# Large Scale Riots
+country_event = {
+	id = italy.22
+	title = italy.22.t
+	desc = italy.22.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.22.a
+		country_event = {
+			id = italy.23
+			days = 14
+		}
+	}
+}
+
+# Large Scale Riots
+country_event = {
+	id = italy.23
+	title = italy.23.t
+	desc = italy.23.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.23.a
+		country_event = {
+			id = italy.24
+			days = 14
+		}
+	}
+}
+
+# General Strike
+country_event = {
+	id = italy.24
+	title = italy.24.t
+	desc = italy.24.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.24.a
+		country_event = {
+			id = italy.25
+			days = 14
+		}
+	}
+}
+
+# Assasination attempt on Federzoni
+country_event = {
+	id = italy.25
+	title = italy.25.t
+	desc = italy.25.d
+	picture = GFX_report_event_crowd_in_prague
+	
+	fire_only_once = yes
+	
+	option = {
+		name = italy.25.a
+		country_event = {
+			id = italy.22
+			days = 14
 		}
 	}
 }

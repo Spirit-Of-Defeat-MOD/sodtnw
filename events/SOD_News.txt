@@ -49,3 +49,18 @@ news_event = {
         name = sodnews.3.a
     }
 }
+
+news_event = { 
+	id = sodnews.4
+	title = sodnews.4.t
+	desc = sodnews.4.d
+
+    picture = GFX_italian_fleet
+    
+    is_triggered_only = yes
+	
+
+    option = {
+        name = sodnews.4.a
+    }
+}

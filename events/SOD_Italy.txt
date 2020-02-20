@@ -20,8 +20,6 @@ country_event = {
 	title = italy.2.t
 	desc = italy.2.d
 	picture = GFX_report_event_tanks_mexico_city
-
-	fire_only_once = yes
 	
 	option = { # Stay
 		name = italy.2.a
@@ -221,7 +219,7 @@ country_event = {
 	}
 }
 
-# ANI Party congress decides to abolish monarchy
+# ANI Party congress decides to abolish monarchy - True start of the civil war
 country_event = {
 	id = italy.8
 	title = italy.8.t

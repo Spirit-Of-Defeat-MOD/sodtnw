@@ -48,6 +48,14 @@
  italy_2:0 "Death to the National-Syndicalists!"
  italy.3.t:0 ""
  italy.3.d:0 ""
+ 
+ italy.8.t:0 "Party agrees to abolish the monarchy"
+ italy.8.d:0 ""
+ italy.8.a:0 "For a better Italy"
+ 
+ italy.9.t:0 "Bill proposed to parliament"
+ italy.9.d:0 ""
+ italy.9.a:0 "One Step Closer"
 
 #Country Names
  ITA_fascism:0 "Kingdom of Italy"

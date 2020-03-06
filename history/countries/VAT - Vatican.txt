@@ -30,9 +30,29 @@ set_popularities = {
 create_country_leader = {
 	name = "Pius XI"
 	desc = "POLITICS_VICTOR_EMMANUEL_DESC"
-	picture = "Portrait_Vatican_Pope_Pius_XI.dds"
+	picture = "Portrait_VAT_Pius"
 	expire = "1965.1.1"
 	ideology = utilitarian_despot_subtype
+	traits = {
+		
+	}
+
+create_country_leader = {
+	name = "Urban IX"
+	desc = "POLITICS_VICTOR_EMMANUEL_DESC"
+	picture = "Portrait_Papacy_Pope_Urban"
+	expire = "1965.1.1"
+	ideology = integral_nationalist
+	traits = {
+		
+	}
+
+create_country_leader = {
+	name = "Gregorius XVII"
+	desc = "POLITICS_VICTOR_EMMANUEL_DESC"
+	picture = "Portrait_Papacy_Pope_Gregorius"
+	expire = "1965.1.1"
+	ideology =  liberal_conservatism
 	traits = {
 		
 	}

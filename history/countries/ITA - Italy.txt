@@ -84,16 +84,6 @@ if = {
 
 # DIPLOMACY / WAR 36
 
-	set_autonomy = {
-		target = CRO
-		autonomous_state = sod_satellite_state
-	}
-	
-	set_autonomy = {
-		target = ALB
-		autonomous_state = sod_satellite_state
-	}
-
 set_convoys = 200
 
 set_politics = {

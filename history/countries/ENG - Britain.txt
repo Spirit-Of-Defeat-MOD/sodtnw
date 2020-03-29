@@ -103,51 +103,6 @@ add_ideas = {
 }
 	
 set_convoys = 800
-
-set_autonomy = {
-	target = MAL
-	autonomous_state = sod_client_state
-}
-set_autonomy = {
-	target = RAJ
-	autonomous_state = sod_satellite_state
-	freedom_level = 0.35
-}
-set_autonomy = {
-	target = ZIM
-	autonomous_state = sod_satellite_state
-	freedom_level = 0.35
-}
-set_autonomy = {
-	target = CAN
-	autonomous_state = sod_associated_state
-	freedom_level = 0.4
-}
-set_autonomy = {
-	target = SAF
-	autonomous_state = sod_associated_state
-	freedom_level = 0.4
-}
-set_autonomy = {
-	target = AST
-	autonomous_state = sod_associated_state
-	freedom_level = 0.2
-}
-set_autonomy = {
-	target = NZL
-	autonomous_state = sod_associated_state
-	freedom_level = 0.2
-}
-set_autonomy = {
-	target = QUE
-	autonomous_state = sod_associated_state
-	freedom_level = 0.2
-}
-set_autonomy = {
-	target = KON
-	autonomous_state = sod_mandate
-}
-
 if = {
 	limit = { has_dlc = "Together for Victory" }
 

@@ -82,45 +82,6 @@ if = {
 set_convoys = 300
 
 
-	set_autonomy = {
-		target = AEF
-		autonomous_state = sod_associated_state
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = AOF
-		autonomous_state = sod_associated_state
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = FIC
-		autonomous_state = sod_associated_state
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = RHI
-		autonomous_state = sod_client_state
-	}
-	
-	set_autonomy = {
-		target = SAR
-		autonomous_state = sod_mandate
-	}
-	
-	set_autonomy = {
-		target = SYR
-		autonomous_state = sod_mandate
-	}
-	
-	set_autonomy = {
-		target = TUN
-		autonomous_state = sod_mandate
-	}
-
-        set_autonomy = {
-		target = MOR
-		autonomous_state = sod_mandate
-	}
 
 set_politics = {
 	ruling_party = democratic

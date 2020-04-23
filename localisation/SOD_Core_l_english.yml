@@ -9,11 +9,6 @@ security_minister:0 "Interior Minister"
 head_of_intel:0 "Head of Intelligence"
 
 #Autonomy
-sod_occupied_territory:0 "Occupied Territory"
-sod_client_state:0 "Client State"
-sod_satellite_state:0 "Satellite State"
-sod_associated_state:0 "Associated State"
-sod_mandate:0 "League of Nations Mandate"
 
 
 #Government Slot

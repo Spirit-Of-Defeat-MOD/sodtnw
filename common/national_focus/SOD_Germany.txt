@@ -221,6 +221,8 @@ completion_reward = {
 		amount = 100
 		exporter = SOV
 	}
+	SOV = { add_political_power = 50
+			add_stability = 0.01 }
 }
 
  } 
@@ -273,6 +275,10 @@ prerequisite = { focus = GER_consolidatetheblackreichswehr }
 ai_will_do = { 
  factor = 1
  } 
+	completion_reward = {
+		add_opinion_modifier = { target = SOV modifier = large_increase }
+		SOV = { add_opinion_modifier = { target = GER modifier = large_increase } }
+	}
 
  } 
 
@@ -363,7 +369,13 @@ ai_will_do = {
  }
 completion_reward = {
 	add_ideas = versailles_denounced
+	add_political_power = 75
 	set_country_flag = GER_versailles_denounced
+	
+	add_named_threat = { 
+    threat = 5 
+    name = GER_versailles_violated
+}
 } 
 
  } 
@@ -381,6 +393,9 @@ prerequisite = { focus = GER_consolidatetheblackreichswehr }
 ai_will_do = { 
  factor = 1
  } 
+	completion_reward = {
+		
+	}
 
  } 
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_361"
 	manpower = 2118394
 	
-	state_category = city
+	state_category = c6
 
 	history={
 		owner = USA
@@ -14,8 +14,6 @@ state={
 		victory_points = {
 			6984 5 
 		}
-		victory_points = { 9758 2 }
-		victory_points = { 6929 1 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5
@@ -35,6 +33,6 @@ state={
 	}
 
 	provinces={
-		3957 6823 6892 6929 6984 9758 11892 
+		3957 6823 6892 6929 6984 9758 9786 11892 
 	}
 }

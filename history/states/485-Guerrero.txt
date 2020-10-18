@@ -2,9 +2,9 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 1598311
+	manpower = 641700
 	
-	state_category = rural
+	state_category = c6
 
 	resources={
 		steel=4 #was 2
@@ -13,17 +13,15 @@ state={
 
 	history={
 		owner = PNR
+		add_core_of = PNR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 2
 			8032 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = MEX
-		add_core_of = PNR
-		
 		victory_points = {
 			10730 5
 		}

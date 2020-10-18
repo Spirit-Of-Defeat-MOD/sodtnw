@@ -2,12 +2,13 @@
 state={
 	id=483
 	name="STATE_483"
-	manpower = 303987
+	manpower = 316300
 	
-	state_category = rural
+	state_category = c3
 
 	history={
 		owner = VIL
+		add_core_of = VIL
 		buildings = {
 			infrastructure = 3
 			4908 = {
@@ -15,16 +16,15 @@ state={
 			}
 		}
 		add_core_of = MEX
-		add_core_of = VIL
-		#victory_points = {
-		#	4977 3
-		#}
-		#victory_points = {
-		#	4908 1
-		#}
-		#victory_points = {
-		#	5071 1
-		#}
+		victory_points = {
+			4977 3
+		}
+		victory_points = {
+			4908 1
+		}
+		victory_points = {
+			5071 1
+		}
 		victory_points = {
 			10765 5
 		}

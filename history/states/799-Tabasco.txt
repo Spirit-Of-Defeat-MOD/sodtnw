@@ -1,0 +1,24 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		12867 13248 13249 
+	}
+	history={
+		owner = PNR
+		add_core_of = PNR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			13249 2
+		}
+
+	}
+	
+	manpower=224000
+	buildings_max_level_factor=1.000
+	state_category = c3
+}

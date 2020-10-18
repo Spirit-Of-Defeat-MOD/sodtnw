@@ -1,29 +1,35 @@
 ﻿capital = 317
 
-oob = "NIC_1936"
+oob = ""
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-	early_bomber = 1
+
 }
-set_country_flag = monroe_doctrine
+
 set_war_support = 0.1
 set_convoys = 10
 
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 75
-	social_liberal = 25
+	libertarian_socialist = 0
+	communism = 0
+	reformist_socialist = 0
+	social_democrat = 0
+	social_liberal = 58
+	classic_liberal = 0
+	democratic = 0
+	neutrality = 42
+	utilitarian_despot = 0
+	fascism = 0
+	
 }
-
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
@@ -36,25 +42,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adolfo Díaz"
-	desc = "POLITICS_ADOLFO_DIAZ_DESC"
-	picture = "Adolfo_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism_subtype
-	traits = {
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.12.8"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
-create_country_leader = {
 	name = "Anastasio Somoza García"
 	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
 	picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
@@ -63,15 +50,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Ross Erastus Rowell"
-	picture = "Ross_Erastus_Rowell.dds"
-	traits = { career_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
 }

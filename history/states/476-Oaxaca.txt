@@ -2,33 +2,31 @@
 state={
 	id=476
 	name="STATE_476"
-	manpower = 1663331
-	
-	state_category = rural
-
 	resources={
-		oil=7
+		oil=8.000
 	}
-	
+
 	history={
 		owner = PNR
+		add_core_of = PNR
 		buildings = {
 			infrastructure = 3
 			air_base = 2
-			10889 = {
-				naval_base = 2
-			}
+			
+
 		}
 		add_core_of = MEX
-		add_core_of = PNR
-		
 		victory_points = {
-			10889 1
+			10773 20 
 		}
+		
+		
 	}
 
 	provinces={
-		8236 10773 10889 12712 
+		8236 10773 12712 13254 13256 
 	}
-	
+	manpower=1084500
+	buildings_max_level_factor=1.000
+	state_category = c5
 }

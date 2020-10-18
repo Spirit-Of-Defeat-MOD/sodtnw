@@ -2,21 +2,18 @@
 state={
 	id=331
 	name="STATE_331"
-	manpower = 255060
+	manpower = 289600
 	
-	state_category = rural
-
-	history={
-		owner = ENG
+	history = {
+		owner = NEW
+		add_core_of = NEW
+		
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			12505 = {
-				naval_base = 1
-			}
+			infrastructure = 2
 		}
-		add_core_of = CAN
 	}
+	
+	state_category = c5
 
 	provinces={
 		7758 7788 12505 12680 12698 

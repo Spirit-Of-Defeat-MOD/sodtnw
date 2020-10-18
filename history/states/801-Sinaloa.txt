@@ -1,0 +1,35 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		1945 8057 10895 
+	}
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			8057 = {
+				naval_base = 3
+
+			}
+			
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			8057 6 
+		}
+		
+		VIL = {
+			set_province_controller = 1945
+			set_province_controller = 8057
+		}
+
+
+	}
+	manpower=395600
+	buildings_max_level_factor=1.000
+	state_category = c3
+}
+

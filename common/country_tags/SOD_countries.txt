@@ -1,0 +1,14 @@
+##North America
+#Canada
+NEW = "countries/Newfoundland.txt"
+QUE = "countries/Quebec.txt"
+
+#Mexico
+CED = "countries/Cedillo.txt"
+MCT = "countries/Catholic Mexico.txt"
+PNR = "countries/PNR Mexico.txt"
+PLM = "countries/PLM Mexico.txt"
+VIL = "countries/Villa.txt"
+
+
+

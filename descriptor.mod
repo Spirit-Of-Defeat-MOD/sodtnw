@@ -1,4 +1,4 @@
-version="1.9.0"
+version="0.1"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -6,4 +6,4 @@ tags={
 	"National Focuses"
 }
 name="Spirit of Defeat: The New War"
-supported_version="1.9.0"
+supported_version="1.10.*"

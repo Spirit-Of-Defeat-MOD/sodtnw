@@ -1,0 +1,26 @@
+state={
+	id=802
+	name="STATE_802"
+	provinces={
+		1952 4956 13250 13258 
+	}
+	
+	history={
+		owner = CED
+		add_core_of = CED
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			4956 20
+		}
+
+	}
+	
+	manpower=579800
+	buildings_max_level_factor=1.000
+	state_category = c4
+}

@@ -1,0 +1,89 @@
+﻿capital = 800
+
+oob = "PLM_1936"
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 5
+
+#Mexican Civil War
+
+
+set_politics = {
+	ruling_party = libertarian_socialist
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_war_support = 0.7
+
+
+set_popularities = {
+	libertarian_socialist = 100
+	communism = 0
+	reformist_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	classic_liberal = 0
+	democratic = 0
+	neutrality = 0
+	utilitarian_despot = 0
+	fascism = 0
+	
+}
+
+create_country_leader = {
+	name = "Ricardo Flores Magon"
+	desc = "POLITICS_PLM_DESC"
+	picture = "Portrait_R_Magon.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Carol Ap Rhys Pryce"
+	picture = "Carol_Pryce.tga"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "José María Leyva"
+	picture = ""
+	traits = {  }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Manuel Macario Diéguez Lara"
+	picture = "Manuel_Lara.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jose Maria Rangel"
+	picture = "Jose_Maria_Rangel.tga"
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+}

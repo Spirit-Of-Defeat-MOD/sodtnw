@@ -1,230 +1,266 @@
 ideologies = {
-   
-	totalitarian_socialism = {
-        types = {
-            totalitarian_socialism_subtype = {}
-			anti_revisionism = {}
-			national_bolshevik = {}
-			socialist_junta = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
-        }
-        color = { 51 0 0 }
-        rules = {
+
+	libertarian_socialist = {
+		types = {
+			libertarian_socialist_ideology = {} #generic
+			anarchist_syndicalist = {}
+			anarchist_communist = {}
+			chen_jiongming_ideology = {}
+			
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+		}
+		color = { 51 0 0 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
-		can_host_government_in_exile = yes
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
 		can_collaborate = yes
-    }
-	
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
 	communism = {
-        types = {
-            vanguard_communism_subtype = {}
-			leninist = {}
+		types = {
+			communism_ideology = {} #generic
 			marxism = {}
 			leninism = {}
-			market_socialism = {}
-			stalinism = {}
 			trotskyist = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_vanguard_communism"
-        }
-        color = { 153 0 0 } #255 65 65 could work too
-        rules = {
+			revolutionary_socialist = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNISM_1"
+			"FACTION_NAME_COMMUNISM_2"
+			"FACTION_NAME_COMMUNISM_3"
+			"FACTION_NAME_COMMUNISM_4"
+			"FACTION_NAME_COMMUNISM_5"
+			"FACTION_NAME_COMMUNISM_6"
+		}
+		color = { 153 0 0 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
-	
-    revolutionary_socialism = {
-        types = {
-            revolutionary_socialism_subtype = {}
-			anarchist_communism = {}
-			anarchist_syndicalism = {}
-			anarchist_collectivism = {}
-			socialist_revolutionary = {}
-			libertarian_socialist = {}
-			chen_ideology = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
-        }
-        color = { 255 0 0 }
-        rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_join_factions = no
-		}
-		can_host_government_in_exile = yes
-		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
-		can_collaborate = yes
-    }
-	
-    democratic_socialism = {
-        types = {
-            democratic_socialism_subtype = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_DEMOCRATIC_SOCIALISM"
-        }
-        color = { 164 62 62 }
-        rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_join_factions = no
-		}
-		can_host_government_in_exile = yes
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    social_democracy = {
-        types = {
-            social_democracy_subtype = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_SOCIAL_DEMOCRACY"
-        }
-        color = { 127 13 55 }
-        rules = {
+	reformist_socialist = {
+		types = {
+			reformist_socialist_ideology = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REFORMIST_SOCIALIST_1"
+			"FACTION_NAME_REFORMIST_SOCIALIST_2"
+			"FACTION_NAME_REFORMIST_SOCIALIST_3"
+			"FACTION_NAME_REFORMIST_SOCIALIST_4"
+			"FACTION_NAME_REFORMIST_SOCIALIST_5"
+			"FACTION_NAME_REFORMIST_SOCIALIST_6"
+		}
+		color = { 164 62 62 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    social_liberal = {
-        types = {
-            social_liberal_subtype = {}
+	social_democrat = {
+		types = {
+			social_democrat_ideology = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+		}
+		color = { 127 13 55 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	social_liberal = {
+		types = {
+			social_liberal_ideology = {}
 			progressivism = {}
 			centrism = {}
 			radical_liberalism = {}
 			keynesian_liberalism = {}
-			liberal_conservatism = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_SOCIAL_LIBERAL"
-        }
-        color = { 255 170 0 }
-        rules = {
+			conservative_liberalism = {}
+
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+			"FACTION_NAME_SOCIAL_LIBERAL_4"
+			"FACTION_NAME_SOCIAL_LIBERAL_5"
+			"FACTION_NAME_SOCIAL_LIBERAL_6"
+		}
+		color = { 255 170 0 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    classic_liberal = {
-        types = {
-            classic_liberal_subtype = {}
+	classic_liberal = {
+		types = {
+			classic_liberal_ideology = {}
 			market_liberalism = {}
 			constitutionalism = {}
-			conservative_liberalism = {}
+			liberal_conservatism = {}
 			right_libertarianism = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_CLASSIC_LIBERAL"
-        }
-        color = { 255 216 0 }
-        rules = {
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CLASSIC_LIBERAL_1"
+			"FACTION_NAME_CLASSIC_LIBERAL_2"
+			"FACTION_NAME_CLASSIC_LIBERAL_3"
+			"FACTION_NAME_CLASSIC_LIBERAL_4"
+			"FACTION_NAME_CLASSIC_LIBERAL_5"
+			"FACTION_NAME_CLASSIC_LIBERAL_6"
+		}
+		color = { 255 216 0 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    democratic = {
-        types = {
-            social_conservatism_subtype = {}
+	democratic = {
+		types = {
+			social_conservatism = {}
 			fiscal_conservatism = {}
 			traditionalism = {}
 			christian_democracy = {}
 			reactionary_conservatism = {}
 			clerical_conservatism = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_SOCIAL_CONSERVATISM"
-        }
-        color = { 20 20 230 }
-        rules = {
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		color = { 0 0 255 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    neutrality = {
-        types = {
-            authoritarian_democrat_subtype = {}
+	neutrality = {
+		types = {
+			authoritarian_democrat_subtype = {}
 			national_conservatism = {}
 			revolutionary_conservatism = {}
 			managed_democracy = {}
@@ -232,116 +268,110 @@ ideologies = {
 			oligarchism = {}
 			prometheist = {}
 			despotism = {}
-			moderatism = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_AUTHORITARIAN_DEMOCRAT"
-        }
-        color = { 160 160 160 }
-        rules = {
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NEUTRALITY_1"
+			"FACTION_NAME_NEUTRALITY_2"
+			"FACTION_NAME_NEUTRALITY_3"
+			"FACTION_NAME_NEUTRALITY_4"
+			"FACTION_NAME_NEUTRALITY_5"
+			"FACTION_NAME_NEUTRALITY_6"
+		}
+		color = { 160 160 160 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
 		can_host_government_in_exile = yes
 		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
 		}
-		faction_modifiers = { }
+		ai_neutral = yes
 		can_be_boosted = no
-		can_collaborate = yes
-    }
+	}
 
-    utilitarian_despot = {
-        types = {
-            utilitarian_despot_subtype = {}
+	utilitarian_despot = {
+		types = {
+			utilitarian_despot_subtype = {}
 			paternal_state = {}
 			absolute_monarchy = {}
 			warlord = {}
 			military_junta = {}
 			totalitarian_state = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_UTILITARIAN_DESPOT"
-        }
-        color = { 90 90 90 }
-        rules = {
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_UTILITARIAN_DESPOT_1"
+			"FACTION_NAME_UTILITARIAN_DESPOT_2"
+			"FACTION_NAME_UTILITARIAN_DESPOT_3"
+			"FACTION_NAME_UTILITARIAN_DESPOT_4"
+			"FACTION_NAME_UTILITARIAN_DESPOT_5"
+			"FACTION_NAME_UTILITARIAN_DESPOT_6"
+		}
+		color = { 90 90 90 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
 		}
-		can_host_government_in_exile = yes
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
 		can_collaborate = yes
-    }
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
-    fascism = {
-        types = {
+	fascism = {
+		types = {
 			fascism_ideology = {}
             national_collectivist = {}
 			national_syndicalist = {}
 			national_corporatist = {}
 			falangism = {}
 			integral_nationalist = {}
-			nazism = {}
 			rexism = {}
         }
-        dynamic_faction_names = {
-            "FACTION_NAME_NATIONAL_COLLECTIVIST"
-        }
-        color = { 50 50 50 }
-        rules = {
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCISM_1"
+			"FACTION_NAME_FASCISM_2"
+			"FACTION_NAME_FASCISM_3"
+			"FACTION_NAME_FASCISM_4"
+			"FACTION_NAME_FASCISM_5"
+			"FACTION_NAME_FASCISM_6"
+		}
+		color = { 142 57 0 }
+		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = no
 			can_join_factions = no
-		}
-		can_host_government_in_exile = yes
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
-		can_collaborate = yes
-    }
-	
-	nihilistic_extremism = {
-        types = {
-            nihilistic_extremism_subtype = {}
-			himmlerist_nihilism = {}
-			cioranist_nihilism = {}
-			pronayist_nihilism = {}
-			radical_paramilitarist = {}
-			right_wing_terrorist = {}
-			esoteric_nihilist = {}
-			anarcho_nihilist = {}
-        }
-        dynamic_faction_names = {
-            "FACTION_NAME_NIHILISTIC_EXTREMISM"
-        }
-        color = { 0 0 0 }
-        rules = {
-			can_force_government = no
+			can_create_factions = no
 			can_send_volunteers = yes
-			can_puppet = no
-			can_join_factions = no
 		}
-		can_host_government_in_exile = no
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-		}
-		faction_modifiers = { }
-		can_be_boosted = no
 		can_collaborate = yes
-    }
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 }

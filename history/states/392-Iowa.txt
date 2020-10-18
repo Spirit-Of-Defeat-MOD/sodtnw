@@ -1,9 +1,10 @@
+
 state={
 	id=392
 	name="STATE_392"
 	manpower = 2470938
 	
-	state_category = city
+	state_category = c6
 
 	history={
 		owner = USA
@@ -15,6 +16,13 @@ state={
 		victory_points = {
 			1770 3 
 		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+			}
+		}
+
 	}
 
 	provinces={

@@ -1,0 +1,31 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		4904 13234 13235 13236 13239 13241
+	}
+	
+	history={
+		owner = PNR
+		add_core_of = PNR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			4904 2 
+		}
+		4904 = {
+			naval_base = 2
+
+		}
+		
+		
+
+	}
+	
+	manpower=84600
+	buildings_max_level_factor=1.000
+	state_category = c2
+}

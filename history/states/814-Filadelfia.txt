@@ -1,0 +1,21 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		13260 13263 
+	}
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PAR
+		add_core_of = BOL
+
+	}
+	
+	manpower=19500
+	buildings_max_level_factor=1.000
+	state_category = c2
+}

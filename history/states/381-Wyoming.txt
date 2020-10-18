@@ -3,15 +3,10 @@ state={
 	id=381
 	name="STATE_381"
 	manpower = 225564
-	resources={
-		oil=16
-	}
-	state_category = rural
+	state_category = c2
 	
 	history={
 		owner = USA
-		victory_points = { 4723 2 }
-		victory_points = { 10711 1 }
 		buildings = {
 			infrastructure = 3
 		}

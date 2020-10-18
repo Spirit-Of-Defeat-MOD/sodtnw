@@ -1,34 +1,36 @@
+
 state={
 	id=357
 	name="STATE_357"
 	resources={
-		steel=12
+		steel=12.000
 	}
-
-	state_category = metropolis
-
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 3
 			dockyard = 4
 			air_base = 10
-			6732 = {
-				naval_base = 8
+			9832 = {
+				naval_base = 3
+
 			}
+
 		}
 		add_core_of = USA
 		victory_points = {
-			6732 20 
+			9832 1 
 		}
+
 	}
 
 	provinces={
-		718 908 715 3710 6732 3906 905
+		6909 9832 9847 9850 11830 
 	}
-	manpower=4355420
+	manpower=1606900
 	buildings_max_level_factor=1.000
+	state_category=c7
 }

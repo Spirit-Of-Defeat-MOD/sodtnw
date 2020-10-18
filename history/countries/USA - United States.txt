@@ -1,0 +1,47 @@
+﻿capital = 361
+
+oob = ""
+
+set_research_slots = 4
+set_stability = 0.8
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {
+	ruling_party = classic_liberal
+	last_election = "1932.11.08"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	libertarian_socialist = 0
+	communism = 0
+	reformist_socialist = 2
+	social_democrat = 0
+	social_liberal = 2
+	classic_liberal = 47
+	democratic = 47
+	neutrality = 2
+	utilitarian_despot = 0
+	fascism = 0
+	
+}
+
+create_country_leader = {
+	name = "Robert Taft"
+	desc = "POLITICS_ROBERT_TAFT_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+
+
+

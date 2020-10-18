@@ -1,8 +1,0 @@
-﻿units = {
-	division = {
-		name = "Handschar Divizija"
-		location = 11899
-		division_template = "Ustase"
-		start_experience_factor = 0.5
-	}
-}

@@ -2,14 +2,10 @@
 state={
 	id=277
 	name="STATE_277"
-	manpower = 990100
-	
-	state_category = large_town
-
 	resources={
-		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
+		steel=6.000
 	}
-	
+
 	history={
 		owner = MEX
 		buildings = {
@@ -17,15 +13,22 @@ state={
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
+
 		}
-		add_core_of = MEX 
+		add_core_of = MEX
 		victory_points = {
-			2008 10
+			1965 25 
 		}
+		victory_points = {
+			2008 10 
+		}
+
 	}
 
 	provinces={
-		2008 2011 7913 12755 
+		1965 2008 2011 7913 12755 13257 
 	}
-	
+	manpower=1229600
+	buildings_max_level_factor=1.000
+	state_category = c8
 }

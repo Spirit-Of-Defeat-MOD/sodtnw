@@ -1,0 +1,29 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		4965 13237 13238 13242 
+	}
+	
+	history={
+		owner = MCT
+		add_core_of = MCT
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			13237 1
+		}
+		add_core_of = MEX
+		4965 = {
+			naval_base = 3
+
+		}
+
+	}
+	
+	manpower=10600
+	buildings_max_level_factor=1.000
+	state_category = c0
+}

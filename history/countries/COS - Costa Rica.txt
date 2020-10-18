@@ -1,12 +1,11 @@
 ﻿capital = 316
 
-oob = "COS_1936"
+oob = ""
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+
 }
-set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 10
 
@@ -19,8 +18,17 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 2
+	libertarian_socialist = 0
+	communism = 5
+	reformist_socialist = 0
+	social_democrat = 0
+	social_liberal = 20
+	classic_liberal = 29
+	democratic = 46
+	neutrality = 0
+	utilitarian_despot = 0
+	fascism = 0
+	
 }
 
 create_country_leader = {
@@ -28,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
 	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = christian_democracy
 	traits = {
 		#
 	}

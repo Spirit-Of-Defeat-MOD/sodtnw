@@ -1,15 +1,13 @@
 ﻿capital = 312
 
-oob = "HON_1936"
+oob = ""
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	
 }
-set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 10
-
 
 set_politics = {
 	ruling_party = democratic
@@ -18,7 +16,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	libertarian_socialist = 0
+	communism = 0
+	reformist_socialist = 0
+	social_democrat = 0
+	social_liberal = 43
+	classic_liberal = 0
+	democratic = 57
+	neutrality = 0
+	utilitarian_despot = 0
+	fascism = 0
+	
 }
 
 create_country_leader = {
@@ -26,9 +34,8 @@ create_country_leader = {
 	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
 	picture = "GFX_portrait_honduras_portrait_tiburcio_carias_andino"
 	expire = "1965.1.1"
-	ideology = social_conservatism_subtype
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
-

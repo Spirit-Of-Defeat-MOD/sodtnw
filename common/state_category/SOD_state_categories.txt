@@ -1,0 +1,59 @@
+state_categories = {
+
+	c10 = {
+		local_building_slots = 10 #300+ #tis an average pop per province
+		color = { 248 8 0 }
+	}
+	c9 = {
+		local_building_slots = 9 #151-300
+		color = { 248 64 0 }
+	}
+	c8 = {
+		local_building_slots = 8 #101-150
+		color = { 248 136 0 }
+	}
+	c7 = {
+		local_building_slots = 7 #81-100
+		color = { 248 216 0 }
+	}
+	c6 = {
+		local_building_slots = 6 #61-80
+		color = { 208 248 0 }
+	}
+	c5 = {
+		local_building_slots = 5 #41-60
+		color = { 64 248 0 }
+	}
+	c4 = {
+		local_building_slots = 4 #31-40
+		color = { 0 248 96 }
+	}
+	c3 = {
+		local_building_slots = 3 #21-30
+		color = { 0 248 208 }
+	}
+	c2 = {
+		local_building_slots = 2 #11-20
+		color = { 0 152 248 }
+	}
+	c1 = {
+		local_building_slots = 1  #6-10
+		color = { 0 40 248 }
+	}
+	c0 = {  #1-5k avg
+		local_building_slots = 0
+		color = { 80 80 80 }
+	}
+	wasteland = {
+		local_building_slots = 0
+		color = { 40 40 40 }
+	}
+	cs_island = {
+		local_building_slots = 1
+		color = { 200 160 0 }
+	}
+	ct_island = {
+		local_building_slots = 0
+		color = { 40 40 40 }
+	}
+}

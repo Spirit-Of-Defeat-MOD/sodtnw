@@ -5,7 +5,7 @@ state={
 	manpower = 5824712
 	
 	
-	state_category = metropolis
+	state_category = c8
 	
 	resources={
 		oil=320 # was: 580
@@ -36,10 +36,6 @@ state={
 		victory_points = {
 			12782 1 
 		}
-		victory_points = { 9220 1 }
-		victory_points = { 5022 1 }
-		victory_points = { 10740 1 }
-		victory_points = { 6785 1 }
 
 	}
 

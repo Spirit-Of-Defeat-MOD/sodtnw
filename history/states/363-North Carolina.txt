@@ -4,7 +4,7 @@ state={
 	name="STATE_363"
 	manpower = 3170274
 	
-	state_category = city
+	state_category = c6
 
 	history={
 		owner = USA
@@ -20,9 +20,6 @@ state={
 		victory_points = {
 			7138 3 
 		}
-		victory_points = { 12054 2 }
-		victory_points = { 7045 1 }
-		victory_points = { 10081 1 }
 
 	}
 

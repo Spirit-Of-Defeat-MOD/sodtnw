@@ -1,13 +1,13 @@
 state= {
 	id=315
 	name="STATE_315"
-	manpower = 3607919
+	manpower = 407100
 	resources={
-		steel=3 # was: 4
-		chromium=90 # was: 160
+		steel=4 # was: 4
+		chromium=160 # was: 160
 	}
 	
-	state_category = town
+	state_category = c6
 
 	history= {
 		owner = CUB

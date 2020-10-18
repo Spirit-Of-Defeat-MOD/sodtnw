@@ -5,7 +5,7 @@ state={
 		chromium=1 # was: 1
 	}
 
-	state_category = town
+	state_category = c5
 
 	history={
 		owner = NIC
@@ -30,6 +30,6 @@ state={
 	provinces={
 		1988 2075 10728 12738 13139 13178 
 	}
-	manpower=683000
+	manpower=746000
 	buildings_max_level_factor=1.000
 }

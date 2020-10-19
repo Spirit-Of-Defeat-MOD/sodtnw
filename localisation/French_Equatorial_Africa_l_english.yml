@@ -1,0 +1,68 @@
+﻿l_english: 
+
+#Parties
+AEF_fascism_party:0 ""
+AEF_fascism_party_long:0 ""
+AEF_communism_party:0 ""
+AEF_communism_party_long:0 ""
+AEF_democratic_party:1 ""
+AEF_democratic_party_long:0 ""
+AEF_utilitarian_despot_party:0 "Colonial Administration"
+AEF_utilitarian_despot_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AEF_neutrality_party:0 "Colonial Administration"
+AEF_neutrality_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+AEF_social_democracy_party:0 ""
+AEF_social_democracy_party_long:0 ""
+AEF_social_liberal_party:0 ""
+AEF_social_liberal_party_long:0 ""
+AEF_classic_liberal_party:0 ""
+AEF_classic_liberal_party_long:0 ""
+AEF_libertarian_socialist_party:0 ""
+AEF_libertarian_socialist_party_long:0 ""
+AEF_reformist_socialist_party:0 ""
+AEF_reformist_socialist_party_long:0 ""
+
+#Country Names
+AEF_fascism:0 "Central African Federation"
+AEF_fascism_DEF:0 "the Central African Federation"
+AEF_libertarian_socialist:0 "Central African Commune"
+AEF_libertarian_socialist_DEF:0 "the Central African Commune"
+AEF_utilitarian_despot:0 "Central African Federation"
+AEF_utilitarian_despot_DEF:0 "French Equatorial Africa"
+AEF_democratic:0 "French Equatorial Africa"
+AEF_democratic_DEF:0 "French Equatorial Africa"
+AEF_neutrality:1 "Central African Federation"
+AEF_neutrality_DEF:1 "French Equatorial Africa"
+AEF_reformist_socialist:0 "Central African Federation"
+AEF_reformist_socialist_DEF:0 "French Equatorial Africa"
+AEF_social_democracy:0 "French Equatorial Africa"
+AEF_social_democracy_DEF:0 "French Equatorial Africa"
+AEF_social_liberal:0 "Central African Federation"
+AEF_social_liberal_DEF:0 "French Equatorial Africa"
+AEF_classic_liberal:0 "French Equatorial Africa"
+AEF_classic_liberal_DEF:0 "French Equatorial Africa"
+AEF_communism:0 "French Equatorial Africa"
+AEF_communism_DEF:0 "French Equatorial Africa"
+ 
+AEF_fascism_ADJ:0 "Equatorial African"
+AEF_fascism_ADJ:0 "Equatorial African"
+AEF_libertarian_socialist_ADJ:0 "Equatorial African"
+AEF_democratic_ADJ:0 "Equatorial African"
+AEF_utilitarian_despot_ADJ:0 "Equatorial African"
+AEF_reformist_socialist_ADJ:0 "Equatorial African"
+AEF_neutrality_ADJ:0 "Equatorial African"
+AEF_social_democracy_ADJ:0 "Equatorial African"
+AEF_social_liberal_ADJ:0 "Equatorial African"
+AEF_classic_liberal_ADJ:0 "Equatorial African"
+AEF_communism_ADJ:0 "Central African"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

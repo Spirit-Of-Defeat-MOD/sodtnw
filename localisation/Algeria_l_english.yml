@@ -1,0 +1,74 @@
+﻿l_english: 
+
+#Parties
+ALG_fascism_party:0 ""
+ALG_fascism_party_long:0 ""
+ALG_communism_party:0 "PCA"
+ALG_communism_party_long:0 "Parti Communiste Algérien"
+ALG_democratic_party:0 ""
+ALG_democratic_party_long:0 ""
+ALG_utilitarian_despot_party:0 ""
+ALG_utilitarian_despot_party_long:0 ""
+ALG_neutrality_party:0 ""
+ALG_neutrality_party_long:0 ""
+ALG_social_democracy_party:0 ""
+ALG_social_democracy_party_long:0 ""
+ALG_social_liberal_party:0 ""
+ALG_social_liberal_party_long:0 ""
+ALG_classic_liberal_party:0 ""
+ALG_classic_liberal_party_long:0 ""
+ALG_libertarian_socialist_party:0 "PCA"
+ALG_libertarian_socialist_party_long:0 "Parti Communiste Algérien"
+ALG_reformist_socialist_party:0 "PCA"
+ALG_reformist_socialist_party_long:0 "Parti Communiste Algérien"
+
+#Country Names
+ALG_fascism:0 "Algeria"
+ALG_fascism_DEF:0 "Algeria"
+ALG_reformist_socialist:0 "Free Socialist Republic of Algeria"
+ALG_reformist_socialist_DEF:0 "the Free Socialist Republic of Algeria"
+ALG_utilitarian_despot:0 "Algeria"
+ALG_utilitarian_despot_DEF:0 "Algeria"
+ALG_democratic:0 "Algeria"
+ALG_democratic_DEF:0 "Algeria "
+ALG_neutrality:1 "Algeria"
+ALG_neutrality_DEF:1 "Algeria"
+ALG_libertarian_socialist:0 "Free Socialist Republic of Algeria"
+ALG_libertarian_socialist_DEF:0 "the Free Socialist Republic of Algeria"
+ALG_social_democrat:0 "Algeria"
+ALG_social_democrat_DEF:0 "Algeria"
+ALG_social_liberal:0 "Algeria"
+ALG_social_liberal_DEF:0 "Algeria"
+ALG_classic_liberal:0 "Algeria"
+ALG_classic_liberal_DEF:0 "Algeria"
+ALG_communism:0 "Free Socialist Republic of Algeria"
+ALG_communism_DEF:0 "the Free Socialist Republic of Algeria"
+ 
+ALG_fascism_ADJ:0 "Algerian"
+ALG_libertarian_socialist_ADJ:0 "Algerian"
+ALG_democratic_ADJ:0 "Algerian"
+ALG_utilitarian_despot_ADJ:0 "Algerian"
+ALG_reformist_socialist_ADJ:0 "Algerian"
+ALG_neutrality_ADJ:0 "Algerian"
+ALG_social_democrat_ADJ:0 "Algerian"
+ALG_social_liberal_ADJ:0 "Algerian"
+ALG_classic_liberal_ADJ:0 "Algerian"
+ALG_communism_ADJ:0 "Algerian"
+
+#Ministers
+#should be reintegrated
+
+
+#Ideas
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

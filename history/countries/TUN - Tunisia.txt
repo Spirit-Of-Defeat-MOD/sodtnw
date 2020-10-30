@@ -1,9 +1,10 @@
 capital = 458
 
 # Starting tech
-set_technology = {
 	set_technology = {
 		infantry_weapons = 1
+		tech_support = 1
+		gw_artillery = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -18,20 +19,8 @@ set_technology = {
 		synth_oil_experiments = 1
 		fuel_silos = 1
 	}
-}
 
 set_convoys = 20
-
-if = {
-	#limit = {
-	#	TUN = {
-	#		is_puppet_of = FRA
-	#	}
-	#}
-	#TUN = {
-	#	set_cosmetic_tag = TUN_FRA_subject
-	#}
-}
 
 set_politics = {
 	ruling_party = utilitarian_despot
@@ -40,16 +29,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-        classic_liberal = 5
-        social_liberal = 12
-	reformist_socialist = 3
-	libertarian_socialist = 3
-        social_democrat = 10
-        neutrality = 7
-        fascism = 3
-        communism = 3
-	utilitarian_despot = 44
+	utilitarian_despot = 100
 }
 
 create_country_leader = {

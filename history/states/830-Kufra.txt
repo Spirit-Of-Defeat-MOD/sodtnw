@@ -1,0 +1,21 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		1057 1140 10754 10785 11951 
+	}
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=50104
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

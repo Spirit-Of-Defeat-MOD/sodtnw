@@ -13,6 +13,7 @@ VIL = "countries/Villa.txt"
 #Africa
 AEF = "countries/French Equatorial Africa.txt"
 AOF = "countries/French West Africa.txt"
+TUA = "countries/African.txt"
 
 
 

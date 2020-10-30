@@ -1,0 +1,21 @@
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		1095 1126 1901 1958 2049 8061 8088 10731 12711 12842 12849
+	}
+	
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c0
+}

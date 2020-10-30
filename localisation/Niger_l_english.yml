@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+NGR_fascism_party:0 ""
+NGR_fascism_party_long:0 ""
+NGR_communism_party:0 ""
+NGR_communism_party_long:0 ""
+NGR_democratic_party:1 ""
+NGR_democratic_party_long:0 ""
+NGR_utilitarian_despot_party:0 "Kel Gress"
+NGR_utilitarian_despot_party_long:0 "Kel Gress Tuaregs"
+NGR_neutrality_party:0 ""
+NGR_neutrality_party_long:0 ""
+NGR_social_democrat_party:0 ""
+NGR_social_democrat_party_long:0 ""
+NGR_social_liberal_party:0 ""
+NGR_social_liberal_party_long:0 ""
+NGR_classic_liberal_party:0 ""
+NGR_classic_liberal_party_long:0 ""
+NGR_libertarian_socialist_party:0 ""
+NGR_libertarian_socialist_party_long:0 ""
+NGR_revolutionary_socialism_party:0 ""
+NGR_revolutionary_socialism_party_long:0 ""
+NGR_reformist_socialist_party:0 ""
+NGR_reformist_socialist_party_long:0 ""
+
+#Country Names
+NGR_fascism:0 "Sultanate of Agadez"
+NGR_fascism_DEF:0 "Sultanate of Agadez"
+NGR_libertarian_socialist:0 "Agadez Communes"
+NGR_libertarian_socialist_DEF:0 "Agadez Communes"
+NGR_utilitarian_despot:0 "Sultanate of Agadez"
+NGR_utilitarian_despot_DEF:0 "the Sultanate of Agadez"
+NGR_democratic:0 "Sultanate of Agadez"
+NGR_democratic_DEF:0 "Sultanate of Agadez"
+NGR_neutrality:1 "Sultanate of Agadez"
+NGR_neutrality_DEF:1 "the Sultanate of Agadez"
+NGR_reformist_socialist:0 "Agadez Communes"
+NGR_reformist_socialist_DEF:0 "Agadez Communes"
+NGR_social_democrat:0 "Sultanate of Agadez"
+NGR_social_democrat_DEF:0 "Sultanate of Agadez"
+NGR_social_liberal:0 "Sultanate of Agadez"
+NGR_social_liberal_DEF:0 "Sultanate of Agadez"
+NGR_classic_liberal:0 "Sultanate of Agadez"
+NGR_classic_liberal_DEF:0 "Sultanate of Agadez"
+NGR_communism:0 "Agadez Communes"
+NGR_communism_DEF:0 "Agadez Communes"
+ 
+NGR_fascism_ADJ:0 "Agadez"
+NGR_fascism_ADJ:0 "Agadez"
+NGR_libertarian_socialist_ADJ:0 "Agadez"
+NGR_democratic_ADJ:0 "Agadez"
+NGR_utilitarian_despot_ADJ:0 "Agadez"
+NGR_reformist_socialist_ADJ:0 "Agadez"
+NGR_neutrality_ADJ:0 "Agadez"
+NGR_social_democrat_ADJ:0 "Agadez"
+NGR_social_liberal_ADJ:0 "Agadez"
+NGR_classic_liberal_ADJ:0 "Agadez"
+NGR_communism_ADJ:0 "Agadez"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

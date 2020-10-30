@@ -4,11 +4,38 @@ oob = "MCT_1936"
 
 # Starting tech
 set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 set_convoys = 5
 
 #Mexican Civil War
+declare_war_on = {
+	target = VIL
+	type = annex_everything
+}
+declare_war_on = {
+	target = CED
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PNR
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = PLM
+	type = annex_everything
+}
 
 
 set_politics = {

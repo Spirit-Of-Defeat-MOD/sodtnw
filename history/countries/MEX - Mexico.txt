@@ -1,12 +1,19 @@
 ﻿capital = 277
 
-oob = ""
+oob = "MEX_1936"
 
 
-# Starting tech
 # Starting tech
 set_technology = {
-	
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 set_convoys = 45
@@ -17,27 +24,27 @@ set_war_support = 0.1
 #Mexican Civil War
 declare_war_on = {
 	target = VIL
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = MCT
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = CED
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = PNR
-	type = civil_war
+	type = annex_everything
 }
 
 declare_war_on = {
 	target = PLM
-	type = civil_war
+	type = annex_everything
 }
 
 

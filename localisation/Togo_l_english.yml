@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+TOG_fascism_party:0 ""
+TOG_fascism_party_long:0 ""
+TOG_communism_party:0 ""
+TOG_communism_party_long:0 ""
+TOG_democratic_party:1 ""
+TOG_democratic_party_long:0 ""
+TOG_utilitarian_despot_party:0 "House of Lawson"
+TOG_utilitarian_despot_party_long:0 "House of Lawson"
+TOG_neutrality_party:0 ""
+TOG_neutrality_party_long:0 ""
+TOG_social_democrat_party:0 ""
+TOG_social_democrat_party_long:0 ""
+TOG_social_liberal_party:0 ""
+TOG_social_liberal_party_long:0 ""
+TOG_classic_liberal_party:0 ""
+TOG_classic_liberal_party_long:0 ""
+TOG_libertarian_socialist_party:0 ""
+TOG_libertarian_socialist_party_long:0 ""
+TOG_revolutionary_socialism_party:0 ""
+TOG_revolutionary_socialism_party_long:0 ""
+TOG_reformist_socialist_party:0 ""
+TOG_reformist_socialist_party_long:0 ""
+
+#Country Names
+TOG_fascism:0 "Togolese Confederacy"
+TOG_fascism_DEF:0 "Togolese Confederacy"
+TOG_libertarian_socialist:0 "People's Republic of Togo"
+TOG_libertarian_socialist_DEF:0 "People's Republic of Togo"
+TOG_utilitarian_despot:0 "Togolese Confederacy"
+TOG_utilitarian_despot_DEF:0 "the Togolese Confederacy"
+TOG_democratic:0 "Togolese Confederacy"
+TOG_democratic_DEF:0 "Togolese Confederacy"
+TOG_neutrality:1 "Togolese Confederacy"
+TOG_neutrality_DEF:1 "the Togolese Confederacy"
+TOG_reformist_socialist:0 "People's Republic of Togo"
+TOG_reformist_socialist_DEF:0 "People's Republic of Togo"
+TOG_social_democrat:0 "Togolese Confederacy"
+TOG_social_democrat_DEF:0 "Togolese Confederacy"
+TOG_social_liberal:0 "Togolese Confederacy"
+TOG_social_liberal_DEF:0 "Togolese Confederacy"
+TOG_classic_liberal:0 "Togolese Confederacy"
+TOG_classic_liberal_DEF:0 "Togolese Confederacy"
+TOG_communism:0 "People's Republic of Togo"
+TOG_communism_DEF:0 "People's Republic of Togo"
+ 
+TOG_fascism_ADJ:0 "Togolese"
+TOG_fascism_ADJ:0 "Togolese"
+TOG_libertarian_socialist_ADJ:0 "Togolese"
+TOG_democratic_ADJ:0 "Togolese"
+TOG_utilitarian_despot_ADJ:0 "Togolese"
+TOG_reformist_socialist_ADJ:0 "Togolese"
+TOG_neutrality_ADJ:0 "Togolese"
+TOG_social_democrat_ADJ:0 "Togolese"
+TOG_social_liberal_ADJ:0 "Togolese"
+TOG_classic_liberal_ADJ:0 "Togolese"
+TOG_communism_ADJ:0 "Togolese"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

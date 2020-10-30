@@ -1,0 +1,31 @@
+﻿capital = 777
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+		tech_support = 1
+		gw_artillery = 1
+
+}
+
+oob = "TOG_1936"
+
+set_politics = {
+	ruling_party = utilitarian_despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	utilitarian_despot = 100
+}
+
+create_country_leader = {
+	name = "Frédéric Boêvi Lawson V"
+	desc = ""
+	picture = "Portrait_LawsonV.dds"
+	ideology = utilitarian_despot_subtype
+	traits = {
+		#
+	}
+}

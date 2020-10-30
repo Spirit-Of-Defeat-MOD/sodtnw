@@ -1,0 +1,22 @@
+state={
+	id=829
+	name="STATE_829"
+	provinces={
+		13279 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = LBA
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c0
+}

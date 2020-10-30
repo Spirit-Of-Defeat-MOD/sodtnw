@@ -7,7 +7,7 @@ state={
 	state_category = c2
 	history={
 		owner = AOF
-		add_core_of = AOF
+		#add_core_of = AOF
 		add_core_of = IVO
 		victory_points = {
 			10803 1

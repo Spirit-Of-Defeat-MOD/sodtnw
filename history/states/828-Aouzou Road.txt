@@ -1,0 +1,21 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		13280 
+	}
+	history={
+		owner = AEF
+		#add_core_of = AEF
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c0
+}

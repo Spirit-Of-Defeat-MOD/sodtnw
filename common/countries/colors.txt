@@ -747,3 +747,8 @@ AOF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
 }
+
+TUA = {
+	color = rgb { 174 90 6 }
+	color_ui = rgb { 174 90 6 }
+}

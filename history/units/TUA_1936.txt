@@ -1,0 +1,62 @@
+division_template = {
+	name = "Tuareg Tribesmen"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Aït Loaien"
+		location = 1967
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Dag Rali"
+		location = 4903
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "Iregenaten"
+		location = 5035
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "Kel Rela"
+		location = 5053
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Kel Silet"
+		location = 5095
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "Taituq"
+		location = 10749
+		division_template = "Tuareg Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+}

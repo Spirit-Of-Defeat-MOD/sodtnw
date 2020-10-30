@@ -7,8 +7,8 @@ state={
 	state_category = c3
 
 	history={
-		owner = AOF
-		add_core_of = AOF
+		owner = MLI
+		#add_core_of = AOF
 		add_core_of = MLI
 		victory_points = {
 			4927 1

@@ -1,23 +1,24 @@
 
 state={
 	id=782
-	name="STATE_782" # Tombouctou
-	manpower = 79243
-	
-	state_category = wasteland
-	impassable = yes
+	name="STATE_782"
 
 	history={
 		owner = AOF
-		add_core_of = AOF
+		#add_core_of = AOF
 		add_core_of = MLI
 		buildings = {
 			infrastructure = 0
+
 		}
 
 	}
 
 	provinces={
-		1115 2068 10725 10868
+		10868 
 	}
+	manpower=79243
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
 }

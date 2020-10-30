@@ -8,6 +8,11 @@ set_technology = {
 
 set_convoys = 20
 
+declare_war_on = {
+	target = TUA
+	type = annex_everything
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

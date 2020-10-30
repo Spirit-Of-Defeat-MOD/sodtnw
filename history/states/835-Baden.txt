@@ -1,0 +1,37 @@
+state={
+	id=835
+	name="STATE_835"
+	resources={
+		aluminium=10 # was: 10.000
+	}
+
+	state_category = c6
+	history={
+		owner = GER
+		victory_points = {
+			3530 10
+		}
+		victory_points = {
+			11640 1
+		}
+		victory_points = {
+			6712 3
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = GER
+
+
+	}
+
+	provinces={
+		11640 3692 3679 6712 6542 3530 6568 6581
+	}
+	manpower=3086854
+	buildings_max_level_factor=1.000
+}

@@ -77,6 +77,7 @@ ideologies = {
 	reformist_socialist = {
 		types = {
 			reformist_socialist_ideology = {} #generic
+			socialism = {} #to reduce errors
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REFORMIST_SOCIALIST_1"
@@ -188,6 +189,7 @@ ideologies = {
 			constitutionalism = {}
 			liberal_conservatism = {}
 			right_libertarianism = {}
+			liberalism = {} #to reduce errors
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_CLASSIC_LIBERAL_1"
@@ -227,6 +229,7 @@ ideologies = {
 			christian_democracy = {}
 			reactionary_conservatism = {}
 			clerical_conservatism = {}
+			conservatism = {} #to reduce errors
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"

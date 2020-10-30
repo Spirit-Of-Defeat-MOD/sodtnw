@@ -7,7 +7,7 @@ state={
 	state_category = c2
 	history={
 		owner = AOF
-		add_core_of = AOF
+		#add_core_of = AOF
 		add_core_of = GNA
 		victory_points = {
 			1909 1 

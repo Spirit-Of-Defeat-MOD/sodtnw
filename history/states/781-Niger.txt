@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = AOF
-		add_core_of = AOF
+		#add_core_of = AOF
 		add_core_of = NGR
 		victory_points = {
 			2056 1

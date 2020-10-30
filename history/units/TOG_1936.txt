@@ -1,0 +1,37 @@
+division_template = {
+	name = "Togolese Regulars"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Lolan Division"
+		location = 1951
+		division_template = "Togolese Regulars"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Aneho Division"
+		location = 1951
+		division_template = "Togolese Regulars"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "Genyigba Division"
+		location = 1951
+		division_template = "Togolese Regulars"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+}

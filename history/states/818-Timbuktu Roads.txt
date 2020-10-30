@@ -1,0 +1,21 @@
+state={
+	id=818
+	name="STATE_818"
+	provinces={
+		1115 2068 10725 
+	}
+	history={
+		owner = AOF
+		#add_core_of = AOF
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c0
+}

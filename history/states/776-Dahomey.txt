@@ -4,19 +4,24 @@ state={
 	name="STATE_776" # Benin/Dahomey
 	manpower = 1351563
 	
-	state_category = c1
+	state_category = c3
 	history={
-		owner = AOF
-		add_core_of = AOF
+		owner = DAH
+		#add_core_of = AOF
 		add_core_of = DAH
 		victory_points = {
-			10919 1
+			10919 10
 		}
 		buildings = {
 			infrastructure = 3
 			10919 = {
 				naval_base = 1
 			}
+		}
+		
+		AOF = {
+			set_province_controller = 12874
+			set_province_controller = 12762
 		}
 	}
 

@@ -10,6 +10,8 @@ set_convoys = 20
 
 #set_cosmetic_tag = AEF_FRA_subject
 
+
+
 set_politics = {
 	ruling_party = utilitarian_despot
 	last_election = "1936.1.1"

@@ -1,19 +1,20 @@
 ##North America
 #Canada
-NEW = "countries/Newfoundland.txt"
-QUE = "countries/Quebec.txt"
+NEW = "countries/Commonwealth.txt"
+QUE = "countries/Commonwealth.txt"
 
 #Mexico
-CED = "countries/Cedillo.txt"
-MCT = "countries/Catholic Mexico.txt"
-PNR = "countries/PNR Mexico.txt"
-PLM = "countries/PLM Mexico.txt"
-VIL = "countries/Villa.txt"
+CED = "countries/SouthAmerican.txt"
+MCT = "countries/SouthAmerican.txt"
+PNR = "countries/SouthAmerican.txt"
+PLM = "countries/SouthAmerican.txt"
+VIL = "countries/SouthAmerican.txt"
 
 #Africa
-AEF = "countries/French Equatorial Africa.txt"
-AOF = "countries/French West Africa.txt"
+AEF = "countries/African.txt"
+AOF = "countries/African.txt"
 TUA = "countries/African.txt"
+FRE = "countries/WestEurope.txt"
 
 
 

@@ -1,0 +1,53 @@
+division_template = {
+	name = "Algeirs Revolutionaries"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Rifle Division"
+		location = 1145
+		division_template = "Algeirs Revolutionaries"
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "2nd Rifle Division"
+		location = 7081
+		division_template = "Algeirs Revolutionaries"
+		start_experience_factor = 0.1
+
+	}
+	
+	division = {
+		name = "3rd Rifle Division"
+		location = 12051
+		division_template = "Algeirs Revolutionaries"
+		start_experience_factor = 0.1
+
+	}
+	
+	division = {
+		name = "4th Rifle Division"
+		location = 12034
+		division_template = "Algeirs Revolutionaries"
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "5th Rifle Division"
+		location = 7132
+		division_template = "Algeirs Revolutionaries"
+		start_experience_factor = 0.1
+
+
+	}
+	
+}

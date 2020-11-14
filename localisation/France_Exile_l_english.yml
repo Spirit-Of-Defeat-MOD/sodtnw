@@ -1,0 +1,78 @@
+﻿l_english: 
+
+#Parties
+FRE_fascism_party:0 "PPF"
+FRE_fascism_party_long:0 "Parti Populaire Français"
+FRE_communism_party:0 "FP(M/S)"
+FRE_communism_party_long:0 "Front populaire - Marxists/Sorelians"
+FRE_democratic_party:0 "ARD"
+FRE_democratic_party_long:0 "Alliance républicaine démocratique"
+FRE_utilitarian_despot_party:0 "AF"
+FRE_utilitarian_despot_party_long:0 "Action française"
+FRE_neutrality_party:0 "APF"
+FRE_neutrality_party_long:0 "Association de pilotes français"
+FRE_social_democracy_party:0 "SFIO(M)"
+FRE_social_democracy_party_long:0 "Section française de l'Internationale ouvrière - Moderates"
+FRE_social_liberal_party:0 "PRRRS"
+FRE_social_liberal_party_long:0 "Parti républicain, radical et radical-socialiste"
+FRE_classic_liberal_party:0 "PRRRS"
+FRE_classic_liberal_party_long:0 "Parti républicain, radical et radical-socialiste"
+FRE_libertarian_socialist_party:0 "CGTU"
+FRE_libertarian_socialist_party_long:0 "Confédération générale du travail unitaire"
+FRE_reformist_socialist_party:0 "SFIO(S)"
+FRE_reformist_socialist_party_long:0 "Section française de l'Internationale ouvrière - Socialists"
+##FRE_nihilistic_extremism_party:0 "Maurrasists"
+##FRE_nihilistic_extremism_party_long:0 "Maurrasists"
+
+#Country Names
+ FRE_fascism:0 "French State"
+ FRE_fascism_DEF:0 "the French State"
+ FRE_reformist_socialist:0 "United Socialist Repubics of France"
+ FRE_reformist_socialist_DEF:0 "the United Socialist Repubics of France"
+ FRE_utilitarian_despot:0 "Provisional French Government"
+ FRE_utilitarian_despot_DEF:0 "the Provisional French Government"
+ FRE_democratic:0 "The Provisional French Government
+ FRE_democratic_DEF:0 "the Provisional French Government
+ FRE_neutrality:1 "Provisional French Government"
+ FRE_neutrality_DEF:1 "the Provisional French Government"
+ FRE_libertarian_socialist:0 "The Free Socialist Republic of France"
+ FRE_libertarian_socialist_DEF:0 "the Free Socialist Republic of France"
+ FRE_social_democracy:0 "The Provisional French Government
+ FRE_social_democracy_DEF:0 "the Provisional French Government"
+ FRE_social_liberal:0 "Provisional French Government
+ FRE_social_liberal_DEF:0 "the Provisional French Government"
+ FRE_classic_liberal:0 "The Provisional French Government
+ FRE_classic_liberal_DEF:0 "the Provisional French Government
+ FRE_communism:0 "French Soviet Republic"
+ FRE_communism_DEF:0 "the French Soviet Republic"
+ 
+ FRE_fascism_ADJ:0 "French"
+ FRE_totalitarian_socialism_ADJ:0 "French"
+ FRE_democratic_ADJ:0 "French"
+ FRE_utilitarian_despot_ADJ:0 "French"
+ FRE_democratic_socialism_ADJ:0 "French"
+ FRE_neutrality_ADJ:0 "French"
+ FRE_social_democracy_ADJ:0 "French"
+ FRE_social_liberal_ADJ:0 "French"
+ FRE_classic_liberal_ADJ:0 "French"
+ FRE_communism_ADJ:0 "French"
+
+#Ministers
+#should be reintegrated
+POLITICS_FRANCHET_ESPEREY_DESC:0 "§YLouis Félix Marie François Franchet d'Espèrey, \nFourteenth President of the Provisional French Government.§!\n\n"
+
+#Ideas
+german_political_interference:0 "German Political Interference"
+german_counterfeiting:0 "German Counterfeiting Operations"
+german_tariffs:0 "German Tariffs"
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

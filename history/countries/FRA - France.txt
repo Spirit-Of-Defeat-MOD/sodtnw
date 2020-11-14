@@ -1,11 +1,11 @@
 ﻿capital = 16
 
-oob = ""
+oob = "FRA_1936"
 
 
 set_research_slots = 3
 set_stability = 0.5
-set_war_support = 0.15
+set_war_support = 0.5
 
 set_technology = {
 	infantry_weapons = 1
@@ -33,6 +33,15 @@ set_technology = {
 }
 
 set_convoys = 300
+
+#puppets
+FRA = {
+	set_autonomy = {
+		target = ALG
+		autonomy_state = autonomy_satellite
+	}
+}
+
 
 
 
@@ -80,16 +89,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
+
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
@@ -113,7 +113,7 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Maurice Gamelin"
 	picture = "Portrait_France_Maurice_Gamelin.dds"
 	traits = { defensive_doctrine old_guard inflexible_strategist career_officer }
@@ -145,64 +145,6 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 2
 }
-
-create_corps_commander = {
-	name = "Charles De Gaulle"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  armor_officer harsh_leader media_personality }
-	id = 101
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Philippe Leclerc"
-	picture = "portrait_france_philippe_leclerc.dds"
-	traits = {  armor_officer trait_reckless career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Henri Giraud"
-	picture = "portrait_france_henri_giraud.dds"
-	traits = {  trickster trait_cautious career_officer infantry_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Charles Huntziger"
-	picture = "portrait_france_charles_huntziger.dds"
-	traits = { old_guard infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-
-create_navy_leader = {
-	name = "François Darlan"
-		picture = "Portrait_France_Francois_Darlan.dds"
-	traits = { naval_lineage bold superior_tactician }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-
 create_navy_leader = {
 	name = "Jean-Marie Charles Abrial"
 		picture = "Portrait_France_Jean-Marie_Charles_Abrial.dds"
@@ -223,28 +165,6 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 2
 	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "René-Émile Godfroy"
-	picture = "Portrait_France_Rene-Emile_Godfroy.dds"
-	traits = { gentlemanly battleship_adherent old_guard_navy spotter }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "Jean de Laborde"
-	picture = "Portrait_France_Jean_de_Laborde.dds"
-	traits = { naval_lineage aviation_enthusiast }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
 }
 
 ### VARIANTS ###

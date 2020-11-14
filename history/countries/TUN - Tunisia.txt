@@ -36,8 +36,19 @@ create_country_leader = {
 	name = "Ahmad II of Tunis"
 	desc = "POLITICS_AHMAD_II_DESC"
 	picture = "Ahmad_II_of_Tunis.tga"
-	ideology = utilitarian_despot_subtype
+	ideology = absolute_monarchy
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Ahmad II of Tunis"
+	desc = "POLITICS_AHMAD_II_DESC"
+	picture = "Ahmad_II_of_Tunis.tga"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+

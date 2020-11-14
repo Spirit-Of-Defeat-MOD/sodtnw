@@ -35,26 +35,10 @@ add_ideas = {
 	AOF_nationalism
 }
 
-#French Empire Collapse
-declare_war_on = {
-	target = DAH
-	type = annex_everything
-}
 
-declare_war_on = {
-	target = TOG
-	type = annex_everything
-}
 
-declare_war_on = {
-	target = MLI
-	type = annex_everything
-}
 
-declare_war_on = {
-	target = NGR
-	type = annex_everything
-}
+
 
 
 set_politics = {

@@ -1,0 +1,13 @@
+﻿l_english:
+#Mexican Revolutions
+ WAR_NAME_MEX_PNR:0 "Mexican Revolution"
+ WAR_NAME_PNR_MEX:0 "Mexican Revolution"
+ WAR_NAME_MEX_MCT:0 "Cristero War"
+ WAR_NAME_MCT_MEX:0 "Cristero War"
+ WAR_NAME_MEX_PLM:0 "Puebla Uprising"
+ WAR_NAME_PLM_MEX:0 "Puebla Uprising"
+ 
+ 
+ #Africa
+ WAR_NAME_ALG_TUA:0 "Tuareg Rebellion"
+ WAR_NAME_TUA_ALG:0 "Tuareg Rebellion"

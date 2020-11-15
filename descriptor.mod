@@ -5,5 +5,7 @@ tags={
 	"Ideologies"
 	"National Focuses"
 }
+replace_path="history/states"
+
 name="Spirit of Defeat: The New War"
 supported_version="1.10.*"

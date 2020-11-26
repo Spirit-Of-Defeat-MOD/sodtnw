@@ -1,0 +1,54 @@
+#####################
+# Position traits
+######################
+# These have no effect and are just for events and to clarify ideology belongings
+#####################
+
+leader_traits = {
+
+#####################
+# Minister
+#####################
+
+	decision = {}
+
+#####################
+# Minister
+#####################
+
+	head_of_government = {}
+	foreign_minister = {}
+	economy_minister = {}
+	interior_minister = {}
+
+#####################
+# Military Staff
+#####################
+
+	chief_of_staff = {}
+	army_chief = {}
+	navy_chief = {}
+	air_chief = {}
+
+#####################
+# Political ideologies
+#####################
+
+	authoritarian_socialist = {}
+	libertarian_socialist = {}
+	reformist_socialist = {}
+	social_democrat = {}
+	social_liberal = {}
+	classic_liberal = {}
+	social_conservative = {}
+	authoritarian_democrat = {}
+	utilitarian_despot = {}
+	national_syndicalist = {}
+	
+#####################
+# Unique/Personal ideologies
+#####################
+
+	magonist = {}
+
+}

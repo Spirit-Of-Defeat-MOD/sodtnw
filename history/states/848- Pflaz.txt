@@ -1,0 +1,37 @@
+
+state={
+	id=848
+	name="STATE_848"
+	manpower = 1999048
+	
+	state_category = c5
+
+	history={
+		owner = GER
+
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = GER
+	
+		set_demilitarized_zone = yes
+		
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				synthetic_refinery = 3
+			}
+		}
+	}
+
+	provinces={
+		563 3558 11547
+	}
+	
+	
+}

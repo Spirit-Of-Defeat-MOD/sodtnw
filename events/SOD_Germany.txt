@@ -1,0 +1,1570 @@
+﻿###########################
+# Germany Events by SneakierTech
+###########################
+
+add_namespace = germany
+add_namespace = antikom
+add_namespace = eng-ger
+add_namespace = separatists
+add_namespace = ger-demands
+
+# Introduction Event
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = germany.1.a
+		add_political_power = 1
+	
+    }
+}
+
+#Working Class
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = news_event_generic_strike
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Meager Compromise
+	option = {
+		name = germany.2.a
+		add_political_power = 1
+		country_event = { id = germany.3 days = 1}
+	
+    }
+
+	#Moderate Compromise
+	option = {
+		name = germany.2.b
+		add_political_power = 1
+		country_event = { id = germany.4 days = 1 }
+	
+    }
+	
+	#Drastic Compromise
+	option = {
+		name = germany.2.c
+		add_political_power = 1
+		country_event = { id = germany.5 days = 1 }
+	
+    }
+}
+
+#Meager Compromise
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#40 hour WK - monthly stability growth probably
+	option = {
+		name = germany.3.a
+		add_political_power = 1
+	
+	}
+	#Tax Credits - monthly population growth
+	option = {
+		name = germany.3.b
+		add_political_power = 1
+	
+    }
+}
+
+#Moderate Compromise
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Healthcare - plus consumer goods and recruitable percentage
+	option = {
+		name = germany.4.a
+		add_political_power = -25
+		add_ideas = healthcare
+	
+	}
+	#Unemployment Benefits - minus political power gain and plus stability
+	option = {
+		name = germany.4.b
+		add_political_power = -25
+		add_ideas = unemployment_benefits
+	
+    }
+}
+
+#Drastic Compromise
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#State Run Unions
+	option = {
+		name = germany.5.a
+		add_political_power = -50
+		add_ideas = state_unions
+	
+	}
+	#Negotiate With Unions
+	option = {
+		name = germany.5.b
+		add_political_power = 1
+		country_event = { id = germany.6 days = 3 }
+		complete_national_focus = GER_negotiatewiththeunions
+	
+    }
+}
+
+#Union Debate
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Pass The Reforms - boosts leftwing parties (they gain influence) minus political power (reforms occupy the bureaucracy and whatnot) adds stability
+	option = {
+		name = germany.6.a
+		add_political_power = -100
+		add_stability = 0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		hidden_effect = {
+		add_ideas = amended_constitution
+		complete_national_focus = GER_protectlaborrights
+		}
+	
+	}
+	#Deny Labor Rights - Eventually will lead to strikes, riots, civil war (Once we get to that lol)
+	option = {
+		name = germany.6.b
+		add_political_power = -250
+		add_stability = -0.05
+		custom_effect_tooltip = 1_GER_tt
+		hidden_effect = {
+			add_timed_idea = {
+				idea = factory_strikes
+				days = 180
+			}
+			country_event = { id = germany.9 days = 14 }
+		}
+	
+    }
+}
+
+#Appease The Eltes
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Industrialists - will increase production to simulate investment
+	option = {
+		name = germany.7.a
+		add_political_power = 1
+		country_event = { id = germany.17 days = 1 }
+	
+	}
+	#Junkers - will give political power gain to simulate nepotism
+	option = {
+		name = germany.7.b
+		add_political_power = 1
+		country_event = { id = germany.18 days = 1 }
+	
+    }
+}
+
+#Officer Discontent
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	desc = germany.8.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Appease The Generals Demands - add loyalty
+	option = {
+		name = germany.8.a
+		add_political_power = 1
+	
+	}
+	#Condemn the disloyal generals - remove loyalty
+	option = {
+		name = germany.8.b
+		add_political_power = 1
+	
+    }
+}
+
+#Riots
+country_event = {
+	id = germany.9
+	title = germany.9.t
+	desc = germany.9.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Crack Down
+	option = {
+		name = germany.9.a
+		add_political_power = -100
+		add_timed_idea = {
+			idea = riots
+			days = 20
+		}
+	
+	}
+	#Turn a blind eye
+	option = {
+		name = germany.9.b
+		add_political_power = -100
+		add_timed_idea = {
+			idea = riots
+			days = 20
+		}
+		hidden_effect = {
+			
+			country_event = { id = germany.11 days = 15 }
+		}
+	
+    }
+}
+
+#Welfare
+country_event = {
+	id = germany.10
+	title = germany.10.t
+	desc = germany.10.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#State Housing Programs
+	option = {
+		name = germany.10.a
+		add_political_power = -50
+	
+	}
+	#Pensions
+	option = {
+		name = germany.10.b
+		add_political_power = -50
+	
+    }
+}
+
+#Naval Mutiny
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Worker's & Soldier's Councils Form
+	option = {
+		name = germany.11.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.12 days = 3 }
+		}
+	
+	}
+	
+}
+
+#Karl Artelt proposes the United Front
+country_event = {
+	id = germany.12
+	title = germany.12.t
+	desc = germany.12.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Workers of Germany unite!
+	option = {
+		name = germany.12.a
+		add_political_power = -150
+		country_event = { id = germany.13 days = 3 }
+	}
+
+	#To hell with the counter-revolutionaries...
+	option = {
+		name = germany.12.b
+		add_political_power = -150
+		country_event = { id = germany.14 days = 3 }
+	}
+	
+}
+
+#United Front Forms
+country_event = {
+	id = germany.13
+	title = germany.13.t
+	desc = germany.13.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#United Front Forms
+	option = {
+		name = germany.13.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.15 days = 1 }
+		}
+	
+	}
+	
+}
+
+#United Front Fails
+country_event = {
+	id = germany.14
+	title = germany.14.t
+	desc = germany.14.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#United Front Fails
+	option = {
+		name = germany.14.a
+		add_political_power = -150
+		hidden_effect = {
+			country_event = { id = germany.16 days = 1 }
+		}
+	
+	}
+	
+}
+
+#Civil War - with UF
+country_event = {
+	id = germany.15
+	title = germany.15.t
+	desc = germany.15.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#To war with the reactionaries!
+	option = {
+		name = germany.15.a
+		add_political_power = -150
+		hidden_effect = {
+			DDR = {
+				set_party_name = {
+					ideology = communism
+					long_name = "Volksbefreiungsfront"
+					name = "Volksbefreiungsfront"
+				}
+				transfer_state = 65
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
+				transfer_state = 55
+				transfer_state = 56
+				transfer_state = 57
+				transfer_state = 800
+
+				change_tag_from = GER
+
+				declare_war_on = { type = annex_everything    target = GER }
+			}
+		}
+	
+	}
+
+	
+	#Down With The Traitors!
+	option = {
+		name = germany.15.b
+		add_political_power = -150
+		hidden_effect = {
+			DDR = {
+				set_party_name = {
+					ideology = communism
+					long_name = "Volksbefreiungsfront"
+					name = "Volksbefreiungsfront"
+				}
+				transfer_state = 65
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
+				transfer_state = 55
+				transfer_state = 56
+				transfer_state = 57
+				transfer_state = 800
+				
+				
+
+				declare_war_on = { type = annex_everything    target = GER }
+			}
+		}
+	
+	}
+	
+}
+
+
+#Civil War - without UF
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#To war with the reactionaries!
+	option = {
+		name = germany.16.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Industrialists
+country_event = {
+	id = germany.17
+	title = germany.17.t
+	desc = germany.17.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Privatize Industry
+	option = {
+		name = germany.17.a
+		add_ideas = privatizations
+	
+	}
+
+	#Lucrative Contracts
+	option = {
+		name = germany.17.b
+		add_ideas = lucrative_contracts
+	
+	}
+	
+}
+
+#Junkers
+country_event = {
+	id = germany.18
+	title = germany.18.t
+	desc = germany.18.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Farm Subsidies
+	option = {
+		name = germany.18.a
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+
+	#Minimum Prices
+	option = {
+		name = germany.18.b
+		add_political_power = -150
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Anschluss
+country_event = {
+	id = germany.19
+	title = germany.19.t
+	desc = germany.19.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.19.a
+		4 = {
+			add_core_of = GER
+		}
+		152 = {
+			add_core_of = GER
+		}
+		153 = {
+			add_core_of = GER
+		}
+		annex_country = {
+			target = AUS
+			transfer_troops = yes
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+	
+}
+
+#Austrian Intervention
+country_event = {
+	id = germany.20
+	title = germany.20.t
+	desc = germany.20.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Intervene
+	option = {
+		name = germany.20.a
+		AUS = {
+			set_politics = {
+				ruling_party = neutrality
+			}
+			country_event = germany.21 days = 3
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+}
+
+#Austria's Choice
+country_event = {
+	id = germany.21
+	title = germany.21.t
+	desc = germany.21.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.21.a
+		GER = {
+			country_event = germany.19 days = 1
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+
+	#Austria Refusal
+	option = {
+		name = germany.21.b
+		GER = {
+			country_event = germany.22
+		}
+		hidden_effect = {
+			
+		}
+	
+	}
+}
+
+
+#Austrian War
+country_event = {
+	id = germany.22
+	title = germany.22.t
+	desc = germany.22.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Austria Annex
+	option = {
+		name = germany.22.a
+		
+		hidden_effect = {
+			
+		}
+	
+	}
+}
+
+# Propose Russian Alliance
+country_event = {
+	id = germany.23
+	title = germany.23.t
+	desc = germany.23.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.23.a
+		SOV = {
+			country_event = germany.24
+		}
+	
+    }
+}
+
+#Russian Response
+country_event = {
+	id = germany.24
+	title = germany.24.t
+	desc = germany.24.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#form the alliance
+	option = {
+		name = germany.24.a
+		ai_chance = { 
+			factor = 85
+		}
+		SOV = { create_faction = "Continental Bloc" }
+		SOV = { add_to_faction = GER }
+		GER = {country_event = { days = 1 id = germany.26 }}
+	}
+	
+	#reject the proposal
+	option = {
+		name = germany.24.b
+		ai_chance = { 
+			factor = 15
+		}
+		GER = {country_event = { days = 1 id = germany.25 }}
+	
+    }
+}
+
+# Germany Denied
+country_event = {
+	id = germany.25
+	title = germany.25.t
+	desc = germany.25.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.25.a
+		
+	
+    }
+}
+
+# Continental Bloc Announcement
+country_event = {
+	id = germany.26
+	title = germany.26.t
+	desc = germany.26.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.26.a
+		
+	
+    }
+}
+
+# Volgadeutsch
+country_event = {
+	id = germany.27
+	title = germany.27.t
+	desc = germany.27.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#deport them
+	option = {
+		name = germany.27.a
+		ai_chance = { 
+			factor = 55
+		}
+		add_manpower = -285000
+		add_stability = 0.1
+		add_political_power = 50
+	
+	}
+	
+	#keep them
+	option = {
+		name = germany.27.b
+		ai_chance = { 
+			factor = 45
+		}
+		add_stability = -0.1
+		add_political_power = -50
+	
+    }
+}
+
+# Border Provocation - Poland
+country_event = {
+	id = germany.28
+	title = germany.28.t
+	desc = germany.28.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#stand up to Germany
+	option = {
+		name = germany.28.a
+		ai_chance = { 
+			factor = 80
+		}
+		POL = { declare_war_on = { type = puppet_wargoal_focus
+			target = GER} }
+		add_war_support = 0.1
+		add_stability = -0.03
+
+		hidden_effect = {
+			GER = {country_event = { days = 1 id = germany.29 }}
+		}
+	
+	}
+	
+	#back down
+	option = {
+		name = germany.28.b
+		ai_chance = { 
+			factor = 20
+		}
+		add_stability = -0.1
+		add_war_support = -0.15
+		add_political_power = -150
+		hidden_effect = {
+			GER = {country_event = { days = 1 id = germany.32 }}
+		}
+	
+    }
+}
+
+# Call USSR To Arms
+country_event = {
+	id = germany.29
+	title = germany.29.t
+	desc = germany.29.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Call USSR To Arms
+	option = {
+		name = germany.29.a
+		ai_chance = { 
+			factor = 75
+		}
+		SOV = {country_event = { days = 1 id = germany.30 }}
+	
+	}
+	
+	#Ignore Them
+	option = {
+		name = germany.29.b
+		ai_chance = { 
+			factor = 25
+		}
+		add_stability = -0.1
+		add_political_power = -50
+		SOV = {country_event = { days = 1 id = germany.31 }}
+    }
+}
+
+# German Call To Arms
+country_event = {
+	id = germany.30
+	title = germany.30.t
+	desc = germany.30.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#To War!
+	option = {
+		name = germany.30.a
+		ai_chance = { 
+			factor = 90
+		}
+		SOV = {country_event = { days = 1 id = germany.33 }}
+		SOV = { declare_war_on = { type = annex_everything    target = POL } }
+	
+	}
+	
+	#Oh HELL Nah...
+	option = {
+		name = germany.30.b
+		ai_chance = { 
+			factor = 10
+		}
+		add_stability = -0.1
+		add_political_power = -50
+		SOV = {country_event = { days = 1 id = germany.34 }}
+    }
+}
+
+# Germans Ignore Us
+country_event = {
+	id = germany.31
+	title = germany.31.t
+	desc = germany.31.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#OOF
+	option = {
+		name = germany.31.a
+	
+	}
+}
+
+# Polish Back Down
+country_event = {
+	id = germany.32
+	title = germany.32.t
+	desc = germany.32.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Demand The Danzig Corridor
+	option = {
+		name = germany.32.a
+	
+	}
+}
+
+# Soviets Join The War
+country_event = {
+	id = germany.33
+	title = germany.33.t
+	desc = germany.33.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#WAR
+	option = {
+		name = germany.33.a
+	
+	}
+}
+
+# Soviets Decline
+country_event = {
+	id = germany.34
+	title = germany.34.t
+	desc = germany.34.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#NO WAR
+	option = {
+		name = germany.34.a
+	
+	}
+}
+
+# Anti-Komintern
+country_event = {
+	id = germany.35
+	title = germany.35.t
+	desc = germany.35.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Form It!
+	option = {
+		name = germany.35.a
+		GER = { create_faction = "Anti-Komintern Pact" }
+	
+	}
+}
+
+# Paramilitaries
+country_event = {
+	id = germany.36
+	title = germany.36.t
+	desc = germany.36.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Purge Them
+	option = {
+		name = germany.36.a
+		remove_ideas = rampant_paramilitaries
+		add_stability = 0.02
+	
+	}
+	
+	#They May Be Useful
+	option = {
+		name = germany.36.b
+		remove_ideas = rampant_paramilitaries
+		add_ideas = official_paramilitaries
+	
+    }
+}
+
+# Guerilla Training
+country_event = {
+	id = germany.37
+	title = germany.37.t
+	desc = germany.37.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Mild Support
+	option = {
+		name = germany.37.a
+		#add fear
+	
+	}
+	
+	#Full Fledged Support
+	option = {
+		name = germany.37.b
+		#add more fear
+		hidden_effect = {
+			add_threat = 5
+			set_country_flag = GER_supported_himmler
+		}
+	
+    }
+}
+
+#British Alliance
+country_event = {
+	id = germany.38
+	title = germany.38.t
+	desc = germany.38.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Allow Germany To Join
+	option = {
+		name = germany.38.a
+		ENG = { add_to_faction = GER }
+	
+	}
+	
+	#Deny Them
+	option = {
+		name = germany.38.b
+		
+	
+	
+    }
+}
+
+#Unrestricted Submarine Warfare
+country_event = {
+	id = germany.39
+	title = germany.39.t
+	desc = germany.39.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#What could possibly go wrong
+	option = {
+		name = germany.39.a
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			USA = {country_event = { days = 40 id = sodnews.2 }}
+		}
+	
+	}
+}
+
+#Political Appointments
+country_event = {
+	id = germany.40
+	title = germany.40.t
+	desc = germany.40.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Keep Him
+	option = {
+		name = germany.40.a
+		add_political_power = -5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Sack Him
+	option = {
+		name = germany.40.b
+		add_political_power = -5
+		country_event = { id = germany.41 days = 1 }
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+}
+
+#Replace Hugenberg
+country_event = {
+	id = germany.41
+	title = germany.41.t
+	desc = germany.41.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	#Appoint Julius Curtius (Pro-Soviet)
+	option = {
+		name = germany.41.a
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Kurt Schmitt (National Collectivist)
+	option = {
+		name = germany.41.b
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Hjalmar Schacht (Pro-Market Aut Dem)
+	option = {
+		name = germany.41.c
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+
+	#Appoint Walter Eucken (Neoliberal)
+	option = {
+		name = germany.41.e
+		add_war_support = 0.05
+		add_threat = 5
+		hidden_effect = {
+			country_event = { days = 5 id = germany.42 }
+		}
+	
+	}
+}
+
+#Anti-Komintern
+
+# Finland Offer
+country_event = {
+	id = antikom.1
+	title = antikom.1.t
+	desc = antikom.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = antikom.1.a
+		ai_chance = { 
+			factor = 90
+		}
+		GER = { add_to_faction = FIN }
+		GER = {country_event = { days = 1 id = antikom.2 }}
+		add_opinion_modifier = { target = GER modifier = large_increase }
+	
+	}
+	
+	option = {
+		name = antikom.1.a
+		ai_chance = { 
+			factor = 10
+		}
+		GER = {country_event = { days = 1 id = antikom.3 }}
+		add_opinion_modifier = { target = GER modifier = large_decrease }
+    }
+}
+
+# Finland Joins
+country_event = {
+	id = antikom.2
+	title = antikom.2.t
+	desc = antikom.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.2.a
+		add_opinion_modifier = { target = FIN modifier = large_increase }
+	
+	}
+}
+
+# Finland Declines
+country_event = {
+	id = antikom.3
+	title = antikom.3.t
+	desc = antikom.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.3.a
+		add_opinion_modifier = { target = FIN modifier = large_decrease }
+	
+	}
+}
+
+# Romania Offer
+country_event = {
+	id = antikom.4
+	title = antikom.4.t
+	desc = antikom.4.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = antikom.4.a
+		ai_chance = { 
+			factor = 65
+		}
+		GER = { add_to_faction = FIN }
+		GER = {country_event = { days = 1 id = antikom.5 }}
+		add_opinion_modifier = { target = GER modifier = large_increase }
+	
+	}
+	
+	option = {
+		name = antikom.4.a
+		ai_chance = { 
+			factor = 35
+		}
+		GER = {country_event = { days = 1 id = antikom.6 }}
+		add_opinion_modifier = { target = GER modifier = large_decrease }
+		
+    }
+}
+
+# Romania Joins
+country_event = {
+	id = antikom.5
+	title = antikom.5.t
+	desc = antikom.5.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.5.a
+		add_opinion_modifier = { target = ROM modifier = large_increase }
+	
+	}
+}
+
+# Romania Declines
+country_event = {
+	id = antikom.6
+	title = antikom.6.t
+	desc = antikom.6.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Joined
+	option = {
+		name = antikom.6.a
+		add_opinion_modifier = { target = ROM modifier = large_decrease }
+	
+	}
+}
+
+#BRITAIN/GERMAN EVENTS
+
+#Non-Aggression Offer
+country_event = {
+	id = eng-ger.1
+	title = eng-ger.1.t
+	desc = eng-ger.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#UK ACCEPTS
+	option = {
+		name = eng-ger.1.a
+		ai_chance = { 
+			factor = 65
+		}
+		add_political_power = -10
+		diplomatic_relation = {
+			country = GER
+			relation = non_aggression_pact
+			active = yes
+		}
+		GER = {
+			country_event = {
+				id = eng-ger.2
+				days = 1
+			}
+		}
+	
+	}
+	#UK DECLINES
+	option = {
+		name = eng-ger.1.b
+		ai_chance = { 
+			factor = 35
+		}
+		add_political_power = 10
+		GER = {
+			country_event = {
+				id = eng-ger.3
+				days = 1
+			}
+		}
+	
+    }
+}
+
+# Pact Accepted
+country_event = {
+	id = eng-ger.2
+	title = eng-ger.2.t
+	desc = eng-ger.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = eng-ger.2.a
+		add_political_power = 10
+		add_opinion_modifier = { target = ENG modifier = large_increase }
+	
+    }
+}
+
+# Pact Declined
+country_event = {
+	id = eng-ger.3
+	title = eng-ger.3.t
+	desc = eng-ger.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = eng-ger.3.a
+		add_political_power = -10
+		add_opinion_modifier = { target = ENG modifier = large_decrease }
+	
+    }
+}
+
+#Separatists
+# Ukrainian Separatists in Poland
+country_event = {
+	id = separatists.1
+	title = separatists.1.t
+	desc = separatists.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = separatists.1.a
+		add_stability = -0.05
+		add_political_power = -50
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = separatists.3
+					days = 31
+				}
+			}
+
+			POL = {
+				country_event = {
+					id = separatists.2
+					days = 31
+				}
+			}
+		}
+	
+    }
+}
+
+#Lwow Protests
+country_event = {
+	id = separatists.2
+	title = separatists.2.t
+	desc = separatists.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	
+	#Cave Into Demands
+	option = {
+		name = separatists.2.a
+		add_political_power = -100
+		add_stability = 0.01
+	
+	}
+	#Suppress The Protestors
+	option = {
+		name = separatists.2.b
+		add_political_power = -5
+		add_stability = -0.01
+
+		hidden_effect = {
+			POL = {
+				country_event = {
+					id = separatists.4
+					days = 3
+				}
+			}
+		}
+	
+    }
+}
+
+# German Reaction
+country_event = {
+	id = separatists.3
+	title = separatists.3.t
+	desc = separatists.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = separatists.3.a
+		add_political_power = 5
+    }
+}
+
+# Lwow Uprising
+country_event = {
+	id = separatists.4
+	title = separatists.4.t
+	desc = separatists.4.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = separatists.4.a
+		
+    }
+}
+
+#German Demands
+
+# Demand Schleswig
+country_event = {
+	id = ger-demands.1
+	title = ger-demands.1.t
+	desc = ger-demands.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#Cave To Germany
+	option = {
+		name = ger-demands.1.a
+		add_political_power = -15
+		
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = ger-demands.2
+					days = 1
+				}
+			}
+		}
+    }
+	#Stand Up For Ourselves
+	option = {
+		name = ger-demands.1.a
+		add_political_power = -100
+
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = ger-demands.3
+					days = 1
+				}
+			}
+		}
+    }
+}
+
+# Denmark Caves
+country_event = {
+	id = ger-demands.2
+	title = ger-demands.2.t
+	desc = ger-demands.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#Blood and Soil
+	option = {
+		name = ger-demands.2.a
+		add_political_power = 15
+    }
+}
+
+# Stubborn Danes
+country_event = {
+	id = ger-demands.3
+	title = ger-demands.3.t
+	desc = ger-demands.3.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+
+	#They'll Pay!
+	option = {
+		name = ger-demands.3.a
+		add_political_power = -15
+    }
+}

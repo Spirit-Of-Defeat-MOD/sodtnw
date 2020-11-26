@@ -1,0 +1,128 @@
+ideas = {
+
+	economic_policy = { 
+		law = yes
+		use_list_view = yes
+		
+		laissez_faire = {
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+				consumer_goods_factor = 0.2
+			}
+		}
+		interventionism = {
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		state_capitalism = {
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		planned_economy = {
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		
+	}
+	
+	foreign_policy = { 
+		law = yes
+		use_list_view = yes
+		
+		expansionist = {
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			modifier = {
+				mobilization_speed = 0.4
+				ai_focus_aggressive_factor = 0.2
+				training_time_army_factor = -0.2
+				army_morale_factor = 0.5
+				land_reinforce_rate = 0.5
+
+			}
+		}
+		interventionist = {
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			modifier = {
+				mobilization_speed = 0.3
+				ai_focus_aggressive_factor = 0.1
+				training_time_army_factor = -0.1
+				army_morale_factor = 0.25
+				land_reinforce_rate = 0.25
+
+			}
+		}
+		armed_neutrality = {
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				mobilization_speed = 0.2
+				ai_focus_defense_factor = 0.1
+				training_time_army_factor = 0.1
+				army_morale_factor = -0.25
+				land_reinforce_rate = -0.25
+
+
+			}
+		}
+		pacifist = {
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			modifier = {
+				mobilization_speed = 0.1
+				ai_focus_defense_factor = 0.2
+				training_time_army_factor = 0.2
+				army_morale_factor = -0.5
+				land_reinforce_rate = -0.5
+
+			}
+		}
+		
+		
+	}
+
+}

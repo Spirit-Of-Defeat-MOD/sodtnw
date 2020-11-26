@@ -120,22 +120,29 @@ set_popularities = {
     fascism = 22
 }
 
-#add_ideas = {
-#	sour_loser
-#	general_staff
-#	black_reichswehr
-#	economic_troubles
-#	rampant_paramilitaries
-#	protectionism
-#	one_year_draft
-#	interventionism
-#	mixed_focus
-#	GER_military_council_hog
-#	GER_Konstantin_Neurath_frm
-#	GER_Alfred_Hugenberg_eco
-#	GER_Otto_Lossow_sec
-#	GER_Ferdinand_Bredow_int
-#}
+add_ideas = {
+	##national ideas
+	sour_loser
+	general_staff
+	black_reichswehr
+	economic_troubles
+	rampant_paramilitaries
+	
+	##laws
+	export_focus
+	civilian_economy
+	interventionism #economic
+	interventionist	#foreign
+	volunteer_only
+	
+	##ministers
+	GER_military_council_hog
+	GER_Konstantin_Neurath_frm
+	GER_Alfred_Hugenberg_eco
+	GER_Ferdinand_Bredow_int
+	
+	
+}
 
 
 create_country_leader = {

@@ -1,12 +1,10 @@
+
 state={
 	id=834
 	name="STATE_834"
-	provinces={
-		5136 10893 13281 
-	}
+
 	history={
 		owner = AEF
-		#add_core_of = AEF
 		add_core_of = CHA
 		buildings = {
 			infrastructure = 1
@@ -14,7 +12,10 @@ state={
 		}
 
 	}
-	
+
+	provinces={
+		5136 10893 13281 
+	}
 	manpower=50
 	buildings_max_level_factor=1.000
 	state_category=c0

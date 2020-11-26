@@ -1,0 +1,950 @@
+ideas = {
+
+  ################################################################################################################################################################################################
+  ### GER
+  ################################################################################################################################################################################################
+
+	head_of_government = { ### Head of Government ###
+		GER_Franz_Papen_hog = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Franz_Papen_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Franz_Papen_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Franz_Papen_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_conservative_aristocrat
+			}
+			cancel_if_invalid = yes
+		}
+
+		GER_Hans_von_Seeckt_hog = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Seeckt_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Seeckt_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_von_Seeckt_hog"
+			}
+			traits = {
+				head_of_government
+				utilitarian_despot
+				hog_pragmatist
+			}
+			cancel_if_invalid = yes
+		}
+	
+
+	GER_military_council_hog = {
+		allowed = { original_tag = GER }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = minister_available
+				has_country_flag = can_replace_hog
+			}
+		}
+		visible = {
+			NOT = { has_country_flag = council_abolished }
+		}
+		on_add = {
+			log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_von_Seeckt_hog"
+		}
+		traits = {
+			head_of_government
+			utilitarian_despot
+		}
+		cancel_if_invalid = yes
+	}
+}
+	
+	foreign_minister = { ### Foreign Minister ###
+		GER_Konstantin_Neurath_frm = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Konstantin_Neurath_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Konstantin_Neurath_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Konstantin_Neurath_hog"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				frm_skilled_negotiator
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	economy_minister = { ### Minister of the Economy ###
+		GER_Alfred_Hugenberg_eco = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Alfred_Hugenberg_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Alfred_Hugenberg_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Alfred_Hugenberg_hog"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_economic_interventionist
+			}
+			cancel_if_invalid = yes
+		}
+
+		GER_Ludwig_Krosigk_eco = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ludwig_Krosigk_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ludwig_Krosigk_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ludwig_Krosigk_hog"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	security_minister = { ### Minister of Security ###
+		GER_Otto_Lossow_sec = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Otto_Lossow_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Otto_Lossow_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_hog"
+			}
+			traits = {
+				security_minister
+				utilitarian_despot
+				sec_devout_nationalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		GER_Ernst_Rohm_sec = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ernst_Rohm_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ernst_Rohm_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Rohm_hog"
+			}
+			traits = {
+				security_minister
+				national_collectivist
+				sec_radical_militarist
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	interior_minister = { ### Head of Mil Intel ###
+		GER_Ferdinand_Bredow_int = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ferdinand_Bredow_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Otto_Lossow_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ferdinand_Bredow_hog"
+			}
+			traits = {
+				head_of_intel
+				utilitarian_despot
+				int_brash_buffoon
+				
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	country = {
+		general_staff = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+			}
+		}
+
+		black_reichswehr = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.02
+				training_time_factor = -0.15
+				military_leader_cost_factor = 0.50
+				conscription = 0.01
+	
+			}
+		}	
+
+                sour_loser = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+
+
+                rampant_paramilitaries = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#picture = rampant_paramilitaries.tga #Not how its done sneak
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				mobilization_speed = 0.1 
+				war_support_factor = 0.02
+				political_power_factor = -0.25 
+			}
+		}
+
+		economic_troubles = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.05 
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		amended_constitution = { #You're welcome sneak
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				political_power_factor = -0.25
+				stability_weekly = 0.02
+			}
+		}
+
+		factory_strikes = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.07 
+				production_speed_buildings_factor = -0.15
+				stability_factor = -0.15
+			}
+		}
+
+		riots = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_weekly = -0.01
+				production_factory_start_efficiency_factor = -0.20 
+			}
+		}
+
+		state_unions = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.03 
+				political_power_factor = -0.15
+				stability_weekly = 0.01
+			}
+		}
+
+		privatizations = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.05
+				stability_weekly = 0.03
+			}
+		}
+
+		lucrative_contracts = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.05
+				stability_weekly = -0.03
+			}
+		}
+
+		unemployment_benefits = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.07
+				political_power_factor = -0.03
+				stability_weekly = 0.02
+			}
+		}
+
+		healthcare = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.07
+				political_power_factor = -0.05
+				stability_weekly = 0.01
+				conscription = 0.02
+			}
+		}
+
+		
+		army_purge = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.05
+				stability_weekly = -0.01
+				conscription = -0.02
+			}
+		}
+
+		job_training = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.01
+				stability_weekly = 0.01
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		public_works = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		modernized_production = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+
+		guiding_hand = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_weekly = 0.01
+			}
+		}
+
+		russian_diplomacy = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				communism_acceptance = 35
+				totalitarian_socialism_acceptance = 25
+			}
+		}
+
+		russian_hostility = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				communism_acceptance = -35
+				totalitarian_socialism_acceptance = -25
+			}
+		}
+
+		joint_exercises = {
+				
+			allowed = {
+				original_tag = GER
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+	
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				max_planning = 0.25
+				army_attack_factor = 0.1
+			}
+		}
+
+			official_paramilitaries = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					conscription = 0.01
+					political_power_factor = -0.15
+					army_attack_factor = 0.1
+				}
+			}
+
+			grain_imports = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					MONTHLY_POPULATION = 0.5
+				}
+			}
+
+			diplomatic_standoffs = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					justify_war_goal_time = -0.05
+					drift_defence_factor = 0.25
+				}
+			}
+
+			versailles_denounced = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					justify_war_goal_time = -0.25
+					conscription_factor = 0.1
+					training_time_army_factor = -0.1
+				}
+			}
+
+			naval_limitations = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					industrial_capacity_dockyard = -0.10
+					ships_at_battle_start = -0.10 
+					navy_max_range_factor = -0.05
+				}
+			}
+
+			british_audits = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.10 
+				}
+			}
+
+			deny_british_audits = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = 0.10 
+				}
+			}
+
+			germany_league = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.25
+					justify_war_goal_time = 0.50
+					democratic_acceptance = 50
+					classic_liberal_acceptance = 40 
+					social_liberal_acceptance = 30
+					 
+				}
+			}
+
+			peace_promises = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					political_power_factor = -0.25
+					justify_war_goal_time = 0.50
+				}
+			}
+
+			strict_engagement = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					navy_submarine_attack_factor = -0.1
+					naval_coordination = -0.01
+				}
+			}
+
+			war_reparations = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = 0.05
+				}
+			}
+
+			panzer_school_kama = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					army_armor_defence_factor = 0.05
+				}
+			}
+
+			rapid_annihilation = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					army_attack_factor = 0.05
+					army_speed_factor = 0.10
+					dig_in_speed = -0.25
+				}
+			}
+
+			blitzkrieg_idea = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					army_armor_speed_factor = 0.05
+					army_speed_factor = 0.10 
+					army_org_factor = -0.05 
+				}
+			}
+
+			achtung_panzer = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+					supply_consumption_factor = 0.10
+					army_armor_attack_factor = 0.10
+				}
+			}
+
+			test = {
+				
+				allowed = {
+					original_tag = GER
+				}
+		
+				allowed_civil_war = {
+					always = yes
+				}
+		
+		
+				removal_cost = -1
+				
+				modifier = {
+				}
+			}
+		}
+	}	
+

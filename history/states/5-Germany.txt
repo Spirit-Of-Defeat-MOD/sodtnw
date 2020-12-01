@@ -2,16 +2,16 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 1238108
-	state_category = town
+	manpower = 819889
+	state_category = c5
 
 	history={
 		victory_points = {
 			6375 3
 		}
-		#victory_points = {
-		#	11386 1
-		#}
+		victory_points = {
+			11386 1
+		}
 		owner = GER
 		controller = GER
 		

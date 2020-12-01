@@ -2,12 +2,12 @@
 state={
 	id=68
 	name="STATE_68"
-	manpower = 1250840
+	manpower = 1299767
 	resources={
 		aluminium=15 # was: 24
 	}
 
-	state_category = city
+	state_category = c6
 
 	history={
 		victory_points = {

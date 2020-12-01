@@ -1,0 +1,28 @@
+
+state={
+	id=852
+	name="STATE_852"
+	manpower = 332400
+	
+	state_category = c3
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			11372 = {
+				naval_base = 1
+			}
+			6282 = {
+				naval_base = 4
+
+			}
+			air_base = 3
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		11288 11260 9252 13287
+	}
+}

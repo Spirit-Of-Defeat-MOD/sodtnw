@@ -6,6 +6,7 @@ ideologies = {
 			anarchist_syndicalist = {}
 			anarchist_communist = {}
 			chen_jiongming_ideology = {}
+			individualist_anarchism = {}
 			
 		}
 		dynamic_faction_names = {
@@ -111,6 +112,7 @@ ideologies = {
 	social_democrat = {
 		types = {
 			social_democrat_ideology = {}
+			left_agrarian = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIAL_DEMOCRAT_1"

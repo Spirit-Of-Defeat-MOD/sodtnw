@@ -35,7 +35,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Robert Taft"
 	desc = "POLITICS_ROBERT_TAFT_DESC"
-	picture = ""
+	picture = "Robert_Taft.tga"
 	expire = "1965.1.1"
 	ideology = market_liberalism
 	traits = {
@@ -43,5 +43,101 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Hugo Black"
+	desc = "POLITICS_HUGO_BLACK_DESC"
+	picture = "Portrait_Black.tga"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}
 
+create_country_leader = {
+	name = "Henrik Shipstead"
+	desc = "POLITICS_HENRIK_SHIPSTEAD_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = conservative_liberalism
+	traits = {
+		
+	}
+}
 
+create_country_leader = {
+	name = "Henry A. Wallace"
+	desc = "POLITICS_HENRY_WALLACE_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = left_agrarian
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Parker"
+	desc = "POLITICS_HERBERT_PARKER_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "J. Edgar Hoover"
+	desc = "POLITICS_EDGAR_HOOVER_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternal_state
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gerald L. K. Smith"
+	desc = "POLITICS_GERALD_SMITH_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = national_corporatist
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Clarence Lee Swartz"
+	desc = "POLITICS_CLARENCE_SWARTZ_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = individualist_anarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_NORMAN_THOMAS_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = reformist_socialist_ideology
+	traits = {
+		
+	}
+}

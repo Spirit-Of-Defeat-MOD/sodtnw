@@ -8,12 +8,10 @@ state={
 
 	history={
 		owner = USA
-		victory_points = {
-			3957 40 
-		}
-		victory_points = {
-			6984 5 
-		}
+		victory_points = { 3957 50 } #washington DC
+		victory_points = { 6984 10 } #Baltimore
+		victory_points = { 6929 1 } #Frederick
+		victory_points = { 9758 2 } #Wilmington
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5

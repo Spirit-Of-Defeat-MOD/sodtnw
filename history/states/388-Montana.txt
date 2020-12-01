@@ -14,9 +14,9 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = USA
-		victory_points = {
-			4860 1 
-		}
+		victory_points = { 4860 1 } #Great Falls
+		victory_points = { 12585 2 } #Billings
+		victory_points = { 6742 1 } #Missoula
 
 	}
 

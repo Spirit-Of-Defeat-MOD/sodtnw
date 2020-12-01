@@ -24,18 +24,15 @@ state={
 			}
 		}
 		add_core_of = USA
-		victory_points = {
-			6845 20
-		}
-		victory_points = {
-			11800 15
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				dockyard = 8
-			}
-		}
+		victory_points = { 6845 25 } #Philadelphia
+		victory_points = { 11800 15 } #Pittsburg
+		victory_points = { 11785 2 } #Harrisburg
+		victory_points = { 6869 2 } #Reading
+		victory_points = { 3687 1 } #Erie
+		victory_points = { 3897 1 } #Scranton
+		victory_points = { 11799 5 } #Allentown
+		victory_points = { 3824 1 } #Lancaster
+		victory_points = { 847 1 } #Altoona
 
 	}
 

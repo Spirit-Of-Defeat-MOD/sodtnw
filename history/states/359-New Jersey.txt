@@ -8,9 +8,14 @@ state={
 
 	history={
 		owner = USA
-		victory_points = {
-			6882 5 
-		}
+
+		victory_points = { 6882 7 } #Newark
+		victory_points { 11782 3 } #Trenton
+		victory_points { 11900 2 } #Camden
+		victory_points { 9864 1 } #Atlantic City
+		
+		11740 = { naval_base = 1 } #Cape May Coast Guard
+
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 7

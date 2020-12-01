@@ -18,16 +18,8 @@ state={
 
 		}
 		add_core_of = USA
-		victory_points = {
-			6710 20 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-
-			}
-
-		}
+		victory_points = { 6710 20 } #Detroit
+		victory_points = { 11714 4 } #Grand Rapids
 
 	}
 

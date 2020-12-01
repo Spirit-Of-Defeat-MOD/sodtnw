@@ -14,12 +14,9 @@ state={
 
 		}
 		#add_core_of = USA
-		victory_points = {
-			13090 1 
-		}
-		victory_points = {
-			13091 3 
-		}
+		victory_points = { 13203 1 } #Juneau
+		victory_points = { 13069 1 } #Fairbanks
+		victory_points = { 13091 3 } #Anchorage
 
 	}
 

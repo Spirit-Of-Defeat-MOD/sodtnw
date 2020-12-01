@@ -17,15 +17,12 @@ state={
 			}
 		}
 		add_core_of = USA
-		victory_points = {
-			12384 10 
-		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
+		victory_points = { 12384 10 } #Atlanta
+		victory_points = { 7583 5 } #Columbus
+		victory_points = { 11975 3 } #Savannah
+		victory_points = { 7118 2 } #Augusta
+		victory_points = { 10492 1 } #Macon
+		victory_points = { 638 1 } #Athens
 
 	}
 

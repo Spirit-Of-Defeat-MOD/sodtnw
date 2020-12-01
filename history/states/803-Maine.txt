@@ -16,9 +16,8 @@ state={
 
 		}
 		add_core_of = USA
-		victory_points = {
-			12459 1 
-		}
+		victory_points = { 12459 1 } #Bangor
+		victory_points = { 3732 2 } #Portland
 
 	}
 	

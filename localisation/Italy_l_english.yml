@@ -1,0 +1,74 @@
+﻿l_english: 
+
+#Parties
+ITA_fascism_party:0 "ANI"
+ITA_fascism_party_long:0 "Associazione Nazionalista Italiana"
+ITA_communism_party:0 "PCd'I"
+ITA_communism_party_long:0 "Partito Comunista d'Italia"
+ITA_democratic_party:0 "PPI"
+ITA_democratic_party_long:0 "Partito Popolare Italiano"
+ITA_utilitarian_despot_party:0 ""
+ITA_utilitarian_despot_party_long:0 ""
+ITA_neutrality_party:0 "PdC"
+ITA_neutrality_party_long:0 "Partito dei Combattenti"
+ITA_social_democracy_party:0 "PDR"
+ITA_social_democracy_party_long:0 "Partito Democratico Riformista"
+ITA_social_liberal_party:0 "PLD"
+ITA_social_liberal_party_long:0 "Partito Liberale Democratico"
+ITA_classic_liberal_party:0 "PLI"
+ITA_classic_liberal_party_long:0 "Partito Liberale Italiano"
+ITA_libertarian_socialist_party:0 ""
+ITA_libertarian_socialist_party_long:0 ""
+ITA_reformist_socialist_party:0 "PSI"
+ITA_reformist_socialist_party_long:0 "Partito Socialista Italiano"
+##ITA_nihilistic_extremism_party:0 ""
+##ITA_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ITA_fascism:0 "Kingdom of Italy"
+ ITA_fascism_DEF:0 "the Kingdom of Italy"
+ ITA_reformist_socialist:0 "Italian Republic"
+ ITA_reformist_socialist_DEF:0 "the Italian Republic"
+ ITA_utilitarian_despot:0 "Kingdom of Italy"
+ ITA_utilitarian_despot_DEF:0 "the Kingdom of Italy"
+ ITA_democratic:0 "Kingdom of Italy"
+ ITA_democratic_DEF:0 "the Kingdom of Italy"
+ ITA_neutrality:1 "Kingdom of Italy"
+ ITA_neutrality_DEF:1 "the Kingdom of Italy"
+ ITA_libertarian_socialist:0 "Italian Republic"
+ ITA_libertarian_socialist_DEF:0 "the Italian Republic"
+ ITA_social_democracy:0 "Italian Republic"
+ ITA_social_democracy_DEF:0 "the Italian Republic"
+ ITA_social_liberal:0 "Kingdom of Italy"
+ ITA_social_liberal_DEF:0 "the Kingdom of Italy"
+ ITA_classic_liberal:0 "Kingdom of Italy"
+ ITA_classic_liberal_DEF:0 "the Kingdom of Italy"
+ ITA_communism:0 "Italian Socialist Republic"
+ ITA_communism_DEF:0 "the Italian Socialist Republic"
+ 
+ ITA_fascism_ADJ:0 "Italian"
+ ITA_totalitarian_socialism_ADJ:0 "Italian"
+ ITA_democratic_ADJ:0 "Italian"
+ ITA_utilitarian_despot_ADJ:0 "Italian"
+ ITA_democratic_socialism_ADJ:0 "Italian"
+ ITA_neutrality_ADJ:0 "Italian"
+ ITA_social_democracy_ADJ:0 "Italian"
+ ITA_social_liberal_ADJ:0 "Italian"
+ ITA_classic_liberal_ADJ:0 "Italian"
+ ITA_communism_ADJ:0 "Italian"
+
+#Ministers
+#should be reintegrated
+#Ideas
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

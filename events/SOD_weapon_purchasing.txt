@@ -1,0 +1,5 @@
+###########################
+# Weapon Purchasing
+###########################
+
+add_namespace = weapon_purchasing

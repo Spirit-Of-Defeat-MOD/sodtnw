@@ -1,0 +1,81 @@
+weapon_purchasing = {
+	SOD_weapon_purchasing = {
+		#icon = early mobilization
+		
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_completed_focus = equipment_purchase
+			has_country_flag = { equipment_purchase_flag }
+		}
+		visible = {
+			has_country_flag = { equipment_purchase_flag }
+		}
+		
+		complete_effect = {
+			set_country_flag = weapon_purchasing_flag
+		}
+	}
+	
+	SOD_weapon_purchasing_USA = {
+		#icon = early mobilization
+		
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_country_flag = { weapon_purchasing_flag }
+			NOT = {
+				OR = {
+					has_country_flag = weapon_purchase_ENG
+				}
+			}
+		}
+		visible = {
+			has_country_flag = { weapon_purchasing_flag }
+		}
+		
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 1500
+				producer = USA
+			}
+			civilian_factory_use = 1
+			set_country_flag = weapon_purchase_USA
+		}
+	}
+	
+	SOD_weapon_purchasing_ENG = {
+		#icon = early mobilization
+		
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_country_flag = { weapon_purchasing_flag }
+			NOT = {
+				OR = {
+					has_country_flag = weapon_purchase_USA
+				}
+			}
+		}
+		visible = {
+			has_country_flag = { weapon_purchasing_flag }
+		}
+		
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 1500
+				producer = ENG
+			}
+			civilian_factory_use = 1
+		}
+	}
+}

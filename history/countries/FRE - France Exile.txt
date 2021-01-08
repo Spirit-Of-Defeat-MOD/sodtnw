@@ -78,6 +78,7 @@ FRE = {
 	}
 }
 
+#war
 #French Empire Collapse
 declare_war_on = {
 	target = DAH
@@ -98,6 +99,8 @@ declare_war_on = {
 	target = NGR
 	type = annex_everything
 }
+
+
 
 
 add_ideas = {

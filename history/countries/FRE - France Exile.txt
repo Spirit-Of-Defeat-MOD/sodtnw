@@ -103,6 +103,7 @@ declare_war_on = {
 
 
 
+
 add_ideas = {
 }
 

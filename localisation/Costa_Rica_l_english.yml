@@ -35,7 +35,8 @@ COS_utilitarian_despot_ADJ:0 "Costa Rican"
 COS_fascism_ADJ:0 "Costa Rican" 
 
 #Party names
-COS_libertarian_socialist_party:0 ""
+COS_libertarian_socialist_party:0 "CGT"
+COS_libertarian_socialist_party_long:0 "Confederación General de Trabajadores"
 COS_communism_party:0 "PCCR"
 COS_communism_party_long:0 "Partido Comunista de Costa Rica"
 COS_reformist_socialist_party:0 ""

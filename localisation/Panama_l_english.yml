@@ -35,7 +35,8 @@ PAN_utilitarian_despot_ADJ:0 "Panamanian"
 PAN_fascism_ADJ:0 "Panamanian" 
 
 #Party names
-PAN_libertarian_socialist_party:0 ""
+PAN_libertarian_socialist_party:0 "SGT"
+PAN_libertarian_socialist_party_long:0 "Sindicato General de Trabajadores"
 PAN_communism_party:0 "PCP"
 PAN_communism_party_long:0 "Partido Comunista de Panamá"
 PAN_reformist_socialist_party:0 "PS"

@@ -3,3 +3,431 @@
 ###########################
 
 add_namespace = weapon_purchasing
+country_event = {
+	id = weapon_purchasing.1
+	title = weapon_purchasing.1.t
+	desc = weapon_purchasing.1.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.1.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 1 } }
+		add_opinion_modifier = { target = ENG modifier = bought_our_weapons }
+    
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.1.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 1 } }
+		add_opinion_modifier = { target = USA modifier = bought_our_weapons }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.1.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 1 } }
+		add_opinion_modifier = { target = GER modifier = bought_our_weapons }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.1.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1500
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 1 } }
+		add_opinion_modifier = { target = SOV modifier = bought_our_weapons }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.2
+	title = weapon_purchasing.2.t
+	desc = weapon_purchasing.2.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.2.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1500
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.2.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1500
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.2.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1500
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.2.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1500
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.3
+	title = weapon_purchasing.3.t
+	desc = weapon_purchasing.3.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.3.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1500
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.3.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1500
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.3.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1500
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.3.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1500
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 1 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.4
+	title = weapon_purchasing.4.t
+	desc = weapon_purchasing.4.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.4.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 900
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.4.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 900
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.4.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 900
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.4.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 900
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.5
+	title = weapon_purchasing.5.t
+	desc = weapon_purchasing.5.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.5.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment
+			amount = 600
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.5.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment
+			amount = 600
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.5.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment
+			amount = 600
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.5.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment
+			amount = 600
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.6
+	title = weapon_purchasing.6.t
+	desc = weapon_purchasing.6.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.6.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment
+			amount = 450
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.6.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment
+			amount = 450
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.6.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment
+			amount = 450
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.6.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment
+			amount = 450
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 2 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.7
+	title = weapon_purchasing.7.t
+	desc = weapon_purchasing.7.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.7.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment
+			amount = 300
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.7.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment
+			amount = 300
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.7.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment
+			amount = 300
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.7.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = medium_tank_equipment
+			amount = 300
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+}
+
+country_event = {
+	id = weapon_purchasing.8
+	title = weapon_purchasing.8.t
+	desc = weapon_purchasing.8.d
+	picture = news_event_german_soldiers
+
+	is_triggered_only = yes
+	
+	option = { #UK
+		name = weapon_purchasing.8.a
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = heavy_tank_equipment
+			amount = 150
+			producer = ENG
+		}
+		ENG = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #USA
+		name = weapon_purchasing.8.b
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = heavy_tank_equipment
+			amount = 150
+			producer = USA
+		}
+		USA = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #GER
+		name = weapon_purchasing.8.c
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = heavy_tank_equipment
+			amount = 150
+			producer = GER
+		}
+		GER = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+	
+	option = { #SOV
+		name = weapon_purchasing.8.e
+		add_political_power = -150
+		add_equipment_to_stockpile = {
+			type = heavy_tank_equipment
+			amount = 150
+			producer = SOV
+		}
+		SOV = { add_offsite_building = { type = arms_factory level = 3 } }
+    }
+}

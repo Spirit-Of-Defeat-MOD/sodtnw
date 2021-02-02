@@ -1,0 +1,74 @@
+﻿l_english:
+
+##Weapon Purchashing
+weapon_purchasing:0 "Foreign Arms Deal"
+
+SOD_weapon_purchasing:0 "Purchase Small Arms"
+SOD_weapon_purchasing_support:0 "Purchase Support Equipment"
+SOD_weapon_purchasing_artillery:0 "Purchase Artillery"
+SOD_weapon_purchasing_motorized:0 "Purchase Trucks"
+SOD_weapon_purchasing_mechanized:0 "Purchase Mechanized Equipment"
+SOD_weapon_purchasing_light_tank:0 "Purchase Light Tanks"
+SOD_weapon_purchasing_medium_tank:0 "Purchase Medium Tanks"
+SOD_weapon_purchasing_heavy_tank:0 "Purchase Heavy Tanks"
+
+##Weapon Purchashing Events
+weapon_purchasing.1.t:0 "Purchasing Foreign Small Arms"
+weapon_purchasing.1.d:0 ""
+weapon_purchasing.1.a:0 "Purchase British Weapons"
+weapon_purchasing.1.b:0 "Purchase American Weapons"
+weapon_purchasing.1.c:0 "Purchase German Weapons"
+weapon_purchasing.1.e:0 "Purchase Soviet Weapons"
+
+weapon_purchasing.2.t:0 "Purchasing Foreign Support Equipment"
+weapon_purchasing.2.d:0 ""
+weapon_purchasing.2.a:0 "Purchase British Support Equipment"
+weapon_purchasing.2.b:0 "Purchase American Support Equipment"
+weapon_purchasing.2.c:0 "Purchase German Support Equipment"
+weapon_purchasing.2.e:0 "Purchase Soviet Support Equipment"
+
+weapon_purchasing.3.t:0 "Purchasing Foreign Artillery"
+weapon_purchasing.3.d:0 ""
+weapon_purchasing.3.a:0 "Purchase British Artillery"
+weapon_purchasing.3.b:0 "Purchase American Artillery"
+weapon_purchasing.3.c:0 "Purchase German Artillery"
+weapon_purchasing.3.e:0 "Purchase Soviet Artillery"
+
+weapon_purchasing.4.t:0 "Purchasing Foreign Motorized Equipment"
+weapon_purchasing.4.d:0 ""
+weapon_purchasing.4.a:0 "Purchase British Motorized Equipment"
+weapon_purchasing.4.b:0 "Purchase American Motorized Equipment"
+weapon_purchasing.4.c:0 "Purchase German Motorized Equipment"
+weapon_purchasing.4.e:0 "Purchase Soviet Motorized Equipment"
+
+weapon_purchasing.5.t:0 "Purchasing Foreign Mechanized Equipment"
+weapon_purchasing.5.d:0 ""
+weapon_purchasing.5.a:0 "Purchase British Mechanized Equipment"
+weapon_purchasing.5.b:0 "Purchase American Mechanized Equipment"
+weapon_purchasing.5.c:0 "Purchase German Mechanized Equipment"
+weapon_purchasing.5.e:0 "Purchase Soviet Mechanized Equipment"
+
+weapon_purchasing.6.t:0 "Purchasing Foreign Light Tanks"
+weapon_purchasing.6.d:0 ""
+weapon_purchasing.6.a:0 "Purchase British Light Tanks"
+weapon_purchasing.6.b:0 "Purchase American Light Tanks"
+weapon_purchasing.6.c:0 "Purchase German Light Tanks"
+weapon_purchasing.6.e:0 "Purchase Soviet Light Tanks"
+
+weapon_purchasing.7.t:0 "Purchasing Foreign Medium Tanks"
+weapon_purchasing.7.d:0 ""
+weapon_purchasing.7.a:0 "Purchase British Medium Tanks"
+weapon_purchasing.7.b:0 "Purchase American Medium Tanks"
+weapon_purchasing.7.c:0 "Purchase German Medium Tanks"
+weapon_purchasing.7.e:0 "Purchase Soviet Medium Tanks"
+
+weapon_purchasing.8.t:0 "Purchasing Foreign Heavy Tanks"
+weapon_purchasing.8.d:0 ""
+weapon_purchasing.8.a:0 "Purchase British Heavy Tanks"
+weapon_purchasing.8.b:0 "Purchase American Heavy Tanks"
+weapon_purchasing.8.c:0 "Purchase German Heavy Tanks"
+weapon_purchasing.8.e:0 "Purchase Soviet Heavy Tanks"
+
+
+
+

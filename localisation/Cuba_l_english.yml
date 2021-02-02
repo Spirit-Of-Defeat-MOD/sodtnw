@@ -35,7 +35,8 @@ CUB_utilitarian_despot_ADJ:0 "Cuban"
 CUB_fascism_ADJ:0 "Cuban" 
 
 #Party names
-CUB_libertarian_socialist_party:0 ""
+CUB_libertarian_socialist_party:0 "CNOC"
+CUB_libertarian_socialist_party_long:0 "Confederación Nacional Obrera Cubana"
 CUB_communism_party:0 "PCC"
 CUB_communism_party_long:0 "Partido Comunista de Cuba"
 CUB_reformist_socialist_party:0 ""

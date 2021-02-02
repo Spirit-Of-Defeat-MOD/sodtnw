@@ -1,81 +1,247 @@
-weapon_purchasing = {
+weapon_purchasing = {	
 	SOD_weapon_purchasing = {
-		#icon = early mobilization
-		
+		icon = generic_nationalism
 		allowed = {
 			always = yes
 		}
+		
 		available = {
-			has_completed_focus = equipment_purchase
-			has_country_flag = { equipment_purchase_flag }
+			
+			has_political_power > 150
+			has_tech = infantry_weapons
+
 		}
 		visible = {
-			has_country_flag = { equipment_purchase_flag }
-		}
-		
-		complete_effect = {
-			set_country_flag = weapon_purchasing_flag
-		}
-	}
-	
-	SOD_weapon_purchasing_USA = {
-		#icon = early mobilization
-		
-		allowed = {
 			always = yes
 		}
-		available = {
-			has_country_flag = { weapon_purchasing_flag }
-			NOT = {
-				OR = {
-					has_country_flag = weapon_purchase_ENG
-				}
-			}
-		}
-		visible = {
-			has_country_flag = { weapon_purchasing_flag }
+		
+		ai_will_do = {
+			factor = 999
 		}
 		
 		days_re_enable = 30
 		
 		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1
-				amount = 1500
-				producer = USA
+			country_event = {
+				id = weapon_purchasing.1
+				hours = 6
 			}
-			civilian_factory_use = 1
-			set_country_flag = weapon_purchase_USA
+		}
+		
+	}
+	
+	SOD_weapon_purchasing_support = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = tech_support
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.2
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
 		}
 	}
 	
-	SOD_weapon_purchasing_ENG = {
-		#icon = early mobilization
-		
+	SOD_weapon_purchasing_artillery = {
+		icon = generic_nationalism
 		allowed = {
 			always = yes
 		}
+		
 		available = {
-			has_country_flag = { weapon_purchasing_flag }
-			NOT = {
-				OR = {
-					has_country_flag = weapon_purchase_USA
-				}
-			}
+			
+			has_political_power > 150
+			has_tech = infantry_weapons
+
 		}
 		visible = {
-			has_country_flag = { weapon_purchasing_flag }
+			always = yes
+		}
+		
+		ai_will_do = {
+			factor = 999
 		}
 		
 		days_re_enable = 30
 		
 		complete_effect = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1
-				amount = 1500
-				producer = ENG
+			country_event = {
+				id = weapon_purchasing.3
+				hours = 6
 			}
-			civilian_factory_use = 1
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	
+	SOD_weapon_purchasing_motorized = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = motorised_infantry
+			has_completed_focus = equipment_purchase_2
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.4
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	
+	SOD_weapon_purchasing_mechanized = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = mechanised_infantry
+			has_completed_focus = equipment_purchase_2
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.5
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	
+	SOD_weapon_purchasing_light_tank = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = gwtank
+			has_tech = basic_light_tank
+			has_completed_focus = equipment_purchase_2
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.6
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	
+	SOD_weapon_purchasing_medium_tank = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = gwtank
+			has_tech = basic_medium_tank
+			has_completed_focus = equipment_purchase_2
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.7
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
+		}
+	}
+	
+	SOD_weapon_purchasing_heavy_tank = {
+
+		icon = generic_nationalism
+
+		available = {
+			is_ai = no
+			has_political_power > 150
+			has_tech = gwtank
+			has_tech = basic_heavy_tank
+			has_completed_focus = equipment_purchase_2
+		}
+		
+        cost = 0
+		
+		visible = {
+            always = yes
+		}
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			country_event = {
+				id = weapon_purchasing.8
+				hours = 6
+			}
+		}
+		ai_will_do = {
+			factor = 999
 		}
 	}
 }

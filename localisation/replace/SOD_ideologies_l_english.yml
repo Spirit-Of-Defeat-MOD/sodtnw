@@ -12,6 +12,9 @@ utilitarian_despot:0 "Utilitarian Despot"
 fascism:0 "National Syndicalist" 
  
  ##
+ libertarian_socialist_desc:0 "Libertarian Regime"
+ reformist_socialist_desc:0 "Reformist Regime"
+ 
  fascism_desc:0 "Totalitarian Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"

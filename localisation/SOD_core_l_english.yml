@@ -31,6 +31,9 @@ planned_economy:0 "Planned Economy"
 manifest_destiny:0 "Manifest our Destiny"
 economic_corporatism:0 "Corporatism"
 
+##Generic Tree Ideas
+manifest_destiny:0 "Manifest Destiny"
+
 
 equipment_purchase_tt:0 "Allows the purhcase of motorized and tank equipment"
 aircraft_purchase_tt:0 "Allows the Purchase of Aircraft"

@@ -19,6 +19,7 @@ country_event = {
 			amount = 1500
 			producer = ENG
 		}
+			
 		ENG = { add_offsite_building = { type = arms_factory level = 1 } }
 		add_opinion_modifier = { target = ENG modifier = bought_our_weapons }
     

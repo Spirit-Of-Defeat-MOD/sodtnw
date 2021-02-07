@@ -1,0 +1,19 @@
+﻿l_english:
+
+##Decisions
+occupation_decisions:0 "Occupation Decisions"
+
+annexation_MLI_CONQ:0 "Occupation of Mali"
+annexation_TOG_CONQ:0 "Occupation of Togo"
+
+##Events
+#Mali
+occupation.1.t:0 "Fate of Mali"
+occupation.1.d:0 ""
+occupation.1.a:0 "Liberate it"
+occupation.1.b:0 "Re-Integrate Mali into the Empire"
+occupation.1.c:0 "Return it to French West Africa"
+occupation.annex:0 "Continue our occupation"
+
+
+

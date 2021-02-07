@@ -1,0 +1,81 @@
+##################################
+# Occupation Decisions by Kstar
+# Mantain in Alphapetical order
+##################################
+occupation_decisions = {
+	#MALI
+	annexation_MLI_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		
+		activation = {
+			556 = {
+				is_owned_and_controlled_by = ROOT
+			}
+
+			is_subject = no
+			NOT = {
+				has_country_flag = MLI_annex
+				country_exists = MLI
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				556 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_MLI_CONQ"
+			country_event = occupation.1
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MLI_CONQ"
+			set_country_flag = MLI_CONQ
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	#Togo
+	annexation_TOG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		
+		activation = {
+			777 = {
+				is_owned_and_controlled_by = ROOT
+			}
+
+			is_subject = no
+			NOT = {
+				has_country_flag = TOG_annex
+				country_exists = TOG
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				777 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TOG_CONQ"
+			country_event = occupation.2
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TOG_CONQ"
+			set_country_flag = TOG_CONQ
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

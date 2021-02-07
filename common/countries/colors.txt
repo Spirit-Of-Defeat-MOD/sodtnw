@@ -704,7 +704,7 @@ SHL = {
 	color_ui = rgb { 51 51 255 }
 }
 
-##NEW Countries
+###NEW Countries###
 NEW = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
@@ -756,4 +756,9 @@ AOF = {
 TUA = {
 	color = rgb { 174 90 6 }
 	color_ui = rgb { 174 90 6 }
+}
+
+IEA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
 }

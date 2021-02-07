@@ -5,6 +5,7 @@ tags={
 	"Ideologies"
 	"National Focuses"
 }
+replace_path="common/ai_peace"
 replace_path="history/states"
 
 name="Spirit of Defeat: The New War"

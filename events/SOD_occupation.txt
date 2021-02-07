@@ -1,0 +1,190 @@
+#################################
+# Occupation Events
+# Feel free to create and modify
+# the events for your country
+#################################
+
+add_namespace = occupation
+
+# Mali - these nations are first, testing with fren west africa
+country_event = {
+	id = occupation.1
+	title = occupation.1.t
+	desc = occupation.1.d
+	picture = GFX_event_Generic_occupation
+
+	is_triggered_only = yes
+	
+	option = { #release Mali - Normal
+		trigger = {
+			NOT = { original_tag = FRE }
+		}
+		name = occupation.1.a
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			556 = { add_core_of = MLI }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = MLI
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			MLI = {
+				transfer_state = PREV
+			}
+		}
+		puppet = MLI
+	}
+	
+	option = { # release Mali - French
+		trigger = {
+			original_tag = FRE
+		}
+		name = occupation.1.b
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			556 = { add_core_of = MLI }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = MLI
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			MLI = {
+				transfer_state = PREV
+			}
+		}
+		puppet = MLI
+		MLI = { set_cosmetic_tag = FRE_MLI }
+	}
+	
+	option = { # Give to AOF - French
+		trigger = {
+			original_tag = FRE
+		}
+		name = occupation.1.c
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			556 = { add_core_of = MLI }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = MLI
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			AOF = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+		name = occupation.annex
+		add_political_power = -50
+		add_stability = -0.075
+		add_war_support = -0.05
+		set_country_flag = MLI_annex
+	}
+}
+
+# Togo
+country_event = {
+	id = occupation.2
+	title = occupation.2.t
+	desc = occupation.2.d
+	picture = GFX_event_Generic_occupation
+
+	is_triggered_only = yes
+	
+	option = { # release TOG - normal
+		trigger = {
+			NOT = { original_tag = FRE }
+			OR = { NOT = { original_tag = GER }}
+		}
+		name = occupation.2.a
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			777 = { add_core_of = TOG }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = TOG
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			TOG = {
+				transfer_state = PREV
+			}
+		}
+		puppet = TOG
+	}
+	
+	option = { # release TOG - french
+		trigger = {
+			original_tag = FRE
+		}
+		name = occupation.2.b
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			777 = { add_core_of = TOG }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = TOG
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			TOG = {
+				transfer_state = PREV
+			}
+		}
+		puppet = TOG
+		TOG = { set_cosmetic_tag = FRE_TOG }
+	}
+	
+	option = { # release TOG - german
+		trigger = {
+			original_tag = GER
+		}
+		name = occupation.2.c
+		ai_chance = {
+			factor = 90
+		}
+		hidden_effect = {
+			777 = { add_core_of = TOG }
+		}
+
+		every_owned_state = {
+			limit = {
+				is_core_of = TOG
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			TOG = {
+				transfer_state = PREV
+			}
+		}
+		puppet = TOG
+		TOG = { set_cosmetic_tag = GER_TOG }
+	}
+	
+	option = {
+		name = occupation.annex
+		add_political_power = -50
+		add_stability = -0.075
+		add_war_support = -0.05
+		set_country_flag = TOG_annex
+	}
+}

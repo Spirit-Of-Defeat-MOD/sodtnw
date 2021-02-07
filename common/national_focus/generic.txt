@@ -1857,13 +1857,13 @@ focus_tree = {
 		prerequisite = { focus = political_effort }
 		mutually_exclusive = { focus = political_moderatism }
 		available = {
-			#OR = {
-			#	has_government = libertarian_socialist
-			#	has_government = communism
-			#	has_government = reformist_socialist
-			#	has_government = utilitarian_despot
-			#	has_government = fascism
-			#}
+			OR = {
+				has_government = libertarian_socialist
+				has_government = communism
+				has_government = reformist_socialist
+				has_government = utilitarian_despot
+				has_government = fascism
+			}
 		}
 		x = -1
 		y = 1
@@ -1947,17 +1947,17 @@ focus_tree = {
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = nationalism_focus }
 		available = {
-			#if = {
-			#	limit = { original_tag = CHI }
-			#	has_government = communism
-			#	else = {
-			#		#OR = {
-			#			#has_government = libertarian_socialist
-			#			#has_government = communism
-			#			#has_government = reformist_socialist
-			#		}
-			#	}
-			#}
+			if = {
+				limit = { original_tag = CHI }
+				has_government = communism
+				else = {
+					OR = {
+						has_government = libertarian_socialist
+						has_government = communism
+						has_government = reformist_socialist
+					}
+				}
+			}
 		}
 		x = -2
 		y = 1
@@ -2001,13 +2001,13 @@ focus_tree = {
 		prerequisite = { focus = political_effort }
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
-			#OR = {
-			#	has_government = social_democrat
-			#	has_government = social_liberal
-			#	has_government = classic_liberal
-			#	has_government = democratic
-			#	has_government = neutrality
-			#}
+			OR = {
+				has_government = social_democrat
+				has_government = social_liberal
+				has_government = classic_liberal
+				has_government = democratic
+				has_government = neutrality
+			}
 		}
 		x = 1
 		y = 1
@@ -2049,13 +2049,13 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = political_moderatism }
 		available = {
-			#OR = {
-			#	has_government = social_democrat
-			#	has_government = social_liberal
-			#	has_government = classic_liberal
-			#	has_government = democratic
-			#	has_government = neutrality
-			#}
+			OR = {
+				has_government = social_democrat
+				has_government = social_liberal
+				has_government = classic_liberal
+				has_government = democratic
+				has_government = neutrality
+			}
 		}
 		x = 1
 		y = 2
@@ -2321,15 +2321,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = any_neighbor_country
-			}
-			
-			create_wargoal = {
-				type = annex_everything
-				target = any_neighbor_country
-			}
+			add_ideas = manifest_destiny
+				
 		}
 	}
 
@@ -2485,6 +2478,7 @@ focus_tree = {
 		id = spread_revolution
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = planned_economy }
+		mutually_exclusive = { focus = socialism_in_one_country }
 		available = {
 		}
 		x = 1
@@ -2500,19 +2494,17 @@ focus_tree = {
 			set_rule = {
 				can_puppet = yes
 			}
-			
 			set_rule = {
 				can_force_government = yes
 			}
 			
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = any_neighbor_country
-			}
-			
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = any_neighbor_country
+			every_neighbor_country = {
+				limit = {
+				}
+				add_timed_idea = {
+					idea = internationalism
+					days = 365
+				}
 			}
 			
 		}

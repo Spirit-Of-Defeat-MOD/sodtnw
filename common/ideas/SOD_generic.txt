@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		manifest_destiny = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				justify_war_goal_time = -0.3
+				generate_wargoal_tension = -0.3
+			}
+		}
+		
+		socialist_propoganda = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+				libertarian_socialist_drift = 0.1
+				reformist_socialist_drift = 0.1
+			}
+		}
+
+	}
+}

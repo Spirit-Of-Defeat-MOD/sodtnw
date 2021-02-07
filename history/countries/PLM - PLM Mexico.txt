@@ -67,7 +67,7 @@ create_country_leader = {
 	desc = "POLITICS_PLM_DESC"
 	picture = "Portrait_R_Magon.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = anarchist_communist
 	traits = {
 	}
 }
@@ -81,6 +81,7 @@ create_field_marshal = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 3
+	id = 80001
 }
 
 create_corps_commander = {
@@ -92,6 +93,7 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 3
+	id = 80002
 }
 
 create_corps_commander = {
@@ -103,6 +105,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 4
 	logistics_skill = 1
+	id = 80003
 }
 
 create_corps_commander = {
@@ -114,4 +117,5 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 4
+	id = 80004
 }

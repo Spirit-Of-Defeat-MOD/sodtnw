@@ -1,0 +1,44 @@
+##################################
+# Occupation Decisions by Kstar
+# Mantain in Alphapetical order
+##################################
+mexican_rev_generals = {
+	##Magonistas generals
+	#Carol Ap Rhys Pryce
+	recruit_PLM_Pryce = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			800 = {
+				is_owned_and_controlled_by = ROOT
+			}
+
+			is_subject = no
+			NOT = {
+				has_country_flag = 80001_recruit
+				country_exists = PLM
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				800 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision recruit_PLM_80001"
+			country_event = recruit_gen.1
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout recruit_PLM_80001"
+			#80001 = { retire = yes }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

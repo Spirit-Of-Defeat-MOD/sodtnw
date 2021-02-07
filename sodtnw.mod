@@ -6,4 +6,6 @@ tags={
 	"Gameplay"
 	"Map"
 }
+replace_path="common/ai_peace"
+replace_path="history/states"
 supported_version="1.10.*"

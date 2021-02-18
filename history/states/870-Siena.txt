@@ -1,0 +1,29 @@
+
+state={
+	id=870
+	name="STATE_870"
+	manpower = 978000	
+	
+	state_category = c5
+
+	history={
+		owner = ITA
+		victory_points = {
+			11833 1 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			11833 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		6875 11833 9750 9879 910
+	}
+}

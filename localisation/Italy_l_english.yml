@@ -66,7 +66,33 @@ ITA_reformist_socialist_party_long:0 "Partito Socialista Italiano"
 #should be reintegrated
 
 #Events
-#should be reintegrated
+icw.1.t:0 "The Socialists Revolt"
+icw.1.d:0 "After a decade of anarchist and communist control Lombardy has become the capital of Italian Leftism. Rome has lost complete control over the region and surrounding areas, Industrialists and Capitalists alike have has their property forcibly taken while being massacred in droves by armed workers who plan to spread their revolution to their revolution to the entire country. "
+icw.1.a:0 "Crush them at all costs"
+icw.1.b:0 "Workers of the world, unite!"
+
+icw.2.t:0 "The Military Plot"
+icw.2.d:0 "Disgruntled Veterans and active duty soldiers in the armed forces have united to seize control of Italy from the ANI government after the exile of the Italian Monarchy. The Royal Army are taking over state authorities, and the clergy has chose to side with them citing the removal of the monarch as a threat to Italian tradition,Umberto di Savoia and his cousin Amedeo di Savoia-Aosta the pretender has flown to Piedmont to meet with prominent generals and politicians to proclaim the reclaimation of Italy on behalf of the people!"
+icw.2.a:0 "Crush them at all costs"
+icw.2.b:0 "Down with the traitors"
+
+icw.3.t:0 "La Rovina"
+icw.3.d:0 ""
+icw.3.a:0 "We must salvage our great nation!"
+
+icw.4.t:0 "Unrest in the colonies"
+icw.4.d:0 "With the mainland stuck caught in conflict and colonial troops being pulled to fight, the colonies are now becoming rowdy, a potential revolt is brewing but there might not be much we can do about it."
+icw.4.a:0 "Deal with it another time"
+
+icw.5.t:0 "Rise of the Senusiyya"
+icw.5.d:0 "With Brutal Oppression during and after the pacification of Libya the Senussi Religious Order has once again decided to resist our imperial rule. Emboldened by our civil war and the unrest in French West Africa they have decide to make a stake for independence once again despite the death of their most famous military commander Omar al-Muhktar the Matari of the Mnifa."
+icw.5.a:0 "Crush them"
+icw.5.b:0 "Freedom at Last(Play as Senussi)"
+
+icw.6.t:0 "Rise of the Triopolitanian Republic"
+icw.6.d:0 "."
+icw.6.a:0 "Crush them"
+icw.6.b:0 "Freedom at Last(Play as Tripoli)"
 
 #Descriptions
 

@@ -1,0 +1,75 @@
+﻿l_english: 
+
+#Parties
+ITS_fascism_party:0 "ANI"
+ITS_fascism_party_long:0 "Associazione Nazionalista Italiana"
+ITS_communism_party:0 "PCd'I"
+ITS_communism_party_long:0 "Partito Comunista d'Italia"
+ITS_democratic_party:0 "PPI"
+ITS_democratic_party_long:0 "Partito Popolare Italiano"
+ITS_utilitarian_despot_party:0 ""
+ITS_utilitarian_despot_party_long:0 ""
+ITS_neutrality_party:0 "PdC"
+ITS_neutrality_party_long:0 "Partito dei Combattenti"
+ITS_social_democracy_party:0 "PDR"
+ITS_social_democracy_party_long:0 "Partito Democratico Riformista"
+ITS_social_liberal_party:0 "PLD"
+ITS_social_liberal_party_long:0 "Partito Liberale Democratico"
+ITS_classic_liberal_party:0 "PLI"
+ITS_classic_liberal_party_long:0 "Partito Liberale Italiano"
+ITS_libertarian_socialist_party:0 "USI"
+ITS_libertarian_socialist_party_long:0 "Unione Sindacale Italiana"
+ITS_reformist_socialist_party:0 "PSI"
+ITS_reformist_socialist_party_long:0 "Partito Socialista Italiano"
+##ITS_nihilistic_extremism_party:0 ""
+##ITS_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ITS_fascism:0 "Italian Socialist Republic"
+ ITS_fascism_DEF:0 "the Italian Socialist Republic"
+ ITS_reformist_socialist:0 "Italian Socialist Republic"
+ ITS_reformist_socialist_DEF:0 "the Italian Socialist Republic"
+ ITS_utilitarian_despot:0 "Italian Socialist Republic"
+ ITS_utilitarian_despot_DEF:0 "the Italian Socialist Republic"
+ ITS_democratic:0 "Italian Socialist Republic"
+ ITS_democratic_DEF:0 "the Italian Socialist Republic"
+ ITS_neutrality:1 "Italian Socialist Republic"
+ ITS_neutrality_DEF:1 "the Italian Socialist Republic"
+ ITS_libertarian_socialist:0 "Italian Socialist Republic"
+ ITS_libertarian_socialist_DEF:0 "the Italian Socialist Republic"
+ ITS_social_democracy:0 "Italian Socialist Republic"
+ ITS_social_democracy_DEF:0 "the Italian Socialist Republic"
+ ITS_social_liberal:0 "Italian Socialist Republic"
+ ITS_social_liberal_DEF:0 "the Italian Socialist Republic"
+ ITS_classic_liberal:0 "Italian Socialist Republic"
+ ITS_classic_liberal_DEF:0 "the Italian Socialist Republic"
+ ITS_communism:0 "Italian Socialist Republic"
+ ITS_communism_DEF:0 "the Italian Socialist Republic"
+ 
+ ITS_fascism_ADJ:0 "Italian"
+ ITS_totalitarian_socialism_ADJ:0 "Italian"
+ ITS_democratic_ADJ:0 "Italian"
+ ITS_utilitarian_despot_ADJ:0 "Italian"
+ ITS_democratic_socialism_ADJ:0 "Italian"
+ ITS_neutrality_ADJ:0 "Italian"
+ ITS_social_democracy_ADJ:0 "Italian"
+ ITS_social_liberal_ADJ:0 "Italian"
+ ITS_classic_liberal_ADJ:0 "Italian"
+ ITS_communism_ADJ:0 "Italian"
+
+#Ministers
+#should be reintegrated
+#Ideas
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+#Parties
+ 

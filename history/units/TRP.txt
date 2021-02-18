@@ -1,0 +1,82 @@
+division_template = {
+	name = "Firqat Musha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Firqat Alfursan"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Firqat Musha"
+		location = 12093
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2. Firqat Musha"
+		location = 1189
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3. Firqat Musha"
+		location = 1149
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4. Firqat Musha"
+		location = 4194
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1. Firqat Alfursan"
+		location = 7209
+		division_template = "Firqat Alfursan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2. Firqat Alfursan"
+		location = 9980
+		division_template = "Firqat Alfursan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3. Firqat Alfursan"
+		location = 1118
+		division_template = "Firqat Alfursan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+}

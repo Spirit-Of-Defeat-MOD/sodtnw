@@ -1,0 +1,23 @@
+state=
+{
+	id=867
+	name="STATE_867"
+	manpower = 	2000000
+	
+	state_category = c4
+
+	history=
+	{
+		owner = IEA
+		add_core_of = IEA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces=
+	{
+     12714 7980  }
+}

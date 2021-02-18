@@ -1,0 +1,19 @@
+state={
+	id=854
+	name="STATE_854" # Basutoland
+	manpower = 348848
+	
+	state_category = c3
+
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		4556
+	}
+}

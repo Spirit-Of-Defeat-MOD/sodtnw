@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+LBA_fascism_party:0 ""
+LBA_fascism_party_long:0 ""
+LBA_communism_party:0 ""
+LBA_communism_party_long:0 ""
+LBA_democratic_party:1 ""
+LBA_democratic_party_long:0 ""
+LBA_utilitarian_despot_party:0 "Senusiyya"
+LBA_utilitarian_despot_party_long:0 "Senusiyya"
+LBA_neutrality_party:0 ""
+LBA_neutrality_party_long:0 ""
+LBA_social_democrat_party:0 ""
+LBA_social_democrat_party_long:0 ""
+LBA_social_liberal_party:0 ""
+LBA_social_liberal_party_long:0 ""
+LBA_classic_liberal_party:0 ""
+LBA_classic_liberal_party_long:0 ""
+LBA_libertarian_socialist_party:0 ""
+LBA_libertarian_socialist_party_long:0 ""
+LBA_revolutionary_socialism_party:0 ""
+LBA_revolutionary_socialism_party_long:0 ""
+LBA_reformist_socialist_party:0 ""
+LBA_reformist_socialist_party_long:0 ""
+
+#Country Names
+LBA_fascism:0 "Senussi Order"
+LBA_fascism_DEF:0 "Senussi Order"
+LBA_libertarian_socialist:0 "Socialist People's Libyan Arab Jamahiriya"
+LBA_libertarian_socialist_DEF:0 "Socialist People's Libyan Arab Jamahiriya"
+LBA_utilitarian_despot:0 "Senussi Order"
+LBA_utilitarian_despot_DEF:0 "the Senussi Order"
+LBA_democratic:0 "Senussi Order"
+LBA_democratic_DEF:0 "Senussi Order"
+LBA_neutrality:1 "Senussi Order"
+LBA_neutrality_DEF:1 "the Senussi Order"
+LBA_reformist_socialist:0 "Socialist People's Libyan Arab Jamahiriya"
+LBA_reformist_socialist_DEF:0 "Socialist People's Libyan Arab Jamahiriya"
+LBA_social_democrat:0 "Senussi Order"
+LBA_social_democrat_DEF:0 "Senussi Order"
+LBA_social_liberal:0 "Senussi Order"
+LBA_social_liberal_DEF:0 "Senussi Order"
+LBA_classic_liberal:0 "Senussi Order"
+LBA_classic_liberal_DEF:0 "Senussi Order"
+LBA_communism:0 "Socialist People's Libyan Arab Jamahiriya"
+LBA_communism_DEF:0 "Socialist People's Libyan Arab Jamahiriya"
+ 
+LBA_fascism_ADJ:0 "Libyan"
+LBA_fascism_ADJ:0 "Libyan"
+LBA_libertarian_socialist_ADJ:0 "Libyan"
+LBA_democratic_ADJ:0 "Libyan"
+LBA_utilitarian_despot_ADJ:0 "Libyan"
+LBA_reformist_socialist_ADJ:0 "Libyan"
+LBA_neutrality_ADJ:0 "Libyan"
+LBA_social_democrat_ADJ:0 "Libyan"
+LBA_social_liberal_ADJ:0 "Libyan"
+LBA_classic_liberal_ADJ:0 "Libyan"
+LBA_communism_ADJ:0 "Libyan"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

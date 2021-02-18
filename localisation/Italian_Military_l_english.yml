@@ -1,0 +1,75 @@
+﻿l_english: 
+
+#Parties
+ITM_fascism_party:0 "ANI"
+ITM_fascism_party_long:0 "Associazione Nazionalista Italiana"
+ITM_communism_party:0 "PCd'I"
+ITM_communism_party_long:0 "Partito Comunista d'Italia"
+ITM_democratic_party:0 "PPI"
+ITM_democratic_party_long:0 "Partito Popolare Italiano"
+ITM_utilitarian_despot_party:0 ""
+ITM_utilitarian_despot_party_long:0 ""
+ITM_neutrality_party:0 "PdC"
+ITM_neutrality_party_long:0 "Partito dei Combattenti"
+ITM_social_democracy_party:0 "PDR"
+ITM_social_democracy_party_long:0 "Partito Democratico Riformista"
+ITM_social_liberal_party:0 "PLD"
+ITM_social_liberal_party_long:0 "Partito Liberale Democratico"
+ITM_classic_liberal_party:0 "PLI"
+ITM_classic_liberal_party_long:0 "Partito Liberale Italiano"
+ITM_libertarian_socialist_party:0 "USI"
+ITM_libertarian_socialist_party_long:0 "Unione Sindacale Italiana"
+ITM_reformist_socialist_party:0 "PSI"
+ITM_reformist_socialist_party_long:0 "Partito Socialista Italiano"
+##ITM_nihilistic_extremism_party:0 ""
+##ITM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ITM_fascism:0 "Royal Italian Army"
+ ITM_fascism_DEF:0 "the Royal Italian Army"
+ ITM_reformist_socialist:0 "Royal Italian Army"
+ ITM_reformist_socialist_DEF:0 "the Royal Italian Army"
+ ITM_utilitarian_despot:0 "Royal Italian Army"
+ ITM_utilitarian_despot_DEF:0 "the Royal Italian Army"
+ ITM_democratic:0 "Royal Italian Army"
+ ITM_democratic_DEF:0 "the Royal Italian Army"
+ ITM_neutrality:1 "Royal Italian Army"
+ ITM_neutrality_DEF:1 "the Royal Italian Army"
+ ITM_libertarian_socialist:0 "Royal Italian Army"
+ ITM_libertarian_socialist_DEF:0 "the Royal Italian Army"
+ ITM_social_democracy:0 "Royal Italian Army"
+ ITM_social_democracy_DEF:0 "the Royal Italian Army"
+ ITM_social_liberal:0 "Royal Italian Army"
+ ITM_social_liberal_DEF:0 "the Royal Italian Army"
+ ITM_classic_liberal:0 "Royal Italian Army"
+ ITM_classic_liberal_DEF:0 "the Royal Italian Army"
+ ITM_communism:0 "Royal Italian Army"
+ ITM_communism_DEF:0 "the Royal Italian Army"
+ 
+ ITM_fascism_ADJ:0 "Italian"
+ ITM_totalitarian_socialism_ADJ:0 "Italian"
+ ITM_democratic_ADJ:0 "Italian"
+ ITM_utilitarian_despot_ADJ:0 "Italian"
+ ITM_democratic_socialism_ADJ:0 "Italian"
+ ITM_neutrality_ADJ:0 "Italian"
+ ITM_social_democracy_ADJ:0 "Italian"
+ ITM_social_liberal_ADJ:0 "Italian"
+ ITM_classic_liberal_ADJ:0 "Italian"
+ ITM_communism_ADJ:0 "Italian"
+
+#Ministers
+#should be reintegrated
+#Ideas
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+ 

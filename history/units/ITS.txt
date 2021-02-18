@@ -1,0 +1,206 @@
+division_template = {
+	name = "Guardia Rossa"
+	division_names_group = ITA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigata Rossa"
+	division_names_group = ITA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+### Red Guard Militia Units ###
+	division = {
+		name = "Divisione della Rivoluzione"
+		location = 3780
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Milan"
+		location = 3780
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Siena"
+		location = 6875
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Florence"
+		location = 910
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Bolzano"
+		location = 6675
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Trieste"
+		location = 11595
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Divisione Bolongna"
+		location = 6606
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1a Brigata Rossa"
+		location = 6631
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2a Brigata Rossa"
+		location = 6675
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3a Brigata Rossa"
+		location = 9630
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4a Brigata Rossa"
+		location = 11615
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "5a Brigata Rossa"
+		location = 3657
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "6a Brigata Rossa"
+		location = 9613
+		division_template = "Brigata Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "7a Brigata Rossa"
+		location = 6793
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "8a Brigata Rossa"
+		location = 782
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "9a Brigata Rossa"
+		location = 9924
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10a Brigata Rossa"
+		location = 11833
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "11a Brigata Rossa"
+		location = 9750
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "12a Brigata Rossa"
+		location = 9879
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "13a Brigata Rossa"
+		location = 11734
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "14a Brigata Rossa"
+		location = 3776
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "15a Brigata Rossa"
+		location = 773
+		division_template = "Guardia Rossa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}

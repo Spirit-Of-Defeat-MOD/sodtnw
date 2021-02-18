@@ -13286,4 +13286,25 @@
 13285;20;20;20;land;false;plains;1
 13286;40;40;40;land;false;plains;1
 13287;60;60;60;land;false;plains;1
+13288;67;124;243;land;false;desert;5
+13289;190;229;30;land;false;desert;5
+13290;185;25;120;land;false;desert;5
+13291;90;19;65;land;false;mountain;5
+13292;38;16;14;land;false;mountain;5
+13293;0;96;87;land;false;hills;5
+13294;232;142;53;land;false;hills;5
+13295;152;30;89;land;false;hills;5
+13296;201;38;89;land;false;plains;5
+13297;230;0;245;land;false;plains;5
+13298;233;178;68;land;false;plains;5
+13299;231;47;248;land;false;mountain;5
+13300;89;241;167;land;false;mountain;5
+13301;100;24;214;land;false;mountain;5
+13302;31;211;162;land;false;mountain;5
+13303;80;87;78;land;false;hills;5
+13304;23;230;178;land;false;hills;5
+13305;231;57;60;land;false;mountain;5
+13306;98;30;39;land;false;mountain;5
+13307;51;65;81;land;false;desert;5
+13308;178;144;183;land;false;desert;5
 

@@ -1,0 +1,33 @@
+
+state={
+	id=868
+	name="STATE_868"
+	manpower = 1467000	
+	
+	state_category = c6
+	resources={
+		chromium = 4 # was: 4
+		tungsten = 2 # was: 2
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			6788 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		11891 3772 6788
+	}
+}

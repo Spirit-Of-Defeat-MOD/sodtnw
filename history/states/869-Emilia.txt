@@ -1,0 +1,29 @@
+
+state={
+	id=869
+	name="STATE_869"
+	manpower = 2202401
+	
+	state_category = c6
+	
+	resources={
+		aluminium=5 # was: 16
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		6790 9752 3976 3773 
+	}
+}

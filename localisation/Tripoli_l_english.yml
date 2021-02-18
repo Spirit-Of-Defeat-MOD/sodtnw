@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+TRP_fascism_party:0 ""
+TRP_fascism_party_long:0 ""
+TRP_communism_party:0 ""
+TRP_communism_party_long:0 ""
+TRP_democratic_party:1 "NLC"
+TRP_democratic_party_long:0 "National Liberation Committee"
+TRP_utilitarian_despot_party:0 ""
+TRP_utilitarian_despot_party_long:0 ""
+TRP_neutrality_party:0 ""
+TRP_neutrality_party_long:0 ""
+TRP_social_democrat_party:0 "NRP"
+TRP_social_democrat_party_long:0 "National Reform Party"
+TRP_social_liberal_party:0 "NLC"
+TRP_social_liberal_party_long:0 "National Liberation Committee"
+TRP_classic_liberal_party:0 "NLC"
+TRP_classic_liberal_party_long:0 "National Liberation Committee"
+TRP_libertarian_socialist_party:0 ""
+TRP_libertarian_socialist_party_long:0 ""
+TRP_revolutionary_socialism_party:0 ""
+TRP_revolutionary_socialism_party_long:0 ""
+TRP_reformist_socialist_party:0 ""
+TRP_reformist_socialist_party_long:0 ""
+
+#Country Names
+TRP_fascism:0 "Republic of Tripoli"
+TRP_fascism_DEF:0 "Republic of Tripoli"
+TRP_libertarian_socialist:0 "Socialist Republic of Tripoli"
+TRP_libertarian_socialist_DEF:0 "Socialist Republic of Tripoli"
+TRP_utilitarian_despot:0 "Republic of Tripoli"
+TRP_utilitarian_despot_DEF:0 "the Republic of Tripoli"
+TRP_democratic:0 "Republic of Tripoli"
+TRP_democratic_DEF:0 "Republic of Tripoli"
+TRP_neutrality:1 "Republic of Tripoli"
+TRP_neutrality_DEF:1 "the Republic of Tripoli"
+TRP_reformist_socialist:0 "Socialist Republic of Tripoli"
+TRP_reformist_socialist_DEF:0 "Socialist Republic of Tripoli"
+TRP_social_democrat:0 "Republic of Tripoli"
+TRP_social_democrat_DEF:0 "Republic of Tripoli"
+TRP_social_liberal:0 "Republic of Tripoli"
+TRP_social_liberal_DEF:0 "Republic of Tripoli"
+TRP_classic_liberal:0 "Republic of Tripoli"
+TRP_classic_liberal_DEF:0 "Republic of Tripoli"
+TRP_communism:0 "Socialist Republic of Tripoli"
+TRP_communism_DEF:0 "Socialist Republic of Tripoli"
+ 
+TRP_fascism_ADJ:0 "Tripolitanian"
+TRP_fascism_ADJ:0 "Tripolitanian"
+TRP_libertarian_socialist_ADJ:0 "Tripolitanian"
+TRP_democratic_ADJ:0 "Tripolitanian"
+TRP_utilitarian_despot_ADJ:0 "Tripolitanian"
+TRP_reformist_socialist_ADJ:0 "Tripolitanian"
+TRP_neutrality_ADJ:0 "Tripolitanian"
+TRP_social_democrat_ADJ:0 "Tripolitanian"
+TRP_social_liberal_ADJ:0 "Tripolitanian"
+TRP_classic_liberal_ADJ:0 "Tripolitanian"
+TRP_communism_ADJ:0 "Tripolitanian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

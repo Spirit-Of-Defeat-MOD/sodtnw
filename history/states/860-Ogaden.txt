@@ -1,0 +1,24 @@
+state=
+{
+	id=860
+	name="STATE_860"
+	manpower = 	1150000
+	
+	state_category = c2
+
+	history=
+	{
+		owner = IEA
+		add_core_of = IEA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces=
+	{
+  12757 12812 13303	}
+}

@@ -1,10 +1,10 @@
 ##North America
 #Canada
-NEW = "countries/Commonwealth.txt"
-QUE = "countries/Commonwealth.txt"
+NEW = "countries/Commonwealth.txt" #Newfoundland
+QUE = "countries/Commonwealth.txt" #Quebec
 
 #Mexico
-CED = "countries/SouthAmerican.txt"
+CED = "countries/SouthAmerican.txt" 
 MCT = "countries/SouthAmerican.txt"
 PNR = "countries/SouthAmerican.txt"
 PLM = "countries/SouthAmerican.txt"
@@ -13,9 +13,15 @@ VIL = "countries/SouthAmerican.txt"
 #Africa
 AEF = "countries/African.txt"
 AOF = "countries/African.txt"
+FRE = "countries/WestEurope.txt"
 IEA = "countries/WestEurope.txt"
 TUA = "countries/African.txt"
-FRE = "countries/WestEurope.txt"
+TRP = "countries/African.txt"  #Tripoli
+
+
+#Europe
+ITM = "countries/WestEurope.txt" #Italian Military
+ITS = "countries/WestEurope.txt" #Italian Socialists
 
 
 

@@ -58,7 +58,21 @@ ITS_reformist_socialist_party_long:0 "Partito Socialista Italiano"
  ITS_communism_ADJ:0 "Italian"
 
 #Ministers
-#should be reintegrated
+ITS_Palmiro_Togliatti_hog:0 "Palmiro Togliatti"
+ITS_Angelo_Tasca_hog:0 "Angelo Tasca"
+ITS_Umberto_Terracini_hog:0 "Umberto Terracini"
+
+ITS_Nicola_Bombacci_frm:0 "Nicola Bombacci"
+ITS_Bruno_Fortichiari_frm:0 "Bruno Fortichiari"
+ITS_Antonio_Graziadei_frm:0 "Antonio Graziadei"
+
+ITS_Onorato_Damen_eco:0 "Onorato Damen"
+ITS_Mauro_Scoccimarro_eco:0 "Mauro Scoccimarro"
+ITS_Fausto_Gullo_eco:0 "Fausto Gullo"
+
+ITS_Camilla_Ravera_int:0 "Camilla Ravera"
+ITS_Giuseppe_Berti_int:0 "Giuseppe Berti"
+ITS_Eugenio_Reale_int:0 "Eugenio Reale"
 #Ideas
 
  

@@ -38,7 +38,14 @@ set_technology = {
 ITA = {
 	set_autonomy = {
 		target = IEA
-		autonomy_state = autonomy_colony
+		autonomy_state = autonomy_colony autonomy_satellite
+	}
+}
+
+ITA = {
+	set_autonomy = {
+		target = CRO
+		autonomy_state = autonomy_satellite 
 	}
 }
 

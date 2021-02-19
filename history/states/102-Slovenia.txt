@@ -4,11 +4,11 @@ state=
 	name="STATE_102"
 	manpower = 1144300
 	
-	state_category = large_town
+	state_category = c7
 	
 	history =
 	{
-		owner = YUG
+		owner = CRO
 		buildings = {
 			infrastructure = 6
 		}

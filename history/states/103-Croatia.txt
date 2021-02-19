@@ -4,11 +4,11 @@ state={
 	name="STATE_103" # Dalmatia
 	manpower = 1431700
 
-	state_category = large_town
+	state_category = c7
 
 
 	history={
-		owner = YUG
+		owner = CRO
 		victory_points = {
 			3868 3 
 		}

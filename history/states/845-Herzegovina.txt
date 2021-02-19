@@ -5,14 +5,14 @@ state={
 	manpower =547200
 	
 	
-	state_category = town
+	state_category = c5
 	
 	resources={
 		aluminium=10 # was: 10
 	}
 
 	history={
-		owner = YUG
+		owner = CRO
 		victory_points = {
 			9894 3
 		}

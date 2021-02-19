@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = BUL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -27,5 +27,5 @@ state={
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=c3
 }

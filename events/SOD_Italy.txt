@@ -494,6 +494,13 @@ country_event = {
 			}
 		}
 		
+		every_owned_state = {
+			limit = {
+				is_core_of = LBA
+			}
+			add_core_of = TRP
+		}
+		
 		TRP = {
 			transfer_technology = yes
 		}
@@ -540,5 +547,20 @@ country_event = {
 				type = annex_everything
 			}
 		}
+	}
+}
+#Croatia declares independence
+country_event = {
+	id = icw.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.1" }
+	title = icw.7.t
+	desc = icw.7.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.1.a
+		add_stability = -0.30
 	}
 }

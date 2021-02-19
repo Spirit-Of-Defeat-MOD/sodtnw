@@ -1,0 +1,19 @@
+spriteTypes = {
+
+#####Ministers#############
+	### Head of Government
+	spriteType = {
+		name = "GFX_idea_ITS_Palmiro_Togliatti_hog"
+		texturefile = "gfx/ministers/ITS/ITS_Palmiro_Togliatti.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITS_Angelo_Tasca_hog"
+		texturefile = "gfx/ministers/ITS/ITS_Angelo_Tasca.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITS_Umberto_Terracini_hog"
+		texturefile = "gfx/ministers/ITS/ITS_Umberto_Terracini.tga"
+	}
+}

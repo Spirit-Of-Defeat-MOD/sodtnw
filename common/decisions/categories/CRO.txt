@@ -1,0 +1,7 @@
+CRO_icw = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = CRO
+	}
+}

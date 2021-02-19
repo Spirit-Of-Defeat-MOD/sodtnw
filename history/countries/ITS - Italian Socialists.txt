@@ -49,6 +49,17 @@ set_popularities = {
 	reformist_socialist = 33
 }
 
+create_country_leader = {
+	name = "Ruggero Grieco"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Ruggero_Grieco.dds"
+	expire = "1955.1.1"
+	ideology = revolutionary_socialist
+	traits = {
+		
+	}
+}
+
 
 ### VARIANTS ###
 # 1936 Start #

@@ -1,0 +1,245 @@
+ideas = {
+	head_of_government = {
+		ITS_Palmiro_Togliatti_hog = {
+			allowed = { original_tag =ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Palmiro_Togliatti_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+		
+		ITS_Angelo_Tasca_hog = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Angelo_Tasca_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+		
+		ITS_Umberto_Terracini_hog = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Umberto_Terracini_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+
+
+	}
+	foreign_minister = {
+		ITS_Nicola_Bombacci_frm = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Nicola_Bombacci_frm"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_socialist
+				frm_skilled_negotiator
+			}
+		}
+		
+		ITS_Bruno_Fortichiari_frm = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Bruno_Fortichiari_frm"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_socialist
+				frm_skilled_negotiator
+			}
+		}
+		
+		ITS_Antonio_Graziadei_frm = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Antonio_Graziadei_frm"
+			}
+			traits = {
+				foreign_minister
+				authoritarian_socialist
+				frm_skilled_negotiator
+			}
+		}
+
+
+	}
+	economy_minister = {
+		ITS_Onorato_Damen_eco = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Onorato_Damen_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_socialist
+			}
+		}
+		
+		ITS_Mauro_Scoccimarro_eco = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Mauro_Scoccimarro_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_socialist
+			}
+		}
+		
+		ITS_Fausto_Gullo_eco = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Fausto_Gullo_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_socialist
+			}
+		}
+
+	}
+
+
+	interior_minister = {
+		ITS_Camilla_Ravera_int = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Camilla_Ravera_int"
+			}
+			traits = {
+				interior_minister
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+		
+		ITS_Giuseppe_Berti_int = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Giuseppe_Berti_int"
+			}
+			traits = {
+				interior_minister
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+		
+		ITS_Eugenio_Reale_int = {
+			allowed = { original_tag = ITS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ITS_Eugenio_Reale_int"
+			}
+			traits = {
+				interior_minister
+				authoritarian_socialist
+				hog_determined_revolutionary
+			}
+		}
+	}
+
+	hidden_ideas = {
+		#
+	}
+	country = {
+	
+	}
+}

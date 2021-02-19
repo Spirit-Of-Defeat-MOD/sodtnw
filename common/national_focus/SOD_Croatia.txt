@@ -1,0 +1,2064 @@
+focus_tree = {
+	id = CRO_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+	#Focus for Croatian Central Bank
+	focus = {
+		id = CRO_croatiancentralbank
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_highertaxes }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRO_hrk3
+				add_idea = CRO_hrk2
+			}
+		}
+	}
+
+	#Focus for The End of Reforms
+	focus = {
+		id = CRO_theendofreforms
+		icon = GFX_focus_generic_treaty
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_croatiancentralbank }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRO_hrk2
+				add_idea = CRO_hrk1
+			}
+		}
+	}
+
+	#Focus for Bog i Hrvati!
+	focus = {
+		id = CRO_bogihrvati
+		icon = GFX_focus_YUG_banovina_of_croatia
+		x = 7
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 200
+			add_stability = 0.05
+			add_ideas = {
+				CRO_bog_i_hrvati
+			}
+		}
+	}
+
+	#Focus for The 'Zagreb-Sarajevo' Highway
+	focus = {
+		id = CRO_thezagrebsarajevohighway
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_themacekplan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {
+				CRO_highway
+			}
+			109 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			859 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			860 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Anti-Serbian Rhetoric
+	focus = {
+		id = CRO_antiserbianrhetoric
+		icon = GFX_goal_generic_dangerous_deal
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_bogihrvati }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			country_exists = SER
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = CRO_anti_serbian_rhetoric
+				days = 180
+			}
+			add_opinion_modifier = {
+				target = SER
+				modifier = CRO_anti_serbian_rhetoric_modifier 
+			}
+		}
+	}
+
+	#Focus for Introduce the Ustase Paramilitary
+	focus = {
+		id = CRO_introducetheustaseparamilitary
+		icon = GFX_ustase
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_bogihrvati }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			hidden_effect = {
+				create_unit = {
+					division = "name = \"369. Legionarska Divizija\" division_template = \"Pjesadijska Divizija\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = CRO
+				}
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+			add_war_support = 0.1
+		}
+	}
+
+	#Focus for The Independent State of Croatia
+	focus = {
+		id = CRO_theindependentstateofcroatia
+		icon = GFX_CRO_NDH
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { 
+			focus = CRO_antiserbianrhetoric 
+		}
+		prerequisite = { 
+			focus = CRO_introducetheustaseparamilitary 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			fascism > 0.49
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.25
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+			hidden_effect = {
+				load_oob = "CRO_ustase"
+			}
+			create_field_marshal = {
+				name = "Jure Francetic"
+				portrait_path = "gfx/leaders/CRO/Portrait_Jure_Francetic.tga"
+				traits = { politically_connected }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Eugen Dido Kvaternik"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Rafael Boban"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Vjekoslav 'Max' Luburic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { media_personality }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Miroslav Majstorovic"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Ljubo Milos"
+				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				traits = { }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Petar Brzica"
+				portrait_path = "gfx/leaders/CRO/Portrait_Petar_Brzica.tga"
+				traits = { harsh_leader }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+	}
+
+	#Focus for The Bosnian Question
+	focus = {
+		id = CRO_thebosnianquestion
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_greatercroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = croatia.9 days = 2 }
+		}
+	}
+
+	#Focus for War with Serbia
+	focus = {
+		id = CRO_warwithserbia
+		icon = GFX_serbia_knife
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_thetomislavline }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			SER = {
+				has_civil_war = no
+			}
+		}
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 832
+					num_provinces = 1
+					on_win = croatia.4
+					on_lose = croatia.5
+					on_cancel = croatia.6
+				}
+				defender = {
+					state = 807
+					num_provinces = 1
+					on_win = serbia.9
+					on_lose = serbia.10
+					on_cancel = serbia.11
+				}
+			}
+			add_named_threat = { 
+				threat = 5
+				name = SER_CRO_war
+			}
+		}
+	}
+
+	#Focus for The 'Macek' Plan
+	focus = {
+		id = CRO_themacekplan
+		icon = GFX_goal_generic_construction2
+		x = 18
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 25
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+	#Focus for Gavrilovic Company
+	focus = {
+		id = CRO_gavriloviccompany
+		icon = GFX_goal_generic_consumer_goods
+		x = 19
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_themacekplan }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Form the Hrvatsko Vazduhoplovstvo
+	focus = {
+		id = CRO_formthehrvatskovazduhoplovstvo
+		icon = GFX_goal_generic_air_fighter2
+		x = 32
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			air_experience = 25
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			air_experience = 25
+			if = {
+				limit = {
+					capital_scope = {
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Slavonian Civilian Factories
+	focus = {
+		id = CRO_slavoniancivilianfactories
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_ciglana }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			109 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		completion_reward = {
+			109 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Dalmatian Civilian Factories
+	focus = {
+		id = CRO_dalmatiancivilianfactories
+		icon = GFX_goal_generic_construction
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_ciglana }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				103 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			103 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		completion_reward = {
+			103 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Prospect for Resources
+	focus = {
+		id = CRO_prospectforresources
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 22
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { 
+			focus = CRO_vukovarhighway 
+		}
+		prerequisite = { 
+			focus = CRO_dubrovnikhighway 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 859
+			}
+			add_resource = {
+				type = tungsten
+				amount = 7
+				state = 859
+			}
+			add_resource = {
+				type = rubber
+				amount = 2
+				state = 104
+			}
+		}
+	}
+
+	#Focus for Slovenian Military Factories
+	focus = {
+		id = CRO_slovenianmilitaryfactories
+		icon = GFX_goal_generic_cavalry
+		x = 16
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_wartimeindustry }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				102 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			102 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		completion_reward = {
+			102 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Ciglana
+	focus = {
+		id = CRO_ciglana
+		icon = GFX_goal_generic_construction2
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_gavriloviccompany }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				832 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			832 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		completion_reward = {
+			832 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Wartime Industry
+	focus = {
+		id = CRO_wartimeindustry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 15
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_franceticfabrike }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Fully Mobilize the Economy
+	focus = {
+		id = CRO_fullymobilizetheeconomy
+		icon = GFX_goal_generic_construction2
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CRO_gavriloviccompany 
+			focus = CRO_franceticfabrike 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 1
+			# CHANGES TO THE EQUIVALENT OF WAR ECONOMY
+		}
+	}
+
+	#Focus for Bosnian Military Factories
+	focus = {
+		id = CRO_bosnianmilitaryfactories
+		icon = GFX_goal_generic_army_artillery2
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_wartimeindustry }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				104 = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			104 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			104 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Francetic-Fabrike
+	focus = {
+		id = CRO_franceticfabrike
+		icon = GFX_goal_generic_build_tank
+		x = 16
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_themacekplan }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Vukovar Highway
+	focus = {
+		id = CRO_vukovarhighway
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 21
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_thezagrebsarajevohighway }
+		mutually_exclusive = { focus = CRO_dubrovnikhighway }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			109 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			832 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Research Tanks
+	focus = {
+		id = CRO_researchtanks
+		icon = GFX_goal_generic_army_tanks
+		x = 24
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_domobranstvo }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	#Focus for Croatian Ferocity
+	focus = {
+		id = CRO_croatianferocity
+		icon = GFX_goal_generic_secret_weapon
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_outmaneuvertheenemy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {
+				CRO_ferocity
+			}
+		}
+	}
+
+	#Focus for Dubrovnik Highway
+	focus = {
+		id = CRO_dubrovnikhighway
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_thezagrebsarajevohighway }
+		mutually_exclusive = { focus = CRO_vukovarhighway }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			109 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			789 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			103 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			885 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Motorized Army
+	focus = {
+		id = CRO_motorizedarmy
+		icon = GFX_goal_generic_army_motorized
+		x = 26
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_domobranstvo }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	#Focus for Landing Exercises
+	focus = {
+		id = CRO_landingexercises
+		icon = GFX_goal_generic_amphibious_assault
+		x = 40
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_croatiannavy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = marines
+				technology = marines2
+			}
+		}
+	}
+
+	#Focus for Better Equipment
+	focus = {
+		id = CRO_betterequipment
+		icon = GFX_goal_generic_small_arms
+		x = 28
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_domobranstvo }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	#Focus for Dominate the Skies
+	focus = {
+		id = CRO_dominatetheskies
+		icon = GFX_goal_generic_air_fighter2
+		x = 31
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_formthehrvatskovazduhoplovstvo }
+		mutually_exclusive = { focus = CRO_bombtheenemy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+		}
+	}
+
+	#Focus for Bomb the Enemy
+	focus = {
+		id = CRO_bombtheenemy
+		icon = GFX_goal_generic_air_bomber
+		x = 33
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_formthehrvatskovazduhoplovstvo }
+		mutually_exclusive = { focus = CRO_dominatetheskies }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
+		}
+	}
+
+	#Focus for Develop Tactics
+	focus = {
+		id = CRO_developtactics
+		icon = GFX_goal_generic_air_doctrine
+		x = 32
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CRO_dominatetheskies 
+			focus = CRO_bombtheenemy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name =  air_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+	#Focus for Flexible Navy
+	focus = {
+		id = CRO_flexiblenavy
+		icon = GFX_goal_generic_occupy_states_coastal
+		x = 36
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_croatiannavy }
+		mutually_exclusive = { focus = CRO_largenavy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 1.0
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+	#Focus for Handschar Division
+	focus = {
+		id = CRO_handschardivision
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 1
+		y = 6
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { 
+			focus = CRO_bosnianresources 
+		}
+		prerequisite = { 
+			focus = CRO_herzegbosnianparamilitaries 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = croatia.2 days = 1 }
+		}
+	}
+
+	#Focus for The "Mountain Croats" Rhetoric
+	focus = {
+		id = CRO_themountaincroatsrhetoric
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CRO_quelltheunrest 
+			focus = CRO_dualpower 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.05
+		}
+	}
+
+	#Focus for Form the Sarajevo University
+	focus = {
+		id = CRO_formthesarajevouniversity
+		icon = GFX_focus_research
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_zagrebuniversity }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			amount_research_slots > 4
+		}
+		available = {
+			amount_research_slots < 5
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Focus for Higher Taxes
+	focus = {
+		id = CRO_highertaxes
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus = CRO_startreformingthekuna
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRO_hrk4
+				add_idea = CRO_hrk3
+			}
+			add_stability = -0.05
+		}
+	}
+
+	#Focus for Bosnian Resources
+	focus = {
+		id = CRO_bosnianresources
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_thebosnianquestion }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 13
+				state = 860
+			}
+			add_resource = {
+				type = steel
+				amount = 2
+				state = 104
+			}
+		}
+	}
+
+	#Focus for Herzeg-Bosnian Paramilitaries
+	focus = {
+		id = CRO_herzegbosnianparamilitaries
+		icon = GFX_focus_chi_army_reform
+		x = 0
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_thebosnianquestion }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {
+				CRO_herzegbosniaparamilitary
+			}
+		}
+	}
+
+	#Focus for Zagreb University
+	focus = {
+		id = CRO_zagrebuniversity
+		icon = GFX_focus_research2
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_kickstartthemilitaryindustry }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			amount_research_slots > 4
+		}
+		available = {
+			amount_research_slots < 5
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Focus for The 'Tomislav' Line
+	focus = {
+		id = CRO_thetomislavline
+		icon = GFX_goal_generic_fortify_city
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_ourrival }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = CRO_tomislav_line_tp
+			hidden_effect = {
+				832 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 3627
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 6647
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11577
+						instant_build = yes
+					}
+				}
+				860 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 606
+						instant_build = yes
+					}
+				}
+				104 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11741
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 982
+						instant_build = yes
+					}
+				}
+				839 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 953
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 11845
+						instant_build = yes
+					}
+				}
+				103 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 6889
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Kickstart the Military Industry
+	focus = {
+		id = CRO_kickstartthemilitaryindustry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_theindependentstateofcroatia }
+		ai_will_do = {
+			factor = 3
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Ask Bulgaria for Help
+	focus = {
+		id = CRO_askbulgariaforhelp
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_ourrival }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_completed_focus = CRO_warwithserbia
+			}
+			BUL = {
+				is_puppet = no
+			}
+		}
+		completion_reward = {
+			BUL = {
+				country_event = {
+					id = bulgaria.2
+					days = 2
+				}
+			}
+		}
+	}
+
+	#Focus for Start Reforming the Kuna
+	focus = {
+		id = CRO_startreformingthekuna
+		icon = GFX_focus_generic_self_management
+		x = 6
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_theindependentstateofcroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus = CRO_hrvatskakuna
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRO_hrk5
+				add_idea = CRO_hrk4
+			}
+		}
+	}
+
+	#Focus for Diplomatic Ties
+	focus = {
+		id = CRO_diplomaticties
+		icon = GFX_goal_generic_alliance
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_rewritetheconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+
+	#Focus for Bulgarian Guns
+	focus = {
+		id = CRO_bulgarianguns
+		icon = GFX_goal_generic_small_arms
+		x = 13
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_askbulgariaforhelp }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_global_flag = BUL_CRO_alliance
+		}
+		completion_reward = {
+			BUL = { 
+				country_event = { 
+					id = bulgaria.3
+					days = 2
+				}
+			}
+		}
+	}
+
+	#Focus for Hrvatska Kuna
+	focus = {
+		id = CRO_hrvatskakuna
+		icon = GFX_focus_mex_privatisation
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_rewritetheconstitution }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = CRO_nohrk
+				add_idea = CRO_hrk5
+			}
+			custom_effect_tooltip = CRO_kuna_tp
+		}
+	}
+
+	#Focus for Our Rival
+	focus = {
+		id = CRO_ourrival
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_theindependentstateofcroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			807 = {
+				add_core_of = CRO
+			}
+		}
+	}
+
+	#Focus for Maribor Conference
+	focus = {
+		id = CRO_mariborconference
+		icon = GFX_focus_generic_treaty
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_peacefulcompromise }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = { id = croatia.10 days = 7 }
+		}
+	}
+
+	#Focus for Quell the Unrest!
+	focus = {
+		id = CRO_quelltheunrest
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = CRO_slovenianseparatismsolution }
+		mutually_exclusive = { 
+			focus = CRO_peacefulcompromise 
+		}
+		mutually_exclusive = { 
+			focus = CRO_dualpower 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = CRO_warwithslovenia_tp
+			hidden_effect = {
+				add_threat = 2
+				release = SLV
+				declare_war_on = {
+					target = SLV
+					type = annex_everything
+				}
+				SLV = {
+					load_oob = "SLV_independence_war"
+					add_manpower = 30000
+				}
+			}
+		}
+	}
+
+	#Focus for Dual Power
+	focus = {
+		id = CRO_dualpower
+		icon = GFX_goal_generic_dangerous_deal
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_slovenianseparatismsolution }
+		mutually_exclusive = { 
+			focus = CRO_peacefulcompromise 
+		}
+		mutually_exclusive = { 
+			focus = CRO_quelltheunrest 
+		}
+		completion_reward = {
+			release_puppet = SLV
+			add_stability = 0.1
+			remove_ideas = {
+				CRO_slovene_separatism2
+			}
+		}
+	}
+
+	#Focus for Slovenian Separatism Solution
+	focus = {
+		id = CRO_slovenianseparatismsolution
+		icon = GFX_focus_rom_parties_end
+		x = 6
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_greatercroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			OR = { 
+				has_idea = CRO_slovene_separatism2
+				has_global_flag = slovene_rebellion
+			}
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CRO_slovene_separatism1
+				add_idea = CRO_slovene_separatism2
+			}
+		}
+	}
+
+	#Focus for Rewrite the constitution
+	focus = {
+		id = CRO_rewritetheconstitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 3
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_bogihrvati }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 100
+			diplomatic_relation = {
+				country = ITA
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+
+	#Focus for Greater Croatia
+	focus = {
+		id = CRO_greatercroatia
+		icon = GFX_greater_croatia
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_theindependentstateofcroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {
+				CRO_za_dom_spremni
+			}
+			842 = {
+				add_claim_by = CRO
+			}
+		}
+	}
+
+	#Focus for Peaceful Compromise
+	focus = {
+		id = CRO_peacefulcompromise
+		icon = GFX_goal_generic_national_unity
+		x = 4
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_slovenianseparatismsolution }
+		mutually_exclusive = { 
+			focus = CRO_dualpower 
+		}
+		mutually_exclusive = { 
+			focus = CRO_quelltheunrest 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+		}
+	}
+
+	#Focus for Local Militias
+	focus = {
+		id = CRO_localmilitias
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_greatercroatia }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+
+	#Focus for Outmaneuver the Enemy
+	focus = {
+		id = CRO_outmaneuvertheenemy
+		icon = GFX_goal_generic_army_doctrines
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CRO_motorizedarmy 
+			focus = CRO_betterequipment 
+			focus = CRO_researchtanks 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for Domobranstvo
+	focus = {
+		id = CRO_domobranstvo
+		icon = GFX_goal_generic_military_sphere
+		x = 26
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#Focus for Croatian Navy
+	focus = {
+		id = CRO_croatiannavy
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 37
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Large Navy
+	focus = {
+		id = CRO_largenavy
+		icon = GFX_goal_generic_navy_battleship
+		x = 38
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CRO_croatiannavy }
+		mutually_exclusive = { focus = CRO_flexiblenavy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 1.0
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+	#Focus for Croatian Economy Boom
+	focus = {
+		id = CRO_croatianeconomyboom
+		icon = GFX_focus_wonderweapons
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CRO_slavoniancivilianfactories 
+		}
+		prerequisite = { 
+			focus = CRO_dalmatiancivilianfactories 
+		}
+		prerequisite = { 
+			focus = CRO_slovenianmilitaryfactories 
+		}
+		prerequisite = { 
+			focus = CRO_bosnianmilitaryfactories 
+		}
+		prerequisite = { 
+			focus = CRO_prospectforresources 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = CRO_boom
+				days = 365
+			}
+		}
+	}
+}

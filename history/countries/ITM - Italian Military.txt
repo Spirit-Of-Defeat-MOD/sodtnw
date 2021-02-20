@@ -52,6 +52,17 @@ set_popularities = {
 	social_democrat = 16
 }
 
+create_country_leader = {
+	name = "Umberto di Savoia"
+	desc = "POLITCS_UMBERTO"
+	picture = "Umberto_II_di_Savoia.dds"
+	expire = "1965.1.1"
+	ideology = utilitarian_despot_subtype
+	traits = {
+
+	}
+}
+
 
 ### VARIANTS ###
 # 1936 Start #

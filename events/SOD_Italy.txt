@@ -1,5 +1,5 @@
 ###########################
-# Germany Events by kstar
+# Italia Events by kstar
 ###########################
 
 add_namespace = italy
@@ -83,6 +83,13 @@ country_event = {
 			transfer_technology = yes
 		}
 		
+		transfer_units_fraction= {
+			target = ITS
+			size = 0.33
+			navy_ratio = 0.33
+			air_ratio = 0.33		
+		}
+		
 		
 	}
 
@@ -119,6 +126,11 @@ country_event = {
 			}
 		}
 		
+		transfer_units_fraction= {
+			target = ITS
+			navy_ratio = 0.33
+			air_ratio = 0.33		
+		}
 	}
 	option = {
 		name = icw.1.b #Down with the Capitalist! (Play as the Socialist)
@@ -158,6 +170,7 @@ country_event = {
 				type = civil_war
 			}
 		}
+
 	}
 }
 
@@ -229,6 +242,12 @@ country_event = {
 		
 		ITM = {
 			transfer_technology = yes
+		}
+		
+		transfer_units_fraction= {
+			target = ITM
+			navy_ratio = 0.33
+			air_ratio = 0.33		
 		}
 		
 		

@@ -235,8 +235,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 						is_puppet_of = SER
 					}
 				}
@@ -246,8 +246,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 					}
 				}
 			}
@@ -258,8 +258,8 @@ ideas = {
 			
 			modifier = {
 				communism_drift = -0.01
-				totalitarian_socialism_drift = -0.01
-				revolutionary_socialism_drift = -0.01
+				libertarian_socialist_drift = -0.01
+				reformist_socialist_drift = -0.01
 				fascism_drift = 0.03
 			}
 		}
@@ -271,8 +271,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 					}
 				}
 			}
@@ -281,8 +281,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 					}
 				}
 			}
@@ -306,8 +306,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 					}
 					is_puppet_of = SER
 				}
@@ -317,8 +317,8 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = totalitarian_socialism
-						has_government = revolutionary_socialism
+						has_government = libertarian_socialist
+						has_government = reformist_socialist
 					}
 				}
 			}

@@ -68,4 +68,10 @@ LBA_communism_ADJ:0 "Libyan"
 #should be reintegrated
 
 #Events
-#should be reintegrated
+lbatrp.1.t:0 "Delegation from Kufra"
+lbatrp.1.d:0 ""
+lbatrp.1.a:0 "Interesting development"
+
+lbatrp.2.t:0 "Zawia Confrence"
+lbatrp.2.d:0 ""
+lbatrp.2.a:0 "Interesting development"

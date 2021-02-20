@@ -1,0 +1,60 @@
+###########################
+# Italia East Afrika Events by kstar
+###########################
+
+add_namespace = iea
+
+# Homeland in Civil War
+country_event = {
+	id = iea.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.1" }
+	title = iea.1.t
+	desc = iea.1.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = iea.1.a
+		add_stability = -0.1
+	}
+}
+
+#Send troops
+country_event = {
+	id = iea.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.2" }
+	title = iea.2.t
+	desc = iea.2.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = iea.2.a
+		add_stability = -0.1
+		ITA = { country_event = { id = iea.3 days 14 } }
+	}
+}
+
+country_event = {
+	id = iea.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.3" }
+	title = iea.3.t
+	desc = iea.3.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = iea.3.a
+		IEA = {
+			transfer_units_fraction= {
+				target = ITA
+				size = 0.5
+				stockpile_ratio = 0.5
+				army_ratio = 0.5
+			}
+		}
+	}
+}

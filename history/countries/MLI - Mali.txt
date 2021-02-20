@@ -23,12 +23,12 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-#create_country_leader = {
-#	name = "Agoli-agbo"
-#	desc = "DESC_AGOLI_AGBO"
-#	picture = "Portrait_Agoli_agbo.dds"
-#	ideology = utilitarian_despot_subtype
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Serigne Babacar Sy "
+	desc = ""
+	picture = "Portrait_Babacar.tga"
+	ideology = utilitarian_despot_subtype
+	traits = {
+		#
+	}
+}

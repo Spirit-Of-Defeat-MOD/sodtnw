@@ -1,0 +1,39 @@
+###########################
+# Senussi Events by kstar
+###########################
+add_namespace = libya
+add_namespace = lbatrp
+
+#Delegation from Kufra
+country_event = {
+	id = lbatrp.1
+    title = lbatrp.1.t
+	desc = lbatrp.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lbatrp.1.a
+		TRP = { country_event = { id = lbatrp.2 days = 2 } }
+	}
+}
+
+#Zawia Confrence 
+country_event = {
+	id = lbatrp.2
+    title = lbatrp.2.t
+	desc = lbatrp.2.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lbatrp.2.a
+		TRP = { country_event = { id = lbatrp.2 days = 2 } }
+	}
+}

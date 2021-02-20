@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "ITA_1936"
+oob = "ITA"
 
 set_research_slots = 4
 set_stability = 0.6
@@ -66,8 +66,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Luigi Federzoni"
-	desc = "POLITICS_LUIGI_FEDERZONI_DESC"
-	picture = "Portrait_ITA_Luigi_Federzoni_Alt.dds"
+	desc = "POLITICS_FEDERZONI_DESC"
+	picture = "Portrait_ITA_Luigi_Federzoni_Alt.png"
 	expire = "1965.1.1"
 	ideology = national_syndicalist
 	traits = {
@@ -83,17 +83,6 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		
-	}
-}
-
-create_country_leader = {
-	name = "Victor Emmanuel III"
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "GFX_portrait_italy_victor_emmanuel_iii"
-	expire = "1965.1.1"
-	ideology = national_syndicalist
-	traits = {
-
 	}
 }
 

@@ -51,7 +51,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ruggero Grieco"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	desc = "POLITICS_RUGGERO"
 	picture = "Portrait_Ruggero_Grieco.dds"
 	expire = "1955.1.1"
 	ideology = revolutionary_socialist

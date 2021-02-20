@@ -1,0 +1,74 @@
+﻿l_english: 
+
+#Parties
+BUL_fascism_party:0 "SBNL"
+BUL_fascism_party_long:0 "Săjuz na Bălgarskite Nacionalni Legioni"
+BUL_communism_party:0 "BKP"
+BUL_communism_party_long:0 "Bëlgarska Komunističeska Partija"
+BUL_democratic_party:0 "NP"
+BUL_democratic_party_long:0 "Narodna Partiya"
+BUL_utilitarian_despot_party:0 "House of Saxe-Coburg and Gotha"
+BUL_utilitarian_despot_party_long:0 "House of Saxe-Coburg and Gotha-Kohary"
+BUL_neutrality_party:0 "House of Saxe-Coburg and Gotha"
+BUL_neutrality_party_long:0 "House of Saxe-Coburg and Gotha-Kohary"
+BUL_social_democrat_party:0 "BRSDP (M)"
+BUL_social_democrat_party_long:0 "Balgarska Rabotnicheska Sotsialdemokraticheska Partia (Moderates)"
+BUL_social_liberal_party:0 "PLP"
+BUL_social_liberal_party_long:0 "Progresivnoliberalna Partiya"
+BUL_classic_liberal_party:0 "MLP"
+BUL_classic_liberal_party_long:0 "Mladoliberalna Partiya"
+BUL_libertarian_socialist_party:0 ""
+BUL_libertarian_socialist_party_long:0 ""
+BUL_reformist_socialist_party:0 "BRSDP (S)"
+BUL_reformist_socialist_party_long:0 "Balgarska Rabotnicheska Sotsialdemokraticheska Partia (Socialists)"
+
+
+#Country Names
+BUL_fascism:0 "Bulgarian State"
+BUL_fascism_DEF:0 "the Bulgarian State"
+BUL_reformist_socialist:0 "Socialist Republic of Bulgaria"
+BUL_reformist_socialist_DEF:0 "the Socialist Republic of Bulgaria"
+BUL_utilitarian_despot:0 "Tsardom of Bulgaria"
+BUL_utilitarian_despot_DEF:0 "the Tsardom of Bulgaria"
+BUL_democratic:0 "Bulgaria"
+BUL_democratic_DEF:0 "Bulgaria "
+BUL_neutrality:1 "Bulgaria"
+BUL_neutrality_DEF:1 "Bulgaria"
+BUL_libertarian_socialist:0 "Socialist Republic of Bulgaria"
+BUL_libertarian_socialist_DEF:0 "the Socialist Republic of Bulgaria"
+BUL_social_democrat:0 "Bulgaria"
+BUL_social_democrat_DEF:0 "Bulgaria"
+BUL_social_liberal:0 "Bulgaria"
+BUL_social_liberal_DEF:0 "Bulgaria"
+BUL_classic_liberal:0 "Bulgaria"
+BUL_classic_liberal_DEF:0 "Bulgaria"
+BUL_communism:0 "Socialist Republic of Bulgaria"
+BUL_communism_DEF:0 "the Socialist Republic of Bulgaria"
+ 
+BUL_fascism_ADJ:0 "Bulgarian"
+BUL_libertarian_socialist_ADJ:0 "Bulgarian"
+BUL_democratic_ADJ:0 "Bulgarian"
+BUL_utilitarian_despot_ADJ:0 "Bulgarian"
+BUL_reformist_socialist_ADJ:0 "Bulgarian"
+BUL_neutrality_ADJ:0 "Bulgarian"
+BUL_social_democrat_ADJ:0 "Bulgarian"
+BUL_social_liberal_ADJ:0 "Bulgarian"
+BUL_classic_liberal_ADJ:0 "Bulgarian"
+BUL_communism_ADJ:0 "Bulgarian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high, with communists and other anti-monarchists seemingly placated in Bulgaria under his rule."
+
+#cosmetic tags
+ 

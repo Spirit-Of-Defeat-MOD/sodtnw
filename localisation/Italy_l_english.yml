@@ -57,17 +57,24 @@ ITA_reformist_socialist_party_long:0 "Partito Socialista Italiano"
  ITA_classic_liberal_ADJ:0 "Italian"
  ITA_communism_ADJ:0 "Italian"
 
-#Ministers
-#should be reintegrated
+#Ministers - backported
+#ITA_Luigi_Federzoni_hog:0 "Luigi Federzoni"
+#ITA_Gabriele_Anunnzio_frm:0 "Gabriele d'Anunnzio"
+#ITA_Edmondo_Rossoni_eco:0 "Edmondo Rossoni"
+#ITA_Rodolfo_Graziani_sec:0 "Rodolfo Graziani"
+#ITA_Italo_Balbo_int:0 "Italo Balbo"
+
+#Leaders - backported
+#POLITICS_FEDERZONI_DESC:0 "The strongman leader of Italy, Luigi Federzoni and the Associazione Nazionalista Italiana have ruled with an iron fist since the 'Rivoluzione Nazionale' in 1922. Federzoni's regime legitimized itself following the victory of the Third Balkan War - seizing Dalmazia and Corfu, as well as dismantling the Yugoslav state. In the wake of his success, Federzoni has built a strong national-syndicalist Italy with a cult of personality revolving around himself and invoking Roman imagery."
+
 #Ideas
 
- 
 #Focuses
 #should be reintegrated
 
 #Events
 icw.1.t:0 "The Socialists Revolt"
-icw.1.d:0 "After a decade of anarchist and communist control Lombardy has become the capital of Italian Leftism. Rome has lost complete control over the region and surrounding areas, Industrialists and Capitalists alike have has their property forcibly taken while being massacred in droves by armed workers who plan to spread their revolution to their revolution to the entire country. "
+icw.1.d:0 "After a decade of anarchist and communist control Lombardy has become the capital of Italian Leftism. Rome has lost complete control over the region and surrounding areas, Industrialists and Capitalists alike have had their property forcibly taken while being massacred in droves by armed workers who plan to spread their revolution across the entire country. "
 icw.1.a:0 "Crush them at all costs"
 icw.1.b:0 "Workers of the world, unite!"
 
@@ -97,6 +104,11 @@ icw.6.b:0 "Freedom at Last(Play as Tripoli)"
 icw.7.t:0 "Croatia Declares Independence"
 icw.7.d:0 ""
 icw.7.a:0 "Leave them be....for now"
+
+#Introduction - backported may be out of date
+#italy.1.t:0 "Italy Introduction"
+#italy.1.d:0 "Shut out by her former allies, Italy was forced to strive a lonesome path. The Great War taught a painful lesson to the Italian people, that Italy has no true friends. As unrest against the status quo built up, Luigi Federzoni, a vocal champion of National Syndicalism, led the 'Rivoluzione Nazionale' in 1922. After seizing power, Federzoni quickly surrounded himself with loyal allies and restructured the nation significantly. \n\n Not long into his reign, Federzoni would get an opportunity to prove himself to the Italian people. After the perceived Greek aggression in Corfu, Federzoni declared war on Greece - who in turn called Yugoslavia to their side as an ally. This war would come to be known as the Third Balkan War. \n\n Federzoni, would achieve victory in the war through carefully planned subversion and alliances. He collaborated with Croat separatists, struck a deal with Bulgaria, and agitated Macedonian and Albanian minorities to subvert the government in Beograd. These shrewd power plays would be enough to cripple Yugoslavia from within, allowing Italian forces to concentrate on Greece. \n\n Italy has finally achieved the irridentist dream of possessing a Mediterranean empire. Nonetheless, Federzoni's ambitions for power and glory have not been quelled."
+#italy.1.a:0 "Enough With These Petty Ramblings..."
 
 #Descriptions
 

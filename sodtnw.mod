@@ -8,4 +8,5 @@ tags={
 }
 replace_path="common/ai_peace"
 replace_path="history/states"
+replace_path="events"
 supported_version="1.10.*"

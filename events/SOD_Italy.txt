@@ -83,13 +83,6 @@ country_event = {
 			transfer_technology = yes
 		}
 		
-		transfer_units_fraction= {
-			target = ITS
-			size = 0.33
-			navy_ratio = 0.33
-			air_ratio = 0.33		
-		}
-		
 		
 	}
 
@@ -125,12 +118,7 @@ country_event = {
 				type = civil_war
 			}
 		}
-		
-		transfer_units_fraction= {
-			target = ITS
-			navy_ratio = 0.33
-			air_ratio = 0.33		
-		}
+
 	}
 	option = {
 		name = icw.1.b #Down with the Capitalist! (Play as the Socialist)
@@ -182,7 +170,7 @@ country_event = {
 	desc = icw.2.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
 		tag = ITA
@@ -199,10 +187,6 @@ country_event = {
 		NOT = {
 			date > 1936.5.1
 		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
 	}
 
 	immediate = {
@@ -246,10 +230,8 @@ country_event = {
 		
 		transfer_units_fraction= {
 			target = ITM
-			navy_ratio = 0.33
-			air_ratio = 0.33		
+			navy_ratio = 0.4
 		}
-		
 		
 	}
 
@@ -263,7 +245,7 @@ country_event = {
 				ITA = {
 					country_event = {
 						id = icw.5
-						days = 30
+						days = 15
 					}
 				}
 			}

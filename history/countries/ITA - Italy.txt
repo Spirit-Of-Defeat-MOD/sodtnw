@@ -64,6 +64,8 @@ set_popularities = {
 	communism = 11
 }
 
+country_event = { id = icw.2 days = 30 }
+
 create_country_leader = {
 	name = "Luigi Federzoni"
 	desc = "POLITICS_FEDERZONI_DESC"

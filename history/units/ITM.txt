@@ -120,25 +120,25 @@ units = {
 		start_experience_factor = 0.2 
 	}
 	
-	division = { #  
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		} 
-		location = 10074 
-		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.2 
-	}
+	#division = { #  
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 4
+	#	} 
+	#	location = 10074 
+	#	division_template = "Divisione di Fanteria"
+	#	start_experience_factor = 0.2 
+	#}
 	
-	division = { #
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		} 
-		location = 4159
-		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.2 
-	}
+	#division = { #
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 5
+	#	} 
+	#	location = 4159
+	#	division_template = "Divisione di Fanteria"
+	#	start_experience_factor = 0.2 
+	#}
 	
 	division = { #
 		division_name = {
@@ -175,7 +175,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		} 
-		location = 11873
+		location = 4159
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2 
 	}
@@ -255,20 +255,20 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		} 
-		location = 6927
+		location = 10074
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2 
 	}
 	
-	division = { #
-		division_name = {
-			is_name_ordered = yes
-			name_order = 17
-		} 
-		location = 3958
-		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.2 
-	}
+	#division = { #
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 17
+	#	} 
+	#	location = 3958
+	#	division_template = "Divisione di Fanteria"
+	#	start_experience_factor = 0.2 
+	#}
 	
 	division = { #
 		division_name = {

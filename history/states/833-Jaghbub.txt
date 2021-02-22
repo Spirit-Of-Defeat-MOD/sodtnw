@@ -5,8 +5,8 @@ state={
 		10104 
 	}
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = EGY
+		add_core_of = EGY
 		add_core_of = LBA
 		add_core_of = EGY
 		buildings = {

@@ -138,7 +138,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 240  190  190 }
+	color = rgb { 255  38  38 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -222,7 +222,7 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
+	color = rgb { 110 85 141 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 1 68 147 }
+	color_ui = rgb { 2 103 223 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
@@ -444,11 +444,15 @@ KEN = {
 	color_ui = rgb { 145 103 14 }
 }
 ZIM = {
-	color = rgb { 7 7 239 }
-	color_ui = rgb { 7 7 239 }
+	color = rgb { 98 137 60 }
+	color_ui = rgb { 98 137 60 }
+}
+ZAM = {
+	color = rgb { 197 117 17 }
+	color_ui = rgb { 98 137 60 }
 }
 BOT = {
-	color = rgb { 11 132 112 }
+	color = rgb { 123 140 191 }
 	color_ui = rgb { 11 132 112 }
 }
 PAK = {
@@ -711,7 +715,7 @@ NEW = {
 }
 
 QUE = {
-	color = rgb { 201 56 93 }
+	color = rgb { 130 193 216 }
 	color_ui = rgb { 201 56 93 }
 }
 

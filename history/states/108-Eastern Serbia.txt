@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			9602 3 
 		}
-		owner = YUG
+		owner = SER
 		buildings = {
 			infrastructure = 4
 
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=707000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=c6
 }

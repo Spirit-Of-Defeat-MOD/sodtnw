@@ -1,0 +1,20 @@
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3609
+		division_template = "Dobrovoljci"
+		start_experience_factor = 0.1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11858
+		division_template = "Dobrovoljci"
+		start_experience_factor = 0.1
+	}
+}

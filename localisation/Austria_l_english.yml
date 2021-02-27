@@ -1,0 +1,74 @@
+﻿l_english: 
+
+#Parties
+AUS_fascism_party:0 "GDVP"
+AUS_fascism_party_long:0 "Großdeutsche Volkspartei"
+AUS_communism_party:0 "KPÖ"
+AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
+AUS_democratic_party:0 "CS"
+AUS_democratic_party_long:0 "Christlichsoziale Partei"
+AUS_utilitarian_despot_party:0 "OS"
+AUS_utilitarian_despot_party_long:0 ""Ostmärkische Sturmscharen"
+AUS_neutrality_party:0 "Heimwehr"
+AUS_neutrality_party_long:0 "Heimwehr"
+AUS_social_democracy_party:0 "SDAPÖ"
+AUS_social_democracy_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+AUS_social_liberal_party:0 "LPÖ" #Mises
+AUS_social_liberal_party_long:0 "Liberale Partei Österreichs"
+AUS_classic_liberal_party:0 ""
+AUS_classic_liberal_party_long:0 ""
+AUS_libertarian_socialist_party:0 ""
+AUS_libertarian_socialist_party_long:0 ""
+AUS_reformist_socialist_party:0 "SDAPÖ"
+AUS_reformist_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+##AUS_nihilistic_extremism_party:0 "DNSAP"
+##AUS_nihilistic_extremism_party_long:0 "Deutsche Nationalsozialistische Arbeiterpartei"
+
+#Country Names
+ AUS_fascism:0 "Federal State of Austria"
+ AUS_fascism_DEF:0 "the Federal State of Austria"
+ AUS_reformist_socialist:0 "People's Republic of Austria"
+ AUS_reformist_socialist_DEF:0 "the People's Republic of Austria"
+ AUS_utilitarian_despot:0 ""Federal State of Austria"
+ AUS_utilitarian_despot_DEF:0 "the "Federal State of Austria"
+ AUS_democratic:0 "The Republic of Austria"
+ AUS_democratic_DEF:0 "the Republic of Austria"
+ AUS_neutrality:1 ""Federal State of Austria"
+ AUS_neutrality_DEF:1 "the "Federal State of Austria"
+ AUS_libertarian_socialist:0 "The People's Republic of Austria"
+ AUS_libertarian_socialist_DEF:0 "the People's Republic of Austria"
+ AUS_social_democracy:0 "The Republic of Austria"
+ AUS_social_democracy_DEF:0 "the Republic of Austria"
+ AUS_social_liberal:0 "Republic of Austria"
+ AUS_social_liberal_DEF:0 "the Republic of Austria
+ AUS_classic_liberal:0 "The Republic of Austria"
+ AUS_classic_liberal_DEF:0 "the Republic of Austria"
+ AUS_communism:0 "People's Republic of Austria"
+ AUS_communism_DEF:0 "the People's Republic of Austria"
+ 
+ AUS_fascism_ADJ:0 "Austrian"
+ AUS_totalitarian_socialism_ADJ:0 "Austrian"
+ AUS_democratic_ADJ:0 "Austrian"
+ AUS_utilitarian_despot_ADJ:0 "Austrian"
+ AUS_democratic_socialism_ADJ:0 "Austrian"
+ AUS_neutrality_ADJ:0 "Austrian"
+ AUS_social_democracy_ADJ:0 "Austrian"
+ AUS_social_liberal_ADJ:0 "Austrian"
+ AUS_classic_liberal_ADJ:0 "Austrian"
+ AUS_communism_ADJ:0 "Austrian"
+
+#Ministers
+#should be reintegrated
+
+#Ideas
+
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

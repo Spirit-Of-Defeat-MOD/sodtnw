@@ -1,0 +1,67 @@
+﻿l_english:
+
+#country names
+CHE_libertarian_socialist:0 "Serbian Workers Union"
+CHE_communism:0 "Serbian Workers Union"
+CHE_reformist_socialist:0 "Serbian Workers Union"
+CHE_social_democrat:0 "Chetniks"
+CHE_social_liberal:0 "Chetniks" 
+CHE_classic_liberal:0 "Chetniks"
+CHE_democratic:0 "Chetniks"
+CHE_neutrality:0 "Chetniks"
+CHE_utilitarian_despot:0 "Chetniks"
+CHE_fascism:0 "Greater Serbia" 
+
+CHE_libertarian_socialist_DEF:0 "Serbian Workers Union"
+CHE_communism_DEF:0 "Serbian Workers Union"
+CHE_reformist_socialist_DEF:0 "Serbian Workers Union"
+CHE_social_democrat_DEF:0 "Chetnik Detachments of the Serbian Army"
+CHE_social_liberal_DEF:0 "Chetnik Detachments of the Serbian Army" 
+CHE_classic_liberal_DEF:0 "Chetnik Detachments of the Serbian Army"
+CHE_democratic_DEF:0 "Chetnik Detachments of the Serbian Army"
+CHE_neutrality_DEF:0 "Chetnik Detachments of the Serbian Army"
+CHE_utilitarian_despot_DEF:0 "Chetnik Detachments of the Serbian Army"
+CHE_fascism_DEF:0 "Greater Serbia" 
+
+CHE_libertarian_socialist_ADJ:0 "Chetnik"
+CHE_communism_ADJ:0 "Chetnik"
+CHE_reformist_socialist_ADJ:0 "Chetnik"
+CHE_social_democrat_ADJ:0 "Chetnik"
+CHE_social_liberal_ADJ:0 "Chetnik" 
+CHE_classic_liberal_ADJ:0 "Chetnik"
+CHE_democratic_ADJ:0 "Chetnik"
+CHE_neutrality_ADJ:0 "Chetnik"
+CHE_utilitarian_despot_ADJ:0 "Chetnik"
+CHE_fascism_ADJ:0 "Chetnik" 
+
+#Party names
+CHE_libertarian_socialist_party:0 ""
+CHE_libertarian_socialist_party_long:0 ""
+CHE_communism_party:0 "SKS"
+CHE_communism_party_long:0 "Savez Komunista Srbije"
+CHE_reformist_socialist_party:0 "SSDS"
+CHE_reformist_socialist_party_long:0 "Srpska Socijaldemokratska Stranka"
+CHE_social_democrat_party:0 "SSDS"
+CHE_social_democrat_party_long:0 "Srpska Socijaldemokratska Stranka"
+CHE_social_liberal_party:0 "SDS" 
+CHE_social_liberal_party_long:0 "HSamostalna Demokratska Strank" 
+CHE_classic_liberal_party:0 "DSS"
+CHE_classic_liberal_party_long:0 "Demokratska Stranka Srbije"
+CHE_democratic_party:0 "NRS"
+CHE_democratic_party_long:0 "Narodna Radikalna Stranka"
+CHE_neutrality_party:0 "Četnici"
+CHE_neutrality_party_long:0 "Ravnogorski četnički pokret"
+CHE_utilitarian_despot_party:0 "Četnici"
+CHE_utilitarian_despot_party_long:0 "Ravnogorski četnički pokret"
+CHE_fascism_party:0 "SRZ" 
+CHE_fascism_party_long:0 "Srpska Radikalna Zajednica"
+
+ #Ministers
+
+ 
+ #Focuses
+ 
+ #National Spirits
+ #Events
+ #Descriptions
+

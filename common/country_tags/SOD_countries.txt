@@ -22,6 +22,7 @@ TRP = "countries/African.txt"  #Tripoli
 #Europe
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
+CHE = "countries/WestEurope.txt" #Chetniks
 
 
 

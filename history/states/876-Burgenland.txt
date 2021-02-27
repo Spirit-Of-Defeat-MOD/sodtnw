@@ -1,0 +1,27 @@
+
+state={
+	id=876
+	name="STATE_876"
+	manpower = 299400
+	resources={
+		oil=2 # was: 2
+	}
+	
+	state_category = c3
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = AUS
+
+
+	}
+
+	provinces={
+		 11630 9661 3700
+	}
+}

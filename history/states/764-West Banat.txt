@@ -3,11 +3,10 @@ state={
 	id=764
 	name="STATE_764"
 	manpower = 585579
-	state_category = rural
+	state_category = c4
 
 	history={
-		owner = YUG
-		controller = YUG
+		owner = SER
 		victory_points = {
 			3614 1
 		}

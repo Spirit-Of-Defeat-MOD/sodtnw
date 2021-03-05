@@ -17,6 +17,9 @@ country_event = {
 	option = {
 		name = iea.1.a
 		add_stability = -0.1
+		hidden_effect = {
+			country_event = { id = iea.4 days = 45 }
+		}
 	}
 }
 
@@ -32,7 +35,6 @@ country_event = {
 
 	option = {
 		name = iea.2.a
-		add_stability = -0.1
 		ITA = { country_event = { id = iea.3 days 14 } }
 	}
 }
@@ -55,6 +57,151 @@ country_event = {
 				stockpile_ratio = 0.5
 				army_ratio = 0.5
 			}
+		}
+	}
+}
+
+#Rise of Aussa
+country_event = {
+	id = iea.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.3" }
+	title = iea.4.t
+	desc = iea.4.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = ROOT
+				OR = {
+					state = 857 #Aussa
+				}
+			}
+			remove_claim_by = AWS
+			add_core_of = AWS
+			remove_core_of = IEA
+			add_claim_by = IEA
+			AWS = {
+				transfer_state = PREV
+			}
+			teleport_armies = {
+				to_state_array = owned_controlled_states
+			}
+		}
+		
+		AWS = { inherit_technology = IEA }
+		
+		hidden_effect = {
+			
+			IEA = {
+				set_province_controller = 13292
+				set_province_controller = 13291
+			}				
+			AWS = { load_oob = "AWS" }
+		}
+	}
+
+	option = {
+		name = iea.4.a
+		IEA = {
+			declare_war_on = {
+				target = AWS
+				type = annex_everything
+			}
+		}
+	}
+	
+	option = {
+		name = iea.4.b
+		IEA = {
+			declare_war_on = {
+				target = AWS
+				type = annex_everything
+			}
+		}
+		
+		AWS = {
+			change_tag_from = IEA
+		}
+	}
+}
+#Rise of Ajuran
+country_event = {
+	id = iea.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.3" }
+	title = iea.5.t
+	desc = iea.5.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = ROOT
+				OR = {
+					state = 858 #Kelafo
+				}
+			}
+			remove_claim_by = AJU
+			add_core_of = AJU
+			remove_core_of = IEA
+			add_claim_by = IEA
+			AJU = {
+				transfer_state = PREV
+			}
+			teleport_armies = {
+				to_state_array = owned_controlled_states
+			}
+		}
+		
+		every_owned_state = {
+			limit = {
+				is_controlled_by = ROOT
+				OR = {
+					state = 859
+					state = 860
+					state = 559
+					state = 856
+				}
+			}
+			remove_claim_by = AJU
+			add_core_of = AJU
+			remove_core_of = IEA
+			add_claim_by = IEA
+		}
+		
+		AJU = { inherit_technology = IEA }
+		
+		hidden_effect = {
+						
+			AJU = { load_oob = "AJU" }
+		}
+	}
+
+	option = {
+		name = iea.5.a
+		IEA = {
+			declare_war_on = {
+				target = AJU
+				type = annex_everything
+			}
+		}
+	}
+	
+	option = {
+		name = iea.5.b
+		IEA = {
+			declare_war_on = {
+				target = AJU
+				type = annex_everything
+			}
+		}
+		
+		AJU = {
+			change_tag_from = IEA
 		}
 	}
 }

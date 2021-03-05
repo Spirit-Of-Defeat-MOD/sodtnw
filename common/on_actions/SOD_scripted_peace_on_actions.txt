@@ -1,0 +1,51 @@
+on_actions = {
+	#Unique Scripted Peace Beacuse Puppets Don't Annex
+	#Tuareg-Algeria
+	on_peaceconference_ended = { 
+	    effect = { 
+		    if = { 
+			    limit = { 
+				    ROOT = { tag = ALG } 
+					AND = {
+						FROM = { tag = TUA }
+					}
+				}
+				
+				
+                ALG = { country_event = { id = scriptoccupation.1 } }				
+			} 
+		} 
+	}
+	
+	on_peaceconference_ended = { 
+	    effect = { 
+		    if = { 
+			    limit = { 
+				    ROOT = { tag = AOF } 
+					AND = {
+						FROM = { tag = MLI }
+					}
+				}
+				
+				
+                AOF = { country_event = { id = scriptoccupation.2 } }				
+			} 
+		} 
+	}
+	
+	on_peaceconference_ended = { 
+	    effect = { 
+		    if = { 
+			    limit = { 
+				    ROOT = { tag = AOF } 
+					AND = {
+						FROM = { tag = NGR }
+					}
+				}
+				
+				
+                AOF = { country_event = { id = scriptoccupation.3 } }				
+			} 
+		} 
+	}
+}

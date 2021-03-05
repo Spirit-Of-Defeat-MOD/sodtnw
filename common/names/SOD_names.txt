@@ -21,7 +21,16 @@ ITM = {
 			Hugo
 			Ignazio Ippazio Ivo
 			Jacopo
+			Lamberto Lando Laureano Lazzaro Leonardo Leone Leopoldo Liberato Liberto Livio Lodovico Lorenzo Lotario Luca Luchino Luciano Lucio Ludovico Luigi
+			Manlio Manuel Marcantonio Marcello Marco Mariano Mario Martino Martino Massimiliano Massimo Matteo Mattia Maurilio Maurizio Mauro Michelangelo Michele Micheletto Michelotto Milo Mirco Mirko Moreno
+			Nanni Napoleone Niccolò Nico Nicola Nicolò Nino Nunzio
+			Omero Orazio Oreste Orlando Osvaldo Ottavio Ottone
 			
+			Quirico Quirino
+			Ubaldo Uberto Ugo Ugolino Umberto
+			Valerio Venancio Vincentio Vincenzo Virgilio Vito Vittorio Vladimiro
+			Wladimiro
+			Zanobi 
 		}
 	}
 	female = {
@@ -32,4 +41,20 @@ ITM = {
 	
 	}
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
+
+AWS = {
+	male = {
+		names = {
+			Kadhafo Aydahis Hanfere Mahammad Yayyo Alimirah
+		}
+			
+	female = {
+		names = {  }
+	}
+	surnames = {
+		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah"
+		
+	}
+	callsigns = {  }
 }

@@ -5,8 +5,92 @@
 #################################
 
 add_namespace = occupation
+add_namespace = scriptoccupation
 
-# Mali - these nations are first, testing with fren west africa
+###scriptoccupationn-Tuareg War
+#Fate of the Tuaregs
+country_event = {
+	id = scriptoccupation.1
+    title = scriptoccupation.1.t
+	desc = scriptoccupation.1.d
+	picture = GFX_report_event_generic_rally
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scriptoccupation.1.a
+		annex_country = { target = TUA }
+		country_event = { id = algeria.1 days = 3 }
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = scriptoccupation.1.b
+		FRA = { puppet = TUA }
+		ai_will_do = {
+			factor = 10
+		}
+	}	
+}
+
+#AOF-MALI
+country_event = {
+	id = scriptoccupation.2
+    title = scriptoccupation.2.t
+	desc = scriptoccupation.2.d
+	picture = GFX_report_event_generic_rally
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scriptoccupation.2.a
+		annex_country = { target = MLI }
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = scriptoccupation.2.b
+		FRE = { puppet = MLI }
+		ai_will_do = {
+			factor = 10
+		}
+	}	
+}
+
+#AOF-NGR
+country_event = {
+	id = scriptoccupation.3
+    title = scriptoccupation.3.t
+	desc = scriptoccupation.3.d
+	picture = GFX_report_event_generic_rally
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scriptoccupation.3.a
+		annex_country = { target = NGR }
+		ai_will_do = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = scriptoccupation.3.b
+		FRE = { puppet = NGR }
+		ai_will_do = {
+			factor = 10
+		}
+	}	
+}
+
+# Mali - these nations are first, testing with fren west africa - only works with overlord...puppet AI gets scripted peace
 country_event = {
 	id = occupation.1
 	title = occupation.1.t

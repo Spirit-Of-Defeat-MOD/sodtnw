@@ -1,0 +1,159 @@
+on_actions = {
+	on_startup = { #Mexico Cores, this is so factions can gain manpower once they annex someone
+		effect = {
+			#every_state = { #Removed for testing
+			#	limit = {
+			#		is_core_of = MEX
+			#	}
+			#	add_core_of = CED
+			#	add_core_of = MCT
+			#	add_core_of = PNR
+			#	add_core_of = PLM
+			#	add_core_of = VIL
+			#}
+			
+			every_state = {
+				limit = {
+					is_core_of = MEX
+				}
+				add_claim_by = CED
+				add_claim_by = MCT
+				add_claim_by = PNR
+				add_claim_by = PLM
+				add_claim_by = VIL
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			#Mexican oil concessions
+				PNR = {	give_resource_rights = { receiver = ENG state = 476 }}
+				MEX = {
+					give_resource_rights = { receiver = ENG state = 477 }
+					give_resource_rights = { receiver = USA state = 479 }
+					give_resource_rights = { receiver = USA state = 480 }
+				}
+		}
+	}
+	
+	on_annex = { #Should remove cores of dead factions so no revivals mid civil war -NOTE this does affect the entire world so scripted peace needs to take this into account
+		effect = {
+			every_state = {
+				limit = {
+					is_core_of = FROM
+				}
+				remove_core_of = FROM
+			}
+			
+			every_state = {
+				limit = {
+					is_claimed_by = FROM
+				}
+				remove_claim_by = FROM
+			}
+		}
+	}
+	##(State militas)
+	on_peaceconference_ended = {
+		effect = {
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 800 }
+					800 = { is_claimed_by = ROOT }
+					NOT = { 800 = { is_core_of = ROOT } }
+				}
+				activate_decision = militia_puebla			
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 484 }
+					484 = { is_claimed_by = ROOT }
+					NOT = { 484 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_baja_california		
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 483 }
+					483 = { is_claimed_by = ROOT }
+					NOT = { 483 = { is_core_of = ROOT } }
+				}
+				activate_decision = militia_sonora		
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 482 }
+					482 = { is_claimed_by = ROOT }
+					NOT = { 482 = { is_core_of = ROOT } }
+				}
+				activate_decision = militia_chihuahua	
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 481 }
+					481 = { is_claimed_by = ROOT }
+					NOT = { 481 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_durango	
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 480 }
+					480 = { is_claimed_by = ROOT }
+					NOT = { 480 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_coahuila
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 479 }
+					479 = { is_claimed_by = ROOT }
+					NOT = { 479 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_tamaulipas
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 802 }
+					802 = { is_claimed_by = ROOT }
+					NOT = { 802 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_san_luis_potosi
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 478 }
+					478 = { is_claimed_by = ROOT }
+					NOT = { 478 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_jalisco
+			}
+			
+			if = { 
+			    limit = { 
+				    ROOT = { owns_state = 801 }
+					801 = { is_claimed_by = ROOT }
+					NOT = { 801 = { is_core_of = ROOT } }
+
+				}
+				activate_decision = militia_sinaloa
+			}
+			
+		}
+	}
+}

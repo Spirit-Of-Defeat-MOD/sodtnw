@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+ASR_fascism_party:0 ""
+ASR_fascism_party_long:0 ""
+ASR_communism_party:0 ""
+ASR_communism_party_long:0 ""
+ASR_democratic_party:1 ""
+ASR_democratic_party_long:0 ""
+ASR_utilitarian_despot_party:0 "al-Idrisi"
+ASR_utilitarian_despot_party_long:0 "Idrisid Dynasty"
+ASR_neutrality_party:0 ""
+ASR_neutrality_party_long:0 ""
+ASR_social_democrat_party:0 ""
+ASR_social_democrat_party_long:0 ""
+ASR_social_liberal_party:0 ""
+ASR_social_liberal_party_long:0 ""
+ASR_classic_liberal_party:0 ""
+ASR_classic_liberal_party_long:0 ""
+ASR_libertarian_socialist_party:0 ""
+ASR_libertarian_socialist_party_long:0 ""
+ASR_revolutionary_socialism_party:0 ""
+ASR_revolutionary_socialism_party_long:0 ""
+ASR_reformist_socialist_party:0 ""
+ASR_reformist_socialist_party_long:0 ""
+
+#Country Names
+ASR_fascism:0 "Emirate of Asir"
+ASR_fascism_DEF:0 "the Idrisid Emirate of Asir"
+ASR_libertarian_socialist:0 "Soviet Republic of Asir"
+ASR_libertarian_socialist_DEF:0 "Soviet Republic of Asir"
+ASR_utilitarian_despot:0 "Emirate of Asir"
+ASR_utilitarian_despot_DEF:0 "the Idrisid Emirate of Asir"
+ASR_democratic:0 "Emirate of Asir"
+ASR_democratic_DEF:0 "the Idrisid Emirate of Asir"
+ASR_neutrality:1 "Emirate of Asir"
+ASR_neutrality_DEF:1 "the Emirate of Asir"
+ASR_reformist_socialist:0 "Soviet Republic of Asir"
+ASR_reformist_socialist_DEF:0 "Soviet Republic of Asir"
+ASR_social_democrat:0 "Emirate of Asir"
+ASR_social_democrat_DEF:0 "the Idrisid Emirate of Asir"
+ASR_social_liberal:0 "Emirate of Asir"
+ASR_social_liberal_DEF:0 "the Idrisid Emirate of Asir"
+ASR_classic_liberal:0 "Emirate of Asir"
+ASR_classic_liberal_DEF:0 "the Idrisid Emirate of Asir"
+ASR_communism:0 "Soviet Republic of Asir"
+ASR_communism_DEF:0 "Soviet Republic of Asir"
+ 
+ASR_fascism_ADJ:0 "Idrisid"
+ASR_fascism_ADJ:0 "Idrisid"
+ASR_libertarian_socialist_ADJ:0 "Idrisid"
+ASR_democratic_ADJ:0 "Idrisid"
+ASR_utilitarian_despot_ADJ:0 "Idrisid"
+ASR_reformist_socialist_ADJ:0 "Idrisid"
+ASR_neutrality_ADJ:0 "Idrisid"
+ASR_social_democrat_ADJ:0 "Idrisid"
+ASR_social_liberal_ADJ:0 "Idrisid"
+ASR_classic_liberal_ADJ:0 "Idrisid"
+ASR_communism_ADJ:0 "Idrisid"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

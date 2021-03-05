@@ -66,7 +66,27 @@ IEA_reformist_socialist_party_long:0 "Partito Socialista Italiano"
 #should be reintegrated
 
 #Events
-#should be reintegrated
+iea.1.t:0 "Civil War in the Homeland"
+iea.1.d:0 ""
+iea.1.a:0 ""
+
+iea.2.t:0 "Rome requests aid"
+iea.2.d:0 ""
+iea.2.a:0 ""
+
+iea.3.t:0 "Colonial Troops arrive"
+iea.3.d:0 ""
+iea.3.a:0 ""
+
+iea.4.t:0 "The Afar rebellion"
+iea.4.d:0 ""
+iea.4.a:0 "Crush it"
+iea.4.b:0 "Drive out the invaders(play as aussa)"
+
+iea.4.t:0 "The Kelafo Revolt"
+iea.4.d:0 "After the decline and ultimate collapse of the Ajuuraan Empire the Gareen Sultans were reduced to nothing more than the territory of Qalafe. With rising nationalism throughout the empire however revolutionaries have implored the current sultan to rise up in open rebellion against our colonial rule."
+iea.4.a:0 "Crush it"
+iea.4.b:0 "Drive out the invaders(play as Ajuran)"
 
 #Descriptions
 

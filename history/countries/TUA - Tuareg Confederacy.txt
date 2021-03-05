@@ -19,7 +19,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Akhemuk ag Ihemma"
-	picture = ""
+	picture = "Akhemuk_ag_Ihemma.dds"
 	expire = "1965.1.1"
 	ideology = utilitarian_despot_subtype
 }

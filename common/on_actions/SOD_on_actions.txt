@@ -1,63 +1,30 @@
 on_actions = {
-	on_startup = { #Mexico Cores, this is so factions can gain manpower once they annex someone
-		effect = {
-			every_state = {
-				limit = {
-					is_core_of = MEX
-				}
-				add_core_of = CED
-				add_core_of = MCT
-				add_core_of = PNR
-				add_core_of = PLM
-				add_core_of = VIL
-			}
-			
-			every_state = {
-				limit = {
-					is_claimed_by = MEX
-				}
-				add_claim_by = CED
-				add_claim_by = MCT
-				add_claim_by = PNR
-				add_claim_by = PLM
-				add_claim_by = VIL
-			}
-		}
-	}
-	
-	on_startup = {
-		effect = {
-			#Mexican oil concessions
-				PNR = {	give_resource_rights = { receiver = ENG state = 476 }}
-				MEX = {
-					give_resource_rights = { receiver = ENG state = 477 }
-					give_resource_rights = { receiver = USA state = 479 }
-					give_resource_rights = { receiver = USA state = 480 }
-				}
-		}
-	}
-	
-	on_annex = { #Should remove cores of dead factions so no revivals mid civil war
-		effect = {
-			every_state = {
-				limit = {
-					is_core_of = FROM
-				}
-				remove_core_of = FROM
-			}
-			
-			every_state = {
-				limit = {
-					is_claimed_by = FROM
-				}
-				remove_claim_by = FROM
-			}
-		}
-	}
 	
 	on_startup = { 
 		effect = {
 			AOF = {
+				add_to_war = { 
+					targeted_alliance = FRE 
+					enemy = DAH 
+				}
+				
+				add_to_war = { 
+					targeted_alliance = FRE 
+					enemy = TOG 
+				}
+				
+				add_to_war = { 
+					targeted_alliance = FRE 
+					enemy = MLI
+				}
+				
+				add_to_war = { 
+					targeted_alliance = FRE 
+					enemy = NGR
+				}
+			}
+			
+			AEF = {
 				add_to_war = { 
 					targeted_alliance = FRE 
 					enemy = DAH 

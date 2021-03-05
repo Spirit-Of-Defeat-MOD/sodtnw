@@ -131,14 +131,16 @@ bookmarks = {
 			history = "MEXICO_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				MEX_church_power_2
-				MEX_politicised_army
-				MEX_oil_concessions
+
 			}
-			focuses = {
-				MEX_focus_aztec_eagles
-				MEX_focus_hispanic_alliance
-				MEX_focus_smash_the_bureaucrats
+		}
+		
+		"CRO"={
+			minor = yes
+			history = ""
+			ideology = social_liberal
+			ideas = {
+
 			}
 		}
 		

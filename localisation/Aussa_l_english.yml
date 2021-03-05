@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+AWS_fascism_party:0 ""
+AWS_fascism_party_long:0 ""
+AWS_communism_party:0 ""
+AWS_communism_party_long:0 ""
+AWS_democratic_party:1 ""
+AWS_democratic_party_long:0 ""
+AWS_utilitarian_despot_party:0 "Modaytó Dynasty"
+AWS_utilitarian_despot_party_long:0 "Modaytó Dynasty"
+AWS_neutrality_party:0 ""
+AWS_neutrality_party_long:0 ""
+AWS_social_democrat_party:0 ""
+AWS_social_democrat_party_long:0 ""
+AWS_social_liberal_party:0 ""
+AWS_social_liberal_party_long:0 ""
+AWS_classic_liberal_party:0 ""
+AWS_classic_liberal_party_long:0 ""
+AWS_libertarian_socialist_party:0 ""
+AWS_libertarian_socialist_party_long:0 ""
+AWS_revolutionary_socialism_party:0 ""
+AWS_revolutionary_socialism_party_long:0 ""
+AWS_reformist_socialist_party:0 ""
+AWS_reformist_socialist_party_long:0 ""
+
+#Country Names
+AWS_fascism:0 "Sultanate of Aussa"
+AWS_fascism_DEF:0 "Sultanate of Aussa"
+AWS_libertarian_socialist:0 "Afar Peoples' Republic"
+AWS_libertarian_socialist_DEF:0 "Afar Peoples' Republic"
+AWS_utilitarian_despot:0 "Sultanate of Aussa"
+AWS_utilitarian_despot_DEF:0 "the Sultanate of Aussa"
+AWS_democratic:0 "Sultanate of Aussa"
+AWS_democratic_DEF:0 "Sultanate of Aussa"
+AWS_neutrality:1 "Sultanate of Aussa"
+AWS_neutrality_DEF:1 "the Sultanate of Aussa"
+AWS_reformist_socialist:0 "Afar Peoples' Republic"
+AWS_reformist_socialist_DEF:0 "Afar Peoples' Republic"
+AWS_social_democrat:0 "Sultanate of Aussa"
+AWS_social_democrat_DEF:0 "Sultanate of Aussa"
+AWS_social_liberal:0 "Sultanate of Aussa"
+AWS_social_liberal_DEF:0 "Sultanate of Aussa"
+AWS_classic_liberal:0 "Sultanate of Aussa"
+AWS_classic_liberal_DEF:0 "Sultanate of Aussa"
+AWS_communism:0 "Afar Peoples' Republic"
+AWS_communism_DEF:0 "Afar Peoples' Republic"
+ 
+AWS_fascism_ADJ:0 "Afar"
+AWS_fascism_ADJ:0 "Afar"
+AWS_libertarian_socialist_ADJ:0 "Afar"
+AWS_democratic_ADJ:0 "Afar"
+AWS_utilitarian_despot_ADJ:0 "Afar"
+AWS_reformist_socialist_ADJ:0 "Afar"
+AWS_neutrality_ADJ:0 "Afar"
+AWS_social_democrat_ADJ:0 "Afar"
+AWS_social_liberal_ADJ:0 "Afar"
+AWS_classic_liberal_ADJ:0 "Afar"
+AWS_communism_ADJ:0 "Afar"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

@@ -34,3 +34,13 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+create_country_leader = {
+	name = "Boussahba Kaddour"
+	desc = ""
+	picture = "Portrait_Belkaim_Kaddour.dds"
+	ideology = revolutionary_socialist
+	traits = {
+		#
+	}
+}

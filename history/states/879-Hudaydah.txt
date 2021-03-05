@@ -1,0 +1,20 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		13309 13310 
+	}
+	history={
+		owner = ASR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ASR
+		add_core_of = YEM
+
+	}
+	state_category = c2
+	manpower=39210
+	buildings_max_level_factor=1.000
+}

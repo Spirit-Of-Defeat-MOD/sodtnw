@@ -1,0 +1,346 @@
+##################################
+# Mexican Decisions by Kstar
+##################################
+#recruit local militas
+mexican_militias = {
+	militia_baja_california = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			484 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = baja_militia_raised
+				484 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				484 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+			country_event = mexmilitias.2
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_sonora = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			483 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = sonora_militia_raised
+				483 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				483 = { is_owned_and_controlled_by = ROOT }
+				
+			}	
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+			country_event = mexmilitias.3
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_chihuahua = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			482 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = chihuahua_militia_raised
+				482 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				482 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+			country_event = mexmilitias.4
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_durango = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			481 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = durango_militia_raised
+				481 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				481 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_durango"
+			country_event = mexmilitias.5
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_durango"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_coahuila = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			480 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = coahuila_militia_raised
+				480 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				480 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_durango"
+			country_event = mexmilitias.6
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_durango"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_tamaulipas = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			479 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = tamaulipas_militia_raised
+				479 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				479 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_tamaulipas"
+			country_event = mexmilitias.7
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_tamaulipas"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_san_luis_potosi = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			802 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = san_luis_potosi_militia_raised
+				802 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				802 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_san_luis_potosi"
+			country_event = mexmilitias.8
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_san_luis_potosi"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_jalisco = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			478 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = san_luis_potosi_militia_raised
+				478 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				478 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_jalisco"
+			country_event = mexmilitias.9
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_jalisco"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_sinaloa = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			801 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = san_luis_potosi_militia_raised
+				801 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				801 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_sinaloa"
+			country_event = mexmilitias.10
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_sinaloa"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	militia_puebla = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = yes
+		
+		activation = {
+			800 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			NOT = {
+				has_global_flag = puebla_militia_raised
+				800 = { is_core_of = ROOT }	
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				800 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+			country_event = mexmilitias.1
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: militia_puebla"
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+YEM_fascism_party:0 ""
+YEM_fascism_party_long:0 ""
+YEM_communism_party:0 ""
+YEM_communism_party_long:0 ""
+YEM_democratic_party:1 ""
+YEM_democratic_party_long:0 ""
+YEM_utilitarian_despot_party:0 "Rassids"
+YEM_utilitarian_despot_party_long:0 "Rassid dynasty"
+YEM_neutrality_party:0 ""
+YEM_neutrality_party_long:0 ""
+YEM_social_democrat_party:0 ""
+YEM_social_democrat_party_long:0 ""
+YEM_social_liberal_party:0 ""
+YEM_social_liberal_party_long:0 ""
+YEM_classic_liberal_party:0 ""
+YEM_classic_liberal_party_long:0 ""
+YEM_libertarian_socialist_party:0 ""
+YEM_libertarian_socialist_party_long:0 ""
+YEM_revolutionary_socialism_party:0 ""
+YEM_revolutionary_socialism_party_long:0 ""
+YEM_reformist_socialist_party:0 ""
+YEM_reformist_socialist_party_long:0 ""
+
+#Country Names
+YEM_fascism:0 "Kingdom of Yemen"
+YEM_fascism_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_libertarian_socialist:0 "People's Democratic Republic of Yemen"
+YEM_libertarian_socialist_DEF:0 "People's Democratic Republic of Yemen"
+YEM_utilitarian_despot:0 "Kingdom of Yemen"
+YEM_utilitarian_despot_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_democratic:0 "Kingdom of Yemen"
+YEM_democratic_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_neutrality:1 "Kingdom of Yemen"
+YEM_neutrality_DEF:1 "the Kingdom of Yemen"
+YEM_reformist_socialist:0 "People's Democratic Republic of Yemen"
+YEM_reformist_socialist_DEF:0 "People's Democratic Republic of Yemen"
+YEM_social_democrat:0 "Kingdom of Yemen"
+YEM_social_democrat_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_social_liberal:0 "Kingdom of Yemen"
+YEM_social_liberal_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_classic_liberal:0 "Kingdom of Yemen"
+YEM_classic_liberal_DEF:0 "the Mutawakkilite Kingdom of Yemen"
+YEM_communism:0 "People's Democratic Republic of Yemen"
+YEM_communism_DEF:0 "People's Democratic Republic of Yemen"
+ 
+YEM_fascism_ADJ:0 "Rassidi"
+YEM_fascism_ADJ:0 "Rassidi"
+YEM_libertarian_socialist_ADJ:0 "Yemeni"
+YEM_democratic_ADJ:0 "Rassidi"
+YEM_utilitarian_despot_ADJ:0 "Rassidi"
+YEM_reformist_socialist_ADJ:0 "Yemeni"
+YEM_neutrality_ADJ:0 "Rassidi"
+YEM_social_democrat_ADJ:0 "Rassidi"
+YEM_social_liberal_ADJ:0 "Rassidi"
+YEM_classic_liberal_ADJ:0 "Rassidi"
+YEM_communism_ADJ:0 "Yemeni"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

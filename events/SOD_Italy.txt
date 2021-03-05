@@ -21,6 +21,146 @@ country_event = {
 	}
 }
 
+#Umberto Arrested
+country_event = {
+	id = italy.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.2" }
+	title = italy.2.t
+	desc = italy.2.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.2.a
+		add_stability = 0.05
+		add_political_power = 25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = 15
+		}
+		set_country_flag = ITA_umberto_arrested
+		
+	}
+}
+
+#Umberto Evades Arrested
+country_event = {
+	id = italy.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.3" }
+	title = italy.3.t
+	desc = italy.3.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.3.a
+		add_stability = -0.05
+		add_political_power = -25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = -10
+		}
+		set_country_flag = ITA_umberto_evades_arrest
+		
+	}
+}
+
+#Umberto Killed
+country_event = {
+	id = italy.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.4" }
+	title = italy.4.t
+	desc = italy.4.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.4.a
+		add_stability = 0.05
+		add_political_power = 25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = 20
+		}
+		set_country_flag = ITA_umberto_killed
+		
+	}
+}
+
+#Umberto Injured
+country_event = {
+	id = italy.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.5" }
+	title = italy.5.t
+	desc = italy.5.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.5.a
+		add_stability = 0.05
+		add_political_power = 25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = 10
+		}
+		set_country_flag = ITA_umberto_evades_death
+		
+	}
+}
+
+#Umberto Evades Killer
+country_event = {
+	id = italy.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.3" }
+	title = italy.6.t
+	desc = italy.6.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.6.a
+		add_stability = -0.05
+		add_political_power = -25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = -5
+		}
+		set_country_flag = ITA_umberto_evades_death
+		
+	}
+}
+
+#Killer Captured
+country_event = {
+	id = italy.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event italy.3" }
+	title = italy.7.t
+	desc = italy.7.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+
+	option = {
+		name = italy.7.a
+		add_stability = -0.05
+		add_political_power = -25
+		add_days_mission_timeout = {
+			mission = ITA_military_coup
+			days = -15
+		}
+		set_country_flag = ITA_umberto_evades_death
+		
+	}
+}
+
+
+
 ########################################
 #### Italian Civil War
 ########################################
@@ -81,6 +221,10 @@ country_event = {
 		
 		ITS = {
 			transfer_technology = yes
+		}
+		
+		IEA = {
+			country_event = { id = iea.1 days = 5 }
 		}
 		
 		

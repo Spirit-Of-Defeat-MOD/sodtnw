@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+AJU_fascism_party:0 ""
+AJU_fascism_party_long:0 ""
+AJU_communism_party:0 ""
+AJU_communism_party_long:0 ""
+AJU_democratic_party:1 ""
+AJU_democratic_party_long:0 ""
+AJU_utilitarian_despot_party:0 "House of Gareen"
+AJU_utilitarian_despot_party_long:0 "House of Gareen"
+AJU_neutrality_party:0 ""
+AJU_neutrality_party_long:0 ""
+AJU_social_democrat_party:0 ""
+AJU_social_democrat_party_long:0 ""
+AJU_social_liberal_party:0 ""
+AJU_social_liberal_party_long:0 ""
+AJU_classic_liberal_party:0 ""
+AJU_classic_liberal_party_long:0 ""
+AJU_libertarian_socialist_party:0 ""
+AJU_libertarian_socialist_party_long:0 ""
+AJU_revolutionary_socialism_party:0 ""
+AJU_revolutionary_socialism_party_long:0 ""
+AJU_reformist_socialist_party:0 ""
+AJU_reformist_socialist_party_long:0 ""
+
+#Country Names
+AJU_fascism:0 "Ajuran Sultanate"
+AJU_fascism_DEF:0 "Ajuran Sultanate"
+AJU_libertarian_socialist:0 "Kelafo Peoples' Republic"
+AJU_libertarian_socialist_DEF:0 "Kelafo Peoples' Republic"
+AJU_utilitarian_despot:0 "Ajuran Sultanate"
+AJU_utilitarian_despot_DEF:0 "the Ajuran Sultanate"
+AJU_democratic:0 "Ajuran Sultanate"
+AJU_democratic_DEF:0 "Ajuran Sultanate"
+AJU_neutrality:1 "Ajuran Sultanate"
+AJU_neutrality_DEF:1 "the Ajuran Sultanate"
+AJU_reformist_socialist:0 "Kelafo Peoples' Republic"
+AJU_reformist_socialist_DEF:0 "Kelafo Peoples' Republic"
+AJU_social_democrat:0 "Ajuran Sultanate"
+AJU_social_democrat_DEF:0 "Ajuran Sultanate"
+AJU_social_liberal:0 "Ajuran Sultanate"
+AJU_social_liberal_DEF:0 "Ajuran Sultanate"
+AJU_classic_liberal:0 "Ajuran Sultanate"
+AJU_classic_liberal_DEF:0 "Ajuran Sultanate"
+AJU_communism:0 "Kelafo Peoples' Republic"
+AJU_communism_DEF:0 "Kelafo Peoples' Republic"
+ 
+AJU_fascism_ADJ:0 "Ajuran"
+AJU_fascism_ADJ:0 "Ajuran"
+AJU_libertarian_socialist_ADJ:0 "Ajuran"
+AJU_democratic_ADJ:0 "Ajuran"
+AJU_utilitarian_despot_ADJ:0 "Ajuran"
+AJU_reformist_socialist_ADJ:0 "Ajuran"
+AJU_neutrality_ADJ:0 "Ajuran"
+AJU_social_democrat_ADJ:0 "Ajuran"
+AJU_social_liberal_ADJ:0 "Ajuran"
+AJU_classic_liberal_ADJ:0 "Ajuran"
+AJU_communism_ADJ:0 "Ajuran"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

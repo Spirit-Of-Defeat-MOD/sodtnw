@@ -41,9 +41,9 @@ set_popularities = {
     social_liberal = 0
     classic_liberal = 0
     democratic = 0
-    neutrality = 20
-    utilitarian_despot = 30
-    fascism = 50
+    neutrality = 30
+    utilitarian_despot = 50
+    fascism = 20
 }
 
 

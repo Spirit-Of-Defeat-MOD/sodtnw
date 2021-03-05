@@ -1,0 +1,457 @@
+#################################
+# Mexican Revolution General Events
+# Feel free to create and modify
+# the events for your country
+#################################
+
+add_namespace = mexmilitias
+
+##Puebla Militia
+country_event = {
+	id = mexmilitias.1
+	title = mexmilitias.1.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = puebla_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		800 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Puebla\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 8089
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Puebla\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 8089
+			}
+		}
+	}
+}
+
+##Baja Militia
+country_event = {
+	id = mexmilitias.2
+	title = mexmilitias.2.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = baja_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		484 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Baja California\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12461
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Baja California\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12461
+			}
+		}
+	}
+}
+
+##Sonora Militia
+country_event = {
+	id = mexmilitias.3
+	title = mexmilitias.3.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = sonora_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		483 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Sonora\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10765
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Sonora\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10765
+			}
+		}
+	}
+}
+
+##Chihuahua Militia
+country_event = {
+	id = mexmilitias.4
+	title = mexmilitias.4.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = chihuahua_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		482 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Chihuahua\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10830
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Chihuahua\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10830
+			}
+		}
+	}
+}
+
+##Durango Militia
+country_event = {
+	id = mexmilitias.5
+	title = mexmilitias.5.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = durango_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		481 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Durango\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 7921
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Durango\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 7921
+			}
+		}
+	}
+}
+
+##Coahuila Militia
+country_event = {
+	id = mexmilitias.6
+	title = mexmilitias.6.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = coahuila_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		480 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Coahuila\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12835
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Coahuila\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12835
+			}
+		}
+	}
+}
+
+##Tamaulipas Militia
+country_event = {
+	id = mexmilitias.7
+	title = mexmilitias.7.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = tamaulipas_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		479 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Tamaulipas\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 5015
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Tamaulipas\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 5015
+			}
+		}
+	}
+}
+
+##San Luis Potosi
+country_event = {
+	id = mexmilitias.8
+	title = mexmilitias.8.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = san_luis_potosi_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		802 = {
+			create_unit = {
+				division = "name = \"1. Milicia de San Luis Potosi\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 4956
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de San Luis Potosi\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 4956
+			}
+		}
+	}
+}
+
+##Jalisco
+country_event = {
+	id = mexmilitias.9
+	title = mexmilitias.9.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = jalisco_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		478 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Jalisco\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13089
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Jalisco\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13089
+			}
+		}
+	}
+}
+
+##Sinaloa
+country_event = {
+	id = mexmilitias.10
+	title = mexmilitias.10.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = sinaloa_militia_raised
+		
+		#Units
+		division_template = {
+			name = "Milicia"
+			division_names_group = SPAN_INF_01
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		
+		801 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Sinaloa\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 8057
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Sinaloa\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 8057
+			}
+		}
+	}
+}

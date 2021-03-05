@@ -1,0 +1,16 @@
+ITA_civil_war = {
+	priority = 10
+	icon = spr_the_inevitable_civil_war
+
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+
+	allowed = {
+		original_tag = ITA
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		NOT = { has_global_flag = italian_civil_war }
+	}
+}

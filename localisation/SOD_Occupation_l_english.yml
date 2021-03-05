@@ -7,6 +7,18 @@ annexation_MLI_CONQ:0 "Occupation of Mali"
 annexation_TOG_CONQ:0 "Occupation of Togo"
 
 ##Events
+
+#Tuareg
+scriptoccupation.1.t:0 "Fate of the Tuareg State"
+scriptoccupation.1.d:0 ""
+scriptoccupation.1.a:0 "Annex it"
+scriptoccupation.1.b:0 "Liberate them"
+
+scriptoccupation.2.t:0 "Fate of the Tijani Caliphate"
+scriptoccupation.2.d:0 ""
+scriptoccupation.2.a:0 "Annex it"
+scriptoccupation.2.b:0 "Hand over to the provisional government"
+
 #Mali
 occupation.1.t:0 "Fate of Mali"
 occupation.1.d:0 ""

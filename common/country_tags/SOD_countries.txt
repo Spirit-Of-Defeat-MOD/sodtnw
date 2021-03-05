@@ -13,6 +13,8 @@ VIL = "countries/SouthAmerican.txt"
 #Africa
 AEF = "countries/African.txt"
 AOF = "countries/African.txt"
+AJU = "countries/African.txt" #Ajuran(Kelafo)
+AWS = "countries/African.txt" #Aussa Sultanate
 FRE = "countries/WestEurope.txt"
 IEA = "countries/WestEurope.txt"
 TUA = "countries/African.txt"
@@ -23,6 +25,9 @@ TRP = "countries/African.txt"  #Tripoli
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
 CHE = "countries/WestEurope.txt" #Chetniks
+
+#Middle East
+ASR = "countries/MiddleEast.txt" #Asir
 
 
 

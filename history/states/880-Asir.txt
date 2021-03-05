@@ -1,0 +1,21 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		8073 13311 
+	}
+	history={
+		owner = ASR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ASR
+		add_claim_by = YEM
+		add_claim_by = SAU
+
+	}
+	state_category = c3
+	manpower=228375
+	buildings_max_level_factor=1.000
+}

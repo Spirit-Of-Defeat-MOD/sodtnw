@@ -1,0 +1,31 @@
+###########################
+# Algeria Events by kstar
+###########################
+
+add_namespace = algeria
+
+#Disloyal population
+country_event = {
+	id = algeria.1
+    title = algeria.1.t
+	desc = algeria.1.d
+	picture = GFX_report_event_generic_rally
+
+	
+	is_triggered_only = yes
+	
+	#The timely approach
+	option = {
+		name = algeria.1.a
+		add_political_power = -25
+	}
+	
+	#Pacify the province
+	option = {
+		name = algeria.1.b
+		816 = {
+			add_manpower = -10000
+		}
+	}	
+}
+

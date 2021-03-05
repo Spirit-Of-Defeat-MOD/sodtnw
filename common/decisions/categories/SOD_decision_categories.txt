@@ -16,8 +16,8 @@ occupation_decisions = {
 	allowed = { always = yes } #manually activated
 }
 
-##Mexican Generals
-mexican_rev_generals = {
+##Mexican Militias
+mexican_militias = {
 	#icon = GFX_decision_cat_annexation
 	#picture = GFX_decision_cat_picture_annexation
 	priority = 90

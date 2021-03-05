@@ -790,3 +790,18 @@ CHE = {
 	color = rgb { 102 168 183 }
 	color_ui = rgb { 96 150 163 }
 }
+
+AWS = {
+	color = rgb { 204 255 170 }
+	color_ui = rgb { 204 255 170 }
+}
+
+AJU = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+
+ASR = {
+	color = rgb { 90 145 208 }
+	color_ui = rgb { 90 145 208 }
+}

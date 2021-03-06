@@ -1,7 +1,6 @@
 #################################
 # Mexican Revolution General Events
 # Feel free to create and modify
-# the events for your country
 #################################
 
 add_namespace = mexmilitias
@@ -20,18 +19,46 @@ country_event = {
 		name = mexmilitias.raise
 		set_global_flag = puebla_militia_raised
 		
-		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
+		
 		
 		800 = {
 			create_unit = {
@@ -42,7 +69,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Puebla\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Puebla\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 8089
@@ -66,15 +93,44 @@ country_event = {
 		set_global_flag = baja_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -87,7 +143,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Baja California\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Baja California\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 12461
@@ -111,15 +167,43 @@ country_event = {
 		set_global_flag = sonora_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -132,7 +216,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Sonora\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Sonora\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 10765
@@ -156,15 +240,43 @@ country_event = {
 		set_global_flag = chihuahua_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -177,7 +289,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Chihuahua\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Chihuahua\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 10830
@@ -201,15 +313,43 @@ country_event = {
 		set_global_flag = durango_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -222,7 +362,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Durango\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Durango\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 7921
@@ -246,15 +386,43 @@ country_event = {
 		set_global_flag = coahuila_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -267,7 +435,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Coahuila\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Coahuila\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 12835
@@ -291,15 +459,43 @@ country_event = {
 		set_global_flag = tamaulipas_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -312,7 +508,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Tamaulipas\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Tamaulipas\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 5015
@@ -336,15 +532,43 @@ country_event = {
 		set_global_flag = san_luis_potosi_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -357,7 +581,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de San Luis Potosi\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de San Luis Potosi\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 4956
@@ -381,15 +605,43 @@ country_event = {
 		set_global_flag = jalisco_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -402,7 +654,7 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Jalisco\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Jalisco\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 13089
@@ -426,15 +678,43 @@ country_event = {
 		set_global_flag = sinaloa_militia_raised
 		
 		#Units
-		division_template = {
-			name = "Milicia"
-			division_names_group = SPAN_INF_01
-			is_locked = yes
-			regiments = {
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 1 y = 1 }
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
 			}
 		}
 		
@@ -447,10 +727,667 @@ country_event = {
 			}
 			
 			create_unit = {
-				division = "name = \"2. Milicia de Sinaloa\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				division = "name = \"2. Milicia de Sinaloa\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 				prioritize_location = 8057
+			}
+		}
+	}
+}
+
+##Veracruz
+country_event = {
+	id = mexmilitias.11
+	title = mexmilitias.11.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = veracruz_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		477 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Veracruz\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12810
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Veracruz\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 12810
+			}
+		}
+	}
+}
+
+##Mexico City
+country_event = {
+	id = mexmilitias.12
+	title = mexmilitias.12.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = mexico_city_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		277 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Ciudad de México\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 1965
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Ciudad de México\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 1965
+			}
+		}
+	}
+}
+
+##Yucatan
+country_event = {
+	id = mexmilitias.13
+	title = mexmilitias.13.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = yucatan_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		474 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Yucatan\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13244
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Yucatan\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13244
+			}
+		}
+	}
+}
+
+##Quintana
+country_event = {
+	id = mexmilitias.14
+	title = mexmilitias.14.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = quintana_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		797 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Quintana Roo\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13237
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Quintana Roo\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13237
+			}
+		}
+	}
+}
+
+##Guerrero
+country_event = {
+	id = mexmilitias.15
+	title = mexmilitias.15.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = quintana_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		485 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Guerrero\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10730
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Guerrero\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10730
+			}
+		}
+	}
+}
+
+##Oaxaca
+country_event = {
+	id = mexmilitias.16
+	title = mexmilitias.16.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = quintana_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		476 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Oaxaca\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10773
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Oaxaca\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 10773
+			}
+		}
+	}
+}
+
+##Chiapas
+country_event = {
+	id = mexmilitias.17
+	title = mexmilitias.17.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = chiapas_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		475 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Chiapas\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13246
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Chiapas\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13246
+			}
+		}
+	}
+}
+
+##Tabasco
+country_event = {
+	id = mexmilitias.18
+	title = mexmilitias.18.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = tabasco_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		799 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Tabasco\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13249
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Tabasco\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 13249
+			}
+		}
+	}
+}
+
+##Campeche
+country_event = {
+	id = mexmilitias.19
+	title = mexmilitias.19.t
+	desc = mexmilitias.generic
+	picture = GFX_event_Generic_mexmilitias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = mexmilitias.raise
+		set_global_flag = campeche_militia_raised
+		
+		#Units
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_template = "Milicia" }
+
+				}
+
+				division_template = {
+					name = "Milicia"
+					division_names_group = SPAN_INF_01
+					is_locked = yes
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_template = "Vaquero" }
+	
+				}
+	
+				division_template = {
+					name = "Vaquero"
+					division_names_group = SPAN_CAV_01
+					is_locked = yes
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+					}
+				}
+			}
+		}
+		
+		798 = {
+			create_unit = {
+				division = "name = \"1. Milicia de Campeche\" division_template = \"Milicia\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 4904
+			}
+			
+			create_unit = {
+				division = "name = \"2. Milicia de Campeche\" division_template = \"Vaquero\"  start_experience_factor = 0.1"
+				allow_spawning_on_enemy_provs = yes
+				owner = ROOT
+				prioritize_location = 4904
 			}
 		}
 	}

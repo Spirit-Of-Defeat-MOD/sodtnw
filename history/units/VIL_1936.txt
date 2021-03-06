@@ -83,7 +83,7 @@ units = {
 
 	division = {
 		location = 12850
-		division_template = "Brigada Agrarista"
+		division_template = "División de Caballería"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
@@ -91,7 +91,7 @@ units = {
 
 	division = {
 		location = 12897
-		division_template = "Brigada Agrarista"
+		division_template = "División de Caballería"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }

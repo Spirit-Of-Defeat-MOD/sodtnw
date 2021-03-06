@@ -1,3 +1,39 @@
+#	focus = {
+#		id = REV_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
 focus_tree = {
 	id = REV_mexican_revolutionaries
 	
@@ -7,6 +43,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			OR = {
+				tag = MEX
 				tag = CED
 				tag = MCT
 				tag = PNR
@@ -19,838 +56,755 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 2000 }
-	
+
 	focus = {
-		id = REV_army_effort
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		id = REV_viva_mexico
+		icon = GFX_viva_mexico
+		x = 4
 		y = 0
-		cost = 2.1
 
-		available_if_capitulated = yes
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
 		completion_reward = {
+			add_political_power = 50
 			army_experience = 15
 		}
 	}
 
 	focus = {
-		id = REV_equipment_effort
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = REV_army_effort }
-		x = -1
+		id = REV_recruitment_drive
+		icon = GFX_recruitment_drive
+		prerequisite = { focus = REV_viva_mexico }
+		x = 2
 		y = 1
-		relative_position_id = REV_army_effort
-		cost = 2.1
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 500
-				producer = ROOT
-			}
-			add_political_power = -20
+		cost = 3
+		ai_will_do = {
+			factor = 1
 		}
-	}
 
-	focus = {
-		id = REV_cavalry_effort
-		icon = GFX_unknown
-		prerequisite = { focus = REV_army_effort }
-		x = 1
-		y = 1
-		relative_position_id = REV_army_effort
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = cavalry_tactics
+		available = {
 		}
-	}
-
-	focus = {
-		id = REV_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = REV_army_effort }
-		x = 0
-		y = 2
-		relative_position_id = REV_army_effort
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			activate_decision = REV_recruitment
-		}
-	}
-
-	focus = {
-		id = REV_equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = REV_equipment_effort }
-		x = 0
-		y = 2
-		relative_position_id = REV_equipment_effort
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 1000
-				producer = USA
-			}
-			add_political_power = -50
-		}
-	}
-
-	focus = {
-		id = REV_fortification_effort
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = REV_cavalry_effort }
-		x = 0
-		y = 2
-		relative_position_id = REV_cavalry_effort
-		cost = 2.1
-
-		available_if_capitulated = yes
 		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
 		complete_tooltip = {
-			
+
 		}
-
 		completion_reward = {
-			if = {
-				limit = {
-					tag = CED
-				}
-				army_experience = 5
-				if = {
-					limit = { controls_state = 894 }
-					894 = {
-						set_building_level = {
-							type = bunker
-							level = 3
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 3
-							}
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = MCT
-					army_experience = 5
-				}
-				if = {
-					limit = { controls_state = 478 }
-					478 = {
-						set_building_level = {
-							type = bunker
-							level = 3
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 3
-							}
-						}	
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = PNR
-				}
-				if = {
-					limit = { controls_state = 485 }
-					485 = {
-						set_building_level = {
-							type = bunker
-							level = 3
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 3
-							}	
-						}
-					}		
-				}
-			}
-			if = {
-				limit = {
-					tag = PLM
-				}
-				if = {
-					limit = { controls_state = 889 }
-					889 = {
-						set_building_level = {
-							type = bunker
-							level = 3
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 3								
-							}
-						}
-					}
-				}
-
-			}
-			
-			if = {
-				limit = {
-					tag = VIL
-				}
-				if = {
-					limit = { controls_state = 482 }
-					482 = {
-						set_building_level = {
-							type = bunker
-							level = 3
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 3
-							}
-						}
-					}
-				}		
-			}		
+			add_manpower = 20000
 		}
 	}
 
 	focus = {
-		id = REV_doctrine_effort_2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = REV_doctrine_effort }
-		x = 0
+		id = REV_organize_forces
+		icon = GFX_organize_forces
+		prerequisite = { focus = REV_recruitment_drive }
+		x = 2
 		y = 2
-		relative_position_id = REV_doctrine_effort
-		cost = 2.1
 
-		available_if_capitulated = yes
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
 
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
 		completion_reward = {
-			army_experience = 5
+			add_timed_idea = {
+				idea = REV_organization
+    			days = 356
+			}
+		}
+	}
+
+	focus = {
+		id = REV_defend_capital
+		icon = GFX_defend_capital
+		prerequisite = { focus = REV_viva_mexico }
+		x = 6
+		y = 1
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_capital = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = REV_improve_road_network
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = REV_defend_capital }
+		x = 6
+		y = 2
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = REV_revolutionary_zeal
+		icon = GFX_revolutionary_zeal
+		prerequisite = { focus = REV_recruitment_drive }
+		prerequisite = { focus = REV_defend_capital }
+		x = 4
+		y = 2
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = REV_local_arms_production
+		icon = GFX_local_arms_production
+		prerequisite = { focus = REV_organize_forces }
+		mutually_exclusive = { focus = REV_foreign_purchase  }
+		x = 1
+		y = 3
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_local_production
+    			days = 356
+			}
+		}
+	}
+
+	focus = {
+		id = REV_foreign_purchase
+		icon = GFX_foreign_purchase
+		prerequisite = { focus = REV_organize_forces }
+		mutually_exclusive = { focus = REV_local_arms_production  }
+		x = 3
+		y = 3
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			set_country_flag = equipment_purchase_flag
+			unlock_decision_category_tooltip = weapon_purchasing
+		}
+	}
+
+	focus = {
+		id = REV_gureilla_warfare
+		icon = GFX_gureilla_warfare
+		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
+		mutually_exclusive = { focus = REV_conventional_warfare  }
+		x = 1
+		y = 4
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_gureilla
+    			days = 356
+			}
+		}
+	}
+
+	focus = {
+		id = REV_conventional_warfare
+		icon = GFX_conventional_warfare
+		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
+		mutually_exclusive = { focus = REV_gureilla_warfare  }
+		x = 3
+		y = 4
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_conventional
+    			days = 356
+			}
+		}
+	}
+
+	focus = {
+		id = REV_limited_industry
+		icon = GFX_local_arms_production
+		prerequisite = { focus = REV_improve_road_network }
+		x = 6
+		y = 3
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = REV_quest_resource
+		icon = GFX_quest_resource
+		prerequisite = { focus = REV_limited_industry }
+		x = 6
+		y = 4
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_ideas = {
+				idea = REV_resource_extraction
+			}
+		}
+	}
+
+	focus = {
+		id = REV_better_cavalry
+		icon = GFX_better_cavalry
+		prerequisite = { focus = REV_gureilla_warfare }
+		x = 0
+		y = 5
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_better_cavalry_idea
+				days = 200
+			}
+		}
+	}
+
+	focus = {
+		id = REV_better_infantry
+		icon = GFX_better_infantry
+		prerequisite = { focus = REV_gureilla_warfare focus = REV_conventional_warfare }
+		x = 2
+		y = 5
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_better_infantry_idea
+				days = 200
+			}
+		}
+	}
+
+	focus = {
+		id = REV_better_artillery
+		icon = GFX_better_artillery
+		prerequisite = { focus = REV_conventional_warfare }
+		x = 4
+		y = 5
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_better_artillery_idea
+				days = 200
+			}
+		}
+	}
+
+	focus = {
+		id = REV_foreign_builders
+		icon = GFX_foreign_builders
+		prerequisite = { focus = REV_quest_resource }
+		x = 6
+		y = 5
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = REV_foreign_builders_idea
+				days = 200
+			}
+		}
+	}
+
+	focus = {
+		id = REV_foreign_experts
+		icon = GFX_foreign_experts
+		prerequisite = { focus = REV_better_infantry }
+		prerequisite = { focus = REV_better_cavalry }
+		prerequisite = { focus = REV_better_artillery }
+		x = 2
+		y = 6
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		completion_reward = {
 			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = REV_equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = REV_equipment_effort_2 }
-		x = 0
-		y = 2
-		relative_position_id = REV_equipment_effort_2
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = REV_armor_effort
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = REV_fortification_effort}
-		x = 0
-		y = 2
-		relative_position_id = REV_fortification_effort
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
+				name = infantry_artillery_bonus
 				bonus = 1.0
 				uses = 2
-				category = armor
+				category = infantry_weapons
+				category = artillery
+				category = support_tech
 			}
 		}
 	}
 
 	focus = {
-		id = REV_special_forces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = REV_equipment_effort_3 }
-		prerequisite = { focus = REV_doctrine_effort_2 }
-		prerequisite = { focus = REV_armor_effort }
-		x = 1
-		y = 1
-		relative_position_id = REV_equipment_effort_3
-		cost = 2.1
+		id = REV_revolutionary_education
+		icon = GFX_revolutionary_education
+		prerequisite = { focus = REV_foreign_builders }
 
-		available_if_capitulated = yes
+		x = 5
+		y = 6
 
-		completion_reward = {
-			add_ideas = special_forces
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
-		}
-	}
-	
-	#Political
-	focus = {
-		id = REV_revolutionary_politics
-		icon = GFX_goal_generic_demand_territory
-		x = 8
-		y = 0
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 120
-		}
-	}
-
-	focus = {
-		id = REV_push_unification
-		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = REV_revolutionary_politics }
-		mutually_exclusive = { focus = REV_liberty_ethos}
-		x = -1
-		y = 1
-		relative_position_id = REV_revolutionary_politics
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 0
-				OR = {
-					AND = {
-						is_historical_focus_on = yes
-						has_government = neutrality
-					}
-					has_idea = neutrality_idea
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = { idea = collectivist_ethos_focus days = 1095 }
-		}
-	}
-
-	focus = {
-		id = REV_strength_in_unity
-		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = REV_push_unification }
-		mutually_exclusive = { focus = REV_internationalism_focus }
-		available = {
-		}
-		x = -2
-		y = 1
-		relative_position_id = REV_push_unification
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = fascism
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = fascism }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = nationalism
-				days = 720
-			}
-		}
-	}
-	
-	focus = {
-		id = REV_internationalism_focus
-		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = REV_push_unification }
-		mutually_exclusive = { focus = REV_strength_in_unity }
-		available = {
-			if = {
-				limit = { original_tag = CHI }
-				has_government = communism
-				else = {
-					OR = {
-						has_government = communism
-						has_government = neutrality
-					}
-				}
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = REV_push_unification
-		cost = 2
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = communism
-				}
-			}			
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = communism }
-				}
-			}
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = internationalism
-				days = 720
-			}
-		}
-	}	
-
-	focus = {
-		id = REV_liberty_ethos
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = REV_revolutionary_politics }
-		mutually_exclusive = { focus = REV_push_unification }
-		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
-		}
-		x = 1
-		y = 1
-		relative_position_id = REV_revolutionary_politics
-		cost = 2
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 95
-			modifier = {
-				factor = 0.1
-				any_neighbor_country = {
-					is_major = yes
-					OR = {
-						has_government = communism
-						has_government = fascism
-					}
-				}
-				NOT = {
-					any_neighbor_country = {
-						is_major = yes
-						has_government = democratic
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			add_ideas = liberty_ethos_focus
-		}
-	}
-
-	focus = {
-		id = REV_militarism
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = REV_strength_in_unity }
-		x = 0
-		y = 1
-		relative_position_id = REV_strength_in_unity
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
-			}			
-			add_ideas = militarism_focus
-			army_experience = 20
-			set_rule = { can_send_volunteers = yes }
-		}
-	}
-
-	focus = {
-		id = REV_political_correctness
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = REV_internationalism_focus }
-		x = 0
-		y = 1
-		relative_position_id = REV_internationalism_focus
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
-			}		
-			add_political_power = 200
-			add_ideas = idea_political_correctness
-		}
-	}
-
-	focus = {
-		id = REV_neutrality_focus
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = REV_liberty_ethos }
-		mutually_exclusive = { focus = REV_interventionism_focus }
-		x = 0
-		y = 1
-		relative_position_id = REV_liberty_ethos
-		cost = 2.1
-
-		available_if_capitulated = yes
-
+		cost = 3
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				tag = AUS
-			}
 		}
 
-		completion_reward = {
-			if = {
-				limit = { NOT = { has_idea = neutrality_idea } }
-				add_ideas = neutrality_idea
-			}
-			add_political_power = 150
+		available = {
 		}
-	}
-
-	focus = {
-		id = REV_interventionism_focus
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = REV_liberty_ethos }
-		mutually_exclusive = { focus = REV_neutrality_focus }
-		x = 2
-		y = 1
-		relative_position_id = REV_liberty_ethos
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_idea = neutrality_idea
-			}
-		}
-
-		completion_reward = {
-			if = {
-				limit = { has_idea = neutrality_idea }
-				remove_ideas = neutrality_idea
-			}	
-			set_rule = { can_send_volunteers = yes }
-			add_political_power = 150
-		}
-	}
-
-	focus = {
-		id = REV_military_youth
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = REV_militarism }
-		x = 0
-		y = 1
-		relative_position_id = REV_militarism
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = military_youth_focus
-			if = {
-				limit = { has_government = fascism }
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = { has_government = communism }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = REV_deterrence
-		icon = GFX_goal_generic_defence
-		prerequisite = { focus = REV_neutrality_focus }
-		x = 0
-		y = 1
-		relative_position_id = REV_neutrality_focus
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = deterrence
-		}
-	}
-
-	focus = {
-		id = REV_volunteer_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = REV_interventionism_focus }
-		x = 0
-		y = 1
-		relative_position_id = REV_interventionism_focus
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = volunteer_corps_focus
-		}
-	}
-
-	focus = {
-		id = REV_quantity_over_quality
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = REV_military_youth }
-		x = 0
-		y = 1
-		relative_position_id = REV_military_youth
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = paramilitarism_focus
-		}
-	}
-
-	focus = {
-		id = REV_indoctrination_focus
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = REV_political_correctness }
-		x = 0
-		y = 1
-		relative_position_id = REV_political_correctness
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = indoctrination_focus
-			add_political_power = 150
-		}
-	}
-
-	focus = {
-		id = REV_foreign_expeditions
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = REV_volunteer_corps }
-		x = 0
-		y = 1
-		relative_position_id = REV_volunteer_corps
-		cost = 2.1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = foreign_expeditions_focus
-		}
-	}
-
-	focus = {
-		id = REV_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = REV_foreign_expeditions focus = REV_deterrence }
-		available = { 
-			OR = { 
-				threat > 0.75 
-				has_defensive_war = yes 
-			}
-		}
-
-		continue_if_invalid = REV_yes
 		
-		x = -2
-		y = 1
-		relative_position_id = REV_foreign_expeditions
-		cost = 2.1
+		bypass = {
+		}
 
-		available_if_capitulated = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
 		completion_reward = {
-			add_ideas = why_we_fight_focus
-			custom_effect_tooltip = why_we_fight_effect
-			hidden_effect = {
-				if = {
-					limit = { NOT = { has_idea = neutrality_idea } }
-					set_rule = { can_create_factions = yes }
-				}			
-			}
+			add_research_slot = 1
+
 		}
 	}
 
 	focus = {
-		id = REV_political_commissars
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = REV_indoctrination_focus }
+		id = REV_production_tech
+		icon = GFX_production_tech
+		prerequisite = { focus = REV_foreign_builders }
+
+		x = 7
+		y = 6
+
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
 		available = {
 		}
-		x = 0
-		y = 1
-		relative_position_id = REV_indoctrination_focus
-		cost = 2.1
+		
+		bypass = {
+		}
 
-		available_if_capitulated = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
 		completion_reward = {
-			add_ideas = political_commissars_focus
-			if = {
-				limit = { has_government = fascism }
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.2
-				}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 2
+				category = industry
+				category = electronics
 			}
-			if = {
-				limit = { has_government = communism }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-			add_political_power = 200
+
 		}
 	}
 
 	focus = {
-		id = REV_ideological_fanaticism
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = REV_quantity_over_quality focus = REV_political_commissars }
-		x = 1
-		y = 1
-		relative_position_id = REV_quantity_over_quality
-		cost = 2.1
+		id = REV_final_push
+		icon = GFX_final_push
+		prerequisite = { focus = REV_production_tech }
+		prerequisite = { focus = REV_foreign_experts }
+		prerequisite = { focus = REV_revolutionary_education }
 
-		available_if_capitulated = yes
+		x = 4
+		y = 7
 
-		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
-			set_rule = {
-				can_create_factions = yes
-			}
-			hidden_effect = {
-				set_rule = { can_use_kamikaze_pilots = yes }
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
+		cost = 3
+		ai_will_do = {
+			factor = 1
 		}
-	}
-	
-	focus = {
-		id = REV_technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = REV_ideological_fanaticism focus = REV_why_we_fight }
+
 		available = {
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
-		}		
-		x = 2
-		y = 1
-		relative_position_id = REV_ideological_fanaticism
-		cost = 2.1
+		}
+		
+		bypass = {
+		}
 
-		available_if_capitulated = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		complete_tooltip = {
+
+		}
 		completion_reward = {
-			if = {
-				limit = {
-					original_research_slots < 3
-				}
-				add_research_slot = 1
-			}
-			if = {
-				limit = {
-					original_research_slots > 2
-				}
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1.0
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 1
-					category = industry
-				}	
-				add_tech_bonus = {
-					name = infantry_artillery_bonus #@#
-					bonus = 1.0
-					uses = 1
-					category = infantry_weapons
-					category = artillery
-				}				
-			}			
+
 		}
 	}
+
 }

@@ -58,7 +58,7 @@ ideas = {
 			}
 		}
 
-        REV_gureilla = {
+        REV_guerrilla = {
 				
 			allowed = {
 				always = no

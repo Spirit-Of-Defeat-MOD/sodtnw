@@ -375,8 +375,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = REV_gureilla_warfare
-		icon = GFX_gureilla_warfare
+		id = REV_guerrilla_warfare
+		icon = GFX_guerrilla_warfare
 		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
 		mutually_exclusive = { focus = REV_conventional_warfare  }
 		x = 1
@@ -402,7 +402,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = REV_gureilla
+				idea = REV_guerrilla
     			days = 356
 			}
 		}
@@ -412,7 +412,7 @@ focus_tree = {
 		id = REV_conventional_warfare
 		icon = GFX_conventional_warfare
 		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
-		mutually_exclusive = { focus = REV_gureilla_warfare  }
+		mutually_exclusive = { focus = REV_guerrilla_warfare  }
 		x = 3
 		y = 4
 
@@ -444,7 +444,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_limited_industry
-		icon = GFX_local_arms_production
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = REV_improve_road_network }
 		x = 6
 		y = 3
@@ -536,7 +536,7 @@ focus_tree = {
 	focus = {
 		id = REV_better_cavalry
 		icon = GFX_better_cavalry
-		prerequisite = { focus = REV_gureilla_warfare }
+		prerequisite = { focus = REV_guerrilla_warfare }
 		x = 0
 		y = 5
 
@@ -569,7 +569,7 @@ focus_tree = {
 	focus = {
 		id = REV_better_infantry
 		icon = GFX_better_infantry
-		prerequisite = { focus = REV_gureilla_warfare focus = REV_conventional_warfare }
+		prerequisite = { focus = REV_guerrilla_warfare focus = REV_conventional_warfare }
 		x = 2
 		y = 5
 

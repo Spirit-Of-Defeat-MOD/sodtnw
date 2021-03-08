@@ -50,5 +50,7 @@ leader_traits = {
 #####################
 
 	magonist = {}
+	villista = {}
+	escobarist = {}
 
 }

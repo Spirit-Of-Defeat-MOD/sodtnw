@@ -1,0 +1,217 @@
+ideas = {
+	head_of_government = {
+		VIL_Jose_Gonzalo_Escobar_hog = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Jose_Gonzalo_Escobar_hog"
+			}
+			traits = {
+				head_of_government
+				escobarist
+				hog_smiling_oilman
+			}
+		}
+	
+		VIL_Rosalio_Hernandez_hog = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Rosalio_Hernandez_hog"
+			}
+			traits = {
+				head_of_government
+				villista
+				hog_ambitious_union_boss
+			}
+		}
+
+		VIL_Marcelino_Murrieta_hog = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Marcelino_Murrieta_hog"
+			}
+			traits = {
+				head_of_government
+				escobarist
+				hog_corporate_suit
+			}
+		}
+	}
+
+	foreign_minister = {
+		VIL_Manuel_Chao_frm = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Manuel_Chao_frm"
+			}
+			traits = {
+				foreign_minister 
+				villista
+				frm_great_compromiser
+			}
+		}
+
+		VIL_Severino_Ceniceros_frm = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Severino_Ceniceros_frm"
+			}
+			traits = {
+				foreign_minister 
+				villista
+				frm_the_cloak_n_dagger_schemer
+			}
+		}
+
+		VIL_Fausto_Topete_frm = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Fausto_Topete_frm"
+			}
+			traits = {
+				foreign_minister 
+				escobarist
+				frm_ideological_crusader
+			}
+		}
+	}
+
+	economy_minister = {
+		VIL_Jose_Felix_Banuelos_eco = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Jose_Felix_Banuelos_eco"
+			}
+			traits = {
+				economy_minister
+				villista
+				eco_military_entrepreneur
+			}
+		}
+
+		VIL_Miguel_Gonzalez_eco = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Miguel_Gonzalez_eco"
+			}
+			traits = {
+				economy_minister
+				villista
+				eco_resource_industrialist
+			}
+		}
+
+		VIL_Jesus_Aguirre_eco = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Jesus_Aguirre_eco"
+			}
+			traits = {
+				economy_minister
+				escobarist
+				eco_administrative_genius
+			}
+		}
+	}
+	interior_minister = {
+		VIL_Rafael_Buelna_Tenorio_int = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Rafael_Buelna_Tenorio_int"
+			}
+			traits = {
+				interior_minister
+				escobarist
+				int_prince_of_terror
+			}
+		}
+
+		VIL_Hipolito_Villa_int = {
+			allowed = { original_tag = VIL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea VIL_Hipolito_Villa_int"
+			}
+			traits = {
+				interior_minister
+				villista
+				int_efficient_sociopath
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+spriteTypes = {
+	#####Ministers#############
+	### Head of Government
+	spriteType = {
+		name = "GFX_idea_VIL_Jose_Gonzalo_Escobar_hog"
+		texturefile = "gfx/ministers/VIL/VIL_Jose_Gonzalo_Escobar_hog.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Rosalio_Hernandez_hog"
+		texturefile = "gfx/ministers/VIL/VIL_Rosalio_Hernandez_hog.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_VIL_Marcelino_Murrieta_hog"
+		texturefile = "gfx/ministers/VIL/VIL_Marcelino_Murrieta_hog.tga"
+	}
+
+
+	### Foreign Minister
+	spriteType = {
+		name = "GFX_idea_VIL_Manuel_Chao_frm"
+		texturefile = "gfx/ministers/VIL/VIL_Manuel_Chao_frm.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Severino_Ceniceros_frm"
+		texturefile = "gfx/ministers/VIL/VIL_Severino_Ceniceros_frm.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Fausto_Topete_frm"
+		texturefile = "gfx/ministers/VIL/VIL_Fausto_Topete_frm.tga"
+	}
+
+	### Economic Minister
+	spriteType = {
+		name = "GFX_idea_VIL_Jose_Felix_Banuelos_eco"
+		texturefile = "gfx/ministers/VIL/VIL_Jose_Felix_Banuelos_eco.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Miguel_Gonzalez_eco"
+		texturefile = "gfx/ministers/VIL/VIL_Miguel_Gonzalez_eco.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Jesus_Aguirre_eco"
+		texturefile = "gfx/ministers/VIL/VIL_Jesus_Aguirre_eco.tga"
+	}
+
+	### Interior
+	spriteType = {
+		name = "GFX_idea_VIL_Rafael_Buelna_Tenorio_int"
+		texturefile = "gfx/ministers/VIL/VIL_Rafael_Buelna_Tenorio_int.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIL_Hipolito_Villa_int"
+		texturefile = "gfx/ministers/VIL/VIL_Hipolito_Villa_int.tga"
+	}
+}

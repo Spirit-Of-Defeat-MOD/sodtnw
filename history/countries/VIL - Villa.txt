@@ -1,13 +1,28 @@
 ﻿capital = 482
 
-oob = "VIL_1936"
+oob = "VIL"
 
 # Starting tech
 set_technology = {
-
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
 
 set_war_support = 0.7
+
+add_ideas = {
+	VIL_Jose_Gonzalo_Escobar_hog
+	VIL_Manuel_Chao_frm
+	VIL_Jose_Felix_Banuelos_eco
+	VIL_Rafael_Buelna_Tenorio_int
+}
 
 set_politics = {
 	ruling_party = reformist_socialist
@@ -37,8 +52,16 @@ create_country_leader = {
 	picture = "Portrait_Villa.dds"
 	expire = "1965.1.1"
 	ideology = reformist_socialist_ideology
-	traits = {
-	}
+	traits = { hos_popular_figurehead }
+}
+
+create_country_leader = {
+	name = "José Gonzalo Escobar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { hos_barking_buffoon }
 }
 
 create_field_marshal = {
@@ -48,30 +71,30 @@ create_field_marshal = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 1
-	logistics_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "José Gonzalo Escobar"
 	picture = ""
 	traits = {  }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 5
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Manuel Chao"
 	picture = "Manuel_Chao.tga"
 	traits = {  }
-	skill = 3
+	skill = 1
 	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -79,29 +102,30 @@ create_corps_commander = {
 	picture = ""
 	traits = {  }
 	skill = 1
-	attack_skill = 4
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Severino Ceniceros"
 	picture = ""
 	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 5
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Miguel S. González"
 	picture = ""
 	traits = {  }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

@@ -145,7 +145,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_organization
-    			days = 356
+    			days = 500
 			}
 		}
 	}
@@ -337,7 +337,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_local_production
-    			days = 356
+    			days = 500
 			}
 		}
 	}
@@ -403,7 +403,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_guerrilla
-    			days = 356
+    			days = 500
 			}
 		}
 	}
@@ -437,7 +437,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_conventional
-    			days = 356
+    			days = 500
 			}
 		}
 	}
@@ -561,7 +561,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_better_cavalry_idea
-				days = 200
+				days = 450
 			}
 		}
 	}
@@ -594,7 +594,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_better_infantry_idea
-				days = 200
+				days = 450
 			}
 		}
 	}
@@ -627,7 +627,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_better_artillery_idea
-				days = 200
+				days = 450
 			}
 		}
 	}
@@ -660,7 +660,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = REV_foreign_builders_idea
-				days = 200
+				days = 450
 			}
 		}
 	}
@@ -668,9 +668,7 @@ focus_tree = {
 	focus = {
 		id = REV_foreign_experts
 		icon = GFX_foreign_experts
-		prerequisite = { focus = REV_better_infantry }
-		prerequisite = { focus = REV_better_cavalry }
-		prerequisite = { focus = REV_better_artillery }
+		prerequisite = { focus = REV_better_infantry focus = REV_better_cavalry focus = REV_better_artillery }
 		x = 2
 		y = 6
 
@@ -706,7 +704,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_revolutionary_education
-		icon = GFX_revolutionary_education
+		icon = GFX_focus_research
 		prerequisite = { focus = REV_foreign_builders }
 
 		x = 5

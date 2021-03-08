@@ -1,4 +1,21 @@
 leader_traits = {
+
+######################
+# Head of State
+#####################
+	hos_popular_figurehead = {
+		party_popularity_stability_factor = 0.1
+
+		random = no
+	}
+
+	hos_barking_buffoon = {
+		stability_factor = -0.1
+		local_intel_to_enemies = 0.05
+
+		random = no
+	}
+
 ######################
 # Head of Government
 #####################
@@ -38,6 +55,32 @@ leader_traits = {
 		random = no
 	}
 
+	hog_smiling_oilman = {
+		country_resource_oil = 10
+		local_resources_factor = 0.04
+		production_speed_synthetic_refinery_factor = 0.04
+
+		random = no
+	}
+
+	hog_ambitious_union_boss = {
+		industrial_capacity_factory = 0.08
+		political_power_gain = 0.05
+
+		random = no
+	}
+
+	hog_corporate_suit = {
+		trade_opinion_factor = 0.05
+		political_power_gain = -0.12
+		production_speed_industrial_complex_factor = 0.08
+		production_speed_arms_factory_factor = 0.04
+
+		random = no
+	}
+
+	
+
 
 #####################
 # Foreign Minister
@@ -59,6 +102,26 @@ leader_traits = {
 	frm_soviet_loyalist = {
 		political_power_gain = -0.02
 		communism_drift = 0.03
+
+		random = no
+	}
+
+	frm_great_compromiser = {
+		trade_opinion_factor = 0.1
+		political_power_gain = 0.03
+
+		random = no
+	}
+
+	frm_the_cloak_n_dagger_schemer = {
+		political_power_gain = -0.04
+		planning_speed = 0.1
+
+		random = no
+	}
+
+	frm_ideological_crusader = {
+		opinion_gain_monthly_same_ideology_factor = 0.25
 
 		random = no
 	}
@@ -86,20 +149,42 @@ leader_traits = {
 		random = no
 	}
 
+	eco_military_entrepreneur = {
+		production_speed_arms_factory_factor = 0.04
+		production_factory_max_efficiency_factor = 0.03
+		war_support_factor = 0.02
+
+		random = no
+	}
+
+	eco_resource_industrialist = {
+		local_resources_factor = 0.06
+
+		random = no
+	}
+
+	eco_administrative_genius = {
+		production_speed_buildings_factor = 0.02
+		research_speed_factor = 0.01
+		industrial_capacity_factory = 0.02
+
+		random = no
+	}
+
 
 
 #####################
-# Security Minister
+# Interir Minister - Security and Intel merged
 #####################
 
-	sec_crime_fighter = {
+	int_crime_fighter = {
 		political_power_gain = 0.05
 		conscription_factor = -0.02
 
 		random = no
 	}
 
-	sec_devout_nationalist = {
+	int_devout_nationalist = {
 		surrender_limit = 0.25
 		army_core_defence_factor = 0.03
 		conscription_factor = 0.02
@@ -107,7 +192,7 @@ leader_traits = {
 		random = no
 	}
 
-	sec_radical_militarist = {
+	int_radical_militarist = {
 		stability_factor = -0.05
 		surrender_limit = 0.25
 		army_attack_factor = 0.03
@@ -115,12 +200,6 @@ leader_traits = {
 
 		random = no
 	}
-
-
-
-#####################
-# Head of Intel
-#####################
 
 	int_foreign_expert = { 
 		decryption = 1
@@ -138,6 +217,22 @@ leader_traits = {
 	int_devoted_ideologue = { 
 		decryption = 0.5
 		political_power_gain = -0.03
+
+		random = no
+	}
+
+	int_prince_of_terror = {
+		political_power_gain = 0.05
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.05
+		resistance_growth = 0.1
+
+		random = no
+	}
+
+	int_efficient_sociopath = {
+		local_resources_factor = 0.05
+		conscription_factor = -0.02
 
 		random = no
 	}

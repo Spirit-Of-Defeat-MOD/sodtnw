@@ -20,6 +20,32 @@ armed_neutrality:0 "Armed Neutrality"
 pacifist:0 "Pacifist"
 
 chief_of_staff:0 "Chief of Staff"
+
+##Minister Traits
+#Head of State
+hos_popular_figurehead:0 "Popular Figurehead"
+#Head of gov
+hog_smiling_oilman:0 "Smiling Oilman"
+hog_ambitious_union_boss:0 "Ambitious Union Boss"
+hog_corporate_suit:0 "Corporate Suit"
+
+#Foreign Minister
+frm_great_compromiser:0 "Great Compromiser"
+frm_the_cloak_n_dagger_schemer:0 "Cloak-And-Dagger Schemer"
+frm_ideological_crusader:0 "Ideological Crusader"
+
+#Economy Minister
+eco_military_entrepreneur:0 "Military Entrepreneur"
+eco_resource_industrialist:0 "Resource Indutrialist"
+eco_administrative_genius:0 "Administrative Genius"
+
+#Interior Minister
+int_prince_of_terror:0 "Prince of Terror"
+int_efficient_sociopath:0 "Efficient Sociopath"
+
+#Minister Position Traits
+villista:0 "Villista"
+escobarist:0 "Escobarist"
  
 ##Generic Tree
 equipment_purchase:0 "Purchase Foreign Arms"

@@ -3,7 +3,14 @@ weapon_purchasing = {
 	
 	visible = {
 		has_completed_focus = equipment_purchase
+		
 	}
+	
+	visible = {
+		has_completed_focus = REV_foreign_purchase
+	}
+	
+	priority = 80
 
 }
 

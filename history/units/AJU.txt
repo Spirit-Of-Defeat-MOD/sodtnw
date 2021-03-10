@@ -1,5 +1,5 @@
 division_template = {
-	name = "Igirenya Kifili"
+	name = "Ciidamada lugta"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -15,7 +15,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Terara Birigēdi"
+	name = "Qaybta buuraha"
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -29,7 +29,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Yeferesi kififili"
+	name = "Qeybta fardooleyda"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -43,40 +43,48 @@ division_template = {
 
 units = {
 	division = {
-		name = "1. Igirenya Kifili"
-		location = 5041
-		division_template = "Igirenya Kifili"
+		name = "1. Ciidamada lugta"
+		location = 13294
+		division_template = "Ciidamada lugta"
 		start_experience_factor = 0.2
 
 	}
 	division = {
-		name = "2. Igirenya Kifili"
-		location = 13288
-		division_template = "Igirenya Kifili"
+		name = "2. Ciidamada lugta"
+		location = 13295
+		division_template = "Ciidamada lugta"
 		start_experience_factor = 0.2
 
 	}
 	
 	division = {
-		name = "3 .Igirenya Kifili"
-		location = 13289
-		division_template = "Igirenya Kifili"
+		name = "3 .Ciidamada lugta"
+		location = 13296
+		division_template = "Ciidamada lugta"
 		start_experience_factor = 0.5
 
 	}
 	
 	division = {
-		name = "1. Terara Birigēdi"
-		location = 13290
-		division_template = "Igirenya Kifili"
+		name = "1. Qaybta buuraha"
+		location = 13293
+		division_template = "Qaybta buuraha"
 		start_experience_factor = 0.1
 
 	}
 
 	division = {
-		name = "1. Yeferesi kififili"
-		location = 13290
-		division_template = "Yeferesi kififili"
+		name = "2. Qaybta buuraha"
+		location = 13297
+		division_template = "Qaybta buuraha"
+		start_experience_factor = 0.1
+
+	}
+
+	division = {
+		name = "Qeybta fardooleyda"
+		location = 4995
+		division_template = "Qeybta fardooleyda"
 		start_experience_factor = 0.1
 
 	}

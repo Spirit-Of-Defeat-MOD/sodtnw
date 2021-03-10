@@ -10,7 +10,7 @@ state={
 		tungsten = 10 # was: 20
 	}
 	
-	state_category = city
+	state_category = c7
 
 	history={
 		owner = GRE
@@ -20,15 +20,15 @@ state={
 		victory_points = {
 			3973 3
 		}
-		#victory_points = {
-		#	863 1
-		#}
-		#victory_points = {
-		#	3864 3
-		#}
-		#victory_points = {
-		#	976 1
-		#}
+		victory_points = {
+			863 1
+		}
+		victory_points = {
+			3864 3
+		}
+		victory_points = {
+			976 1
+		}
 		victory_points = {
 			7127 3
 		}

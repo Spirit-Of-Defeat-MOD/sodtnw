@@ -83,10 +83,15 @@ iea.4.d:0 ""
 iea.4.a:0 "Crush it"
 iea.4.b:0 "Drive out the invaders(play as aussa)"
 
-iea.4.t:0 "The Kelafo Revolt"
-iea.4.d:0 "After the decline and ultimate collapse of the Ajuuraan Empire the Gareen Sultans were reduced to nothing more than the territory of Qalafe. With rising nationalism throughout the empire however revolutionaries have implored the current sultan to rise up in open rebellion against our colonial rule."
-iea.4.a:0 "Crush it"
-iea.4.b:0 "Drive out the invaders(play as Ajuran)"
+iea.5.t:0 "The Kelafo Revolt"
+iea.5.d:0 "After the decline and ultimate collapse of the Ajuuraan Empire the Gareen Sultans were reduced to nothing more than the territory of Qalafe. With rising nationalism throughout the empire however revolutionaries have implored the current sultan to rise up in open rebellion against our colonial rule."
+iea.5.a:0 "Crush it"
+iea.5.b:0 "Drive out the invaders(play as Ajuran)"
+
+ iea.6.t:0 "The Lion strikes back"
+ iea.6.d:0 ""
+ iea.6.a:0 "Crush it"
+ iea.6.b:0 "Ethiopia, be happy"
 
 #Descriptions
 

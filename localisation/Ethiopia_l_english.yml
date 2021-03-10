@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+ETH_fascism_party:0 ""
+ETH_fascism_party_long:0 ""
+ETH_communism_party:0 ""
+ETH_communism_party_long:0 ""
+ETH_democratic_party:1 ""
+ETH_democratic_party_long:0 ""
+ETH_utilitarian_despot_party:0 "House of Solomon"
+ETH_utilitarian_despot_party_long:0 "House of Solomon"
+ETH_neutrality_party:0 ""
+ETH_neutrality_party_long:0 ""
+ETH_social_democrat_party:0 ""
+ETH_social_democrat_party_long:0 ""
+ETH_social_liberal_party:0 ""
+ETH_social_liberal_party_long:0 ""
+ETH_classic_liberal_party:0 ""
+ETH_classic_liberal_party_long:0 ""
+ETH_libertarian_socialist_party:0 ""
+ETH_libertarian_socialist_party_long:0 ""
+ETH_revolutionary_socialism_party:0 ""
+ETH_revolutionary_socialism_party_long:0 ""
+ETH_reformist_socialist_party:0 ""
+ETH_reformist_socialist_party_long:0 ""
+
+#Country Names
+ETH_fascism:0 "Ethiopian Empire"
+ETH_fascism_DEF:0 "Ethiopian Empire"
+ETH_libertarian_socialist:0 "People's Democratic Republic of Ethiopia"
+ETH_libertarian_socialist_DEF:0 "People's Democratic Republic of Ethiopia"
+ETH_utilitarian_despot:0 "Ethiopian Empire"
+ETH_utilitarian_despot_DEF:0 "the Ethiopian Empire"
+ETH_democratic:0 "Ethiopian Empire"
+ETH_democratic_DEF:0 "Ethiopian Empire"
+ETH_neutrality:1 "Ethiopian Empire"
+ETH_neutrality_DEF:1 "the Ethiopian Empire"
+ETH_reformist_socialist:0 "People's Democratic Republic of Ethiopia"
+ETH_reformist_socialist_DEF:0 "People's Democratic Republic of Ethiopia"
+ETH_social_democrat:0 "Ethiopian Empire"
+ETH_social_democrat_DEF:0 "Ethiopian Empire"
+ETH_social_liberal:0 "Ethiopian Empire"
+ETH_social_liberal_DEF:0 "Ethiopian Empire"
+ETH_classic_liberal:0 "Ethiopian Empire"
+ETH_classic_liberal_DEF:0 "Ethiopian Empire"
+ETH_communism:0 "People's Democratic Republic of Ethiopia"
+ETH_communism_DEF:0 "People's Democratic Republic of Ethiopia"
+ 
+ETH_fascism_ADJ:0 "Ethiopian"
+ETH_fascism_ADJ:0 "Ethiopian"
+ETH_libertarian_socialist_ADJ:0 "Ethiopian"
+ETH_democratic_ADJ:0 "Ethiopian"
+ETH_utilitarian_despot_ADJ:0 "Ethiopian"
+ETH_reformist_socialist_ADJ:0 "Ethiopian"
+ETH_neutrality_ADJ:0 "Ethiopian"
+ETH_social_democrat_ADJ:0 "Ethiopian"
+ETH_social_liberal_ADJ:0 "Ethiopian"
+ETH_classic_liberal_ADJ:0 "Ethiopian"
+ETH_communism_ADJ:0 "Ethiopian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

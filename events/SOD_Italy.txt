@@ -170,7 +170,7 @@ country_event = {
 	immediate = { log = "[GetDateText]: [Root.GetName]: event icw.1" }
 	title = icw.1.t
 	desc = icw.1.d
-	picture = GFX_report_event_spain_civil_war_soldiers
+	picture = GFX_report_event_italy_socialist_soldiers
 
 	is_triggered_only = yes
 
@@ -219,9 +219,7 @@ country_event = {
 			}
 		}
 		
-		ITS = {
-			transfer_technology = yes
-		}
+		ITS = { inherit_technology = ITA }
 		
 		IEA = {
 			country_event = { id = iea.1 days = 5 }
@@ -312,7 +310,7 @@ country_event = {
 	immediate = { log = "[GetDateText]: [Root.GetName]: event icw.1" }
 	title = icw.2.t
 	desc = icw.2.d
-	picture = GFX_report_event_spain_civil_war_soldiers
+	picture = GFX_report_event_italy_army_soldiers
 
 	is_triggered_only = yes
 
@@ -368,9 +366,7 @@ country_event = {
 			}
 		}
 		
-		ITM = {
-			transfer_technology = yes
-		}
+		ITM = { inherit_technology = ITA }
 		
 		transfer_units_fraction= {
 			target = ITM
@@ -463,7 +459,7 @@ country_event = {
 	option = {
 		name = icw.3.a
 		add_stability = -0.30
-		add_political_party = -50
+		add_political_power = -50
 		set_country_flag = ITA_falling_apart
 	}
 }
@@ -487,7 +483,7 @@ country_event = {
 	option = {
 		name = icw.3.a
 		add_stability = -0.30
-		add_political_party = -50
+		add_political_power = -50
 	}
 }
 
@@ -497,7 +493,7 @@ country_event = {
 	immediate = { log = "[GetDateText]: [Root.GetName]: event icw.1" }
 	title = icw.5.t
 	desc = icw.5.d
-	picture = GFX_report_event_spain_civil_war_soldiers
+	picture = GFX_report_event_italy_senussi_soldiers
 
 	is_triggered_only = yes
 
@@ -534,28 +530,27 @@ country_event = {
 				to_state_array = owned_controlled_states
 			}
 		}
-		
-		LBA = {
-			transfer_technology = yes
+
+		hidden_effect = {	
+				
+			LBA = { load_oob = "LBA" }
+			LBA = { allow_spawning_on_enemy_provs = yes }
+			
+			ITA = {
+				country_event = {
+					id = icw.6
+					days = 7
+				}	
+			}
 		}
+		
+		LBA = { inherit_technology = ITA }
 		
 		
 	}
 
 	option = {
 		name = icw.5.a #We shall fight them!
-			hidden_effect = {	
-				
-				LBA = { load_oob = "LBA" }
-				LBA = { allow_spawning_on_enemy_provs = yes }
-				
-				ITA = {
-					country_event = {
-						id = icw.6
-						days = 7
-					}	
-				}
-			}
 
 		
 		ITA = {
@@ -572,18 +567,7 @@ country_event = {
 		trigger = {
 			is_ai = no
 		}
-		hidden_effect = {	
-				
-			LBA = { load_oob = "LBA" }
-			LBA = { allow_spawning_on_enemy_provs = yes }
-			
-			ITA = {
-				country_event = {
-					id = icw.6
-					days = 7
-				}	
-			}
-		}
+		
 
 		LBA = {
 			change_tag_from = ITA
@@ -645,23 +629,21 @@ country_event = {
 			}
 			add_core_of = TRP
 		}
-		
-		TRP = {
-			transfer_technology = yes
+
+		hidden_effect = {	
+				
+			TRP = { load_oob = "TRP" }
+			TRP = { allow_spawning_on_enemy_provs = yes }
 		}
+		
+		TRP = { inherit_technology = ITA }
 		
 		
 	}
 
 	option = {
 		name = icw.6.a #We shall fight them!
-			hidden_effect = {	
-				
-				TRP = { load_oob = "TRP" }
-				TRP = { allow_spawning_on_enemy_provs = yes }
-			}
 
-		
 		ITA = {
 			declare_war_on = {
 				target = TRP
@@ -675,11 +657,6 @@ country_event = {
 		name = icw.6.b #Down with the Traitors! (Play as the Military)
 		trigger = {
 			is_ai = no
-		}
-		hidden_effect = {	
-				
-			TRP = { load_oob = "TRP" }
-			TRP = { allow_spawning_on_enemy_provs = yes }
 		}
 
 		TRP = {
@@ -705,7 +682,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = italy.1.a
+		name = icw.7.a
 		add_stability = -0.30
 	}
 }

@@ -10,7 +10,7 @@ country_event = {
 	id = mexmilitias.1
 	title = mexmilitias.1.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -83,7 +83,7 @@ country_event = {
 	id = mexmilitias.2
 	title = mexmilitias.2.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -157,7 +157,7 @@ country_event = {
 	id = mexmilitias.3
 	title = mexmilitias.3.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -230,7 +230,7 @@ country_event = {
 	id = mexmilitias.4
 	title = mexmilitias.4.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -303,7 +303,7 @@ country_event = {
 	id = mexmilitias.5
 	title = mexmilitias.5.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -376,7 +376,7 @@ country_event = {
 	id = mexmilitias.6
 	title = mexmilitias.6.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -449,7 +449,7 @@ country_event = {
 	id = mexmilitias.7
 	title = mexmilitias.7.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -522,7 +522,7 @@ country_event = {
 	id = mexmilitias.8
 	title = mexmilitias.8.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -595,7 +595,7 @@ country_event = {
 	id = mexmilitias.9
 	title = mexmilitias.9.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -668,7 +668,7 @@ country_event = {
 	id = mexmilitias.10
 	title = mexmilitias.10.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -741,7 +741,7 @@ country_event = {
 	id = mexmilitias.11
 	title = mexmilitias.11.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -814,7 +814,7 @@ country_event = {
 	id = mexmilitias.12
 	title = mexmilitias.12.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -887,7 +887,7 @@ country_event = {
 	id = mexmilitias.13
 	title = mexmilitias.13.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -960,7 +960,7 @@ country_event = {
 	id = mexmilitias.14
 	title = mexmilitias.14.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -1033,7 +1033,7 @@ country_event = {
 	id = mexmilitias.15
 	title = mexmilitias.15.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -1106,7 +1106,7 @@ country_event = {
 	id = mexmilitias.16
 	title = mexmilitias.16.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -1179,7 +1179,7 @@ country_event = {
 	id = mexmilitias.17
 	title = mexmilitias.17.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -1252,7 +1252,7 @@ country_event = {
 	id = mexmilitias.18
 	title = mexmilitias.18.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -1325,7 +1325,7 @@ country_event = {
 	id = mexmilitias.19
 	title = mexmilitias.19.t
 	desc = mexmilitias.generic
-	picture = GFX_event_Generic_mexmilitias
+	picture = GFX_event_militia
 
 	is_triggered_only = yes
 	fire_only_once = yes

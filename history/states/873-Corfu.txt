@@ -4,11 +4,11 @@ state={
 	name="STATE_873"
 	manpower = 50900
 	
-	state_category = rural
+	state_category = c3
 	
 	resources={
-		chromium=3 # was: 20
-		steel = 3 # was: 20
+		chromium=20 # was: 20
+		steel = 20 # was: 20
 	}
 
 	history={

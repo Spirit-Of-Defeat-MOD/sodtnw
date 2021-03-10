@@ -17,6 +17,8 @@ CRO_icw = {
 		ai_will_do = {
 			factor = 90
 		}
+
+		cost = 25
 		
 		complete_effect = {
 			ITA = {
@@ -70,6 +72,36 @@ CRO_icw = {
 					id = croatia.3
 					hours = 12
 				}
+			}
+
+		}
+	}
+
+	CRO_capture_dalmatia = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = CRO
+			ITA = { has_war = yes }
+		}
+		
+		visible = {
+			ITA = { has_war = yes }
+		}
+		
+		ai_will_do = {
+			factor = 90
+		}
+		
+		cost = 75
+		
+		complete_effect = {			
+			CRO = {
+				transfer_state = 103
+				transfer_state = 163
 			}
 
 		}

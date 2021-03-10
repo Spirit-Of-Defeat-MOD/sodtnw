@@ -1,0 +1,17 @@
+spriteTypes = {
+	##EVENTS
+	spriteType = {
+		name = "GFX_report_event_italy_socialist_soldiers"
+		texturefile = "gfx/event_pictures/ITA/event_italy_socialist_soldiers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_italy_army_soldiers"
+		texturefile = "gfx/event_pictures/ITA/event_italy_army_soldiers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_italy_senussi_soldiers"
+		texturefile = "gfx/event_pictures/ITA/event_italy_senussi_soldiers.dds"
+	}
+}

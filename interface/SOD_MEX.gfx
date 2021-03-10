@@ -502,5 +502,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/MEX/REV_better_artillery_idea.dds"
 	}
 
+	##EVENTS
+	spriteType = {
+		name = "GFX_event_militia"
+		texturefile = "gfx/event_pictures/MEX/GFX_event_militia.dds"
+	}
+
 
 }

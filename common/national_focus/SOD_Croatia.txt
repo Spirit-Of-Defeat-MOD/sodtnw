@@ -314,14 +314,14 @@ focus_tree = {
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
-					state = 832
+					state = 104
 					num_provinces = 1
 					on_win = croatia.4
 					on_lose = croatia.5
 					on_cancel = croatia.6
 				}
 				defender = {
-					state = 807
+					state = 107
 					num_provinces = 1
 					on_win = serbia.9
 					on_lose = serbia.10

@@ -35,7 +35,7 @@ country_event = {
 
 	option = {
 		name = iea.2.a
-		ITA = { country_event = { id = iea.3 days 14 } }
+		ITA = { country_event = { id = iea.3 days = 14 } }
 	}
 }
 
@@ -98,6 +98,7 @@ country_event = {
 			IEA = {
 				set_province_controller = 13292
 				set_province_controller = 13291
+				country_event = { id = iea.5 days = 7 }
 			}				
 			AWS = { load_oob = "AWS" }
 		}
@@ -115,6 +116,9 @@ country_event = {
 	
 	option = {
 		name = iea.4.b
+		trigger = {
+			is_ai = no
+		}
 		IEA = {
 			declare_war_on = {
 				target = AWS
@@ -178,6 +182,7 @@ country_event = {
 		hidden_effect = {
 						
 			AJU = { load_oob = "AJU" }
+			country_event = { id = iea.6 days = 6 }
 		}
 	}
 
@@ -193,6 +198,9 @@ country_event = {
 	
 	option = {
 		name = iea.5.b
+		trigger = {
+			is_ai = no
+		}
 		IEA = {
 			declare_war_on = {
 				target = AJU
@@ -203,5 +211,72 @@ country_event = {
 		AJU = {
 			change_tag_from = IEA
 		}
+	}
+}
+
+#Rise of Ethiopia
+country_event = {
+	id = iea.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event iea.6" }
+	title = iea.6.t
+	desc = iea.6.d
+	#picture = GFX_report_event_SPA_alfonso_xiii
+
+	is_triggered_only = yes
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = ROOT
+				OR = {
+					state = 271 #Addis Ababa
+				}
+			}
+			remove_claim_by = ETH
+			add_core_of = ETH
+			remove_core_of = IEA
+			add_claim_by = IEA
+			ETH = {
+				transfer_state = PREV
+			}
+			teleport_armies = {
+				to_state_array = owned_controlled_states
+			}
+		}
+
+		ETH = { inherit_technology = IEA }
+		
+		hidden_effect = {
+						
+			ETH = { load_oob = "ETH" }
+		}
+	}
+
+	option = {
+		name = iea.6.a
+		IEA = {
+			declare_war_on = {
+				target = ETH
+				type = annex_everything
+			}
+		}
+	}
+	
+	option = {
+		name = iea.6.b
+		trigger = {
+			is_ai = no
+		}
+		ETH = {
+			change_tag_from = IEA
+		}
+
+		IEA = {
+			declare_war_on = {
+				target = ETH
+				type = annex_everything
+			}
+		}
+
 	}
 }

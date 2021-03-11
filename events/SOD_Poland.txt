@@ -1,0 +1,19 @@
+﻿#Poland Events - intro by Sneakiertech#
+
+add_namespace = poland
+
+# Introduction Event
+country_event = {
+	id = poland.1
+	title = poland.1.t
+	desc = poland.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = poland.1.a
+		add_political_power = 1
+	
+    }
+}

@@ -1,0 +1,19 @@
+﻿#Bulgaria Events - intro by Sneakiertech#
+
+add_namespace = bulgaria
+
+# Introduction Event
+country_event = {
+	id = bulgaria.1
+	title = bulgaria.1.t
+	desc = bulgaria.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = bulgaria.1.a
+		add_political_power = 1
+	
+    }
+}

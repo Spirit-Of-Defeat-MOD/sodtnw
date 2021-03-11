@@ -65,7 +65,9 @@ BUL_communism_ADJ:0 "Bulgarian"
 #should be reintegrated
 
 #Events
-#should be reintegrated
+bulgaria.1.t:0 "Bulgaria Introduction"
+bulgaria.1.d:0 "Bulgaria and her Italian allies faired incredibly well in the Third Balkan War, which erupted over a dispute in Corfu. The bravery of Bulgaria's troops was comendable; their efforts saw great territorial gains for their beloved homeland. Victory has cemented Tsar Boris III as a powerful, respected, and beloved leader amongst his people. The Tsar achieved what his predecessors had failed to achieve - a Greater Bulgaria with territorial holdings in Thrace and Macedonia. Nonetheless, the nation remains in a precarious position. It is surrounded by hostile powers who have territorial ambitions of reclaiming lands tied to them through blood and soil. Can Bulgaria stand its ground and hold off such hostile neighbors? "
+bulgaria.1.a:0 "Enough With These Petty Ramblings..."
 
 #Descriptions
 POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high, with communists and other anti-monarchists seemingly placated in Bulgaria under his rule."

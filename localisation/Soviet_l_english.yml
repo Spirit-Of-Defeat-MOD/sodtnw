@@ -55,3 +55,8 @@ SOV_utilitarian_despot_party:0 "Beliye"
 SOV_utilitarian_despot_party_long:0 "Russky Obshevoyinsky Soyuz"
 SOV_fascism_party:0 "Nacional-Syndikalysty" 
 SOV_fascism_party_long:0 "Vserossiyskaya National-Syndikalystychnaya Partiya" 
+
+#Events
+soviet.1.t:0 "Soviet Union Introduction"
+soviet.1.d:0 "Forged in the fires of the Russian Revolution, the Union of Soviet Socialist Republics has emerged to become the most feared nation in Europe. Standing as a vanguard for an eventual global revolution - the ideological driving force behind this nation has made her few friends. From the United States to Japan, the 'Red Menace' has been condemned and isolated. Despite a tense diplomatic situation, the technically unrecognized Soviet Union has been engaged in vast economic reforms. Lenin's New Economic Policy has been continued by his successors. Internally the situation has stabilized and power struggles and dissidence have waned. The regime is in the hands of Lev Kamenev and Grigory Zinoviev, who were able to outmanuever the ambitious Ioseb Vissarionovich by securing Lenin's 'blessing' as his successors. The duo recognized the threat that Ioseb presented and appointed him to a position in Mongolia to keep him far from Moscow and to curb his ambitions. With the New Years celebration behind, the Politburo must now address many economic, political, and diplomatic matters - to ensure the survival of the state and the eventual worldwide revolution!."
+soviet.1.a:0 "Enough With These Petty Ramblings..."

@@ -1371,6 +1371,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = eng-ger.2.a
@@ -1388,7 +1389,8 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
-	
+	is_triggered_only = yes
+
 	option = {
 		name = eng-ger.3.a
 		add_political_power = -10
@@ -1406,6 +1408,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = separatists.1.a
@@ -1474,6 +1477,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = separatists.3.a
@@ -1489,7 +1493,8 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
-	
+	is_triggered_only = yes
+
 	option = {
 		name = separatists.4.a
 		
@@ -1506,6 +1511,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	#Cave To Germany
 	option = {
@@ -1545,6 +1551,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	#Blood and Soil
 	option = {
@@ -1561,6 +1568,7 @@ country_event = {
 	picture = news_event_german_soldiers
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	#They'll Pay!
 	option = {

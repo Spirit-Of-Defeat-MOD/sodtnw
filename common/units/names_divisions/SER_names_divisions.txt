@@ -89,7 +89,7 @@ SER_CHE_01 = {
 
 	for_countries = { SER }
 
-	can_use = { AND = { has_government = ulititarian_despot has_civil_war = yes } }
+	can_use = { AND = { has_government = utilitarian_despot has_civil_war = yes } }
 
 	division_types = { "infantry" }
 

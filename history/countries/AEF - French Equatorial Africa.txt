@@ -22,14 +22,14 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	libertarian_socialist = 0
-	reformist_socialism = 0
-        social_democrat = 0
-        social_liberal = 0
-        classic_liberal = 0
-        democratic = 0
-        neutrality = 0
-        utilitarian_despot = 100
-        fascism = 0
+	reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 0
+    neutrality = 0
+    utilitarian_despot = 100
+     fascism = 0
 }
 
 create_country_leader = {

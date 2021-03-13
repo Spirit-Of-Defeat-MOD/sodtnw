@@ -107,7 +107,7 @@ sub_units = {
 		need = {
 			heavy_artillery_equipment = 32
 		}
-		manpower = 1000
+		manpower = 1200
 		training_time = 200		
 
 		##COMBAT stats

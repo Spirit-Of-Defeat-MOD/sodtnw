@@ -55,4 +55,16 @@ ARG_utilitarian_despot_party:0 "GOU"
 ARG_utilitarian_despot_party_long:0 "Grupo de Oficiales Unido"
 ARG_fascism_party:0 "PFA" 
 ARG_fascism_party_long:0 "Partido Fascista Argentino" 
+
+#Decisions
+ARG_south_america_arms_race:0 "South American Arms Race"
+ARG_south_america_arms_race_naval:0 "South American Arms Race - Naval"
+ARG_south_america_arms_race_desc:0 "The South American Arms Race, originally starting as the South American dreadnought race sees the ABC countries (Argentina, Brazil and Chile) in a tense race to modernize thier armed forces in a show of strength to preserve the volatile status quo of the continent and to potentially shake that status quo by pursuing their own ambitions. "
+
+
+
+
+#Ideas
+light_ship_focus:0 "Light Ship Focus"
+heavy_ship_focus:0 "Heavy Ship Focus"
  

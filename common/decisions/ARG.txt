@@ -1,0 +1,109 @@
+ARG_south_america_arms_race = {
+	ARG_army_focus = {
+		icon = generic_nationalism
+		allowed = {
+			tag = ARG
+		}
+		
+		available = {
+		}
+		visible = {
+			always = yes
+		}
+		
+		ai_will_do = {
+			factor = 999
+		}
+		
+		days_re_enable = 365
+		
+		complete_effect = {
+		}
+		
+	}
+
+	ARG_naval_focus = {
+		icon = generic_nationalism
+		allowed = {
+			tag = ARG
+		}
+		
+		available = {
+		}
+		visible = {
+			always = yes
+		}
+		
+		ai_will_do = {
+			factor = 999
+		}
+		
+		days_re_enable = 365
+		
+		complete_effect = {
+			country_event = argentina.1
+		}
+		
+	}
+
+	ARG_airforce_focus = {
+		icon = generic_nationalism
+		allowed = {
+			tag = ARG
+		}
+		
+		available = {
+		}
+		visible = {
+			always = yes
+		}
+		
+		ai_will_do = {
+			factor = 999
+		}
+		
+		days_re_enable = 365
+		
+		complete_effect = {
+		}
+		
+	}
+
+}
+
+ARG_south_america_arms_race_naval = {
+	ARG_la_argentina = {
+		icon = generic_nationalism
+		allowed = {
+			tag = ARG
+		}
+		
+		available = {
+		}
+		visible = {
+			always = yes
+		}
+
+		custom_cost_trigger = {
+			navy_experience > 24
+		}
+		
+		ai_will_do = {
+			factor = 999
+		}
+		
+		days_remove = 442
+		fire_only_once = yes
+		
+		
+		complete_effect = {
+			hidden_effect = { navy_experience = -25 }
+		}
+
+		remove_effect = {
+			
+		}
+		
+	}
+
+}

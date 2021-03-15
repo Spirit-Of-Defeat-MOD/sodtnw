@@ -211,7 +211,7 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea GER_Ferdinand_Bredow_hog"
 			}
 			traits = {
-				head_of_intel
+				interior_minister
 				utilitarian_despot
 				int_brash_buffoon
 				

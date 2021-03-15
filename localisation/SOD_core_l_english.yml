@@ -46,6 +46,10 @@ int_efficient_sociopath:0 "Efficient Sociopath"
 #Minister Position Traits
 villista:0 "Villista"
 escobarist:0 "Escobarist"
+
+#COmmander Traits
+major_general:0 "Major General"
+lieutenant_general:0 "Lieutenant General"
  
 ##Generic Tree
 equipment_purchase:0 "Purchase Foreign Arms"

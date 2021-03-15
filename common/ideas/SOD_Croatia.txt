@@ -39,7 +39,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				national_collectivist
+				national_syndicalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -84,7 +84,7 @@ ideas = {
 			}
 			traits = {
 				foreign_minister
-				national_collectivist
+				national_syndicalist
 			}
 			cancel_if_invalid = yes
 		}
@@ -129,12 +129,12 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				national_collectivist
+				national_syndicalist
 			}
 			cancel_if_invalid = yes
 		}
 	}
-	security_minister = {
+	interior_minister = {
 		CRO_ivan_subasic = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -174,12 +174,11 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				national_collectivist
+				national_syndicalist
 			}
 			cancel_if_invalid = yes
 		}
-	}
-	head_of_intel = {
+
 		CRO_ivan_pernar = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -200,6 +199,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+
 		CRO_slavko_kvaternik = {
 			allowed = { original_tag = CRO }
 			available = {
@@ -219,11 +219,12 @@ ideas = {
 			}
 			traits = {
 				head_of_intel
-				national_collectivist
+				national_syndicalist
 			}
 			cancel_if_invalid = yes
 		}
 	}
+	
 	hidden_ideas = {
 		#
 	}

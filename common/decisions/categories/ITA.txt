@@ -1,5 +1,5 @@
 ITA_civil_war = {
-	priority = 10
+	priority = 90
 	icon = spr_the_inevitable_civil_war
 
 	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war

@@ -1,0 +1,1 @@
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24;

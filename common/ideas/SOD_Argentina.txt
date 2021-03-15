@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		light_ship_focus = {
+				
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#picture = idea_generic_purge
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_cost_max_ship_hull_carrier = 0.3
+				production_cost_max_ship_hull_cruiser = 0.3
+				production_cost_max_ship_hull_heavy = 0.3
+				production_cost_max_ship_hull_light = -0.3
+				production_cost_max_ship_hull_submarine = -0.3
+			}
+		}
+
+		heavy_ship_focus = {
+				
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#picture = idea_generic_purge
+	
+			removal_cost = -1
+			
+			modifier = {
+				production_cost_max_ship_hull_carrier = -0.3
+				production_cost_max_ship_hull_cruiser = -0.3
+				production_cost_max_ship_hull_heavy = -0.3
+				production_cost_max_ship_hull_light = 0.3
+				production_cost_max_ship_hull_submarine = 0.3
+			}
+		}
+	}
+}

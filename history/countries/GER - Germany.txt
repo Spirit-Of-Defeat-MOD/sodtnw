@@ -224,7 +224,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_WELS_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1939.1.16"
-	ideology = democratic_socialism_subtype
+	ideology = reformist_socialist_ideology
 	traits = {
 	}
 }

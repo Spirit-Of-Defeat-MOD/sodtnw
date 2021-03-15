@@ -40,3 +40,37 @@ socialism_on_the_rise = {
 		has_completed_focus = internationalism_focus
 	}
 }
+
+##South american arms race
+ARG_south_america_arms_race = {
+	#icon = GFX_decision_cat_annexation
+	#picture = GFX_decision_cat_picture_annexation
+	priority = 90
+	visible_when_empty = yes
+	allowed = { tag = ARG } #manually activated
+}
+
+ARG_south_america_arms_race_naval = {
+	#icon = GFX_decision_cat_annexation
+	#picture = GFX_decision_cat_picture_annexation
+	priority = 80
+	visible_when_empty = yes
+	allowed = { tag = ARG } #manually activated
+}
+
+BRA_south_america_arms_race = {
+	#icon = GFX_decision_cat_annexation
+	#picture = GFX_decision_cat_picture_annexation
+	priority = 90
+	visible_when_empty = yes
+	allowed = { tag = BRA } #manually activated
+}
+
+CHL_south_america_arms_race = {
+	#icon = GFX_decision_cat_annexation
+	#picture = GFX_decision_cat_picture_annexation
+	priority = 90
+	visible_when_empty = yes
+	allowed = { tag = CHL } #manually activated
+}
+

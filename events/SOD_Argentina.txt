@@ -1,0 +1,70 @@
+###ARG EVENTS###
+
+add_namespace = argentina
+
+#Naval Focus
+country_event = {
+	id = argentina.1
+    title = argentina.1.t
+	desc = argentina.1.d
+	picture = GFX_report_event_generic_rally
+
+	
+	is_triggered_only = yes
+	
+	#Light Ship Focus
+	option = {
+		name = argentina.1.a
+		navy_experience = 40
+		add_timed_idea = {
+			idea = light_ship_focus
+			days = 365
+		}
+
+		add_tech_bonus = {
+			name = dd_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = dd_tech
+		}
+
+		add_tech_bonus = {
+			name = ss_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = ss_tech
+		}
+	}
+	#Heavy Ship Focus
+	option = {
+		name = argentina.1.b
+		navy_experience = 40
+		add_timed_idea = {
+			idea = heavy_ship_focus
+			days = 365
+		}
+
+		add_tech_bonus = {
+			name = cr_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = cl_tech
+			category = ca_tech
+		}
+
+		
+		add_tech_bonus = {
+			name = capital_ships_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = bc_tech
+			category = bb_tech
+			category = cv_tech
+		}
+
+	}	
+}

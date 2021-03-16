@@ -1,0 +1,22 @@
+
+state={
+	id=892
+	name="STATE_892"
+	manpower = 29480
+	
+	state_category = c2
+	impassable = yes
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = OMA
+	}
+
+	provinces={
+		2018 2059
+	}
+}

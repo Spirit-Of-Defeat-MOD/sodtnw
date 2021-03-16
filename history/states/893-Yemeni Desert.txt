@@ -1,0 +1,22 @@
+
+state={
+	id=893
+	name="STATE_893"
+	manpower = 281875
+
+	state_category = c0
+
+	history={
+		owner = RAJ #Persian gulf residency under bombay presidency
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		12894
+	}
+
+	impassable = yes
+}

@@ -7,7 +7,7 @@ state={
 	
 	history={
 		add_core_of = KUW
-		owner = ENG
+		owner = RAJ #Persian gulf residency under bombay presidency
 		victory_points = {
 			8085 5
 		}

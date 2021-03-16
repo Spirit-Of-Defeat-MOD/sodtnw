@@ -7,12 +7,12 @@ state={
 		oil=5 # was: 6
 	}
 	
-	state_category = pastoral
+	state_category = c2
 
 
 	history={
 		add_core_of = UAE
-		owner = ENG
+		owner = RAJ #Persian gulf residency under bombay presidency
 		victory_points = {
 			7960 1 
 		}

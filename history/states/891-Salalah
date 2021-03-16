@@ -1,0 +1,22 @@
+
+state={
+	id=891
+	name="STATE_891"
+	manpower = 85203
+	
+	state_category = c2
+	
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = OMA
+	}
+
+	provinces={
+        2103 8002
+	}
+}

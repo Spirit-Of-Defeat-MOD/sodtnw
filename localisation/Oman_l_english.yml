@@ -1,0 +1,69 @@
+﻿l_english: 
+
+#Parties
+OMA_fascism_party:0 ""
+OMA_fascism_party_long:0 ""
+OMA_communism_party:0 ""
+OMA_communism_party_long:0 ""
+OMA_democratic_party:1 ""
+OMA_democratic_party_long:0 ""
+OMA_utilitarian_despot_party:0 "House of Al Said"
+OMA_utilitarian_despot_party_long:0 "Al Busaidi dynasty"
+OMA_neutrality_party:0 ""
+OMA_neutrality_party_long:0 ""
+OMA_social_democrat_party:0 ""
+OMA_social_democrat_party_long:0 ""
+OMA_social_liberal_party:0 ""
+OMA_social_liberal_party_long:0 ""
+OMA_classic_liberal_party:0 ""
+OMA_classic_liberal_party_long:0 ""
+OMA_libertarian_socialist_party:0 ""
+OMA_libertarian_socialist_party_long:0 ""
+OMA_reformist_socialist_party:0 ""
+OMA_reformist_socialist_party_long:0 ""
+
+#Country Names
+OMA_fascism:0 "Muscat and Oman"
+OMA_fascism_DEF:0 "Muscat and Oman"
+OMA_libertarian_socialist:0 "Omani Democratic Republic"
+OMA_libertarian_socialist_DEF:0 "Omani Democratic Republic"
+OMA_utilitarian_despot:0 "Muscat and Oman"
+OMA_utilitarian_despot_DEF:0 "the Muscat and Oman"
+OMA_democratic:0 "Muscat and Oman"
+OMA_democratic_DEF:0 "Muscat and Oman"
+OMA_neutrality:1 "Muscat and Oman"
+OMA_neutrality_DEF:1 "the Muscat and Oman"
+OMA_reformist_socialist:0 "Omani Democratic Republic"
+OMA_reformist_socialist_DEF:0 "Omani Democratic Republic"
+OMA_social_democrat:0 "Muscat and Oman"
+OMA_social_democrat_DEF:0 "Muscat and Oman"
+OMA_social_liberal:0 "Muscat and Oman"
+OMA_social_liberal_DEF:0 "Muscat and Oman"
+OMA_classic_liberal:0 "Muscat and Oman"
+OMA_classic_liberal_DEF:0 "Muscat and Oman"
+OMA_communism:0 "Omani Democratic Republic"
+OMA_communism_DEF:0 "Omani Democratic Republic"
+ 
+OMA_fascism_ADJ:0 "Omani"
+OMA_fascism_ADJ:0 "Omani"
+OMA_libertarian_socialist_ADJ:0 "Omani"
+OMA_democratic_ADJ:0 "Omani"
+OMA_utilitarian_despot_ADJ:0 "Omani"
+OMA_reformist_socialist_ADJ:0 "Omani"
+OMA_neutrality_ADJ:0 "Omani"
+OMA_social_democrat_ADJ:0 "Omani"
+OMA_social_liberal_ADJ:0 "Omani"
+OMA_classic_liberal_ADJ:0 "Omani"
+OMA_communism_ADJ:0 "Omani"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

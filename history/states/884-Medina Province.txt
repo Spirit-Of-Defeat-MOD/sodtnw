@@ -10,9 +10,8 @@ state={
 			infrastructure = 3
 
 		}
-		victory_points = {
-			12758 3
-		}
+
+
 		add_claim_by = SAU
 		add_core_of = HEJ
 

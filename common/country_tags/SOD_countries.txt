@@ -30,6 +30,7 @@ CHE = "countries/WestEurope.txt" #Chetniks
 ASR = "countries/MiddleEast.txt" #Asir
 HEJ = "countries/MiddleEast.txt" #Hejaz
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
+OMN = "countries/MiddleEast.txt" #Imam of Oman
 
 
 

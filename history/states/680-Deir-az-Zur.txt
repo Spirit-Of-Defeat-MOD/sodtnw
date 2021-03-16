@@ -3,10 +3,10 @@ state={
 	name="STATE_680"
 	manpower = 324110
 	
-	state_category = wasteland
+	state_category = c0
 
 	history={
-		owner = FRA
+		owner = SYR
 		victory_points = {
 			3942 1
 		}

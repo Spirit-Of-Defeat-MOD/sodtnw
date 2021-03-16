@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+IRQ_fascism_party:0 "HIW"
+IRQ_fascism_party_long:0 "Party of National Brotherhood"
+IRQ_communism_party:0 "HSI"
+IRQ_communism_party_long:0 "Iraqi Communist Party"
+IRQ_democratic_party:1 "CP"
+IRQ_democratic_party_long:0 "Covenant Party"
+IRQ_utilitarian_despot_party:0 "Hashemites"
+IRQ_utilitarian_despot_party_long:0 "Hashemite Dynasty"
+IRQ_neutrality_party:0 "RIA"
+IRQ_neutrality_party_long:0 "Royal Iraqi Army"
+IRQ_social_democrat_party:0 ""
+IRQ_social_democrat_party_long:0 ""
+IRQ_social_liberal_party:0 "Progressives"
+IRQ_social_liberal_party_long:0 "Progressive Party"
+IRQ_classic_liberal_party:0 "HSLI"
+IRQ_classic_liberal_party_long:0 "People's Party"
+IRQ_libertarian_socialist_party:0 ""
+IRQ_libertarian_socialist_party_long:0 ""
+IRQ_reformist_socialist_party:0 ""
+IRQ_reformist_socialist_party_long:0 ""
+
+#Country Names
+IRQ_fascism:0 " Hashemite Kingdom of Iraq"
+IRQ_fascism_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_libertarian_socialist:0 "Iraqi Socialist Republic"
+IRQ_libertarian_socialist_DEF:0 "Iraqi Socialist Republic"
+IRQ_utilitarian_despot:0 " Hashemite Kingdom of Iraq"
+IRQ_utilitarian_despot_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_democratic:0 " Hashemite Kingdom of Iraq"
+IRQ_democratic_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_neutrality:1 " Hashemite Kingdom of Iraq"
+IRQ_neutrality_DEF:1 "the  Hashemite Kingdom of Iraq"
+IRQ_reformist_socialist:0 "Iraqi Socialist Republic"
+IRQ_reformist_socialist_DEF:0 "Iraqi Socialist Republic"
+IRQ_social_democrat:0 " Hashemite Kingdom of Iraq"
+IRQ_social_democrat_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_social_liberal:0 " Hashemite Kingdom of Iraq"
+IRQ_social_liberal_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_classic_liberal:0 " Hashemite Kingdom of Iraq"
+IRQ_classic_liberal_DEF:0 "the  Hashemite Kingdom of Iraq"
+IRQ_communism:0 "Iraqi Socialist Republic"
+IRQ_communism_DEF:0 "Iraqi Socialist Republic"
+ 
+IRQ_fascism_ADJ:0 "Iraqi"
+IRQ_fascism_ADJ:0 "Iraqi"
+IRQ_libertarian_socialist_ADJ:0 "Iraqi"
+IRQ_democratic_ADJ:0 "Iraqi"
+IRQ_utilitarian_despot_ADJ:0 "Iraqi"
+IRQ_reformist_socialist_ADJ:0 "Iraqi"
+IRQ_neutrality_ADJ:0 "Iraqi"
+IRQ_social_democrat_ADJ:0 "Iraqi"
+IRQ_social_liberal_ADJ:0 "Iraqi"
+IRQ_classic_liberal_ADJ:0 "Iraqi"
+IRQ_communism_ADJ:0 "Iraqi"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

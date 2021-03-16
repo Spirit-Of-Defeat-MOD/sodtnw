@@ -1,0 +1,23 @@
+state={
+	id=884
+	name="STATE_884"
+	provinces={
+		8092 10835 12758 13321 7934 2033
+	}
+	history={
+		owner = HEJ
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			12758 3
+		}
+		add_claim_by = SAU
+		add_core_of = HEJ
+
+	}
+	state_category = c4
+	manpower=271236
+	buildings_max_level_factor=1.000
+}

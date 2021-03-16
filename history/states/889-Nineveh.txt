@@ -1,0 +1,25 @@
+state={
+	id=889
+	name="STATE_889"
+	provinces={
+		10811 13334 1938
+		10106
+		10804
+	}
+	history={
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_claim_by = SAU
+		victory_points = {
+			10106 5 
+		}
+
+	}
+	state_category = c5
+	manpower=358057
+	buildings_max_level_factor=1.000
+}

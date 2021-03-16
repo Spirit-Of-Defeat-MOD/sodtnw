@@ -3,13 +3,13 @@ state={
 	name="STATE_656"
 	manpower = 80000
 	
-	state_category = rural
+	state_category = c3
 	
 	history={
 		add_core_of = KUW
 		owner = ENG
 		victory_points = {
-			8085 1 
+			8085 5
 		}
 		buildings = {
 			infrastructure = 4

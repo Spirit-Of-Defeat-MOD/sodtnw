@@ -175,5 +175,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 12870;12727;impassable;-1;-1;-1;-1;-1;;nejd mountains
+10892;10748;impassable;-1;-1;-1;-1;-1;;arabia road
+10892;8004;impassable;-1;-1;-1;-1;-1;;arabia road
+12813;12870;impassable;-1;-1;-1;-1;-1;;arabia road
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

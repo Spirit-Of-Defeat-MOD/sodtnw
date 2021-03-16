@@ -1,0 +1,73 @@
+﻿l_english: 
+
+#Parties
+HEJ_fascism_party:0 ""
+HEJ_fascism_party_long:0 ""
+HEJ_communism_party:0 ""
+HEJ_communism_party_long:0 ""
+HEJ_democratic_party:1 ""
+HEJ_democratic_party_long:0 ""
+HEJ_utilitarian_despot_party:0 "Hashemites"
+HEJ_utilitarian_despot_party_long:0 "House of Hashim"
+HEJ_neutrality_party:0 ""
+HEJ_neutrality_party_long:0 ""
+HEJ_social_democrat_party:0 ""
+HEJ_social_democrat_party_long:0 ""
+HEJ_social_liberal_party:0 ""
+HEJ_social_liberal_party_long:0 ""
+HEJ_classic_liberal_party:0 ""
+HEJ_classic_liberal_party_long:0 ""
+HEJ_libertarian_socialist_party:0 ""
+HEJ_libertarian_socialist_party_long:0 ""
+HEJ_revolutionary_socialism_party:0 ""
+HEJ_revolutionary_socialism_party_long:0 ""
+HEJ_reformist_socialist_party:0 ""
+HEJ_reformist_socialist_party_long:0 ""
+
+#Country Names
+HEJ_fascism:0 "Kingdom of Hejaz"
+HEJ_fascism_DEF:0 "the Kingdom of Hejaz"
+HEJ_libertarian_socialist:0 "Hejazi People's Republic"
+HEJ_libertarian_socialist_DEF:0 "Hejazi People's Republic"
+HEJ_utilitarian_despot:0 "Kingdom of Hejaz"
+HEJ_utilitarian_despot_DEF:0 "the Kingdom of Hejaz"
+HEJ_democratic:0 "Kingdom of Hejaz"
+HEJ_democratic_DEF:0 "the Kingdom of Hejaz"
+HEJ_neutrality:1 "Kingdom of Hejaz"
+HEJ_neutrality_DEF:1 "the Kingdom of Hejaz"
+HEJ_reformist_socialist:0 "Hejazi People's Republic"
+HEJ_reformist_socialist_DEF:0 "Hejazi People's Republic"
+HEJ_social_democrat:0 "Kingdom of Hejaz"
+HEJ_social_democrat_DEF:0 "the Kingdom of Hejaz"
+HEJ_social_liberal:0 "Kingdom of Hejaz"
+HEJ_social_liberal_DEF:0 "the Kingdom of Hejaz"
+HEJ_classic_liberal:0 "Kingdom of Hejaz"
+HEJ_classic_liberal_DEF:0 "the Kingdom of Hejaz"
+HEJ_communism:0 "Hejazi People's Republic"
+HEJ_communism_DEF:0 "Hejazi People's Republic"
+ 
+HEJ_fascism_ADJ:0 "Hashemite"
+HEJ_fascism_ADJ:0 "Hashemite"
+HEJ_libertarian_socialist_ADJ:0 "Hashemite"
+HEJ_democratic_ADJ:0 "Hashemite"
+HEJ_utilitarian_despot_ADJ:0 "Hashemite"
+HEJ_reformist_socialist_ADJ:0 "Hashemite"
+HEJ_neutrality_ADJ:0 "Hashemite"
+HEJ_social_democrat_ADJ:0 "Hashemite"
+HEJ_social_liberal_ADJ:0 "Hashemite"
+HEJ_classic_liberal_ADJ:0 "Hashemite"
+HEJ_communism_ADJ:0 "Hashemite"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

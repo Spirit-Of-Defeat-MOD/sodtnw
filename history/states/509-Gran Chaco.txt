@@ -4,7 +4,7 @@ state={
 	name="STATE_509" # Chaco Australis
 	manpower = 704241
 	
-	state_category = town
+	state_category = c5
 	
 	resources={
 		tungsten=35 # was: 46

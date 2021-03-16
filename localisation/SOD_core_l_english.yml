@@ -1,4 +1,16 @@
 ﻿l_english:
+##STATE CATEGORIES##
+c10:0 "Superb Development"
+c9:0 ""
+c8:0 ""
+c7:0 "Great Development"
+c6:0 "Good Development"
+c5:0 "Average Development"
+c4:0 ""
+c3:0 ""
+c2:0 "Poor Development"
+c1:0 "Little Development"
+c0:0 "No Development"
 
 ##Government Laws/Minister
 foreign_policy:0 "Foreign Policy"

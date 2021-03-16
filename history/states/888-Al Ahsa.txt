@@ -1,0 +1,20 @@
+state={
+	id=888
+	name="STATE_888"
+	provinces={
+		1955 10791 12702
+	}
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_claim_by = SAU
+
+	}
+	state_category = c3
+	manpower=82900
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		13330 1544 4562 4603 4440
+	}
+	history={
+		owner = JAB
+		add_core_of = JAB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_claim_by = SAU
+
+	}
+	state_category = c1
+	manpower=3000
+	buildings_max_level_factor=1.000
+}

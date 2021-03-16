@@ -4,7 +4,7 @@ state={
 	name="STATE_508" # Tucuman
 	manpower = 781311
 	
-	state_category = rural
+	state_category = c4
 
 	history={
 		owner = ARG

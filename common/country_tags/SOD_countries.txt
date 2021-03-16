@@ -28,7 +28,8 @@ CHE = "countries/WestEurope.txt" #Chetniks
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir
-
+HEJ = "countries/MiddleEast.txt" #Hejaz
+JAB = "countries/MiddleEast.txt" #Jabal Shammar
 
 
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_677"
 
 	history={
-		owner = FRA
+		owner = SYR
 		victory_points = {
 			12473 3 
 		}
@@ -24,5 +24,5 @@ state={
 	}
 	manpower=1325594
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=c6
 }

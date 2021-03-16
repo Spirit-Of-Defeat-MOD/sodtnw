@@ -1,0 +1,20 @@
+state={
+	id=885
+	name="STATE_885"
+	provinces={
+		13325 13326 13327 12749 2057 4968 5027 5058 13329
+	}
+	history={
+		owner = JAB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_claim_by = SAU
+		add_core_of = JAB
+
+	}
+	state_category = c3
+	manpower=102821
+	buildings_max_level_factor=1.000
+}

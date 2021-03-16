@@ -1,0 +1,68 @@
+division_template = {
+	name = "Arab Army"  			# May or may not have different templates for arab amies, just depends on research
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Arab Cavalry Brigade"
+	division_names_group = ENG_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	##### Siege Force #####
+	division = {
+		name = "Eastern Army"
+		location = 12101
+		division_template = "Arab Army"		
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Southern Army"
+		location = 5037
+		division_template = "Arab Army"	
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Northern Army"
+		location = 13322
+		division_template = "Arab Army"	
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.2
+
+	}
+	
+	division = {
+		name = "Cavalry Brigade"
+		location = 1923
+		division_template = "Arab Cavalry Brigade"	
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.2
+
+	}
+}

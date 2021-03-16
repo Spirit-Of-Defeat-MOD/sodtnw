@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+JAB_fascism_party:0 ""
+JAB_fascism_party_long:0 ""
+JAB_communism_party:0 ""
+JAB_communism_party_long:0 ""
+JAB_democratic_party:1 ""
+JAB_democratic_party_long:0 ""
+JAB_utilitarian_despot_party:0 "Al Rasheed"
+JAB_utilitarian_despot_party_long:0 "House of Rasheed"
+JAB_neutrality_party:0 "Al Sha'lan"
+JAB_neutrality_party_long:0 "Ruwallah Tribe of Anizzah"
+JAB_social_democrat_party:0 ""
+JAB_social_democrat_party_long:0 ""
+JAB_social_liberal_party:0 ""
+JAB_social_liberal_party_long:0 ""
+JAB_classic_liberal_party:0 ""
+JAB_classic_liberal_party_long:0 ""
+JAB_libertarian_socialist_party:0 ""
+JAB_libertarian_socialist_party_long:0 ""
+JAB_reformist_socialist_party:0 ""
+JAB_reformist_socialist_party_long:0 ""
+
+#Country Names
+JAB_fascism:0 "Emirate of Jabal Shammar"
+JAB_fascism_DEF:0 "the Emirate of Jabal Shammar"
+JAB_libertarian_socialist:0 "Soviet Republic of Shammar"
+JAB_libertarian_socialist_DEF:0 "Soviet Republic of Shammar"
+JAB_utilitarian_despot:0 "Emirate of Jabal Shammar"
+JAB_utilitarian_despot_DEF:0 "the Emirate of Jabal Shammar"
+JAB_democratic:0 "Emirate of Jabal Shammar"
+JAB_democratic_DEF:0 "the Emirate of Jabal Shammar"
+JAB_neutrality:1 "Emirate of Jabal Shammar"
+JAB_neutrality_DEF:1 "the Emirate of Jabal Shammar"
+JAB_reformist_socialist:0 "Soviet Republic of Shammar"
+JAB_reformist_socialist_DEF:0 "Soviet Republic of Shammar"
+JAB_social_democrat:0 "Emirate of Jabal Shammar"
+JAB_social_democrat_DEF:0 "the Emirate of Jabal Shammar"
+JAB_social_liberal:0 "Emirate of Jabal Shammar"
+JAB_social_liberal_DEF:0 "the Emirate of Jabal Shammar"
+JAB_classic_liberal:0 "Emirate of Jabal Shammar"
+JAB_classic_liberal_DEF:0 "the Emirate of Jabal Shammar"
+JAB_communism:0 "Soviet Republic of Shammar"
+JAB_communism_DEF:0 "Soviet Republic of Shammar"
+ 
+JAB_fascism_ADJ:0 "Rashidi"
+JAB_fascism_ADJ:0 "Rashidi"
+JAB_libertarian_socialist_ADJ:0 "Rashidi"
+JAB_democratic_ADJ:0 "Rashidi"
+JAB_utilitarian_despot_ADJ:0 "Rashidi"
+JAB_reformist_socialist_ADJ:0 "Rashidi"
+JAB_neutrality_ADJ:0 "Rashidi"
+JAB_social_democrat_ADJ:0 "Rashidi"
+JAB_social_liberal_ADJ:0 "Rashidi"
+JAB_classic_liberal_ADJ:0 "Rashidi"
+JAB_communism_ADJ:0 "Rashidi"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

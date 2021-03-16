@@ -4,7 +4,7 @@ state={
 	name="STATE_506" # Antofagasta
 	manpower = 283605
 	
-	state_category = rural
+	state_category = c4
 
 	history={
 		owner = CHL

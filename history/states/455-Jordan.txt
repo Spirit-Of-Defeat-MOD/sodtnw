@@ -2,12 +2,12 @@
 state={
 	id=455
 	name="STATE_455"
-	manpower = 932000
+	manpower = 929000
 	
-	state_category = rural
+	state_category = c4
 
 	history={
-		owner = ENG
+		owner = IRQ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,9 +20,10 @@ state={
 		}
 
 		add_core_of = JOR
+		add_core_of = IRQ
 	}
 
 	provinces={
-		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+		 4017 4115 4574 4591 7001 7151 7170 10089 11976 
 	}
 }

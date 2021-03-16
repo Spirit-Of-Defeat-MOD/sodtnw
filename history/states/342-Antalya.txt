@@ -4,12 +4,12 @@ state={
 	name="STATE_342" # Antalya
 	manpower = 362689
 	resources={
-		chromium=35 # was: 46
+		chromium=46 # was: 46
 	}
-	state_category = rural
+	state_category = c4
 
 	history={
-		owner = TUR
+		owner = ITA
 		victory_points = {
 			1005 5 
 		}

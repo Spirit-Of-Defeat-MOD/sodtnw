@@ -10,7 +10,7 @@ state={
 		steel = 20 # was: 20
 	}
 	
-	state_category = city
+	state_category = c7
 
 	history= {
 		owner = TUR
@@ -31,4 +31,3 @@ state={
 		}
 		
 	}
-}

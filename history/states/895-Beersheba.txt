@@ -1,0 +1,21 @@
+
+state={
+	id=895
+	name="STATE_895"
+	manpower = 51082
+
+	state_category = c3
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		4088 7176 1015 11970
+	}
+}

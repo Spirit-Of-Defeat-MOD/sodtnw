@@ -1,0 +1,13 @@
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "San Juan"			
+		naval_base = 12364 # Buenos Aires
+		task_force = {
+			name = "San Juan"
+			location = 12364 # Buenos Aires
+			ship = { name = "ARA San Juan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Buenos Aires Class" } } }
+		}						
+	}
+} 

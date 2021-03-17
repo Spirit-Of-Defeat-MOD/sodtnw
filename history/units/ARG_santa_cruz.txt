@@ -1,0 +1,13 @@
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Santa Cruz"			
+		naval_base = 12364 # Buenos Aires
+		task_force = {
+			name = "Santa Cruz"
+			location = 12364 # Buenos Aires
+			ship = { name = "ARA Santa Cruz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Buenos Aires Class" } } }
+		}						
+	}
+} 

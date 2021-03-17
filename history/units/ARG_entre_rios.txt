@@ -1,0 +1,13 @@
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Entre Rios"			
+		naval_base = 12364 # Buenos Aires
+		task_force = {
+			name = "Entre Rios"
+			location = 12364 # Buenos Aires
+			ship = { name = "ARA Entre Rios" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Buenos Aires Class" } } }
+		}						
+	}
+} 

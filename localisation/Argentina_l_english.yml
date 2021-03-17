@@ -67,4 +67,25 @@ ARG_south_america_arms_race_desc:0 "The South American Arms Race, originally sta
 #Ideas
 light_ship_focus:0 "Light Ship Focus"
 heavy_ship_focus:0 "Heavy Ship Focus"
+
+ARG_la_argentina:0 "Order the La Argentina"
+ARG_buenos_aires:0 "Order the Buenos Aires"
+ARG_Corrientes:0 "Order the Corrientes"
+ARG_Entre_Rios:0 "Order the Entre Rios"
+ARG_Misiones:0 "Order the Misiones"
+ARG_San_Juan:0 "Order the San Juan"
+ARG_San_Luis:0 "Order the San Luis"
+ARG_Santa_Cruz:0 "Order the Santa Cruz"
+
+
+
+#Tooltips
+ARG_la_argentina_tt:0 "The Light Crusier §YARA La Argentina§! will be launched"
+ARG_buenos_aires_tt:0 "The Destroyer §YARA Buenos Aires§! will be launched"
+ARG_Corrientes_tt:0 "The Destroyer §YARA Corrientes§! will be launched"
+ARG_Entre_Rios_tt:0 "The Destroyer §YARA Entre Rios§! will be launched"
+ARG_Misiones_tt:0 "The Destroyer §YARA Misiones§! will be launched"
+ARG_San_Juan_tt:0 "The Destroyer §YARA San Juan§! will be launched"
+ARG_San_Luis_tt:0 "The Destroyer §YARA San Luis§! will be launched"
+ARG_Santa_Cruz_tt:0 "The Destroyer §YARA Santa Cruz§! will be launched"
  

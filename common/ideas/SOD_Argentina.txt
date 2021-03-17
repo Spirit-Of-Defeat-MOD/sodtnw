@@ -15,11 +15,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_cost_max_ship_hull_carrier = 0.3
-				production_cost_max_ship_hull_cruiser = 0.3
-				production_cost_max_ship_hull_heavy = 0.3
-				production_cost_max_ship_hull_light = -0.3
-				production_cost_max_ship_hull_submarine = -0.3
+				production_cost_max_ship_hull_carrier = 2000
+				production_cost_max_ship_hull_cruiser = 2000
+				production_cost_max_ship_hull_heavy = 2000
+				production_cost_max_ship_hull_light = -2000
+				production_cost_max_ship_hull_submarine = -2000
 			}
 		}
 
@@ -38,11 +38,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_cost_max_ship_hull_carrier = -0.3
-				production_cost_max_ship_hull_cruiser = -0.3
-				production_cost_max_ship_hull_heavy = -0.3
-				production_cost_max_ship_hull_light = 0.3
-				production_cost_max_ship_hull_submarine = 0.3
+				production_cost_max_ship_hull_carrier = -2000
+				production_cost_max_ship_hull_cruiser = -2000
+				production_cost_max_ship_hull_heavy = -2000
+				production_cost_max_ship_hull_light = 2000
+				production_cost_max_ship_hull_submarine = 2000
 			}
 		}
 	}

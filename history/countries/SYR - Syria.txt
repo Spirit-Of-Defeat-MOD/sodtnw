@@ -1,5 +1,7 @@
 ﻿capital = 554
 
+oob = "SYR"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+BRA_fascism_party:0 "AIB"
+BRA_fascism_party_long:0 "Ação Integralista Brasileira"
+BRA_communism_party:0 "PCB"
+BRA_communism_party_long:0 "Partido Comunista Brasileiro"
+BRA_democratic_party:0 "UDB"
+BRA_democratic_party_long:0 "União Democrática Brasileira"
+BRA_utilitarian_despot_party:0 ""
+BRA_utilitarian_despot_party_long:0 ""
+BRA_neutrality_party:0 "Getulio Vargas regime"
+BRA_neutrality_party_long:0 "Getulio Vargas regime"
+BRA_social_democrat_party:0 ""
+BRA_social_democrat_party_long:0 ""
+BRA_social_liberal_party:0 ""
+BRA_social_liberal_party_long:0 ""
+BRA_classic_liberal_party:0 ""
+BRA_classic_liberal_party_long:0 ""
+BRA_reformist_socialist_party:0 ""
+BRA_reformist_socialist_party_long:0 ""
+BRA_libertarian_socialist_party:0 "PCB-S"
+BRA_libertarian_socialist_party_long:0 "Partido Comunista Brasileiro - Syndicalist
+#BRA_nihilistic_extremism_party:0 ""
+#BRA_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ BRA_fascism:0 "Republic of the United States of Brazil"
+ BRA_fascism_DEF:0 "Republic of the United States of Brazil"
+ #BRA_nihilistic_extremism:0 "Republic of the United States of Brazil"
+ #BRA_nihilistic_extremism_DEF:0 "Republic of the United States of Brazil"
+ BRA_utilitarian_despot:0 "Republic of the United States of Brazil"
+ BRA_utilitarian_despot_DEF:0 "Republic of the United States of Brazil"
+ BRA_democratic:0 "Republic of the United States of Brazil"
+ BRA_democratic_DEF:0 "Republic of the United States of Brazil"
+ BRA_neutrality:1 "Republic of the United States of Brazil"
+ BRA_neutrality_DEF:1 "Republic of the United States of Brazil
+ BRA_reformist_socialist:0 "Republic of the United States of Brazil"
+ BRA_reformist_socialist_DEF:0 "Republic of the United States of Brazil"
+ BRA_libertarian_socialist:0 "Republic of the United States of Brazil"
+ BRA_libertarian_socialist_DEF:0 "Republic of the United States of Brazil"
+ BRA_social_democrat:0 "Republic of the United States of Brazil"
+ BRA_social_democrat_DEF:0 "Republic of the United States of Brazil"
+ BRA_social_liberal:0 "Republic of the United States of Brazil"
+ BRA_social_liberal_DEF:0 "Republic of the United States of Brazil"
+ BRA_classic_liberal:0 "Republic of the United States of Brazil"
+ BRA_classic_liberal_DEF:0 "Republic of the United States of Brazil"
+ BRA_communism:0 "Republic of the United States of Brazil"
+ BRA_communism_DEF:0 "Republic of the United States of Brazil"
+ 
+ BRA_fascism_ADJ:0 "Brazilian"
+ BRA_democratic_ADJ:0 "Brazilian"
+ BRA_utilitarian_despot_ADJ:0 "Brazilian"
+ BRA_reformist_socialist_ADJ:0 "Brazilian"
+ BRA_neutrality_ADJ:0 "Brazilian"
+ BRA_libertarian_socialist_ADJ:0 "Brazilian"
+ BRA_social_democrat_ADJ:0 "Brazilian"
+ BRA_social_liberal_ADJ:0 "Brazilian"
+ BRA_classic_liberal_ADJ:0 "Brazilian"
+ BRA_communism_ADJ:0 "Brazilian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

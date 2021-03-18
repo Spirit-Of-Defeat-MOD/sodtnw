@@ -4,11 +4,11 @@ NEW = "countries/Commonwealth.txt" #Newfoundland
 QUE = "countries/Commonwealth.txt" #Quebec
 
 #Mexico
-CED = "countries/SouthAmerican.txt" 
-MCT = "countries/SouthAmerican.txt"
-PNR = "countries/SouthAmerican.txt"
-PLM = "countries/SouthAmerican.txt"
-VIL = "countries/SouthAmerican.txt"
+CED = "countries/SouthAmerican.txt" #Cedillo
+MCT = "countries/SouthAmerican.txt" #Cristero
+PNR = "countries/SouthAmerican.txt" #Constituionalists
+PLM = "countries/SouthAmerican.txt" #Magonists
+VIL = "countries/SouthAmerican.txt"	#Villa
 
 #Africa
 AEF = "countries/African.txt"
@@ -31,6 +31,7 @@ ASR = "countries/MiddleEast.txt" #Asir
 HEJ = "countries/MiddleEast.txt" #Hejaz
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
 OMN = "countries/MiddleEast.txt" #Imam of Oman
+ISZ = "countries/WestEurope.txt" #International Zone of Straits
 
 
 

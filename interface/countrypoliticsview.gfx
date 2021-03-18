@@ -95,11 +95,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_sod_mandate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_lon_icon.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_autonomy_free_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
 	}
@@ -110,23 +105,28 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_sod_associated_state_icon"
+		name = "GFX_autonomy_dominion_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_dominion_icon.dds"
 	}
 
 	spriteType = {
-		name = "GFX_sod_satellite_state_icon"
+		name = "GFX_autonomy_colony_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_sod_client_state_icon"
+		name = "GFX_autonomy_puppet_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_puppet_icon.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_sod_occupied_territory_icon"
+		name = "GFX_autonomy_integrated_puppet_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_integrated_puppet_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_collaboration_government_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_collaboration_government.dds"
 	}
 	
 	spriteType = {
@@ -168,6 +168,7 @@ spriteTypes = {
 		name = "GFX_autonomy_supervised_state_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
 	}
+	
 	
 	#-------------
 

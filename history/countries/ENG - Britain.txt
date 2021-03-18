@@ -224,75 +224,75 @@ give_military_access = RAJ
 
 #give_guarantee = CZE
 
-# Order matters - here Chamberlain becomes starting leader
-
-create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
+# Order matters - here Chamberlain becomes starting leade
 
 
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = social_democrat_ideology
 	traits = {
 		conservative_grandee
 	}
 }
 
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
-
 create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
+	expire = "1938.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		champion_of_peace_1
-		economic_reformer
+		conservative_grandee
 	}
 }
 
 create_country_leader = {
-	name = "Harry Pollitt"
-	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_eng_harry_pollitt.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
+	expire = "1938.1.1"
+	ideology = utilitarian_despot_subtype
 	traits = {
-		staunch_stalinist
+		conservative_grandee
 	}
 }
 
-#create_country_leader = {
-#	name = "Rajani Palme Dutt"
-#	desc = "POLITICS_PALME_DUTT_DESC"
-#	picture = "Portrait_Britain_Palme_Dutt.dds"
-#	expire = "1965.1.1"
-#	ideology = leninism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
+	expire = "1938.1.1"
+	ideology = classic_liberal_ideology
+	traits = {
+		conservative_grandee
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
+	expire = "1938.1.1"
+	ideology = social_conservatism
+	traits = {
+		conservative_grandee
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "Portrait_King_George.tga"
+	expire = "1938.1.1"
+	ideology = social_liberal_ideology
+	traits = {
+		conservative_grandee
+	}
+}
+
 
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat

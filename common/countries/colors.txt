@@ -820,3 +820,8 @@ OMN = {
 	color = rgb { 155 155 155 }
 	color_ui = rgb { 217 157 0 }
 }
+
+ISZ = {
+	color = rgb { 85 82 114 }
+	color_ui = rgb { 85 82 114 }
+}

@@ -113,7 +113,7 @@ if = {
 		desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
 		picture = "GFX_portrait_gre_nikos_zachariadis"
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = marxism
 		traits = {
 			reluctant_stalinist
 		}
@@ -183,7 +183,7 @@ if = {
 		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 		expire = "1965.1.1"
-		ideology = nazism
+		ideology = fascism_ideology
 		traits = {
 			#
 		}

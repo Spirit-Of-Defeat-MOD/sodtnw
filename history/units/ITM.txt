@@ -74,6 +74,28 @@ division_template = {
 } 
 
 division_template = { 
+	name = "Divisione Autotrasportabile" 
+	division_names_group = ITA_INF_01 
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		artillery_brigade = { x = 0 y = 2 } 
+	} 
+	support = { 
+		engineer = { x = 0 y = 0 }	
+	} 
+} 
+
+division_template = { 
+	name = "Divisione Costiera" 
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		artillery_brigade = { x = 0 y = 2 } 
+	} 
+} 
+
+division_template = { 
 	name = "Reggimento di Cavalleria" 
 	division_names_group = ITA_CAV_01 
 
@@ -156,7 +178,7 @@ units = {
 			name_order = 7
 		} 
 		location = 11598
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -166,7 +188,7 @@ units = {
 			name_order = 7
 		} 
 		location = 6780
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -176,7 +198,7 @@ units = {
 			name_order = 8
 		} 
 		location = 4159
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -186,7 +208,7 @@ units = {
 			name_order = 9
 		} 
 		location = 6635
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -196,7 +218,7 @@ units = {
 			name_order = 10
 		} 
 		location = 776
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -206,7 +228,7 @@ units = {
 			name_order = 11
 		} 
 		location = 11726
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -216,7 +238,7 @@ units = {
 			name_order = 12
 		} 
 		location = 771
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -226,7 +248,7 @@ units = {
 			name_order = 13
 		} 
 		location = 9582
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -236,7 +258,7 @@ units = {
 			name_order = 14
 		} 
 		location = 628
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -246,7 +268,7 @@ units = {
 			name_order = 15
 		} 
 		location = 11803
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -256,7 +278,7 @@ units = {
 			name_order = 16
 		} 
 		location = 10074
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -266,7 +288,7 @@ units = {
 	#		name_order = 17
 	#	} 
 	#	location = 3958
-	#	division_template = "Divisione di Fanteria"
+	#	division_template = "Divisione Autotrasportabile"
 	#	start_experience_factor = 0.2 
 	#}
 	
@@ -276,7 +298,7 @@ units = {
 			name_order = 18
 		} 
 		location = 6926
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -286,7 +308,7 @@ units = {
 			name_order = 11790
 		} 
 		location = 3958
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 	
@@ -296,7 +318,7 @@ units = {
 			name_order = 20
 		} 
 		location = 3910
-		division_template = "Divisione di Fanteria"
+		division_template = "Divisione Autotrasportabile"
 		start_experience_factor = 0.2 
 	}
 }

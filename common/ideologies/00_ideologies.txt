@@ -192,6 +192,7 @@ ideologies = {
 			liberal_conservatism = {}
 			right_libertarianism = {}
 			liberalism = {} #to reduce errors
+			moderatism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_CLASSIC_LIBERAL_1"

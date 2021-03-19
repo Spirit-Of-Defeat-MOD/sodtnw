@@ -3,14 +3,11 @@ state= {
 	id=341
 	name="STATE_341"
 	manpower = 363947
-	resources={
-
-	}
 	
 	state_category = c5
 
 	history= {
-		owner = TUR
+		owner = ISZ
 
 		buildings = {
 			infrastructure = 3
@@ -21,6 +18,7 @@ state= {
 			}
 		}
 		add_core_of = TUR
+		add_core_of = ISZ
 	}
 	provinces=
 	{

@@ -60,7 +60,9 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 25	communism = 75
+set_popularities = {
+	democratic = 25
+	communism = 75
 }
 
 create_country_leader = {
@@ -77,9 +79,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kandid Charkviani"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	ideology = marxismrs/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology =marxism
 	traits = {
 		
 	}

@@ -74,3 +74,21 @@ CHL_south_america_arms_race = {
 	allowed = { tag = CHL } #manually activated
 }
 
+##Italian Civil War interventions - FIle will be separated when more content is added
+GRE_icw = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = GRE
+	}
+	priority = 90
+}
+
+TUR_icw = {
+	icon = generic_political_actions
+
+	allowed = {
+		tag = TUR
+	}
+	priority = 90
+}

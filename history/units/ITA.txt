@@ -158,28 +158,28 @@ units = {
 	}
 	
 	division = {   
-		name = "1st CC.NN. Division "23 Marzo""
+		name = "1st CC.NN. Division 23 Marzo"
 		location = 6788 
 		division_template = "CC.NN. Division"
 		start_experience_factor = 0.3 
 	}
 	
 	division = {   
-		name = "2nd CC.NN. Division "28 Ottobre"
+		name = "2nd CC.NN. Division 28 Ottobre"
 		location = 9738 
 		division_template = "CC.NN. Division"
 		start_experience_factor = 0.3 
 	}
 	
 	division = {   
-		name = "3rd CC.NN. Division "21 Aprile"
+		name = "3rd CC.NN. Division 21 Aprile"
 		location = 6780 
 		division_template = "CC.NN. Division"
 		start_experience_factor = 0.3 
 	}
 	
 	division = {   
-		name = "4th CC.NN. Division "3 Gennaio"
+		name = "4th CC.NN. Division 3 Gennaio"
 		location = 611 
 		division_template = "CC.NN. Division"
 		start_experience_factor = 0.3 
@@ -450,4 +450,4 @@ instant_effect = {
 			efficiency = 50 
 		} 
 	}
-} 
+}

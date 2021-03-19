@@ -60,15 +60,18 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 30	communism = 40	neutrality = 30
+set_popularities = {
+	democratic = 30
+	communism = 40
+	neutrality = 30
 }
 
 create_country_leader = {
 	name = "Mir Jafar Baghirov"
-	desc = ""
+	ideology = marxism
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology =marxism
 	traits = {
 		
 	}

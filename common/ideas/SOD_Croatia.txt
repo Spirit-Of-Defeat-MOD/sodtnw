@@ -150,7 +150,7 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea CRO_ivan_subasic"
 			}
 			traits = {
-				security_minister
+				interior_minister
 				classic_liberal
 			}
 			cancel_if_invalid = yes
@@ -173,7 +173,7 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea CRO_andrija_artukovic"
 			}
 			traits = {
-				security_minister
+				interior_minister
 				national_syndicalist
 			}
 			cancel_if_invalid = yes
@@ -194,7 +194,7 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea CRO_ivan_pernar"
 			}
 			traits = {
-				head_of_intel
+				interior_minister
 				classic_liberal
 			}
 			cancel_if_invalid = yes
@@ -218,7 +218,7 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea CRO_slavko_kvaternik"
 			}
 			traits = {
-				head_of_intel
+				interior_minister
 				national_syndicalist
 			}
 			cancel_if_invalid = yes

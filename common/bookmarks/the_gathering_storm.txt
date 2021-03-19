@@ -122,9 +122,6 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-
-
-		# minors from DLC ####
 		
 		"MEX"={
 			minor = yes
@@ -139,6 +136,24 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = social_liberal
+			ideas = {
+
+			}
+		}
+
+		"MLI"={
+			minor = yes
+			history = ""
+			ideology = utilitarian_despot
+			ideas = {
+
+			}
+		}
+
+		"HEJ"={
+			minor = yes
+			history = ""
+			ideology = utilitarian_despot
 			ideas = {
 
 			}

@@ -1,0 +1,119 @@
+GRE_icw = {
+	
+	GRE_capture_antalya = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GRE
+			ITA = { has_war = yes }
+		}
+		
+		visible = {
+			ITA = { has_war = yes }
+		}
+		
+		ai_will_do = {
+			factor = 90
+		}
+		
+		cost = 25
+		
+		
+		complete_effect = {			
+			GRE = {
+				transfer_state = 342
+			}
+			hidden_effect = {
+				ISZ = { country_event = { id = greece.2 days = 2} }
+				TUR = { country_event = { id = greece.3 days = 2} }
+			}
+
+		}
+	}
+
+	GRE_capture_dodecanese = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = GRE
+			ITA = { has_war = yes }
+		}
+		
+		visible = {
+			ITA = { has_war = yes }
+		}
+		
+		ai_will_do = {
+			factor = 90
+		}
+		
+		cost = 25
+		
+		complete_effect = {			
+			GRE = {
+				transfer_state = 164
+			}
+
+		}
+	}
+}
+
+TUR_icw = {
+	
+	TUR_retake_antalya = {
+
+		fire_only_once = yes
+
+		icon = generic_political_actions
+
+		available = {
+			original_tag = TUR
+			GRE = { owns_state = 342 }
+			divisions_in_border_state = {
+				type = infantry
+				size > 4
+				state = 343
+				border_state = 342
+			}
+		}
+		
+		visible = {
+			ITA = { has_war = yes }
+		}
+		
+		ai_will_do = {
+			factor = 90
+		}
+		
+		cost = 25
+		days_remove = 35
+		
+		remove_effect = {	
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 343
+					num_provinces = 3
+					on_win = japan_border_conflict.2
+					on_lose = japan_border_conflict.3
+					on_cancel = japan_border_conflict.4
+				}
+							
+				defender = {
+					state = 342
+					num_provinces = 3
+					on_win = greece.5
+					on_lose = greece.6
+					on_cancel = greece.7
+				}
+			}		
+
+		}
+	}
+}

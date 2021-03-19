@@ -350,7 +350,7 @@ if = {
 		desc = "POLITICS_JOSE_DIAZ_DESC"
 		picture = "portrait_spr_jose_diaz.dds"
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = marxism
 		traits = {
 
 		}
@@ -399,7 +399,7 @@ if = {
 		desc = "POLITICS_JOSE_DIAZ_DESC"
 		picture = "portrait_spr_jose_diaz.dds"
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = marxism
 		traits = {
 			veteran_communist
 		}

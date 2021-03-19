@@ -60,7 +60,11 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 15	neutrality = 20	communism = 60	fascism = 5
+set_popularities = {
+	democratic = 15
+	neutrality = 20
+	communism = 60
+	fascism = 5
 }
 
 create_country_leader = {
@@ -86,11 +90,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-    name = "Panteleimon Ponomarenko"
+    ideology = marxismPonomarenko"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
     expire = "1965.1.1"
-    ideology = stalinism
+    ideology =marxism
     traits = {
         #
     }

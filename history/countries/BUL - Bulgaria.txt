@@ -178,7 +178,7 @@ if = { #DLC
 		desc = "POLITICS_GEORGI_DIMITROV_DESC"
 		picture = GFX_portrait_bul_georgi_dimitrov
 		expire = "1965.1.1"
-		ideology = stalinism
+		ideology = marxism
 		traits = {
 			the_hero_of_the_leipzig_trials
 		}

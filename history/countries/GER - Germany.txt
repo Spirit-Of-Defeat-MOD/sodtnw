@@ -254,7 +254,7 @@ create_country_leader = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = stalinism
+#	ideology = marxism
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

@@ -1,0 +1,104 @@
+###Greek Events made by kstar
+
+add_namespace = greece
+
+#Greece MArches into Antayla - Brits
+country_event = {
+	id = greece.2
+    title = greece.2.t
+	desc = greece.2.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#Diplomatic Opposition
+	option = {
+		name = greece.2.a
+		custom_effect_tooltip = lon_opposition_tt
+		GRE = { country_event = {id = greece.4 days = 2 }}
+	}
+}
+
+#Greece MArches into Antayla - Turks
+country_event = {
+	id = greece.3
+    title = greece.3.t
+	desc = greece.3.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#Diplomatic Opposition
+	option = {
+		name = greece.3.a
+		custom_effect_tooltip = turkish_oppositon_tt
+	}
+}
+
+#LON voices opposition
+country_event = {
+	id = greece.4
+    title = greece.4.t
+	desc = greece.4.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#Lol and?
+	option = {
+		name = greece.4.a
+	}
+}
+
+#Wins border war
+country_event = {
+	id = greece.5
+    title = greece.5.t
+	desc = greece.5.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#Eleftheria i thanatos
+	option = {
+		name = greece.5.a
+		add_political_power = 50
+		add_stability = 0.1
+		army_experince = 20
+	}
+}
+
+#Lose border war
+country_event = {
+	id = greece.6
+    title = greece.6.t
+	desc = greece.6.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#How did this happen
+	option = {
+		name = greece.6.a
+		add_political_power = -50
+		add_stability = -0.1
+		army_experince = 5
+		TUR = { transfer_state = 342 }
+	}
+}
+
+#Border war cancel
+country_event = {
+	id = greece.7
+    title = greece.7.t
+	desc = greece.7.d
+	#picture = GFX_report_event_handschar_division
+	
+	is_triggered_only = yes
+	
+	#How did this happen
+	option = {
+		name = greece.7.a
+		army_experince = 5
+	}
+}

@@ -186,7 +186,7 @@ create_country_leader = {
 	name = "Yann-Morvan Gefflot"
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = marxism
 }
 
 create_country_leader = {
@@ -200,7 +200,7 @@ create_country_leader = {
 	name = "Olier Mordrel"
 	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_6.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 }
 
 create_country_leader = {

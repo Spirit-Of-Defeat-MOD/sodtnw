@@ -60,12 +60,38 @@ GRE_communism_ADJ:0 "Greek"
 #Ministers
 #should be reintegrated
 
-
+#Decisions
+GRE_icw:0 "Italian Civil War Intervention"
+GRE_capture_antalya:0 "Capture Antalya"
+GRE_capture_dodecanese:0 "Capture the Dodecanese"
  
 #Focuses
 #should be reintegrated
 
 #Events
-#should be reintegrated
-###French Togo###
-#Parties
+greece.2.t:0 "Greece Marches into Antayla"
+greece.2.d:0 ""
+greece.2.a:0 "Voice opposition"
+lon_opposition_tt:0 "The greeks more than likely wont take this seriously"
+
+greece.3.t:0 "Greece Marches into Antayla"
+greece.3.d:0 ""
+greece.3.a:0 "This is absurd"
+turkish_oppositon_tt:0 ""
+
+greece.4.t:0 "League of nations oppose occupation"
+greece.4.d:0 ""
+greece.4.a:0 "Lol and?"
+
+greece.5.t:0 "Victory"
+greece.5.d:0 ""
+greece.5.a:0 ""
+
+greece.6.t:0 "Embrassing Defeat"
+greece.6.d:0 ""
+greece.6.a:0 ""
+
+greece.7.t:0 "The Turks back off"
+greece.7.d:0 ""
+greece.7.a:0 ""
+

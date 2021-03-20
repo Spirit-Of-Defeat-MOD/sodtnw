@@ -139,6 +139,11 @@ bookmarks = {
 			ideas = {
 
 			}
+			focuses = {
+				CRO_bogihrvati
+				CRO_theindependentstateofcroatia
+				CRO_hrvatskakuna
+			}
 		}
 
 		"MLI"={

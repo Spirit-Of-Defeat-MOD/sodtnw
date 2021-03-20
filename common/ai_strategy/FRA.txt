@@ -1,0 +1,74 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+###REVOLTS IN FRENCH WEST AFRICA
+FRA_support_MLI_resistance = { 
+	enable = {
+		tag = FRA
+		country_exists = MLI
+		MLI = { has_war_with = FRE }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = MLI }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "MLI"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MLI"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "MLI"
+		value = 100
+	}	
+}
+
+FRA_support_MLI_resistance = { #
+	enable = {
+		tag = FRA
+		country_exists = NGR
+		NGR = { has_war_with = FRE }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "NGR"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "NGR"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "NGR"
+		value = 100
+	}	
+}
+

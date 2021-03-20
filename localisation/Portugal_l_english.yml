@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+POR_fascism_party:0 "MNS"
+POR_fascism_party_long:0 "Movimento Nacional-Sindicalista"
+POR_communism_party:0 "PCP"
+POR_communism_party_long:0 "Partido Comunista Português"
+POR_democratic_party:1 "PCC"
+POR_democratic_party_long:0 "Partido do Centro Católico"
+POR_utilitarian_despot_party:0 "UN"
+POR_utilitarian_despot_party_long:0 "União Nacional"
+POR_neutrality_party:0 "CM"
+POR_neutrality_party_long:0 "Causa Monárquica"
+POR_social_democrat_party:0 ""
+POR_social_democrat_party_long:0 ""
+POR_social_liberal_party:0 "PRP"
+POR_social_liberal_party_long:0 "Partido Republicano Português"
+POR_classic_liberal_party:0 ""
+POR_classic_liberal_party_long:0 ""
+POR_libertarian_socialist_party:0 "CGT"
+POR_libertarian_socialist_party_long:0 "Confederação Geral do Trabalho"
+POR_reformist_socialist_party:0 ""
+POR_reformist_socialist_party_long:0 ""
+
+#Country Names
+POR_fascism:0 "Portuguese Republic"
+POR_fascism_DEF:0 "Portuguese Republic"
+POR_libertarian_socialist:0 "Portuguese Peoples' Republic"
+POR_libertarian_socialist_DEF:0 "Portuguese Peoples' Republic"
+POR_utilitarian_despot:0 "Portuguese Republic"
+POR_utilitarian_despot_DEF:0 "the Portuguese Republic"
+POR_democratic:0 "Portuguese Republic"
+POR_democratic_DEF:0 "Portuguese Republic"
+POR_neutrality:1 "Kingdom of Portugal"
+POR_neutrality_DEF:1 "the Kingdom of Portugal"
+POR_reformist_socialist:0 "Portuguese Peoples' Republic"
+POR_reformist_socialist_DEF:0 "Portuguese Peoples' Republic"
+POR_social_democrat:0 "Portuguese Republic"
+POR_social_democrat_DEF:0 "Portuguese Republic"
+POR_social_liberal:0 "Portuguese Republic"
+POR_social_liberal_DEF:0 "Portuguese Republic"
+POR_classic_liberal:0 "Portuguese Republic"
+POR_classic_liberal_DEF:0 "Portuguese Republic"
+POR_communism:0 "Portuguese Peoples' Republic"
+POR_communism_DEF:0 "Portuguese Peoples' Republic"
+ 
+POR_fascism_ADJ:0 "Portuguese"
+POR_fascism_ADJ:0 "Portuguese"
+POR_libertarian_socialist_ADJ:0 "Portuguese"
+POR_democratic_ADJ:0 "Portuguese"
+POR_utilitarian_despot_ADJ:0 "Portuguese"
+POR_reformist_socialist_ADJ:0 "Portuguese"
+POR_neutrality_ADJ:0 "Portuguese"
+POR_social_democrat_ADJ:0 "Portuguese"
+POR_social_liberal_ADJ:0 "Portuguese"
+POR_classic_liberal_ADJ:0 "Portuguese"
+POR_communism_ADJ:0 "Portuguese"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

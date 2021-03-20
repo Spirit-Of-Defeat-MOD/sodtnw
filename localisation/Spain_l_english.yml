@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+SPR_fascism_party:0 "FE de las JONS"
+SPR_fascism_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista"
+SPR_communism_party:0 "PCE"
+SPR_communism_party_long:0 "Partido Comunista de España"
+SPR_democratic_party:1 "DLR"
+SPR_democratic_party_long:0 "Derecha Liberal Republicana"
+SPR_utilitarian_despot_party:0 "UPE"
+SPR_utilitarian_despot_party_long:0 "Unión Patriótica Española"
+SPR_neutrality_party:0 "DDB"
+SPR_neutrality_party_long:0 "Dictablanda of Dámaso Berenguer"
+SPR_social_democrat_party:0 "PSOE(R)"
+SPR_social_democrat_party_long:0 "Partido Socialista Obrero Español (Republicans)"
+SPR_social_liberal_party:0 "PRR"
+SPR_social_liberal_party_long:0 "Partido Republicano Radical"
+SPR_classic_liberal_party:0 "AR"
+SPR_classic_liberal_party_long:0 "Acción Republicana"
+SPR_libertarian_socialist_party:0 "CNT-FAI"
+SPR_libertarian_socialist_party_long:0 "Confederación Nacional del Trabajo-Federación Anarquista Ibérica"
+SPR_reformist_socialist_party:0 "PSOE(M)"
+SPR_reformist_socialist_party_long:0 "Partido Socialista Obrero Español (Marxist)"
+
+#Country Names
+SPR_fascism:0 "Kingdom of Spain"
+SPR_fascism_DEF:0 "Kingdom of Spain"
+SPR_libertarian_socialist:0 "People's Republic of Spain"
+SPR_libertarian_socialist_DEF:0 "People's Republic of Spain"
+SPR_utilitarian_despot:0 "Kingdom of Spain"
+SPR_utilitarian_despot_DEF:0 "the Kingdom of Spain"
+SPR_democratic:0 "Kingdom of Spain"
+SPR_democratic_DEF:0 "Kingdom of Spain"
+SPR_neutrality:1 "Kingdom of Portugal"
+SPR_neutrality_DEF:1 "the Kingdom of Portugal"
+SPR_reformist_socialist:0 "People's Republic of Spain"
+SPR_reformist_socialist_DEF:0 "People's Republic of Spain"
+SPR_social_democrat:0 "Kingdom of Spain"
+SPR_social_democrat_DEF:0 "Kingdom of Spain"
+SPR_social_liberal:0 "Kingdom of Spain"
+SPR_social_liberal_DEF:0 "Kingdom of Spain"
+SPR_classic_liberal:0 "Kingdom of Spain"
+SPR_classic_liberal_DEF:0 "Kingdom of Spain"
+SPR_communism:0 "People's Republic of Spain"
+SPR_communism_DEF:0 "People's Republic of Spain"
+ 
+SPR_fascism_ADJ:0 "Spanish"
+SPR_fascism_ADJ:0 "Spanish"
+SPR_libertarian_socialist_ADJ:0 "Spanish"
+SPR_democratic_ADJ:0 "Spanish"
+SPR_utilitarian_despot_ADJ:0 "Spanish"
+SPR_reformist_socialist_ADJ:0 "Spanish"
+SPR_neutrality_ADJ:0 "Spanish"
+SPR_social_democrat_ADJ:0 "Spanish"
+SPR_social_liberal_ADJ:0 "Spanish"
+SPR_classic_liberal_ADJ:0 "Spanish"
+SPR_communism_ADJ:0 "Spanish"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

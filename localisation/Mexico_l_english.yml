@@ -101,6 +101,9 @@ mexmilitias.17.t:0 "Chiapas Local Militias"
 mexmilitias.18.t:0 "Tabasco Local Militias"
 mexmilitias.19.t:0 "Campeche Local Militias"
 
+form_mexico_category:0 "Reuniting Mexico"
+form_mexico:0 "End the Revolution"
+
 
 
 
@@ -147,8 +150,6 @@ REV_production_tech_desc:0 ""
 REV_final_push:0 "The Final Push"
 REV_final_push_desc:0 ""
 
-
-
 ###IDEAS###
 REV_organization:0 "Newly Organized Troops"
 REV_local_production:0 "Local Production"
@@ -159,4 +160,61 @@ REV_better_cavalry_idea:0 "Better Cavalry Tactics"
 REV_better_infantry_idea:0 "Better Infantry Tactics"
 REV_better_artillery_idea:0 "Better Artillery Tactics"
 REV_foreign_builders_idea:0 "Foreign Builders"
+
+#####MEX revolution over
+#country names
+MEX_REFORMED_libertarian_socialist:0 "Free Communes of Mexico"
+MEX_REFORMED_communism:0 "People's Republic of Mexico"
+MEX_REFORMED_reformist_socialist:0 "Republic of Mexico"
+MEX_REFORMED_social_democrat:0 "United Mexican States"
+MEX_REFORMED_social_liberal:0 "United Mexican States" 
+MEX_REFORMED_classic_liberal:0 "United Mexican States"
+MEX_REFORMED_democratic:0 "United Mexican States"
+MEX_REFORMED_neutrality:0 "United Mexican States"
+MEX_REFORMED_utilitarian_despot:0 "Centralist Republic of Mexico"
+MEX_REFORMED_fascism:0 "United Mexican States" 
+
+MEX_REFORMED_libertarian_socialist_DEF:0 "the Free Communes of Mexico"
+MEX_REFORMED_communism_DEF:0 "the People's Republic of Mexico"
+MEX_REFORMED_reformist_socialist_DEF:0 "the Republic of Mexico"
+MEX_REFORMED_social_democrat_DEF:0 "the United Mexican States"
+MEX_REFORMED_social_liberal_DEF:0 "the United Mexican States" 
+MEX_REFORMED_classic_liberal_DEF:0 "the United Mexican States"
+MEX_REFORMED_democratic_DEF:0 "the United Mexican States"
+MEX_REFORMED_neutrality_DEF:0 "the United Mexican States"
+MEX_REFORMED_utilitarian_despot_DEF:0 "the Second Centralist Republic of Mexico"
+MEX_REFORMED_fascism_DEF:0 "the United Mexican States" 
+
+MEX_REFORMED_libertarian_socialist_ADJ:0 "Mexican"
+MEX_REFORMED_communism_ADJ:0 "Mexican"
+MEX_REFORMED_reformist_socialist_ADJ:0 "Mexican"
+MEX_REFORMED_social_democrat_ADJ:0 "Mexican"
+MEX_REFORMED_social_liberal_ADJ:0 "Mexican" 
+MEX_REFORMED_classic_liberal_ADJ:0 "Mexican"
+MEX_REFORMED_democratic_ADJ:0 "Mexican"
+MEX_REFORMED_neutrality_ADJ:0 "Mexican"
+MEX_REFORMED_utilitarian_despot_ADJ:0 "Mexican"
+MEX_REFORMED_fascism_ADJ:0 "Mexican" 
+
+#Party names
+MEX_REFORMED_libertarian_socialist_party:0 "PLM"
+MEX_REFORMED_libertarian_socialist_party_long:0 "Partido Liberal Mexicano"
+MEX_REFORMED_communism_party:0 "PCM"
+MEX_REFORMED_communism_party_long:0 "Partido Comunista Mexicano"
+MEX_REFORMED_reformist_socialist_party:0 "PLM"
+MEX_REFORMED_reformist_socialist_party_long:0 "Partido Laborista Mexicano"
+MEX_REFORMED_social_democrat_party:0 "PLM"
+MEX_REFORMED_social_democrat_party_long:0 "Partido Laborista Mexicano"
+MEX_REFORMED_social_liberal_party:0 "PLC" 
+MEX_REFORMED_social_liberal_party_long:0 "Partido Liberal Constitucionalista" 
+MEX_REFORMED_classic_liberal_party:0 "PCP"
+MEX_REFORMED_classic_liberal_party_long:0 "Partido Constitucional Progresista"
+MEX_REFORMED_democratic_party:0 "PAN"
+MEX_REFORMED_democratic_party_long:0 "Partido Acción Nacional"
+MEX_REFORMED_neutrality_party:0 "LNDR"
+MEX_REFORMED_neutrality_party_long:0 "Liga Nacional Defensora de la Libertad Religiosa"
+MEX_REFORMED_utilitarian_despot_party:0 "LC"
+MEX_REFORMED_utilitarian_despot_party_long:0 "Liga Centralista"
+MEX_REFORMED_fascism_party:0 "UNS" 
+MEX_REFORMED_fascism_party_long:0 "Unión Nacional Sinarquista" 
  

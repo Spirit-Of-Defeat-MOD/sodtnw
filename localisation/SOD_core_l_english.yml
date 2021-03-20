@@ -97,3 +97,17 @@ heavy_artillery_equipment_1:0 "Great War Heavy Artillery Equipment"
 heavy_artillery_equipment_2:0 "Improved Heavy Artillery Equipment"
 heavy_artillery_equipment_3:0 "Advanced Heavy Artillery Equipment"
 
+USA_heavy_artillery_equipment_1:0 "155 mm gun M1"
+USA_heavy_artillery_equipment_2:0 "M1918 240 mm howitzer"
+USA_heavy_artillery_equipment_3:0 "240 mm howitzer M1"
+
+ENG_heavy_artillery_equipment_1:0 "BL 9.2-inch howitzer"
+ENG_heavy_artillery_equipment_2:0 "BL 12-inch howitzer"
+ENG_heavy_artillery_equipment_3:0 "BL 7.2-inch howitzer"
+
+FRA_heavy_artillery_equipment_1:0 "Canon de 155mm GPF"
+
+ITA_heavy_artillery_equipment_1:0 "Obice da 305/17"
+ITA_heavy_artillery_equipment_2:0 "Obice da 149/19 modello 37"
+ITA_heavy_artillery_equipment_3:0 "Obice da 210/22 modello 35"
+

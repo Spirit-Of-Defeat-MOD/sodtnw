@@ -5,7 +5,7 @@ state={
 	manpower = 744000
 	
 	
-	state_category = rural
+	state_category = c3
 	
 	resources={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup

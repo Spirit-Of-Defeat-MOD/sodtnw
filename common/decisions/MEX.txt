@@ -650,3 +650,125 @@ mexican_militias = {
 		}
 	}
 }
+
+form_mexico_category = {
+	form_mexico = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = VIL
+				original_tag = PLM
+				original_tag = CED
+				original_tag = PNR
+				original_tag = MCT
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Villa
+			custom_trigger_tooltip = {
+				tooltip = form_country_villa_required_states_tt
+				controls_state = 483
+				controls_state = 482
+
+			}
+			# PLM
+			custom_trigger_tooltip = {
+				tooltip = form_country_plm_required_states_tt
+				controls_state = 800
+
+			}
+			# Cedillo
+			custom_trigger_tooltip = {
+				tooltip = form_country_cedillo_required_states_tt
+				controls_state = 802
+			}
+			# PNR
+			custom_trigger_tooltip = {
+				tooltip = form_country_cedillo_required_states_tt
+				controls_state = 798
+				controls_state = 799
+				controls_state = 475
+				controls_state = 478
+				controls_state = 485
+			}
+			# MCT
+			custom_trigger_tooltip = {
+				tooltip = form_country_mct_required_states_tt
+				controls_state = 484
+				controls_state = 478
+				controls_state = 474
+				controls_state = 797
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = VIL
+				original_tag = PLM
+				original_tag = CED
+				original_tag = PNR
+				original_tag = MCT
+			}
+			NOT = { has_global_flag = form_mexico_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MEX_REFORMED
+			# Villa
+			custom_effect_tooltip = form_country_villa_coring_states_tt
+			hidden_effect = {
+				483 = { add_core_of = ROOT }
+				482 = { add_core_of = ROOT }
+			}
+			# PLM
+			custom_effect_tooltip = form_country_plm_coring_states_tt
+			hidden_effect = {
+				800 = { add_core_of = ROOT }
+			}
+			# Cedillo
+			custom_effect_tooltip = form_country_cedillo_coring_states_tt
+			hidden_effect = {
+				802 = { add_core_of = ROOT }
+			}		
+			# PNR
+			custom_effect_tooltip = form_country_pnr_coring_states_tt
+			hidden_effect = {
+				798 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				475 = { add_core_of = ROOT }
+				478 = { add_core_of = ROOT }
+				485 = { add_core_of = ROOT }
+			}
+			# MCT
+			custom_effect_tooltip = form_country_mct_coring_states_tt
+			hidden_effect = {
+				484 = { add_core_of = ROOT }
+				478 = { add_core_of = ROOT }
+				474 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+			}
+			# Mexico core
+			custom_effect_tooltip = form_country_mex_coring_states_tt
+			hidden_effect = {
+				477 = { add_core_of = ROOT }
+				479 = { add_core_of = ROOT }
+				277 = { add_core_of = ROOT }
+				481 = { add_core_of = ROOT }
+				480 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				#news_event = { id = wtt_news.53 hours = 6 }
+				set_global_flag = form_mexico_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

@@ -1,0 +1,80 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+###Support in Italian Civil War###
+FRA_support_italian_socialists = {
+	enable = {
+		tag = FRA
+		country_exists = ITS
+		ITS = { has_war_with = ITM }
+		ITS = { has_war_with = ITA }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = ITS }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "ITS"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ITS"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "ITS"
+		value = 200
+	}
+	ai_strategy = { ##show of strength really, doesnt mean much
+		type = prepare_for_war
+		id = "ITM" 
+		value = 100
+	}
+}
+
+SOV_support_italian_socialists = {
+	enable = {
+		tag = SOV
+		country_exists = ITS
+		ITS = { has_war_with = ITM }
+		ITS = { has_war_with = ITA }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = ITS }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "ITS"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ITS"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "ITS"
+		value = 200
+	}	
+}

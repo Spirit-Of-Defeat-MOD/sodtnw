@@ -141,6 +141,11 @@ focus_tree = {
 				target = SER
 				modifier = CRO_anti_serbian_rhetoric_modifier 
 			}
+			
+			add_opinion_modifier = {
+				target = CHE
+				modifier = CRO_anti_serbian_rhetoric_modifier 
+			}
 		}
 	}
 

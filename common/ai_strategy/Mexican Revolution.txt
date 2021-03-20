@@ -1,0 +1,154 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+###Experimental (USA will support whoever controls mexico city except for socialists )
+
+USA_support_feds = { ##if they own the city
+	enable = {
+		tag = USA
+		country_exists = MEX
+		MEX = { owns_state = 277 }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = MEX }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "MEX"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MEX"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "MEX"
+		value = 200
+	}
+}
+
+USA_support_cedillo = { ##if cedillo owns the city
+	enable = {
+		tag = USA
+		country_exists = CED
+		CED = { owns_state = 277 }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = CED }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "CED"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CED"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "CED"
+		value = 200
+	}
+}
+
+USA_support_pnr = { ##if PNR owns the city
+	enable = {
+		tag = USA
+		country_exists = PNR
+		PNR = { owns_state = 277 }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = PNR }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "PNR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PNR"
+		value = 200
+	}	
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "PNR"
+		value = 200
+	}
+}
+
+USA_invade_villa = { ##Test to see if the ai reacts negativly to villa taking capital-doesnt actually invade
+	enable = {
+		tag = USA
+		country_exists = VIL
+		VIL = { owns_state = 277 }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = VIL }
+		}
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "VIL"
+		value = -1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "VIL"
+		value = 1000
+	}
+}
+
+##Other note -  America still has filthy isolation
+##race for US support
+USA_support_race = { ##
+	enable = {
+		OR = {
+            tag = PLM
+            tag = PNR
+            tag = VIL
+            tag = CED
+            tag = MCT
+            tag = MEX
+        }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = USA }
+		}
+	}
+	
+	ai_strategy = {
+		type = diplo_action_desire
+		id = USA
+		target = improve_relation
+		value = 200
+	}
+}

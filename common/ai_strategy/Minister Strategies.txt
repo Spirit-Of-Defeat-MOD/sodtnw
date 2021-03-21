@@ -1,0 +1,204 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+###Test for dynamic AI-most or all minister traits will get a strategey attached to it###
+
+##Head of Government
+#Smiling Oilman
+hog_smiling_oilman_strategy = {
+	enable = {
+		original_tag = ROOT
+		has_idea_with_trait = hog_smiling_oilman
+	}
+	abort = {
+		NOT = { has_idea_with_trait = hog_smiling_oilman }
+	}
+	
+	ai_strategy = {
+		type = research_tech
+		id = fuel_silos
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = synth_oil_experiments
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = fuel_refining
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = fuel_refining2
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = oil_processing
+		value = 1000
+	}
+	ai_strategy = {
+		type = build_building
+		id = fuel_silo
+		value = 1000
+	}
+	ai_strategy = {
+		type = build_building
+		id = synthetic_refinery
+		value = 1000
+	}
+}
+
+##Economy Minister
+#Ambitious Union Boss
+hog_ambitious_union_boss_strategy = {
+	enable = {	
+		original_tag = ROOT
+		has_idea_with_trait = hog_ambitious_union_boss
+	}
+	abort = {
+		NOT = { has_idea_with_trait = hog_ambitious_union_boss }
+	}
+	##Only CIVS
+	ai_strategy = {
+		type = build_building
+		id = industrial_complex
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = dockyard
+		value = -10
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = arms_factory
+		value = -10
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = infrastructure
+		value = -10
+	}
+}
+
+#Corporate Suit
+hog_corporate_suit_strategy = {
+	enable = {	
+		original_tag = ROOT
+		has_idea_with_trait = hog_corporate_suit
+	}
+	abort = {
+		NOT = { has_idea_with_trait = hog_corporate_suit }
+	}
+	##Only CIVS and MILS
+	ai_strategy = {
+		type = build_building
+		id = industrial_complex
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = dockyard
+		value = -10
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = arms_factory
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = build_building
+		id = infrastructure
+		value = -10
+	}
+}
+
+eco_tank_proponent_strategy = {
+	enable = {	
+		original_tag = ROOT
+		has_idea_with_trait = eco_tank_proponent
+	}
+	abort = {
+		NOT = { has_idea_with_trait = eco_tank_proponent }
+	}
+	ai_strategy = {
+		type = research_tech
+		id = gwtank
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = basic_light_tank
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = basic_heavy_tank
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_tech
+		id = basic_medium_tank
+		value = 1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 40
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 40
+	}	
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 40
+	}	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 20 
+	}
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = 50
+	}	
+	#ai_strategy = {
+	#	type = template_prio
+	#	id = motorized
+	#	value = 10
+	#}	
+	#ai_strategy = {
+	#	type = template_prio
+	#	id = medium_armor
+	#	value = 25
+	#}
+	#ai_strategy = {
+	#	type = template_prio
+	#	id = heavy_armor
+	#	value = 10
+	#}
+}

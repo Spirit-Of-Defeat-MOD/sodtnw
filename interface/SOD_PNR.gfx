@@ -1,0 +1,47 @@
+spriteTypes = {
+	#####Ministers#############
+	### Head of Government
+	spriteType = {
+		name = "GFX_idea_PNR_Alvaro_Obregon_hog"
+		texturefile = "gfx/ministers/PNR/PNR_Alvaro_Obregon_hog.tga"
+	}
+
+
+	### Foreign Minister
+	spriteType = {
+		name = "GFX_idea_PNR_Juan_Sanchez_frm"
+		texturefile = "gfx/ministers/PNR/PNR_Juan_Sanchez_frm.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PNR_Cutberto_Hidalgo_frm"
+		texturefile = "gfx/ministers/PNR/PNR_Cutberto_Hidalgo_frm.tga"
+	}
+
+	### Economic Minister
+	spriteType = {
+		name = "GFX_idea_PNR_Salvador_Alvarado_eco"
+		texturefile = "gfx/ministers/PNR/PNR_Salvador_Alvarado_eco.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PNR_Antonio_Villarreal_eco"
+		texturefile = "gfx/ministers/PNR/PNR_Antonio_Villarreal_eco.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PNR_Jacinto_B_eco"
+		texturefile = "gfx/ministers/PNR/PNR_Jacinto_B_eco.tga"
+	}
+
+	### Interior
+	spriteType = {
+		name = "GFX_idea_PNR_Jose_Inocente_int"
+		texturefile = "gfx/ministers/PNR/PNR_Jose_Inocente_int.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PNR_Pascual_Ortiz_int"
+		texturefile = "gfx/ministers/PNR/PNR_Pascual_Ortiz_int.tga"
+	}
+}

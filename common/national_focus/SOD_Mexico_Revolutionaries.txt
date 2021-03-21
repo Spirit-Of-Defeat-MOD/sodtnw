@@ -33,13 +33,10 @@
 #
 #		}
 #	}
-
 focus_tree = {
 	id = REV_mexican_revolutionaries
-	
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			OR = {
@@ -52,128 +49,106 @@ focus_tree = {
 			}
 		}
 	}
-	
 	default = no
-
-	continuous_focus_position = { x = 50 y = 2000 }
-
+	continuous_focus_position = {
+		x = 50
+		y = 2000
+	}
 	focus = {
 		id = REV_viva_mexico
 		icon = GFX_viva_mexico
 		x = 4
 		y = 0
-
 		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_political_power = 50
 			army_experience = 15
 		}
 	}
-
 	focus = {
 		id = REV_recruitment_drive
 		icon = GFX_recruitment_drive
-		prerequisite = { focus = REV_viva_mexico }
+		prerequisite = {
+			focus = REV_viva_mexico
+		}
 		x = 2
 		y = 1
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_manpower = 20000
 		}
 	}
-
 	focus = {
 		id = REV_organize_forces
 		icon = GFX_organize_forces
-		prerequisite = { focus = REV_recruitment_drive }
+		prerequisite = {
+			focus = REV_recruitment_drive
+		}
 		x = 2
 		y = 2
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_organization
-    			days = 500
+			add_ideas = {
+				REV_organization
 			}
 		}
 	}
-
 	focus = {
 		id = REV_defend_capital
 		icon = GFX_defend_capital
-		prerequisite = { focus = REV_viva_mexico }
+		prerequisite = {
+			focus = REV_viva_mexico
+		}
 		x = 6
 		y = 1
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -191,31 +166,26 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = REV_improve_road_network
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = REV_defend_capital }
+		prerequisite = {
+			focus = REV_defend_capital
+		}
 		x = 6
 		y = 2
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -274,197 +244,176 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = REV_revolutionary_zeal
 		icon = GFX_revolutionary_zeal
-		prerequisite = { focus = REV_recruitment_drive }
-		prerequisite = { focus = REV_defend_capital }
+		prerequisite = {
+			focus = REV_recruitment_drive
+		}
+		prerequisite = {
+			focus = REV_defend_capital
+		}
 		x = 4
 		y = 2
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_stability = 0.15
 			add_war_support = 0.1
 		}
 	}
-
 	focus = {
 		id = REV_local_arms_production
 		icon = GFX_local_arms_production
-		prerequisite = { focus = REV_organize_forces }
-		mutually_exclusive = { focus = REV_foreign_purchase  }
+		prerequisite = {
+			focus = REV_organize_forces
+		}
+		mutually_exclusive = {
+			focus = REV_foreign_purchase
+		}
 		x = 1
 		y = 3
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_local_production
-    			days = 500
+			add_ideas = {
+				REV_local_production
 			}
 		}
 	}
-
 	focus = {
 		id = REV_foreign_purchase
 		icon = GFX_foreign_purchase
-		prerequisite = { focus = REV_organize_forces }
-		mutually_exclusive = { focus = REV_local_arms_production  }
+		prerequisite = {
+			focus = REV_organize_forces
+		}
+		mutually_exclusive = {
+			focus = REV_local_arms_production
+		}
 		x = 3
 		y = 3
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			set_country_flag = equipment_purchase_flag
 			unlock_decision_category_tooltip = weapon_purchasing
 		}
 	}
-
 	focus = {
 		id = REV_guerrilla_warfare
 		icon = GFX_guerrilla_warfare
-		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
-		mutually_exclusive = { focus = REV_conventional_warfare  }
+		prerequisite = {
+			focus = REV_foreign_purchase
+			focus = REV_local_arms_production
+		}
+		mutually_exclusive = {
+			focus = REV_conventional_warfare
+		}
 		x = 1
 		y = 4
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_guerrilla
-    			days = 500
+			add_ideas = {
+				REV_guerrilla
 			}
 		}
 	}
-
 	focus = {
 		id = REV_conventional_warfare
 		icon = GFX_conventional_warfare
-		prerequisite = { focus = REV_foreign_purchase focus = REV_local_arms_production }
-		mutually_exclusive = { focus = REV_guerrilla_warfare  }
+		prerequisite = {
+			focus = REV_foreign_purchase
+			focus = REV_local_arms_production
+		}
+		mutually_exclusive = {
+			focus = REV_guerrilla_warfare
+		}
 		x = 3
 		y = 4
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_conventional
-    			days = 500
+			add_ideas = {
+				REV_conventional
 			}
 		}
 	}
-
 	focus = {
 		id = REV_limited_industry
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = REV_improve_road_network }
+		prerequisite = {
+			focus = REV_improve_road_network
+		}
 		x = 6
 		y = 3
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -499,200 +448,173 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = REV_quest_resource
 		icon = GFX_quest_resource
-		prerequisite = { focus = REV_limited_industry }
+		prerequisite = {
+			focus = REV_limited_industry
+		}
 		x = 6
 		y = 4
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_ideas = {
-				idea = REV_resource_extraction
+				REV_resource_extraction
 			}
 		}
 	}
-
 	focus = {
 		id = REV_better_cavalry
 		icon = GFX_better_cavalry
-		prerequisite = { focus = REV_guerrilla_warfare }
+		prerequisite = {
+			focus = REV_guerrilla_warfare
+		}
 		x = 0
 		y = 5
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_better_cavalry_idea
-				days = 450
+			add_ideas = {
+				REV_better_cavalry_idea
+				
 			}
 		}
 	}
-
 	focus = {
 		id = REV_better_infantry
 		icon = GFX_better_infantry
-		prerequisite = { focus = REV_guerrilla_warfare focus = REV_conventional_warfare }
+		prerequisite = {
+			focus = REV_guerrilla_warfare
+			focus = REV_conventional_warfare
+		}
 		x = 2
 		y = 5
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_better_infantry_idea
-				days = 450
+			add_ideas = {
+				REV_better_infantry_idea
+				
 			}
 		}
 	}
-
 	focus = {
 		id = REV_better_artillery
 		icon = GFX_better_artillery
-		prerequisite = { focus = REV_conventional_warfare }
+		prerequisite = {
+			focus = REV_conventional_warfare
+		}
 		x = 4
 		y = 5
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_better_artillery_idea
-				days = 450
+			add_ideas = {
+				REV_better_artillery_idea
+				
 			}
 		}
 	}
-
 	focus = {
 		id = REV_foreign_builders
 		icon = GFX_foreign_builders
-		prerequisite = { focus = REV_quest_resource }
+		prerequisite = {
+			focus = REV_quest_resource
+		}
 		x = 6
 		y = 5
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea = REV_foreign_builders_idea
-				days = 450
+			add_ideas = {
+				REV_foreign_builders_idea
+				
 			}
 		}
 	}
-
 	focus = {
 		id = REV_foreign_experts
 		icon = GFX_foreign_experts
-		prerequisite = { focus = REV_better_infantry focus = REV_better_cavalry focus = REV_better_artillery }
+		prerequisite = {
+			focus = REV_better_infantry
+			focus = REV_better_cavalry
+			focus = REV_better_artillery
+		}
 		x = 2
 		y = 6
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 1
 				uses = 2
 				category = infantry_weapons
 				category = artillery
@@ -700,108 +622,90 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = REV_revolutionary_education
 		icon = GFX_focus_research
-		prerequisite = { focus = REV_foreign_builders }
-
+		prerequisite = {
+			focus = REV_foreign_builders
+		}
 		x = 5
 		y = 6
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_research_slot = 1
-
 		}
 	}
-
 	focus = {
 		id = REV_production_tech
 		icon = GFX_production_tech
-		prerequisite = { focus = REV_foreign_builders }
-
+		prerequisite = {
+			focus = REV_foreign_builders
+		}
 		x = 7
 		y = 6
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 1
 				uses = 2
 				category = industry
 				category = electronics
 			}
-
 		}
 	}
-
 	focus = {
 		id = REV_final_push
 		icon = GFX_final_push
-		prerequisite = { focus = REV_production_tech }
-		prerequisite = { focus = REV_foreign_experts }
-		prerequisite = { focus = REV_revolutionary_education }
-
+		prerequisite = {
+			focus = REV_production_tech
+		}
+		prerequisite = {
+			focus = REV_foreign_experts
+		}
+		prerequisite = {
+			focus = REV_revolutionary_education
+		}
 		x = 4
 		y = 7
-
 		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
-
 		available = {
 		}
-		
 		bypass = {
 		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		complete_tooltip = {
-
 		}
 		completion_reward = {
-
 		}
 	}
-
 }

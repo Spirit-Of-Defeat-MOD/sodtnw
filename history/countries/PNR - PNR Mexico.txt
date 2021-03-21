@@ -17,6 +17,13 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	PNR_Alvaro_Obregon_hog
+	PNR_Juan_Sanchez_frm
+	PNR_Salvador_Alvarado_eco
+	PNR_Jose_Inocente_int
+}
+
 
 #Mexican Civil War
 declare_war_on = {

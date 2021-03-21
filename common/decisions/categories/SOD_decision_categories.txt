@@ -104,3 +104,5 @@ TUR_icw = {
 	}
 	priority = 90
 }
+
+SOD_border_clash = {}

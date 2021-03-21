@@ -1,0 +1,163 @@
+ideas = {
+    head_of_government = {
+		PNR_Alvaro_Obregon_hog = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Alvaro_Obregon_hog"
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_happy_amateur
+			}
+		}
+	}
+
+	foreign_minister = {
+		
+		PNR_Juan_Sanchez_frm = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Juan_Sanchez_frm"
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				frm_ideological_crusader
+			}
+		}
+
+		PNR_Cutberto_Hidalgo_frm = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Cutberto_Hidalgo_frm"
+			}
+			traits = {
+				foreign_minister
+				classic_liberal
+				frm_iron_fisted_brute
+			}
+		}
+	}
+
+	economy_minister = {
+		PNR_Salvador_Alvarado_eco = {  ##Historically joined PLM then joined Huerta in 1920, might be switched to PLM again for mod purposes..TBD
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Salvador_Alvarado_eco"
+			}
+			traits = {
+				economy_minister
+				libertarian_socialist
+				eco_tank_proponent
+			}
+		}
+
+		PNR_Antonio_Villarreal_eco = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Antonio_Villarreal_eco"
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_infantry_proponent
+			}
+		}
+
+		PNR_Jacinto_B_eco = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Jacinto_B_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_u_boat_proponent
+			}
+		}
+		
+	}
+
+	interior_minister = {
+		PNR_Jose_Inocente_int = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Jose_Inocente_int"
+			}
+			traits = {
+				interior_minister
+				social_conservative
+				int_political_specialist
+			}
+		}
+
+		PNR_Pascual_Ortiz_int = {
+			allowed = { original_tag = PNR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PNR_Pascual_Ortiz_int"
+			}
+			traits = {
+				interior_minister
+				classic_liberal
+				int_man_of_the_people
+			}
+		}
+	}
+}

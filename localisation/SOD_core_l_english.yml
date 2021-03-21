@@ -21,6 +21,11 @@ foreign_minister:0 "Foreign Minister"
 economy_minister:0 "Economic Minister"
 interior_minister:0 "Interior Minister"
 
+ head_of_gov_available:0 "Head of Government Available"
+ foreign_minister_available:0 "Foreign Minister Available"
+ economy_minister_available:0 "Economic Minister Available"
+ interior_minister_available:0 "Interior Minister Available"
+
 laissez_faire:0 "Laissez Faire"
 interventionism:0 "Interventionism"
 state_capitalism:0 "State Capitalism"
@@ -36,24 +41,49 @@ chief_of_staff:0 "Chief of Staff"
 ##Minister Traits
 #Head of State
 hos_popular_figurehead:0 "Popular Figurehead"
+hos_barking_buffoon:0 "Barking Buffoon"
+
 #Head of gov
 hog_smiling_oilman:0 "Smiling Oilman"
 hog_ambitious_union_boss:0 "Ambitious Union Boss"
 hog_corporate_suit:0 "Corporate Suit"
+hog_conservative_aristocrat:0 "Conservative Aristocrat"
+hog_legislative_council:0 "Legislative Council"
+hog_pragmatist:0 "Pragmatist"
+hog_federalist:0 "Federalist"
+hog_determined_revolutionary:0 "Determined Revolutionary"
+hog_happy_amateur:0 "Happy Amateur"
 
 #Foreign Minister
 frm_great_compromiser:0 "Great Compromiser"
 frm_the_cloak_n_dagger_schemer:0 "Cloak-And-Dagger Schemer"
 frm_ideological_crusader:0 "Ideological Crusader"
+frm_soviet_loyalist:0 "Soviet Loyalist"
+frm_skilled_negotiator:0 "Skilled Negotiator"
+frm_charismatic_diplomat:0 "Charismatic Diplomat"
+frm_iron_fisted_brute:0 "Iron-Fisted Brute"
 
 #Economy Minister
+eco_economic_interventionist:0 "Economic Interventionist"
+eco_laissez_faire_capitalist:0 "Laissez-Faire Capitalist"
 eco_military_entrepreneur:0 "Military Entrepreneur"
 eco_resource_industrialist:0 "Resource Indutrialist"
 eco_administrative_genius:0 "Administrative Genius"
+eco_tank_proponent:0 "Tank Proponent"
+eco_infantry_proponent:0 "Infantry Proponent"
+eco_u_boat_proponent:0 "Submarine Proponent"
 
 #Interior Minister
 int_prince_of_terror:0 "Prince of Terror"
 int_efficient_sociopath:0 "Efficient Sociopath"
+int_crime_fighter:0 "Crime Fighter"
+int_devout_nationalist:0 "Devout Nationalist"
+int_radical_militarist:0 "Radical Militarist"
+int_foreign_expert:0 "Foreign Expert"
+int_brash_buffoon:0 "Brash Buffoon"
+int_devoted_ideologue:0 "Devoted Ideologue"
+int_political_specialist:0 "Political Specialist"
+int_man_of_the_people:0 "Man of the People"
 
 #Minister Position Traits
 villista:0 "Villista"
@@ -110,4 +140,15 @@ FRA_heavy_artillery_equipment_1:0 "Canon de 155mm GPF"
 ITA_heavy_artillery_equipment_1:0 "Obice da 305/17"
 ITA_heavy_artillery_equipment_2:0 "Obice da 149/19 modello 37"
 ITA_heavy_artillery_equipment_3:0 "Obice da 210/22 modello 35"
+
+###DECISIONS
+SOD_border_clash:0 "Border Conflicts"
+SOD_border_conflict_initiate_incident:0 "Initiate Border Incident"
+SOD_border_conflict_incident_warning_defender:0 "Border Incident Warning"
+SOD_border_conflict_escalation_warning_defender:0 "Border Incident Escalation"
+SOD_escalate_incident_to_border_conflict:0 "Escalate to Border Conflict"
+SOD_border_conflict_time_until_cancelled:0 "Time until conflict is cancelled"
+SOD_border_conflict_escalate_conflict:0 "Escalate Conflict"
+SOD_border_conflict_escalate_to_war:0 "Escalate to War"
+SOD_border_conflict_back_out_of_conflict:0 "Back out of Conflict"
 

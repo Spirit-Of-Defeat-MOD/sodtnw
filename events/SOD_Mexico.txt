@@ -4,6 +4,7 @@
 #################################
 
 add_namespace = mexmilitias
+add_namespace = mexrevtree
 
 ##Puebla Militia
 country_event = {
@@ -1391,4 +1392,34 @@ country_event = {
 			}
 		}
 	}
+}
+
+###FOCUS TREE####
+country_event = { #Ask Britain to Cooperate
+	id = mexrevtree.1
+	title = mexrevtree.1.t
+	desc = mexrevtree.1.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = mexrevtree.1.a
+		FROM = { country_event = { id = mexrevtree.2 days = 2}}
+    }
+}
+
+country_event = { #British Agree
+	id = mexrevtree.2
+	title = mexrevtree.2.t
+	desc = mexrevtree.2.d
+	picture = news_event_german_soldiers
+
+	fire_only_once = yes
+	
+	option = {
+		name = mexrevtree.2.a
+		FROM = { add_opinion_modifier = { modifier = agreed_to_coop target = ENG } }
+		ENG = { add_opinion_modifier = { modifier = agreed_to_coop target = FROM } }
+    }
 }

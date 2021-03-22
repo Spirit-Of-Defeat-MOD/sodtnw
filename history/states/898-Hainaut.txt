@@ -1,0 +1,22 @@
+state={
+	id=898
+	name="STATE_898"
+	manpower = 1250000
+
+	state_category = c6
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = BEL
+		victory_points = { 3576 1 }
+	}
+
+	provinces={
+		9536 13340 3576
+	}
+}

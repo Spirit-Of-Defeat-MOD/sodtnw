@@ -13,4 +13,8 @@ opinion_modifiers = {
 	bought_our_weapons = {
 		value = 25
 	}
+
+	agreed_to_coop = {
+		value = 50
+	}
 }

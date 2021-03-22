@@ -1,0 +1,39 @@
+technology_sharing_group = {
+
+	id = MEX_REV_ENG_tech_group
+	name = anglo_mexican_technical_mission
+	desc = anglo_mexican_technical_mission_desc
+	picture = GFX_technology_sharing_default
+	research_sharing_per_country_bonus = 0.05
+
+	available = {
+		is_subject = no
+		if = {
+			limit = {
+				OR = {
+					original_tag = MEX
+					original_tag = PNR
+					original_tag = CED
+					original_tag = PLM
+					original_tag = MCT
+					original_tag = VIL
+				}
+			}
+			NOT = { has_war_with = ENG }
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+			}
+			OR = {
+				NOT = { has_war_with = MEX }
+				NOT = { has_war_with = PNR }
+				NOT = { has_war_with = CED }
+				NOT = { has_war_with = PLM }
+				NOT = { has_war_with = MCT }
+				NOT = { has_war_with = VIL }
+			}
+		}
+	}
+}
+

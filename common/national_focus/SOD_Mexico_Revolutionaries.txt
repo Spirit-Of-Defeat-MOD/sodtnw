@@ -708,4 +708,279 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+
+
+	####Foreign Policy#####
+	focus = {
+		id = REV_appeal_to_world
+		icon = GFX_goal_generic_major_alliance
+		x = 11
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = REV_british_cooperation
+		icon = GFX_unknown
+		prerequisite = { focus = REV_appeal_to_world }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 9
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = REV_british_coop_effect_tooltip
+			ENG = { country_event = {id = mexrevtree.1 days = 2}}
+		}
+	}
+
+	focus = {
+		id = REV_ENG_tech_coop
+		icon = GFX_unknown
+		prerequisite = { focus = REV_british_cooperation }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 8
+		y = 2
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+			custom_trigger_tooltip = {
+				tooltip = British_agree_to_help
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			ROOT = { add_to_tech_sharing_group = MEX_REV_ENG_tech_group }
+			ENG = { add_to_tech_sharing_group = MEX_REV_ENG_tech_group }
+		}
+	}
+
+	focus = {
+		id = REV_ENG_military_advisors
+		icon = GFX_unknown
+		prerequisite = { focus = REV_british_cooperation }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 10
+		y = 2
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = REV_ENG_volunteers
+		icon = GFX_unknown
+		prerequisite = { focus = REV_ENG_military_advisors }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 9
+		y = 3
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = ENG_may_send_volunteers
+		}
+	}
+
+	focus = {
+		id = REV_ENG_airforce
+		icon = GFX_unknown
+		prerequisite = { focus = REV_ENG_military_advisors }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 11
+		y = 3
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 25
+			}
+		}
+	}
+
+	focus = {
+		id = REV_ENG_trade_monopoly
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = REV_ENG_airforce focus = REV_ENG_volunteers }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		x = 10
+		y = 4
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = PNR
+					original_tag = MEX
+					original_tag = CED
+				}
+			}
+		}
+
+		available = {
+			NOT = { has_war_with = ENG }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
 }

@@ -11,8 +11,6 @@ ARG_democratic:0 "Argentine Republic"
 ARG_neutrality:0 "Argentine Republic"
 ARG_utilitarian_despot:0 "Argentine Republic"
 ARG_fascism:0 "Argentine Republic" 
-ARG_nihilistic_extremism:0 "Argentine Republic"
-
 
 ARG_libertarian_socialist_DEF:0 "the Socialist Argentine Republic"
 ARG_communism_DEF:0 "the Socialist Argentine Republic"
@@ -24,7 +22,6 @@ ARG_democratic_DEF:0 "Argentine Republic"
 ARG_neutrality_DEF:0 "Argentine Republic"
 ARG_utilitarian_despot_DEF:0 "Argentine Republic"
 ARG_fascism_DEF:0 "Argentine Republic" 
-ARG_nihilistic_extremism_DEF:0 "the Argentine Republic"
 
 ARG_libertarian_socialist_ADJ:0 "Argentinean"
 ARG_communism_ADJ:0 "Argentinean"
@@ -36,7 +33,6 @@ ARG_democratic_ADJ:0 "Argentinean"
 ARG_neutrality_ADJ:0 "Argentinean"
 ARG_utilitarian_despot_ADJ:0 "Argentinean"
 ARG_fascism_ADJ:0 "Argentinean" 
-ARG_nihilistic_extremism_ADJ:0 "Argentinean" 
 
 #Party names
 ARG_libertarian_socialist_party:0 "FORA"
@@ -59,8 +55,6 @@ ARG_utilitarian_despot_party:0 "GOU"
 ARG_utilitarian_despot_party_long:0 "Grupo de Oficiales Unido"
 ARG_fascism_party:0 "PFA" 
 ARG_fascism_party_long:0 "Partido Fascista Argentino" 
-ARG_nihilistic_extremism_party:0 "LCA"
-ARG_nihilistic_extremism_party_long:0 "Legión Cívica Argentina"
 
 #Decisions
 ARG_south_america_arms_race:0 "South American Arms Race"

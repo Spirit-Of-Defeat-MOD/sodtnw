@@ -23,8 +23,6 @@ AJU_revolutionary_socialism_party:0 ""
 AJU_revolutionary_socialism_party_long:0 ""
 AJU_reformist_socialist_party:0 ""
 AJU_reformist_socialist_party_long:0 ""
-AJU_nihilistic_extremism_party:0 ""
-AJU_nihilistic_extremism_party_long:0 ""
 
 #Country Names
 AJU_fascism:0 "Ajuran Sultanate"
@@ -47,8 +45,6 @@ AJU_classic_liberal:0 "Ajuran Sultanate"
 AJU_classic_liberal_DEF:0 "Ajuran Sultanate"
 AJU_communism:0 "Kelafo Peoples' Republic"
 AJU_communism_DEF:0 "Kelafo Peoples' Republic"
-AJU_nihilistic_extremism:0 "Kelafo-Somali State"
-AJU_nihilistic_extremism_DEF:0 "the Kelafo-Somali State"
  
 AJU_fascism_ADJ:0 "Ajuran"
 AJU_fascism_ADJ:0 "Ajuran"
@@ -61,7 +57,6 @@ AJU_social_democrat_ADJ:0 "Ajuran"
 AJU_social_liberal_ADJ:0 "Ajuran"
 AJU_classic_liberal_ADJ:0 "Ajuran"
 AJU_communism_ADJ:0 "Ajuran"
-AJU_nihilistic_extremism_ADJ:0 "Ajuran"
 
 
 #Ministers

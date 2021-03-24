@@ -746,7 +746,7 @@ focus_tree = {
 		id = REV_british_cooperation
 		icon = GFX_unknown
 		prerequisite = { focus = REV_appeal_to_world }
-		mutually_exclusive = { focus = REV_american_cooperation }
+		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = 9
 		y = 1
 
@@ -981,44 +981,6 @@ focus_tree = {
 
 		completion_reward = {
 			
-		}
-	}
-
-	focus = {
-		id = REV_american_cooperation
-		icon = GFX_unknown
-		prerequisite = { focus = REV_appeal_to_world }
-		mutually_exclusive = { focus = REV_british_cooperation }
-		x = 13
-		y = 1
-
-		cost = 3
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				OR = {
-					original_tag = VIL
-					original_tag = MCT
-				}
-			}
-		}
-
-		available = {
-			NOT = { has_war_with = USA }
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-
 		}
 	}
 }

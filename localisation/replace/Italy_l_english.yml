@@ -21,8 +21,8 @@ ITA_libertarian_socialist_party:0 ""
 ITA_libertarian_socialist_party_long:0 ""
 ITA_reformist_socialist_party:0 "PSI"
 ITA_reformist_socialist_party_long:0 "Partito Socialista Italiano"
-ITA_nihilistic_extremism_party:0 "MVSN"
- ITA_nihilistic_extremism_party_long:0 "Milizia Volontaria per la Sicurezza Nazionale \n§g The far-right Blackshirts faced a crushing blow following the death of their leader Benito Mussolini during a street clash in 1921. Nonetheless, they have remained dedicated to the nationalist cause... condemning even the ANI Blueshirts for being soft. These hardliners are determined to reshape Italy drastically - stripping away all degeneracy from Italian culture and establishing Italy as a world power.§!"
+##ITA_nihilistic_extremism_party:0 ""
+##ITA_nihilistic_extremism_party_long:0 ""
 
 #Country Names
  ITA_fascism:0 "Italian Empire"
@@ -45,8 +45,6 @@ ITA_nihilistic_extremism_party:0 "MVSN"
  ITA_classic_liberal_DEF:0 "the Italian Empire"
  ITA_communism:0 "Italian Socialist Republic"
  ITA_communism_DEF:0 "the Italian Socialist Republic"
- ITA_nihilistic_extremism:0 "Impero Italiano"
- ITA_nihilistic_extremism_DEF:0 "the Impero Italiano"
  
  ITA_fascism_ADJ:0 "Italian"
  ITA_totalitarian_socialism_ADJ:0 "Italian"
@@ -58,7 +56,6 @@ ITA_nihilistic_extremism_party:0 "MVSN"
  ITA_social_liberal_ADJ:0 "Italian"
  ITA_classic_liberal_ADJ:0 "Italian"
  ITA_communism_ADJ:0 "Italian"
- ITA_nihilistic_extremism_ADJ:0 "Italian"
 
 #Ministers - backported
 #ITA_Luigi_Federzoni_hog:0 "Luigi Federzoni"

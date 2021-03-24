@@ -8,7 +8,13 @@ set_technology = {
 
 set_convoys = 5
 
-
+give_military_access = ENG
+give_military_access = FRA
+give_military_access = ITA
+give_military_access = BUL
+give_military_access = GRE
+give_military_access = TUR
+give_military_access = JAP
 
 
 set_politics = {

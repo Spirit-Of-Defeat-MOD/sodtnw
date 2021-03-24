@@ -105,16 +105,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	libertarian_socialist = 0
-	communism = 0
+	libertarian_socialist = 5
+	communism = 8
 	reformist_socialist = 5
     social_democrat = 5
-    social_liberal = 5
-    classic_liberal = 5
-    democratic = 9
+    social_liberal = 0
+    classic_liberal = 0
+    democratic = 5
     neutrality = 9
     utilitarian_despot = 40
-    fascism = 22
+    fascism = 23
 }
 
 add_ideas = {
@@ -234,6 +234,15 @@ create_country_leader = {
 	ideology = national_conservatism
 	traits = {
 		#bring back the kaiser#
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	picture = "Portrait_Himmler.tga"
+	ideology = himmlerist_nihilism
+	traits = {
 	}
 }
 

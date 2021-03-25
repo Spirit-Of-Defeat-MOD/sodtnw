@@ -21,6 +21,8 @@ GRE_libertarian_socialist_party:0 ""
 GRE_libertarian_socialist_party_long:0 ""
 GRE_reformist_socialist_party:0 "DSK"
 GRE_reformist_socialist_party_long:0 "Dimokratikó Sosialistikó Kómma"
+GRE_nihilistic_extremism_party:0 "Poulos Klíka"
+GRE_nihilistic_extremism_party_long:0 "Poulos Klíka"
 
 #Country Names
 GRE_fascism:0 "Hellenic Republic"
@@ -43,6 +45,8 @@ GRE_classic_liberal:0 "Hellenic Republic"
 GRE_classic_liberal_DEF:0 "the Hellenic Republic"
 GRE_communism:0 "Greek Socialist Republic"
 GRE_communism_DEF:0 "Greek Socialist Republic"
+GRE_nihilistic_extremism:0 "Regime of the Colonels"
+GRE_nihilistic_extremism_DEF:0 "the Regime of the Colonels"
  
 GRE_fascism_ADJ:0 "Greek"
 GRE_fascism_ADJ:0 "Greek"
@@ -55,6 +59,7 @@ GRE_social_democrat_ADJ:0 "Greek"
 GRE_social_liberal_ADJ:0 "Greek"
 GRE_classic_liberal_ADJ:0 "Greek"
 GRE_communism_ADJ:0 "Greek"
+GRE_nihilistic_extremism_ADJ:0 "Greek"
 
 
 #Ministers

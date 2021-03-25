@@ -114,7 +114,8 @@ set_popularities = {
     democratic = 5
     neutrality = 9
     utilitarian_despot = 40
-    fascism = 23
+    fascism = 22
+	nihilistic_extremism = 1
 }
 
 add_ideas = {

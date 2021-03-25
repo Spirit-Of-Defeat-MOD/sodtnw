@@ -1,0 +1,60 @@
+spriteTypes = {
+
+#Party icons
+	##Communism
+	#USSR
+	spriteType = {
+		name = "GFX_ideology_SOV_communism_group"
+		texturefile = "gfx/parties/SOV/vkp.dds"
+		legacy_lazy_load = no
+	}
+	
+	#Germany
+	spriteType = {
+		name = "GFX_dap"
+		texturefile = "gfx/parties/GER/dap.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_kpd"
+		texturefile = "gfx/parties/GER/kpd.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_dvp"
+		texturefile = "gfx/parties/GER/dvp.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_grw"
+		texturefile = "gfx/parties/GER/grw.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_social_liberal_group"
+		texturefile = "gfx/parties/GER/ddp.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_dnvp"
+		texturefile = "gfx/parties/GER/dnvp.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_utilitarian_despot_group"
+		texturefile = "gfx/parties/GER/grw_ideology.dds"
+	}
+	
+	#Italy
+	spriteType = {
+		name = "GFX_ideology_ITA_fascism_group"
+		texturefile = "gfx/parties/ITA/ani.dds"
+	}
+	
+}

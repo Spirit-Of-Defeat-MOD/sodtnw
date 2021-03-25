@@ -66,7 +66,7 @@ guiTypes = {
 				name = "parties_grid"
 				position = { x = 270 y = 195 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 230 height = 19 }
+				slotsize = { width = 230 height = 17.5 }
 				format = "UPPER_LEFT"
 			}
 		}

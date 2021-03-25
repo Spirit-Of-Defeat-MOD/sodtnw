@@ -10,6 +10,7 @@ democratic:0 "Social Conservative"
 neutrality:0 "Authoritarian"
 utilitarian_despot:0 "Utilitarian Despot"
 fascism:0 "National Syndicalist" 
+nihilistic_extremism:0 "Nihilistic Extremist"
  
  ##
  libertarian_socialist_desc:0 "Libertarian Regime"
@@ -21,22 +22,50 @@ fascism:0 "National Syndicalist"
  neutrality_desc:0 "Authoritarian Regime"
  
  ##
+  #Lib Soc Sub-ideologies
+ libertarian_socialist_ideology:0 "Libertarian Socialism"
+ anarchist_syndicalist:0 "Anarcho-Syndicalism"
+ anarchist_communist:0 "Anarcho-Communism"
+ anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ chen_jiongming_ideology:0 "Chen Jiongming Thought"
+ individualist_anarchism:0 "Individualist Anarchism"
+ 
+ ##Auth Soc Sub-ideologies
+ trotskyist:0 "Trotskyism"
+ marxism:0 "Marxism"
+ marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
+ leninism:0 "Leninism"
+ leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ communism_ideology:0 "Authoritarian Socialism"
+ revolutionary_socialist:0 "Revolutionary Socialism"
+ 
+ ##Ref Soc Sub-ideologies
+ reformist_socialist_ideology:0 "Reformist Socialism"
+ socialism:0 "Socialism"
+ socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ 
+ ##Nihilist Sub-ideologies
+ nihilistic_extremism_subtype:0 "Nihilistic Extremism"
+ himmlerist_nihilism:0 "Himmlerist Nihilism"
+ cioranist_nihilism:0 "Cioranist Nihilism"
+ pronayist_nihilism:0 "Pronayist Nihilism"
+ radical_paramilitarist:0 "Radical Paramilitarist"
+ right_wing_terrorist:0 "Right wing Terrorist"
+ esoteric_nihilist:0 "Esoteric Nihilism"
+ anarcho_nihilist:0 "Anarcho-Nihilism"
+        
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  socialism:0 "Socialism"
  socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
- marxism:0 "Marxism"
- marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
- leninism:0 "Leninism"
- leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
  stalinism:0 "Stalinism"
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  anti_revisionism:0 "Anti-Revisionism"
  anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
- anarchist_communism:0 "Anarchist Communism"
- anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ 
+ 
  nazism:0 "Nazism"
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  fascism_ideology:0 "Fascism"

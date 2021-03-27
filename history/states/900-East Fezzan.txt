@@ -1,0 +1,22 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		13344  7985
+		12866 13278
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=c2
+}

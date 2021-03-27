@@ -3,7 +3,7 @@ state={
 	name="STATE_661"
 	manpower = 17617
 	
-	state_category = wasteland
+	state_category = c1
 	
 	history={
 		owner = ITA
@@ -11,6 +11,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = LBA
+		add_core_of = TRP
 	}
 	
 	provinces={

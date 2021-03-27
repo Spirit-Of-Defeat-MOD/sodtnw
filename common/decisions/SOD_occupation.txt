@@ -78,4 +78,73 @@ occupation_decisions = {
 			factor = 100
 		}
 	}
+
+	#Libya Conference
+	annexation_LBA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		
+		activation = {
+			NOT = { original_tag = ITA}
+			OR = {
+				449 = {
+					OR = {
+						is_owned_and_controlled_by = ROOT
+						is_owned_and_controlled_by = ITS
+						is_owned_and_controlled_by = ITM
+					}
+					
+				}
+
+				661 = {
+					OR = {
+						is_owned_and_controlled_by = ROOT
+						is_owned_and_controlled_by = ITS
+						is_owned_and_controlled_by = ITM
+					}
+					
+				}
+
+				450 = {
+					OR = {
+						is_owned_and_controlled_by = ROOT
+						is_owned_and_controlled_by = ITS
+						is_owned_and_controlled_by = ITM
+					}
+					
+				}
+			}
+			
+
+			is_subject = no
+			NOT = {
+				has_country_flag = LBA_annex
+			}
+		}
+		cancel_trigger = {
+			NOT = {
+				OR = {
+
+				}
+				449 = { is_owned_and_controlled_by = ROOT }
+				449 = { is_owned_and_controlled_by = ITS }
+				449 = { is_owned_and_controlled_by = ITM }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TOG_CONQ"
+			country_event = libya.1
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TOG_CONQ"
+			set_country_flag = LBA_CONQ
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }

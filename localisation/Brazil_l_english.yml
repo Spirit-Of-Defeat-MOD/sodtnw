@@ -27,8 +27,8 @@ BRA_libertarian_socialist_party_long:0 "Partido Comunista Brasileiro - Syndicali
 #Country Names
  BRA_fascism:0 "Republic of the United States of Brazil"
  BRA_fascism_DEF:0 "Republic of the United States of Brazil"
- #BRA_nihilistic_extremism:0 "Republic of the United States of Brazil"
- #BRA_nihilistic_extremism_DEF:0 "Republic of the United States of Brazil"
+ BRA_nihilistic_extremism:0 "Republic of the United States of Brazil"
+ BRA_nihilistic_extremism_DEF:0 "Republic of the United States of Brazil"
  BRA_utilitarian_despot:0 "Republic of the United States of Brazil"
  BRA_utilitarian_despot_DEF:0 "Republic of the United States of Brazil"
  BRA_democratic:0 "Republic of the United States of Brazil"

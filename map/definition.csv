@@ -13336,7 +13336,11 @@
 13335;217;243;255;land;false;desert;7
 13336;148;190;54;land;false;desert;7
 13337;69;27;93;land;false;desert;7
-13338;172;12;44;land;trueplains;2
+13338;172;12;44;land;true;plains;2
 13339;235;134;137;land;true;plains;2
 13340;137;251;54;land;false;plains;2
+13341;130;255;243;land;false;desert;5
+13342;89;66;123;land;false;desert;5
+13343;231;27;253;land;false;desert;5
+13344;161;36;230;land;false;desert;5
 

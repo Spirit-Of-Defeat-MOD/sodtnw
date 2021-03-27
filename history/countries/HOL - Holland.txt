@@ -104,6 +104,7 @@ set_popularities = {
 	reformist_socialist = 21
 	social_liberal = 5
 	classic_liberal = 7
+	communism = 7
 }
 
 set_convoys = 150

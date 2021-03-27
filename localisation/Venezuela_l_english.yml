@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+VEN_fascism_party:0 "GRVPN"
+VEN_fascism_party_long:0 "Groupo Regional de Venezuela del Partido Nazi"
+VEN_communism_party:0 "PCV"
+VEN_communism_party_long:0 "Partido Comunista de Venezuela"
+VEN_democratic_party:0 ""
+VEN_democratic_party_long:0 ""
+VEN_utilitarian_despot_party:0 "Junta Militar"
+VEN_utilitarian_despot_party_long:0 "Junta Militar"
+VEN_neutrality_party:0 "Junta Militar"
+VEN_neutrality_party_long:0 "Junta Militar"
+VEN_social_democrat_party:0 ""
+VEN_social_democrat_party_long:0 ""
+VEN_social_liberal_party:0 ""
+VEN_social_liberal_party_long:0 ""
+VEN_classic_liberal_party:0 ""
+VEN_classic_liberal_party_long:0 ""
+VEN_reformist_socialist_party:0 "PRP"
+VEN_reformist_socialist_party_long:0 "Partido Republicano Progresista"
+VEN_libertarian_socialist_party:0 ""
+VEN_libertarian_socialist_party_long:0 ""
+VEN_nihilistic_extremism_party:0 ""
+VEN_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ VEN_fascism:0 "United States of Venezuela"
+ VEN_fascism_DEF:0 "United States of Venezuela"
+ VEN_nihilistic_extremism:0 "United States of Venezuela"
+ VEN_nihilistic_extremism_DEF:0 "United States of Venezuela"
+ VEN_utilitarian_despot:0 "United States of Venezuela"
+ VEN_utilitarian_despot_DEF:0 "United States of Venezuela"
+ VEN_democratic:0 "United States of Venezuela"
+ VEN_democratic_DEF:0 "United States of Venezuela"
+ VEN_neutrality:1 "United States of Venezuela"
+ VEN_neutrality_DEF:1 "United States of Venezuela"
+ VEN_reformist_socialist:0 "United States of Venezuela"
+ VEN_reformist_socialist_DEF:0 "United States of Venezuela"
+ VEN_libertarian_socialist:0 "United States of Venezuela"
+ VEN_libertarian_socialist_DEF:0 "United States of Venezuela"
+ VEN_social_democrat:0 "United States of Venezuela"
+ VEN_social_democrat_DEF:0 "United States of Venezuela"
+ VEN_social_liberal:0 "United States of Venezuela"
+ VEN_social_liberal_DEF:0 "United States of Venezuela"
+ VEN_classic_liberal:0 "United States of Venezuela"
+ VEN_classic_liberal_DEF:0 "United States of Venezuela"
+ VEN_communism:0 "United States of Venezuela"
+ VEN_communism_DEF:0 "United States of Venezuela"
+ 
+ VEN_fascism_ADJ:0 "Venezuelan"
+ VEN_democratic_ADJ:0 "Venezuelan"
+ VEN_utilitarian_despot_ADJ:0 "Venezuelan"
+ VEN_reformist_socialist_ADJ:0 "Venezuelan"
+ VEN_neutrality_ADJ:0 "Venezuelan"
+ VEN_libertarian_socialist_ADJ:0 "Venezuelan"
+ VEN_social_democrat_ADJ:0 "Venezuelan"
+ VEN_social_liberal_ADJ:0 "Venezuelan"
+ VEN_classic_liberal_ADJ:0 "Venezuelan"
+ VEN_communism_ADJ:0 "Venezuelan"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

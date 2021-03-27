@@ -2,12 +2,13 @@ state={
 	id=831
 	name="STATE_831"
 	provinces={
-		4962 5004 7985 10884 12082 12866 13278 
+		4962 5004 10884 12082 
 	}
 	history={
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = LBA
+		add_core_of = TRP
 		buildings = {
 			infrastructure = 2
 
@@ -15,7 +16,7 @@ state={
 
 	}
 	
-	manpower=134000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=c2
 }

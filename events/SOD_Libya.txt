@@ -37,3 +37,36 @@ country_event = {
 		TRP = { country_event = { id = lbatrp.2 days = 2 } }
 	}
 }
+
+###Senussi-Triopli Confrence
+country_event = {
+	id = libya.1
+    title = libya.1.t
+	desc = libya.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Split the Libyan Region
+		name = libya.1.a
+		TRP = {
+			transfer_state = 661
+			transfer_state = 899
+			transfer_state = 831
+		}
+
+		LBA = {
+			transfer_state = 830
+			transfer_state = 273
+			transfer_state = 900
+			transfer_state = 693
+			transfer_state = 451
+			transfer_state = 450
+			transfer_state = 449
+			transfer_state = 662
+		}
+
+	}
+}

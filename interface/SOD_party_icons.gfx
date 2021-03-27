@@ -17,7 +17,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_kpd"
+		name = "GFX_ideology_GER_communism_group"
 		texturefile = "gfx/parties/GER/kpd.dds"
 		legacy_lazy_load = no
 	}
@@ -41,7 +41,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_dnvp"
+		name = "GFX_ideology_GER_neutrality_group"
 		texturefile = "gfx/parties/GER/dnvp.dds"
 		legacy_lazy_load = no
 	}
@@ -49,12 +49,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_GER_utilitarian_despot_group"
 		texturefile = "gfx/parties/GER/grw_ideology.dds"
+		legacy_lazy_load = no
 	}
 	
 	#Italy
 	spriteType = {
 		name = "GFX_ideology_ITA_fascism_group"
 		texturefile = "gfx/parties/ITA/ani.dds"
+		legacy_lazy_load = no
 	}
 	
 }

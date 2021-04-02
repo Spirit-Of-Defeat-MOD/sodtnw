@@ -17,6 +17,13 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	PLM_Juan_Sarabia_hog
+	PLM_Enrique_Flores_frm
+	PLM_Jesus_Flores_eco
+	PLM_Antonio_Araujo_int
+}
+
 #Mexican Civil War
 declare_war_on = {
 	target = VIL

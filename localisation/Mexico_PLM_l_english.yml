@@ -35,8 +35,8 @@ PLM_utilitarian_despot_ADJ:0 "Magonist"
 PLM_fascism_ADJ:0 "Magonist" 
 
 #Party names
-PLM_libertarian_socialist_party:0 "PLM"
-PLM_libertarian_socialist_party_long:0 "Partido Liberal Mexicano"
+PLM_libertarian_socialist_party:0 "JOPLM"
+PLM_libertarian_socialist_party_long:0 "Junta Organizadora del Partido Liberal Mexicano"
 PLM_communism_party:0 ""
 PLM_communism_party_long:0 ""
 PLM_reformist_socialist_party:0 ""
@@ -55,3 +55,12 @@ PLM_utilitarian_despot_party_long:0 ""
 PLM_fascism_party:0 "" 
 PLM_fascism_party_long:0 "" 
  
+
+PLM_Juan_Sarabia_hog:0 "Juan Sarabia Diaz"
+PLM_Enrique_Flores_frm:0 "Enrique Flores Magón"
+PLM_Jesus_Flores_eco:0 "Jesus Flores Magón"
+PLM_Antonio_Araujo_int:0 "Antonio de Padua Araujo"
+
+PLM_Jose_Maria_cos:0 "José María Rangel"
+PLM_Jose_Maria_Leyva_cos:0 "José María Leyva"
+PLM_Manuel_Macario_cos:0 "Manuel Macario Diéguez Lara"

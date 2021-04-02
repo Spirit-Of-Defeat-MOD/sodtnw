@@ -1,0 +1,124 @@
+ideas = {
+	head_of_government = {
+		PLM_Juan_Sarabia_hog = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Juan_Sarabia_hog"
+			}
+			traits = {
+				head_of_government
+				magonist
+			}
+		}
+	}
+	foreign_minister = {
+		PLM_Enrique_Flores_frm = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Enrique_Flores_frm"
+			}
+			traits = {
+				foreign_minister
+				magonist
+			}
+		}
+	}
+	economy_minister = {
+		PLM_Jesus_Flores_eco = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Jesus_Flores_eco"
+			}
+			traits = {
+				economy_minister
+				magonist
+			}
+		}
+	}
+	interior_minister = {
+		PLM_Antonio_Araujo_int = {
+			allowed = { original_tag = PLM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Antonio_Araujo_int"
+			}
+			traits = {
+				interior_minister
+				magonist
+			}
+		}
+	}
+	chief_of_staff = {
+		PLM_Jose_Maria_cos = {
+			allowed = { original_tag = PLM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Jose_Maria_cos"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+		}
+
+		PLM_Jose_Maria_Leyva_cos = {
+			allowed = { original_tag = PLM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Jose_Maria_Leyva_cos"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+		}
+
+		PLM_Manuel_Macario_cos = {
+			allowed = { original_tag = PLM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea PLM_Manuel_Macario_cos"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+		}
+	}
+}

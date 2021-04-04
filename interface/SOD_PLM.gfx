@@ -1,0 +1,35 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_PLM_Juan_Sarabia_hog"
+		texturefile = "gfx/ministers/PLM/PLM_Juan_Sarabia_hog.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Enrique_Flores_frm"
+		texturefile = "gfx/ministers/PLM/PLM_Enrique_Flores_frm.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Jesus_Flores_eco"
+		texturefile = "gfx/ministers/PLM/PLM_Jesus_Flores_eco.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PLM_Antonio_Araujo_int"
+		texturefile = "gfx/ministers/PLM/PLM_Antonio_Araujo_int.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Jose_Maria_cos"
+		texturefile = "gfx/ministers/PLM/PLM_Jose_Maria_cos.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Jose_Maria_Leyva_cos"
+		texturefile = "gfx/ministers/PLM/PLM_Jose_Maria_Leyva_cos.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PLM_Manuel_Macario_cos"
+		texturefile = "gfx/ministers/PLM/PLM_Manuel_Macario_cos.tga"
+	}
+}

@@ -161,3 +161,8 @@ SOD_border_conflict_escalate_conflict:0 "Escalate Conflict"
 SOD_border_conflict_escalate_to_war:0 "Escalate to War"
 SOD_border_conflict_back_out_of_conflict:0 "Back out of Conflict"
 
+###SONGS
+March_23_de_Infantería:0 "March /"23 de Infantería"/ (Marsch /"Gruß an Kiel"/)"
+Ottoman_Anthem:0 "Mecidiye Marşı"
+Ottoman_March:0 "Ceddin Deden"
+

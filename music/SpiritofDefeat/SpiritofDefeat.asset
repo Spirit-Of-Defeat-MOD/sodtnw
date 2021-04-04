@@ -1,0 +1,18 @@
+music = {
+  name = "March 23 de Infantería"
+  file = "March 23 de Infantería (Marsch Gruß an Kiel).ogg"
+  volume = 0.7
+}
+
+music = {
+  name = "Mecidiye Marşı"
+  file = "Ottoman Empire National Anthem Mecidiye Marşı.ogg"
+  volume = 0.7
+}
+
+music = {
+  name = "Ceddin Deden"
+  file = "Ottoman Empire Military March Ceddin Deden.ogg"
+  volume = 0.7
+}
+

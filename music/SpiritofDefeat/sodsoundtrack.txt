@@ -1,0 +1,48 @@
+#New SOD songs
+
+
+music_station = "spiritofdefeat"
+
+music = {
+	song = "March 23 de Infantería"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			OR = {
+				TAG = MEX
+				TAG = PLM
+				TAG = PNR
+				TAG = VIL
+				TAG = MCT
+				TAG = CED
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "Mecidiye Marşı"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			TAG = TUR
+		}		
+	}	
+}
+
+music = {
+	song = "Ceddin Deden"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			TAG = TUR
+		}		
+	}	
+}
+
+

@@ -3,26 +3,18 @@ state={
 	name="STATE_841" #Van
 
 	history={
-		owner = TUR
+		owner = ARM
 		victory_points = {
 			6935 5 
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			add_core_of = KUR
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
+		
 			add_core_of = TUR
 			add_core_of = KUR
-		}
+			add_core_of = ARM
+		
 	}
 
 	provinces={

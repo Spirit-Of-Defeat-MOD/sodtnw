@@ -1,0 +1,253 @@
+ideas = {
+	head_of_government = {
+		ARM_Avetik_Sahakyan_hog = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Avetik_Sahakyan_hog"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+
+		ARM_Avetis_Aharonyan_hog = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Avetis_Aharonyan_hog"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+
+		ARM_Hovhannes_Kajaznuni_hog = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Hovhannes Kajaznuni_hog"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+	}
+	foreign_minister = {
+		ARM_Hamo_Ohanjanyan_frm = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Hamo_Ohanjanyan_frm"
+			}
+			traits = {
+				foreign_minister
+			}
+		}
+
+		ARM_Sirakan_Tigranyan_frm = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Sirakan_Tigranyan_frm"
+			}
+			traits = {
+				foreign_minister
+			}
+		}
+
+		ARM_Alexander_Khatisyan_frm = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = foreign_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Alexander Khatisyan_frm"
+			}
+			traits = {
+				foreign_minister
+			}
+		}
+	}
+	economy_minister = {
+		ARM_Hambardzum_Terteryan_eco = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Hambardzum_Terteryan_eco"
+			}
+			traits = {
+				economy_minister
+			}
+		}
+
+		ARM_Abraham_Gyulkhandanyan_eco = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Abraham_Gyulkhandanyan_eco"
+			}
+			traits = {
+				economy_minister
+			}
+		}
+
+		ARM_Sargis_Araratyan_eco = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economy_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Sargis_Araratyan_eco"
+			}
+			traits = {
+				economy_minister
+			}
+		}
+	}
+	interior_minister = {
+		ARM_Simon_Vratsyan_int = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Simon_Vratsyan_int"
+			}
+			traits = {
+				interior_minister
+			}
+		}
+
+		ARM_Sargis_Manasyan_int = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Sargis_Manasyan_int"
+			}
+			traits = {
+				interior_minister
+			}
+		}
+
+		ARM_Ruben_Ter_Minasyan_int = {
+			allowed = { original_tag = ARM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = interior_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Ruben_Ter_Minasyan_int"
+			}
+			traits = {
+				interior_minister
+			}
+		}
+	}
+	chief_of_staff = {
+		ARM_Hovhannes_Hakhverdyan_cos = {
+			allowed = { original_tag = ARM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Hovhannes_Hakhverdyan_cos"
+			}
+			traits = {
+				chief_of_staff
+			}
+		}
+
+		ARM_Christophor_Araratov_cos = {
+			allowed = { original_tag = ARM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Christophor_Araratov_cos"
+			}
+			traits = {
+				chief_of_staff
+			}
+		}
+
+		ARM_Drastamat_Kanayan_cos = {
+			allowed = { original_tag = ARM }
+			available = {
+				always = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARM_Drastamat_Kanayan_cos"
+			}
+			traits = {
+				chief_of_staff
+			}
+		}
+	}
+}

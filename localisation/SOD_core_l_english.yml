@@ -12,10 +12,6 @@ c2:0 "Poor Development"
 c1:0 "Little Development"
 c0:0 "No Development"
 
-authoritarian_socialist:0 "§aAuthoritarian Socialist§!"
-libertarian_socialist:0 "§pLibertarian Socialist§!"
-reformist_socialist:0 "§sReformist Socialist§!"
-
 ##Government Laws/Minister
 foreign_policy:0 "Foreign Policy"
 economic_policy:0 "Economic Policy"
@@ -160,9 +156,4 @@ SOD_border_conflict_time_until_cancelled:0 "Time until conflict is cancelled"
 SOD_border_conflict_escalate_conflict:0 "Escalate Conflict"
 SOD_border_conflict_escalate_to_war:0 "Escalate to War"
 SOD_border_conflict_back_out_of_conflict:0 "Back out of Conflict"
-
-###SONGS
-March_23_de_Infantería:0 "March /"23 de Infantería"/ (Marsch /"Gruß an Kiel"/)"
-Ottoman_Anthem:0 "Mecidiye Marşı"
-Ottoman_March:0 "Ceddin Deden"
 

@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Haykakan azgayin korpus"
+	division_names_group = ARM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Arevmtahaykakan divizia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "Erzrumi gund"
+		location = 9932
+		division_template = "Haykakan azgayin korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Khnusi gund"
+		location = 9932
+		division_template = "Haykakan azgayin korpus"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Yerznkayi gund"
+		location = 9932
+		division_template = "Arevmtahaykakan divizia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Gharak’ilisayi gund"
+		location = 9932
+		division_template = "Arevmtahaykakan divizia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
+	}
+}

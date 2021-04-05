@@ -63,7 +63,28 @@ SAU_communism_ADJ:0 "Saudi"
 
  
 #Focuses
-#should be reintegrated
+#shared arab tree
+generic_arabia_politics:0 "State of Arabian Politics"
+ARA_unification_push:0 "Push for Unification"
+ARA_diplo_unification:0 "Diplomatic Unification"
+ARA_aggressive_unification:0 "Unification by Force"
+ARA_trade_coop:0 "Trade Cooperation"
+ARA_friendship_treaty:0 "Treaties of Friendship"
+ARA_joint_military_exercise:0 "Joint Military Actions"
+ARA_tech_coop_group:0 "Technology Cooperation"
+ARA_trade_embargo:0 "Trade Embargos"
+ARA_denounce_rivals:0 "Denounce Rivals"
+ARA_bolster_defenses:0 "Bolster Defenses"
+ARA_border_raids:0 "Border Clashes"
+ARA_prepare_invasion:0 "Prepare for Invasion"
+ARA_unification_of_arabia:0 "The Unification of Arabia"
+
+ARA_unification_of_arabia_tt:0 "You will declare war on on your §Ymain rival§! and get wargoals on the other nations"
+ARA_border_raids_tt:0 "Unlocks Decisions to Conduct Border Raids"
+
+
+Arabia_trade_embargo:0 "Trade Embargo"
+Arabia_trade_deal:0 "Trade Deals"
 
 #Events
 #should be reintegrated

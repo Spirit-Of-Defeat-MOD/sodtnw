@@ -17,4 +17,26 @@ opinion_modifiers = {
 	agreed_to_coop = {
 		value = 50
 	}
+
+	Arabia_trade_deal = {
+		value = 50
+		trade = yes
+	}
+	
+	Arabia_trade_embargo = {
+		trade = yes
+		value = -100
+	}
+	
+	same_ruling_party = {
+		value = 0
+	}
+	
+	similar_ruling_party = {
+		value = 0
+	}
+	
+	different_party_types = {
+		value = 0
+	}
 }

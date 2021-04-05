@@ -13251,9 +13251,9 @@
 13250;37;173;89;land;false;jungle;2
 13251;161;15;169;land;false;jungle;2
 13252;115;115;15;land;false;jungle;2
-13253;157;131;216;land;false;jungle;2
+13253;157;131;216;lake;false;lakes;3
 13254;115;185;32;land;false;mountain;2
-13255;46;134;39;land;false;forest;2
+13255;46;134;39;lake;false;lakes;3
 13256;46;134;139;land;false;mountain;2
 13257;157;136;216;land;false;mountain;2
 13258;218;199;136;land;false;mountain;2

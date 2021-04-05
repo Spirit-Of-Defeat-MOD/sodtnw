@@ -1,7 +1,7 @@
 shared_focus = {
 	id = generic_arabia_politics
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	available = {
 	}
 	completion_reward = {
@@ -14,7 +14,7 @@ shared_focus = {
 shared_focus = {
 	id = ARA_unification_push
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	available = {
 	}
 	prerequisite = { focus = generic_arabia_politics }
@@ -29,12 +29,14 @@ shared_focus = {
 shared_focus = {
 	id = ARA_diplo_unification
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_unification_push }
 	mutually_exclusive = { focus = ARA_aggressive_unification }
 	available = {
 	}
 	completion_reward = {
+		add_political_power = 50
+		add_stability = 0.05
 	}
 	x = 17
     y = 2
@@ -43,12 +45,14 @@ shared_focus = {
 shared_focus = {
 	id = ARA_aggressive_unification
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_unification_push }
 	mutually_exclusive = { focus = ARA_diplo_unification }
 	available = {
 	}
 	completion_reward = {
+		add_political_power = 50
+		add_war_support = 0.05
 	}
 	x = 19
     y = 2
@@ -57,11 +61,20 @@ shared_focus = {
 shared_focus = {
 	id = ARA_trade_coop
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_diplo_unification }
 	available = {
 	}
 	completion_reward = {
+		every_country = {
+		    limit = {
+			    is_neighbor_of = ROOT
+			}
+		    add_opinion_modifier = {
+                target = ROOT
+                modifier = Arabia_trade_deal
+            }
+		}
 	}
 	x = 17
     y = 3
@@ -70,11 +83,20 @@ shared_focus = {
 shared_focus = {
 	id = ARA_friendship_treaty
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_trade_coop }
 	available = {
 	}
 	completion_reward = {
+		every_country = {
+		    limit = {
+			    is_neighbor_of = ROOT
+			}
+		    add_opinion_modifier = {
+                target = ROOT
+                modifier = medium_increase 
+            }
+		}
 	}
 	x = 17
     y = 4
@@ -83,11 +105,72 @@ shared_focus = {
 shared_focus = {
 	id = ARA_joint_military_exercise
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_friendship_treaty }
 	available = {
 	}
 	completion_reward = {
+		army_experience = 15
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	x = 17
     y = 5
@@ -96,11 +179,12 @@ shared_focus = {
 shared_focus = {
 	id = ARA_tech_coop_group
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_joint_military_exercise }
 	available = {
 	}
 	completion_reward = {
+		ROOT = { add_to_tech_sharing_group = ARAB_tech_group }
 	}
 	x = 17
     y = 6
@@ -109,11 +193,20 @@ shared_focus = {
 shared_focus = {
 	id = ARA_trade_embargo
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_aggressive_unification }
 	available = {
 	}
 	completion_reward = {
+		every_country = {
+		    limit = {
+			    is_neighbor_of = ROOT
+			}
+		    add_opinion_modifier = {
+                target = ROOT
+                modifier = Arabia_trade_embargo
+            }
+		}
 	}
 	x = 19
     y = 3
@@ -122,7 +215,7 @@ shared_focus = {
 shared_focus = {
 	id = ARA_denounce_rivals
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_trade_embargo }
 	available = {
 	}
@@ -135,7 +228,7 @@ shared_focus = {
 shared_focus = {
 	id = ARA_bolster_defenses
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_denounce_rivals }
 	available = {
 	}
@@ -162,11 +255,12 @@ shared_focus = {
 shared_focus = {
 	id = ARA_border_raids
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_trade_embargo }
 	available = {
 	}
 	completion_reward = {
+		custom_effect_tooltip = ARA_border_raids_tt
 		set_country_flag = ARA_institute_cross_border_raids
 	}
 	x = 21
@@ -176,12 +270,13 @@ shared_focus = {
 shared_focus = {
 	id = ARA_prepare_invasion
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_border_raids }
 	available = {
 	}
 	completion_reward = {
-		
+		add_manpower = 10000
+		add_war_support = 0.05
 	}
 	x = 21
     y = 5
@@ -190,19 +285,97 @@ shared_focus = {
 shared_focus = {
 	id = ARA_unification_of_arabia
 	icon = GFX_unknown
-	cost = 5
+	cost = 7
 	prerequisite = { focus = ARA_prepare_invasion }
 	prerequisite = { focus = ARA_bolster_defenses }
 	available = {
 	}
 	completion_reward = {
-		every_country = {
-		    limit = {
-			    is_neighbor_of = ROOT
+		custom_effect_tooltip = ARA_unification_of_arabia_tt
+		hidden_effect = {
+			every_country = {
+				limit = {
+					TAG = ASR
+				}
+				declare_war_on = {
+					target = YEM
+					type = annex_everything
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = HEJ
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = SAU
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = JAB
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMA
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMN
+				}
+			}
+			
+			every_country = {
+				limit = {
+					TAG = SAU
+				}
+				declare_war_on = {
+					target = JAB
+					type = annex_everything
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = HEJ
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = ASR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMA
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMN
+				}
+			}
+
+			every_country = {
+				limit = {
+					TAG = HEJ
+				}
+				declare_war_on = {
+					target = SAU
+					type = annex_everything
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = JAB
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = ASR
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMA
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = OMN
+				}
 			}
 		}
-		
-		
+			
 	}
 	x = 20
     y = 6

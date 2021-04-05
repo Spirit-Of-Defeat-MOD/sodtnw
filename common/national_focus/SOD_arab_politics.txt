@@ -1,0 +1,209 @@
+shared_focus = {
+	id = generic_arabia_politics
+	icon = GFX_unknown
+	cost = 5
+	available = {
+	}
+	completion_reward = {
+	    add_political_power = 120
+	}
+	x = 20
+    y = 0
+}
+
+shared_focus = {
+	id = ARA_unification_push
+	icon = GFX_unknown
+	cost = 5
+	available = {
+	}
+	prerequisite = { focus = generic_arabia_politics }
+	completion_reward = {
+		add_political_power = 50
+		army_experience = 15
+	}
+	x = 18
+    y = 1
+}
+
+shared_focus = {
+	id = ARA_diplo_unification
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_unification_push }
+	mutually_exclusive = { focus = ARA_aggressive_unification }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 17
+    y = 2
+}
+
+shared_focus = {
+	id = ARA_aggressive_unification
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_unification_push }
+	mutually_exclusive = { focus = ARA_diplo_unification }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 19
+    y = 2
+}
+
+shared_focus = {
+	id = ARA_trade_coop
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_diplo_unification }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 17
+    y = 3
+}
+
+shared_focus = {
+	id = ARA_friendship_treaty
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_trade_coop }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 17
+    y = 4
+}
+
+shared_focus = {
+	id = ARA_joint_military_exercise
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_friendship_treaty }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 17
+    y = 5
+}
+
+shared_focus = {
+	id = ARA_tech_coop_group
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_joint_military_exercise }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 17
+    y = 6
+}
+
+shared_focus = {
+	id = ARA_trade_embargo
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_aggressive_unification }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 19
+    y = 3
+}
+
+shared_focus = {
+	id = ARA_denounce_rivals
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_trade_embargo }
+	available = {
+	}
+	completion_reward = {
+	}
+	x = 19
+    y = 4
+}
+
+shared_focus = {
+	id = ARA_bolster_defenses
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_denounce_rivals }
+	available = {
+	}
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_capital = yes
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = {
+					all_provinces = yes
+				}
+			}
+		}
+
+	}
+	x = 19
+    y = 5
+}
+
+shared_focus = {
+	id = ARA_border_raids
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_trade_embargo }
+	available = {
+	}
+	completion_reward = {
+		set_country_flag = ARA_institute_cross_border_raids
+	}
+	x = 21
+    y = 4
+}
+
+shared_focus = {
+	id = ARA_prepare_invasion
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_border_raids }
+	available = {
+	}
+	completion_reward = {
+		
+	}
+	x = 21
+    y = 5
+}
+
+shared_focus = {
+	id = ARA_unification_of_arabia
+	icon = GFX_unknown
+	cost = 5
+	prerequisite = { focus = ARA_prepare_invasion }
+	prerequisite = { focus = ARA_bolster_defenses }
+	available = {
+	}
+	completion_reward = {
+		every_country = {
+		    limit = {
+			    is_neighbor_of = ROOT
+			}
+		}
+		
+		
+	}
+	x = 20
+    y = 6
+}

@@ -2,13 +2,15 @@ weapon_purchasing = {
 	icon = GFX_decision_category_military_operation
 	
 	visible = {
-		has_completed_focus = equipment_purchase
+		OR = {
+			has_completed_focus = equipment_purchase
+			has_completed_focus = REV_foreign_purchase
+		}
+		
 		
 	}
 	
-	visible = {
-		has_completed_focus = REV_foreign_purchase
-	}
+		
 	
 	priority = 80
 

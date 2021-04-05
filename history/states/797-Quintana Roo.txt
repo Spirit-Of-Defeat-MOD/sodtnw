@@ -10,16 +10,16 @@ state={
 		add_core_of = MCT
 		buildings = {
 			infrastructure = 3
+			4965 = {
+				naval_base = 3
+			}
 
 		}
 		victory_points = {
 			13237 1
 		}
 		add_core_of = MEX
-		4965 = {
-			naval_base = 3
-
-		}
+		
 
 	}
 	

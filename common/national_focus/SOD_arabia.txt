@@ -1,0 +1,23 @@
+focus_tree = {
+	id = generic_arabia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+		    add = 10
+			OR = {
+			    tag = SAU
+				tag = HEJ
+				tag = OMA
+				tag = YEM
+				tag = ASR
+				tag = JAB
+				tag = OMN
+			}
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 80 y = 3000 }
+    shared_focus = generic_arabia_politics
+}

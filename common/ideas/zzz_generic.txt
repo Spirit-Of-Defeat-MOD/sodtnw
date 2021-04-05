@@ -1103,7 +1103,7 @@ ideas = {
 		}
 	}
 	
-	political_advisor = {
+	head_of_government = {
 		# POLITICAL	
 		generic_communist_revolutionary = {
 			
@@ -1847,7 +1847,7 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
+	head_of_government = {
 
 		generic_captain_of_industry = {
 

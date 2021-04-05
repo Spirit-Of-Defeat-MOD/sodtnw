@@ -8,16 +8,16 @@ state={
 		add_core_of = PNR
 		buildings = {
 			infrastructure = 3
+			4904 = {
+				naval_base = 2
+			}
 
 		}
 		add_core_of = MEX
 		victory_points = {
 			4904 2 
 		}
-		4904 = {
-			naval_base = 2
-
-		}
+		
 
 	}
 

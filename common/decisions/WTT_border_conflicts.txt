@@ -1,12 +1,12 @@
-#If you change the values loc for SOD_border_incident_delay_until_new_incident_180 and SOD_border_incident_delay_until_new_incident_120 has to be changed
+#If you change the values loc for WTT_border_incident_delay_until_new_incident_180 and WTT_border_incident_delay_until_new_incident_120 has to be changed
 @border_incident_escalation_countdown = 30
 @border_conflict_incident_forgotten_timer = 30
 @border_conflict_escalate_to_war_countdown = 45
 @border_conflict_time_until_cancelled = 360
 
-SOD_border_clash = {
+CHI_border_clashes = {
 
-	SOD_border_conflict_initiate_incident = {
+	WTT_border_conflict_initiate_incident = {
 		icon = border_war		
 
 		available = {
@@ -41,6 +41,54 @@ SOD_border_clash = {
 			NOT = {
 				is_subject_of = FROM
 			}
+			OR = {
+				#Warlord goes opposition can border war all other warlords (PRC counted as warlord here)
+				AND = {
+					has_country_flag = CHI_institute_cross_border_raids
+					NOT = { tag = event_target:WTT_current_china_leader }
+					FROM = { NOT = { tag = event_target:WTT_current_china_leader } }
+				}
+
+				#Warlord has completed focus to start shit against Leader of China
+				AND = {
+					has_country_flag = CHI_provoke_border_clashes
+					FROM = { tag = event_target:WTT_current_china_leader }
+				}
+
+				#Leader of China can kind of fight back
+				AND = {
+					FROM = { has_country_flag = CHI_provoke_border_clashes }
+					tag = event_target:WTT_current_china_leader
+				}
+				
+
+				#Completed border war on opposition and other warlord has picked a side
+				AND = {
+					has_completed_focus = CHI_anti_opposition_campaigns
+					OR = {
+						AND = {
+							has_completed_focus =   CHI_cooperation_with_the_nationalists
+							FROM = { has_completed_focus = CHI_cooperation_with_the_communists }
+							NOT = { is_subject_of = event_target:WTT_communist_china }
+							FROM = { NOT = { is_subject_of = event_target:WTT_current_china_leader } }
+						}
+						AND = {
+							has_completed_focus = CHI_cooperation_with_the_communists
+							FROM = { has_completed_focus = CHI_cooperation_with_the_nationalists }
+							NOT = { is_subject_of = event_target:WTT_current_china_leader }
+							FROM = { NOT = { is_subject_of = event_target:WTT_communist_china } }
+						}
+					}					
+				}
+
+				#Communist China can start with all who goes with the nationalists
+				AND = {
+					tag = event_target:WTT_communist_china
+					FROM = { 
+						has_completed_focus = CHI_cooperation_with_the_nationalists 
+					}
+				}
+			}
 
 			OR = {
 				NOT = { has_border_war_with = FROM }
@@ -59,11 +107,12 @@ SOD_border_clash = {
 
 		# VPI by Yard1
 		target_root_trigger = {
+			is_literally_china = yes
 		}
-		
 		target_array = neighbors
 
 		target_trigger = {
+			FROM = { is_literally_china = yes }
 		}
 
 		highlight_states = {
@@ -130,10 +179,10 @@ SOD_border_clash = {
 					set_state_flag = border_incident_active
 				}
 			}
-			custom_effect_tooltip = SOD_border_incident_delay_until_new_incident_180
+			custom_effect_tooltip = WTT_border_incident_delay_until_new_incident_180
 			FROM = {
-				country_event = { id = WTT_border_incident_defender_warning.1 hours = 1 }
-				activate_targeted_decision = { target = ROOT decision = SOD_border_conflict_incident_warning_defender }				
+				country_event = { id = wtt_border_incident_defender_warning.1 hours = 1 }
+				activate_targeted_decision = { target = ROOT decision = WTT_border_conflict_incident_warning_defender }				
 			}
 		}
 		remove_effect = {
@@ -169,12 +218,12 @@ SOD_border_clash = {
 					set_temp_variable = { attacker_state_temp = id }
 				}
 			}
-			activate_targeted_decision = { target = FROM decision = SOD_escalate_incident_to_border_conflict }
+			activate_targeted_decision = { target = FROM decision = WTT_escalate_incident_to_border_conflict }
 		}
 	}
 
 	#Mission for defender warning that a conflict with FROM is coming
-	SOD_border_conflict_incident_warning_defender = {
+	WTT_border_conflict_incident_warning_defender = {
 
 		icon = border_war
 
@@ -211,14 +260,14 @@ SOD_border_clash = {
 				var:ROOT.defender_state_vs_@FROM = { FROM = { transfer_state = PREV } }
 			}
 			hidden_effect = {
-				remove_targeted_decision = { target = FROM decision = SOD_border_conflict_incident_warning_defender }
-				activate_targeted_decision = { target = FROM decision = SOD_border_conflict_escalation_warning_defender }
+				remove_targeted_decision = { target = FROM decision = WTT_border_conflict_incident_warning_defender }
+				activate_targeted_decision = { target = FROM decision = WTT_border_conflict_escalation_warning_defender }
 			}
 		}
 	}
 
 	#Mission for defender warning FROM can escalate to war at any point is coming
-	SOD_border_conflict_escalation_warning_defender = {
+	WTT_border_conflict_escalation_warning_defender = {
 
 		icon = border_war
 
@@ -259,7 +308,7 @@ SOD_border_clash = {
 
 	#Mission for attacker to escalate or incident is forgotten
 	#Decision to escalate incident on border with FROM to border conflict
-	SOD_escalate_incident_to_border_conflict = {
+	WTT_escalate_incident_to_border_conflict = {
 
 		icon = border_war
 
@@ -298,9 +347,9 @@ SOD_border_clash = {
 		days_mission_timeout = @border_conflict_incident_forgotten_timer
 
 		timeout_effect = {
-			custom_effect_tooltip = SOD_border_incident_delay_until_new_incident_120
+			custom_effect_tooltip = WTT_border_incident_delay_until_new_incident_120
 			hidden_effect = {
-				FROM = { remove_targeted_decision = { target = ROOT decision = SOD_border_conflict_escalation_warning_defender } }
+				FROM = { remove_targeted_decision = { target = ROOT decision = WTT_border_conflict_escalation_warning_defender } }
 				FROM = {
 					var:attacker_state_vs_@ROOT = {
 						clr_state_flag = border_incident_active
@@ -320,30 +369,30 @@ SOD_border_clash = {
 				attacker = {
 					state = var:FROM.attacker_state_vs_@ROOT
 					num_provinces = 4
-					on_win = SOD_border_conflict_won_attacker.1
-					on_lose = SOD_border_conflict_lost_attacker.1
-					on_cancel = SOD_border_conflict_canceled_attacker.1
+					on_win = wtt_border_conflict_won_attacker.1
+					on_lose = wtt_border_conflict_lost_attacker.1
+					on_cancel = wtt_border_conflict_canceled_attacker.1
 				}
 				
 				defender = {
 					state = var:FROM.defender_state_vs_@ROOT
 					num_provinces = 4
-					on_win = SOD_border_conflict_won_defender.1
-					on_lose = SOD_border_conflict_lost_defender.1
-					on_cancel = SOD_border_conflict_canceled_defender.1
+					on_win = wtt_border_conflict_won_defender.1
+					on_lose = wtt_border_conflict_lost_defender.1
+					on_cancel = wtt_border_conflict_canceled_defender.1
 				}
 			}
 			FROM = {
-				activate_targeted_decision = { target = ROOT decision = SOD_border_conflict_escalate_conflict }
-				activate_targeted_decision = { target = ROOT decision = SOD_border_conflict_time_until_cancelled }
+				activate_targeted_decision = { target = ROOT decision = WTT_border_conflict_escalate_conflict }
+				activate_targeted_decision = { target = ROOT decision = WTT_border_conflict_time_until_cancelled }
 			}
-			activate_targeted_decision = { target = FROM decision = SOD_border_conflict_escalate_conflict }
-			activate_targeted_decision = { target = FROM decision = SOD_border_conflict_time_until_cancelled }
+			activate_targeted_decision = { target = FROM decision = WTT_border_conflict_escalate_conflict }
+			activate_targeted_decision = { target = FROM decision = WTT_border_conflict_time_until_cancelled }
 		}
 	}
 
 	#Mission for attacker to win border war against FROM in X days
-	SOD_border_conflict_time_until_cancelled = {
+	WTT_border_conflict_time_until_cancelled = {
 
 		icon = border_war
 
@@ -390,13 +439,13 @@ SOD_border_clash = {
 				}
 			}
 			hidden_effect = {
-				remove_targeted_decision = { target = FROM decision = SOD_border_conflict_escalate_conflict }
+				remove_targeted_decision = { target = FROM decision = WTT_border_conflict_escalate_conflict }
 			}
 		}
 	}
 
 	#Decision to escalate conflict further
-	SOD_border_conflict_escalate_conflict = {
+	WTT_border_conflict_escalate_conflict = {
 
 		icon = decision_generic_ignite_civil_war
 
@@ -442,31 +491,31 @@ SOD_border_clash = {
 			}
 			FROM = {
 				set_country_flag = {
-					flag = SOD_border_conflict_escalate_to_war_cooldown_@ROOT
+					flag = WTT_border_conflict_escalate_to_war_cooldown_@ROOT
 					days = @border_conflict_escalate_to_war_countdown
 					value = 1
 				}
-				remove_targeted_decision = { target = ROOT decision = SOD_border_conflict_escalate_conflict }
+				remove_targeted_decision = { target = ROOT decision = WTT_border_conflict_escalate_conflict }
 			}
 			set_country_flag = {
-				flag = SOD_border_conflict_escalate_to_war_cooldown_@FROM
+				flag = WTT_border_conflict_escalate_to_war_cooldown_@FROM
 				days = @border_conflict_escalate_to_war_countdown
 				value = 1
 			}
 			custom_effect_tooltip = in_45_days
-			activate_targeted_decision = { target = FROM decision = SOD_border_conflict_escalate_to_war }
+			activate_targeted_decision = { target = FROM decision = WTT_border_conflict_escalate_to_war }
 		}
 	}
 
 	#Decision to escalate conflict further
-	SOD_border_conflict_escalate_to_war = {
+	WTT_border_conflict_escalate_to_war = {
 
 		icon = decision_generic_ignite_civil_war
 
 		allowed = { always = no } #Activated from effect
 
 		visible = {
-			NOT = { has_country_flag = SOD_border_conflict_escalate_to_war_cooldown_@FROM }
+			NOT = { has_country_flag = WTT_border_conflict_escalate_to_war_cooldown_@FROM }
 			has_border_war_with = FROM
 		}
 
@@ -501,9 +550,9 @@ SOD_border_clash = {
 				var:FROM.attacker_state_vs_@ROOT = { save_event_target_as = their_state }
 			}
 			FROM = {
-				country_event = { id = WTT_border_conflict_escalate_to_war.1 }
+				country_event = { id = wtt_border_conflict_escalate_to_war.1 }
 				hidden_effect = {
-					remove_targeted_decision = { target = ROOT decision = SOD_border_conflict_escalate_to_war }
+					remove_targeted_decision = { target = ROOT decision = WTT_border_conflict_escalate_to_war }
 				}
 		 	}
 		}
@@ -542,7 +591,7 @@ SOD_border_clash = {
 	}
 
 	#Decision to back down from conflict
-	SOD_border_conflict_back_out_of_conflict = {
+	WTT_border_conflict_back_out_of_conflict = {
 
 		allowed = { always = no } #Activated from effect
 

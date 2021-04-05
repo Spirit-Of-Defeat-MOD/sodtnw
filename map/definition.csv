@@ -12713,7 +12713,7 @@
 12712;177;9;157;land;true;plains;2
 12713;177;12;17;land;false;plains;6
 12714;177;12;72;land;false;hills;5
-12715;177;12;222;land;true;forest;2
+12715;177;12;222;land;false;forest;2
 12716;177;15;37;land;true;jungle;3
 12717;177;15;82;land;false;mountain;6
 12718;177;15;187;land;false;desert;6

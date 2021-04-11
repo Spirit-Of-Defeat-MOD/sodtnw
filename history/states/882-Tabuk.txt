@@ -13,6 +13,12 @@ state={
 		}
 		add_core_of = HEJ
 		add_claim_by = SAU
+		victory_points = {
+			13318 2
+		}
+		victory_points = {
+			1033 1
+		}
 
 	}
 	state_category = c3

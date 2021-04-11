@@ -8,7 +8,17 @@ state={
 		owner = HEJ
 		buildings = {
 			infrastructure = 3
+		}
+		victory_points = {
+			2033 1
+		}
 
+		victory_points = {
+			10835 3
+		}
+
+		victory_points = {
+			13321 1
 		}
 
 

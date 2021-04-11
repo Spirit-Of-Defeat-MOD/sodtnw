@@ -88,4 +88,10 @@ ARG_Misiones_tt:0 "The Destroyer §YARA Misiones§! will be launched"
 ARG_San_Juan_tt:0 "The Destroyer §YARA San Juan§! will be launched"
 ARG_San_Luis_tt:0 "The Destroyer §YARA San Luis§! will be launched"
 ARG_Santa_Cruz_tt:0 "The Destroyer §YARA Santa Cruz§! will be launched"
+
+##Arms race-Argentina file as based
+ armsrace.1.t:0 "Yearly Naval Focus"
+ armsrace.1.d:0 "REPLACE_ME"
+ armsrace.1.a:0 "Light Ship Focus"
+ armsrace.1.b:0 "Heavy Ship Focus"
  

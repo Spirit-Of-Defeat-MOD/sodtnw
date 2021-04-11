@@ -12,7 +12,9 @@ state={
 		}
 		add_core_of = ASR
 		add_core_of = YEM
-
+		victory_points = {
+			13309 7
+		}
 	}
 	state_category = c2
 	manpower=39210

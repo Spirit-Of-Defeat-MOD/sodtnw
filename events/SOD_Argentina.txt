@@ -1,12 +1,13 @@
 ###ARG EVENTS###
 
+add_namespace = armsrace
 add_namespace = argentina
 
 #Naval Focus
 country_event = {
-	id = argentina.1
-    title = argentina.1.t
-	desc = argentina.1.d
+	id = armsrace.1
+    title = armsrace.1.t
+	desc = armsrace.1.d
 	picture = GFX_report_event_generic_rally
 
 	
@@ -14,7 +15,7 @@ country_event = {
 	
 	#Light Ship Focus
 	option = {
-		name = argentina.1.a
+		name = armsrace.1.a
 		navy_experience = 40
 		add_timed_idea = {
 			idea = light_ship_focus
@@ -39,7 +40,7 @@ country_event = {
 	}
 	#Heavy Ship Focus
 	option = {
-		name = argentina.1.b
+		name = armsrace.1.b
 		navy_experience = 40
 		add_timed_idea = {
 			idea = heavy_ship_focus

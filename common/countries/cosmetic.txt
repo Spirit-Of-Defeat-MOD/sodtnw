@@ -666,6 +666,11 @@ FRE_MLI = {
 	color_ui = rgb { 35 101 222 }
 }
 
+FRE_NGR = {
+	color = rgb { 30 84 183 }
+	color_ui = rgb { 35 101 222 }
+}
+
 FRE_TOG = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }

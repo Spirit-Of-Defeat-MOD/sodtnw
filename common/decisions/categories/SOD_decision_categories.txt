@@ -46,14 +46,6 @@ form_mexico_category = {
 	}
 }
 
-##Ideology shifting test
-socialism_on_the_rise = {
-	icon = GFX_decision_category_military_operation
-	
-	visible = {
-		has_completed_focus = internationalism_focus
-	}
-}
 
 ##South american arms race
 ARG_south_america_arms_race = {
@@ -61,7 +53,7 @@ ARG_south_america_arms_race = {
 	#picture = GFX_decision_cat_picture_annexation
 	priority = 90
 	visible_when_empty = yes
-	allowed = { tag = ARG } #manually activated
+	allowed = { OR = { tag = ARG tag = CHL tag = BRA } } #manually activated
 }
 
 ARG_south_america_arms_race_naval = {

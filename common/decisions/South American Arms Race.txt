@@ -1,9 +1,7 @@
 ARG_south_america_arms_race = {
 	ARG_army_focus = {
 		icon = generic_nationalism
-		allowed = {
-			tag = ARG
-		}
+		allowed = { OR = { tag = ARG tag = CHL tag = BRA } }
 		
 		available = {
 		}
@@ -24,9 +22,7 @@ ARG_south_america_arms_race = {
 
 	ARG_naval_focus = {
 		icon = generic_naval
-		allowed = {
-			tag = ARG
-		}
+		allowed = { OR = { tag = ARG tag = CHL tag = BRA } }
 		
 		available = {
 		}
@@ -41,16 +37,14 @@ ARG_south_america_arms_race = {
 		days_re_enable = 365
 		
 		complete_effect = {
-			country_event = argentina.1
+			country_event = armsrace.1
 		}
 		
 	}
 
 	ARG_airforce_focus = {
 		icon = generic_nationalism
-		allowed = {
-			tag = ARG
-		}
+		allowed = { OR = { tag = ARG tag = CHL tag = BRA } }
 		
 		available = {
 		}
@@ -68,7 +62,6 @@ ARG_south_america_arms_race = {
 		}
 		
 	}
-
 }
 
 ARG_south_america_arms_race_naval = {

@@ -13,6 +13,18 @@ state={
 
 		}
 		add_claim_by = SAU
+		victory_points = {
+			13333 1 
+		}
+
+		victory_points = {
+			7970 1 
+		}
+
+		victory_points = {
+			10815 3 
+		}
+
 
 	}
 	state_category = c2

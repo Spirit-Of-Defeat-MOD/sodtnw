@@ -144,6 +144,11 @@ set_convoys = 800
 		freedom_level = 0.4
 	}
 	set_autonomy = {
+		target = NEW
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
 		target = QUE
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4

@@ -264,4 +264,21 @@ on_actions = {
 			
 		}
 	}
+	
+	#Capturing Generals
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = { has_country_flag = generals_captured }
+					}
+				}
+				FROM = {
+					country_event = mexrev.1
+				}
+					
+			}
+		}
+	}
 }

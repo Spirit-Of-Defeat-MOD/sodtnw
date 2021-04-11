@@ -6,24 +6,36 @@ state={
 	
 	state_category = c7
 
-	history={
+	history= {
 		owner = USA
 
-		victory_points = { 6882 7 } #Newark
-		victory_points { 11782 3 } #Trenton
-		victory_points { 11900 2 } #Camden
-		victory_points { 9864 1 } #Atlantic City
+		victory_points = { #Newark
+			6882 7 
+		} 
 		
-		11740 = { naval_base = 1 } #Cape May Coast Guard
+		victory_points = { #Trenton
+			11782 3
+		}
+
+		victory_points = { #Camden
+			11900 2
+		}
+
+		victory_points = { #Atlantic City
+			9864 1
+		}
+
 
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 7
 			air_base = 4
+			11740 = { naval_base = 1 } #Cape May Coast Guard
 
 		}
 		add_core_of = USA
 	}
+		
 
 	provinces={
 		3693 3863 6882 9801 9864 11740 11782 11900 

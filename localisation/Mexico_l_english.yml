@@ -104,6 +104,11 @@ mexmilitias.19.t:0 "Campeche Local Militias"
 form_mexico_category:0 "Reuniting Mexico"
 form_mexico:0 "End the Revolution"
 
+mexrev.1.t:0 "[FROM.GetName] Generals Captured" 
+mexrev.1.d:0 "The [FROM.GetName] army has been defeated." 
+mexrev.1.a:0 "Welcome them" 
+mexrev.1.b:0 "We don't need them"
+
 
 
 
@@ -149,6 +154,22 @@ REV_production_tech:0 "Invest in Industrial Technology"
 REV_production_tech_desc:0 ""
 REV_final_push:0 "The Final Push"
 REV_final_push_desc:0 ""
+ REV_appeal_to_world:0 "Global Outreach"
+ REV_british_cooperation:0 "British Cooperation"
+ REV_british_coop_effect_tooltip:0 "REPLACE_ME"
+ REV_ENG_tech_coop:0 "Technology Cooperative"
+ British_agree_to_help:0 "REPLACE_ME"
+ REV_ENG_military_advisors:0 "Military Advisors"
+ REV_ENG_volunteers:0 "British Volunteers"
+ REV_ENG_airforce:0 "Found our Airforce"
+ REV_ENG_trade_monopoly:0 "British Trade monopoly"
+ REV_american_cooperation:0 "American Cooperation"
+ REV_american_companies:0 "Invite American Industry"
+ REV_american_guns:0 "American Guns"
+ REV_american_mines:0 "Mining Contracts"
+ REV_american_monopoly:0 "American Economic Monopoly"
+ REV_american_artillery:0 "Heavy Artillery Focus"
+ REV_american_intervention:0 "Request Intervention"
 
 ###IDEAS###
 REV_organization:0 "Newly Organized Troops"

@@ -69,3 +69,38 @@ NGR_communism_ADJ:0 "Agadez"
 
 #Events
 #should be reintegrated
+
+###AFter puppet
+FRE_NGR_fascism:0 "Colony of Niger"
+FRE_NGR_fascism_DEF:0 "Colony of Niger"
+FRE_NGR_libertarian_socialist:0 "Colony of Niger"
+FRE_NGR_libertarian_socialist_DEF:0 "Colony of Niger"
+FRE_NGR_utilitarian_despot:0 "Colony of Niger"
+FRE_NGR_utilitarian_despot_DEF:0 "the Colony of Niger"
+FRE_NGR_democratic:0 "Colony of Niger"
+FRE_NGR_democratic_DEF:0 "Colony of Niger"
+FRE_NGR_neutrality:1 "Colony of Niger"
+FRE_NGR_neutrality_DEF:1 "the Colony of Niger"
+FRE_NGR_reformist_socialist:0 "Colony of Niger"
+FRE_NGR_reformist_socialist_DEF:0 "Colony of Niger"
+FRE_NGR_social_democrat:0 "Colony of Niger"
+FRE_NGR_social_democrat_DEF:0 "Colony of Niger"
+FRE_NGR_social_liberal:0 "Colony of Niger"
+FRE_NGR_social_liberal_DEF:0 "Colony of Niger"
+FRE_NGR_classic_liberal:0 "Colony of Niger"
+FRE_NGR_classic_liberal_DEF:0 "Colony of Niger"
+FRE_NGR_communism:0 "Colony of Niger"
+FRE_NGR_communism_DEF:0 "Colony of Niger"
+ 
+FRE_NGR_fascism_ADJ:0 "Nigerien"
+FRE_NGR_fascism_ADJ:0 "Nigerien"
+FRE_NGR_libertarian_socialist_ADJ:0 "Nigerien"
+FRE_NGR_democratic_ADJ:0 "Nigerien"
+FRE_NGR_utilitarian_despot_ADJ:0 "Nigerien"
+FRE_NGR_reformist_socialist_ADJ:0 "Nigerien"
+FRE_NGR_neutrality_ADJ:0 "Nigerien"
+FRE_NGR_social_democrat_ADJ:0 "Nigerien"
+FRE_NGR_social_liberal_ADJ:0 "Nigerien"
+FRE_NGR_classic_liberal_ADJ:0 "Nigerien"
+FRE_NGR_communism_ADJ:0 "Nigerien"
+

@@ -5,6 +5,7 @@
 
 add_namespace = mexmilitias
 add_namespace = mexrevtree
+add_namespace = mexrev
 
 ##Puebla Militia
 country_event = {
@@ -1422,4 +1423,43 @@ country_event = { #British Agree
 		FROM = { add_opinion_modifier = { modifier = agreed_to_coop target = ENG } }
 		ENG = { add_opinion_modifier = { modifier = agreed_to_coop target = FROM } }
     }
+}
+
+####Captured Generals####
+country_event = {
+	id = mexrev.1
+	title = mexrev.1.t
+	desc = mexrev.1.d
+	picture = GFX_report_event_german_detained_china
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			original_tag = MEX
+			original_tag = PNR
+			original_tag = CED
+			original_tag = PLM
+			original_tag = MCT
+			original_tag = VIL
+		}
+	}
+	option = {
+		name = mexrev.1.a
+		ai_chance = {
+			factor = 5
+		}
+		FROM = {
+			set_country_flag = generals_captured
+			every_unit_leader = {
+				set_nationality = ROOT
+			}
+		}
+	}
+	option = {
+		name = mexrev.1.b
+		ai_chance = {
+			factor = 0
+		}
+		army_experience = 50
+	}
 }

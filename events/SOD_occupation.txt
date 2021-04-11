@@ -56,8 +56,9 @@ country_event = {
 	
 	option = {
 		name = scriptoccupation.2.b
-		FRE = { puppet = MLI }
+		FRE = { set_autonomy = { target = MLI autonomy_state = autonomy_colony } }
 		MLI = { set_cosmetic_tag = FRE_MLI }
+		MLI = {transfer_state = 782 transfer_state = 818 transfer_state = 821 }
 		ai_will_do = {
 			factor = 10
 		}
@@ -85,6 +86,8 @@ country_event = {
 	option = {
 		name = scriptoccupation.3.b
 		FRE = { puppet = NGR }
+		NGR = { set_cosmetic_tag = FRE_NGR }
+		NGR = {transfer_state = 825 transfer_state = 824 transfer_state = 832 transfer_state = 515 transfer_state = 822 transfer_state = 781 }
 		ai_will_do = {
 			factor = 10
 		}

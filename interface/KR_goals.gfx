@@ -1,0 +1,8 @@
+##FOR USE WITH SHINEMAKER no actual KR graphics
+##Insert the focus icon paths and run shinemaker, take the shine code out of KR_goals_shine and put in the suitable country.gfx file
+spriteTypes = {
+	spriteType = {
+		name = "GFX_foreign_builders"
+		texturefile = "gfx/interface/goals/MEX/GFX_foreign_builders.dds"
+	}
+}

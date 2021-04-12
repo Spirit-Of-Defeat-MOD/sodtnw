@@ -744,7 +744,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_british_cooperation
-		icon = GFX_unknown
+		icon = GFX_british_cooperation
 		prerequisite = { focus = REV_appeal_to_world }
 		mutually_exclusive = { focus = REV_internationale_cooperation }
 		mutually_exclusive = { focus = REV_american_cooperation }
@@ -1142,7 +1142,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_american_cooperation
-		icon = GFX_unknown
+		icon = GFX_american_cooperation
 		prerequisite = { focus = REV_appeal_to_world }
 		mutually_exclusive = { focus = REV_internationale_cooperation }
 		mutually_exclusive = { focus = REV_british_cooperation }
@@ -1565,7 +1565,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_internationale_cooperation
-		icon = GFX_unknown
+		icon = GFX_internationale_cooperation
 		prerequisite = { focus = REV_appeal_to_world }
 		mutually_exclusive = { focus = REV_british_cooperation  }
 		mutually_exclusive = { focus = REV_american_cooperation  }

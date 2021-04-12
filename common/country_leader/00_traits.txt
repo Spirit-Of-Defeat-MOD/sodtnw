@@ -156,7 +156,7 @@ leader_traits = {
 
 	inexperienced_monarch = {
 		random = no
-		political_advisor_cost_factor = 0.25
+		head_of_government_cost_factor = 0.25
 		trade_laws_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
 		economy_cost_factor = 0.25
@@ -195,7 +195,7 @@ leader_traits = {
 		sprite = 10
 		political_power_factor = -0.1
 		stability_factor = -0.1
-		political_advisor_cost_factor = -0.25
+		head_of_government_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
@@ -284,7 +284,7 @@ leader_traits = {
 	conservative_grandee = {
 		random = no
 		political_power_factor = 0.05
-		political_advisor_cost_factor = -0.1
+		head_of_government_cost_factor = -0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -579,7 +579,7 @@ leader_traits = {
 
 	el_jefe_maximo = { #Plutarco Calles
 		random = no
-		political_advisor_cost_factor = -0.25
+		head_of_government_cost_factor = -0.25
 		political_power_factor = 0.1
 		ai_will_do = {
 			factor = 1
@@ -707,7 +707,7 @@ leader_traits = {
 
 	camarilla_leader = {
 		random = no
-		political_advisor_cost_factor = -0.25
+		head_of_government_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
@@ -846,7 +846,7 @@ leader_traits = {
 
 	imperial_connections = {
 		random = no
-		political_advisor_cost_factor = -0.25
+		head_of_government_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25

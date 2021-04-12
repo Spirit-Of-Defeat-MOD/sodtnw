@@ -1122,7 +1122,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = 0.15
-				political_advisor_cost_factor = -0.15
+				head_of_government_cost_factor = -0.15
 				high_command_cost_factor = -0.15
 				air_chief_cost_factor = -0.15
 				army_chief_cost_factor = -0.15

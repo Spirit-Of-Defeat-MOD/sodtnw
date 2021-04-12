@@ -22,7 +22,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
--create_country_leader = {
+create_country_leader = {
 	name = "Charlotte, Grand Duchess of Luxembourg"
 	desc = "POLITICS_CHARLOTTE_DESC"
 	picture = ""
@@ -35,7 +35,7 @@ set_politics = {
 set_popularities = {
 		communism = 5
 		reformist_socialist = 12
-        social_democracy = 29
+        social_democrat = 29
         social_liberal = 10
         classic_liberal = 0
         democratic = 42

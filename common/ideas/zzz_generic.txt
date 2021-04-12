@@ -570,6 +570,46 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+
+		peoples_army_idea = {
+			allowed = {
+			always = no
+			}
+		
+			allowed_civil_war = {
+			has_government = communism
+			}
+		
+			removal_cost = -1
+		
+			picture = generic_infantry_bonus
+					
+			modifier = {
+			conscription = 0.02
+			}
+		
+		}
+
+		workers_councils_focus = {
+			allowed = {
+			always = no
+			}
+		
+			allowed_civil_war = {
+			has_government = communism
+			}
+		
+			removal_cost = -1
+		
+			picture = SPR_anarchist_society
+					
+			modifier = {
+				stability_factor = -0.05
+				libertarian_socialist_drift = 0.01
+				industrial_capacity_factory = 0.05
+			}
+		
+		}
 	
 		neutrality_idea = {
 			

@@ -11,7 +11,7 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_liberal
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -33,41 +33,10 @@ set_popularities = {
 create_country_leader = {
 	name = "Harmodio Arias Madrid"
 	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-	picture = "GFX_portrait_panama_harmodio_arias_madrid"
+	picture = "Portrait_PAN_Harmodio_Arias_Madrid_our.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.6.7"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
-		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "July Portocarrero"
-		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-		expire = "1965.1.1"
-		ideology = marxism
-		traits = {
-			#
-		}
 	}
 }

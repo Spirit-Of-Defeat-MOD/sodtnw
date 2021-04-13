@@ -785,7 +785,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_ENG_tech_coop
-		icon = GFX_unknown
+		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = { focus = REV_british_cooperation }
 		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = 8
@@ -828,7 +828,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_ENG_military_advisors
-		icon = GFX_unknown
+		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = REV_british_cooperation }
 		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = 10
@@ -873,7 +873,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_ENG_volunteers
-		icon = GFX_unknown
+		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = REV_ENG_military_advisors }
 		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = 9
@@ -929,35 +929,12 @@ focus_tree = {
 					value = 100
 				}
 			}
-
-			RAJ = {
-				add_ai_strategy = {
-					type = alliance
-					id = ROOT
-					value = 100
-				}
-				add_ai_strategy = {
-					type = protect
-					id = ROOT
-					value = 100
-				}
-				add_ai_strategy = {
-					type = send_volunteers_desire
-					id = ROOT
-					value = 100
-				}
-				add_ai_strategy = {
-					type = support
-					id = ROOT
-					value = 100
-				}
-			}
 		}
 	}
 
 	focus = {
 		id = REV_ENG_airforce
-		icon = GFX_unknown
+		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = REV_ENG_military_advisors }
 		#mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
 		x = 11
@@ -995,11 +972,7 @@ focus_tree = {
 				amount = 50
 				producer = ENG
 			}
-			add_equipment_to_stockpile = {
-				type = CAS_equipment_1
-				amount = 25
-				producer = ENG
-			}
+
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 1.0
@@ -1180,7 +1153,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_american_companies
-		icon = GFX_unknown
+		icon = GFX_american_companies
 		prerequisite = { focus = REV_american_cooperation }
 		#mutually_exclusive = { focus = REV_british_cooperation }
 		x = 14
@@ -1247,7 +1220,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_american_guns
-		icon = GFX_unknown
+		icon = GFX_american_guns
 		prerequisite = { focus = REV_american_companies }
 		x = 13
 		y = 3
@@ -1288,7 +1261,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_american_mines
-		icon = GFX_unknown
+		icon = GFX_american_mines
 		prerequisite = { focus = REV_american_companies }
 		x = 15
 		y = 3
@@ -1331,7 +1304,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_american_monopoly
-		icon = GFX_unknown
+		icon = GFX_american_monopoly
 		prerequisite = { focus = REV_american_mines }
 		x = 15
 		y = 4
@@ -1362,9 +1335,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
-			##give_resource_rights = { receiver = USA state = PREV.PREV }
-			
+			random_owned_controlled_state = {
+				add_resource = {
+					type = oil
+					amount = 25
+				}
+			}
+			give_resource_rights = { receiver = USA state = PREV.PREV }
 		}
 	}
 
@@ -1431,13 +1408,19 @@ focus_tree = {
 					} 
 				}
 			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantería de artillería pesada\" division_template = \"Heavy Artillery Infantry\"  start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
 
 		}
 	}
 
 	focus = {
 		id = REV_american_intervention
-		icon = GFX_unknown
+		icon = GFX_american_intervention
 		prerequisite = { focus = REV_american_artillery }
 		prerequisite = { focus = REV_american_monopoly }
 		x = 14

@@ -1687,7 +1687,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_FRA_tanks
-		icon = GFX_unknown
+		icon = GFX_FRA_tanks
 		prerequisite = { focus = REV_internationale_cooperation }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 21
@@ -1724,7 +1724,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_internationale_leaders
-		icon = GFX_unknown
+		icon = GFX_internationale_leaders
 		prerequisite = { focus = REV_internationale_volunteers }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 19
@@ -1771,7 +1771,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_industrialization
-		icon = GFX_unknown
+		icon = GFX_industrialization
 		prerequisite = { focus = REV_FRA_tanks }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 21
@@ -1869,7 +1869,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_political_commissars
-		icon = GFX_unknown
+		icon = GFX_political_commissars
 		prerequisite = { focus = REV_internationale_leaders }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 19
@@ -1907,7 +1907,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_peoples_army
-		icon = GFX_unknown
+		icon = GFX_peoples_army
 		prerequisite = { focus = REV_internationale_leaders }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 17
@@ -1945,7 +1945,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_workers_council
-		icon = GFX_unknown
+		icon = GFX_workers_council
 		prerequisite = { focus = REV_industrialization }
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }
 		x = 21
@@ -1983,7 +1983,7 @@ focus_tree = {
 
 	focus = {
 		id = REV_join_internationale
-		icon = GFX_unknown
+		icon = GFX_join_internationale
 		prerequisite = { focus = REV_workers_council }
 		prerequisite = { focus = REV_political_commissars}
 		#mutually_exclusive = { focus = REV_british_cooperation focus = REV_american_cooperation }

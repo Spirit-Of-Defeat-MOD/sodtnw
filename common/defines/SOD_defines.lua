@@ -3,3 +3,4 @@ NDefines.NDiplomacy.MAX_TRUST_VALUE = 200;
 NDefines.NDiplomacy.MIN_TRUST_VALUE = -200;
 NDefines.NDiplomacy.MAX_OPINION_VALUEE = 200;
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200;
+NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.0;

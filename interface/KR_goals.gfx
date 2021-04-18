@@ -2,8 +2,9 @@
 ##Insert the focus icon paths and run shinemaker, take the shine code out of KR_goals_shine and put in the suitable country.gfx file
 spriteTypes = {
 	spriteType = {
-		name = "GFX_GFX_american_companies"
-		texturefile = "gfx/interface/goals/MEX/GFX_american_companies.dds"
+		name = "GFX_FRA_tanks"
+		texturefile = "gfx/interface/goals/MEX/GFX_FRA_tanks.dds"
 	}
+	
 	
 }

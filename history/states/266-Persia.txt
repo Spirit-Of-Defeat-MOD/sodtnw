@@ -4,7 +4,7 @@ state={
 	name="STATE_266" # Tehran
 	manpower = 3446250
 	
-	state_category = town
+	state_category = c7
 
 	history={
 		owner = PER

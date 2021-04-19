@@ -825,3 +825,8 @@ ISZ = {
 	color = rgb { 100  71  150 }
 	color_ui = rgb { 100  71  150 }
 }
+
+AZD = {
+	color = rgb { 189 174 115 }
+	color_ui = rgb { 189 174 115 }
+}

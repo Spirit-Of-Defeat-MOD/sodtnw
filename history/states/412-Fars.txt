@@ -4,11 +4,11 @@ state={
 	name="STATE_412"
 	manpower = 918619
 	resources={
-		oil=10 # was: 12
+		oil=12 # was: 12
 	}
 
 
-	state_category = rural
+	state_category = c4
 	history={
 		owner = PER
 		victory_points = {

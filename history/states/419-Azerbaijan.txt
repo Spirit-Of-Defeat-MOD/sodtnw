@@ -4,9 +4,9 @@ state={
 	name="STATE_419"
 	manpower = 1431714
 	
-	state_category = rural
+	state_category = c4
 	history={
-		owner = PER
+		owner = AZD
 		buildings = {
 			infrastructure = 3
 		}
@@ -20,7 +20,7 @@ state={
 			1822 1 
 		}
 		add_core_of = PER
-		add_core_of = KUR
+		add_core_of = AZD
 	}
 
 	provinces={

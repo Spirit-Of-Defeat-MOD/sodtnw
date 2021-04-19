@@ -32,6 +32,7 @@ HEJ = "countries/MiddleEast.txt" #Hejaz
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
 OMN = "countries/MiddleEast.txt" #Imam of Oman
 ISZ = "countries/WestEurope.txt" #International Zone of Straits
+AZD = "countries/MiddleEast.txt" #Azadistan
 
 
 

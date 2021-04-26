@@ -10,48 +10,70 @@ set_technology = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.3.5"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+    social_liberal = 21
+    classic_liberal = 38
+    neutrality = 27
+    utilitarian_despot = 14
 }
 
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Vidi I"
+	desc = "POLITICS_WILLIAM_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Prince_William.tga"
+	expire = "1945.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Enver Hoxha"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		staunch_stalinist
 	}
 }
 
 create_field_marshal = {
-	name = "Xhemal Aranitasi"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
-	skill = 2
-	attack_skill = 1
+	name = "Ahmet Muhtar Zogolli"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Ahmet_Zogolli.dds"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 2
     defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
+    planning_skill = 4
+    logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Gustav Mirdashi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = { old_guard war_hero }
+	skill = 1
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Prenk Pervizi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { career_officer politically_connected infantry_leader }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_officer }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 1
+}

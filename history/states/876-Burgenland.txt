@@ -7,16 +7,18 @@ state={
 		oil=2 # was: 2
 	}
 	
-	state_category = c3
+	state_category = c4
 	
 	history={
-		owner = AUS
+		owner = LAJ
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
-			industrial_complex = 3
+			industrial_complex = 2
 		}
 		add_core_of = AUS
+		add_core_of = LAJ
+		add_core_of = HUN
 
 
 	}

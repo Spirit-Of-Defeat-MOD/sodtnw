@@ -1,0 +1,26 @@
+
+state={
+	id=906
+	name="STATE_906"
+	manpower = 245800
+	
+	state_category = c5
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			688 10 
+		}
+
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		13345 13346 13347 3675 	688
+	}
+}

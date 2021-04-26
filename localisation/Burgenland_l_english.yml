@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+LAJ_fascism_party:0 ""
+LAJ_fascism_party_long:0 ""
+LAJ_communism_party:0 ""
+LAJ_communism_party_long:0 ""
+LAJ_democratic_party:0 "Horthy Loyalists"
+LAJ_democratic_party_long:0 "Horthy Loyalists"
+LAJ_utilitarian_despot_party:0 "Karlists" 
+LAJ_utilitarian_despot_party_long:0 "Karlisták"
+LAJ_neutrality_party:0 "SKV" #Free king electors
+LAJ_neutrality_party_long:0 "Szabad királyi választók"
+LAJ_social_democracy_party:0 ""
+LAJ_social_democracy_party_long:0 ""
+LAJ_social_liberal_party:0 ""
+LAJ_social_liberal_party_long:0 ""
+LAJ_classic_liberal_party:0 "Austrian Unionists"
+LAJ_classic_liberal_party_long:0 "Austrian Unionists"
+LAJ_libertarian_socialist_party:0 ""
+LAJ_libertarian_socialist_party_long:0 ""
+LAJ_reformist_socialist_party:0 ""
+LAJ_reformist_socialist_party_long:0 ""
+LAJ_nihilistic_extremism_party:0 "LA" #pronay
+LAJ_nihilistic_extremism_party_long:0 "Legfelsőbb Államtanács"
+
+#Country Names
+LAJ_fascism:0 "Lajtabánság"
+LAJ_fascism_DEF:0 "the Lajtabánság"
+LAJ_reformist_socialist:0 "Leitha Soviet"
+LAJ_reformist_socialist_DEF:0 "the Leitha Soviet"
+LAJ_utilitarian_despot:0 ""Lajtabánság"
+LAJ_utilitarian_despot_DEF:0 "the "Lajtabánság"
+LAJ_democratic:0 "The Lajtabánság"
+LAJ_democratic_DEF:0 "the Lajtabánság"
+LAJ_neutrality:1 ""Lajtabánság"
+LAJ_neutrality_DEF:1 "the "Lajtabánság"
+LAJ_libertarian_socialist:0 "The Leitha Soviet"
+LAJ_libertarian_socialist_DEF:0 "the Leitha Soviet"
+LAJ_social_democracy:0 "The Lajtabánság"
+LAJ_social_democracy_DEF:0 "the Lajtabánság"
+LAJ_social_liberal:0 "Lajtabánság"
+LAJ_social_liberal_DEF:0 "the Lajtabánság"
+LAJ_classic_liberal:0 "The Lajtabánság"
+LAJ_classic_liberal_DEF:0 "the Lajtabánság"
+LAJ_communism:0 "Leitha Soviet"
+LAJ_communism_DEF:0 "the Leitha Soviet"
+LAJ_nihilistic_extremism:0 "Lajtabánság"
+LAJ_nihilistic_extremism_DEF:0 "Lajtabánság"
+ 
+LAJ_fascism_ADJ:0 "Leithian"
+LAJ_totalitarian_socialism_ADJ:0 "Leithian"
+LAJ_democratic_ADJ:0 "Leithian"
+LAJ_utilitarian_despot_ADJ:0 "Leithian"
+LAJ_democratic_socialism_ADJ:0 "Leithian"
+LAJ_neutrality_ADJ:0 "Leithian"
+LAJ_social_democracy_ADJ:0 "Leithian"
+LAJ_social_liberal_ADJ:0 "Leithian"
+LAJ_classic_liberal_ADJ:0 "Leithian"
+LAJ_communism_ADJ:0 "Leithian"
+LAJ_nihilistic_extremism_ADJ:0 "Leithian"
+
+#Ministers
+#should be reintegrated
+
+#Ideas
+
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

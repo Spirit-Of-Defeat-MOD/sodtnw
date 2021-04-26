@@ -1,0 +1,23 @@
+
+state={
+	id=905
+	name="STATE_905"
+	manpower = 890824	
+	
+	state_category = c3
+
+	history={
+		owner = PER
+		victory_points = {
+			7969 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		4553 7969 10523
+	}
+}

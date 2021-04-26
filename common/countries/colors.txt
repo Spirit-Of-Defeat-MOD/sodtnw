@@ -830,3 +830,13 @@ AZD = {
 	color = rgb { 189 174 115 }
 	color_ui = rgb { 189 174 115 }
 }
+
+GIL = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
+}
+
+LAJ = {
+	color = rgb { 67 111 77 }
+	color_ui = rgb { 67 111 77 }
+}

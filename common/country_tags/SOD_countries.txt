@@ -11,13 +11,13 @@ PLM = "countries/SouthAmerican.txt" #Magonists
 VIL = "countries/SouthAmerican.txt"	#Villa
 
 #Africa
-AEF = "countries/African.txt"
-AOF = "countries/African.txt"
+AEF = "countries/African.txt" #French Equitorial Africa
+AOF = "countries/African.txt" #French West Africa
 AJU = "countries/African.txt" #Ajuran(Kelafo)
 AWS = "countries/African.txt" #Aussa Sultanate
-FRE = "countries/WestEurope.txt"
-IEA = "countries/WestEurope.txt"
-TUA = "countries/African.txt"
+FRE = "countries/WestEurope.txt"  #French govt exile
+IEA = "countries/WestEurope.txt" #Italian East Africa
+TUA = "countries/African.txt" #Kel Ahaggar
 TRP = "countries/African.txt"  #Tripoli
 
 
@@ -25,6 +25,7 @@ TRP = "countries/African.txt"  #Tripoli
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
 CHE = "countries/WestEurope.txt" #Chetniks
+LAJ = "countries/WestEurope.txt" #Lajtabánság
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir
@@ -32,7 +33,10 @@ HEJ = "countries/MiddleEast.txt" #Hejaz
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
 OMN = "countries/MiddleEast.txt" #Imam of Oman
 ISZ = "countries/WestEurope.txt" #International Zone of Straits
+
+#Persia
 AZD = "countries/MiddleEast.txt" #Azadistan
+GIL = "countries/MiddleEast.txt" #Gilan
 
 
 

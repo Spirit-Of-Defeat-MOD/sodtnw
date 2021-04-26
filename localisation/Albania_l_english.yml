@@ -1,0 +1,77 @@
+﻿l_english: 
+
+ #Parties
+ ALB_fascism_party:0 "PFS"
+ ALB_fascism_party_long:0 "Partia Fashiste e Shqipërisë"
+ ALB_communism_party:0 "PPSH"
+ ALB_communism_party_long:0 "Partia e Punës e Shqipërisë"
+ ALB_democratic_party:0 "Progressives"
+ ALB_democratic_party_long:0 "Partia Progresive"
+ ALB_utilitarian_despot_party:0 "Wied-Neuwied"
+ ALB_utilitarian_despot_party_long:0 "House of Wied-Neuwied"
+ ALB_neutrality_party:0 "Zogists"
+ ALB_neutrality_party_long:0 "Zogist Faction"
+ ALB_social_democrat_party:0 "PSD"
+ ALB_social_democrat_party_long:0 "Socialdemokrate e Shqipërisë"
+ ALB_social_liberal_party:0 "PP"
+ ALB_social_liberal_party_long:0 "Partia Popullore"
+ ALB_classic_liberal_party:0 "OL"
+ ALB_classic_liberal_party_long:0 "Opozita Liberale"
+ ALB_libertarian_socialist_party:0 ""
+ ALB_libertarian_socialist_party_long:0 ""
+ ALB_reformist_socialist_party:0 "PSD"
+ ALB_reformist_socialist_party_long:0 "Partia Socialdemokrate e Shqipërisë"
+ ALB_nihilistic_extremism_party:0 "FKS"
+ ALB_nihilistic_extremism_party_long:0 "Frontin Kombëtar Shqiptar"
+
+ #Country Names
+ ALB_fascism:0 "Albania"
+ ALB_fascism_DEF:0 "Albania"
+ ALB_nihilistic_extremism:0 "Albanian Supreme State"
+ ALB_nihilistic_extremism_DEF:0 "the Albanian Supreme State"
+ ALB_utilitarian_despot:0 "Principality of Albania"
+ ALB_utilitarian_despot_DEF:0 "the Principality of Albania"
+ ALB_democratic:0 "Principality of Albania"
+ ALB_democratic_DEF:0 "the Principality of Albania"
+ ALB_neutrality:1 "Principality of Albania"
+ ALB_neutrality_DEF:1 "the Principality of Albania"
+ ALB_reformist_socialist:0 "Principality of Albania"
+ ALB_reformist_socialist_DEF:0 "the Principality of Albania"
+ ALB_libertarian_socialist:0 "People's Syndicates of Albania"
+ ALB_libertarian_socialist_DEF:0 "the People's Syndicates of Albania"
+ ALB_social_democrat:0 "Principality of Albania"
+ ALB_social_democrat_DEF:0 "the Principality of Albania"
+ ALB_social_liberal:0 "Principality of Albania"
+ ALB_social_liberal_DEF:0 "the Principality of Albania"
+ ALB_classic_liberal:0 "Principality of Albania"
+ ALB_classic_liberal_DEF:0 "the Principality of Albania"
+ ALB_communism:0 "Albanian Workers Union"
+ ALB_communism_DEF:0 "the Albanian Workers Union"
+ 
+ ALB_fascism_ADJ:0 "Albanian"
+ ALB_nihilistic_extremism_ADJ:0 "Albanian"
+ ALB_democratic_ADJ:0 "Albanian"
+ ALB_utilitarian_despot_ADJ:0 "Albanian"
+ ALB_reformist_socialist_ADJ:0 "Albanian"
+ ALB_neutrality_ADJ:0 "Albanian"
+ ALB_libertarian_socialist_ADJ:0 "Albanian"
+ ALB_social_democrat_ADJ:0 "Albanian"
+ ALB_social_liberal_ADJ:0 "Albanian"
+ ALB_classic_liberal_ADJ:0 "Albanian"
+ ALB_communism_ADJ:0 "Albanian"
+ 
+ #Ministers
+ #should be reintegrated
+
+ #Focuses
+ #should be reintegrated
+ ALB_modernize_albania:0 "Modernize Albania"
+ ALB_modernize_albania_desc:0 "400 years of Ottoman rule has left the Albanian state semi-feudal and backwards. Despite our independence in 1912 we have failed to catch up with our neighbours. It is urgent that we do or Albania will become subject to another foreign ruler very soon." 
+
+ #Events
+ albania.1.t:0 "Albania Introduction"
+ albania.1.d:0 ""
+ albania.1.a:0 "Enough with these petty ramblings..."
+ 
+ #Leaders
+ POLITICS_WILLIAM_DESC:0 "What odder combination can you get than an Austrian, born in Germany as the prince of a small Principality on the banks of the Adriatic? Such is the case with Prince William of Wied and his tiny Principality of Albania. Hailing from his native Neuwied, as his name implies, his title of king at home is merely a ceremonial title, as Ahmet Muhtar Zogolli and his inner circle of oligarchic henchmen rule the nation in an Italian-sponsored dictatorship.\n\nHe was never meant to be king of this tiny principality yet coercion from the Great Powers forced him to be so anyway. So on a day in 1914, when Europe was heating up and ready to explode, a young and inexperienced William took his first steps on Albanian soil, a nation he thought so little of before. His brief reign of 1914 saw action - a lot of it. Immediately after his coronation revolts staged by Albanian Muslims erupted, the Great War broke out and Albania was invaded by Austrians and Germans. So, heading into exile in Italy for the next few years, he would not return until peace returned to Europe, where yet again, a coup staged by a certain disgruntled Ahmet Zogolli forced a compromise, with William being Head of State, attending parties and such, while Zog managed the dirty work.\n\nAlthough a prince outside of Albania, he is a king to the people that support him, who fear Zogolli’s desire for the throne might commence another conflict between the two parties. Whatever happens, William will be ready, ready for the coming storm."

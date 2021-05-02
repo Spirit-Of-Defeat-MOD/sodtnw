@@ -32,11 +32,11 @@ set_popularities = {
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	name = "Wilhelm Miklas"
+	desc = ""
+	picture = "Portrait_Wilhelm_Miklas.tga"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = reactionary_conservatism
 	traits = {
 		#
 	}

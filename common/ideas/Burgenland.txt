@@ -1,0 +1,52 @@
+ideas = {
+	country = {
+		men_women_children_serve = {
+				
+			allowed = {
+				original_tag = LAJ
+			}
+
+			picture = men_women_children_serve
+	
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 1.00
+			}
+		}
+		
+		war_against_degeneracy = {
+				
+			allowed = {
+				original_tag = LAJ
+			}
+
+			picture = war_against_degeneracy
+	
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.5
+				army_attack_factor = 0.3
+				army_defence_factor = 0.3
+				army_morale = 10
+			}
+		}
+		
+		perpetual_terror = {
+				
+			allowed = {
+				original_tag = LAJ
+			}
+
+			picture = perpetual_terror
+	
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.25
+			}
+		}
+	}
+}

@@ -840,3 +840,18 @@ LAJ = {
 	color = rgb { 67 111 77 }
 	color_ui = rgb { 67 111 77 }
 }
+
+ARB = {
+	color = rgb { 204 102 51 }
+	color_ui = rgb { 204 102 51 }
+}
+
+BLC = {
+	color = rgb { 204 204 153 }
+	color_ui = rgb { 204 204 153 }
+}
+
+KHO = {
+	color = rgb { 255 204 102 }
+	color_ui = rgb { 255 204 102 }
+}

@@ -4,10 +4,10 @@ state={
 	name="STATE_288"
 	manpower = 10722500
 	
-	state_category = town
+	state_category = c6
 	
 	resources={
-		rubber=3 # was: 4
+		rubber=4 # was: 4
 		tungsten = 92
 	}
 

@@ -4,10 +4,10 @@ state={
 	manpower = 85232
 
 
-	state_category = enclave
+	state_category = c3
 
 	history={
-		owner = FRA
+		owner = FRE
 		add_core_of = DJI
 		victory_points = {
 			8124 1

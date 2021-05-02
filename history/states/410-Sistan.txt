@@ -8,9 +8,7 @@ state={
 
 	history={
 		owner = PER
-		victory_points = {
-			10782 1 
-		}
+
 		buildings = {
 			infrastructure = 1
 		}
@@ -18,6 +16,6 @@ state={
 	}
 
 	provinces={
-		1889 2039 2070 4891 10782 13082 
+		1889 13361
 	}
 }

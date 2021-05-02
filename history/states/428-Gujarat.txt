@@ -5,9 +5,9 @@ state={
 	manpower = 10590200
 	
 	
-	state_category = town
+	state_category = c7
 	resources={
-		oil=3 # was: 4
+		oil=4 # was: 4
 	}
 
 	history={

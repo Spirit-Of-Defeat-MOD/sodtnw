@@ -61,7 +61,7 @@ focus_tree = {
 		y = 0
 		cost = 1
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		available = {
 		}
@@ -112,7 +112,7 @@ focus_tree = {
 		y = 2
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -139,7 +139,7 @@ focus_tree = {
 		y = 1
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -176,7 +176,7 @@ focus_tree = {
 		y = 2
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		available = {
 		}
@@ -257,7 +257,7 @@ focus_tree = {
 		y = 2
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		available = {
 		}
@@ -286,7 +286,7 @@ focus_tree = {
 		y = 3
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -316,7 +316,7 @@ focus_tree = {
 		y = 3
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -346,7 +346,7 @@ focus_tree = {
 		y = 4
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -377,7 +377,7 @@ focus_tree = {
 		y = 4
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -404,7 +404,7 @@ focus_tree = {
 		y = 3
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		available = {
 		}
@@ -514,7 +514,7 @@ focus_tree = {
 		y = 5
 		cost = 3
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 		}
@@ -756,11 +756,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -796,11 +795,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -839,11 +837,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -884,11 +881,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -945,11 +941,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -1053,7 +1048,6 @@ focus_tree = {
 				OR = {
 					original_tag = PNR
 					original_tag = MEX
-					original_tag = CED
 				}
 			}
 		}
@@ -1127,10 +1121,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1164,10 +1157,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1230,10 +1222,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1271,10 +1262,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1314,10 +1304,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1357,10 +1346,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 10
+				factor = 2
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1434,7 +1422,6 @@ focus_tree = {
 				factor = 10
 				OR = {
 					original_tag = VIL
-					original_tag = MCT
 				}
 			}
 		}
@@ -1452,96 +1439,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			every_country = {
-				limit = {
-					AND = {
-						tag = VIL
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = VIL
-						hostility_reason = asked_to_join
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					AND = {
-						tag = MCT
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = MCT
-						hostility_reason = asked_to_join
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					AND = {
-						tag = PNR
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = PNR
-						hostility_reason = asked_to_join
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					AND = {
-						tag = PLM
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = PLM
-						hostility_reason = asked_to_join
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					AND = {
-						tag = MEX
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = MEX
-						hostility_reason = asked_to_join
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					AND = {
-						tag = CED
-						has_war_with = ROOT
-					}
-				}
-				USA = {
-					add_to_war = { 
-						targeted_alliance = ROOT
-						enemy = CED
-						hostility_reason = asked_to_join
-					}
-				}
-			}
+
 			
 		}
 	}
@@ -2004,6 +1902,7 @@ focus_tree = {
 
 		available = {
 			NOT = { has_war_with = SOV }
+			ROOT = { has_war = no }
 		}
 
 		bypass = {

@@ -22,21 +22,25 @@ TRP = "countries/African.txt"  #Tripoli
 
 
 #Europe
+CHE = "countries/WestEurope.txt" #Chetniks
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
-CHE = "countries/WestEurope.txt" #Chetniks
 LAJ = "countries/WestEurope.txt" #Lajtabánság
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir
 HEJ = "countries/MiddleEast.txt" #Hejaz
+ISZ = "countries/WestEurope.txt" #International Zone of Straits
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
 OMN = "countries/MiddleEast.txt" #Imam of Oman
-ISZ = "countries/WestEurope.txt" #International Zone of Straits
+
 
 #Persia
+ARB = "countries/MiddleEast.txt" #Arabistab
 AZD = "countries/MiddleEast.txt" #Azadistan
+BLC = "countries/MiddleEast.txt" #Balochistan
 GIL = "countries/MiddleEast.txt" #Gilan
+KHO = "countries/MiddleEast.txt" #Khorasan
 
 
 

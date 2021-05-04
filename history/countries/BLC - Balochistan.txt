@@ -1,6 +1,6 @@
-﻿capital = 545
+capital = 909
 
-oob = "ZIM_1936"
+oob = ""
 
 # Starting tech
 set_technology = {
@@ -18,14 +18,4 @@ set_politics = {
 }
 set_popularities = {
 	neutrality = 100
-}
-
-create_country_leader = {
-	name = " Marcus James Hugins"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = { 
-		prince_of_terror
-	}
 }

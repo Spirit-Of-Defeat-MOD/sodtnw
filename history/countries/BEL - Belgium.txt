@@ -19,6 +19,12 @@ set_technology = {
 	fuel_refining = 1
 }
 
+add_ideas = {
+	BEL_Paul_Zeeland_hog
+	BEL_Paul_Zeeland_frm
+	BEL_Philip_Isacker_eco
+	BEL_Charles_Warnaffe_int
+}
 
 set_politics = {
 	ruling_party = democratic
@@ -35,6 +41,7 @@ set_popularities = {
 	communism = 3
 }
 
+country_event = { id = belgium.2 days = 145 } #1936 Elections
 
 set_convoys = 80
 set_stability = 0.75
@@ -45,6 +52,17 @@ create_country_leader = {
 	picture = "Albert_I.tga"
 	expire = "1965.1.1"
 	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Albert_I.tga"
+	expire = "1965.1.1"
+	ideology = reformist_socialist_ideology
 	traits = {
 		#
 	}
@@ -70,7 +88,9 @@ create_country_leader = {
 	traits = {
 		#
 	}
-	@@ -122,7 +79,7 @@ create_country_leader = {
+}
+
+ create_country_leader = {
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"

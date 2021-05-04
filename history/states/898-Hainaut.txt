@@ -12,6 +12,9 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 		}
+		victory_points = {
+			9536 3
+		}
 		add_core_of = BEL
 		victory_points = { 3576 1 }
 	}

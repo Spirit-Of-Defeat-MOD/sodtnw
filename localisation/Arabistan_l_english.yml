@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+ARB_fascism_party:0 ""
+ARB_fascism_party_long:0 ""
+ARB_communism_party:0 ""
+ARB_communism_party_long:0 ""
+ARB_democratic_party:1 ""
+ARB_democratic_party_long:0 ""
+ARB_utilitarian_despot_party:0 "Sheikh of Mohammerah"
+ARB_utilitarian_despot_party_long:0 "Sheikh of Mohammerah"
+ARB_neutrality_party:0 ""
+ARB_neutrality_party_long:0 ""
+ARB_social_democrat_party:0 ""
+ARB_social_democrat_party_long:0 ""
+ARB_social_liberal_party:0 ""
+ARB_social_liberal_party_long:0 ""
+ARB_classic_liberal_party:0 ""
+ARB_classic_liberal_party_long:0 ""
+ARB_libertarian_socialist_party:0 ""
+ARB_libertarian_socialist_party_long:0 ""
+ARB_revolutionary_socialism_party:0 ""
+ARB_revolutionary_socialism_party_long:0 ""
+ARB_reformist_socialist_party:0 ""
+ARB_reformist_socialist_party_long:0 ""
+ARB_nihilistic_extremism_party:0 ""
+ARB_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ARB_fascism:0 "Emirate of Arabistan"
+ARB_fascism_DEF:0 "Emirate of Arabistan"
+ARB_libertarian_socialist:0 "Khuzestan Republic"
+ARB_libertarian_socialist_DEF:0 "Khuzestan Republic"
+ARB_utilitarian_despot:0 "Emirate of Arabistan"
+ARB_utilitarian_despot_DEF:0 "the Emirate of Arabistan"
+ARB_democratic:0 "Emirate of Arabistan"
+ARB_democratic_DEF:0 "Emirate of Arabistan"
+ARB_neutrality:1 "Emirate of Arabistan"
+ARB_neutrality_DEF:1 "the Emirate of Arabistan"
+ARB_reformist_socialist:0 "Khuzestan Republic"
+ARB_reformist_socialist_DEF:0 "Khuzestan Republic"
+ARB_social_democrat:0 "Emirate of Arabistan"
+ARB_social_democrat_DEF:0 "Emirate of Arabistan"
+ARB_social_liberal:0 "Emirate of Arabistan"
+ARB_social_liberal_DEF:0 "Emirate of Arabistan"
+ARB_classic_liberal:0 "Emirate of Arabistan"
+ARB_classic_liberal_DEF:0 "Emirate of Arabistan"
+ARB_communism:0 "Khuzestan Republic"
+ARB_communism_DEF:0 "Khuzestan Republic"
+ARB_nihilistic_extremism:0 "State of Arabs"
+ARB_nihilistic_extremism_DEF:0 "State of Arabs"
+ 
+ARB_fascism_ADJ:0 "Arabi"
+ARB_fascism_ADJ:0 "Arabi"
+ARB_libertarian_socialist_ADJ:0 "Arabi"
+ARB_democratic_ADJ:0 "Arabi"
+ARB_utilitarian_despot_ADJ:0 "Arabi"
+ARB_reformist_socialist_ADJ:0 "Arabi"
+ARB_neutrality_ADJ:0 "Arabi"
+ARB_social_democrat_ADJ:0 "Arabi"
+ARB_social_liberal_ADJ:0 "Arabi"
+ARB_classic_liberal_ADJ:0 "Arabi"
+ARB_communism_ADJ:0 "Arabi"
+ARB_nihilistic_extremism_ADJ:0 "Arabi"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

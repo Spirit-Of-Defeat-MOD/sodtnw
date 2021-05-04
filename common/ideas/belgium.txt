@@ -1,40 +1,265 @@
 ideas = {
-	# MILITARY
-
 
 	head_of_government = {
-
-		BEL_paul_van_zeeland = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = BEL
+		BEL_Paul_Zeeland_hog = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
 			}
-			
-			traits = { silent_workhorse }
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Paul_Zeeland_hog"
+			}
+			traits = {
+				head_of_government
+				christian_democrat
+			}
 		}
-
-		BEL_paul-henri_spaak = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = BEL
+		
+		BEL_Jane_Brigode_hog = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
 			}
-			
-			traits = { captain_of_industry }
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Jane_Brigode_hog"
+			}
+			traits = {
+				head_of_government
+				classic_liberal
+			}
 		}
-
-		BEL_gaston_eyskens = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = BEL
+		
+		BEL_Emile_Vandervelde_hog = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
 			}
-			
-			traits = { armaments_organizer }
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Emile_Vandervelde_hog"
+			}
+			traits = {
+				head_of_government
+				reformist_socialist
+			}
+		}
+	}
+	
+	foreign_minister = {
+		BEL_Paul_Zeeland_frm = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Paul_Zeeland_frm"
+			}
+			traits = {
+				foreign_minister
+				christian_democrat
+			}
+		}
+		
+		BEL_Edmond_Rubbens_frm = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Edmond_Rubbens_frm"
+			}
+			traits = {
+				foreign_minister
+				christian_democrat
+			}
+		}
+		
+		BEL_Paul_Spaak_frm = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Paul_Spaak_frm"
+			}
+			traits = {
+				foreign_minister
+				reformist_socialist
+			}
+		}
+	}
+	
+	economy_minister = {
+		BEL_Philip_Isacker_eco = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Philip_Isacker_eco"
+			}
+			traits = {
+				economy_minister
+				social_conservative
+			}
+		}
+		
+		BEL_Francois_Bovesse_eco = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Francois_Bovesse_eco"
+			}
+			traits = {
+				economy_minister
+				classic_liberal
+			}
+		}
+		
+		BEL_Achille_Delattre_eco = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Achille_Delattre_eco"
+			}
+			traits = {
+				economy_minister
+				reformist_socialist
+			}
+		}
+		
+		BEL_Julien_Lahaut_eco = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Julien_Lahaut_eco"
+			}
+			traits = {
+				economy_minister
+				authoritarian_socialist
+			}
+		}
+	}
+	
+	interior_minister = {
+		BEL_Charles_Warnaffe_int = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Charles_Warnaffe_int"
+			}
+			traits = {
+				interior_minister
+				social_conservative
+			}
+		}
+		
+		BEL_Eugene_Soudan_int = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Eugene_Soudan_int"
+			}
+			traits = {
+				interior_minister
+				reformist_socialist
+			}
+		}
+		
+		BEL_August_Schryver_int = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_August_Schryver_int"
+			}
+			traits = {
+				interior_minister
+				social_conservative
+			}
+		}
+		
+		BEL_Octave_Dierckx_int = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Octave_Dierckx_int"
+			}
+			traits = {
+				interior_minister
+				classic_liberal
+			}
+		}
+		
+		BEL_Joseph_Jacquemotte_int = {
+			allowed = { original_tag = BEL }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Joseph_Jacquemotte_int"
+			}
+			traits = {
+				interior_minister
+				authoritarian_socialist
+			}
 		}
 	}
 
@@ -46,10 +271,10 @@ ideas = {
 			allowed = {
 				original_tag = BEL
 			}
-			
-
-			
 			traits = { army_chief_offensive_2 }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BEL_Charles_Warnaffe_int"
+			}
 			
 			ai_will_do = {
 				factor = 1

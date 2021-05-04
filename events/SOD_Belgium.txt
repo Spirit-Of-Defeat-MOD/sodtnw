@@ -1,0 +1,199 @@
+###########################
+# Belgian Events
+###########################
+# By Kstar
+###########################
+
+add_namespace = belgium
+
+###Introduction Event
+
+country_event = {
+	id = belgium.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event belgium.1 FROM = [From.GetName]" }
+	title = belgium.1.t
+	desc = belgium.1.d
+	picture = GFX_report_event_BEL_COA
+
+	is_triggered_only = yes
+
+	option = {
+		name = belgium.1.a
+	}
+}
+
+country_event = {
+	id = belgium.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event belgium.2 FROM = [From.GetName]" }
+	title = belgium.2.t
+	desc = belgium.2.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	
+	option = { # Form National Unity
+		name = belgium.2.a
+		ai_chance = {
+			base = 25
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = classic_liberal
+			popularity = 0.1
+		}
+		add_political_power = -20
+
+		set_politics = {
+			ruling_party = conservative
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economic_minister
+			remove_ideas_with_trait = interior_minister
+		}
+		add_ideas = {
+			BEL_Paul_Spaak_frm
+			BEL_Philip_Isacker_eco
+			BEL_August_Schryver_int	
+		}
+	}
+	
+	option = { # Conservative-Liberal
+		name = belgium.2.b
+		ai_chance = {
+			base = 25
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = classic_liberal
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.1
+		}
+		add_political_power = -20
+
+		set_politics = {
+			ruling_party = conservative
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economic_minister
+			remove_ideas_with_trait = interior_minister
+		}
+		add_ideas = {
+			BEL_Edmond_Rubbens_frm
+			BEL_Francois_Bovesse_eco
+			BEL_Octave_Dierckx_int			
+		}
+	}
+	
+	option = { # Liberal-Socialist
+		name = belgium.2.c
+		ai_chance = {
+			base = 25
+		}
+		add_popularity = {
+			ideology = classic_liberal
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.1
+		}
+		add_political_power = -20
+
+		set_politics = {
+			ruling_party = classic_liberal
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economic_minister
+			remove_ideas_with_trait = interior_minister
+		}
+		add_ideas = {
+			BEL_Jane_Brigode_hog
+			BEL_Paul_Spaak_frm
+			BEL_Achille_Delattre_eco
+			BEL_Octave_Dierckx_int				
+		}			
+	}
+	
+	option = { #Socialist-Communist
+		name = belgium.2.e
+		ai_chance = {
+			base = 25
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = classic_liberal
+			popularity = -0.1
+		}
+		add_political_power = -20
+
+		set_politics = {
+			ruling_party = reformist_socialist
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economic_minister
+			remove_ideas_with_trait = interior_minister
+		}
+		add_ideas = {
+			BEL_Emile_Vandervelde_hog
+			BEL_Julien_Lahaut_eco
+			BEL_Paul_Spaak_frm
+			BEL_Joseph_Jacquemotte_int
+
+		}
+	}
+}
+
+country_event = {
+	id = belgium.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event belgium.3 FROM = [From.GetName]" }
+	title = belgium.3.t
+	desc = belgium.3.d
+	picture = GFX_report_event_GER_cons
+
+	is_triggered_only = yes
+
+	option = {
+		name = belgium.3.a
+	}
+}

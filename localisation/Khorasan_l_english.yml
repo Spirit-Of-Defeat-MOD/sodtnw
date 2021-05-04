@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+KHO_fascism_party:0 ""
+KHO_fascism_party_long:0 ""
+KHO_communism_party:0 ""
+KHO_communism_party_long:0 ""
+KHO_democratic_party:1 ""
+KHO_democratic_party_long:0 ""
+KHO_utilitarian_despot_party:0 "NCK"
+KHO_utilitarian_despot_party_long:0 "National Committee of Khorasan"
+KHO_neutrality_party:0 ""
+KHO_neutrality_party_long:0 ""
+KHO_social_democrat_party:0 ""
+KHO_social_democrat_party_long:0 ""
+KHO_social_liberal_party:0 ""
+KHO_social_liberal_party_long:0 ""
+KHO_classic_liberal_party:0 ""
+KHO_classic_liberal_party_long:0 ""
+KHO_libertarian_socialist_party:0 ""
+KHO_libertarian_socialist_party_long:0 ""
+KHO_revolutionary_socialism_party:0 ""
+KHO_revolutionary_socialism_party_long:0 ""
+KHO_reformist_socialist_party:0 ""
+KHO_reformist_socialist_party_long:0 ""
+KHO_nihilistic_extremism_party:0 ""
+KHO_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+KHO_fascism:0 "Republic of Khorasan"
+KHO_fascism_DEF:0 "Republic of Khorasan"
+KHO_libertarian_socialist:0 "Socialist Republic of Khorasan"
+KHO_libertarian_socialist_DEF:0 "Socialist Republic of Khorasan"
+KHO_utilitarian_despot:0 "Republic of Khorasan"
+KHO_utilitarian_despot_DEF:0 "the Republic of Khorasan"
+KHO_democratic:0 "Republic of Khorasan"
+KHO_democratic_DEF:0 "Republic of Khorasan"
+KHO_neutrality:1 "Republic of Khorasan"
+KHO_neutrality_DEF:1 "the Republic of Khorasan"
+KHO_reformist_socialist:0 "Socialist Republic of Khorasan"
+KHO_reformist_socialist_DEF:0 "Socialist Republic of Khorasan"
+KHO_social_democrat:0 "Republic of Khorasan"
+KHO_social_democrat_DEF:0 "Republic of Khorasan"
+KHO_social_liberal:0 "Republic of Khorasan"
+KHO_social_liberal_DEF:0 "Republic of Khorasan"
+KHO_classic_liberal:0 "Republic of Khorasan"
+KHO_classic_liberal_DEF:0 "Republic of Khorasan"
+KHO_communism:0 "Socialist Republic of Khorasan"
+KHO_communism_DEF:0 "Socialist Republic of Khorasan"
+KHO_nihilistic_extremism:0 "-"
+KHO_nihilistic_extremism_DEF:0 "-"
+ 
+KHO_fascism_ADJ:0 "Khorasani"
+KHO_fascism_ADJ:0 "Khorasani"
+KHO_libertarian_socialist_ADJ:0 "Khorasani"
+KHO_democratic_ADJ:0 "Khorasani"
+KHO_utilitarian_despot_ADJ:0 "Khorasani"
+KHO_reformist_socialist_ADJ:0 "Khorasani"
+KHO_neutrality_ADJ:0 "Khorasani"
+KHO_social_democrat_ADJ:0 "Khorasani"
+KHO_social_liberal_ADJ:0 "Khorasani"
+KHO_classic_liberal_ADJ:0 "Khorasani"
+KHO_communism_ADJ:0 "Khorasani"
+KHO_nihilistic_extremism_ADJ:0 "Khorasani"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

@@ -41,6 +41,7 @@ leader_traits = {
 	social_liberal = {}
 	classic_liberal = {}
 	social_conservative = {}
+	christian_democrat = {}
 	authoritarian_democrat = {}
 	utilitarian_despot = {}
 	national_syndicalist = {}

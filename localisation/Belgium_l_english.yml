@@ -34,8 +34,8 @@ BEL_democratic:0 "Kingdom of Belgium"
 BEL_democratic_DEF:0 "Kingdom of Belgium"
 BEL_neutrality:1 "Kingdom of Belgium"
 BEL_neutrality_DEF:1 "the Kingdom of Belgium"
-BEL_reformist_socialist:0 "Belgian People's Republic"
-BEL_reformist_socialist_DEF:0 "Belgian People's Republic"
+BEL_reformist_socialist:0 "Kingdom of Belgium"
+BEL_reformist_socialist_DEF:0 "the Kingdom of Belgium"
 BEL_social_democrat:0 "Kingdom of Belgium"
 BEL_social_democrat_DEF:0 "Kingdom of Belgium"
 BEL_social_liberal:0 "Kingdom of Belgium"
@@ -59,7 +59,24 @@ BEL_communism_ADJ:0 "Belgian"
 
 
 #Ministers
-#should be reintegrated
+BEL_Paul_Zeeland_hog:0 "Paul van Zeeland"
+BEL_Jane_Brigode_hog:0 "Jane Brigode"
+BEL_Emile_Vandervelde_hog:0 "Emile Vandervelde"
+
+BEL_Paul_Zeeland_frm:0 "Paul van Zeeland"
+BEL_Edmond_Rubbens_frm:0 "Edmond Rubbens"
+BEL_Paul_Spaak_frm:0 "Paul-Henri Spaak"
+
+BEL_Philip_Isacker_eco:0 "Philip Van Isacker"
+BEL_Francois_Bovesse_eco:0 "François Bovesse"
+BEL_Achille_Delattre_eco:0 "Achille Delattre"
+BEL_Julien_Lahaut_eco:0 "Julien Lahaut"
+
+BEL_Charles_Warnaffe_int:0 "Charles du Bus de Warnaffe"
+BEL_Eugene_Soudan_int:0 "Eugene Sudan"
+BEL_August_Schryver_int:0 "August De Schryver"
+BEL_Octave_Dierckx_int:0 "Octave Dierckx"
+BEL_Joseph_Jacquemotte_int:0 "Joseph Jacquemotte"
 
 
  
@@ -68,5 +85,3 @@ BEL_communism_ADJ:0 "Belgian"
 
 #Events
 #should be reintegrated
-###French Togo###
-#Parties

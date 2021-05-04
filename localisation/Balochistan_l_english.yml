@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+BLC_fascism_party:0 ""
+BLC_fascism_party_long:0 ""
+BLC_communism_party:0 ""
+BLC_communism_party_long:0 ""
+BLC_democratic_party:1 ""
+BLC_democratic_party_long:0 ""
+BLC_utilitarian_despot_party:0 "Baloch Dynasty"
+BLC_utilitarian_despot_party_long:0 "Baloch Dynasty"
+BLC_neutrality_party:0 ""
+BLC_neutrality_party_long:0 ""
+BLC_social_democrat_party:0 ""
+BLC_social_democrat_party_long:0 ""
+BLC_social_liberal_party:0 ""
+BLC_social_liberal_party_long:0 ""
+BLC_classic_liberal_party:0 ""
+BLC_classic_liberal_party_long:0 ""
+BLC_libertarian_socialist_party:0 ""
+BLC_libertarian_socialist_party_long:0 ""
+BLC_revolutionary_socialism_party:0 ""
+BLC_revolutionary_socialism_party_long:0 ""
+BLC_reformist_socialist_party:0 ""
+BLC_reformist_socialist_party_long:0 ""
+BLC_nihilistic_extremism_party:0 ""
+BLC_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+BLC_fascism:0 "Kingdom of Balochistan"
+BLC_fascism_DEF:0 "Kingdom of Balochistan"
+BLC_libertarian_socialist:0 "Socialist Republic of Balochistan"
+BLC_libertarian_socialist_DEF:0 "Socialist Republic of Balochistan"
+BLC_utilitarian_despot:0 "Kingdom of Balochistan"
+BLC_utilitarian_despot_DEF:0 "the Kingdom of Balochistan"
+BLC_democratic:0 "Kingdom of Balochistan"
+BLC_democratic_DEF:0 "Kingdom of Balochistan"
+BLC_neutrality:1 "Kingdom of Balochistan"
+BLC_neutrality_DEF:1 "the Kingdom of Balochistan"
+BLC_reformist_socialist:0 "Socialist Republic of Balochistan"
+BLC_reformist_socialist_DEF:0 "Socialist Republic of Balochistan"
+BLC_social_democrat:0 "Kingdom of Balochistan"
+BLC_social_democrat_DEF:0 "Kingdom of Balochistan"
+BLC_social_liberal:0 "Kingdom of Balochistan"
+BLC_social_liberal_DEF:0 "Kingdom of Balochistan"
+BLC_classic_liberal:0 "Kingdom of Balochistan"
+BLC_classic_liberal_DEF:0 "Kingdom of Balochistan"
+BLC_communism:0 "Socialist Republic of Balochistan"
+BLC_communism_DEF:0 "Socialist Republic of Balochistan"
+BLC_nihilistic_extremism:0 "-"
+BLC_nihilistic_extremism_DEF:0 "-"
+ 
+BLC_fascism_ADJ:0 "Baloch"
+BLC_fascism_ADJ:0 "Baloch"
+BLC_libertarian_socialist_ADJ:0 "Baloch"
+BLC_democratic_ADJ:0 "Baloch"
+BLC_utilitarian_despot_ADJ:0 "Baloch"
+BLC_reformist_socialist_ADJ:0 "Baloch"
+BLC_neutrality_ADJ:0 "Baloch"
+BLC_social_democrat_ADJ:0 "Baloch"
+BLC_social_liberal_ADJ:0 "Baloch"
+BLC_classic_liberal_ADJ:0 "Baloch"
+BLC_communism_ADJ:0 "Baloch"
+BLC_nihilistic_extremism_ADJ:0 "Baloch"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

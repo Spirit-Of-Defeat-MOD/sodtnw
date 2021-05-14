@@ -152,7 +152,7 @@ ideas = {
 				original_tag = SER
 				NOT = {
 					OR = {
-						has_government = communis
+						has_government = communism
 						has_government = reformist_socialist
 						has_government = libertarian_socialist
 					}
@@ -209,7 +209,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = authoritarian_democrat
+				has_government = neutrality
 			}
 
 			removal_cost = -1
@@ -247,13 +247,13 @@ ideas = {
 			
 			allowed = {
 				original_tag = SER
-				has_government = authoritarian_democrat
+				has_government = neutrality
 			}
 
 			picture = SER_illegitimate_regime
 
 			allowed_civil_war = {
-				has_government = authoritarian_democrat
+				has_government = neutrality
 			}
 
 			removal_cost = -1

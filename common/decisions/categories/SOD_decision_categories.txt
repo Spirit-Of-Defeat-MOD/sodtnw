@@ -100,3 +100,12 @@ TUR_icw = {
 }
 
 SOD_border_clash = {}
+
+##Malian Jihad
+Tijani_jihad = {
+	allowed = {
+		original_tag = MLI
+	}
+	
+	priority = 90
+}

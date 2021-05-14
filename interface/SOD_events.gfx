@@ -1,0 +1,21 @@
+spriteTypes = {
+	#########################################
+	###            SOD EVENTS             ###
+	#########################################
+	###   FOR MINOR COUNTRIES WITH A      ###
+	### SMALL NUMBER OF EVENTS			  ###
+	#########################################
+	
+	###Blegium
+	#Intro
+	spriteType = {
+		name = "GFX_report_event_BEL_intro"
+		texturefile = "gfx/event_pictures/BEL/GFX_report_event_BEL_intro.dds"
+	}
+	
+	#1936 elections
+	spriteType = {
+		name = "GFX_report_event_1936_election"
+		texturefile = "gfx/event_pictures/BEL/GFX_report_event_1936_election.dds"
+	}
+}

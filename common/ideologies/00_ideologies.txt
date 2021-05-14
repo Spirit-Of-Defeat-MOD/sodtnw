@@ -409,7 +409,6 @@ ideologies = {
 		modifiers = {
 			join_faction_tension = 0.80
 			generate_wargoal_tension = 0.25
-			generate_wargoal_tension = 0.5
 			guarantee_tension = 0.5
 			civilian_intel_to_others = 10.0
 			army_intel_to_others = 7.5

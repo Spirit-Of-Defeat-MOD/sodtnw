@@ -146,53 +146,6 @@ ideas = {
 		}
 	}
 	
-	security_minister = { ### Minister of Security ###
-		GER_Otto_Lossow_sec = {
-			allowed = { original_tag = GER }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Otto_Lossow_dead }
-					has_country_flag = can_replace_minister
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Otto_Lossow_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_hog"
-			}
-			traits = {
-				security_minister
-				utilitarian_despot
-				sec_devout_nationalist
-			}
-			cancel_if_invalid = yes
-		}
-
-		GER_Ernst_Rohm_sec = {
-			allowed = { original_tag = GER }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Ernst_Rohm_dead }
-					has_country_flag = can_replace_minister
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Ernst_Rohm_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Rohm_hog"
-			}
-			traits = {
-				security_minister
-				national_collectivist
-				sec_radical_militarist
-			}
-			cancel_if_invalid = yes
-		}
-	}
 	
 	interior_minister = { ### Head of Mil Intel ###
 		GER_Ferdinand_Bredow_int = {
@@ -215,6 +168,52 @@ ideas = {
 				utilitarian_despot
 				int_brash_buffoon
 				
+			}
+			cancel_if_invalid = yes
+		}
+		
+		GER_Otto_Lossow_sec = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Otto_Lossow_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Otto_Lossow_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_hog"
+			}
+			traits = {
+				interior_minister
+				utilitarian_despot
+				sec_devout_nationalist
+			}
+			cancel_if_invalid = yes
+		}
+
+		GER_Ernst_Rohm_sec = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ernst_Rohm_dead }
+					has_country_flag = can_replace_minister
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ernst_Rohm_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Rohm_hog"
+			}
+			traits = {
+				interior_minister
+				national_collectivist
+				sec_radical_militarist
 			}
 			cancel_if_invalid = yes
 		}

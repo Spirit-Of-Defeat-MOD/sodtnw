@@ -1,0 +1,24 @@
+###########################
+# Mali Events
+###########################
+
+add_namespace = mali
+
+Timbuktu Frontier
+country_event = {
+	id = mali.1
+	title = mali.1.t	# Freedom for ANG
+	desc = mali.1.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #Annex State
+		name = mali.1.a
+		ai_chance = {
+			base = 100
+		}
+		MLI = { transfer_state = 818 transfer_state = 821 transfer_state = 782 }
+		set_country_flag = timbuktu_conquered
+	}		
+}

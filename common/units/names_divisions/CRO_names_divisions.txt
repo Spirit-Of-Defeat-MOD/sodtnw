@@ -31,6 +31,7 @@
 		19 = { "%d. Pesadijska Divizija" }
 	}
 }
+
 CRO_DOB_01 = {
 	name = "Volunteer Divisions"
 
@@ -270,7 +271,7 @@ CRO_MTN_01 = {
 
 	division_types = { "mountaineers" }
 
-	link_numbering_with = { CRO_INF_01 }
+	link_numbering_with = { ﻿CRO_INF_01 }
 
 	fallback_name = "%d. Hrvatska (Gorska) Divizija"
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_489" # Zulia
 	manpower = 1576373
 	
-	state_category = town
+	state_category = c6
 	
 	resources={
 		oil=35 # was: 126

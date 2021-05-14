@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+EST_fascism_party:0 ""
+EST_fascism_party_long:0 ""
+EST_communism_party:0 ""
+EST_communism_party_long:0 ""
+EST_democratic_party:1 ""
+EST_democratic_party_long:0 ""
+EST_utilitarian_despot_party:0 ""
+EST_utilitarian_despot_party_long:0 ""
+EST_neutrality_party:0 ""
+EST_neutrality_party_long:0 ""
+EST_social_democrat_party:0 ""
+EST_social_democrat_party_long:0 ""
+EST_social_liberal_party:0 ""
+EST_social_liberal_party_long:0 ""
+EST_classic_liberal_party:0 ""
+EST_classic_liberal_party_long:0 ""
+EST_libertarian_socialist_party:0 ""
+EST_libertarian_socialist_party_long:0 ""
+EST_reformist_socialist_party:0 ""
+EST_reformist_socialist_party_long:0 ""
+
+#Country Names
+EST_fascism:0 "Republic of Estonia"
+EST_fascism_DEF:0 "the Republic of Estonia"
+EST_libertarian_socialist:0 "Soviet Republic of Estonia"
+EST_libertarian_socialist_DEF:0 "Soviet Republic of Estonia"
+EST_utilitarian_despot:0 "Republic of Estonia"
+EST_utilitarian_despot_DEF:0 "the Republic of Estonia"
+EST_democratic:0 "Republic of Estonia"
+EST_democratic_DEF:0 "the Republic of Estonia"
+EST_neutrality:1 "Republic of Estonia"
+EST_neutrality_DEF:1 "the Republic of Estonia"
+EST_reformist_socialist:0 "Soviet Republic of Estonia"
+EST_reformist_socialist_DEF:0 "Soviet Republic of Estonia"
+EST_social_democrat:0 "Republic of Estonia"
+EST_social_democrat_DEF:0 "the Republic of Estonia"
+EST_social_liberal:0 "Republic of Estonia"
+EST_social_liberal_DEF:0 "the Republic of Estonia"
+EST_classic_liberal:0 "Republic of Estonia"
+EST_classic_liberal_DEF:0 "the Republic of Estonia"
+EST_communism:0 "Soviet Republic of Estonia"
+EST_communism_DEF:0 "Soviet Republic of Estonia"
+ 
+EST_fascism_ADJ:0 "Estonian"
+EST_fascism_ADJ:0 "Estonian"
+EST_libertarian_socialist_ADJ:0 "Estonian"
+EST_democratic_ADJ:0 "Estonian"
+EST_utilitarian_despot_ADJ:0 "Estonian"
+EST_reformist_socialist_ADJ:0 "Estonian"
+EST_neutrality_ADJ:0 "Estonian"
+EST_social_democrat_ADJ:0 "Estonian"
+EST_social_liberal_ADJ:0 "Estonian"
+EST_classic_liberal_ADJ:0 "Estonian"
+EST_communism_ADJ:0 "Estonian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Parties

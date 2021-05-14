@@ -1,0 +1,71 @@
+﻿l_english: 
+
+#Parties
+LIT_fascism_party:0 ""
+LIT_fascism_party_long:0 ""
+LIT_communism_party:0 ""
+LIT_communism_party_long:0 ""
+LIT_democratic_party:1 ""
+LIT_democratic_party_long:0 ""
+LIT_utilitarian_despot_party:0 ""
+LIT_utilitarian_despot_party_long:0 ""
+LIT_neutrality_party:0 ""
+LIT_neutrality_party_long:0 ""
+LIT_social_democrat_party:0 ""
+LIT_social_democrat_party_long:0 ""
+LIT_social_liberal_party:0 ""
+LIT_social_liberal_party_long:0 ""
+LIT_classic_liberal_party:0 ""
+LIT_classic_liberal_party_long:0 ""
+LIT_libertarian_socialist_party:0 ""
+LIT_libertarian_socialist_party_long:0 ""
+LIT_reformist_socialist_party:0 ""
+LIT_reformist_socialist_party_long:0 ""
+
+#Country Names
+LIT_fascism:0 "Lithuanian Republic"
+LIT_fascism_DEF:0 "the Lithuanian Republic"
+LIT_libertarian_socialist:0 "Soviet Republic of Lithuania"
+LIT_libertarian_socialist_DEF:0 "Soviet Republic of Lithuania"
+LIT_utilitarian_despot:0 "Lithuanian Republic"
+LIT_utilitarian_despot_DEF:0 "the Lithuanian Republic"
+LIT_democratic:0 "Lithuanian Republic"
+LIT_democratic_DEF:0 "the Lithuanian Republic"
+LIT_neutrality:1 "Lithuanian Republic"
+LIT_neutrality_DEF:1 "the Lithuanian Republic"
+LIT_reformist_socialist:0 "Soviet Republic of Lithuania"
+LIT_reformist_socialist_DEF:0 "Soviet Republic of Lithuania"
+LIT_social_democrat:0 "Lithuanian Republic"
+LIT_social_democrat_DEF:0 "the Lithuanian Republic"
+LIT_social_liberal:0 "Lithuanian Republic"
+LIT_social_liberal_DEF:0 "the Lithuanian Republic"
+LIT_classic_liberal:0 "Lithuanian Republic"
+LIT_classic_liberal_DEF:0 "the Lithuanian Republic"
+LIT_communism:0 "Soviet Republic of Lithuania"
+LIT_communism_DEF:0 "Soviet Republic of Lithuania"
+ 
+LIT_fascism_ADJ:0 "Lithuanian"
+LIT_fascism_ADJ:0 "Lithuanian"
+LIT_libertarian_socialist_ADJ:0 "Lithuanian"
+LIT_democratic_ADJ:0 "Lithuanian"
+LIT_utilitarian_despot_ADJ:0 "Lithuanian"
+LIT_reformist_socialist_ADJ:0 "Lithuanian"
+LIT_neutrality_ADJ:0 "Lithuanian"
+LIT_social_democrat_ADJ:0 "Lithuanian"
+LIT_social_liberal_ADJ:0 "Lithuanian"
+LIT_classic_liberal_ADJ:0 "Lithuanian"
+LIT_communism_ADJ:0 "Lithuanian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Parties

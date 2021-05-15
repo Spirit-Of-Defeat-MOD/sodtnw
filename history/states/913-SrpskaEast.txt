@@ -1,0 +1,23 @@
+
+state={
+	id=913
+	name="STATE_913" # Srpska-East
+	manpower = 224400
+	
+	state_category = c6
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 4
+		}
+		
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = SER
+	}
+
+	provinces={
+		606 953 982 11574 11741 11845
+	}
+}

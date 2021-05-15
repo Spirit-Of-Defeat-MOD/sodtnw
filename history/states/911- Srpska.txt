@@ -1,8 +1,8 @@
 
 state={
-	id=845
-	name="STATE_845"
-	manpower =547200
+	id=911
+	name="STATE_911"
+	manpower =510200
 	
 	
 	state_category = c5
@@ -13,18 +13,20 @@ state={
 
 	history={
 		owner = CRO
+	
 		victory_points = {
-			9894 3
+			6983 3
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		add_core_of = HRZ
+		add_core_of = SER
 	}
 
 	provinces={
-		6942 9894 11872
+		6619 6983 9588 9591
 	}
 }

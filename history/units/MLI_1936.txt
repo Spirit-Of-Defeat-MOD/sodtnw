@@ -5,6 +5,7 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 	}
 }
 
@@ -52,6 +53,31 @@ units = {
 	}
 	division = {
 		name = "Caliphs Division"
+		location = 4927
+		division_template = "Tijani Jihadists"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "3.Bamako Division"
+		location = 4927
+		division_template = "Tijani Jihadists"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "2. Tuareg Division"
+		location = 4927
+		division_template = "Tijani Jihadists"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "2. Caliphs Division"
 		location = 4927
 		division_template = "Tijani Jihadists"
 		start_experience_factor = 0.1

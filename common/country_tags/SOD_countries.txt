@@ -20,6 +20,9 @@ IEA = "countries/WestEurope.txt" #Italian East Africa
 TUA = "countries/African.txt" #Kel Ahaggar
 TRP = "countries/African.txt"  #Tripoli
 
+#Releasables
+
+
 
 ##Europe
 CHE = "countries/WestEurope.txt" #Chetniks

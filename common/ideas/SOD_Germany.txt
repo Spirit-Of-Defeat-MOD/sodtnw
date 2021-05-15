@@ -596,7 +596,6 @@ ideas = {
 			
 			modifier = {
 				communism_acceptance = 35
-				totalitarian_socialism_acceptance = 25
 			}
 		}
 
@@ -615,7 +614,6 @@ ideas = {
 			
 			modifier = {
 				communism_acceptance = -35
-				totalitarian_socialism_acceptance = -25
 			}
 		}
 

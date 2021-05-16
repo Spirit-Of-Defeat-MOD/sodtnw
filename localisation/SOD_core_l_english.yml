@@ -157,3 +157,9 @@ SOD_border_conflict_escalate_conflict:0 "Escalate Conflict"
 SOD_border_conflict_escalate_to_war:0 "Escalate to War"
 SOD_border_conflict_back_out_of_conflict:0 "Back out of Conflict"
 
+###Upgrades
+weapon_barrel_upgrade:0 "Barrel"
+weapon_muzzle_upgrade:0 "Muzzle"
+weapons_ammo_upgrade:0 "Ammunition"
+weapons_scope_upgrade:0 "Sight"
+

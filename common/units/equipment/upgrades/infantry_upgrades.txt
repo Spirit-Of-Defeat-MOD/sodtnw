@@ -1,0 +1,59 @@
+upgrades = {
+
+	weapon_barrel_upgrade = {
+		max_level = 3
+		cost = land
+		
+		soft_attack = 0.15
+		reliability = -0.02
+		build_cost_ic = 0.05
+		
+	}
+	
+	weapon_muzzle_upgrade = {
+		max_level = 5
+		cost = land
+		
+		soft_attack = 0.05
+		maximum_speed = -0.02
+		reliability = -0.02
+		build_cost_ic = 0.03
+		
+	}
+	weapons_ammo_upgrade = {
+		max_level = 3
+		cost = land
+		
+		soft_attack = 1
+		hard_attack = 0.5
+		reliability = -0.03
+		build_cost_ic = 0.04
+	}
+	weapons_scope_upgrade = {
+		max_level = 1
+		cost = land
+		
+		soft_attack = 0.1
+		defense = 2
+		build_cost_ic = 0.04
+	}
+
+#	flamethrower_capacity_upgrade = {
+#		max_level = 4
+#		cost = land
+#		
+#		fuel_capacity = 0.05
+#		soft_attack = 0.1
+#		reliability = -0.05
+#		breakthrough = -0.02
+#	}
+#	flamethrower_range_upgrade = {
+#		max_level = 2
+#		cost = land
+#		
+#		fuel_consumption = 0.02
+#		reliability = 0.02
+#		breakthrough = 0.05
+#	}
+
+}

@@ -5,7 +5,7 @@ state=
 	manpower = 150000
 	
 	
-	state_category = rural
+	state_category = c5
 	
 	history = {
 		victory_points = {

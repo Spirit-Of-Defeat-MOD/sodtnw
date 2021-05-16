@@ -10,9 +10,6 @@ state=
 		owner = IEA
 		add_core_of = IEA
 		add_core_of = SOM
-		victory_points = {
-			12991 3 
-		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1

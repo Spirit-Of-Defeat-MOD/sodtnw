@@ -29,6 +29,8 @@ CHE = "countries/WestEurope.txt" #Chetniks
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
 LAJ = "countries/WestEurope.txt" #Lajtabánság
+DAN = "countries/WestEurope.txt" #Danzig
+MEM = "countries/WestEurope.txt" #Memel
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir

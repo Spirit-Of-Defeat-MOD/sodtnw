@@ -3,7 +3,7 @@ state={
 	name="STATE_842"
 	manpower = 1218780
 
-	state_category=rural
+	state_category=c4
 
 	history={
 		owner = BUL

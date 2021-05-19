@@ -6,10 +6,10 @@ state={
 	}
 	manpower=1000000
 	resources={
-		steel=19 # was: 60
-		aluminium=7 # was: 20
+		steel=60 # was: 60
+		aluminium=20 # was: 20
 	}
-	state_category = city
+	state_category = c5
 	history={
 		victory_points = {
 			6464 5

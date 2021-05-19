@@ -7,7 +7,7 @@ state={
 		oil = 2 # was: 4
 	}
 
-	state_category = city
+	state_category = c7
 
 	history={
 		owner = CZE

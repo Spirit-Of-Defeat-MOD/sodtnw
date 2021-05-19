@@ -4,7 +4,7 @@ state={
 	manpower = 2106500
 	
 	
-	state_category = city
+	state_category = c6
 	history={
 		owner = POL
 		victory_points = {

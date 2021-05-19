@@ -38,22 +38,4 @@ upgrades = {
 		build_cost_ic = 0.04
 	}
 
-#	flamethrower_capacity_upgrade = {
-#		max_level = 4
-#		cost = land
-#		
-#		fuel_capacity = 0.05
-#		soft_attack = 0.1
-#		reliability = -0.05
-#		breakthrough = -0.02
-#	}
-#	flamethrower_range_upgrade = {
-#		max_level = 2
-#		cost = land
-#		
-#		fuel_consumption = 0.02
-#		reliability = 0.02
-#		breakthrough = 0.05
-#	}
-
 }

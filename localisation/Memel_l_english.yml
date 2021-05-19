@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+MEM_fascism_party:0 "SOVOG" 
+MEM_fascism_party_long:0 "Sozialistische Volksgemeinschaft"
+MEM_communism_party:0 "MAP"
+MEM_communism_party_long:0 "Memelländische Arbeiterpartei"
+MEM_democratic_party:1 "MVP"
+MEM_democratic_party_long:0 "Memelländische Volkspartei"
+MEM_utilitarian_despot_party:0 "LVP" #Radical Klaipėdan unionists
+MEM_utilitarian_despot_party_long:0 "Lietuvos vienybės partija"
+MEM_neutrality_party:0 "LON"
+MEM_neutrality_party_long:0 "League of Nations High Commission"
+MEM_social_democrat_party:0 "SPM"
+MEM_social_democrat_party_long:0 "Sozialdemokratische Partei des Memelgebietes"
+MEM_social_liberal_party:0 "MLP"
+MEM_social_liberal_party_long:0 "Memelländische Landwirtschaftspartei"
+MEM_classic_liberal_party:0 ""
+MEM_classic_liberal_party_long:0 ""
+MEM_libertarian_socialist_party:0 ""
+MEM_libertarian_socialist_party_long:0 ""
+MEM_reformist_socialist_party:0 ""
+MEM_reformist_socialist_party_long:0 ""
+MEM_nihilistic_extremism_party:0 ""
+MEM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+MEM_fascism:0 "Klaipėda Region"
+MEM_fascism_DEF:0 "the Klaipėda Region"
+MEM_libertarian_socialist:0 "Memel Soviet Republic"
+MEM_libertarian_socialist_DEF:0 "Memel Soviet Republic"
+MEM_utilitarian_despot:0 "Klaipėda Region"
+MEM_utilitarian_despot_DEF:0 "the Klaipėda Region"
+MEM_democratic:0 "Klaipėda Region"
+MEM_democratic_DEF:0 "the Klaipėda Region"
+MEM_neutrality:1 "Klaipėda Region"
+MEM_neutrality_DEF:1 "the Klaipėda Region"
+MEM_reformist_socialist:0 "Memel Soviet Republic"
+MEM_reformist_socialist_DEF:0 "Memel Soviet Republic"
+MEM_social_democrat:0 "Klaipėda Region"
+MEM_social_democrat_DEF:0 "the Klaipėda Region"
+MEM_social_liberal:0 "Klaipėda Region"
+MEM_social_liberal_DEF:0 "the Klaipėda Region"
+MEM_classic_liberal:0 "Klaipėda Region"
+MEM_classic_liberal_DEF:0 "the Klaipėda Region"
+MEM_communism:0 "Memel Soviet Republic"
+MEM_communism_DEF:0 "Memel Soviet Republic"
+MEM_nihilistic_extremism:0 "Klaipėdos krastas"
+MEM_nihilistic_extremism_DEF:0 "Klaipėdos krastas"
+ 
+MEM_fascism_ADJ:0 "Klaipėdan"
+MEM_fascism_ADJ:0 "Klaipėdan"
+MEM_libertarian_socialist_ADJ:0 "Klaipėdan"
+MEM_democratic_ADJ:0 "Klaipėdan"
+MEM_utilitarian_despot_ADJ:0 "Klaipėdan"
+MEM_reformist_socialist_ADJ:0 "Klaipėdan"
+MEM_neutrality_ADJ:0 "Klaipėdan"
+MEM_social_democrat_ADJ:0 "Klaipėdan"
+MEM_social_liberal_ADJ:0 "Klaipėdan"
+MEM_classic_liberal_ADJ:0 "Klaipėdan"
+MEM_communism_ADJ:0 "Klaipėdan"
+MEM_nihilistic_extremism_ADJ:0 "Klaipėdan"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Parties

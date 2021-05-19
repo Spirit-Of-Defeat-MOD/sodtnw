@@ -6,9 +6,9 @@ state={
 		victory_points = {
 			11411 1
 		}
-		#victory_points = {
-		#	6483 1
-		#}
+		victory_points = {
+			6483 1
+		}
 		owner = POL
 		buildings = {
 			infrastructure = 5
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=2180300
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=c5
 }

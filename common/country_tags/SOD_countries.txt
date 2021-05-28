@@ -20,9 +20,6 @@ IEA = "countries/WestEurope.txt" #Italian East Africa
 TUA = "countries/African.txt" #Kel Ahaggar
 TRP = "countries/African.txt"  #Tripoli
 
-#Releasables
-
-
 
 ##Europe
 CHE = "countries/WestEurope.txt" #Chetniks
@@ -46,6 +43,10 @@ AZD = "countries/MiddleEast.txt" #Azadistan
 BLC = "countries/MiddleEast.txt" #Balochistan
 GIL = "countries/MiddleEast.txt" #Gilan
 KHO = "countries/MiddleEast.txt" #Khorasan
+
+#China
+HOT = "countries/MiddleEast.txt" #Hotan Sultanate
+KUM = "countries/Asian.txt"	#Kumul Khanate
 
 
 

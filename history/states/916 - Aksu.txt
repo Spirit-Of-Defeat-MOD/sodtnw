@@ -1,0 +1,23 @@
+
+state={
+	id=916
+	name="STATE_916" # Yarkand
+	manpower = 695000
+	
+	state_category = c2
+	
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		4828 7949 1703 4682
+	}
+}

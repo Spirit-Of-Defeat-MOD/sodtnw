@@ -109,3 +109,20 @@ Tijani_jihad = {
 	
 	priority = 90
 }
+
+SIK_power_struggle = {
+	priority = 90
+	icon = spr_the_inevitable_civil_war
+
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+
+	allowed = {
+		original_tag = SIK
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		has_country_flag = yang_zengxin_dead
+	}
+}

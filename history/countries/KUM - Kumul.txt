@@ -1,0 +1,87 @@
+﻿capital = 760 # Qumul
+
+oob = "KUM"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = utilitarian_despot
+	last_election = "1918.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    utilitarian_despot = 100
+}
+
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxist_leninist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = reformist_socialist_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_liberal_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = classic_liberal_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_conservative
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Yulbars Khan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		12526 12601 7866  7850
+	}
+	manpower=515082
+	buildings_max_level_factor=1.000
+	state_category=c3
+}

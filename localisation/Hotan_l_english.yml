@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+HOT_fascism_party:0 "CNR-M"
+HOT_fascism_party_long:0 "Committee for National Revolution -  Muhammad Faction"
+HOT_communism_party:0 ""
+HOT_communism_party_long:0 ""
+HOT_democratic_party:1 "CNR-NA"
+HOT_democratic_party_long:0 "Committee for National Revolutiony -  Nur Ahmad Faction"
+HOT_utilitarian_despot_party:0 "Ottoman dynasty"
+HOT_utilitarian_despot_party_long:0 "Ottoman dynasty"
+HOT_neutrality_party:0 "CNR-A"
+HOT_neutrality_party_long:0 "Committee for National Revolution - Abdullah Faction"
+HOT_social_democrat_party:0 ""
+HOT_social_democrat_party_long:0 ""
+HOT_social_liberal_party:0 ""
+HOT_social_liberal_party_long:0 ""
+HOT_classic_liberal_party:0 ""
+HOT_classic_liberal_party_long:0 ""
+HOT_libertarian_socialist_party:0 ""
+HOT_libertarian_socialist_party_long:0 ""
+HOT_revolutionary_socialism_party:0 ""
+HOT_revolutionary_socialism_party_long:0 ""
+HOT_reformist_socialist_party:0 ""
+HOT_reformist_socialist_party_long:0 ""
+HOT_nihilistic_extremism_party:0 ""
+HOT_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+HOT_fascism:0 "Sultanate of Uyghurstan"
+HOT_fascism_DEF:0 "the Sultanate of Uyghurstan"
+HOT_libertarian_socialist:0 "Republic of Southern Xinjiang"
+HOT_libertarian_socialist_DEF:0 "Republic of Southern Xinjiang"
+HOT_utilitarian_despot:0 "Ottoman Sultanate of Hotan"
+HOT_utilitarian_despot_DEF:0 "the Ottoman Sultanate of Hotan"
+HOT_democratic:0 "Kingdom of East Turkestan"
+HOT_democratic_DEF:0 "Kingdom of East Turkestan"
+HOT_neutrality:1 "Emirate of Hotan"
+HOT_neutrality_DEF:1 "the Emirate of Hotan"
+HOT_reformist_socialist:0 "Republic of Southern Xinjiang"
+HOT_reformist_socialist_DEF:0 "Republic of Southern Xinjiang"
+HOT_social_democrat:0 "Republic of Hotan"
+HOT_social_democrat_DEF:0 "Republic of Hotan"
+HOT_social_liberal:0 "Republic of Hotan"
+HOT_social_liberal_DEF:0 "Republic of Hotan"
+HOT_classic_liberal:0 "Republic of Hotan"
+HOT_classic_liberal_DEF:0 "Republic of Hotan"
+HOT_communism:0 "Republic of Southern Xinjiang"
+HOT_communism_DEF:0 "Republic of Southern Xinjiang"
+HOT_nihilistic_extremism:0 "State of Uyghers"
+HOT_nihilistic_extremism_DEF:0 "State of Uyghers"
+ 
+HOT_fascism_ADJ:0 "Hotani"
+HOT_fascism_ADJ:0 "Hotani"
+HOT_libertarian_socialist_ADJ:0 "Hotani"
+HOT_democratic_ADJ:0 "Hotani"
+HOT_utilitarian_despot_ADJ:0 "Hotani"
+HOT_reformist_socialist_ADJ:0 "Hotani"
+HOT_neutrality_ADJ:0 "Hotani"
+HOT_social_democrat_ADJ:0 "Hotani"
+HOT_social_liberal_ADJ:0 "Hotani"
+HOT_classic_liberal_ADJ:0 "Hotani"
+HOT_communism_ADJ:0 "Hotani"
+HOT_nihilistic_extremism_ADJ:0 "Hotani"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

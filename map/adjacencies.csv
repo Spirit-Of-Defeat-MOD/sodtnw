@@ -178,5 +178,35 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10892;10748;impassable;-1;-1;-1;-1;-1;;arabia road
 10892;8004;impassable;-1;-1;-1;-1;-1;;arabia road
 12813;12870;impassable;-1;-1;-1;-1;-1;;arabia road
+10885;10614;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;8042;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;10545;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;7792;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;12524;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;5736;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;2074;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;1698;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;4947;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;12820;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;7732;impassable;-1;-1;-1;-1;-1;;Turpan
+10885;12656;impassable;-1;-1;-1;-1;-1;;Turpan
+1838;7732;impassable;-1;-1;-1;-1;-1;;Hami
+1838;4704;impassable;-1;-1;-1;-1;-1;;Hami
+1838;4843;impassable;-1;-1;-1;-1;-1;;Hami
+1838;12820;impassable;-1;-1;-1;-1;-1;;Hami
+12737;10691;impassable;-1;-1;-1;-1;-1;;Altay
+12737;1844;impassable;-1;-1;-1;-1;-1;;Altay
+12737;12590;impassable;-1;-1;-1;-1;-1;;Altay
+12737;7693;impassable;-1;-1;-1;-1;-1;;Altay
+12737;4823;impassable;-1;-1;-1;-1;-1;;Altay
+12737;10674;impassable;-1;-1;-1;-1;-1;;Altay
+4714;4849;impassable;-1;-1;-1;-1;-1;;Altay
+4714;13363;impassable;-1;-1;-1;-1;-1;;Altay
+4714;13364;impassable;-1;-1;-1;-1;-1;;Altay
+4714;7737;impassable;-1;-1;-1;-1;-1;;Altay
+4714;10674;impassable;-1;-1;-1;-1;-1;;Altay
+4714;4788;impassable;-1;-1;-1;-1;-1;;Altay
+4714;8086;impassable;-1;-1;-1;-1;-1;;Altay
+4714;5016;impassable;-1;-1;-1;-1;-1;;Altay
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

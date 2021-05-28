@@ -1,0 +1,24 @@
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = KUM
+		add_core_of = SIK
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13366 13367
+	}
+	manpower=24783
+	buildings_max_level_factor=1.000
+	state_category=c2
+}

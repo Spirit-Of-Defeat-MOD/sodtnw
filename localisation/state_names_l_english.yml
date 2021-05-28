@@ -615,9 +615,9 @@
  STATE_614:0 "Hebei"
  STATE_615:0 "Shanxi"
  STATE_616:0 "Ningxia"
- STATE_617:0 "Urumqi"
- STATE_618:0 "Dzungaria"
- STATE_619:0 "Yarkand"
+ STATE_617:0 "Urumqi" #Ürümchi
+ STATE_618:0 "Altay"
+ STATE_619:0 "Kashgar" #Qeshqer 
  STATE_620:0 "Hubei"
  STATE_621:0 "Suiyuan"
  STATE_622:0 "Shaanxi"
@@ -757,8 +757,8 @@
  STATE_756:0 "Jiuquan"
  STATE_757:0 "Shigatse"
  STATE_758:0 "Ngari"
- STATE_759:1 "Kunlun Shan"
- STATE_760:0 "Dabancheng"
+ STATE_759:1 "Bayingolin"
+ STATE_760:0 "Hami"
  STATE_761:0 "Hulunbuir"
  STATE_762:1 "Katowice"
  STATE_763:0 "Königsberg"
@@ -913,3 +913,13 @@ STATE_911:0 "Krajina"
 STATE_912:0 "Sarajevo"
 STATE_913:0 "Srpska"
 STATE_914:0 "Polog"
+STATE_915:0 "Danzig"
+STATE_916:0 "Aksu" #Aqsu
+STATE_917:0 "Hotan" #Hoten
+STATE_918:0 "Bayan-Olgii"
+STATE_919:0 "Yiwu" #Ara Türük
+STATE_920:0 "South Khovd"
+STATE_921:0 "Turpan"
+STATE_922:0 "Aksai Chin"
+STATE_923:0 "Ili"
+STATE_924:0 "Tacheng"

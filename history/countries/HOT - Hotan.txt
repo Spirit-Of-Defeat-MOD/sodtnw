@@ -1,0 +1,62 @@
+﻿capital = 917
+
+oob = "HOT"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = utilitarian_despot
+	last_election = "1918.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    utilitarian_despot = 40
+	fascism = 20
+	democratic = 20
+	neutrality = 20
+}
+
+create_country_leader = {
+	name = "Nur Ahmad Jan"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_conservative
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Mehmed Abdulkerim I"
+	desc = "#"
+	picture = "Portrait_XIN_Sehzade_Mehmed_ Abdulkerim.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdullah"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Muhammad Amin"
+	desc = "#"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {
+		#
+	}
+}

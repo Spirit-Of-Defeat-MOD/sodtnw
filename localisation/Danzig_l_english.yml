@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+DAN_fascism_party:0 "" 
+DAN_fascism_party_long:0 ""
+DAN_communism_party:0 ""
+DAN_communism_party_long:0 ""
+DAN_democratic_party:1 ""
+DAN_democratic_party_long:0 ""
+DAN_utilitarian_despot_party:0 "" 
+DAN_utilitarian_despot_party_long:0 ""
+DAN_neutrality_party:0 ""
+DAN_neutrality_party_long:0 ""
+DAN_social_democrat_party:0 ""
+DAN_social_democrat_party_long:0 ""
+DAN_social_liberal_party:0 ""
+DAN_social_liberal_party_long:0 ""
+DAN_classic_liberal_party:0 ""
+DAN_classic_liberal_party_long:0 ""
+DAN_libertarian_socialist_party:0 ""
+DAN_libertarian_socialist_party_long:0 ""
+DAN_reformist_socialist_party:0 ""
+DAN_reformist_socialist_party_long:0 ""
+DAN_nihilistic_extremism_party:0 ""
+DAN_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+DAN_fascism:0 "Free City of Danzig"
+DAN_fascism_DEF:0 "the Free City of Danzig"
+DAN_libertarian_socialist:0 "Danzig Syndicates"
+DAN_libertarian_socialist_DEF:0 "Danzig Syndicates"
+DAN_utilitarian_despot:0 "Free City of Danzig"
+DAN_utilitarian_despot_DEF:0 "the Free City of Danzig"
+DAN_democratic:0 "Free City of Danzig"
+DAN_democratic_DEF:0 "the Free City of Danzig"
+DAN_neutrality:1 "Free City of Danzig"
+DAN_neutrality_DEF:1 "the Free City of Danzig"
+DAN_reformist_socialist:0 "Danzig Socialist Republic"
+DAN_reformist_socialist_DEF:0 "Danzig Socialist Republic"
+DAN_social_democrat:0 "Free City of Danzig"
+DAN_social_democrat_DEF:0 "the Free City of Danzig"
+DAN_social_liberal:0 "Free City of Danzig"
+DAN_social_liberal_DEF:0 "the Free City of Danzig"
+DAN_classic_liberal:0 "Free City of Danzig"
+DAN_classic_liberal_DEF:0 "the Free City of Danzig"
+DAN_communism:0 "Memel Soviet Republic"
+DAN_communism_DEF:0 "Memel Soviet Republic"
+DAN_nihilistic_extremism:0 "Free Territory of German Poland"
+DAN_nihilistic_extremism_DEF:0 "Free Territory of German Poland"
+ 
+DAN_fascism_ADJ:0 "Danzig"
+DAN_fascism_ADJ:0 "Danzig"
+DAN_libertarian_socialist_ADJ:0 "Danzig"
+DAN_democratic_ADJ:0 "Danzig"
+DAN_utilitarian_despot_ADJ:0 "Danzig"
+DAN_reformist_socialist_ADJ:0 "Danzig"
+DAN_neutrality_ADJ:0 "Danzig"
+DAN_social_democrat_ADJ:0 "Danzig"
+DAN_social_liberal_ADJ:0 "Danzig"
+DAN_classic_liberal_ADJ:0 "Danzig"
+DAN_communism_ADJ:0 "Danzig"
+DAN_nihilistic_extremism_ADJ:0 "Danzig"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Parties

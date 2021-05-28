@@ -1,0 +1,25 @@
+
+state={
+	id=917
+	name="STATE_917" # Yarkand
+	manpower = 408894
+	
+	state_category = c4
+	
+
+	history={
+		owner = HOT
+		add_core_of = HOT
+		add_core_of = SIK
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		1970 8112 4973 10911
+	}
+}

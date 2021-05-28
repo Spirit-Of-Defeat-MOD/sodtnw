@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+KUM_fascism_party:0 ""
+KUM_fascism_party_long:0 ""
+KUM_communism_party:0 ""
+KUM_communism_party_long:0 ""
+KUM_democratic_party:1 ""
+KUM_democratic_party_long:0 ""
+KUM_utilitarian_despot_party:0 "Kumul Regency"
+KUM_utilitarian_despot_party_long:0 "Kumul Regency"
+KUM_neutrality_party:0 ""
+KUM_neutrality_party_long:0 ""
+KUM_social_democrat_party:0 ""
+KUM_social_democrat_party_long:0 ""
+KUM_social_liberal_party:0 ""
+KUM_social_liberal_party_long:0 ""
+KUM_classic_liberal_party:0 ""
+KUM_classic_liberal_party_long:0 ""
+KUM_libertarian_socialist_party:0 ""
+KUM_libertarian_socialist_party_long:0 ""
+KUM_revolutionary_socialism_party:0 ""
+KUM_revolutionary_socialism_party_long:0 ""
+KUM_reformist_socialist_party:0 ""
+KUM_reformist_socialist_party_long:0 ""
+KUM_nihilistic_extremism_party:0 ""
+KUM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+KUM_fascism:0 "New Chagatai Khanate"
+KUM_fascism_DEF:0 "New Chagatai Khanate"
+KUM_libertarian_socialist:0 "Socialist Republic of Hami"
+KUM_libertarian_socialist_DEF:0 "Socialist Republic of Hami"
+KUM_utilitarian_despot:0 "Kumul Khanate"
+KUM_utilitarian_despot_DEF:0 "the Kumul Khanate"
+KUM_democratic:0 "Kumul Khanate"
+KUM_democratic_DEF:0 "Kumul Khanate"
+KUM_neutrality:1 "Kumul Khanate"
+KUM_neutrality_DEF:1 "the Kumul Khanate"
+KUM_reformist_socialist:0 "Socialist Republic of Hami"
+KUM_reformist_socialist_DEF:0 "Socialist Republic of Hami"
+KUM_social_democrat:0 "Kumul Khanate"
+KUM_social_democrat_DEF:0 "Kumul Khanate"
+KUM_social_liberal:0 "Kumul Khanate"
+KUM_social_liberal_DEF:0 "Kumul Khanate"
+KUM_classic_liberal:0 "Kumul Khanate"
+KUM_classic_liberal_DEF:0 "Kumul Khanate"
+KUM_communism:0 "Socialist Republic of Hami"
+KUM_communism_DEF:0 "Socialist Republic of Hami"
+KUM_nihilistic_extremism:0 "Uygher Khanate"
+KUM_nihilistic_extremism_DEF:0 "Uygher Khanate"
+ 
+KUM_fascism_ADJ:0 "Kumulik"
+KUM_fascism_ADJ:0 "Kumulik"
+KUM_libertarian_socialist_ADJ:0 "Kumulik"
+KUM_democratic_ADJ:0 "Kumulik"
+KUM_utilitarian_despot_ADJ:0 "Kumulik"
+KUM_reformist_socialist_ADJ:0 "Kumulik"
+KUM_neutrality_ADJ:0 "Kumulik"
+KUM_social_democrat_ADJ:0 "Kumulik"
+KUM_social_liberal_ADJ:0 "Kumulik"
+KUM_classic_liberal_ADJ:0 "Kumulik"
+KUM_communism_ADJ:0 "Kumulik"
+KUM_nihilistic_extremism_ADJ:0 "Kumulik"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

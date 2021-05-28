@@ -2,16 +2,16 @@ state={
 	id=760
 	name="STATE_760"
 	provinces={
-		1838 4704 4843 7732 10839 12524 12598 12671 
+		1838 4704 4843 7732 10839 12598 12671 
 	}
-	manpower=700000
+	manpower=547617
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = c4
 	history={
-		owner = SIK
+		owner = KUM
+		add_core_of = KUM
 		add_core_of = SIK
 		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

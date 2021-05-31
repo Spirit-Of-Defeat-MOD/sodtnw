@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
 	picture = "Portrait_SER_Rankovic.tga"
 	expire = "1965.1.1"
-	ideology = totalitarian_socialism_subtype
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
 	picture = "Portrait_SER_Rankovic.tga"
 	expire = "1965.1.1"
-	ideology = market_socialism
+	ideology = reformist_socialist_ideology
 	traits = {
 		#
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_NEDELJKO_DIVAC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_syndicalism
+	ideology = anarchist_syndicalist
 	traits = {
 		#
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_BOZIDAR_ADZIJA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialism_subtype
+	ideology = reformist_socialist_ideology
 	traits = {
 		#
 	}
@@ -125,7 +125,7 @@ create_country_leader = {
 	desc = "POLITICS_BOZIDAR_ADZIJA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy_subtype
+	ideology = social_democrat_ideology
 	traits = {
 		#
 	}
@@ -135,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_SVETOZAR_PRIBICEVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = social_liberal_ideology
 	traits = {
 		#
 	}
@@ -145,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_MILAN_GROL_DESC"
 	picture = "Portrait_Yugoslavia_Milan_Grol.dds"
 	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
+	ideology = market_liberalism
 	traits = {
 		#
 	}

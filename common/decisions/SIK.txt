@@ -1,0 +1,3 @@
+SIK_power_struggle = {
+	yang_sucessor = {}
+}

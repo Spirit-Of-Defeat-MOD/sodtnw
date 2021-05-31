@@ -1,0 +1,30 @@
+###########################
+# Xinjiang Events by kstar
+###########################
+add_namespace = xinjiang
+
+country_event = {
+	id = xinjiang.1
+    title = xinjiang.1.t
+	desc = xinjiang.1.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = xinjiang.1.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Ma Shaowu"
+			desc = ""
+			picture = "Portrait_SIK_Ma_Shaowu.tga"
+			expire = "1965.1.1"
+			ideology = warlord
+			traits = {
+			}
+		}
+		set_country_flag = yang_zengxin_dead
+	}
+}

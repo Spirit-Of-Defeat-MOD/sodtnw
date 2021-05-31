@@ -1,0 +1,22 @@
+
+state={
+	id=926
+	name="STATE_926"
+	manpower = 5139445
+	
+	state_category = c3
+
+	history={
+		owner = YUN
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces={
+		10819 5072 13373 4192  7606
+	}
+}

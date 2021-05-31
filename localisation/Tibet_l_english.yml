@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+TIB_fascism_party:0 "PBL"
+TIB_fascism_party_long:0 "Pan-Buddhist League"
+TIB_communism_party:0 "MTSC"
+TIB_communism_party_long:0 "Mongol-Tibetan Section of the Comintern" 
+TIB_democratic_party:1 "PCR(G)"
+TIB_democratic_party_long:0 "Pro-China Revolutionaries - Gendün Chöphel"
+TIB_utilitarian_despot_party:0 "Ganden Phodrang"
+TIB_utilitarian_despot_party_long:0 "Ganden Phodrang"
+TIB_neutrality_party:0 "Kashag"
+TIB_neutrality_party_long:0 "Kashag"
+TIB_social_democrat_party:0 "PCR(T)"
+TIB_social_democrat_party_long:0 "Pro-China Revolutionaries -  Thubten Kunphela"
+TIB_social_liberal_party:0 ""
+TIB_social_liberal_party_long:0 ""
+TIB_classic_liberal_party:0 "PCR(P)"
+TIB_classic_liberal_party_long:0 "Pro-China Revolutionaries - Pandatsang Rapga"
+TIB_libertarian_socialist_party:0 ""
+TIB_libertarian_socialist_party_long:0 ""
+TIB_reformist_socialist_party:0 "TDYL"
+TIB_reformist_socialist_party_long:0 "Tibetan Democratic Youth League" #led by Phuntsok Wangyal
+TIB_nihilistic_extremism_party:0 ""
+TIB_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+TIB_fascism:0 "Great Tibet"
+TIB_fascism_DEF:0 "Great Tibet"
+TIB_libertarian_socialist:0 "Tibet"
+TIB_libertarian_socialist_DEF:0 "Tibet"
+TIB_utilitarian_despot:0 "Tibet"
+TIB_utilitarian_despot_DEF:0 "Tibet"
+TIB_democratic:0 "Republic of Tibet"
+TIB_democratic_DEF:0 "Republic of Tibet"
+TIB_neutrality:1 "Tibet"
+TIB_neutrality_DEF:1 "Tibet"
+TIB_reformist_socialist:0 "Republic of Tibet"
+TIB_reformist_socialist_DEF:0 "Republic of Tibet"
+TIB_social_democrat:0 "Republic of Tibet"
+TIB_social_democrat_DEF:0 "Republic of Tibet"
+TIB_social_liberal:0 "Republic of Tibet"
+TIB_social_liberal_DEF:0 "Republic of Tibet"
+TIB_classic_liberal:0 "Republic of Tibet"
+TIB_classic_liberal_DEF:0 "Republic of Tibet"
+TIB_communism:0 "Socialist Republic of Tibet"
+TIB_communism_DEF:0 "Socialist Republic of Tibet"
+TIB_nihilistic_extremism:0 "Tibet"
+TIB_nihilistic_extremism_DEF:0 "Tibet"
+ 
+TIB_fascism_ADJ:0 "Tibetan"
+TIB_fascism_ADJ:0 "Tibetan"
+TIB_libertarian_socialist_ADJ:0 "Tibetan"
+TIB_democratic_ADJ:0 "Tibetan"
+TIB_utilitarian_despot_ADJ:0 "Tibetan"
+TIB_reformist_socialist_ADJ:0 "Tibetan"
+TIB_neutrality_ADJ:0 "Tibetan"
+TIB_social_democrat_ADJ:0 "Tibetan"
+TIB_social_liberal_ADJ:0 "Tibetan"
+TIB_classic_liberal_ADJ:0 "Tibetan"
+TIB_communism_ADJ:0 "Tibetan"
+TIB_nihilistic_extremism_ADJ:0 "Tibetan"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

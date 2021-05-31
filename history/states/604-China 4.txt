@@ -15,27 +15,12 @@ state={
 			industrial_complex = 2
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
 
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		4914 4964 7940 8018 8037 12899 
+		4914 4964 7940 8018 8037 12899 13371 13372
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000

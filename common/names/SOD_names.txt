@@ -25,8 +25,11 @@ ITM = {
 			Manlio Manuel Marcantonio Marcello Marco Mariano Mario Martino Martino Massimiliano Massimo Matteo Mattia Maurilio Maurizio Mauro Michelangelo Michele Micheletto Michelotto Milo Mirco Mirko Moreno
 			Nanni Napoleone Niccolò Nico Nicola Nicolò Nino Nunzio
 			Omero Orazio Oreste Orlando Osvaldo Ottavio Ottone
-			
+			Paolo Pasquale Pietro Prospero
 			Quirico Quirino
+			Raffaele Roberto Ruggiero
+			Silvio Simone
+			Tancredi
 			Ubaldo Uberto Ugo Ugolino Umberto
 			Valerio Venancio Vincentio Vincenzo Virgilio Vito Vittorio Vladimiro
 			Wladimiro
@@ -36,8 +39,23 @@ ITM = {
 	female = {
 		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
 	}
+	
 	surnames = {
-		"di Savoia"
+		Acton Albricci 
+		Badoglio Baldissera Baratieri Bava-Beccaris
+		Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani 
+		Dezza "di Robilant" "di Savoia"
+		Emo 
+		Fanti Fara Filomarino 
+		Garibaldi Giardino Govone 
+		"La Màrmora" Mambretti Menabrea 
+		Orengo 
+		Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero 
+		Ramorino Ricotti-Magnani 
+		Sacchi Saletta Sanna Solari 
+		Vaccari 
+		Zupelli
+	
 	
 	}
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
@@ -46,14 +64,14 @@ ITM = {
 AWS = {
 	male = {
 		names = {
-			Kadhafo Aydahis Hanfere Mahammad Yayyo Alimirah
+			Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
 		}
 			
 	female = {
 		names = {  }
 	}
 	surnames = {
-		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah"
+		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Hanfadh" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah" Mafatah
 		
 	}
 	callsigns = {  }

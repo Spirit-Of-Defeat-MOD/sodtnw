@@ -268,4 +268,84 @@ leader_traits = {
 
 		random = no
 	}
+	
+	
+	#####################
+	# Bulgarian Ministers-for bug fixing but can be used for anyone
+	#####################
+
+	tsars_puppet = {
+		random = no
+		sprite = 13
+		stability_weekly = 0.003
+		political_power_gain = 0.05
+	}
+
+	leader_of_the_agrarian_union = {
+		random = no
+		sprite = 13
+		democratic_drift = 0.05
+		political_power_factor = 0.1
+		global_building_slots_factor = 0.1
+		min_export = -0.1
+	}
+
+	industry_reformer = {
+		random = no
+		sprite = 10
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.05
+		consumer_goods_factor = -0.03
+	}
+
+	womens_rights_activist = {
+		random = no
+		sprite = 13
+		democratic_drift = 0.05
+		political_power_gain = 0.05
+		stability_weekly = 0.005
+	}
+
+	marxist_philosopher = {
+		random = no
+		sprite = 13
+		communism_drift = 0.05
+		political_power_factor = 0.1
+		research_speed_factor = 0.05
+	}
+
+	statism_adept = {
+		random = no
+		sprite = 13
+		fascism_drift = 0.05
+		political_power_factor = 0.1
+		consumer_goods_factor = -0.05
+	}
+
+	nazi_sympathizer = {
+		random = no
+		sprite = 13
+		fascism_drift = 0.1
+		opinion_gain_monthly_same_ideology_factor = 0.75
+	}
+
+	ambitious_negotiator_neutrality = { #This trait will be changed to fascist if Bulgaria becomes fascist or a Fascist Regency Council is formed (on_ruling_party_change)
+		random = no
+		sprite = 13
+		neutrality_drift = 0.05
+		political_power_factor = 0.1
+		opinion_gain_monthly_factor = 0.25
+		custom_modifier_tooltip = BUL_bogdan_filov_ideology_neutrality_tt
+		custom_modifier_tooltip = BUL_bogdan_filov_negotiations_tt
+	}
+
+	ambitious_negotiator_fascism = {
+		random = no
+		sprite = 13
+		fascism_drift = 0.05
+		political_power_factor = 0.1
+		opinion_gain_monthly_factor = 0.25
+		custom_modifier_tooltip = BUL_bogdan_filov_ideology_fascism_tt
+		custom_modifier_tooltip = BUL_bogdan_filov_negotiations_tt
+	}
 }

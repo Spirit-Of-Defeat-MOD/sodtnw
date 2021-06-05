@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+SDX_fascism_party:0 ""
+SDX_fascism_party_long:0 ""
+SDX_communism_party:0 "CCP"
+SDX_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+SDX_democratic_party:1 "KMT"
+SDX_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+SDX_utilitarian_despot_party:0 "30th Division"
+SDX_utilitarian_despot_party_long:0 "30th Division"
+SDX_neutrality_party:0 ""
+SDX_neutrality_party_long:0 ""
+SDX_social_democrat_party:0 "Left-KMT"
+SDX_social_democrat_party_long:0 "Zhōngguó Guómíndǎng"
+SDX_social_liberal_party:0 "KMT"
+SDX_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SDX_classic_liberal_party:0 "KMT"
+SDX_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SDX_libertarian_socialist_party:0 ""
+SDX_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+SDX_reformist_socialist_party:0 ""
+SDX_reformist_socialist_party_long:0 ""
+SDX_nihilistic_extremism_party:0 ""
+SDX_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SDX_fascism:0 "30th Division"
+SDX_fascism_DEF:0 "30th Division"
+SDX_libertarian_socialist:0 "30th Division"
+SDX_libertarian_socialist_DEF:0 "30th Division"
+SDX_utilitarian_despot:0 "30th Division"
+SDX_utilitarian_despot_DEF:0 "the 30th Division"
+SDX_democratic:0 "30th Division"
+SDX_democratic_DEF:0 "30th Division"
+SDX_neutrality:1 "30th Division"
+SDX_neutrality_DEF:1 "the 30th Division"
+SDX_reformist_socialist:0 "30th Division"
+SDX_reformist_socialist_DEF:0 "30th Division"
+SDX_social_democrat:0 "30th Division"
+SDX_social_democrat_DEF:0 "30th Division"
+SDX_social_liberal:0 "30th Division"
+SDX_social_liberal_DEF:0 "30th Division"
+SDX_classic_liberal:0 "30th Division"
+SDX_classic_liberal_DEF:0 "30th Division"
+SDX_communism:0 "30th Division"
+SDX_communism_DEF:0 "30th Division"
+SDX_nihilistic_extremism:0 "30th Division"
+SDX_nihilistic_extremism_DEF:0 "30th Division"
+ 
+SDX_fascism_ADJ:0 "Deng"
+SDX_fascism_ADJ:0 "Deng"
+SDX_libertarian_socialist_ADJ:0 "Deng"
+SDX_democratic_ADJ:0 "Deng"
+SDX_utilitarian_despot_ADJ:0 "Deng"
+SDX_reformist_socialist_ADJ:0 "Deng"
+SDX_neutrality_ADJ:0 "Deng"
+SDX_social_democrat_ADJ:0 "Deng"
+SDX_social_liberal_ADJ:0 "Deng"
+SDX_classic_liberal_ADJ:0 "Deng"
+SDX_communism_ADJ:0 "Deng"
+SDX_nihilistic_extremism_ADJ:0 "Deng"
+
+SDX_SZE_utilitarian_despot:0 "Sichuan Clique"
+SDX_SZE_utilitarian_despot_DEF:0 "Sichuan Clique"
+
+SDX_SZE_utilitarian_despot_party:0 "Sichuan Military Government"
+SDX_SZE_utilitarian_despot_party_long:0 "Sichuan Military Government"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

@@ -1,0 +1,27 @@
+
+state={
+	id=933
+	name="STATE_933"
+	manpower = 2678899
+	
+	state_category = c3
+
+	history={
+		owner = SLW
+		add_core_of = CHI
+		add_core_of = SLW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+
+	}
+
+	provinces={
+		6999
+		12705 13385
+		
+	}
+}

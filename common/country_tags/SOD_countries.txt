@@ -47,6 +47,15 @@ KHO = "countries/MiddleEast.txt" #Khorasan
 #China
 HOT = "countries/MiddleEast.txt" #Hotan Sultanate
 KUM = "countries/Asian.txt"	#Kumul Khanate
+GUI = "countries/Asian.txt"	#Guizhou Clique
+SDX = "countries/Asian.txt"	#Deng Xihou Clique
+SLC = "countries/Asian.txt"	#Liu Cunhou Clique
+SLW = "countries/Asian.txt"	#Liu Wenhui Clique
+SLX = "countries/Asian.txt"	#Liu Xiang Clique
+STS = "countries/Asian.txt"	#Tian Songyao Clique
+
+
+
 
 
 

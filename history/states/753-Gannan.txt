@@ -2,36 +2,20 @@ state={
 	id=753
 	name="STATE_753"
 	provinces={
-		1257 2045 4375 4403 5193 9966 10787 10903 
+		1257 4375 4403 9966 10787 10903 
 	}
-	manpower=3000000
+	manpower=919987
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = c4
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = SDX
 		add_core_of = CHI
-		add_core_of = PRC
-		victory_points = {
-			2045 1 
-		}
+		add_core_of = SDX
+
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 
-		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
 		}
 	}
 }

@@ -61,6 +61,59 @@ ITM = {
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
 }
 
+ITS = {
+	male = {
+		names = { 
+			Achille Adamo Adelmo Adriano Agnolo Agostino Alberico Alberto Alderano Aldo Alessandro Alessio Alfio Alfredo Alphons Amadeo Amedeo Amico Amleto Angelo Annibale Ansa!do Antonello Antonino Antonio Armando Arnaldo Amulfo ArsenioArturo Atenolfo Atenulfo Augusto Azeglio
+			Baccio Baldassare Bartolomeo Benedetto Benito Benvenuto Beppe Bernardo Biagio Bruno
+			Calcedonio Calogero Carlo Carmine Cesare Cipriano Cirillo Ciro Claudio Coluccio Constanzo Coriolano Corrado Costanlino Costanzo
+			Danilo Damiano Daniele Daniello Dante Dario Davide Delfino Dino Dionigi Domenico Donatello Donato Durante
+			Edgardo Edoardo Elladio Elmo Emilio Ennio Enrico Enzio Enzo Eraldo Ercole Ermanno Ermenegildo Ermes Ernesto Ettore Ezio Edgardo Edoardo Elladio Elmo Emilio Ennio Enrico Enzio Enzo Eraldo Ercole Ermanno Ermenegildo Ermes Ernesto Ettore Ezio 
+			Fabio Fabdzio Faust Fedele Federico Federico Ferdinand Filippo Fiorenzo Florin Flavio Francesco Franco Fredo Fulvio
+			Gabriele Gaetano Galasso Gaspare Gastone Gavino Gennaro Geppetto Geronimo Giacinto Giacobbe Giacomo Giampaolo Giampiero Gian "Gian Carlo" Gianantonio Giancarlo Gianfrancesco Gianfranco Gianluca Gianluigi Gianmarco Giannantonio Gianni Gianpaolo Gianpietro Gilberto Gino Gioacchino Gioachino Gioele Gioffre Gionata Giordano Giorgio Giosue Giovanni "Giovanni Battista" Girolamo Giuliano Giulio Giuseppe Giustino Goffredo Graziano Greco Guarino Guglielmo Guido Gustavo
+			Hugo
+			Ignazio Ippazio Ivo
+			Jacopo
+			Lamberto Lando Laureano Lazzaro Leonardo Leone Leopoldo Liberato Liberto Livio Lodovico Lorenzo Lotario Luca Luchino Luciano Lucio Ludovico Luigi
+			Manlio Manuel Marcantonio Marcello Marco Mariano Mario Martino Martino Massimiliano Massimo Matteo Mattia Maurilio Maurizio Mauro Michelangelo Michele Micheletto Michelotto Milo Mirco Mirko Moreno
+			Nanni Napoleone Niccolò Nico Nicola Nicolò Nino Nunzio
+			Omero Orazio Oreste Orlando Osvaldo Ottavio Ottone
+			Paolo Pasquale Pietro Prospero
+			Quirico Quirino
+			Raffaele Roberto Ruggiero
+			Silvio Simone
+			Tancredi
+			Ubaldo Uberto Ugo Ugolino Umberto
+			Valerio Venancio Vincentio Vincenzo Virgilio Vito Vittorio Vladimiro
+			Wladimiro
+			Zanobi 
+		}
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	
+	surnames = {
+		Acton Albricci 
+		Badoglio Baldissera Baratieri Bava-Beccaris
+		Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani 
+		Dezza "di Robilant" "di Savoia"
+		Emo 
+		Fanti Fara Filomarino 
+		Garibaldi Giardino Govone 
+		"La Màrmora" Mambretti Menabrea 
+		Orengo 
+		Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro Presbitero 
+		Ramorino Ricotti-Magnani 
+		Sacchi Saletta Sanna Solari 
+		Vaccari 
+		Zupelli
+	
+	
+	}
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
+}
+
 AWS = {
 	male = {
 		names = {

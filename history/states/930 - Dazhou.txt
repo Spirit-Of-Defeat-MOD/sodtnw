@@ -1,0 +1,29 @@
+
+state={
+	id=930
+	name="STATE_930"
+	manpower = 2117985	
+	
+	state_category = c3
+
+	history={
+		owner = SLC
+		add_core_of = CHI
+		add_core_of = SLC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13381 5 
+		}
+
+
+	}
+
+	provinces={
+		13381  5048  10144
+		
+	}
+}

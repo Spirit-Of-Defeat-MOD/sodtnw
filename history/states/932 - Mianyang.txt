@@ -1,0 +1,30 @@
+
+state={
+	id=932
+	name="STATE_932"
+	manpower = 4613871	
+	
+	state_category = c3
+
+	history={
+		owner = STS
+		add_core_of = CHI
+		add_core_of = STS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			2045 1 
+		}
+
+
+	}
+
+	provinces={
+		10132 2045 12767 1367
+		
+	}
+}

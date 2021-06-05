@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+GUI_fascism_party:0 ""
+GUI_fascism_party_long:0 ""
+GUI_communism_party:0 "CCP"
+GUI_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+GUI_democratic_party:1 "KMT"
+GUI_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+GUI_utilitarian_despot_party:0 "Guizhou Clique"
+GUI_utilitarian_despot_party_long:0 "Guizhou Clique"
+GUI_neutrality_party:0 "Long Clique"
+GUI_neutrality_party_long:0 "Long Clique"
+GUI_social_democrat_party:0 "Tang Clique"
+GUI_social_democrat_party_long:0 "Tang Clique"
+GUI_social_liberal_party:0 "KMT"
+GUI_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GUI_classic_liberal_party:0 "KMT"
+GUI_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GUI_libertarian_socialist_party:0 ""
+GUI_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+GUI_reformist_socialist_party:0 ""
+GUI_reformist_socialist_party_long:0 ""
+GUI_nihilistic_extremism_party:0 ""
+GUI_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+GUI_fascism:0 "Guizhou Clique"
+GUI_fascism_DEF:0 "Guizhou Clique"
+GUI_libertarian_socialist:0 "Guizhou Clique"
+GUI_libertarian_socialist_DEF:0 "Guizhou Clique"
+GUI_utilitarian_despot:0 "Guizhou Clique"
+GUI_utilitarian_despot_DEF:0 "the Guizhou Clique"
+GUI_democratic:0 "Guizhou Clique"
+GUI_democratic_DEF:0 "Guizhou Clique"
+GUI_neutrality:1 "Guizhou Clique"
+GUI_neutrality_DEF:1 "the Guizhou Clique"
+GUI_reformist_socialist:0 "Guizhou Clique"
+GUI_reformist_socialist_DEF:0 "Guizhou Clique"
+GUI_social_democrat:0 "Guizhou Clique"
+GUI_social_democrat_DEF:0 "Guizhou Clique"
+GUI_social_liberal:0 "Guizhou Clique"
+GUI_social_liberal_DEF:0 "Guizhou Clique"
+GUI_classic_liberal:0 "Guizhou Clique"
+GUI_classic_liberal_DEF:0 "Guizhou Clique"
+GUI_communism:0 "Guizhou Clique"
+GUI_communism_DEF:0 "Guizhou Clique"
+GUI_nihilistic_extremism:0 "Guizhou Clique"
+GUI_nihilistic_extremism_DEF:0 "Guizhou Clique"
+ 
+GUI_fascism_ADJ:0 "Qian"
+GUI_fascism_ADJ:0 "Qian"
+GUI_libertarian_socialist_ADJ:0 "Qian"
+GUI_democratic_ADJ:0 "Qian"
+GUI_utilitarian_despot_ADJ:0 "Qian"
+GUI_reformist_socialist_ADJ:0 "Qian"
+GUI_neutrality_ADJ:0 "Qian"
+GUI_social_democrat_ADJ:0 "Qian"
+GUI_social_liberal_ADJ:0 "Qian"
+GUI_classic_liberal_ADJ:0 "Qian"
+GUI_communism_ADJ:0 "Qian"
+GUI_nihilistic_extremism_ADJ:0 "Qian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

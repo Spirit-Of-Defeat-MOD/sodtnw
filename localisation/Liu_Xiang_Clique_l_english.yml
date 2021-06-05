@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SLX_fascism_party:0 ""
+SLX_fascism_party_long:0 ""
+SLX_communism_party:0 "CCP"
+SLX_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+SLX_democratic_party:1 "KMT"
+SLX_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+SLX_utilitarian_despot_party:0 "Chongqing Clique"
+SLX_utilitarian_despot_party_long:0 "Chongqing Clique"
+SLX_neutrality_party:0 ""
+SLX_neutrality_party_long:0 ""
+SLX_social_democrat_party:0 "Left-KMT"
+SLX_social_democrat_party_long:0 "Zhōngguó Guómíndǎng"
+SLX_social_liberal_party:0 "KMT"
+SLX_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SLX_classic_liberal_party:0 "KMT"
+SLX_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SLX_libertarian_socialist_party:0 ""
+SLX_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+SLX_reformist_socialist_party:0 ""
+SLX_reformist_socialist_party_long:0 ""
+SLX_nihilistic_extremism_party:0 ""
+SLX_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SLX_fascism:0 "Chongqing Clique"
+SLX_fascism_DEF:0 "Chongqing Clique"
+SLX_libertarian_socialist:0 "Chongqing Clique"
+SLX_libertarian_socialist_DEF:0 "Chongqing Clique"
+SLX_utilitarian_despot:0 "Chongqing Clique"
+SLX_utilitarian_despot_DEF:0 "the Chongqing Clique"
+SLX_democratic:0 "Chongqing Clique"
+SLX_democratic_DEF:0 "Chongqing Clique"
+SLX_neutrality:1 "Chongqing Clique"
+SLX_neutrality_DEF:1 "the Chongqing Clique"
+SLX_reformist_socialist:0 "Chongqing Clique"
+SLX_reformist_socialist_DEF:0 "Chongqing Clique"
+SLX_social_democrat:0 "Chongqing Clique"
+SLX_social_democrat_DEF:0 "Chongqing Clique"
+SLX_social_liberal:0 "Chongqing Clique"
+SLX_social_liberal_DEF:0 "Chongqing Clique"
+SLX_classic_liberal:0 "Chongqing Clique"
+SLX_classic_liberal_DEF:0 "Chongqing Clique"
+SLX_communism:0 "Chongqing Clique"
+SLX_communism_DEF:0 "Chongqing Clique"
+SLX_nihilistic_extremism:0 "Chongqing Clique"
+SLX_nihilistic_extremism_DEF:0 "Chongqing Clique"
+ 
+SLX_fascism_ADJ:0 "Chong"
+SLX_fascism_ADJ:0 "Chong"
+SLX_libertarian_socialist_ADJ:0 "Chong"
+SLX_democratic_ADJ:0 "Chong"
+SLX_utilitarian_despot_ADJ:0 "Chong"
+SLX_reformist_socialist_ADJ:0 "Chong"
+SLX_neutrality_ADJ:0 "Chong"
+SLX_social_democrat_ADJ:0 "Chong"
+SLX_social_liberal_ADJ:0 "Chong"
+SLX_classic_liberal_ADJ:0 "Chong"
+SLX_communism_ADJ:0 "Chong"
+SLX_nihilistic_extremism_ADJ:0 "Chong"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

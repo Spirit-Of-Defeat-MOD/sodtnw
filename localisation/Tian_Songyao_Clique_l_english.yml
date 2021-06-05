@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+STS_fascism_party:0 ""
+STS_fascism_party_long:0 ""
+STS_communism_party:0 "CCP"
+STS_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+STS_democratic_party:1 "KMT"
+STS_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+STS_utilitarian_despot_party:0 "21st Division"
+STS_utilitarian_despot_party_long:0 "21st Division"
+STS_neutrality_party:0 ""
+STS_neutrality_party_long:0 ""
+STS_social_democrat_party:0 "Left-KMT"
+STS_social_democrat_party_long:0 "Zhōngguó Guómíndǎng"
+STS_social_liberal_party:0 "KMT"
+STS_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+STS_classic_liberal_party:0 "KMT"
+STS_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+STS_libertarian_socialist_party:0 ""
+STS_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+STS_reformist_socialist_party:0 ""
+STS_reformist_socialist_party_long:0 ""
+STS_nihilistic_extremism_party:0 ""
+STS_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+STS_fascism:0 "21st Division"
+STS_fascism_DEF:0 "21st Division"
+STS_libertarian_socialist:0 "21st Division"
+STS_libertarian_socialist_DEF:0 "21st Division"
+STS_utilitarian_despot:0 "21st Division"
+STS_utilitarian_despot_DEF:0 "the 21st Division"
+STS_democratic:0 "21st Division"
+STS_democratic_DEF:0 "21st Division"
+STS_neutrality:1 "21st Division"
+STS_neutrality_DEF:1 "the 21st Division"
+STS_reformist_socialist:0 "21st Division"
+STS_reformist_socialist_DEF:0 "21st Division"
+STS_social_democrat:0 "21st Division"
+STS_social_democrat_DEF:0 "21st Division"
+STS_social_liberal:0 "21st Division"
+STS_social_liberal_DEF:0 "21st Division"
+STS_classic_liberal:0 "21st Division"
+STS_classic_liberal_DEF:0 "21st Division"
+STS_communism:0 "21st Division"
+STS_communism_DEF:0 "21st Division"
+STS_nihilistic_extremism:0 "21st Division"
+STS_nihilistic_extremism_DEF:0 "21st Division"
+ 
+STS_fascism_ADJ:0 "Tian"
+STS_fascism_ADJ:0 "Tian"
+STS_libertarian_socialist_ADJ:0 "Tian"
+STS_democratic_ADJ:0 "Tian"
+STS_utilitarian_despot_ADJ:0 "Tian"
+STS_reformist_socialist_ADJ:0 "Tian"
+STS_neutrality_ADJ:0 "Tian"
+STS_social_democrat_ADJ:0 "Tian"
+STS_social_liberal_ADJ:0 "Tian"
+STS_classic_liberal_ADJ:0 "Tian"
+STS_communism_ADJ:0 "Tian"
+STS_nihilistic_extremism_ADJ:0 "Tian"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

@@ -4,9 +4,9 @@ state={
 	name="STATE_560" # Nikolayevsk
 	manpower = 97663
 	
-	state_category = rural
+	state_category = c3
 	resources={
-		steel=18 # was: 24
+		steel=24 # was: 24
 	}
 
 	history={

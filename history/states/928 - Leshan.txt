@@ -1,0 +1,28 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 3235759
+	
+	state_category = c4
+
+	history={
+		owner = SLW
+		add_core_of = SLW
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			12141 3
+		}
+
+	}
+
+	provinces={
+		12141 12819 
+	}
+}

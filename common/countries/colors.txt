@@ -874,3 +874,33 @@ HOT = {
 	color = rgb { 156 104 77 }
 	color_ui = rgb { 156 104 77 }
 }
+
+GUI = {
+	color = rgb { 77 66 44 }
+	color_ui = rgb { 77 66 44 }
+}
+
+SDX = {
+	color = rgb { 113 79 48 }
+	color_ui = rgb { 113 79 48 }
+}
+
+SLC = {
+	color = rgb { 207 133 89 }
+	color_ui = rgb { 207 133 89 }
+}
+
+SLW = {
+	color = rgb { 190 189 5 }
+	color_ui = rgb { 190 189 5 }
+}
+
+SLX = {
+	color = rgb { 134 57 88 }
+	color_ui = rgb { 134 57 88 }
+}
+
+STS = {
+	color = rgb { 176 91 47 }
+	color_ui = rgb { 176 91 47 }
+}

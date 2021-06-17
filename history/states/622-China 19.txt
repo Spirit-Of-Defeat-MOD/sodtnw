@@ -7,10 +7,8 @@ state={
 	}
 
 	history={
-		owner = PRC
-		add_core_of = PRC
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			8049 3 
 		}
@@ -36,9 +34,9 @@ state={
 	}
 
 	provinces={
-		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+		1458 5007 7208 7314 7659 8049 10733 10880 12156 12356 13400
 	}
 	manpower=7006200
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=c7
 }

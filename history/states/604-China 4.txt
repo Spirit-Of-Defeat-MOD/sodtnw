@@ -6,7 +6,6 @@ state={
 		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			7940 10 
 		}
@@ -24,5 +23,5 @@ state={
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=c4
 }

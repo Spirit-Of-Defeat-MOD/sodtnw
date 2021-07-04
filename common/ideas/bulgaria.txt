@@ -81,10 +81,6 @@ ideas = {
 			}
 			removal_cost = -1
 
-			cancel = {
-				BUL_has_restored_greater_bulgaria = yes
-			}
-			
 			modifier = {
 				stability_factor = -0.1
 				stability_weekly = -0.003
@@ -106,9 +102,6 @@ ideas = {
 			}
 			removal_cost = -1
 
-			cancel = {
-				BUL_has_restored_greater_bulgaria = yes
-			}
 			
 			modifier = {
 				stability_factor = -0.1
@@ -322,7 +315,6 @@ ideas = {
 				has_country_leader = {
 					name = "Boris III"
 				}
-				BUL_has_abolished_monarchy = no
 			}
 			removal_cost = -1
 			
@@ -1319,7 +1311,6 @@ ideas = {
 			picture = por_iberian_workers_united
 
 			allowed = {
-				BUL_is_balkan_nation = yes
 			}
 
 			allowed_civil_war = {
@@ -1329,7 +1320,6 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				BUL_is_balkan_nation = yes
 				is_in_faction_with = BUL
 				NOT = { original_tag = BUL }
 			}
@@ -1943,7 +1933,6 @@ ideas = {
 
 			available = {
 				NOT = { has_government = communism } 
-				BUL_has_abolished_monarchy = no
 			}
 
 			visible = {

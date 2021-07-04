@@ -111,7 +111,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.3
-					congress_high_support_trigger = yes
 				}	
 				if = {
 					limit = {
@@ -134,7 +133,6 @@ ideas = {
 						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			
@@ -192,7 +190,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -228,7 +225,6 @@ ideas = {
 						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -275,7 +271,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
-					congress_high_support_trigger = yes
 				}		
 				if = {
 					limit = {
@@ -310,7 +305,6 @@ ideas = {
 						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -327,7 +321,6 @@ ideas = {
 					
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
 				}
    			}
 		}
@@ -358,7 +351,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -381,7 +373,6 @@ ideas = {
 						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {

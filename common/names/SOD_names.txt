@@ -55,6 +55,9 @@ ITM = {
 		Sacchi Saletta Sanna Solari 
 		Vaccari 
 		Zupelli
+		Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
+		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
+		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica
 	
 	
 	}
@@ -108,6 +111,9 @@ ITS = {
 		Sacchi Saletta Sanna Solari 
 		Vaccari 
 		Zupelli
+		Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
+		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
+		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica
 	
 	
 	}
@@ -117,14 +123,14 @@ ITS = {
 AWS = {
 	male = {
 		names = {
-			Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
+			Umar Amda Baeda Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
 		}
 			
 	female = {
 		names = {  }
 	}
 	surnames = {
-		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Hanfadh" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah" Mafatah
+		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Hanfadh" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah" Mafatah Seyon Maryam
 		
 	}
 	callsigns = {  }

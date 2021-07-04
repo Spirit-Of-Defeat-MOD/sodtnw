@@ -345,7 +345,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = PRC
-					is_chinese_warlord = yes
 				}
 				has_dlc = "Waking the Tiger"
 			}
@@ -384,7 +383,6 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = PRC
-					is_chinese_warlord = yes
 				}
 				has_dlc = "Waking the Tiger"
 			}

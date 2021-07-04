@@ -4600,8 +4600,6 @@ ideas = {
 			}
 
 			available = {
-				TUR_debt_council_has_no_sway = yes
-				TUR_a_monopoly_has_been_formed = yes
 			}
 			
 			research_bonus = {
@@ -4622,7 +4620,6 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = { 
-				TUR_debt_council_has_no_sway = yes
 				has_completed_focus = TUR_turkish_state_railways
 			}	
 
@@ -4645,7 +4642,6 @@ ideas = {
 			}
 
 			available = { 
-				TUR_debt_council_has_no_sway = yes
 			}
 
 			visible = {
@@ -4677,7 +4673,6 @@ ideas = {
 			}
 
 			available = { 
-				TUR_debt_council_has_no_sway = yes
 			}
 			
 			research_bonus = {

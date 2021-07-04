@@ -3996,7 +3996,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 792
 				}
@@ -4067,7 +4066,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 167
 				}
@@ -4102,7 +4100,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 169
 				}
@@ -4141,7 +4138,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 792
 				}
@@ -4170,7 +4166,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 792
 				}
@@ -4199,7 +4194,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 792
 				}
@@ -4228,7 +4222,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 165
 				}
@@ -4262,7 +4255,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 41
 				}
@@ -4291,7 +4283,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 165
 				}
@@ -4319,7 +4310,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 792
 				}
@@ -4348,7 +4338,6 @@ ideas = {
 				OR = {
 					custom_trigger_tooltip = {
 						tooltip = SPR_scw_not_in_progress_tt
-						NOT = { SPR_scw_in_progress = yes }
 					}
 					controls_state = 41
 				}

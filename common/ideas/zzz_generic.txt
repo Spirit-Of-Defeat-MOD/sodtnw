@@ -1290,7 +1290,6 @@ ideas = {
 				has_dlc = "La Resistance"
 				# china gets a special one via focus
 				NOT = { original_tag = CHI }
-				NOT = { is_chinese_warlord = yes }
 				if = {
 					limit = {
 						has_dlc = "Battle for the Bosporus"

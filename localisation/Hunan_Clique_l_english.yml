@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+HNC_fascism_party:0 ""
+HNC_fascism_party_long:0 ""
+HNC_communism_party:0 "CCP"
+HNC_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+HNC_democratic_party:1 "KMT"
+HNC_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+HNC_utilitarian_despot_party:0 "Hunan Clique"
+HNC_utilitarian_despot_party_long:0 "Hunan Clique"
+HNC_neutrality_party:0 ""
+HNC_neutrality_party_long:0 ""
+HNC_social_democrat_party:0 "Left-KMT"
+HNC_social_democrat_party_long:0 "Zhōngguó Guómíndǎng"
+HNC_social_liberal_party:0 "KMT"
+HNC_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+HNC_classic_liberal_party:0 "KMT"
+HNC_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+HNC_libertarian_socialist_party:0 ""
+HNC_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+HNC_reformist_socialist_party:0 ""
+HNC_reformist_socialist_party_long:0 ""
+HNC_nihilistic_extremism_party:0 ""
+HNC_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+HNC_fascism:0 "Hunan Clique"
+HNC_fascism_DEF:0 "Hunan Clique"
+HNC_libertarian_socialist:0 "Hunan Clique"
+HNC_libertarian_socialist_DEF:0 "Hunan Clique"
+HNC_utilitarian_despot:0 "Hunan Clique"
+HNC_utilitarian_despot_DEF:0 "the Hunan Clique"
+HNC_democratic:0 "Hunan Clique"
+HNC_democratic_DEF:0 "Hunan Clique"
+HNC_neutrality:1 "Hunan Clique"
+HNC_neutrality_DEF:1 "the Hunan Clique"
+HNC_reformist_socialist:0 "Hunan Clique"
+HNC_reformist_socialist_DEF:0 "Hunan Clique"
+HNC_social_democrat:0 "Hunan Clique"
+HNC_social_democrat_DEF:0 "Hunan Clique"
+HNC_social_liberal:0 "Hunan Clique"
+HNC_social_liberal_DEF:0 "Hunan Clique"
+HNC_classic_liberal:0 "Hunan Clique"
+HNC_classic_liberal_DEF:0 "Hunan Clique"
+HNC_communism:0 "Hunan Clique"
+HNC_communism_DEF:0 "Hunan Clique"
+HNC_nihilistic_extremism:0 "Hunan Clique"
+HNC_nihilistic_extremism_DEF:0 "Hunan Clique"
+ 
+HNC_fascism_ADJ:0 "Xiang"
+HNC_fascism_ADJ:0 "Xiang"
+HNC_libertarian_socialist_ADJ:0 "Xiang"
+HNC_democratic_ADJ:0 "Xiang"
+HNC_utilitarian_despot_ADJ:0 "Xiang"
+HNC_reformist_socialist_ADJ:0 "Xiang"
+HNC_neutrality_ADJ:0 "Xiāng"
+HNC_social_democrat_ADJ:0 "Xiang"
+HNC_social_liberal_ADJ:0 "Xiang"
+HNC_classic_liberal_ADJ:0 "Xiang"
+HNC_communism_ADJ:0 "Xiāng"
+HNC_nihilistic_extremism_ADJ:0 "Xiang"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

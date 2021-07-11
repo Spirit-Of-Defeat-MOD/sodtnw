@@ -7,8 +7,9 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = CHI
+		add_core_of = ROC
 		victory_points = {
 			8049 3 
 		}

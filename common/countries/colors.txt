@@ -314,8 +314,8 @@ PRC = {
 }
 
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 44 80 80 }
+	color_ui = rgb { 44 80 80 }
 }
 
 SHX = {
@@ -903,4 +903,19 @@ SLX = {
 STS = {
 	color = rgb { 176 91 47 }
 	color_ui = rgb { 176 91 47 }
+}
+
+ROC = {
+	color = rgb { 72 80 122 }
+	color_ui = rgb { 72 80 122 }
+}
+
+HNC = {
+	color = rgb { 32 80 98 }
+	color_ui = rgb { 32 80 98 }
+}
+
+GDG = {
+	color = rgb { 35 64 106 }
+	color_ui = rgb { 35 64 106 }
 }

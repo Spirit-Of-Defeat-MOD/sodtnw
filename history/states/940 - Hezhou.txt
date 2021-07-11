@@ -1,0 +1,24 @@
+
+state={
+	id=940
+	name="STATE_940" # South Chahar
+	manpower = 5000000
+	
+	state_category = c4
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		13411 13412 7210 7128 4152
+	}
+}

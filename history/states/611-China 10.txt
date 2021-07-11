@@ -7,9 +7,9 @@ state={
 	state_category = c3
 
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = ROC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,6 +20,6 @@ state={
 	}
 
 	provinces={
-		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 13407 13406
+		828 952 1489 4495 4612 7545 7674  10397 11752 13407 13406
 	}
 }

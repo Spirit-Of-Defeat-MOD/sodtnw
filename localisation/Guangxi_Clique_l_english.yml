@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+GXC_fascism_party:0 ""
+GXC_fascism_party_long:0 ""
+GXC_communism_party:0 "CCP"
+GXC_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+GXC_democratic_party:1 "KMT"
+GXC_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+GXC_utilitarian_despot_party:0 "Guangxi Clique"
+GXC_utilitarian_despot_party_long:0 "Guangxi Clique"
+GXC_neutrality_party:0 ""
+GXC_neutrality_party_long:0 ""
+GXC_social_democrat_party:0 "Left-KMT"
+GXC_social_democrat_party_long:0 "Zhōngguó Zhìgōngdǎng"
+GXC_social_liberal_party:0 "KMT"
+GXC_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GXC_classic_liberal_party:0 "KMT"
+GXC_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GXC_libertarian_socialist_party:0 ""
+GXC_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng"
+GXC_reformist_socialist_party:0 ""
+GXC_reformist_socialist_party_long:0 ""
+GXC_nihilistic_extremism_party:0 ""
+GXC_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+GXC_fascism:0 "Guangxi Clique"
+GXC_fascism_DEF:0 "the Guangxi Clique"
+GXC_libertarian_socialist:0 "Guangxi Clique"
+GXC_libertarian_socialist_DEF:0 "the Guangxi Clique"
+GXC_utilitarian_despot:0 "Guangxi Clique"
+GXC_utilitarian_despot_DEF:0 "the Guangxi Clique"
+GXC_democratic:0 "Guangxi Clique"
+GXC_democratic_DEF:0 "the Guangxi Clique"
+GXC_neutrality:1 "Guangxi Clique"
+GXC_neutrality_DEF:1 "the Guangxi Clique"
+GXC_reformist_socialist:0 "Guangxi Clique"
+GXC_reformist_socialist_DEF:0 "the Guangxi Clique"
+GXC_social_democrat:0 "Guangxi Clique"
+GXC_social_democrat_DEF:0 "the Guangxi Clique"
+GXC_social_liberal:0 "Guangxi Clique"
+GXC_social_liberal_DEF:0 "the Guangxi Clique"
+GXC_classic_liberal:0 "Guangxi Clique"
+GXC_classic_liberal_DEF:0 "the Guangxi Clique"
+GXC_communism:0 "Guangxi Clique"
+GXC_communism_DEF:0 "the Guangxi Clique"
+GXC_nihilistic_extremism:0 "Guangxi Clique"
+GXC_nihilistic_extremism_DEF:0 "the Guangxi Clique"
+ 
+GXC_fascism_ADJ:0 "Gui"
+GXC_fascism_ADJ:0 "Gui"
+GXC_libertarian_socialist_ADJ:0 "Gui"
+GXC_democratic_ADJ:0 "Gui"
+GXC_utilitarian_despot_ADJ:0 "Gui"
+GXC_reformist_socialist_ADJ:0 "Gui"
+GXC_neutrality_ADJ:0 "Gui"
+GXC_social_democrat_ADJ:0 "Gui"
+GXC_social_liberal_ADJ:0 "Gui"
+GXC_classic_liberal_ADJ:0 "Gui"
+GXC_communism_ADJ:0 "Gui"
+GXC_nihilistic_extremism_ADJ:0 "Gui"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

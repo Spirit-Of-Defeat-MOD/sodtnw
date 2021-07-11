@@ -7,8 +7,9 @@ state={
 	state_category = c5
 
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = CHI
+		add_core_of = ROC
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3

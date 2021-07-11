@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+GDG_fascism_party:0 ""
+GDG_fascism_party_long:0 ""
+GDG_communism_party:0 "CCP"
+GDG_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+GDG_democratic_party:1 "KMT"
+GDG_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+GDG_utilitarian_despot_party:0 "KMT"
+GDG_utilitarian_despot_party_long:0 "Zhōngguó Guómíndǎng"
+GDG_neutrality_party:0 ""
+GDG_neutrality_party_long:0 ""
+GDG_social_democrat_party:0 "Left-KMT"
+GDG_social_democrat_party_long:0 "Zhōngguó Zhìgōngdǎng"
+GDG_social_liberal_party:0 "KMT"
+GDG_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GDG_classic_liberal_party:0 "KMT"
+GDG_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+GDG_libertarian_socialist_party:0 ""
+GDG_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng"
+GDG_reformist_socialist_party:0 ""
+GDG_reformist_socialist_party_long:0 ""
+GDG_nihilistic_extremism_party:0 ""
+GDG_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+GDG_fascism:0 "Guangdong Revolutionary Government"
+GDG_fascism_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_libertarian_socialist:0 "Guangdong Revolutionary Government"
+GDG_libertarian_socialist_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_utilitarian_despot:0 "Guangdong Revolutionary Government"
+GDG_utilitarian_despot_DEF:0 "the Guangdong Revolutionary Government"
+GDG_democratic:0 "Guangdong Revolutionary Government"
+GDG_democratic_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_neutrality:1 "Guangdong Revolutionary Government"
+GDG_neutrality_DEF:1 "the Guangdong Revolutionary Government"
+GDG_reformist_socialist:0 "Guangdong Revolutionary Government"
+GDG_reformist_socialist_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_social_democrat:0 "Guangdong Revolutionary Government"
+GDG_social_democrat_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_social_liberal:0 "Guangdong Revolutionary Government"
+GDG_social_liberal_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_classic_liberal:0 "Guangdong Revolutionary Government"
+GDG_classic_liberal_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_communism:0 "Guangdong Revolutionary Government"
+GDG_communism_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+GDG_nihilistic_extremism:0 "Guangdong Revolutionary Government"
+GDG_nihilistic_extremism_DEF:0 "the Guangdong Revolutionary Government of the United Provinces of China"
+ 
+GDG_fascism_ADJ:0 "Yue"
+GDG_fascism_ADJ:0 "Yue"
+GDG_libertarian_socialist_ADJ:0 "Yue"
+GDG_democratic_ADJ:0 "Yue"
+GDG_utilitarian_despot_ADJ:0 "Yue"
+GDG_reformist_socialist_ADJ:0 "Yue"
+GDG_neutrality_ADJ:0 "Yue"
+GDG_social_democrat_ADJ:0 "Yue"
+GDG_social_liberal_ADJ:0 "Yue"
+GDG_classic_liberal_ADJ:0 "Yue"
+GDG_communism_ADJ:0 "Yue"
+GDG_nihilistic_extremism_ADJ:0 "Yue"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

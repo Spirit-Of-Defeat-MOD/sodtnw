@@ -2,13 +2,13 @@ state={
 	id=591
 	name="STATE_591"
 	manpower = 4350000
-	state_category = town
+	state_category = c3
 
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = GDG
+		add_core_of = GDG
 		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = ROC
 		
 		victory_points = {
 			1070 1 
@@ -23,16 +23,6 @@ state={
 
 		}
 
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			controller = JAP
-		}
 	}
 
 	provinces={

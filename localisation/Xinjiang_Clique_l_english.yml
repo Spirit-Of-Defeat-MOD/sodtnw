@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SIK_fascism_party:0 ""
+SIK_fascism_party_long:0 ""
+SIK_communism_party:0 "CCP"
+SIK_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+SIK_democratic_party:1 "KMT"
+SIK_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+SIK_utilitarian_despot_party:0 "Xinjiang Clique"
+SIK_utilitarian_despot_party_long:0 "Xinjiang Clique"
+SIK_neutrality_party:0 "Yang Clique"
+SIK_neutrality_party_long:0 "Yang Clique"
+SIK_social_democrat_party:0 "KMT"
+SIK_social_democrat_party_long:0 "Zhōngguó Guómíndǎng"
+SIK_social_liberal_party:0 "KMT"
+SIK_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SIK_classic_liberal_party:0 "KMT"
+SIK_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SIK_libertarian_socialist_party:0 ""
+SIK_libertarian_socialist_party_long:0 "Zhōngguó Guómíndǎng"
+SIK_reformist_socialist_party:0 "MFdL"
+SIK_reformist_socialist_party_long:0 "Mínzhòng Fǎn-dì Liánhéhuì"
+SIK_nihilistic_extremism_party:0 ""
+SIK_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SIK_fascism:0 "Xinjiang Clique"
+SIK_fascism_DEF:0 "Xinjiang Clique"
+SIK_libertarian_socialist:0 "Xinjiang Clique"
+SIK_libertarian_socialist_DEF:0 "Xinjiang Clique"
+SIK_utilitarian_despot:0 "Xinjiang Clique"
+SIK_utilitarian_despot_DEF:0 "the Xinjiang Clique"
+SIK_democratic:0 "Xinjiang Clique"
+SIK_democratic_DEF:0 "Xinjiang Clique"
+SIK_neutrality:1 "Xinjiang Clique"
+SIK_neutrality_DEF:1 "the Xinjiang Clique"
+SIK_reformist_socialist:0 "Xinjiang Clique"
+SIK_reformist_socialist_DEF:0 "Xinjiang Clique"
+SIK_social_democrat:0 "Xinjiang Clique"
+SIK_social_democrat_DEF:0 "Xinjiang Clique"
+SIK_social_liberal:0 "Xinjiang Clique"
+SIK_social_liberal_DEF:0 "Xinjiang Clique"
+SIK_classic_liberal:0 "Xinjiang Clique"
+SIK_classic_liberal_DEF:0 "Xinjiang Clique"
+SIK_communism:0 "Xinjiang Clique"
+SIK_communism_DEF:0 "Xinjiang Clique"
+SIK_nihilistic_extremism:0 "Xinjiang Clique"
+SIK_nihilistic_extremism_DEF:0 "Xinjiang Clique"
+ 
+SIK_fascism_ADJ:0 "Xin"
+SIK_fascism_ADJ:0 "Xin"
+SIK_libertarian_socialist_ADJ:0 "Xin"
+SIK_democratic_ADJ:0 "Xin"
+SIK_utilitarian_despot_ADJ:0 "Xin"
+SIK_reformist_socialist_ADJ:0 "Xin"
+SIK_neutrality_ADJ:0 "Xin"
+SIK_social_democrat_ADJ:0 "Xin"
+SIK_social_liberal_ADJ:0 "Xin"
+SIK_classic_liberal_ADJ:0 "Xin"
+SIK_communism_ADJ:0 "Xin"
+SIK_nihilistic_extremism_ADJ:0 "Xin"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

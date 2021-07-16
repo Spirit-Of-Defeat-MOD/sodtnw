@@ -1,0 +1,27 @@
+
+state={
+	id=944
+	name="STATE_944" # South Chahar
+	manpower = 8896900
+	
+	state_category = c4
+
+	history={
+		owner = ZSJ
+		add_core_of = ZSJ
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+
+		victory_points = {
+			4619 25 
+		}
+	}
+
+	provinces={
+		1036 4619 4631
+	}
+}

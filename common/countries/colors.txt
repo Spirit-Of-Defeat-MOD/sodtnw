@@ -919,3 +919,8 @@ GDG = {
 	color = rgb { 35 64 106 }
 	color_ui = rgb { 35 64 106 }
 }
+
+ZSJ = {
+	color = rgb { 72 67 107 }
+	color_ui = rgb { 72 67 107 }
+}

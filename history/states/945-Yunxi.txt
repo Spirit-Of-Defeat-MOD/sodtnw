@@ -1,0 +1,23 @@
+
+state={
+	id=945
+	name="STATE_945" # South Chahar
+	manpower = 447482
+	
+	state_category = c3
+
+	history={
+		owner = ZSJ
+		add_core_of = ZSJ
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		13416 13417 13418  12408  4009
+	}
+}

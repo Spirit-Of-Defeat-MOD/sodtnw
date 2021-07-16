@@ -618,7 +618,7 @@
  STATE_617:0 "Urumqi" #Ürümchi
  STATE_618:0 "Altay"
  STATE_619:0 "Kashgar" #Qeshqer 
- STATE_620:0 "Hubei"
+ STATE_620:0 "Suizhou"
  STATE_621:0 "Suiyuan"
  STATE_622:0 "Shaanxi"
  STATE_623:0 "Luzon"
@@ -942,3 +942,8 @@ STATE_940:0 "Hezhou"
 STATE_941:0 "Beihai"
 STATE_942:0 "Yulin"
 STATE_943:0 "Baise"
+STATE_944:0 "Wuhan"
+STATE_945:0 "Yunxi"
+STATE_946:0 "Shiyan"
+STATE_947:0 "Jingzhou"
+STATE_948:0 "Zhenping"

@@ -1,0 +1,28 @@
+
+state={
+	id=948
+	name="STATE_948" # South Chahar
+	manpower = 404200
+	
+	state_category = c2
+
+	history={
+		owner = ROC
+		add_core_of = ZSJ
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			7418 1 
+		}
+	}
+
+	provinces={
+		4167
+		7418
+		
+	}
+}

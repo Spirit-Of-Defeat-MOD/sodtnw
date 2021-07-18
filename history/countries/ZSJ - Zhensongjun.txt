@@ -1,6 +1,6 @@
 capital = 593 #Guangdong
 
-oob = "ZSJ"
+oob = "HUB"
 
 
 set_stability = 0.3

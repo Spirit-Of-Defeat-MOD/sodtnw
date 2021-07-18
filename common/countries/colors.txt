@@ -920,7 +920,12 @@ GDG = {
 	color_ui = rgb { 35 64 106 }
 }
 
-ZSJ = {
+HUB = {
 	color = rgb { 72 67 107 }
 	color_ui = rgb { 72 67 107 }
+}
+
+SHD = {
+	color = rgb { 51 101 136 }
+	color_ui = rgb { 51 101 136 }
 }

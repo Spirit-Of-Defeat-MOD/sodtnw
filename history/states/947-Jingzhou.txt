@@ -7,8 +7,8 @@ state={
 	state_category = c4
 
 	history={
-		owner = ZSJ
-		add_core_of = ZSJ
+		owner = HUB
+		add_core_of = HUB
 		add_core_of = CHI
 		add_core_of = ROC
 		buildings = {

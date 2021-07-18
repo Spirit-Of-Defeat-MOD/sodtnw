@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SHD_fascism_party:0 ""
+SHD_fascism_party_long:0 ""
+SHD_communism_party:0 "CCP"
+SHD_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+SHD_democratic_party:1 "KMT"
+SHD_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+SHD_utilitarian_despot_party:0 "ZLC"
+SHD_utilitarian_despot_party_long:0 "Zhilu Coalition"
+SHD_neutrality_party:0 "ZLC
+SHD_neutrality_party_long:0 "Zhilu Coalition"
+SHD_social_democrat_party:0 "Left-KMT"
+SHD_social_democrat_party_long:0 "Zhōngguó Zhìgōngdǎng"
+SHD_social_liberal_party:0 "KMT"
+SHD_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SHD_classic_liberal_party:0 "KMT"
+SHD_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SHD_libertarian_socialist_party:0 ""
+SHD_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng"
+SHD_reformist_socialist_party:0 ""
+SHD_reformist_socialist_party_long:0 ""
+SHD_nihilistic_extremism_party:0 ""
+SHD_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SHD_fascism:0 "Shandong Clique"
+SHD_fascism_DEF:0 "the Shandong Clique"
+SHD_libertarian_socialist:0 "Shandong Clique"
+SHD_libertarian_socialist_DEF:0 "the Shandong Clique"
+SHD_utilitarian_despot:0 "Shandong Clique"
+SHD_utilitarian_despot_DEF:0 "the Shandong Clique"
+SHD_democratic:0 "Shandong Clique"
+SHD_democratic_DEF:0 "the Shandong Clique"
+SHD_neutrality:1 "Shandong Clique"
+SHD_neutrality_DEF:1 "the Shandong Clique"
+SHD_reformist_socialist:0 "Shandong Clique"
+SHD_reformist_socialist_DEF:0 "the Shandong Clique"
+SHD_social_democrat:0 "Shandong Clique"
+SHD_social_democrat_DEF:0 "the Shandong Clique"
+SHD_social_liberal:0 "Shandong Clique"
+SHD_social_liberal_DEF:0 "the Shandong Clique"
+SHD_classic_liberal:0 "Shandong Clique"
+SHD_classic_liberal_DEF:0 "the Shandong Clique"
+SHD_communism:0 "Shandong Clique"
+SHD_communism_DEF:0 "the Shandong Clique"
+SHD_nihilistic_extremism:0 "Shandong Clique"
+SHD_nihilistic_extremism_DEF:0 "the Shandong Clique"
+ 
+SHD_fascism_ADJ:0 "Lu"
+SHD_fascism_ADJ:0 "Lu"
+SHD_libertarian_socialist_ADJ:0 "Lu"
+SHD_democratic_ADJ:0 "Lu"
+SHD_utilitarian_despot_ADJ:0 "Lu"
+SHD_reformist_socialist_ADJ:0 "Lu"
+SHD_neutrality_ADJ:0 "Lu"
+SHD_social_democrat_ADJ:0 "Lu"
+SHD_social_liberal_ADJ:0 "Lu"
+SHD_classic_liberal_ADJ:0 "Lu"
+SHD_communism_ADJ:0 "Lu"
+SHD_nihilistic_extremism_ADJ:0 "Lu"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

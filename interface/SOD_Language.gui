@@ -1,0 +1,97 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Language_Topbar_Window"
+		position = { x=-393 y=36 }
+		size = { width=253 height=30 }
+		Orientation = UPPER_RIGHT
+
+		buttonType = {
+			name = "Language_Window_Enabler"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_button_language_options"
+			buttonFont = "Main_14_black"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			
+			pdx_tooltip = IB_language_options_tt
+		}
+	}
+	containerWindowType = {
+		name = "Language_Window"
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 300 }
+		orientation = center
+		moveable = yes
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_bg"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -46 y = 14 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		instantTextBoxType = {
+			name = "chinese_label"
+			position = { x = 0 y =12 }		
+			font = "hoi_30header"
+			borderSize = {x = 0 y = 0}
+			text = "CHINESE ROMANIZATION"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "wade_giles_label"
+			position = { x = -80 y = 38 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "Wade-Giles"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+
+
+		instantTextBoxType = {
+			name = "pinyin_label"
+			position = { x = 80 y = 38 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "Pinyin"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+
+
+		buttonType = {
+			name = "wade_giles_romanization"
+			position = { x = -104 y = -88 }
+			quadTextureSprite = "GFX_button_language_wade_giles"
+			Orientation = "center"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "pinyin_romanization"
+			position = { x = 56 y = -88 }
+			quadTextureSprite = "GFX_button_language_pinyin"
+			Orientation = "center"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+	}
+}

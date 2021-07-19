@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_button_language_options"
+		texturefile = "gfx/interface/language/button_language_options.dds"
+	}
+	spriteType = {
+		name = "GFX_button_language_local_languages"
+		texturefile = "gfx/interface/language/language_local_languages_button.dds"
+	}
+	spriteType = {
+		name = "GFX_button_language_english_language"
+		texturefile = "gfx/interface/language/language_english_language_button.dds"
+	}
+	spriteType = {
+		name = "GFX_button_language_wade_giles"
+		texturefile = "gfx/interface/language/language_wade_giles_button.dds"
+	}
+	spriteType = {
+		name = "GFX_button_language_postal"
+		texturefile = "gfx/interface/language/language_postal_button.dds"
+	}
+	spriteType = {
+		name = "GFX_button_language_pinyin"
+		texturefile = "gfx/interface/language/language_pinyin_button.dds"
+	}
+}

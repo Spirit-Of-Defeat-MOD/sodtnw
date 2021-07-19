@@ -1,0 +1,27 @@
+
+state={
+	id=949
+	name="STATE_949" # South Chahar
+	manpower = 3490000
+	
+	state_category = c7
+
+	history={
+		owner = SHG
+		add_core_of = SHG
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			7014 25
+		}
+
+	}
+
+	provinces={
+		7014 12076
+	}
+}

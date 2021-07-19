@@ -1,0 +1,19 @@
+rename_chinese_states = {
+	600 = { #Jiangxi
+		set_state_name = state_600_wade_giles
+	}
+	
+	595 = { #Fujian
+		set_state_name = state_595_wade_giles
+	}
+}
+
+rename_chinese_states_pinyin = {
+	600 = { #Jiangxi
+		set_state_name = STATE_600
+	}
+	
+	595 = { #Fujian
+		set_state_name = STATE_595
+	}
+}

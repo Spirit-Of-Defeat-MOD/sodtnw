@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SHG_fascism_party:0 ""
+SHG_fascism_party_long:0 ""
+SHG_communism_party:0 "CCP"
+SHG_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+SHG_democratic_party:1 "KMT"
+SHG_democratic_party_long:0 "Zhōngguó Guómíndǎng"
+SHG_utilitarian_despot_party:0 "Triads"
+SHG_utilitarian_despot_party_long:0 "Triads"
+SHG_neutrality_party:0 "Chaing Loyalists"
+SHG_neutrality_party_long:0 "Chaing Loyalists"
+SHG_social_democrat_party:0 "Left-KMT"
+SHG_social_democrat_party_long:0 "Zhōngguó Zhìgōngdǎng"
+SHG_social_liberal_party:0 "KMT"
+SHG_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SHG_classic_liberal_party:0 "KMT"
+SHG_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
+SHG_libertarian_socialist_party:0 ""
+SHG_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng"
+SHG_reformist_socialist_party:0 ""
+SHG_reformist_socialist_party_long:0 ""
+SHG_nihilistic_extremism_party:0 ""
+SHG_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SHG_fascism:0 "Shanghai Triad Syndicate"
+SHG_fascism_DEF:0 "the Shanghai Triad Syndicate"
+SHG_libertarian_socialist:0 "Shanghai Triad Syndicate"
+SHG_libertarian_socialist_DEF:0 "the Shanghai Triad Syndicate"
+SHG_utilitarian_despot:0 "Shanghai Triad Syndicate"
+SHG_utilitarian_despot_DEF:0 "the Shanghai Triad Syndicate"
+SHG_democratic:0 "Shanghai Triad Syndicate"
+SHG_democratic_DEF:0 "the Shanghai Triad Syndicate"
+SHG_neutrality:1 "Shanghai Triad Syndicate"
+SHG_neutrality_DEF:1 "the Shanghai Triad Syndicate"
+SHG_reformist_socialist:0 "Shanghai Triad Syndicate"
+SHG_reformist_socialist_DEF:0 "the Shanghai Triad Syndicate"
+SHG_social_democrat:0 "Shanghai Triad Syndicate"
+SHG_social_democrat_DEF:0 "the Shanghai Triad Syndicate"
+SHG_social_liberal:0 "Shanghai Triad Syndicate"
+SHG_social_liberal_DEF:0 "the Shanghai Triad Syndicate"
+SHG_classic_liberal:0 "Shanghai Triad Syndicate"
+SHG_classic_liberal_DEF:0 "the Shanghai Triad Syndicate"
+SHG_communism:0 "Shanghai Triad Syndicate"
+SHG_communism_DEF:0 "the Shanghai Triad Syndicate"
+SHG_nihilistic_extremism:0 "Shanghai Triad Syndicate"
+SHG_nihilistic_extremism_DEF:0 "the Shanghai Triad Syndicate"
+ 
+SHG_fascism_ADJ:0 "Hu"
+SHG_fascism_ADJ:0 "Hu"
+SHG_libertarian_socialist_ADJ:0 "Hu"
+SHG_democratic_ADJ:0 "Hu"
+SHG_utilitarian_despot_ADJ:0 "Hu"
+SHG_reformist_socialist_ADJ:0 "Hu"
+SHG_neutrality_ADJ:0 "Hu"
+SHG_social_democrat_ADJ:0 "Hu"
+SHG_social_liberal_ADJ:0 "Hu"
+SHG_classic_liberal_ADJ:0 "Hu"
+SHG_communism_ADJ:0 "Hu"
+SHG_nihilistic_extremism_ADJ:0 "Hu"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

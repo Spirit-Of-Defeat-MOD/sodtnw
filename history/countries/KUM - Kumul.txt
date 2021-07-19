@@ -16,9 +16,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = marxist_leninist
 	traits = {
@@ -26,9 +26,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = reformist_socialist_ideology
 	traits = {
@@ -36,9 +36,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_ideology
 	traits = {
@@ -46,9 +46,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = classic_liberal_ideology
 	traits = {
@@ -56,9 +56,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative
 	traits = {
@@ -66,9 +66,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -76,9 +76,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Yulbars Khan"
+	name = "Nasir Shah"
 	desc = "#"
-	picture = ""
+	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {

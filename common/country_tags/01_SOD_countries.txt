@@ -57,7 +57,8 @@ ROC = "countries/Asian.txt"	#Beiyang China
 HNC = "countries/Asian.txt"	#Hunan Clique
 GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
 HUB = "countries/Asian.txt"	#Hubei Zhensongjun
-SHD = "countries/Asian.txt"	#Shangdong clique
+SHD = "countries/Asian.txt"	#Shangdong Clique
+SHG = "countries/Asian.txt" #Shanghai Triads clique
 
 
 

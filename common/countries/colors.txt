@@ -130,7 +130,7 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = hsv { 0.1 0.47 0.8 } #255 180 136
+	color = rgb { 255 180 136 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
 BRA = {
@@ -142,8 +142,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 57 96 139 } #255 244 190
+	color_ui = rgb { 57 96 139 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -928,4 +928,9 @@ HUB = {
 SHD = {
 	color = rgb { 51 101 136 }
 	color_ui = rgb { 51 101 136 }
+}
+
+SHG = {
+	color = rgb { 70 117 99 }
+    color_ui = rgb { 70 117 99 }
 }

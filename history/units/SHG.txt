@@ -1,0 +1,20 @@
+﻿division_template = {
+	name = "Hēishèhuì"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHG"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

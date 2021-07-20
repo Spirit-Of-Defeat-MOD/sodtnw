@@ -1,0 +1,86 @@
+scripted_gui = {
+	dual_leader_politics_view = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "dual_leader_politics_view_container"
+		
+        visible = {
+			check_variable = { show_dual = 1 }
+			OR = {
+				tag = VIL
+			}
+		}
+
+		properties = {
+			dual_leader_portrait = {
+				image = "[Root.GetDualLeaderPortrait]"
+			}
+		}
+		
+		effects = {
+            politics_close_button_click = {
+                set_variable = { show_dual = 0 }
+                log = "Open Dual Leader Window: [?show_dual]"
+            }
+        }
+        
+        triggers = {
+            political_dual_portrait_1_fg_visible = {
+                check_variable = { show_dual = 0 }
+            }
+            political_dual_portrait_1_fg_cancel_visible = {
+               check_variable = { show_dual = 1 }
+            }
+        }
+    }
+}
+
+scripted_gui = {
+
+	dual_leader_politics_actual_view_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "dual_leader_politics_view_button_container_open"
+		
+		visible = {
+		#check_variable = { show_dual = 0 }
+		}
+		
+		effects = {
+            political_dual_portrait_1_fg_click = {
+                set_variable = { show_dual = 1 }
+				log = "Open Dual Leader Window: [?show_dual]"
+            }
+            political_dual_portrait_1_fg_cancel_click = {
+                set_variable = { show_dual = 0 }
+				log = "Open Dual Leader Window: [?show_dual]"
+            }
+		}
+		
+		triggers = {
+		}
+	}
+	dual_leader_politics_actual_view_close = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "dual_leader_politics_view_button_container"
+		
+		visible = {
+			check_variable = { show_dual = 3 }
+		}
+		
+		effects = {
+            political_dual_portrait_1_fg_click = {
+                set_variable = { show_dual = 0 }
+				log = "[?show_dual]"
+            }
+            political_dual_portrait_1_fg_cancel_click = {
+                set_variable = { show_dual = 1 }
+				log = "[?show_dual]"
+            }
+		}
+		
+		triggers = {
+		}
+	}
+}

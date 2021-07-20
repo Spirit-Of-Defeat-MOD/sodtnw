@@ -760,7 +760,7 @@ ideas = {
 				}
 				
 				available = {
-					NOT = { has_completed_focus = POR_estado_novo }
+					#NOT = { #has_completed_focus =POR_estado_novo }
 					if = {
 						limit = { has_dlc = "Man the Guns" }	
 						NOT = { has_autonomy_state = autonomy_supervised_state }
@@ -786,7 +786,7 @@ ideas = {
 				}
 	
 				available = {
-					NOT = { has_completed_focus = POR_popular_front }			
+					#NOT = { #has_completed_focus =POR_popular_front }			
 				}
 				
 				traits = { war_industrialist }
@@ -802,7 +802,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_allow_free_elections			
+					#has_completed_focus =POR_allow_free_elections			
 				}
 
 				name = POR_jaime_cortesao
@@ -820,7 +820,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_colonial_army			
+					#has_completed_focus =POR_colonial_army			
 				}
 
 				name = POR_francisco_craveiro_lopes
@@ -863,7 +863,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_national_syndicalism				
+					#has_completed_focus =POR_national_syndicalism				
 				}
 	
 				picture = por_jose_hipolito_raposo 
@@ -913,7 +913,7 @@ ideas = {
 				}
 	
 				available = {
-					NOT = { has_completed_focus = POR_popular_front }			
+					#NOT = { #has_completed_focus =POR_popular_front }			
 				}
 				
 				traits = { financial_expert }
@@ -934,8 +934,8 @@ ideas = {
 	
 				available = {
 					OR = { 
-						has_completed_focus = POR_limited_self_rule
-						has_completed_focus = POR_allow_free_elections
+						#has_completed_focus =POR_limited_self_rule
+						#has_completed_focus =POR_allow_free_elections
 					}				
 				}
 				
@@ -956,7 +956,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_reorganization_of_the_communist_party			
+					#has_completed_focus =POR_reorganization_of_the_communist_party			
 				}
 				
 				traits = { financial_expert }
@@ -976,7 +976,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_national_syndicalism				
+					#has_completed_focus =POR_national_syndicalism				
 				}
 				
 				traits = { national_integralist }
@@ -1032,7 +1032,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_popular_front				
+					#has_completed_focus =POR_popular_front				
 				}
 				
 				traits = { liberal_journalist }
@@ -1053,8 +1053,8 @@ ideas = {
 	
 				available = {
 					OR = {
-						has_completed_focus = POR_appease_monarchists
-						has_completed_focus = POR_a_royal_wedding
+						#has_completed_focus =POR_appease_monarchists
+						#has_completed_focus =POR_a_royal_wedding
 					}
 				}
 	
@@ -1076,8 +1076,8 @@ ideas = {
 	
 				available = {
 					OR = {
-						has_completed_focus = POR_appease_monarchists
-						has_completed_focus = POR_a_royal_wedding
+						#has_completed_focus =POR_appease_monarchists
+						#has_completed_focus =POR_a_royal_wedding
 					}			
 				}
 	
@@ -1098,7 +1098,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_concordat_with_the_holy_see				
+					#has_completed_focus =POR_concordat_with_the_holy_see				
 				}
 	
 				traits = { appeaser }
@@ -1177,7 +1177,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_allow_free_elections			
+					#has_completed_focus =POR_allow_free_elections			
 				}
 
 				name = POR_jose_manuel_sarmento_de_beires
@@ -1277,8 +1277,8 @@ ideas = {
 				available = {
 					NOT = { 
 						OR = { 
-							has_completed_focus = POR_popular_front
-							has_completed_focus = POR_strengthen_the_regime
+							#has_completed_focus =POR_popular_front
+							#has_completed_focus =POR_strengthen_the_regime
 						}
 					}			
 				}
@@ -1332,7 +1332,7 @@ ideas = {
 				}
 	
 				available = {
-					has_completed_focus = POR_estado_novo					
+					#has_completed_focus =POR_estado_novo					
 				}
 				
 				traits = { army_chief_reform_2 }
@@ -1594,7 +1594,7 @@ ideas = {
 	
 	
 				available = { 
-					has_completed_focus = POR_ogma
+					#has_completed_focus =POR_ogma
 				}
 					
 				
@@ -1700,7 +1700,7 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_ogme
+					#has_completed_focus =POR_ogme
 				}
 	
 				research_bonus = {
@@ -1727,7 +1727,7 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_portuguese_artillery
+					#has_completed_focus =POR_portuguese_artillery
 				}
 	
 				research_bonus = {

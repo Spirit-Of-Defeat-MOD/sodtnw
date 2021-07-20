@@ -2017,7 +2017,7 @@ ideas = {
 		}
 
 		available = {
-			has_completed_focus = GRE_fiscal_responsibility
+			#has_completed_focus =GRE_fiscal_responsibility
 			NOT = {
 				OR = { 
 					has_government = communism
@@ -2089,7 +2089,7 @@ ideas = {
 		available = {
 			OR = { 
 				has_government = fascism
-				has_completed_focus = GRE_recruit_the_fascists
+				#has_completed_focus =GRE_recruit_the_fascists
 			}
 		}
 		
@@ -2804,7 +2804,7 @@ theorist = {
 			}
 
 			available = {
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}
 			
 			research_bonus = {
@@ -2859,7 +2859,7 @@ theorist = {
 			}
 
 			available = {
-				has_completed_focus = GRE_rapprochement_with_the_italians
+				#has_completed_focus =GRE_rapprochement_with_the_italians
 				NOT = { has_war_with = ITA }
 			}
 
@@ -3081,7 +3081,7 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_lignite_liquefaction
+				#has_completed_focus =GRE_lignite_liquefaction
 			}			
 			
 			research_bonus = {
@@ -3105,7 +3105,7 @@ theorist = {
 			}			
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
+				#has_completed_focus =GRE_cooperate_with_foreign_monopolies
 				NOT = { has_war_with = ENG }
 			}
 
@@ -3129,7 +3129,7 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
+				#has_completed_focus =GRE_cooperate_with_foreign_monopolies
 				NOT = { has_war_with = GER }
 			}
 
@@ -3156,7 +3156,7 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}	
 			
 			research_bonus = {
@@ -3180,7 +3180,7 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}
 			
 			research_bonus = {
@@ -3204,7 +3204,7 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}		
 			
 			research_bonus = {
@@ -3233,7 +3233,7 @@ theorist = {
 			}
 
 			available = {
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}
 			
 			research_bonus = {
@@ -3257,7 +3257,7 @@ theorist = {
 			}
 
 			available = {
-				has_completed_focus = GRE_crack_down_on_foreign_monopolies
+				#has_completed_focus =GRE_crack_down_on_foreign_monopolies
 			}
 			
 			research_bonus = {
@@ -3348,7 +3348,7 @@ theorist = {
 
 			available = {
 				NOT = { has_war_with = SOV }
-				has_completed_focus = GRE_appeal_to_the_soviet_union
+				#has_completed_focus =GRE_appeal_to_the_soviet_union
 			}
 
 			cost = 120

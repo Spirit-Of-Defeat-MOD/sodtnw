@@ -1791,7 +1791,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					NOT = { has_completed_focus = ENG_a_change_in_course }
+					#NOT = { #has_completed_focus =ENG_a_change_in_course }
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1855,7 +1855,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					NOT = { has_completed_focus = ENG_no_further_appeasement }
+					#NOT = { #has_completed_focus =ENG_no_further_appeasement }
 					has_government = democratic
 				}
 			}
@@ -1989,7 +1989,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
@@ -2014,7 +2014,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 			}
 			
 			allowed = {
@@ -2035,7 +2035,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 			}
 			
 			allowed = {
@@ -2240,7 +2240,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
@@ -2271,7 +2271,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
@@ -2302,7 +2302,7 @@ ideas = {
 
 			available = {
 				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
+				#has_completed_focus =ENG_the_kings_party
 				has_country_leader = {
 				    name = "Elizabeth II"
 				    ruling_only = yes
@@ -2380,7 +2380,7 @@ ideas = {
 			
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -2414,7 +2414,7 @@ ideas = {
 			
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -2533,7 +2533,7 @@ ideas = {
 			
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -2633,7 +2633,7 @@ ideas = {
 			
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -2680,7 +2680,7 @@ ideas = {
 			ledger = army
 
 			available = {
-				has_completed_focus = ENG_special_air_service
+				#has_completed_focus =ENG_special_air_service
 			}
 			
 			allowed = {
@@ -2995,7 +2995,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -3017,7 +3017,7 @@ ideas = {
 			
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -3043,11 +3043,11 @@ ideas = {
 			picture = generic_army_europe_2
 
 			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
+				#has_completed_focus =ENG_eliminate_the_upper_class
 			}
 
 			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
+				#has_completed_focus =ENG_eliminate_the_upper_class
 			}
 			
 			allowed = {
@@ -3070,7 +3070,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
+					#has_completed_focus =ENG_eliminate_the_upper_class
 				}
 			}
 			

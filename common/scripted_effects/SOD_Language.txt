@@ -1,19 +1,43 @@
 rename_chinese_states = {
-	600 = { #Jiangxi
-		set_state_name = state_600_wade_giles
+	619 = { #Kashgar
+		set_state_name = state_619_wade_giles
 	}
-	
-	595 = { #Fujian
-		set_state_name = state_595_wade_giles
+	916 = { #Aksu
+		set_state_name = state_916_wade_giles
+	}
+	923 = { #Ili
+		set_state_name = state_923_wade_giles
+	}
+	617 = { #Dihua
+		set_state_name = state_617_wade_giles
+	}
+	924 = { #Tacheng
+		set_state_name = state_924_wade_giles
+	}
+	618 = { #Altay
+		set_state_name = state_618_wade_giles
+	}
+	921 = { #Turpan
+		set_state_name = state_921_wade_giles
 	}
 }
 
 rename_chinese_states_pinyin = {
-	600 = { #Jiangxi
-		set_state_name = STATE_600
+	600 = { #Kashgar
+		set_state_name = STATE_619
 	}
-	
-	595 = { #Fujian
-		set_state_name = STATE_595
+	916 = { #Aksu
+		set_state_name = STATE_916
 	}
+
+}
+
+rename_chinese_states_postal = {
+	600 = { #Kashgar
+		set_state_name = state_619_postal
+	}
+	916 = { #Aksu
+		set_state_name = state_916_wade_giles
+	}
+
 }

@@ -1561,7 +1561,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_west_wall
+				#has_completed_focus =GER_west_wall
 			}
 			
 			traits = { fortification_engineer }
@@ -1589,8 +1589,8 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_four_year_plan
-				NOT = { has_completed_focus = GER_demand_sudetenland }
+				#has_completed_focus =GER_four_year_plan
+				#NOT = { #has_completed_focus =GER_demand_sudetenland }
 			}
 			
 			traits = { captain_of_industry }
@@ -1654,7 +1654,7 @@ ideas = {
 				}
 				if = {
 					limit = { has_dlc = "Waking the Tiger" }
-					has_completed_focus = GER_reestablish_free_elections
+					#has_completed_focus =GER_reestablish_free_elections
 				}
 			}
 			
@@ -1798,7 +1798,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = GER_oppose_hitler
+				#has_completed_focus =GER_oppose_hitler
 			}
 			
 			traits = { anti_fascist_agent }
@@ -1817,7 +1817,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
+				#has_completed_focus =GER_revive_the_kaiserreich
 			}
 			
 			traits = { monarchist_media_mogul }
@@ -1836,7 +1836,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
+				#has_completed_focus =GER_revive_the_kaiserreich
 			}
 			
 			traits = { economist }
@@ -1855,7 +1855,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = GER_reestablish_free_elections
+				#has_completed_focus =GER_reestablish_free_elections
 			}
 			
 			traits = { connected_citizen }
@@ -1874,7 +1874,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = GER_reestablish_free_elections
+				#has_completed_focus =GER_reestablish_free_elections
 			}
 			
 			traits = { liberal_journalist }
@@ -2417,7 +2417,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_army_innovation
+				#has_completed_focus =GER_army_innovation
 			}
 
 					
@@ -2459,7 +2459,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation
+				#has_completed_focus =GER_air_innovation
 			}
 						
 			traits = { air_chief_all_weather_2 }
@@ -2540,7 +2540,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-					has_completed_focus = GER_army_innovation
+					#has_completed_focus =GER_army_innovation
 				}
 			
 			traits = { army_armored_3 }
@@ -2588,7 +2588,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-					has_completed_focus = GER_air_innovation
+					#has_completed_focus =GER_air_innovation
 			}
 			
 			traits = { air_close_air_support_2 }

@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "#"
 	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
-	ideology = marxist_leninist
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "#"
 	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative
+	ideology = social_conservatism
 	traits = {
 		#
 	}
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = "#"
 	picture = "KUM_Nasir_Shah.tga"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

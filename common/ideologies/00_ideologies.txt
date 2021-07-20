@@ -351,6 +351,7 @@ ideologies = {
 			falangism = {}
 			integral_nationalist = {}
 			rexism = {}
+			national_bolshevik = {} #???
         }
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCISM_1"

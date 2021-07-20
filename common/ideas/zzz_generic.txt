@@ -1164,7 +1164,7 @@ ideas = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_the_lee_affair
+					#has_completed_focus =NZL_the_lee_affair
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1209,8 +1209,8 @@ ideas = {
 						has_dlc = "Together for Victory"
 					}
 					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
+						#has_completed_focus =NZL_strengthen_the_commonwealth
+						#has_completed_focus =NZL_constitution_amendment_act
 					}
 				}
 				if = {
@@ -1260,7 +1260,7 @@ ideas = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_in_the_darkness
+					#has_completed_focus =NZL_in_the_darkness
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1358,7 +1358,7 @@ ideas = {
 				NOT = {
 					AND = {
 						OR = {
-							is_literally_china = yes
+							#is_literally_china = yes
 							tag = MAN
 						}
 						has_dlc = "Waking the Tiger"
@@ -1711,7 +1711,7 @@ ideas = {
 						has_DLC = "Waking the Tiger"
 						OR = {
 							original_tag = MAN
-							is_literally_china = yes
+							#is_literally_china = yes
 						}
 					}
 				}

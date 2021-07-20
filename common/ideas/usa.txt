@@ -1220,7 +1220,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_suspend_the_presecution
+					#has_completed_focus =USA_suspend_the_presecution
 					not = { focus_progress = { focus = USA_neutrality_act progress > 0 } }
 					not = { focus_progress = { focus = USA_limited_intervention progress > 0 } }
 				}
@@ -1270,7 +1270,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_reach_out_to_the_ware_group
+					#has_completed_focus =USA_reach_out_to_the_ware_group
 				}
 				not = { has_idea = USA_henry_morgenthau }
 			}
@@ -1300,7 +1300,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_reach_out_to_the_ware_group
+					#has_completed_focus =USA_reach_out_to_the_ware_group
 				}
 			}
 			visible = { has_dlc = "Man the Guns" }
@@ -1329,7 +1329,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_reach_out_to_the_ware_group
+					#has_completed_focus =USA_reach_out_to_the_ware_group
 				}
 			}
 			visible = { has_dlc = "Man the Guns" }
@@ -1358,7 +1358,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					#has_completed_focus =USA_america_first
 				}
 			}
 			visible = { has_dlc = "Man the Guns" }
@@ -1388,7 +1388,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					#has_completed_focus =USA_america_first
 				}
 			}
 
@@ -1441,7 +1441,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					#has_completed_focus =USA_america_first
 					not = { focus_progress = { focus = USA_neutrality_act progress > 0 } }
 					not = { focus_progress = { focus = USA_limited_intervention progress > 0 } }
 				}
@@ -1495,7 +1495,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_empower_the_huac
+				#has_completed_focus =USA_empower_the_huac
 			}
 			
 			traits = { anti_communist_crusader }
@@ -1637,7 +1637,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_war_plans_division
+				#has_completed_focus =USA_war_plans_division
 			}
 			
 
@@ -1708,7 +1708,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_send_lindbergh_to_germany
+				#has_completed_focus =USA_send_lindbergh_to_germany
 			}
 
 			visible = {
@@ -1993,7 +1993,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_main_battle_tanks
+				#has_completed_focus =USA_main_battle_tanks
 			}
 
 			
@@ -2023,7 +2023,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_tank_destroyer_doctrine
+				#has_completed_focus =USA_tank_destroyer_doctrine
 			}
 
 			
@@ -2409,7 +2409,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_wartime_industry
+				#has_completed_focus =USA_wartime_industry
 			}
 			
 

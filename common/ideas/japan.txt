@@ -1236,7 +1236,7 @@ ideas = {
 					limit = {
 						has_DLC = "Waking the Tiger"
 					}
-					has_completed_focus = JAP_the_unthinkable_option
+					#has_completed_focus =JAP_the_unthinkable_option
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1269,7 +1269,7 @@ ideas = {
 					limit = {
 						has_DLC = "Waking the Tiger"
 					}
-					has_completed_focus = JAP_strengthen_civilian_government
+					#has_completed_focus =JAP_strengthen_civilian_government
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1403,7 +1403,7 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = JAP_army_expansion
+				#has_completed_focus =JAP_army_expansion
 			}
 			
 			traits = { army_chief_drill_3 }
@@ -1709,7 +1709,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = JAP_supremacy_of_the_battlefleet
+				#has_completed_focus =JAP_supremacy_of_the_battlefleet
 			}
 
 			cost = 75
@@ -1785,7 +1785,7 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = JAP_agility_focus
+				#has_completed_focus =JAP_agility_focus
 			}
 			
 			research_bonus = {
@@ -1806,7 +1806,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = JAP_range_focus
+				#has_completed_focus =JAP_range_focus
 			}
 						
 			research_bonus = {

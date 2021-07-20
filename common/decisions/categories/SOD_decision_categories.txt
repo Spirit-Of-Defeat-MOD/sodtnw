@@ -3,8 +3,8 @@ weapon_purchasing = {
 	
 	visible = {
 		OR = {
-			has_completed_focus = equipment_purchase
-			has_completed_focus = REV_foreign_purchase
+			#has_completed_focus =equipment_purchase
+			#has_completed_focus =REV_foreign_purchase
 		}
 		
 		

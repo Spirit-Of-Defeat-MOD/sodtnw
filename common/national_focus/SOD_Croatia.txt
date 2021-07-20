@@ -1277,7 +1277,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_completed_focus = CRO_startreformingthekuna
+			#has_completed_focus =CRO_startreformingthekuna
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -1519,7 +1519,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = {
-				has_completed_focus = CRO_warwithserbia
+				#has_completed_focus =CRO_warwithserbia
 			}
 			BUL = {
 				is_puppet = no
@@ -1548,7 +1548,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_completed_focus = CRO_hrvatskakuna
+			#has_completed_focus =CRO_hrvatskakuna
 		}
 		completion_reward = {
 			swap_ideas = {

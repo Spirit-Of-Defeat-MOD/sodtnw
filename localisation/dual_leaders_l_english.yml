@@ -1,0 +1,22 @@
+﻿l_english:
+ # GUI Localisation, do not edit!
+ first_leader_title:0 "[ROOT.GetFirstTitle]"
+ second_leader_title:0 "[ROOT.GetSecondTitle]"
+ dual_leader_name:0 "[ROOT.GetDualLeaderName]"
+ DEFAULT_TITLE:0 "Vacant"
+ DEFAULT_FIRST_TITLE:0 "Leader"
+ DESCRIPTION_TEST:0 "His Majesty"
+ second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
+ first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetFlag]§Y[From.GetName]§!"
+ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetFlag]§Y[From.GetName]§!"
+ dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+ dual_leader_button_tt:0 "Toggles the §YDual Leader§! (Current: §Y[ROOT.GetDualLeaderName]§!.)"
+ dual_leader_button_diplo_tt:0 "Toggles the §YDual Leader§! (Current: §Y[FROM.GetDualLeaderName]§!.)"
+
+
+ # Nation Specific Localisation
+MEX_VIL_TITLE:0 "General"
+VIL_ESCOBAR:0 "Jose Gonzalez Escobar"
+ 
+ 

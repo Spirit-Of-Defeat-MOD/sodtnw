@@ -118,7 +118,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = MLI
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			MLI = {
 				transfer_state = PREV
@@ -142,7 +142,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = MLI
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			MLI = {
 				transfer_state = PREV
@@ -167,7 +167,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = MLI
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			AOF = {
 				transfer_state = PREV
@@ -209,7 +209,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = TOG
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			TOG = {
 				transfer_state = PREV
@@ -233,7 +233,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = TOG
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			TOG = {
 				transfer_state = PREV
@@ -258,7 +258,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				is_core_of = TOG
-				is_not_claim_or_core_of_ROOT = yes
+				##is_not_claim_or_core_of_ROOT = yes
 			}
 			TOG = {
 				transfer_state = PREV

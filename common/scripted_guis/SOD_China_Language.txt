@@ -44,16 +44,13 @@ scripted_gui = {
 			pinyin_romanization_click = {
 				set_global_flag = pinyin_romanization_set
 				clr_global_flag = wade_giles_romanization_set
-				rename_chinese_states_pinyin
+				rename_chinese_states_pinyin = yes
 			}
-		}
-		triggers = {
-		
-			wade_giles_romanization_click_enabled = {
-				NOT = { has_global_flag = wade_giles_romanization_set }
-			}
-			pinyin_romanization_click_enabled = {
-				NOT = { has_global_flag = pinyin_romanization_set }
+			
+			postal_romanization_click = {
+				set_global_flag = pinyin_romanization_set
+				clr_global_flag = wade_giles_romanization_set
+				rename_chinese_states_postal = yes
 			}
 		}
 	}

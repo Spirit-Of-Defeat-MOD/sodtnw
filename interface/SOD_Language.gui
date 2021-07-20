@@ -54,7 +54,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "wade_giles_label"
-			position = { x = -80 y = 38 }
+			position = { x = -120 y = 38 }
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "Wade-Giles"
@@ -66,7 +66,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "pinyin_label"
-			position = { x = 80 y = 38 }
+			position = { x = 120 y = 38 }
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "Pinyin"
@@ -74,11 +74,62 @@ guiTypes = {
 			maxHeight = 32
 			format = centre
 		}
-
+		
+		instantTextBoxType = {
+			name = "postal_label"
+			position = { x = 0 y = 38 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "Postal"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "postal_label_2"
+			position = { x = 5 y = 120 }
+			font = "hoi_22typewriter"
+			borderSize = {x = 0 y = 0}
+			text = "''Peking''"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "pinyin_label_2"
+			position = { x = 130 y = 120 }
+			font = "hoi_22typewriter"
+			borderSize = {x = 0 y = 0}
+			text = "''Beijing''"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+		instantTextBoxType = {
+			name = "wade_giles_label_2"
+			position = { x = -110 y = 120 }
+			font = "hoi_22typewriter"
+			borderSize = {x = 0 y = 0}
+			text = "''Peiching''"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+		
+		buttonType = {
+			name = "postal_romanization"
+			position = { x = -25 y = -88 }
+			quadTextureSprite = "GFX_button_language_postal"
+			Orientation = "center"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
 
 		buttonType = {
 			name = "wade_giles_romanization"
-			position = { x = -104 y = -88 }
+			position = { x = -140 y = -88 }
 			quadTextureSprite = "GFX_button_language_wade_giles"
 			Orientation = "center"
 			clicksound = click_ok
@@ -87,11 +138,13 @@ guiTypes = {
 
 		buttonType = {
 			name = "pinyin_romanization"
-			position = { x = 56 y = -88 }
+			position = { x = 95 y = -88 }
 			quadTextureSprite = "GFX_button_language_pinyin"
 			Orientation = "center"
 			clicksound = click_ok
 			oversound = ui_menu_over
 		}
+		
+		
 	}
 }

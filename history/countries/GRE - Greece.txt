@@ -135,7 +135,7 @@ if = {
 		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 		picture = "GFX_portrait_gre_george_mercouris"
 		expire = "1965.1.1"
-		ideology = gen_nazism
+		ideology = national_collectivist
 		traits = {
 			polemarch
 			likes_turkey

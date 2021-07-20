@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "#"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = social_conservative
+	ideology = social_conservatism
 	traits = {
 		#
 	}
@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = "#"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "#"
 	picture = ""
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

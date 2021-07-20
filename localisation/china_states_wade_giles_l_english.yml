@@ -1,3 +1,13 @@
 ﻿l_english:
-state_600_wade_giles:0 "Chiang-hsi" #Jiangxi
-state_595_wade_giles:0 "Fu-chien" #Fujian
+
+##Xinjiang###
+state_619_wade_giles:0 "K'ashih"
+state_916_wade_giles:0 "Ako-su"
+state_923_wade_giles:0 "I-li"
+state_617_wade_giles:0 "Ti-hua"
+state_924_wade_giles:0 "T'a-ch'eng"
+state_618_wade_giles:0 "Ale-t'ai"
+state_921_wade_giles:0 "T'ulu-fan"
+
+state_619_postal:0 "Kashkar"
+state_916_postal:0 "Akesu"

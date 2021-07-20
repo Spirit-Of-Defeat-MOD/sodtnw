@@ -1147,7 +1147,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -1176,10 +1176,10 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				NOT = {
-					has_completed_focus = SPA_banish_the_party_leaders
+					#has_completed_focus =SPA_banish_the_party_leaders
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -1208,10 +1208,10 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				NOT = { has_idea = SPA_ramon_serrano_suner }
-				has_completed_focus = SPA_banish_the_party_leaders
+				#has_completed_focus =SPA_banish_the_party_leaders
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1240,15 +1240,15 @@ ideas = {
 			available = {
 				if = {
 					limit = {
-						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+						#NOT = { #has_completed_focus =SPA_supremacy_of_the_communion }
 					}
 					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
+						#has_completed_focus =SPA_eliminate_the_carlists
 					}
 				}
 				if = {
 					limit = {
-						has_completed_focus = SPA_unify_the_nationalist_front
+						#has_completed_focus =SPA_unify_the_nationalist_front
 					}
 					NOT = {
 						has_global_flag = SPR_carlist_uprising_flag
@@ -1281,10 +1281,10 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_the_phalanx_ascendant
-					has_completed_focus = SPA_supremacy_of_the_communion
-					has_completed_focus = SPR_regional_defense_council_of_aragon
-					has_completed_focus = SPR_the_anti_fascist_workers_revolution
+					#has_completed_focus =SPA_the_phalanx_ascendant
+					#has_completed_focus =SPA_supremacy_of_the_communion
+					#has_completed_focus =SPR_regional_defense_council_of_aragon
+					#has_completed_focus =SPR_the_anti_fascist_workers_revolution
 				}
 			}
 			
@@ -1309,7 +1309,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				NOT = { has_idea = SPA_raimundo_fernandez_cuesta }
 				custom_trigger_tooltip = {
@@ -1338,7 +1338,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_supremacy_of_the_communion
+				#has_completed_focus =SPA_supremacy_of_the_communion
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1365,7 +1365,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_primo_de_rivera_prisoner_exchange
+				#has_completed_focus =SPA_primo_de_rivera_prisoner_exchange
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1392,7 +1392,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_supremacy_of_the_communion
+				#has_completed_focus =SPA_supremacy_of_the_communion
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1419,7 +1419,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_supremacy_of_the_communion
+				#has_completed_focus =SPA_supremacy_of_the_communion
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1494,15 +1494,15 @@ ideas = {
 			available = {
 				if = {
 					limit = {
-						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+						#NOT = { #has_completed_focus =SPA_supremacy_of_the_communion }
 					}
 					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
+						#has_completed_focus =SPA_eliminate_the_carlists
 					}
 				}
 				if = {
 					limit = {
-						has_completed_focus = SPA_unify_the_nationalist_front
+						#has_completed_focus =SPA_unify_the_nationalist_front
 					}
 					NOT = {
 						has_global_flag = SPR_carlist_uprising_flag
@@ -1539,7 +1539,7 @@ ideas = {
 			}
 	
 			available = {
-				NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+				#NOT = { #has_completed_focus =SPA_supremacy_of_the_communion }
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -1644,7 +1644,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -1678,15 +1678,15 @@ ideas = {
 			available = {
 				if = {
 					limit = {
-						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+						#NOT = { #has_completed_focus =SPA_supremacy_of_the_communion }
 					}
 					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
+						#has_completed_focus =SPA_eliminate_the_carlists
 					}
 				}
 				if = {
 					limit = {
-						has_completed_focus = SPA_unify_the_nationalist_front
+						#has_completed_focus =SPA_unify_the_nationalist_front
 					}
 					NOT = {
 						has_global_flag = SPR_carlist_uprising_flag
@@ -1724,15 +1724,15 @@ ideas = {
 			available = {
 				if = {
 					limit = {
-						NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
+						#NOT = { #has_completed_focus =SPA_supremacy_of_the_communion }
 					}
 					NOT = {
-						has_completed_focus = SPA_eliminate_the_carlists
+						#has_completed_focus =SPA_eliminate_the_carlists
 					}
 				}
 				if = {
 					limit = {
-						has_completed_focus = SPA_unify_the_nationalist_front
+						#has_completed_focus =SPA_unify_the_nationalist_front
 					}
 					NOT = {
 						has_global_flag = SPR_carlist_uprising_flag
@@ -1769,7 +1769,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -1851,7 +1851,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -1884,7 +1884,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_eliminate_the_carlists
+					#has_completed_focus =SPA_eliminate_the_carlists
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -2106,8 +2106,8 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPR_masters_of_our_own_fate
-					has_completed_focus = SPA_no_compromise_on_carlist_ideals
+					#has_completed_focus =SPR_masters_of_our_own_fate
+					#has_completed_focus =SPA_no_compromise_on_carlist_ideals
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -2140,7 +2140,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = SPA_the_condor_legion
+				#has_completed_focus =SPA_the_condor_legion
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -2173,7 +2173,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPR_masters_of_our_own_fate
+					#has_completed_focus =SPR_masters_of_our_own_fate
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -2207,7 +2207,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPR_masters_of_our_own_fate
+					#has_completed_focus =SPR_masters_of_our_own_fate
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
@@ -2241,7 +2241,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = SPA_eliminate_the_carlists
+					#has_completed_focus =SPA_eliminate_the_carlists
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt

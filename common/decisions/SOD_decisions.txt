@@ -100,7 +100,7 @@ weapon_purchasing = {
 			is_ai = no
 			has_political_power > 150
 			has_tech = motorised_infantry
-			has_completed_focus = equipment_purchase_2
+			#has_completed_focus =equipment_purchase_2
 		}
 		
         cost = 0
@@ -130,7 +130,7 @@ weapon_purchasing = {
 			is_ai = no
 			has_political_power > 150
 			has_tech = mechanised_infantry
-			has_completed_focus = equipment_purchase_2
+			#has_completed_focus =equipment_purchase_2
 		}
 		
         cost = 0
@@ -161,7 +161,7 @@ weapon_purchasing = {
 			has_political_power > 150
 			has_tech = gwtank
 			has_tech = basic_light_tank
-			has_completed_focus = equipment_purchase_2
+			#has_completed_focus =equipment_purchase_2
 		}
 		
         cost = 0
@@ -192,7 +192,7 @@ weapon_purchasing = {
 			has_political_power > 150
 			has_tech = gwtank
 			has_tech = basic_medium_tank
-			has_completed_focus = equipment_purchase_2
+			#has_completed_focus =equipment_purchase_2
 		}
 		
         cost = 0
@@ -223,7 +223,7 @@ weapon_purchasing = {
 			has_political_power > 150
 			has_tech = gwtank
 			has_tech = basic_heavy_tank
-			has_completed_focus = equipment_purchase_2
+			#has_completed_focus =equipment_purchase_2
 		}
 		
         cost = 0

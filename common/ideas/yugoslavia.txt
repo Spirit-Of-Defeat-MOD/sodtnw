@@ -1183,7 +1183,7 @@ ideas = {
 			picture = generic_air_manufacturer_3
 			
 			available = {
-				has_completed_focus = YUG_ikarus
+				#has_completed_focus =YUG_ikarus
 			}
 
 			allowed = {
@@ -1235,7 +1235,7 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			available = {
-				has_completed_focus = YUG_rogozarski
+				#has_completed_focus =YUG_rogozarski
 			}
 
 			allowed = {
@@ -1287,7 +1287,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 			
 			available = {
-				has_completed_focus = YUG_zmaj				
+				#has_completed_focus =YUG_zmaj				
 			}			
 
 			allowed = {

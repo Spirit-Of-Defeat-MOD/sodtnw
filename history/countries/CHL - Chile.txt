@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_OSORIO_DESC"
 	picture = "CHL_Recabarren.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
+	ideology = revolutionary_socialist
 	traits = {
 		union_man
 	}

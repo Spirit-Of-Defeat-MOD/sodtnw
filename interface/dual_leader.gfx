@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_dual_leader_show"
+		texturefile = "gfx/interface/production_line_arrow_right.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_bg_blank"
+		texturefile = "gfx/interface/portrait_background_empty.dds"
+	}
+	
+	####Mexico####
+	spriteType = {
+		name = "GFX_VIL_ESCOBAR"
+		texturefile = "gfx/dual_leaders/VIL/Portrait_Escobar.tga"
+	}
+}

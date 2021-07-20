@@ -157,7 +157,7 @@ ENG_support_feds = { ##Support Mex through focus tree
 	enable = {
 		tag = ENG
 		country_exists = MEX
-		MEX = { has_completed_focus = REV_ENG_volunteers }
+		MEX = { #has_completed_focus =REV_ENG_volunteers }
 	}
 	abort = {
 		OR = {

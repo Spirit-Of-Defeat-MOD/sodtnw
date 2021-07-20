@@ -12,7 +12,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+					#NOT = { #has_completed_focus =SPR_all_must_bear_the_torch }
 				}
 			}
 						
@@ -76,7 +76,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+					#NOT = { #has_completed_focus =SPR_all_must_bear_the_torch }
 				}
 			}
 			
@@ -156,7 +156,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+					#NOT = { #has_completed_focus =SPR_all_must_bear_the_torch }
 				}
 			}
 		

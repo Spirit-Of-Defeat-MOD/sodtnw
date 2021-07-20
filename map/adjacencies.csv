@@ -208,6 +208,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4714;4788;impassable;-1;-1;-1;-1;-1;;Altay
 4714;8086;impassable;-1;-1;-1;-1;-1;;Altay
 4714;5016;impassable;-1;-1;-1;-1;-1;;Altay
+4714;4823;impassable;-1;-1;-1;-1;-1;;Altay
 12801;5042;impassable;-1;-1;-1;-1;-1;;Aksai
 12801;7273;impassable;-1;-1;-1;-1;-1;;Aksai
 12801;12784;impassable;-1;-1;-1;-1;-1;;Aksai

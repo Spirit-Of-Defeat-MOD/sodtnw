@@ -1,4 +1,4 @@
-capital = 593 #Guangdong
+capital = 944 #Guangdong
 
 oob = "HUB"
 

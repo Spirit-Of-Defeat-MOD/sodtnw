@@ -7,7 +7,7 @@ state={
 		steel=3 # was: 4
 	}
 	
-	state_category = town
+	state_category = c5
 
 	history={
 		owner = ROM

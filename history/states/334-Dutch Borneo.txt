@@ -7,7 +7,7 @@ state= {
 		oil=5 # was: 10
 	}
 	
-	state_category = rural
+	state_category = c3
 
 	history= {
 		owner = INS

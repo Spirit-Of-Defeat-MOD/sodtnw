@@ -6,7 +6,7 @@ state= {
 		oil=3 # was: 4
 	}
 	
-	state_category = rural
+	state_category = c3
 
 	history= {
 		owner = JAP

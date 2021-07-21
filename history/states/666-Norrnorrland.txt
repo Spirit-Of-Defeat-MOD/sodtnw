@@ -9,7 +9,7 @@ state={
 		chromium = 25 # was: 40
 	}
 	
-	state_category = rural
+	state_category = c3
 
 	history={
 		owner = SWE

@@ -15,7 +15,6 @@ upgrades = {
 		cost = land
 		
 		soft_attack = 0.05
-		maximum_speed = -0.02
 		reliability = -0.02
 		build_cost_ic = 0.03
 		
@@ -34,7 +33,7 @@ upgrades = {
 		cost = land
 		
 		soft_attack = 0.1
-		defense = 2
+		defense = 0.2
 		build_cost_ic = 0.04
 	}
 

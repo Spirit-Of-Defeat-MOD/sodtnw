@@ -4,7 +4,7 @@ state={
 	name="STATE_495"
 	manpower = 979900
 	
-	state_category = pastoral
+	state_category = c2
 	
 	resources={
 		aluminium=4 # was: 4

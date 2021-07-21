@@ -4,7 +4,7 @@ state={
 	name="STATE_655"
 	manpower = 94759
 	
-	state_category = pastoral
+	state_category = c2
 	history={
 		owner = SOV
 		add_core_of = SOV

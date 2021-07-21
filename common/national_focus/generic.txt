@@ -1,0 +1,1491 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	FOCUS_FILTER_RESEARCH = 522
+	FOCUS_FILTER_INDUSTRY = 509
+}
+
+focus_tree = {
+	id = generic_focus
+	country = {
+		factor = 1
+	}
+	default = yes
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 1450 }
+	#initial_show_position = {
+	#	focus = industrial_effort
+	#}
+	focus = {
+		id = generic_army_focus
+		icon = GFX_unknown
+		cost = 7
+		x = 9
+		y = 0
+		available_if_capitulated = yes
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_army_focus"
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+			
+		}
+	}
+	focus = {
+		id = generic_equipment_effort
+		icon = GFX_unknown
+		cost = 7
+		x = -7
+		y = 1
+		relative_position_id = generic_army_focus
+		prerequisite = {
+			focus = generic_army_focus
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_effort"
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = generic_equipment_research_i
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+
+		relative_position_id = generic_equipment_effort
+		prerequisite = {
+			focus = generic_equipment_effort
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_research_i"
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+	}
+	focus = {
+		id = generic_equipment_development
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+
+		relative_position_id = generic_equipment_effort
+		prerequisite = {
+			focus = generic_equipment_effort
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_development"
+			add_ideas = {
+				idea = idea_equipment_development
+			}
+		}
+
+	}
+	focus = {
+		id = generic_equipment_research_ii
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+
+		relative_position_id = generic_equipment_research_i
+		prerequisite = {
+			focus = generic_equipment_research_i
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_research_ii"
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+
+	}
+	focus = {
+		id = generic_equipment_purchases
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		relative_position_id = generic_equipment_development
+		prerequisite = {
+			focus = generic_equipment_development
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_purchases"
+			unlock_decision_tooltip = SOD_weapon_purchasing
+		}	
+	}
+	focus = {
+		id = generic_equipment_variation
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		
+		prerequisite = {
+			focus = generic_equipment_research_ii
+		}
+		prerequisite = {
+			focus = generic_equipment_purchases
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_variation"
+		}
+		relative_position_id = generic_equipment_research_ii
+
+	}
+	focus = {
+		id = generic_doctrine_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 5
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_doctrine_effort"
+		}
+		relative_position_id = generic_army_focus
+		prerequisite = {
+			focus = generic_army_focus
+		}
+	}
+	focus = {
+		id = generic_school_of_fire_power
+		icon = GFX_unknown
+		cost = 7
+		x = -7
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_school_of_fire_power"
+		}
+		relative_position_id = generic_doctrine_effort
+		prerequisite = {
+			focus = generic_doctrine_effort
+		}
+		mutually_exclusive = {
+			focus = generic_mobile_warfare
+		}
+	}
+	focus = {
+		id = generic_grand_battleplan
+		icon = GFX_unknown
+		cost = 7
+		x = 3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_grand_battleplan"
+		}
+		relative_position_id = generic_doctrine_effort
+		prerequisite = {
+			focus = generic_doctrine_effort
+		}
+		mutually_exclusive = {
+			focus = generic_mobile_warfare
+		}
+		mutually_exclusive = {
+			focus = generic_mass_assault
+		}
+	}
+	focus = {
+		id = generic_mass_assault
+		icon = GFX_unknown
+		cost = 7
+		x = 7
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mass_assault"
+		}
+		relative_position_id = generic_doctrine_effort
+		prerequisite = {
+			focus = generic_doctrine_effort
+		}
+		mutually_exclusive = {
+			focus = generic_grand_battleplan
+		}
+	}
+	focus = {
+		id = generic_mobile_warfare
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mobile_warfare"
+		}
+		relative_position_id = generic_doctrine_effort
+		prerequisite = {
+			focus = generic_doctrine_effort
+		}
+		mutually_exclusive = {
+			focus = generic_grand_battleplan
+		}
+		mutually_exclusive = {
+			focus = generic_school_of_fire_power
+		}
+	}
+	focus = {
+		id = generic_artillery_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_artillery_effort"
+		}
+		relative_position_id = generic_school_of_fire_power
+		prerequisite = {
+			focus = generic_school_of_fire_power
+		}
+	}
+	focus = {
+		id = generic_develop_heavy_artillery
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_develop_heavy_artillery"
+		}
+		relative_position_id = generic_artillery_effort
+		prerequisite = {
+			focus = generic_artillery_effort
+		}
+	}
+	focus = {
+		id = generic_artillery_purchase
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_artillery_purchase"
+		}
+		relative_position_id = generic_artillery_effort
+		prerequisite = {
+			focus = generic_artillery_effort
+		}
+	}
+	focus = {
+		id = generic_employing_new_tactics
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_employing_new_tactics"
+		}
+		relative_position_id = generic_grand_battleplan
+		prerequisite = {
+			focus = generic_grand_battleplan
+		}
+	}
+	focus = {
+		id = generic_new_conscription
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_new_conscription"
+		}
+		relative_position_id = generic_mass_assault
+		prerequisite = {
+			focus = generic_mass_assault
+		}
+	}
+	focus = {
+		id = generic_motorized_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_motorized_effort"
+		}
+		relative_position_id = generic_mobile_warfare
+		prerequisite = {
+			focus = generic_mobile_warfare
+		}
+	}
+	focus = {
+		id = generic_role_of_armored_cars
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_role_of_armored_cars"
+		}
+		relative_position_id = generic_motorized_effort
+		prerequisite = {
+			focus = generic_motorized_effort
+		}
+	}
+	focus = {
+		id = generic_motorized_cavalry_brigdade
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_motorized_cavalry_brigdade"
+		}
+		relative_position_id = generic_motorized_effort
+		prerequisite = {
+			focus = generic_motorized_effort
+		}
+	}
+	focus = {
+		id = generic_improved_training_standards
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_improved_training_standards"
+		}
+		relative_position_id = generic_employing_new_tactics
+		prerequisite = {
+			focus = generic_employing_new_tactics
+		}
+	}
+	focus = {
+		id = generic_mechanization_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mechanization_effort"
+		}
+		relative_position_id = generic_role_of_armored_cars
+		prerequisite = {
+			focus = generic_role_of_armored_cars
+		}
+		prerequisite = {
+			focus = generic_motorized_cavalry_brigdade
+		}
+	}
+	focus = {
+		id = generic_mobile_rocket_artillery
+		icon = GFX_unknown
+		cost = 7
+		x = -3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mobile_rocket_artillery"
+		}
+		relative_position_id = generic_mechanization_effort
+		prerequisite = {
+			focus = generic_mechanization_effort
+		}
+		prerequisite = {
+			focus = generic_antitank_research
+		}
+		prerequisite = {
+			focus = generic_antiair_research
+		}
+	}
+	focus = {
+		id = generic_antitank_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_antitank_research"
+		}
+		relative_position_id = generic_develop_heavy_artillery
+		prerequisite = {
+			focus = generic_develop_heavy_artillery
+		}
+	}
+	focus = {
+		id = generic_antiair_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_antiair_research"
+		}
+		relative_position_id = generic_artillery_purchase
+		prerequisite = {
+			focus = generic_artillery_purchase
+		}
+	}
+	focus = {
+		id = generic_armor_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_armor_effort"
+		}
+		relative_position_id = generic_mechanization_effort
+		prerequisite = {
+			focus = generic_mechanization_effort
+		}
+	}
+	focus = {
+		id = generic_large_front_tactics
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_large_front_tactics"
+		}
+		relative_position_id = generic_research_support_equipment
+		prerequisite = {
+			focus = generic_research_support_equipment
+		}
+	}
+	focus = {
+		id = generic_lower_recruitment_standards
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_lower_recruitment_standards"
+		}
+		relative_position_id = generic_new_conscription
+		prerequisite = {
+			focus = generic_new_conscription
+		}
+	}
+	focus = {
+		id = generic_war_games
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_war_games"
+		}
+		relative_position_id = generic_improved_training_standards
+		prerequisite = {
+			focus = generic_improved_training_standards
+		}
+	}
+	focus = {
+		id = generic_research_support_equipment
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_research_support_equipment"
+		}
+		relative_position_id = generic_lower_recruitment_standards
+		prerequisite = {
+			focus = generic_lower_recruitment_standards
+		}
+	}
+	focus = {
+		id = generic_mass_production
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mass_production"
+		}
+		relative_position_id = generic_lower_recruitment_standards
+		prerequisite = {
+			focus = generic_lower_recruitment_standards
+		}
+	}
+	focus = {
+		id = generic_combined_arms_tactics
+		icon = GFX_unknown
+		cost = 7
+		x = 3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_combined_arms_tactics"
+		}
+		relative_position_id = generic_mechanization_effort
+		prerequisite = {
+			focus = generic_mechanization_effort
+		}
+		prerequisite = {
+			focus = generic_war_games
+		}
+	}
+	focus = {
+		id = generic_not_a_step_back
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_not_a_step_back"
+		}
+		relative_position_id = generic_war_games
+		prerequisite = {
+			focus = generic_war_games
+		}
+		prerequisite = {
+			focus = generic_research_support_equipment
+		}
+	}
+	focus = {
+		id = generic_rocket_artillery
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_rocket_artillery"
+		}
+		relative_position_id = generic_antitank_research
+		prerequisite = {
+			focus = generic_antitank_research
+		}
+		prerequisite = {
+			focus = generic_antiair_research
+		}
+	}
+	focus = {
+		id = generic_special_forces
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_special_forces"
+		}
+		relative_position_id = generic_armor_effort
+		prerequisite = {
+			focus = generic_armor_effort
+		}
+		prerequisite = {
+			focus = generic_not_a_step_back
+		}
+		prerequisite = {
+			focus = generic_rocket_artillery
+		}
+	}
+	focus = {
+		id = generic_aviation_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 31
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_aviation_effort"
+		}
+	}
+	focus = {
+		id = generic_strategic_desctruction
+		icon = GFX_unknown
+		cost = 7
+		x = -3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_strategic_desctruction"
+		}
+		relative_position_id = generic_aviation_effort
+		prerequisite = {
+			focus = generic_aviation_effort
+		}
+	}
+	focus = {
+		id = generic_battlefield_support
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_battlefield_support"
+		}
+		relative_position_id = generic_aviation_effort
+		prerequisite = {
+			focus = generic_aviation_effort
+		}
+	}
+	focus = {
+		id = generic_operational_integrity
+		icon = GFX_unknown
+		cost = 7
+		x = 3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_operational_integrity"
+		}
+		relative_position_id = generic_aviation_effort
+		prerequisite = {
+			focus = generic_aviation_effort
+		}
+	}
+	focus = {
+		id = generic_fighter_research
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_fighter_research"
+		}
+		relative_position_id = generic_strategic_desctruction
+		prerequisite = {
+			focus = generic_strategic_desctruction
+		}
+	}
+	focus = {
+		id = generic_opening_airplane_factories
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_opening_airplane_factories"
+		}
+		relative_position_id = generic_strategic_desctruction
+		prerequisite = {
+			focus = generic_strategic_desctruction
+		}
+		prerequisite = {
+			focus = generic_battlefield_support
+		}
+	}
+	focus = {
+		id = generic_new_flight_formations
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_new_flight_formations"
+		}
+		relative_position_id = generic_fighter_research
+		prerequisite = {
+			focus = generic_fighter_research
+		}
+	}
+	focus = {
+		id = generic_heavy_bomber_research
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_heavy_bomber_research"
+		}
+		relative_position_id = generic_fighter_research
+		prerequisite = {
+			focus = generic_fighter_research
+		}
+	}
+	focus = {
+		id = generic_fighterbomber_prioritization
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_fighterbomber_prioritization"
+		}
+		relative_position_id = generic_new_flight_formations
+		prerequisite = {
+			focus = generic_new_flight_formations
+		}
+		prerequisite = {
+			focus = generic_heavy_bomber_research
+		}
+	}
+	focus = {
+		id = generic_cas_research
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_cas_research"
+		}
+		relative_position_id = generic_battlefield_support
+		prerequisite = {
+			focus = generic_battlefield_support
+		}
+	}
+	focus = {
+		id = generic_heavy_fighter_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_heavy_fighter_research"
+		}
+		relative_position_id = generic_tactical_bomber_research
+		prerequisite = {
+			focus = generic_tactical_bomber_research
+		}
+	}
+	focus = {
+		id = generic_foreign_aircraft_purchasing
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_foreign_aircraft_purchasing"
+		}
+		relative_position_id = generic_opening_airplane_factories
+		prerequisite = {
+			focus = generic_opening_airplane_factories
+		}
+	}
+	focus = {
+		id = generic_tactical_bomber_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_tactical_bomber_research"
+		}
+		relative_position_id = generic_operational_integrity
+		prerequisite = {
+			focus = generic_operational_integrity
+		}
+	}
+	focus = {
+		id = generic_carrier_fighter_research
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_carrier_fighter_research"
+		}
+		relative_position_id = generic_new_flight_formations
+		prerequisite = {
+			focus = generic_new_flight_formations
+		}
+	}
+	focus = {
+		id = generic_better_single_engine_development
+		icon = GFX_unknown
+		cost = 7
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_better_single_engine_development"
+		}
+		relative_position_id = generic_fighterbomber_prioritization
+		prerequisite = {
+			focus = generic_fighterbomber_prioritization
+		}
+		prerequisite = {
+			focus = generic_carrier_fighter_research
+		}
+	}
+	focus = {
+		id = generic_tactical_reconniassance
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_tactical_reconniassance"
+		}
+		relative_position_id = generic_cas_research
+		prerequisite = {
+			focus = generic_cas_research
+		}
+	}
+	focus = {
+		id = generic_better_multiengine_development
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_better_multiengine_development"
+		}
+		relative_position_id = generic_foreign_aircraft_purchasing
+		prerequisite = {
+			focus = generic_foreign_aircraft_purchasing
+		}
+		prerequisite = {
+			focus = generic_carrier_bomber_effort
+		}
+		prerequisite = {
+			focus = generic_night_fighting
+		}
+	}
+	focus = {
+		id = generic_carrier_bomber_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_carrier_bomber_effort"
+		}
+		relative_position_id = generic_tactical_reconniassance
+		prerequisite = {
+			focus = generic_tactical_reconniassance
+		}
+	}
+	focus = {
+		id = generic_night_fighting
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_night_fighting"
+		}
+		relative_position_id = generic_heavy_fighter_research
+		prerequisite = {
+			focus = generic_heavy_fighter_research
+		}
+	}
+	focus = {
+		id = generic_the_jet_engine
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_the_jet_engine"
+		}
+		relative_position_id = generic_better_single_engine_development
+		prerequisite = {
+			focus = generic_better_single_engine_development
+		}
+		prerequisite = {
+			focus = generic_better_multiengine_development
+		}
+		prerequisite = {
+			focus = generic_better_prototyping
+		}
+	}
+	focus = {
+		id = generic_better_bomb_development
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_better_bomb_development"
+		}
+		relative_position_id = generic_carrier_bomber_effort
+		prerequisite = {
+			focus = generic_carrier_bomber_effort
+		}
+		prerequisite = {
+			focus = generic_night_fighting
+		}
+	}
+	focus = {
+		id = generic_better_prototyping
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_better_prototyping"
+		}
+		relative_position_id = generic_fighterbomber_prioritization
+		prerequisite = {
+			focus = generic_fighterbomber_prioritization
+		}
+		prerequisite = {
+			focus = generic_foreign_aircraft_purchasing
+		}
+	}
+	focus = {
+		id = generic_naval_bomber_research
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_naval_bomber_research"
+		}
+		relative_position_id = generic_tactical_bomber_research
+		prerequisite = {
+			focus = generic_tactical_bomber_research
+		}
+	}
+	focus = {
+		id = generic_carrier_nav_bombers
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_carrier_nav_bombers"
+		}
+		relative_position_id = generic_naval_bomber_research
+		prerequisite = {
+			focus = generic_naval_bomber_research
+		}
+	}
+	focus = {
+		id = generic_rocket_development
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_rocket_development"
+		}
+		relative_position_id = generic_better_multiengine_development
+		prerequisite = {
+			focus = generic_better_multiengine_development
+		}
+		prerequisite = {
+			focus = generic_better_bomb_development
+		}
+	}
+	focus = {
+		id = generic_naval_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 44
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_naval_effort"
+		}
+	}
+	focus = {
+		id = generic_fleet_in_being
+		icon = GFX_unknown
+		cost = 7
+		x = -4
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_fleet_in_being"
+		}
+		relative_position_id = generic_naval_effort
+		prerequisite = {
+			focus = generic_naval_effort
+		}
+	}
+	focus = {
+		id = generic_trade_interdiction
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_trade_interdiction"
+		}
+		relative_position_id = generic_naval_effort
+		prerequisite = {
+			focus = generic_naval_effort
+		}
+	}
+	focus = {
+		id = generic_base_strike
+		icon = GFX_unknown
+		cost = 7
+		x = 4
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_base_strike"
+		}
+		relative_position_id = generic_naval_effort
+		prerequisite = {
+			focus = generic_naval_effort
+		}
+	}
+	focus = {
+		id = generic_battleship_resarch
+		icon = GFX_unknown
+		cost = 7
+		x = -2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_battleship_resarch"
+		}
+		relative_position_id = generic_fleet_in_being
+		prerequisite = {
+			focus = generic_fleet_in_being
+		}
+	}
+	focus = {
+		id = generic_cruiser_research
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_cruiser_research"
+		}
+		relative_position_id = generic_fleet_in_being
+		prerequisite = {
+			focus = generic_fleet_in_being
+		}
+		prerequisite = {
+			focus = generic_trade_interdiction
+		}
+	}
+	focus = {
+		id = generic_destroyer_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_destroyer_research"
+		}
+		relative_position_id = generic_trade_interdiction
+		prerequisite = {
+			focus = generic_trade_interdiction
+		}
+	}
+	focus = {
+		id = generic_submarine_research
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_submarine_research"
+		}
+		relative_position_id = generic_trade_interdiction
+		prerequisite = {
+			focus = generic_trade_interdiction
+		}
+		prerequisite = {
+			focus = generic_base_strike
+		}
+	}
+	focus = {
+		id = generic_carrier_research
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_carrier_research"
+		}
+		relative_position_id = generic_base_strike
+		prerequisite = {
+			focus = generic_base_strike
+		}
+	}
+	focus = {
+		id = generic_battlecruiser_research
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_battlecruiser_research"
+		}
+		relative_position_id = generic_battleship_resarch
+		prerequisite = {
+			focus = generic_battleship_resarch
+		}
+		prerequisite = {
+			focus = generic_cruiser_research
+		}
+	}
+	focus = {
+		id = generic_light_cruiser_research
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_light_cruiser_research"
+		}
+		relative_position_id = generic_cruiser_research
+		prerequisite = {
+			focus = generic_cruiser_research
+		}
+	}
+	focus = {
+		id = generic_antisubmarine_warfare
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_antisubmarine_warfare"
+		}
+		relative_position_id = generic_destroyer_research
+		prerequisite = {
+			focus = generic_destroyer_research
+		}
+		prerequisite = {
+			focus = generic_submarine_research
+		}
+	}
+	focus = {
+		id = generic_better_torpedo_design
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_better_torpedo_design"
+		}
+		relative_position_id = generic_submarine_research
+		prerequisite = {
+			focus = generic_submarine_research
+		}
+	}
+	focus = {
+		id = generic_super_heavy_battleship
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_super_heavy_battleship"
+		}
+		relative_position_id = generic_battleship_resarch
+		prerequisite = {
+			focus = generic_battleship_resarch
+		}
+	}
+	focus = {
+		id = generic_escort_carriers
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_escort_carriers"
+		}
+		relative_position_id = generic_carrier_research
+		prerequisite = {
+			focus = generic_carrier_research
+		}
+	}
+	focus = {
+		id = generic_carrier_task_force
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_carrier_task_force"
+		}
+		relative_position_id = generic_escort_carriers
+		prerequisite = {
+			focus = generic_escort_carriers
+		}
+	}
+	focus = {
+		id = generic_surface_action_group
+		icon = GFX_unknown
+		cost = 7
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_surface_action_group"
+		}
+		relative_position_id = generic_battlecruiser_research
+		prerequisite = {
+			focus = generic_battlecruiser_research
+		}
+		prerequisite = {
+			focus = generic_light_cruiser_research
+		}
+	}
+	focus = {
+		id = generic_asw_group
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_asw_group"
+		}
+		relative_position_id = generic_antisubmarine_warfare
+		prerequisite = {
+			focus = generic_antisubmarine_warfare
+		}
+	}
+	focus = {
+		id = generic_wolfpacks
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_wolfpacks"
+		}
+		relative_position_id = generic_better_torpedo_design
+		prerequisite = {
+			focus = generic_better_torpedo_design
+		}
+	}
+	focus = {
+		id = generic_the_pride_of_our_fleet
+		icon = GFX_unknown
+		cost = 7
+		x = -7
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_the_pride_of_our_fleet"
+		}
+		relative_position_id = generic_carrier_task_force
+		prerequisite = {
+			focus = generic_carrier_task_force
+		}
+		prerequisite = {
+			focus = generic_surface_action_group
+		}
+		prerequisite = {
+			focus = generic_asw_group
+		}
+		prerequisite = {
+			focus = generic_wolfpacks
+		}
+	}
+	focus = {
+		id = generic_industrial_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 57
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_industrial_effort"
+		}
+	}
+	focus = {
+		id = generic_civilian_industry_i
+		icon = GFX_unknown
+		cost = 7
+		x = -2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_i"
+		}
+		relative_position_id = generic_industrial_effort
+		prerequisite = {
+			focus = generic_industrial_effort
+		}
+	}
+	focus = {
+		id = generic_civilian_industry_ii
+		icon = GFX_unknown
+		cost = 8
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_ii"
+		}
+		relative_position_id = generic_civilian_industry_i
+		prerequisite = {
+			focus = generic_civilian_industry_i
+		}
+	}
+	focus = {
+		id = generic_civilian_industry_iii
+		icon = GFX_unknown
+		cost = 9
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_iii"
+		}
+		relative_position_id = generic_civilian_industry_ii
+		prerequisite = {
+			focus = generic_civilian_industry_ii
+		}
+	}
+	focus = {
+		id = generic_military_industry_i
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_i"
+		}
+		relative_position_id = generic_industrial_effort
+		prerequisite = {
+			focus = generic_industrial_effort
+		}
+	}
+	focus = {
+		id = generic_military_industry_ii
+		icon = GFX_unknown
+		cost = 8
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_ii"
+		}
+		relative_position_id = generic_military_industry_i
+		prerequisite = {
+			focus = generic_military_industry_i
+		}
+	}
+	focus = {
+		id = generic_military_industry_iii
+		icon = GFX_unknown
+		cost = 9
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_iii"
+		}
+		relative_position_id = generic_military_industry_ii
+		prerequisite = {
+			focus = generic_military_industry_ii
+		}
+	}
+	focus = {
+		id = generic_infrastructure_effort
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_infrastructure_effort"
+		}
+		relative_position_id = generic_civilian_industry_iii
+		prerequisite = {
+			focus = generic_civilian_industry_iii
+		}
+	}
+	focus = {
+		id = generic_extra_dockyards
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_extra_dockyards"
+		}
+		relative_position_id = generic_military_industry_iii
+		prerequisite = {
+			focus = generic_military_industry_iii
+		}
+	}
+	focus = {
+		id = generic_synthetic_refinery
+		icon = GFX_unknown
+		cost = 7
+		x = 2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_synthetic_refinery"
+		}
+		relative_position_id = generic_infrastructure_effort
+		prerequisite = {
+			focus = generic_infrastructure_effort
+		}
+		prerequisite = {
+			focus = generic_extra_dockyards
+		}
+	}
+	focus = {
+		id = generic_fuel_silos
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_fuel_silos"
+		}
+		relative_position_id = generic_synthetic_refinery
+		prerequisite = {
+			focus = generic_synthetic_refinery
+		}
+	}
+	focus = {
+		id = generic_secret_weapons
+		icon = GFX_unknown
+		cost = 7
+		x = 3
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_secret_weapons"
+		}
+		relative_position_id = generic_military_industry_iii
+		prerequisite = {
+			focus = generic_military_industry_iii
+		}
+	}
+	focus = {
+		id = generic_nuclear_technology
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_nuclear_technology"
+		}
+		relative_position_id = generic_secret_weapons
+		prerequisite = {
+			focus = generic_secret_weapons
+		}
+	}
+	focus = {
+		id = generic_urban_universities
+		icon = GFX_unknown
+		cost = 7
+		x = -2
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_urban_universities"
+		}
+		relative_position_id = generic_infrastructure_effort
+		prerequisite = {
+			focus = generic_infrastructure_effort
+		}
+	}
+	focus = {
+		id = generic_military_rampd
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_military_rampd"
+		}
+		relative_position_id = generic_urban_universities
+		prerequisite = {
+			focus = generic_urban_universities
+		}
+	}
+	focus = {
+		id = generic_nuclear_reactor
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_nuclear_reactor"
+		}
+		relative_position_id = generic_nuclear_technology
+		prerequisite = {
+			focus = generic_nuclear_technology
+		}
+	}
+}

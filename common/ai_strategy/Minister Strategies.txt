@@ -50,16 +50,6 @@ hog_smiling_oilman_strategy = {
 		id = oil_processing
 		value = 1000
 	}
-	ai_strategy = {
-		type = build_building
-		id = fuel_silo
-		value = 1000
-	}
-	ai_strategy = {
-		type = build_building
-		id = synthetic_refinery
-		value = 1000
-	}
 }
 
 ##Economy Minister
@@ -73,29 +63,7 @@ hog_ambitious_union_boss_strategy = {
 		NOT = { has_idea_with_trait = hog_ambitious_union_boss }
 	}
 	##Only CIVS
-	ai_strategy = {
-		type = build_building
-		id = industrial_complex
-		value = 1000
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = dockyard
-		value = -10
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = arms_factory
-		value = -10
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = infrastructure
-		value = -10
-	}
+
 }
 
 #Corporate Suit
@@ -108,29 +76,7 @@ hog_corporate_suit_strategy = {
 		NOT = { has_idea_with_trait = hog_corporate_suit }
 	}
 	##Only CIVS and MILS
-	ai_strategy = {
-		type = build_building
-		id = industrial_complex
-		value = 1000
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = dockyard
-		value = -10
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = arms_factory
-		value = 1000
-	}
-	
-	ai_strategy = {
-		type = build_building
-		id = infrastructure
-		value = -10
-	}
+
 }
 
 eco_tank_proponent_strategy = {

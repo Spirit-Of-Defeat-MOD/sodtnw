@@ -253,6 +253,35 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4986;7659;impassable;-1;-1;-1;-1;-1;;Maowusu
 13400;7314;impassable;-1;-1;-1;-1;-1;;Maowusu
 13400;7659;impassable;-1;-1;-1;-1;-1;;Maowusu
+13392;4783;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;13398;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;13399;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;7803;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;10899;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;5031;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;13391;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;10770;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13392;12750;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;8055;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;1959;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;10724;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;13452;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;13454;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;12750;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;10899;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;13453;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+13451;5031;impassable;-1;-1;-1;-1;-1;;Badain Jaran Desert
+7511;5057;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+7511;3742;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+7511;8127;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+7511;10724;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+7511;13454;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+7511;13453;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13393;5057;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13393;12327;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13393;12776;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13393;5031;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13393;13453;impassable;-1;-1;-1;-1;-1;;Tengger Desert
 8112;4682;land;-1;-1;-1;-1;-1;;Hotan Pass
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

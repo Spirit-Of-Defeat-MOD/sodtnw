@@ -45,4 +45,62 @@ music = {
 	}	
 }
 
+music = {
+	song = "Heroic Warriors"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+				TAG = CHI
+				TAG = GDG
+				TAG = ROC
+				TAG = HNC
+				TAG = YUN
+				TAG = GXC
+				#Will add other warlords later
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "China will not Perish"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+				TAG = CHI
+				TAG = GDG
+				TAG = ROC
+				TAG = HNC
+				TAG = YUN
+				TAG = GXC
+				#Will add other warlords later
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "National Banner Song"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+				TAG = CHI
+				TAG = GDG
+				TAG = ROC
+				TAG = HNC
+				TAG = YUN
+				TAG = GXC
+				#Will add other warlords later
+			}
+		}		
+	}	
+}
+
+
 

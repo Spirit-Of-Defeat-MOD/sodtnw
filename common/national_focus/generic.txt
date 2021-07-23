@@ -91,9 +91,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_development"
-			add_ideas = {
-				idea = idea_equipment_development
-			}
+			add_ideas = idea_equipment_development
 		}
 
 	}
@@ -163,6 +161,12 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_doctrine_effort"
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
 		}
 		relative_position_id = generic_army_focus
 		prerequisite = {
@@ -175,16 +179,30 @@ focus_tree = {
 		cost = 7
 		x = -7
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_school_of_fire_power"
-		}
-		relative_position_id = generic_doctrine_effort
+
 		prerequisite = {
 			focus = generic_doctrine_effort
 		}
 		mutually_exclusive = {
 			focus = generic_mobile_warfare
 		}
+		mutually_exclusive = {
+			focus = generic_grand_battleplan
+		}
+		mutually_exclusive = {
+			focus = generic_mass_assault
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_school_of_fire_power"
+			add_tech_bonus= {
+				bonus = 1 
+				uses = 1
+				category = cat_superior_firepower 
+			}
+		}
+		relative_position_id = generic_doctrine_effort
+
 	}
 	focus = {
 		id = generic_grand_battleplan
@@ -192,9 +210,6 @@ focus_tree = {
 		cost = 7
 		x = 3
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_grand_battleplan"
-		}
 		relative_position_id = generic_doctrine_effort
 		prerequisite = {
 			focus = generic_doctrine_effort
@@ -205,6 +220,17 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = generic_mass_assault
 		}
+		
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_grand_battleplan"
+			add_tech_bonus= {
+				bonus = 1 
+			    uses = 1 
+			    category = cat_grand_battle_plan
+		  	}	
+		}
+
 	}
 	focus = {
 		id = generic_mass_assault
@@ -212,9 +238,7 @@ focus_tree = {
 		cost = 7
 		x = 7
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_mass_assault"
-		}
+
 		relative_position_id = generic_doctrine_effort
 		prerequisite = {
 			focus = generic_doctrine_effort
@@ -222,6 +246,22 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = generic_grand_battleplan
 		}
+		mutually_exclusive = {
+			focus = generic_school_of_fire_power
+		}
+		mutually_exclusive = {
+			focus = generic_mobile_warfare
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mass_assault"
+			add_tech_bonus= {
+				bonus = 1 
+			    uses = 1 
+			    category = cat_mass_assault
+		  	}	
+		}
+
 	}
 	focus = {
 		id = generic_mobile_warfare
@@ -229,9 +269,7 @@ focus_tree = {
 		cost = 7
 		x = -1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_mobile_warfare"
-		}
+
 		relative_position_id = generic_doctrine_effort
 		prerequisite = {
 			focus = generic_doctrine_effort
@@ -242,6 +280,16 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = generic_school_of_fire_power
 		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_mobile_warfare"
+			add_tech_bonus= {
+				bonus = 1 
+			    uses = 1 
+			    category = cat_mobile_warfare
+		  	}	
+		}
+
 	}
 	focus = {
 		id = generic_artillery_effort
@@ -249,13 +297,22 @@ focus_tree = {
 		cost = 7
 		x = 0
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_artillery_effort"
-		}
+
 		relative_position_id = generic_school_of_fire_power
 		prerequisite = {
 			focus = generic_school_of_fire_power
 		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_artillery_effort"
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
+		}
+
 	}
 	focus = {
 		id = generic_develop_heavy_artillery
@@ -263,13 +320,32 @@ focus_tree = {
 		cost = 7
 		x = -1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_develop_heavy_artillery"
+
+		bypass = {
+			ROOT = {
+				limit = {
+					has_tech = heavy_artillery1
+				}
+			}
 		}
 		relative_position_id = generic_artillery_effort
 		prerequisite = {
 			focus = generic_artillery_effort
 		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_develop_heavy_artillery"
+
+			ROOT = {
+				limit = {
+					NOT = { has_tech = heavy_artillery1 }
+				}
+				set_technology = {
+					heavy_artillery1 = 1
+				}
+			}
+		}
+
 	}
 	focus = {
 		id = generic_artillery_purchase
@@ -1273,92 +1349,608 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_industrial_effort"
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
 		}
 	}
+
 	focus = {
 		id = generic_civilian_industry_i
 		icon = GFX_unknown
 		cost = 7
 		x = -2
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_i"
-		}
+
 		relative_position_id = generic_industrial_effort
 		prerequisite = {
 			focus = generic_industrial_effort
 		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
 	}
+
 	focus = {
 		id = generic_civilian_industry_ii
 		icon = GFX_unknown
 		cost = 8
 		x = 0
 		y = 1
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}			
+		}
+
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_ii"
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		relative_position_id = generic_civilian_industry_i
 		prerequisite = {
 			focus = generic_civilian_industry_i
 		}
 	}
+
 	focus = {
 		id = generic_civilian_industry_iii
 		icon = GFX_unknown
 		cost = 9
 		x = 0
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_civilian_industry_iii"
-		}
+
 		relative_position_id = generic_civilian_industry_ii
 		prerequisite = {
 			focus = generic_civilian_industry_ii
 		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 3
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+		}
 	}
+
 	focus = {
 		id = generic_military_industry_i
 		icon = GFX_unknown
 		cost = 7
 		x = 2
 		y = 1
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_i"
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		relative_position_id = generic_industrial_effort
 		prerequisite = {
 			focus = generic_industrial_effort
 		}
 	}
+
 	focus = {
 		id = generic_military_industry_ii
 		icon = GFX_unknown
 		cost = 8
 		x = 0
 		y = 1
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_ii"
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		relative_position_id = generic_military_industry_i
 		prerequisite = {
 			focus = generic_military_industry_i
 		}
 	}
+
 	focus = {
 		id = generic_military_industry_iii
 		icon = GFX_unknown
 		cost = 9
 		x = 0
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_military_industry_iii"
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 3
+						include_locked = yes
+					}
+				}
+			}
 		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+	
+		}
+
+		
+		
+
 		relative_position_id = generic_military_industry_ii
 		prerequisite = {
 			focus = generic_military_industry_ii
 		}
 	}
+
 	focus = {
 		id = generic_infrastructure_effort
 		icon = GFX_unknown
@@ -1373,6 +1965,7 @@ focus_tree = {
 			focus = generic_civilian_industry_iii
 		}
 	}
+	
 	focus = {
 		id = generic_extra_dockyards
 		icon = GFX_unknown
@@ -1387,6 +1980,7 @@ focus_tree = {
 			focus = generic_military_industry_iii
 		}
 	}
+
 	focus = {
 		id = generic_synthetic_refinery
 		icon = GFX_unknown
@@ -1404,6 +1998,7 @@ focus_tree = {
 			focus = generic_extra_dockyards
 		}
 	}
+
 	focus = {
 		id = generic_fuel_silos
 		icon = GFX_unknown
@@ -1418,6 +2013,7 @@ focus_tree = {
 			focus = generic_synthetic_refinery
 		}
 	}
+
 	focus = {
 		id = generic_secret_weapons
 		icon = GFX_unknown
@@ -1432,6 +2028,7 @@ focus_tree = {
 			focus = generic_military_industry_iii
 		}
 	}
+
 	focus = {
 		id = generic_nuclear_technology
 		icon = GFX_unknown
@@ -1446,6 +2043,7 @@ focus_tree = {
 			focus = generic_secret_weapons
 		}
 	}
+
 	focus = {
 		id = generic_urban_universities
 		icon = GFX_unknown
@@ -1460,6 +2058,7 @@ focus_tree = {
 			focus = generic_infrastructure_effort
 		}
 	}
+
 	focus = {
 		id = generic_military_rampd
 		icon = GFX_unknown
@@ -1474,6 +2073,7 @@ focus_tree = {
 			focus = generic_urban_universities
 		}
 	}
+
 	focus = {
 		id = generic_nuclear_reactor
 		icon = GFX_unknown

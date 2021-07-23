@@ -125,6 +125,7 @@ AWS = {
 		names = {
 			Umar Amda Baeda Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
 		}
+	}
 			
 	female = {
 		names = {  }

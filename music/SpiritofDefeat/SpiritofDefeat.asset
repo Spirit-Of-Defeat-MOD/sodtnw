@@ -16,3 +16,21 @@ music = {
   volume = 0.7
 }
 
+music = {
+  name = "Heroic Warriors"
+  file = "Republic-of-China-Heroic-Warriors.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "China will not Perish"
+  file = "Republic of China-China will not Perish.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "National Banner Song"
+  file = "National_Flag_Anthem_of_the_Republic_of_China.oga"
+  volume = 0.8
+}
+

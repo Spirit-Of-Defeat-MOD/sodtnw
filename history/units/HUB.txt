@@ -86,6 +86,14 @@ units = {
 		start_equipment_factor = 0.8
 
 	}
+	
+	division = {
+		name = "1 Lujun Shi"
+		location = 8072
+		division_template = "Juntuán"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
 
 	
 }

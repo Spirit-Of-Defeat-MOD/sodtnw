@@ -34,3 +34,57 @@ music = {
   volume = 0.8
 }
 
+music = {
+  name = "Military Song of the Guangxi Army"
+  file = "Guangxi-Army-With-Lyrics.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "I have a gun"
+  file = "I-Have-a-Gun.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "Internationale - Chinese Version"
+  file = "Internationale(Chinese).ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "March of Volunteers"
+  file = "March-Of-Volunteers.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "Military Song of the Beiyang Navy"
+  file = "Military Song Beiyang Navy.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "Song to the Auspicious Cloud"
+  file = "Song to the Auspicious Cloud.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "The Great Wall Ballad"
+  file = "The Great wall ballad.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "Night Raid"
+  file = "Night-Raid.ogg"
+  volume = 0.8
+}
+
+music = {
+  name = "On the Taihang Mountains"
+  file = "On the taihang mountains.ogg"
+  volume = 0.8
+}
+

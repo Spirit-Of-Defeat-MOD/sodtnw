@@ -1,0 +1,44 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+is_chinese_nation = {	
+	OR = {
+		original_tag = HOT
+		original_tag = KUM
+		original_tag = SHG
+		original_tag = SHD
+		original_tag = HUB
+		original_tag = GDG
+		original_tag = HNC
+		original_tag = ROC
+		original_tag = STS
+		original_tag = SLX
+		original_tag = SLW
+		original_tag = SLC
+		original_tag = SDX
+		original_tag = GUI
+		original_tag = CHI
+		original_tag = YUN
+		original_tag = GXC
+		original_tag = XSM
+		original_tag = SHX
+		original_tag = SIK
+		original_tag = PRC
+		
+	}
+}

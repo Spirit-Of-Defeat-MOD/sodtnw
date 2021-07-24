@@ -23,6 +23,7 @@ replace_path="common/ai_focuses"
 replace_path="events"
 
 replace_path="gfx/loadingscreens"
+replace_path="gfx/flags"
 
 name="Spirit of Defeat: The New War"
 supported_version="1.10.*"

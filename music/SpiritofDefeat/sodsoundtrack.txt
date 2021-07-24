@@ -51,15 +51,7 @@ music = {
 	chance = {
 		modifier = {
 			factor = 2
-			OR = {
-				TAG = CHI
-				TAG = GDG
-				TAG = ROC
-				TAG = HNC
-				TAG = YUN
-				TAG = GXC
-				#Will add other warlords later
-			}
+			is_chinese_nation = yes
 		}		
 	}	
 }
@@ -70,15 +62,7 @@ music = {
 	chance = {
 		modifier = {
 			factor = 2
-			OR = {
-				TAG = CHI
-				TAG = GDG
-				TAG = ROC
-				TAG = HNC
-				TAG = YUN
-				TAG = GXC
-				#Will add other warlords later
-			}
+			is_chinese_nation = yes
 		}		
 	}	
 }
@@ -89,18 +73,110 @@ music = {
 	chance = {
 		modifier = {
 			factor = 2
-			OR = {
-				TAG = CHI
-				TAG = GDG
-				TAG = ROC
-				TAG = HNC
-				TAG = YUN
-				TAG = GXC
-				#Will add other warlords later
-			}
+			is_chinese_nation = yes
 		}		
 	}	
 }
+
+music = {
+	song = "Military Song of the Guangxi Army"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "Internationale - Chinese Version"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "I have a gun"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "March of Volunteers"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "Military Song of the Beiyang Navy"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "Song to the Auspicious Cloud"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "The Great Wall Ballad"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "Night Raid"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
+music = {
+	song = "On the Taihang Mountains"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_chinese_nation = yes
+		}		
+	}	
+}
+
 
 
 

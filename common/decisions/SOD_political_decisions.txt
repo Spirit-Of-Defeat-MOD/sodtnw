@@ -1,2 +1,1 @@
-socialism_on_the_rise = {
-}
+###gonna put eu4 style stuff here

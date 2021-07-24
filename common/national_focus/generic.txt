@@ -185,11 +185,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = generic_mobile_warfare
-		}
-		mutually_exclusive = {
 			focus = generic_grand_battleplan
-		}
-		mutually_exclusive = {
 			focus = generic_mass_assault
 		}
 		
@@ -216,9 +212,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = generic_mobile_warfare
-		}
-		mutually_exclusive = {
 			focus = generic_mass_assault
+			focus = generic_school_of_fire_power
 		}
 		
 
@@ -248,9 +243,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = generic_school_of_fire_power
-		}
-		mutually_exclusive = {
 			focus = generic_mobile_warfare
+			focus = generic_grand_battleplan
 		}
 
 		completion_reward = {
@@ -275,10 +269,9 @@ focus_tree = {
 			focus = generic_doctrine_effort
 		}
 		mutually_exclusive = {
-			focus = generic_grand_battleplan
-		}
-		mutually_exclusive = {
 			focus = generic_school_of_fire_power
+			focus = generic_mass_assault
+			focus = generic_grand_battleplan
 		}
 
 		completion_reward = {
@@ -323,9 +316,7 @@ focus_tree = {
 
 		bypass = {
 			ROOT = {
-				limit = {
-					has_tech = heavy_artillery1
-				}
+				has_tech = heavy_artillery1
 			}
 		}
 		relative_position_id = generic_artillery_effort
@@ -336,14 +327,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_develop_heavy_artillery"
 
-			ROOT = {
-				limit = {
-					NOT = { has_tech = heavy_artillery1 }
-				}
-				set_technology = {
-					heavy_artillery1 = 1
-				}
-			}
 		}
 
 	}
@@ -530,13 +513,16 @@ focus_tree = {
 		cost = 7
 		x = 0
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_large_front_tactics"
-		}
+		
 		relative_position_id = generic_research_support_equipment
 		prerequisite = {
 			focus = generic_research_support_equipment
 		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_large_front_tactics"
+		}
+
 	}
 	focus = {
 		id = generic_lower_recruitment_standards

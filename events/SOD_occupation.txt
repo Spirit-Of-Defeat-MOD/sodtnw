@@ -22,7 +22,7 @@ country_event = {
 		name = scriptoccupation.1.a
 		annex_country = { target = TUA }
 		country_event = { id = algeria.1 days = 3 }
-		ai_will_do = {
+		ai_chance = {
 			factor = 99
 		}
 	}
@@ -30,7 +30,7 @@ country_event = {
 	option = {
 		name = scriptoccupation.1.b
 		FRA = { puppet = TUA }
-		ai_will_do = {
+		ai_chance = {
 			factor = 1
 		}
 	}	
@@ -49,7 +49,7 @@ country_event = {
 	option = {
 		name = scriptoccupation.2.a
 		annex_country = { target = MLI }
-		ai_will_do = {
+		ai_chance = {
 			factor = 90
 		}
 	}
@@ -59,7 +59,7 @@ country_event = {
 		FRE = { set_autonomy = { target = MLI autonomy_state = autonomy_colony } }
 		MLI = { set_cosmetic_tag = FRE_MLI }
 		MLI = {transfer_state = 782 transfer_state = 818 transfer_state = 821 }
-		ai_will_do = {
+		ai_chance = {
 			factor = 10
 		}
 	}	
@@ -78,7 +78,7 @@ country_event = {
 	option = {
 		name = scriptoccupation.3.a
 		annex_country = { target = NGR }
-		ai_will_do = {
+		ai_chance = {
 			factor = 90
 		}
 	}
@@ -88,7 +88,7 @@ country_event = {
 		FRE = { puppet = NGR }
 		NGR = { set_cosmetic_tag = FRE_NGR }
 		NGR = {transfer_state = 825 transfer_state = 824 transfer_state = 832 transfer_state = 515 transfer_state = 822 transfer_state = 781 }
-		ai_will_do = {
+		ai_chance = {
 			factor = 10
 		}
 	}	

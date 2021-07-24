@@ -1619,8 +1619,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			GER = {
-				country_event = germany.23
-				days = 1
+				country_event = { id = germany.23 days = 1}
+				
 			}
 		}
 	}
@@ -2122,8 +2122,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			SOV = {
-				country_event = germany.27
-				days = 1
+				country_event = { id = germany.27 days = 1}
 			}
 		}
 	}
@@ -2946,7 +2945,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_maintainneutrality
 			focus = GER_supportthebolivians
-			focus = GER_
 		}
 		ai_will_do = {
 			factor = 1
@@ -2966,7 +2964,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_maintainneutrality
 			focus = GER_supportthechileans
-			focus = GER_
 		}
 		ai_will_do = {
 			factor = 1

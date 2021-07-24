@@ -18,7 +18,6 @@ MTG_naval_treaties = {
 	}
 	visible = {
 		OR = {
-			has_naval_treaty_trigger = yes
 			is_major = yes
 		}
 		any_owned_state = {

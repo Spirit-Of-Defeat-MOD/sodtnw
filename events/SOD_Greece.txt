@@ -64,7 +64,7 @@ country_event = {
 		name = greece.5.a
 		add_political_power = 50
 		add_stability = 0.1
-		army_experince = 20
+		army_experience = 20
 	}
 }
 
@@ -82,7 +82,7 @@ country_event = {
 		name = greece.6.a
 		add_political_power = -50
 		add_stability = -0.1
-		army_experince = 5
+		army_experience = 5
 		TUR = { transfer_state = 342 }
 	}
 }
@@ -99,6 +99,6 @@ country_event = {
 	#How did this happen
 	option = {
 		name = greece.7.a
-		army_experince = 5
+		army_experience = 5
 	}
 }

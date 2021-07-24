@@ -25,31 +25,6 @@ hog_smiling_oilman_strategy = {
 		NOT = { has_idea_with_trait = hog_smiling_oilman }
 	}
 	
-	ai_strategy = {
-		type = research_tech
-		id = fuel_silos
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = synth_oil_experiments
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = fuel_refining
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = fuel_refining2
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = oil_processing
-		value = 1000
-	}
 }
 
 ##Economy Minister
@@ -87,26 +62,7 @@ eco_tank_proponent_strategy = {
 	abort = {
 		NOT = { has_idea_with_trait = eco_tank_proponent }
 	}
-	ai_strategy = {
-		type = research_tech
-		id = gwtank
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = basic_light_tank
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = basic_heavy_tank
-		value = 1000
-	}
-	ai_strategy = {
-		type = research_tech
-		id = basic_medium_tank
-		value = 1000
-	}
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor

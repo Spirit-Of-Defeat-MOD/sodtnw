@@ -243,7 +243,6 @@ country_event = {
 				}		
 				
 				ITS = { load_oob = "ITS" }
-				ITS = { allow_spawning_on_enemy_provs = yes }
 			}
 
 		
@@ -280,7 +279,6 @@ country_event = {
 			}		
 				
 			ITS = { load_oob = "ITS" }
-			ITS = { allow_spawning_on_enemy_provs = yes }
 		}
 
 		ITS = {
@@ -380,7 +378,6 @@ country_event = {
 			hidden_effect = {	
 				
 				ITM = { load_oob = "ITM" }
-				ITM = { allow_spawning_on_enemy_provs = yes }
 				
 				ITA = {
 					country_event = {
@@ -414,7 +411,6 @@ country_event = {
 		hidden_effect = {
 					
 			ITM = { load_oob = "ITM" }
-			ITM = { allow_spawning_on_enemy_provs = yes }
 			
 			
 		}
@@ -534,7 +530,6 @@ country_event = {
 		hidden_effect = {	
 				
 			LBA = { load_oob = "LBA" }
-			LBA = { allow_spawning_on_enemy_provs = yes }
 			
 			ITA = {
 				country_event = {
@@ -633,7 +628,6 @@ country_event = {
 		hidden_effect = {	
 				
 			TRP = { load_oob = "TRP" }
-			TRP = { allow_spawning_on_enemy_provs = yes }
 		}
 		
 		TRP = { inherit_technology = ITA }

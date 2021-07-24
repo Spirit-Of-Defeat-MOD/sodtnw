@@ -591,7 +591,6 @@ on_actions = {
 						has_cosmetic_tag = BUL_zveno_bulgaria
 						has_focus_tree = generic_focus
 					}
-					load_focus_tree = { tree = bulgarian_focus keep_completed = no }
 					unlock_national_focus = BUL_power_to_the_tsar
 					unlock_national_focus = BUL_cooperate_with_the_zveno
 					unlock_national_focus = BUL_condemn_macedonian_organizations
@@ -636,7 +635,6 @@ on_actions = {
 						has_focus_tree = generic_focus
 					}
 					#FOCUS TREE
-					load_focus_tree = { tree = bulgarian_focus keep_completed = no }
 					unlock_national_focus = BUL_oppose_the_royal_dictatorship
 					unlock_national_focus = BUL_appoint_communist_ministers
 					unlock_national_focus = BUL_unify_the_bourgeois_movement

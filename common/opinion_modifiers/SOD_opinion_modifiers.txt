@@ -39,4 +39,8 @@ opinion_modifiers = {
 	different_party_types = {
 		value = 0
 	}
+
+	CRO_anti_serbian_rhetoric_modifier = {
+		value = -50
+	}
 }

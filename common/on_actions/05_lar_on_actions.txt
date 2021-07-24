@@ -715,7 +715,6 @@ on_actions = {
 						NOT = { has_government = communism }
 					}
 				}
-				load_focus_tree = { tree = french_focus keep_completed = no }
 				complete_national_focus = FRA_form_the_popular_front
 				if = {
 					limit = {
@@ -737,7 +736,6 @@ on_actions = {
 						NOT = { has_government = fascism }
 					}
 				}
-				load_focus_tree = { tree = french_focus keep_completed = no }
 				complete_national_focus = FRA_revive_the_national_bloc
 				if = {
 					limit = {
@@ -764,7 +762,6 @@ on_actions = {
 						}
 					}
 				}
-				load_focus_tree = { tree = portuguese_focus keep_completed = no }
 				unlock_national_focus = POR_estado_novo
 				unlock_national_focus = POR_support_the_spanish_nationalists
 				unlock_national_focus = POR_portuguese_legion
@@ -785,7 +782,6 @@ on_actions = {
 						}
 					}
 				}
-				load_focus_tree = { tree = portuguese_focus keep_completed = no }
 				unlock_national_focus = POR_estado_novo
 				unlock_national_focus = POR_support_the_spanish_nationalists
 				unlock_national_focus = POR_portuguese_legion

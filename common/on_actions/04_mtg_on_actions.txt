@@ -102,7 +102,6 @@ on_actions = {
 					}
 				}
 				delete_unit_template_and_units = { division_template = "Loyalist Brigade" }
-				load_focus_tree = { tree = british_focus keep_completed = no }
 				unlock_national_focus = ENG_steady_as_she_goes
 				unlock_national_focus = limited_rearmament_focus
 				unlock_national_focus = shadow_scheme_focus
@@ -126,7 +125,6 @@ on_actions = {
 						has_government = communism
 					}
 				}
-				load_focus_tree = { tree = british_focus keep_completed = yes }
 			}
 			# Give back MEX focus tree to rebel MEX if they win a civil war.
 			if = {
@@ -138,7 +136,6 @@ on_actions = {
 						original_tag = MEX
 					}
 				}
-				load_focus_tree = { tree = mexico_focus_tree keep_completed = yes }
 			}
 			# Give back USA focus tree to CSA if they win a civil war.
 			if = {

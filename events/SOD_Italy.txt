@@ -368,7 +368,11 @@ country_event = {
 		
 		transfer_units_fraction= {
 			target = ITM
+			size = 0.0
+			stockpile_ratio = 0.0
+			army_ratio = 0.0
 			navy_ratio = 0.4
+			air_ratio = 0.0
 		}
 		
 	}

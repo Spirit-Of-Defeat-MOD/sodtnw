@@ -565,7 +565,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = joint_exercises
 			SOV = {
-				add_ideas = joint_exercises_sov
+				#add_ideas = joint_exercises_sov
 			}
 			add_opinion_modifier = {
 				target = SOV
@@ -1833,7 +1833,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			FRA = {
-				add_ideas = german_counterfeiting
+				#add_ideas = german_counterfeiting
 			}
 		}
 	}
@@ -1871,7 +1871,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			FRA = {
-				add_ideas = german_tariffs
+				#add_ideas = german_tariffs
 			}
 		}
 	}
@@ -1909,7 +1909,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			FRA = {
-				add_ideas = german_political_interference
+				#add_ideas = german_political_interference
 			}
 		}
 	}
@@ -2448,7 +2448,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			MEX = {
-				add_ideas = german_support_mex
+				#add_ideas = german_support_mex
 			}
 		}
 	}
@@ -2468,7 +2468,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			CED = {
-				add_ideas = german_support_ced
+				#add_ideas = german_support_ced
 			}
 		}
 	}
@@ -2985,7 +2985,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			VIL = {
-				add_ideas = german_support_vil
+				#add_ideas = german_support_vil
 			}
 		}
 	}

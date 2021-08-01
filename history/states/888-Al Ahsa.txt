@@ -9,6 +9,9 @@ state={
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
+			12702 = {
+				naval_base = 6
+			}
 
 		}
 		add_claim_by = SAU

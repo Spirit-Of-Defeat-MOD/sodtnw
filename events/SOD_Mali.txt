@@ -4,7 +4,7 @@
 
 add_namespace = mali
 
-Timbuktu Frontier
+##Timbuktu Frontier
 country_event = {
 	id = mali.1
 	title = mali.1.t	# Freedom for ANG

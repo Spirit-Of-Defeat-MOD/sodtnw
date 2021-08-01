@@ -282,6 +282,40 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13393;12776;impassable;-1;-1;-1;-1;-1;;Tengger Desert
 13393;5031;impassable;-1;-1;-1;-1;-1;;Tengger Desert
 13393;13453;impassable;-1;-1;-1;-1;-1;;Tengger Desert
+13464;13466;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+13464;13467;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+8119;13467;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+7964;13469;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+13470;13469;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+13470;12859;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+8119;1904;impassable;-1;-1;-1;-1;-1;;Baja California Mountains
+13477;2069;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;10848;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;4908;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;13478;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;10765;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;13480;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;8012;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13477;13472;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;10765;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;13480;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;13473;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;5071;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;13476;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;8033;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13214;12827;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13481;12827;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13481;13490;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13481;12745;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13481;13489;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13481;7935;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;7935;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;13489;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;13474;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;13475;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;10830;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;10916;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+13482;4898;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 8112;4682;land;-1;-1;-1;-1;-1;;Hotan Pass
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

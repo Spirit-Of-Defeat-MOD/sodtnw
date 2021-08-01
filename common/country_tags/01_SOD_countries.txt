@@ -28,6 +28,8 @@ ITS = "countries/WestEurope.txt" #Italian Socialists
 LAJ = "countries/WestEurope.txt" #Lajtabánság
 DAN = "countries/WestEurope.txt" #Danzig
 MEM = "countries/WestEurope.txt" #Memel
+HRZ = "countries/WestEurope.txt" #Second Bosnia
+TRA = "countries/WestEurope.txt" #Translyvania
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir
@@ -35,6 +37,7 @@ HEJ = "countries/MiddleEast.txt" #Hejaz
 ISZ = "countries/WestEurope.txt" #International Zone of Straits
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
 OMN = "countries/MiddleEast.txt" #Imam of Oman
+KUR = "countries/MiddleEast.txt" #Kurdistan
 
 
 #Persia
@@ -59,6 +62,7 @@ GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
 HUB = "countries/Asian.txt"	#Hubei Zhensongjun
 SHD = "countries/Asian.txt"	#Shangdong Clique
 SHG = "countries/Asian.txt" #Shanghai Triads clique
+FNG = "countries/Asian.txt" #Fengtien Clique
 
 
 

@@ -233,6 +233,9 @@ leader_traits = {
 
 		random = no
 	}
+	sec_radical_militarist = {}
+	sec_devout_nationalist = {}
+	
 	#####################
 	# Chief of Staff
 	#####################

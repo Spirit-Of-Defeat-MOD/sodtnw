@@ -508,23 +508,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = generic_large_front_tactics
-		icon = GFX_unknown
-		cost = 7
-		x = 0
-		y = 1
-		
-		relative_position_id = generic_research_support_equipment
-		prerequisite = {
-			focus = generic_research_support_equipment
-		}
-		
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_large_front_tactics"
-		}
-
-	}
-	focus = {
 		id = generic_lower_recruitment_standards
 		icon = GFX_unknown
 		cost = 7
@@ -536,20 +519,6 @@ focus_tree = {
 		relative_position_id = generic_new_conscription
 		prerequisite = {
 			focus = generic_new_conscription
-		}
-	}
-	focus = {
-		id = generic_war_games
-		icon = GFX_unknown
-		cost = 7
-		x = 0
-		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_war_games"
-		}
-		relative_position_id = generic_improved_training_standards
-		prerequisite = {
-			focus = generic_improved_training_standards
 		}
 	}
 	focus = {
@@ -566,6 +535,40 @@ focus_tree = {
 			focus = generic_lower_recruitment_standards
 		}
 	}
+
+	focus = {
+		id = generic_large_front_tactics
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		
+		relative_position_id = generic_research_support_equipment
+		prerequisite = {
+			focus = generic_research_support_equipment
+		}
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_large_front_tactics"
+		}
+
+	}
+
+	focus = {
+		id = generic_war_games
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_war_games"
+		}
+		relative_position_id = generic_improved_training_standards
+		prerequisite = {
+			focus = generic_improved_training_standards
+		}
+	}
+
 	focus = {
 		id = generic_mass_production
 		icon = GFX_unknown
@@ -794,6 +797,20 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = generic_tactical_bomber_research
+		icon = GFX_unknown
+		cost = 7
+		x = 0
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus generic_tactical_bomber_research"
+		}
+		relative_position_id = generic_operational_integrity
+		prerequisite = {
+			focus = generic_operational_integrity
+		}
+	}
+	focus = {
 		id = generic_heavy_fighter_research
 		icon = GFX_unknown
 		cost = 7
@@ -821,20 +838,7 @@ focus_tree = {
 			focus = generic_opening_airplane_factories
 		}
 	}
-	focus = {
-		id = generic_tactical_bomber_research
-		icon = GFX_unknown
-		cost = 7
-		x = 0
-		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generic_tactical_bomber_research"
-		}
-		relative_position_id = generic_operational_integrity
-		prerequisite = {
-			focus = generic_operational_integrity
-		}
-	}
+
 	focus = {
 		id = generic_carrier_fighter_research
 		icon = GFX_unknown

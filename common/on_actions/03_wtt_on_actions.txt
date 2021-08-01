@@ -204,17 +204,10 @@ on_actions = {
 						NOT = { has_country_flag = wtt_political_struggle_paused }
 					}
 				}
-				FROM.FROM = {
-					WTT_make_ROOT_majority_1_point_over_next = yes
-				}
 			}
 			if = {
 				limit = {
-					FROM.FROM = {
-						WTT_is_potential_political_struggle_state = yes
-					}
 				}
-				WTT_political_struggle_recalculate_support = yes
 			}
 
 			# Fall of Tokyo
@@ -241,13 +234,11 @@ on_actions = {
 			#Clear any tribute and support flag if new communists end up at war with SOV
 			if = {
 				limit = { has_country_flag = WTT_support_from_soviet }
-				PRC_soviet_tribute_clear_all = yes
 				clr_country_flag = WTT_support_from_soviet
 			}
 			FROM = {
 				if = {
 					limit = { has_country_flag = WTT_support_from_soviet }
-					PRC_soviet_tribute_clear_all = yes
 					clr_country_flag = WTT_support_from_soviet
 				}
 			}
@@ -263,12 +254,12 @@ on_actions = {
 							FROM = { tag = GER }
 						}
 					}
-					GER = { #has_completed_focus =GER_ussr_war_goal }
+					#GER = { has_completed_focus =GER_ussr_war_goal }
 				}
 				hidden_effect = {
 					GER = { 
 						add_timed_idea = { idea = GER_barbarossa days = 180 }
-						activate_mission = GER_barbarossa_mission
+						#activate_mission = GER_barbarossa_mission
 					}
 				}
 			}
@@ -279,14 +270,11 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					FROM = { #is_literally_china = yes }
+					#FROM = { is_literally_china = yes }
 					event_target:WTT_current_china_leader = {
 						tag = ROOT
 					}
-				}
-				event_target:WTT_current_china_leader = {
-					CHI_unity_level_up = yes #adds surrender defense
-				}					
+				}				
 			}
 		}
 	}
@@ -301,7 +289,6 @@ on_actions = {
 					}
 				}
 				FROM = {
-					CHI_unity_level_down = yes #adds surrender defense
 				}					
 			}
 		}
@@ -367,7 +354,6 @@ on_actions = {
 				limit = { FROM = { has_country_flag = wtt_refused_giving_leadership } }
 				FROM = { clr_country_flag = wtt_refused_giving_leadership }
 				clr_global_flag = wtt_war_over_national_leadership
-				WTT_restart_political_struggle = yes
 			}
 		}
 	}
@@ -400,7 +386,6 @@ on_actions = {
 						NOT = { has_government = fascism }
 					}
 				}
-				load_focus_tree = { tree = japan_wtt_focus keep_completed = no }
 				unlock_national_focus = JAP_purge_the_kodoha_faction
 			}
 			# Give back RAJ focus tree to Unaligned RAJ if they win the communist or fascist civil war.
@@ -416,7 +401,6 @@ on_actions = {
 						}
 					}
 				}
-				load_focus_tree = { tree = indian_focus keep_completed = no }
 				unlock_national_focus = RAJ_provincial_elections
 				unlock_national_focus = RAJ_indian_national_congress
 			}
@@ -430,7 +414,6 @@ on_actions = {
 						has_government = fascism
 					}
 				}
-				load_focus_tree = { tree = south_african_focus keep_completed = no }
 				unlock_national_focus = SAF_support_the_policy_of_appeasement
 			}
 			# Give back ITA focus tree to Fascist ITA if they win a civil war.
@@ -444,7 +427,6 @@ on_actions = {
 						NOT = { has_government = fascism }
 					}
 				}
-				load_focus_tree = { tree = italian_focus keep_completed = no }
 			}
 			# Give back SOV focus tree to Communist SOV if they win a civil war.
 			if = {
@@ -457,7 +439,6 @@ on_actions = {
 						NOT = { has_government = communism }
 					}
 				}
-				load_focus_tree = { tree = soviet_focus keep_completed = no }
 			}
 		}
 	}
@@ -476,7 +457,6 @@ on_actions = {
 						remove_ideas = CHI_illegal_regime
 					}
 					clr_global_flag = wtt_war_over_national_leadership
-					WTT_restart_political_struggle = yes
 				}
 				else_if = {
 					limit = {
@@ -484,12 +464,10 @@ on_actions = {
 						event_target:WTT_current_china_leader = { tag = FROM }
 					}
 					FROM = {
-						WTT_political_struggle_remove_current_country = yes
 						clear_global_event_target = WTT_current_china_leader
 					}
 					save_global_event_target_as = WTT_current_china_leader
 					remove_ideas = CHI_illegal_regime
-					WTT_restart_political_struggle = yes
 				}
 			}
 			if = {

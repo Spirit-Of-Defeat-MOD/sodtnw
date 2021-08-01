@@ -1,4 +1,4 @@
-﻿capital = 230 #Yerevan, Armenia
+﻿capital = 354
 
 oob = "ARM"
 

@@ -94,26 +94,5 @@ TUR_icw = {
 		cost = 25
 		days_remove = 35
 		
-		remove_effect = {	
-			start_border_war = {
-				change_state_after_war = yes
-				attacker = {
-					state = 343
-					num_provinces = 3
-					on_win = japan_border_conflict.2
-					on_lose = japan_border_conflict.3
-					on_cancel = japan_border_conflict.4
-				}
-							
-				defender = {
-					state = 342
-					num_provinces = 3
-					on_win = greece.5
-					on_lose = greece.6
-					on_cancel = greece.7
-				}
-			}		
-
-		}
 	}
 }

@@ -6,10 +6,10 @@ state={
 	state_category = c5
 
 	history={
-		owner = MAN
+		owner = FNG
 		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		add_core_of = FNG
+		add_core_of = ROC
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -19,6 +19,6 @@ state={
 	}
 
 	provinces={
-		916 930 1499 1508 1558 1627 1638 3877 3978 4561 4633 4642 6893 7812 9831 10429 11836 11903 12337 12469 12478 
+		13461 916 930 1499  1558 1627 1638 3877  4561 4633 4642 6893 7812 9831  11836 11903 12337 12469  
 	}
 }

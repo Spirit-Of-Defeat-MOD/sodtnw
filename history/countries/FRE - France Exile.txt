@@ -1,4 +1,4 @@
-﻿capital = 16
+﻿capital = 539
 
 oob = "FRE_1936"
 

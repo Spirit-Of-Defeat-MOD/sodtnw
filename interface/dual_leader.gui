@@ -39,7 +39,7 @@ guiTypes = {
 				name = "government_title"
 				position = { x = 21 y = -32 }
 				textureFile = ""
-				font = "hoi_steeltext_32"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "Government"
 				maxWidth = 400
@@ -70,7 +70,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="dual_leader_name_text"
 			position = { x = 19 y = 233 }
-			font = "hoi_steeltext_18"
+			font = "hoi_20bs"
 			text = "dual_leader_name"
 			maxWidth = 155
 			maxHeight = 20

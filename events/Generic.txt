@@ -718,7 +718,6 @@ country_event = {
 				#is_literally_china = yes
 				has_DLC = "Waking the Tiger"
 			}
-			CHI_set_ally_strat_on_current_leader = yes #sets ally strategy to current Chinese leader
 		}
 		add_ai_strategy = {
 			type = alliance

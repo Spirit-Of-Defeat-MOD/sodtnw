@@ -37,11 +37,6 @@ declare_war_on = {
 }
 
 declare_war_on = {
-	target = CED
-	type = annex_everything
-}
-
-declare_war_on = {
 	target = PLM
 	type = annex_everything
 }

@@ -1,4 +1,4 @@
-﻿capital = 10
+﻿capital = 915
 
 oob = "DAN"
 

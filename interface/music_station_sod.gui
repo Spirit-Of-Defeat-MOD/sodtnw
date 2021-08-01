@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "sod_faceplate"
+		name = "spiritofdefeat_faceplate"
 		position = { x =0 y=0 }
 		size = { width = 590 height = 46 }
 

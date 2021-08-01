@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+FNG_fascism_party:0 ""
+FNG_fascism_party_long:0 ""
+FNG_communism_party:0 ""
+FNG_communism_party_long:0 ""
+FNG_democratic_party:1 ""
+FNG_democratic_party_long:0 ""
+FNG_utilitarian_despot_party:0 ""
+FNG_utilitarian_despot_party_long:0 ""
+FNG_neutrality_party:0 ""
+FNG_neutrality_party_long:0 ""
+FNG_social_democrat_party:0 ""
+FNG_social_democrat_party_long:0 ""
+FNG_social_liberal_party:0 ""
+FNG_social_liberal_party_long:0 ""
+FNG_classic_liberal_party:0 ""
+FNG_classic_liberal_party_long:0 ""
+FNG_libertarian_socialist_party:0 ""
+FNG_libertarian_socialist_party_long:0 ""
+FNG_reformist_socialist_party:0 ""
+FNG_reformist_socialist_party_long:0 ""
+FNG_nihilistic_extremism_party:0 ""
+FNG_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+FNG_fascism:0 "Fengtian Clique"
+FNG_fascism_DEF:0 "the Fengtian Clique"
+FNG_libertarian_socialist:0 "Fengtian Clique"
+FNG_libertarian_socialist_DEF:0 "the Fengtian Clique"
+FNG_utilitarian_despot:0 "Fengtian Clique"
+FNG_utilitarian_despot_DEF:0 "the Fengtian Clique"
+FNG_democratic:0 "Fengtian Clique"
+FNG_democratic_DEF:0 "the Fengtian Clique"
+FNG_neutrality:1 "Fengtian Clique"
+FNG_neutrality_DEF:1 "the Fengtian Clique"
+FNG_reformist_socialist:0 "Fengtian Clique"
+FNG_reformist_socialist_DEF:0 "the Fengtian Clique"
+FNG_social_democrat:0 "Fengtian Clique"
+FNG_social_democrat_DEF:0 "the Fengtian Clique"
+FNG_social_liberal:0 "Fengtian Clique"
+FNG_social_liberal_DEF:0 "the Fengtian Clique"
+FNG_classic_liberal:0 "Fengtian Clique"
+FNG_classic_liberal_DEF:0 "the Fengtian Clique"
+FNG_communism:0 "Fengtian Clique"
+FNG_communism_DEF:0 "the Fengtian Clique"
+FNG_nihilistic_extremism:0 "Fengtian Clique"
+FNG_nihilistic_extremism_DEF:0 "the Fengtian Clique"
+ 
+FNG_fascism_ADJ:0 "Feng"
+FNG_fascism_ADJ:0 "Feng"
+FNG_libertarian_socialist_ADJ:0 "Feng"
+FNG_democratic_ADJ:0 "Feng"
+FNG_utilitarian_despot_ADJ:0 "Feng"
+FNG_reformist_socialist_ADJ:0 "Feng"
+FNG_neutrality_ADJ:0 "Feng"
+FNG_social_democrat_ADJ:0 "Feng"
+FNG_social_liberal_ADJ:0 "Feng"
+FNG_classic_liberal_ADJ:0 "Feng"
+FNG_communism_ADJ:0 "Feng"
+FNG_nihilistic_extremism_ADJ:0 "Feng"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

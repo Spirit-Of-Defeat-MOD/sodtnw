@@ -41,7 +41,7 @@ set_popularities = {
 	communism = 3
 }
 
-country_event = { id = belgium.2 days = 145 } #1936 Elections
+#country_event = { id = belgium.2 days = 145 } #1936 Elections
 
 set_convoys = 80
 set_stability = 0.75

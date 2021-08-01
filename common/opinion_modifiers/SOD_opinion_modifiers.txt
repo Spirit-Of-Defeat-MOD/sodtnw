@@ -40,7 +40,20 @@ opinion_modifiers = {
 		value = 0
 	}
 
+	#####
 	CRO_anti_serbian_rhetoric_modifier = {
+		value = -50
+	}
+
+	CRO_BUL_refuse_alliance = {
+		value = -50
+	}
+
+	CRO_BUL_allow_guns = {
+		value = 50
+	}
+
+	CRO_BUL_refuse_guns = {
 		value = -50
 	}
 }

@@ -1194,7 +1194,6 @@ on_actions = {
 				limit = {
 					FROM = {
 						tag = SPC
-						#has_completed_focus =SPR_regional_defense_council_of_aragon
 					}
 					original_tag = SPR
 					#SPR_scw_in_progress = yes
@@ -1433,7 +1432,6 @@ on_actions = {
 					has_intelligence_agency = yes
 					is_ai = yes
 				}
-				update_operation_ai = yes
 			}
 		}
 	}

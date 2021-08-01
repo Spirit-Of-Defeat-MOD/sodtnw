@@ -89,7 +89,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "postal_label_2"
 			position = { x = 5 y = 120 }
-			font = "hoi_22typewriter"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "''Peking''"
 			maxWidth = 500
@@ -100,7 +100,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "pinyin_label_2"
 			position = { x = 130 y = 120 }
-			font = "hoi_22typewriter"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "''Beijing''"
 			maxWidth = 500
@@ -110,7 +110,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "wade_giles_label_2"
 			position = { x = -110 y = 120 }
-			font = "hoi_22typewriter"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "''Peiching''"
 			maxWidth = 500
@@ -143,8 +143,6 @@ guiTypes = {
 			Orientation = "center"
 			clicksound = click_ok
 			oversound = ui_menu_over
-		}
-		
-		
+		}	
 	}
 }

@@ -45,6 +45,7 @@ leader_traits = {
 	authoritarian_democrat = {}
 	utilitarian_despot = {}
 	national_syndicalist = {}
+	national_collectivist = {}
 	
 #####################
 # Unique/Personal ideologies

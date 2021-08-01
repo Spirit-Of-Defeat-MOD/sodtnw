@@ -22,22 +22,5 @@ rename_chinese_states = {
 	}
 }
 
-rename_chinese_states_pinyin = {
-	600 = { #Kashgar
-		set_state_name = STATE_619
-	}
-	916 = { #Aksu
-		set_state_name = STATE_916
-	}
-
-}
-
-rename_chinese_states_postal = {
-	600 = { #Kashgar
-		set_state_name = state_619_postal
-	}
-	916 = { #Aksu
-		set_state_name = state_916_wade_giles
-	}
-
-}
+rename_chinese_states_postal = {}
+rename_chinese_states_pinyin = {}

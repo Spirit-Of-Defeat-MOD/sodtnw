@@ -160,7 +160,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = social_democracy
+			ideology = social_democrat
 			popularity = 0.07
 		}
 		hidden_effect = {
@@ -603,7 +603,7 @@ country_event = {
 			set_politics = {
 				ruling_party = neutrality
 			}
-			country_event = germany.21 days = 3
+			country_event = { id = germany.21 days = 3 }
 		}
 		hidden_effect = {
 			
@@ -627,7 +627,7 @@ country_event = {
 	option = {
 		name = germany.21.a
 		GER = {
-			country_event = germany.19 days = 1
+			country_event = { id = germany.19 days = 1}
 		}
 		hidden_effect = {
 			

@@ -934,3 +934,8 @@ SHG = {
 	color = rgb { 70 117 99 }
     color_ui = rgb { 70 117 99 }
 }
+
+FNG = {
+	color = rgb { 110 145 173 }
+    color_ui = rgb { 110 145 173 }
+}

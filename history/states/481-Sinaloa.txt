@@ -14,16 +14,11 @@ state={
 		victory_points = {
 			7921 10 
 		}
-		
-		VIL = {
-			set_province_controller = 10871
-			set_province_controller = 8003
-		}
 
 	}
 
 	provinces={
-		4946 7921 8003 10853 10871 12804 
+		4946 7921 8003 10853 10871 12804 13519 13520 13521 13522 13523 13524 13525 13526 13527 13528
 	}
 	manpower=404000
 	buildings_max_level_factor=1.000

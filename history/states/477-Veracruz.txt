@@ -40,7 +40,7 @@ state={
 	}
 
 	provinces={
-		2021 8079 10732 10889 12810 
+		2021 8079 10732 10889 12810 13512
 	}
 	manpower=1337300
 	buildings_max_level_factor=1.000

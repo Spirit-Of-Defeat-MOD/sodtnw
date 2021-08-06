@@ -2,7 +2,7 @@ state={
 	id=801
 	name="STATE_801"
 	provinces={
-		1945 8057 10895 
+		1945 8057 10895 13513 13514 13515 13516 13517
 	}
 	
 	history={
@@ -19,11 +19,6 @@ state={
 		add_core_of = MEX
 		victory_points = {
 			8057 6 
-		}
-		
-		VIL = {
-			set_province_controller = 1945
-			set_province_controller = 8057
 		}
 
 

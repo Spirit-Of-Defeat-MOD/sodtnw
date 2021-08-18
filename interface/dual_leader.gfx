@@ -13,6 +13,6 @@ spriteTypes = {
 	####Mexico####
 	spriteType = {
 		name = "GFX_VIL_ESCOBAR"
-		texturefile = "gfx/dual_leaders/VIL/Portrait_Escobar.tga"
+		texturefile = "gfx/dual_leaders/VIL/Portrait_Escobar.png"
 	}
 }

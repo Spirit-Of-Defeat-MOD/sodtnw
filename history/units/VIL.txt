@@ -76,7 +76,7 @@ units = {
 	}
 
 	division = {
-		location = 12850
+		location = 13485
 		division_template = "División de Caballería"
 		start_experience_factor = 0.1
 	}

@@ -939,3 +939,18 @@ FNG = {
 	color = rgb { 110 145 173 }
     color_ui = rgb { 110 145 173 }
 }
+
+NGO = {
+	color = rgb { 138 133 62 }
+    color_ui = rgb { 138 133 62 }
+}
+
+NAN = {
+	color = rgb { 31 155 161 }
+    color_ui = rgb { 31 155 161 }
+}
+
+LIN = {
+	color = rgb { 250 227 123 }
+    color_ui = rgb { 250 227 123 }
+}

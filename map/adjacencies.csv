@@ -229,12 +229,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10755;10911;impassable;-1;-1;-1;-1;-1;;Tibet
 10755;1943;impassable;-1;-1;-1;-1;-1;;Tibet
 10755;5011;impassable;-1;-1;-1;-1;-1;;Tibet
-13371;4914;impassable;-1;-1;-1;-1;-1;;Qinghai
-13371;8037;impassable;-1;-1;-1;-1;-1;;Qinghai
-13371;12899;impassable;-1;-1;-1;-1;-1;;Qinghai
-13372;8037;impassable;-1;-1;-1;-1;-1;;Qinghai
-13372;12899;impassable;-1;-1;-1;-1;-1;;Qinghai
-13372;10918;impassable;-1;-1;-1;-1;-1;;Qinghai
 4960;1959;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;3427;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;10451;impassable;-1;-1;-1;-1;-1;;Kubuqi
@@ -356,6 +350,101 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13237;13535;impassable;-1;-1;-1;-1;-1;;Yucatan Jungle
 13237;13534;impassable;-1;-1;-1;-1;-1;;Yucatan Jungle
 13237;13532;impassable;-1;-1;-1;-1;-1;;Yucatan Jungle
+13553;13582;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13553;13589;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13553;13587;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13553;13584;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13554;13589;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13554;13588;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13554;13587;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13554;12899;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13554;13585;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13589;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13586;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13588;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13583;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;12899;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13591;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;13590;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+8037;4964;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;13582;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;13584;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;13555;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;13556;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;10315;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13371;10918;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13555;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13584;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13585;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13558;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13560;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;4914;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13557;13556;impassable;-1;-1;-1;-1;-1;;Yushu Mountains
+13372;13556;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;4914;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;13592;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;13570;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;7940;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;10865;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13372;10315;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13566;10865;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13566;13567;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13566;12890;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13566;2074;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13566;1698;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;13592;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;7940;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;10796;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;12840;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;8018;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;4914;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;13565;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13572;12846;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;5011;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;13569;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;7997;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;12596;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;5076;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;13563;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;13573;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+13562;2099;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+2053;2099;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;13571;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;13574;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;13575;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;13388;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;5100;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;2028;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+2053;5076;impassable;-1;-1;-1;-1;-1;;To Lai Shan
+13580;1882;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;4536;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;12815;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;11448;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;10817;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;13593;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;13595;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13580;13596;impassable;-1;-1;-1;-1;-1;;Amne Machin
+13581;10817;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;1882;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;13377;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;13370;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;8104;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;7988;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13581;13593;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13600;13370;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13600;13601;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13600;13602;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13600;7988;impassable;-1;-1;-1;-1;-1;;Golog Mountains
+13579;13565;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13579;12846;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13579;13564;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13579;10750;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13579;13578;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13579;4536;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13597;1882;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13597;8018;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13597;13565;impassable;-1;-1;-1;-1;-1;;Boda Shan
+13597;4536;impassable;-1;-1;-1;-1;-1;;Boda Shan
 8112;4682;land;-1;-1;-1;-1;-1;;Hotan Pass
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

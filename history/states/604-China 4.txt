@@ -6,9 +6,7 @@ state={
 		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
-		victory_points = {
-			7940 10 
-		}
+
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
@@ -19,7 +17,7 @@ state={
 	}
 
 	provinces={
-		4914 4964 7940 8018 8037 12899 13371 13372
+		4914 4964  8037 12899 13371 13553 13554 13555 13556 13557 13558 13559 13560 13561 8018 13582 13583 13584 13585 13586 13587 13588 13589 13590 13591 13603
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000

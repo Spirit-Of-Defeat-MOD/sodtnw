@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+XSM_fascism_party:0 ""
+XSM_fascism_party_long:0 ""
+XSM_communism_party:0 "ZGC"
+XSM_communism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+XSM_democratic_party:1 "Kuomintang Loyalists"
+XSM_democratic_party_long:0 "Kuomintang Loyalists"
+XSM_utilitarian_despot_party:0 "Ma JiaJun"
+XSM_utilitarian_despot_party_long:0 "Ma Family Military Clique"
+XSM_neutrality_party:0 "Beiyang Loyalists"
+XSM_neutrality_party_long:0 "Beiyang Loyalists"
+XSM_social_democrat_party:0 "Left-Kuomintang Loyalists"
+XSM_social_democrat_party_long:0 "Left-Kuomintang Loyalists"
+XSM_social_liberal_party:0 ""
+XSM_social_liberal_party_long:0 ""
+XSM_classic_liberal_party:0 ""
+XSM_classic_liberal_party_long:0 ""
+XSM_libertarian_socialist_party:0 "ZZQ"
+XSM_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng - Qinghai"
+XSM_reformist_socialist_party:0 ""
+XSM_reformist_socialist_party_long:0 ""
+XSM_nihilistic_extremism_party:0 ""
+XSM_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+XSM_fascism:0 "Qinghai Clique"
+XSM_fascism_DEF:0 "the Qinghai Clique"
+XSM_libertarian_socialist:0 "Qinghai Clique"
+XSM_libertarian_socialist_DEF:0 "the Qinghai Clique"
+XSM_utilitarian_despot:0 "Qinghai Clique"
+XSM_utilitarian_despot_DEF:0 "the Qinghai Clique"
+XSM_democratic:0 "Qinghai Clique"
+XSM_democratic_DEF:0 "the Qinghai Clique"
+XSM_neutrality:1 "Qinghai Clique"
+XSM_neutrality_DEF:1 "the Qinghai Clique"
+XSM_reformist_socialist:0 "Qinghai Clique"
+XSM_reformist_socialist_DEF:0 "the Qinghai Clique"
+XSM_social_democrat:0 "Qinghai Clique"
+XSM_social_democrat_DEF:0 "the Qinghai Clique"
+XSM_social_liberal:0 "Qinghai Clique"
+XSM_social_liberal_DEF:0 "the Qinghai Clique"
+XSM_classic_liberal:0 "Qinghai Clique"
+XSM_classic_liberal_DEF:0 "the Qinghai Clique"
+XSM_communism:0 "Qinghai Clique"
+XSM_communism_DEF:0 "the Qinghai Clique"
+XSM_nihilistic_extremism:0 "Qinghai Clique"
+XSM_nihilistic_extremism_DEF:0 "the Qinghai Clique"
+ 
+XSM_fascism_ADJ:0 "Qing"
+XSM_fascism_ADJ:0 "Qing"
+XSM_libertarian_socialist_ADJ:0 "Qing"
+XSM_democratic_ADJ:0 "Qing"
+XSM_utilitarian_despot_ADJ:0 "Qing"
+XSM_reformist_socialist_ADJ:0 "Qing"
+XSM_neutrality_ADJ:0 "Qing"
+XSM_social_democrat_ADJ:0 "Qing"
+XSM_social_liberal_ADJ:0 "Qing"
+XSM_classic_liberal_ADJ:0 "Qing"
+XSM_communism_ADJ:0 "Qing"
+XSM_nihilistic_extremism_ADJ:0 "Qing"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

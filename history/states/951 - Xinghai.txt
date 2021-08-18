@@ -1,0 +1,26 @@
+
+state={
+	id=951
+	name="STATE_951" # South Chahar
+	manpower = 3490000
+	
+	state_category = c3
+
+	history={
+		owner = XSM
+		add_core_of = NGO
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 3
+	
+		}
+
+	}
+
+	provinces={
+		13597 13594 13595 13596 1882 12815 4536 13578
+		
+	}
+}

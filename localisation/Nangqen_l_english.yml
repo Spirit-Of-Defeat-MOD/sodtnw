@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+NAN_fascism_party:0 ""
+NAN_fascism_party_long:0 ""
+NAN_communism_party:0 ""
+NAN_communism_party_long:0 ""
+NAN_democratic_party:1 ""
+NAN_democratic_party_long:0 ""
+NAN_utilitarian_despot_party:0 "Nangqen Tusi"
+NAN_utilitarian_despot_party_long:0 "Nangqen Tusi"
+NAN_neutrality_party:0 ""
+NAN_neutrality_party_long:0 ""
+NAN_social_democrat_party:0 ""
+NAN_social_democrat_party_long:0 ""
+NAN_social_liberal_party:0 ""
+NAN_social_liberal_party_long:0 ""
+NAN_classic_liberal_party:0 ""
+NAN_classic_liberal_party_long:0 ""
+NAN_libertarian_socialist_party:0 ""
+NAN_libertarian_socialist_party_long:0 ""
+NAN_reformist_socialist_party:0 ""
+NAN_reformist_socialist_party_long:0 ""
+NAN_nihilistic_extremism_party:0 ""
+NAN_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+NAN_fascism:0 "Kingdom of Nangqen"
+NAN_fascism_DEF:0 "Kingdom of Nangqen"
+NAN_libertarian_socialist:0 "Kingdom of Nangqen"
+NAN_libertarian_socialist_DEF:0 "Kingdom of Nangqen"
+NAN_utilitarian_despot:0 "Kingdom of Nangqen"
+NAN_utilitarian_despot_DEF:0 "the Kingdom of Nangqen"
+NAN_democratic:0 "Kingdom of Nangqen"
+NAN_democratic_DEF:0 "Kingdom of Nangqen"
+NAN_neutrality:1 "Kingdom of Nangqen"
+NAN_neutrality_DEF:1 "the Kingdom of Nangqen"
+NAN_reformist_socialist:0 "Kingdom of Nangqen"
+NAN_reformist_socialist_DEF:0 "Kingdom of Nangqen"
+NAN_social_democrat:0 "Kingdom of Nangqen"
+NAN_social_democrat_DEF:0 "Kingdom of Nangqen"
+NAN_social_liberal:0 "Kingdom of Nangqen"
+NAN_social_liberal_DEF:0 "Kingdom of Nangqen"
+NAN_classic_liberal:0 "Kingdom of Nangqen"
+NAN_classic_liberal_DEF:0 "Kingdom of Nangqen"
+NAN_communism:0 "Kingdom of Nangqen"
+NAN_communism_DEF:0 "Kingdom of Nangqen"
+NAN_nihilistic_extremism:0 "Kingdom of Nangqen"
+NAN_nihilistic_extremism_DEF:0 "Kingdom of Nangqen"
+ 
+NAN_fascism_ADJ:0 "Nang"
+NAN_fascism_ADJ:0 "Nang"
+NAN_libertarian_socialist_ADJ:0 "Nang"
+NAN_democratic_ADJ:0 "Nang"
+NAN_utilitarian_despot_ADJ:0 "Nang"
+NAN_reformist_socialist_ADJ:0 "Nang"
+NAN_neutrality_ADJ:0 "Nang"
+NAN_social_democrat_ADJ:0 "Nang"
+NAN_social_liberal_ADJ:0 "Nang"
+NAN_classic_liberal_ADJ:0 "Nang"
+NAN_communism_ADJ:0 "Nang"
+NAN_nihilistic_extremism_ADJ:0 "Nang"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

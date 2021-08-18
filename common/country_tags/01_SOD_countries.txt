@@ -59,10 +59,13 @@ STS = "countries/Asian.txt"	#Tian Songyao Clique
 ROC = "countries/Asian.txt"	#Beiyang China
 HNC = "countries/Asian.txt"	#Hunan Clique
 GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
-HUB = "countries/Asian.txt"	#Hubei Zhensongjun
+HUB = "countries/Asian.txt"	#Hubei Clique
 SHD = "countries/Asian.txt"	#Shangdong Clique
 SHG = "countries/Asian.txt" #Shanghai Triads clique
 FNG = "countries/Asian.txt" #Fengtien Clique
+NGO = "countries/Asian.txt" #Ngolok Tribes
+NAN = "countries/Asian.txt" #Kingdom of Nangqen
+LIN = "countries/Asian.txt" #Kingdom of Lingstang
 
 
 

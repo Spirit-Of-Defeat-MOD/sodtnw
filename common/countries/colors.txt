@@ -954,3 +954,8 @@ LIN = {
 	color = rgb { 250 227 123 }
     color_ui = rgb { 250 227 123 }
 }
+
+MUL = {
+	color = rgb { 177 116 82 }
+    color_ui = rgb { 177 116 82 }
+}

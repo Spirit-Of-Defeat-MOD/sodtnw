@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+MUL_fascism_party:0 ""
+MUL_fascism_party_long:0 ""
+MUL_communism_party:0 ""
+MUL_communism_party_long:0 ""
+MUL_democratic_party:1 ""
+MUL_democratic_party_long:0 ""
+MUL_utilitarian_despot_party:0 "Muli Tusi"
+MUL_utilitarian_despot_party_long:0 "Muli Tusi"
+MUL_neutrality_party:0 ""
+MUL_neutrality_party_long:0 ""
+MUL_social_democrat_party:0 ""
+MUL_social_democrat_party_long:0 ""
+MUL_social_liberal_party:0 ""
+MUL_social_liberal_party_long:0 ""
+MUL_classic_liberal_party:0 ""
+MUL_classic_liberal_party_long:0 ""
+MUL_libertarian_socialist_party:0 ""
+MUL_libertarian_socialist_party_long:0 ""
+MUL_reformist_socialist_party:0 ""
+MUL_reformist_socialist_party_long:0 ""
+MUL_nihilistic_extremism_party:0 ""
+MUL_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+MUL_fascism:0 "Chiefdom of Muli"
+MUL_fascism_DEF:0 "Chiefdom of Muli"
+MUL_libertarian_socialist:0 "Chiefdom of Muli"
+MUL_libertarian_socialist_DEF:0 "Chiefdom of Muli"
+MUL_utilitarian_despot:0 "Chiefdom of Muli"
+MUL_utilitarian_despot_DEF:0 "the Chiefdom of Muli"
+MUL_democratic:0 "Chiefdom of Muli"
+MUL_democratic_DEF:0 "Chiefdom of Muli"
+MUL_neutrality:1 "Chiefdom of Muli"
+MUL_neutrality_DEF:1 "the Chiefdom of Muli"
+MUL_reformist_socialist:0 "Chiefdom of Muli"
+MUL_reformist_socialist_DEF:0 "Chiefdom of Muli"
+MUL_social_democrat:0 "Chiefdom of Muli"
+MUL_social_democrat_DEF:0 "Chiefdom of Muli"
+MUL_social_liberal:0 "Chiefdom of Muli"
+MUL_social_liberal_DEF:0 "Chiefdom of Muli"
+MUL_classic_liberal:0 "Chiefdom of Muli"
+MUL_classic_liberal_DEF:0 "Chiefdom of Muli"
+MUL_communism:0 "Chiefdom of Muli"
+MUL_communism_DEF:0 "Chiefdom of Muli"
+MUL_nihilistic_extremism:0 "Chiefdom of Muli"
+MUL_nihilistic_extremism_DEF:0 "Chiefdom of Muli"
+ 
+MUL_fascism_ADJ:0 "Mù"
+MUL_fascism_ADJ:0 "Mù"
+MUL_libertarian_socialist_ADJ:0 "Mù"
+MUL_democratic_ADJ:0 "Mù"
+MUL_utilitarian_despot_ADJ:0 "Mù"
+MUL_reformist_socialist_ADJ:0 "Mù"
+MUL_neutrality_ADJ:0 "Mù"
+MUL_social_democrat_ADJ:0 "Mù"
+MUL_social_liberal_ADJ:0 "Mù"
+MUL_classic_liberal_ADJ:0 "Mù"
+MUL_communism_ADJ:0 "Mù"
+MUL_nihilistic_extremism_ADJ:0 "Mù"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

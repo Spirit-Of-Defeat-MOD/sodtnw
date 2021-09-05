@@ -1,0 +1,23 @@
+
+state={
+	id=959
+	name="STATE_959" # South Chahar
+	manpower = 13252
+	
+	state_category = c2
+
+	history={
+		owner = MUL
+		add_core_of = MUL
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={	
+		13648 13649 13650
+	}
+}

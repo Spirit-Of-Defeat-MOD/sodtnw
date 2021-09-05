@@ -230,14 +230,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10755;1943;impassable;-1;-1;-1;-1;-1;;Tibet
 10755;5011;impassable;-1;-1;-1;-1;-1;;Tibet
 4960;1959;impassable;-1;-1;-1;-1;-1;;Kubuqi
-4960;3427;impassable;-1;-1;-1;-1;-1;;Kubuqi
+4960;13630;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;10451;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;12706;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;10629;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;2087;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;8055;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;4525;impassable;-1;-1;-1;-1;-1;;Kubuqi
+4960;13623;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4960;7631;impassable;-1;-1;-1;-1;-1;;Kubuqi
+4960;13627;impassable;-1;-1;-1;-1;-1;;Kubuqi
 4986;10854;impassable;-1;-1;-1;-1;-1;;Maowusu
 4986;12706;impassable;-1;-1;-1;-1;-1;;Maowusu
 4986;3427;impassable;-1;-1;-1;-1;-1;;Maowusu

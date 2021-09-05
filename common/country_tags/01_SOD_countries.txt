@@ -66,6 +66,7 @@ FNG = "countries/Asian.txt" #Fengtien Clique
 NGO = "countries/Asian.txt" #Ngolok Tribes
 NAN = "countries/Asian.txt" #Kingdom of Nangqen
 LIN = "countries/Asian.txt" #Kingdom of Lingstang
+MUL = "countries/Asian.txt" #Chiefdom of Muli
 
 
 

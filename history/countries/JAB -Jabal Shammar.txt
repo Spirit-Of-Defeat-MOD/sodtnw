@@ -23,14 +23,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	utilitarian_despot = 60
-	neutrality = 40
+	utilitarian_despot = 100
+	neutrality = 0
 }
 
 create_country_leader = {
 	name = "Abdullah bin Mut'ib"
 	desc = ""
-	picture = ""
+	picture = "Abdullah_bin_Mutib.png"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {

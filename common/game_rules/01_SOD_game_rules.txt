@@ -26,12 +26,12 @@ allow_microstates = {
 	desc = "RULE_ALLOW_MICROSTATES_DESC"
 	group = "RULE_GROUP_GAME_SETUP"					
 	icon = GFX_release_nations							
-	option = {										
+	default = {										
 		name = MICROSTATES_FREE
 		text = "MICROSTATES_FREE_NAME"												
 	}
 	
-	default = {									
+	option = {									
 		name = MICROSTATES_ANNEXED
 		text = "MICROSTATES_ANNEXED_NAME"
 	}

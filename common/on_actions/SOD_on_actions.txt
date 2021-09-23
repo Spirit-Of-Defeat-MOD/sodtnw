@@ -2,6 +2,14 @@ on_actions = {
 	
 	on_startup = { 
 		effect = {
+			every_country = {
+				load_oob = "Militia"
+			}
+		}	
+	}
+	
+	on_startup = { 
+		effect = {
 			AOF = {
 				add_to_war = { 
 					targeted_alliance = FRE 
@@ -65,6 +73,25 @@ on_actions = {
 			#ALB = { country_event = albania.1 }
 			#AST = { country_event = ? }
 			#SIA = { country_event = siam.1 }
+
 		}	
 	}
+	
+	on_startup = { 
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = allow_microstates
+						option = MICROSTATES_ANNEXED
+					}
+				}
+				TIB = { annex_country = MUL }
+				TIB = { annex_country = NAN }
+				TIB = { annex_country = LIN }
+				TIB = { annex_country = DGE }
+			}
+		}	
+	}
+
 }

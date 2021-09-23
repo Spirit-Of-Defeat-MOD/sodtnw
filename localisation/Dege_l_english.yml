@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+DGE_fascism_party:0 ""
+DGE_fascism_party_long:0 ""
+DGE_communism_party:0 ""
+DGE_communism_party_long:0 ""
+DGE_democratic_party:1 ""
+DGE_democratic_party_long:0 ""
+DGE_utilitarian_despot_party:0 "King Dege"
+DGE_utilitarian_despot_party_long:0 "King Dege"
+DGE_neutrality_party:0 ""
+DGE_neutrality_party_long:0 ""
+DGE_social_democrat_party:0 ""
+DGE_social_democrat_party_long:0 ""
+DGE_social_liberal_party:0 ""
+DGE_social_liberal_party_long:0 ""
+DGE_classic_liberal_party:0 ""
+DGE_classic_liberal_party_long:0 ""
+DGE_libertarian_socialist_party:0 ""
+DGE_libertarian_socialist_party_long:0 ""
+DGE_reformist_socialist_party:0 ""
+DGE_reformist_socialist_party_long:0 ""
+DGE_nihilistic_extremism_party:0 ""
+DGE_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+DGE_fascism:0 "Kingdom of Dege"
+DGE_fascism_DEF:0 "Kingdom of Dege"
+DGE_libertarian_socialist:0 "Kingdom of Dege"
+DGE_libertarian_socialist_DEF:0 "Kingdom of Dege"
+DGE_utilitarian_despot:0 "Kingdom of Dege"
+DGE_utilitarian_despot_DEF:0 "the Kingdom of Dege"
+DGE_democratic:0 "Kingdom of Dege"
+DGE_democratic_DEF:0 "Kingdom of Dege"
+DGE_neutrality:1 "Kingdom of Dege"
+DGE_neutrality_DEF:1 "the Kingdom of Dege"
+DGE_reformist_socialist:0 "Kingdom of Dege"
+DGE_reformist_socialist_DEF:0 "Kingdom of Dege"
+DGE_social_democrat:0 "Kingdom of Dege"
+DGE_social_democrat_DEF:0 "Kingdom of Dege"
+DGE_social_liberal:0 "Kingdom of Dege"
+DGE_social_liberal_DEF:0 "Kingdom of Dege"
+DGE_classic_liberal:0 "Kingdom of Dege"
+DGE_classic_liberal_DEF:0 "Kingdom of Dege"
+DGE_communism:0 "Kingdom of Dege"
+DGE_communism_DEF:0 "Kingdom of Dege"
+DGE_nihilistic_extremism:0 "Kingdom of Dege"
+DGE_nihilistic_extremism_DEF:0 "Kingdom of Dege"
+ 
+DGE_fascism_ADJ:0 "Dé"
+DGE_fascism_ADJ:0 "Dé"
+DGE_libertarian_socialist_ADJ:0 "Dé"
+DGE_democratic_ADJ:0 "Dé"
+DGE_utilitarian_despot_ADJ:0 "Dé"
+DGE_reformist_socialist_ADJ:0 "Dé"
+DGE_neutrality_ADJ:0 "Dé"
+DGE_social_democrat_ADJ:0 "Dé"
+DGE_social_liberal_ADJ:0 "Dé"
+DGE_classic_liberal_ADJ:0 "Dé"
+DGE_communism_ADJ:0 "Dé"
+DGE_nihilistic_extremism_ADJ:0 "Dé"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

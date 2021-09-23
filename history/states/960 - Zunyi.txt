@@ -1,0 +1,30 @@
+
+state={
+	id=960
+	name="STATE_960" # South Chahar
+	manpower = 13252
+	
+	state_category = c3
+
+	history={
+		owner = GUI
+		add_core_of = CHI
+		add_core_of = GUI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+		
+		victory_points = {
+			1010 3
+		}
+	}
+
+	provinces={	
+		1474 9939 7521 7549 7577  8095  1010 	 4325
+	}
+}

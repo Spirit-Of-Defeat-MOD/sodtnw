@@ -6,29 +6,29 @@ QUE = "countries/Commonwealth.txt" #Quebec
 #Mexico
 CED = "countries/SouthAmerican.txt" #Cedillo
 MCT = "countries/SouthAmerican.txt" #Cristero
-PNR = "countries/SouthAmerican.txt" #Constituionalists
 PLM = "countries/SouthAmerican.txt" #Magonists
+PNR = "countries/SouthAmerican.txt" #Constituionalists
 VIL = "countries/SouthAmerican.txt"	#Villa
 
 ##Africa
 AEF = "countries/African.txt" #French Equitorial Africa
-AOF = "countries/African.txt" #French West Africa
 AJU = "countries/African.txt" #Ajuran(Kelafo)
+AOF = "countries/African.txt" #French West Africa
 AWS = "countries/African.txt" #Aussa Sultanate
 FRE = "countries/WestEurope.txt"  #French govt exile
 IEA = "countries/WestEurope.txt" #Italian East Africa
-TUA = "countries/African.txt" #Kel Ahaggar
 TRP = "countries/African.txt"  #Tripoli
+TUA = "countries/African.txt" #Kel Ahaggar
 
 
 ##Europe
 CHE = "countries/WestEurope.txt" #Chetniks
+DAN = "countries/WestEurope.txt" #Danzig
+HRZ = "countries/WestEurope.txt" #Second Bosnia
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
 LAJ = "countries/WestEurope.txt" #Lajtabánság
-DAN = "countries/WestEurope.txt" #Danzig
 MEM = "countries/WestEurope.txt" #Memel
-HRZ = "countries/WestEurope.txt" #Second Bosnia
 TRA = "countries/WestEurope.txt" #Translyvania
 
 #Middle East
@@ -36,8 +36,8 @@ ASR = "countries/MiddleEast.txt" #Asir
 HEJ = "countries/MiddleEast.txt" #Hejaz
 ISZ = "countries/WestEurope.txt" #International Zone of Straits
 JAB = "countries/MiddleEast.txt" #Jabal Shammar
-OMN = "countries/MiddleEast.txt" #Imam of Oman
 KUR = "countries/MiddleEast.txt" #Kurdistan
+OMN = "countries/MiddleEast.txt" #Imam of Oman
 
 
 #Persia
@@ -48,26 +48,41 @@ GIL = "countries/MiddleEast.txt" #Gilan
 KHO = "countries/MiddleEast.txt" #Khorasan
 
 #China
-HOT = "countries/MiddleEast.txt" #Hotan Sultanate
-KUM = "countries/Asian.txt"	#Kumul Khanate
+ANH = "countries/Asian.txt" #Anhui Province
+CHA = "countries/Asian.txt" #Chahar Province - will have a mongol cosmetic tag
+DGE = "countries/Asian.txt"	#Kingdom of Derge
+FNG = "countries/Asian.txt" #Fengtien Clique
+FUJ = "countries/Asian.txt" #Fujian Province
+GAN = "countries/Asian.txt" #Gansu Province
+GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
 GUI = "countries/Asian.txt"	#Guizhou Clique
+HEI = "countries/Asian.txt" #Heilongjiang Province
+HNC = "countries/Asian.txt"	#Hunan Clique
+HNN = "countries/Asian.txt" #Henan Province
+HOT = "countries/MiddleEast.txt" #Hotan Sultanate
+HUB = "countries/Asian.txt"	#Hubei Clique
+JGS = "countries/Asian.txt" #Jiangsu Province
+JIA = "countries/Asian.txt" #Jiangxi Province
+JLN = "countries/Asian.txt" #Jilin Province
+KUM = "countries/Asian.txt"	#Kumul Khanate
+LIN = "countries/Asian.txt" #Kingdom of Lingstang
+MUL = "countries/Asian.txt" #Chiefdom of Muli
+NAN = "countries/Asian.txt" #Kingdom of Nangqen
+NGO = "countries/Asian.txt" #Ngolok Tribes
+NGX = "countries/Asian.txt" #Ningxia Province
+REH = "countries/Asian.txt" #Rehe Province
+ROC = "countries/Asian.txt"	#Beiyang China
 SDX = "countries/Asian.txt"	#Deng Xihou Clique
+SHD = "countries/Asian.txt"	#Shangdong Clique
+SHG = "countries/Asian.txt" #Shanghai Triads clique
 SLC = "countries/Asian.txt"	#Liu Cunhou Clique
 SLW = "countries/Asian.txt"	#Liu Wenhui Clique
 SLX = "countries/Asian.txt"	#Liu Xiang Clique
 STS = "countries/Asian.txt"	#Tian Songyao Clique
-ROC = "countries/Asian.txt"	#Beiyang China
-HNC = "countries/Asian.txt"	#Hunan Clique
-GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
-HUB = "countries/Asian.txt"	#Hubei Clique
-SHD = "countries/Asian.txt"	#Shangdong Clique
-SHG = "countries/Asian.txt" #Shanghai Triads clique
-FNG = "countries/Asian.txt" #Fengtien Clique
-NGO = "countries/Asian.txt" #Ngolok Tribes
-NAN = "countries/Asian.txt" #Kingdom of Nangqen
-LIN = "countries/Asian.txt" #Kingdom of Lingstang
-MUL = "countries/Asian.txt" #Chiefdom of Muli
-
+SUI = "countries/Asian.txt" #Suiyan Province - will have a mongol cosmetic tag
+ZHE = "countries/Asian.txt" #Zhejiang Province
+ZHI = "countries/Asian.txt" #Zhili Province
+YNG = "countries/Asian.txt" #Yongning Chiefdom
 
 
 

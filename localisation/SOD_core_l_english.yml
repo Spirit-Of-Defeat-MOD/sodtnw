@@ -116,6 +116,7 @@ equipment_purchase_tt:0 "Allows the purhcase of motorized and tank equipment"
 aircraft_purchase_tt:0 "Allows the Purchase of Aircraft"
  
 ##UNITS
+militia:0 "Militia"
 infantry_medical_unit:0 "Medical Unit"
 heavy_artillery:0 "Support Heavy Artillery"
 heavy_artillery_brigade:0 "Heavy Artillery Brigade"

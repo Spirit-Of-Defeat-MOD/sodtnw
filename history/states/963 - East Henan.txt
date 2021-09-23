@@ -1,0 +1,26 @@
+
+state={
+	id=963
+	name="STATE_963" # South Chahar
+	manpower = 3400000
+	
+	state_category = c4
+
+	history={
+		owner = ROC
+		add_core_of = CHI
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		
+
+	}
+
+	provinces={	
+		13438 4158 10434 12426 10446 13666 7540 7568 13664 13665 13667 4066 7126 10098 13439 7085 13440
+	}
+}

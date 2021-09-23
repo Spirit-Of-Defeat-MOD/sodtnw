@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 132 170 222 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 82 105 165 }
+	color_ui = rgb { 82 105 165 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -54,7 +54,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
+	color = rgb { 173 109 57 }
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
@@ -958,4 +958,14 @@ LIN = {
 MUL = {
 	color = rgb { 177 116 82 }
     color_ui = rgb { 177 116 82 }
+}
+
+DGE = {
+	color = rgb { 150 20 11 }
+    color_ui = rgb { 150 20 11 }
+}
+
+YNG = {
+	color = rgb { 25 151 47 }
+    color_ui = rgb { 25 151 47 }
 }

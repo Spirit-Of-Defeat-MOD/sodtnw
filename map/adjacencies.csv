@@ -397,7 +397,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13572;13592;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
 13572;7940;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
 13572;10796;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
-13572;12840;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
+
 13572;8018;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
 13572;4914;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
 13572;13565;impassable;-1;-1;-1;-1;-1;;Qaidam Mountains
@@ -447,6 +447,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13597;8018;impassable;-1;-1;-1;-1;-1;;Boda Shan
 13597;13565;impassable;-1;-1;-1;-1;-1;;Boda Shan
 13597;4536;impassable;-1;-1;-1;-1;-1;;Boda Shan
-8112;4682;land;-1;-1;-1;-1;-1;;Hotan Pass
+12068;1175;impassable;-1;-1;-1;-1;-1;;Taiwan
+12027;1175;impassable;-1;-1;-1;-1;-1;;Taiwan
+12027;4096;impassable;-1;-1;-1;-1;-1;;Taiwan
+13657;4096;impassable;-1;-1;-1;-1;-1;;Taiwan
+13657;9955;impassable;-1;-1;-1;-1;-1;;Taiwan
+7214;9955;impassable;-1;-1;-1;-1;-1;;Taiwan
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

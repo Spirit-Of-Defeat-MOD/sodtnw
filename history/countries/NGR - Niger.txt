@@ -22,7 +22,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Umaru Agg-Ibrahim"
 	desc = "DESC_AGOLI_AGBO"
-	picture = "Portrait_Umaru_Agg_Ibrahim.dds"
+	picture = "Portrait_Umaru_Agg_Ibrahim.png"
 	ideology = utilitarian_despot_subtype
 	traits = {
 		#

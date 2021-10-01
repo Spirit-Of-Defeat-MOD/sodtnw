@@ -133,11 +133,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
+	USA_business_over_politics
+	USA_second_amendment
 	free_trade
-	home_of_the_free
 }
 
 

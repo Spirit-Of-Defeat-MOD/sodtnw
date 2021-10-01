@@ -1,0 +1,72 @@
+﻿l_english:
+
+#country names
+SWI_libertarian_socialist:0 "Swiss Confederation"
+SWI_communism:0 "Peoples' Republic of Switzerland"
+SWI_reformist_socialist:0 "Swiss Democratic Republic"
+SWI_social_democrat:0 "Swiss Confederation"
+SWI_social_liberal:0 "Swiss Confederation" 
+SWI_classic_liberal:0 "Swiss Confederation"
+SWI_democratic:0 "Swiss Confederation"
+SWI_neutrality:0 "Swiss Confederation"
+SWI_utilitarian_despot:0 "Swiss Confederation"
+SWI_fascism:0 "Helvetian Reich" 
+
+SWI_libertarian_socialist_DEF:0 "the Swiss Confederation"
+SWI_communism_DEF:0 "the Peoples' Republic of Switzerland"
+SWI_reformist_socialist_DEF:0 "the Swiss Democratic Republic"
+SWI_social_democrat_DEF:0 "the Swiss Confederation"
+SWI_social_liberal_DEF:0 "the Swiss Confederation" 
+SWI_classic_liberal_DEF:0 "the Swiss Confederation"
+SWI_democratic_DEF:0 "the Swiss Confederation"
+SWI_neutrality_DEF:0 "the Swiss Confederation"
+SWI_utilitarian_despot_DEF:0 "the Swiss Confederation"
+SWI_fascism_DEF:0 "the Helvetian Reich" 
+
+SWI_libertarian_socialist_ADJ:0 "Swiss"
+SWI_communism_ADJ:0 "Swiss"
+SWI_reformist_socialist_ADJ:0 "Swiss"
+SWI_social_democrat_ADJ:0 "Swiss"
+SWI_social_liberal_ADJ:0 "Swiss" 
+SWI_classic_liberal_ADJ:0 "Swiss"
+SWI_democratic_ADJ:0 "Swiss"
+SWI_neutrality_ADJ:0 "Swiss"
+SWI_utilitarian_despot_ADJ:0 "Swiss"
+SWI_fascism_ADJ:0 "Helvetian" 
+
+#Party names
+SWI_libertarian_socialist_party:0 ""
+SWI_libertarian_socialist_party_long:0 ""
+SWI_communism_party:0 ""
+SWI_communism_party_long:0 ""
+SWI_reformist_socialist_party:0 ""
+SWI_reformist_socialist_party_long:0 ""
+SWI_social_democrat_party:0 ""
+SWI_social_democrat_party_long:0 ""
+SWI_social_liberal_party:0 "" 
+SWI_social_liberal_party_long:0 "" 
+SWI_classic_liberal_party:0 ""
+SWI_classic_liberal_party_long:0 ""
+SWI_democratic_party:0 ""
+SWI_democratic_party_long:0 ""
+SWI_neutrality_party:0 ""
+SWI_neutrality_party_long:0 ""
+SWI_utilitarian_despot_party:0 ""
+SWI_utilitarian_despot_party_long:0 ""
+SWI_fascism_party:0 "" 
+SWI_fascism_party_long:0 ""
+
+ #Ministers
+ 
+ 
+ #Focuses
+ 
+ #National Spirits
+ SWI_armed_neutrality:0 "Armed Neutrality"
+ 
+ #Events
+ 
+
+ #Descriptions
+ 
+

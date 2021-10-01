@@ -45,14 +45,20 @@ if = {
 set_convoys = 40
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = libertarian_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 100
+	libertarian_socialist = 100
+}
+
+add_ideas = {
+	GDG_little_moscow
+	GDG_anarchist_influence
+	GDG_radical_federalism
 }
 
 

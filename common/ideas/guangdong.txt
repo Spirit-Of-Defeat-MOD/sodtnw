@@ -1,0 +1,58 @@
+ideas = {
+    country = {
+        GDG_little_moscow = {
+            allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				has_government = libertarian_socialist
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+        }
+        GDG_anarchist_influence = {
+            allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				has_government = libertarian_socialist
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				drift_defence_factor = 0.3
+                join_faction_tension = 0.6
+			}
+        }
+        GDG_radical_federalism = {
+            
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				has_government = libertarian_socialist
+			}
+
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = -0.25
+			}
+        }
+    }
+}

@@ -62,6 +62,11 @@ GDG_communism_ADJ:0 "Yue"
 GDG_nihilistic_extremism_ADJ:0 "Yue"
 
 
+#Ideas
+GDG_little_moscow:0 "A 'Little Moscow'"
+GDG_anarchist_influence:0 "Anarchist Influence"
+GDG_radical_federalism:0 "Radical Federalism"
+
 #Ministers
 #should be reintegrated
 
@@ -72,5 +77,4 @@ GDG_nihilistic_extremism_ADJ:0 "Yue"
 
 #Events
 #should be reintegrated
-###French Togo###
-#Parties
+

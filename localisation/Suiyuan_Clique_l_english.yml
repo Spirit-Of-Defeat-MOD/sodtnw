@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SUI_fascism_party:0 ""
+SUI_fascism_party_long:0 ""
+SUI_communism_party:0 ""
+SUI_communism_party_long:0 ""
+SUI_democratic_party:1 ""
+SUI_democratic_party_long:0 ""
+SUI_utilitarian_despot_party:0 ""
+SUI_utilitarian_despot_party_long:0 ""
+SUI_neutrality_party:0 ""
+SUI_neutrality_party_long:0 ""
+SUI_social_democrat_party:0 ""
+SUI_social_democrat_party_long:0 ""
+SUI_social_liberal_party:0 ""
+SUI_social_liberal_party_long:0 ""
+SUI_classic_liberal_party:0 ""
+SUI_classic_liberal_party_long:0 ""
+SUI_libertarian_socialist_party:0 ""
+SUI_libertarian_socialist_party_long:0 ""
+SUI_reformist_socialist_party:0 ""
+SUI_reformist_socialist_party_long:0 ""
+SUI_nihilistic_extremism_party:0 ""
+SUI_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SUI_fascism:0 "Suiyuan Clique"
+SUI_fascism_DEF:0 "Suiyuan Clique"
+SUI_libertarian_socialist:0 "Suiyuan Clique"
+SUI_libertarian_socialist_DEF:0 "Suiyuan Clique"
+SUI_utilitarian_despot:0 "Suiyuan Clique"
+SUI_utilitarian_despot_DEF:0 "the Suiyuan Clique"
+SUI_democratic:0 "Suiyuan Clique"
+SUI_democratic_DEF:0 "Suiyuan Clique"
+SUI_neutrality:1 "Suiyuan Clique"
+SUI_neutrality_DEF:1 "the Suiyuan Clique"
+SUI_reformist_socialist:0 "Suiyuan Clique"
+SUI_reformist_socialist_DEF:0 "Suiyuan Clique"
+SUI_social_democrat:0 "Suiyuan Clique"
+SUI_social_democrat_DEF:0 "Suiyuan Clique"
+SUI_social_liberal:0 "Suiyuan Clique"
+SUI_social_liberal_DEF:0 "Suiyuan Clique"
+SUI_classic_liberal:0 "Suiyuan Clique"
+SUI_classic_liberal_DEF:0 "Suiyuan Clique"
+SUI_communism:0 "Suiyuan Clique"
+SUI_communism_DEF:0 "Suiyuan Clique"
+SUI_nihilistic_extremism:0 "Suiyuan Clique"
+SUI_nihilistic_extremism_DEF:0 "Suiyuan Clique"
+ 
+SUI_fascism_ADJ:0 "Sui"
+SUI_fascism_ADJ:0 "Sui"
+SUI_libertarian_socialist_ADJ:0 "Sui"
+SUI_democratic_ADJ:0 "Sui"
+SUI_utilitarian_despot_ADJ:0 "Sui"
+SUI_reformist_socialist_ADJ:0 "Sui"
+SUI_neutrality_ADJ:0 "Sui"
+SUI_social_democrat_ADJ:0 "Sui"
+SUI_social_liberal_ADJ:0 "Sui"
+SUI_classic_liberal_ADJ:0 "Sui"
+SUI_communism_ADJ:0 "Sui"
+SUI_nihilistic_extremism_ADJ:0 "Sui"
+
+
+#Suisters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

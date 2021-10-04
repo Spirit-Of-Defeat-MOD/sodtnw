@@ -17,7 +17,7 @@ focus_tree = {
 	#}
 	focus = {
 		id = generic_army_focus
-		icon = GFX_unknown
+		icon = GFX_generic_army_focus
 		cost = 7
 		x = 9
 		y = 0
@@ -36,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_equipment_effort
-		icon = GFX_unknown
+		icon = GFX_generic_equipment_effort
 		cost = 7
 		x = -7
 		y = 1
@@ -146,16 +146,17 @@ focus_tree = {
 		prerequisite = {
 			focus = generic_equipment_purchases
 		}
-
+		
+		relative_position_id = generic_equipment_research_ii
+		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_equipment_variation"
 		}
-		relative_position_id = generic_equipment_research_ii
 
 	}
 	focus = {
 		id = generic_doctrine_effort
-		icon = GFX_unknown
+		icon = GFX_generic_doctrine_effort
 		cost = 7
 		x = 5
 		y = 1
@@ -175,7 +176,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_school_of_fire_power
-		icon = GFX_unknown
+		icon = GFX_generic_school_of_fire_power
 		cost = 7
 		x = -7
 		y = 1
@@ -202,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_grand_battleplan
-		icon = GFX_unknown
+		icon = GFX_generic_grand_battleplan
 		cost = 7
 		x = 3
 		y = 1
@@ -229,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_mass_assault
-		icon = GFX_unknown
+		icon = GFX_generic_mass_assault
 		cost = 7
 		x = 7
 		y = 1
@@ -259,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_mobile_warfare
-		icon = GFX_unknown
+		icon = GFX_generic_mobile_warfare
 		cost = 7
 		x = -1
 		y = 1
@@ -286,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_artillery_effort
-		icon = GFX_unknown
+		icon = GFX_generic_artillery_effort
 		cost = 7
 		x = 0
 		y = 1
@@ -346,7 +347,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_employing_new_tactics
-		icon = GFX_unknown
+		icon = GFX_employing_new_tactics
 		cost = 7
 		x = 0
 		y = 1
@@ -360,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_new_conscription
-		icon = GFX_unknown
+		icon = GFX_generic_new_conscription
 		cost = 7
 		x = 0
 		y = 1
@@ -374,7 +375,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_motorized_effort
-		icon = GFX_unknown
+		icon = GFX_generic_motorized_effort
 		cost = 7
 		x = 0
 		y = 1
@@ -401,8 +402,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = generic_motorized_cavalry_brigdade
-		icon = GFX_unknown
+		id = generic_motorized_cavalry_brigade
+		icon = GFX_generic_motorized_cavalry_brigade
 		cost = 7
 		x = 1
 		y = 1
@@ -416,7 +417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_improved_training_standards
-		icon = GFX_unknown
+		icon = GFX_improved_training_standards
 		cost = 7
 		x = 0
 		y = 1
@@ -467,7 +468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_antitank_research
-		icon = GFX_unknown
+		icon = GFX_generic_antitank_research
 		cost = 7
 		x = 0
 		y = 1
@@ -481,7 +482,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_antiair_research
-		icon = GFX_unknown
+		icon = GFX_generic_antiair_research
 		cost = 7
 		x = 0
 		y = 1
@@ -495,7 +496,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_armor_effort
-		icon = GFX_unknown
+		icon = GFX_generic_armor_effort
 		cost = 7
 		x = 0
 		y = 1
@@ -509,7 +510,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_lower_recruitment_standards
-		icon = GFX_unknown
+		icon = GFX_generic_lower_recruitment_standards
 		cost = 7
 		x = 0
 		y = 1
@@ -619,7 +620,7 @@ focus_tree = {
 	}
 	focus = {
 		id = generic_rocket_artillery
-		icon = GFX_unknown
+		icon = GFX_generic_rocket_artillery
 		cost = 7
 		x = 1
 		y = 1

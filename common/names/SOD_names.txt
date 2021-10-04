@@ -136,3 +136,21 @@ AWS = {
 	}
 	callsigns = {  }
 }
+
+###CHINA####
+ANH = {
+	male = {
+		names = {
+			
+		}
+	}
+			
+	female = {
+		names = {  }
+	}
+	surnames = {
+		
+		
+	}
+	callsigns = {  }
+}

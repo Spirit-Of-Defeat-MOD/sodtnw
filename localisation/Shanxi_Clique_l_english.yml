@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SHX_fascism_party:0 ""
+SHX_fascism_party_long:0 ""
+SHX_communism_party:0 ""
+SHX_communism_party_long:0 ""
+SHX_democratic_party:1 ""
+SHX_democratic_party_long:0 ""
+SHX_utilitarian_despot_party:0 ""
+SHX_utilitarian_despot_party_long:0 ""
+SHX_neutrality_party:0 ""
+SHX_neutrality_party_long:0 ""
+SHX_social_democrat_party:0 ""
+SHX_social_democrat_party_long:0 ""
+SHX_social_liberal_party:0 ""
+SHX_social_liberal_party_long:0 ""
+SHX_classic_liberal_party:0 ""
+SHX_classic_liberal_party_long:0 ""
+SHX_libertarian_socialist_party:0 ""
+SHX_libertarian_socialist_party_long:0 ""
+SHX_reformist_socialist_party:0 ""
+SHX_reformist_socialist_party_long:0 ""
+SHX_nihilistic_extremism_party:0 ""
+SHX_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SHX_fascism:0 "Shanxi Clique"
+SHX_fascism_DEF:0 "Shanxi Clique"
+SHX_libertarian_socialist:0 "Shanxi Clique"
+SHX_libertarian_socialist_DEF:0 "Shanxi Clique"
+SHX_utilitarian_despot:0 "Shanxi Clique"
+SHX_utilitarian_despot_DEF:0 "the Shanxi Clique"
+SHX_democratic:0 "Shanxi Clique"
+SHX_democratic_DEF:0 "Shanxi Clique"
+SHX_neutrality:1 "Shanxi Clique"
+SHX_neutrality_DEF:1 "the Shanxi Clique"
+SHX_reformist_socialist:0 "Shanxi Clique"
+SHX_reformist_socialist_DEF:0 "Shanxi Clique"
+SHX_social_democrat:0 "Shanxi Clique"
+SHX_social_democrat_DEF:0 "Shanxi Clique"
+SHX_social_liberal:0 "Shanxi Clique"
+SHX_social_liberal_DEF:0 "Shanxi Clique"
+SHX_classic_liberal:0 "Shanxi Clique"
+SHX_classic_liberal_DEF:0 "Shanxi Clique"
+SHX_communism:0 "Shanxi Clique"
+SHX_communism_DEF:0 "Shanxi Clique"
+SHX_nihilistic_extremism:0 "Shanxi Clique"
+SHX_nihilistic_extremism_DEF:0 "Shanxi Clique"
+ 
+SHX_fascism_ADJ:0 "Jin"
+SHX_fascism_ADJ:0 "Jin"
+SHX_libertarian_socialist_ADJ:0 "Jin"
+SHX_democratic_ADJ:0 "Jin"
+SHX_utilitarian_despot_ADJ:0 "Jin"
+SHX_reformist_socialist_ADJ:0 "Jin"
+SHX_neutrality_ADJ:0 "Jin"
+SHX_social_democrat_ADJ:0 "Jin"
+SHX_social_liberal_ADJ:0 "Jin"
+SHX_classic_liberal_ADJ:0 "Sha"
+SHX_communism_ADJ:0 "Jin"
+SHX_nihilistic_extremism_ADJ:0 "Jin"
+
+
+#Shansters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

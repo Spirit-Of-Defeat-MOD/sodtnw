@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+NGX_fascism_party:0 ""
+NGX_fascism_party_long:0 ""
+NGX_communism_party:0 ""
+NGX_communism_party_long:0 ""
+NGX_democratic_party:1 ""
+NGX_democratic_party_long:0 ""
+NGX_utilitarian_despot_party:0 ""
+NGX_utilitarian_despot_party_long:0 ""
+NGX_neutrality_party:0 ""
+NGX_neutrality_party_long:0 ""
+NGX_social_democrat_party:0 ""
+NGX_social_democrat_party_long:0 ""
+NGX_social_liberal_party:0 ""
+NGX_social_liberal_party_long:0 ""
+NGX_classic_liberal_party:0 ""
+NGX_classic_liberal_party_long:0 ""
+NGX_libertarian_socialist_party:0 ""
+NGX_libertarian_socialist_party_long:0 ""
+NGX_reformist_socialist_party:0 ""
+NGX_reformist_socialist_party_long:0 ""
+NGX_nihilistic_extremism_party:0 ""
+NGX_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+NGX_fascism:0 "Ningxia Clique"
+NGX_fascism_DEF:0 "Ningxia Clique"
+NGX_libertarian_socialist:0 "Ningxia Clique"
+NGX_libertarian_socialist_DEF:0 "Ningxia Clique"
+NGX_utilitarian_despot:0 "Ningxia Clique"
+NGX_utilitarian_despot_DEF:0 "the Ningxia Clique"
+NGX_democratic:0 "Ningxia Clique"
+NGX_democratic_DEF:0 "Ningxia Clique"
+NGX_neutrality:1 "Ningxia Clique"
+NGX_neutrality_DEF:1 "the Ningxia Clique"
+NGX_reformist_socialist:0 "Ningxia Clique"
+NGX_reformist_socialist_DEF:0 "Ningxia Clique"
+NGX_social_democrat:0 "Ningxia Clique"
+NGX_social_democrat_DEF:0 "Ningxia Clique"
+NGX_social_liberal:0 "Ningxia Clique"
+NGX_social_liberal_DEF:0 "Ningxia Clique"
+NGX_classic_liberal:0 "Ningxia Clique"
+NGX_classic_liberal_DEF:0 "Ningxia Clique"
+NGX_communism:0 "Ningxia Clique"
+NGX_communism_DEF:0 "Ningxia Clique"
+NGX_nihilistic_extremism:0 "Ningxia Clique"
+NGX_nihilistic_extremism_DEF:0 "Ningxia Clique"
+ 
+NGX_fascism_ADJ:0 "Ning"
+NGX_fascism_ADJ:0 "Ning"
+NGX_libertarian_socialist_ADJ:0 "Ning"
+NGX_democratic_ADJ:0 "Ning"
+NGX_utilitarian_despot_ADJ:0 "Ning"
+NGX_reformist_socialist_ADJ:0 "Ning"
+NGX_neutrality_ADJ:0 "Ning"
+NGX_social_democrat_ADJ:0 "Ning"
+NGX_social_liberal_ADJ:0 "Ning"
+NGX_classic_liberal_ADJ:0 "Ning"
+NGX_communism_ADJ:0 "Ning"
+NGX_nihilistic_extremism_ADJ:0 "Ning"
+
+
+#Suisters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

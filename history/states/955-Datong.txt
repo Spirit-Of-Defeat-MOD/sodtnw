@@ -10,6 +10,7 @@ state={
 		owner = ROC
 		add_core_of = CHI
 		add_core_of = ROC
+		add_core_of = SHX
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

@@ -2,8 +2,93 @@
 ##Insert the focus icon paths and run shinemaker, take the shine code out of KR_goals_shine and put in the suitable country.gfx file
 spriteTypes = {
 	spriteType = {
-		name = "GFX_FRA_tanks"
-		texturefile = "gfx/interface/goals/MEX/GFX_FRA_tanks.dds"
+		name = "GFX_generic_army_focus"
+		texturefile = "gfx/interface/goals/generic/generic_army_focus.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_equipment_effort"
+		texturefile = "gfx/interface/goals/generic/generic_equipment_effort.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_doctrine_effort"
+		texturefile = "gfx/interface/goals/generic/generic_doctrine_effort.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_school_of_fire_power"
+		texturefile = "gfx/interface/goals/generic/generic_school_of_fire_power.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_mobile_warfare"
+		texturefile = "gfx/interface/goals/generic/generic_mobile_warfare.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_grand_battleplan"
+		texturefile = "gfx/interface/goals/generic/generic_grand_battleplan.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_mass_assault"
+		texturefile = "gfx/interface/goals/generic/generic_mass_assault.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_artillery_effort"
+		texturefile = "gfx/interface/goals/generic/generic_artillery_effort.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_antitank_research"
+		texturefile = "gfx/interface/goals/generic/generic_antitank_research.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_antiair_research"
+		texturefile = "gfx/interface/goals/generic/generic_antiair_research.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_rocket_artillery"
+		texturefile = "gfx/interface/goals/generic/generic_rocket_artillery.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_motorized_effort"
+		texturefile = "gfx/interface/goals/generic/generic_motorized_effort.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_motorized_cavalry_brigade"
+		texturefile = "gfx/interface/goals/generic/generic_motorized_cavalry_brigade.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_armor_effort"
+		texturefile = "gfx/interface/goals/generic/generic_armor_effort.png"
+	}
+	
+	spriteType = {
+		name = "GFX_employing_new_tactics"
+		texturefile = "gfx/interface/goals/generic/employing_new_tactics.png"
+	}
+	
+	spriteType = {
+		name = "GFX_improved_training_standards"
+		texturefile = "gfx/interface/goals/generic/improved_training_standards.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_new_conscription"
+		texturefile = "gfx/interface/goals/generic/generic_new_conscription.png"
+	}
+	
+	spriteType = {
+		name = "GFX_generic_lower_recruitment_standards"
+		texturefile = "gfx/interface/goals/generic/generic_lower_recruitment_standards.png"
 	}
 	
 }

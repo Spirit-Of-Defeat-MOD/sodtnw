@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+TAN_fascism_party:0 ""
+TAN_fascism_party_long:0 ""
+TAN_communism_party:0 "TPRP"
+TAN_communism_party_long:0 "Tuvan People's Revolutionary Party"
+TAN_democratic_party:1 ""
+TAN_democratic_party_long:0 ""
+TAN_utilitarian_despot_party:0 ""
+TAN_utilitarian_despot_party_long:0 ""
+TAN_neutrality_party:0 ""
+TAN_neutrality_party_long:0 ""
+TAN_social_democrat_party:0 ""
+TAN_social_democrat_party_long:0 ""
+TAN_social_liberal_party:0 ""
+TAN_social_liberal_party_long:0 ""
+TAN_classic_liberal_party:0 ""
+TAN_classic_liberal_party_long:0 ""
+TAN_libertarian_socialist_party:0 ""
+TAN_libertarian_socialist_party_long:0 ""
+TAN_reformist_socialist_party:0 ""
+TAN_reformist_socialist_party_long:0 ""
+TAN_nihilistic_extremism_party:0 ""
+TAN_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+TAN_fascism:0 "Tannu Tuva"
+TAN_fascism_DEF:0 "Tannu Tuva"
+TAN_libertarian_socialist:0 "Tannu Tuva"
+TAN_libertarian_socialist_DEF:0 "Tannu Tuva"
+TAN_utilitarian_despot:0 "Tannu Tuva"
+TAN_utilitarian_despot_DEF:0 "the Tannu Tuva"
+TAN_democratic:0 "Tannu Tuva"
+TAN_democratic_DEF:0 "Tannu Tuva"
+TAN_neutrality:1 "Tannu Tuva"
+TAN_neutrality_DEF:1 "Tannu Tuva"
+TAN_reformist_socialist:0 "Tannu Tuva"
+TAN_reformist_socialist_DEF:0 "Tannu Tuva"
+TAN_social_democrat:0 "Tannu Tuva"
+TAN_social_democrat_DEF:0 "Tannu Tuva"
+TAN_social_liberal:0 "Tannu Tuva"
+TAN_social_liberal_DEF:0 "Tannu Tuva"
+TAN_classic_liberal:0 "Tannu Tuva"
+TAN_classic_liberal_DEF:0 "Tannu Tuva"
+TAN_communism:0 "Tuvan People's Republic"
+TAN_communism_DEF:0 "Tuvan People's Republic"
+TAN_nihilistic_extremism:0 "Tannu Tuva"
+TAN_nihilistic_extremism_DEF:0 "Tannu Tuva"
+ 
+TAN_fascism_ADJ:0 "Tuva"
+TAN_fascism_ADJ:0 "Tuva"
+TAN_libertarian_socialist_ADJ:0 "Tuva"
+TAN_democratic_ADJ:0 "Tuva"
+TAN_utilitarian_despot_ADJ:0 "Tuva"
+TAN_reformist_socialist_ADJ:0 "Tuva"
+TAN_neutrality_ADJ:0 "Tuva"
+TAN_social_democrat_ADJ:0 "Tuva"
+TAN_social_liberal_ADJ:0 "Tuva"
+TAN_classic_liberal_ADJ:0 "Tuva"
+TAN_communism_ADJ:0 "Tuva"
+TAN_nihilistic_extremism_ADJ:0 "Tuva"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

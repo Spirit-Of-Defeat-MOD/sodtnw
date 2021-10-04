@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+JIA_fascism_party:0 ""
+JIA_fascism_party_long:0 ""
+JIA_communism_party:0 ""
+JIA_communism_party_long:0 ""
+JIA_democratic_party:1 ""
+JIA_democratic_party_long:0 ""
+JIA_utilitarian_despot_party:0 ""
+JIA_utilitarian_despot_party_long:0 ""
+JIA_neutrality_party:0 ""
+JIA_neutrality_party_long:0 ""
+JIA_social_democrat_party:0 ""
+JIA_social_democrat_party_long:0 ""
+JIA_social_liberal_party:0 ""
+JIA_social_liberal_party_long:0 ""
+JIA_classic_liberal_party:0 ""
+JIA_classic_liberal_party_long:0 ""
+JIA_libertarian_socialist_party:0 ""
+JIA_libertarian_socialist_party_long:0 ""
+JIA_reformist_socialist_party:0 ""
+JIA_reformist_socialist_party_long:0 ""
+JIA_nihilistic_extremism_party:0 ""
+JIA_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+JIA_fascism:0 "Jiangxi Clique"
+JIA_fascism_DEF:0 "Jiangxi Clique"
+JIA_libertarian_socialist:0 "Jiangxi Clique"
+JIA_libertarian_socialist_DEF:0 "Jiangxi Clique"
+JIA_utilitarian_despot:0 "Jiangxi Clique"
+JIA_utilitarian_despot_DEF:0 "the Jiangxi Clique"
+JIA_democratic:0 "Jiangxi Clique"
+JIA_democratic_DEF:0 "Jiangxi Clique"
+JIA_neutrality:1 "Jiangxi Clique"
+JIA_neutrality_DEF:1 "the Jiangxi Clique"
+JIA_reformist_socialist:0 "Jiangxi Clique"
+JIA_reformist_socialist_DEF:0 "Jiangxi Clique"
+JIA_social_democrat:0 "Jiangxi Clique"
+JIA_social_democrat_DEF:0 "Jiangxi Clique"
+JIA_social_liberal:0 "Jiangxi Clique"
+JIA_social_liberal_DEF:0 "Jiangxi Clique"
+JIA_classic_liberal:0 "Jiangxi Clique"
+JIA_classic_liberal_DEF:0 "Jiangxi Clique"
+JIA_communism:0 "Jiangxi Clique"
+JIA_communism_DEF:0 "Jiangxi Clique"
+JIA_nihilistic_extremism:0 "Jiangxi Clique"
+JIA_nihilistic_extremism_DEF:0 "Jiangxi Clique"
+ 
+JIA_fascism_ADJ:0 "Gan"
+JIA_fascism_ADJ:0 "Gan"
+JIA_libertarian_socialist_ADJ:0 "Gan"
+JIA_democratic_ADJ:0 "Gan"
+JIA_utilitarian_despot_ADJ:0 "Gan"
+JIA_reformist_socialist_ADJ:0 "Gan"
+JIA_neutrality_ADJ:0 "Gan"
+JIA_social_democrat_ADJ:0 "Gan"
+JIA_social_liberal_ADJ:0 "Gan"
+JIA_classic_liberal_ADJ:0 "Gan"
+JIA_communism_ADJ:0 "Gan"
+JIA_nihilistic_extremism_ADJ:0 "Gan"
+
+
+#Ganisters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

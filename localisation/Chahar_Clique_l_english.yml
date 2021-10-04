@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+CHR_fascism_party:0 ""
+CHR_fascism_party_long:0 ""
+CHR_communism_party:0 ""
+CHR_communism_party_long:0 ""
+CHR_democratic_party:1 ""
+CHR_democratic_party_long:0 ""
+CHR_utilitarian_despot_party:0 ""
+CHR_utilitarian_despot_party_long:0 ""
+CHR_neutrality_party:0 ""
+CHR_neutrality_party_long:0 ""
+CHR_social_democrat_party:0 ""
+CHR_social_democrat_party_long:0 ""
+CHR_social_liberal_party:0 ""
+CHR_social_liberal_party_long:0 ""
+CHR_classic_liberal_party:0 ""
+CHR_classic_liberal_party_long:0 ""
+CHR_libertarian_socialist_party:0 ""
+CHR_libertarian_socialist_party_long:0 ""
+CHR_reformist_socialist_party:0 ""
+CHR_reformist_socialist_party_long:0 ""
+CHR_nihilistic_extremism_party:0 ""
+CHR_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+CHR_fascism:0 "Chahar Clique"
+CHR_fascism_DEF:0 "Chahar Clique"
+CHR_libertarian_socialist:0 "Chahar Clique"
+CHR_libertarian_socialist_DEF:0 "Chahar Clique"
+CHR_utilitarian_despot:0 "Chahar Clique"
+CHR_utilitarian_despot_DEF:0 "the Chahar Clique"
+CHR_democratic:0 "Chahar Clique"
+CHR_democratic_DEF:0 "Chahar Clique"
+CHR_neutrality:1 "Chahar Clique"
+CHR_neutrality_DEF:1 "the Chahar Clique"
+CHR_reformist_socialist:0 "Chahar Clique"
+CHR_reformist_socialist_DEF:0 "Chahar Clique"
+CHR_social_democrat:0 "Chahar Clique"
+CHR_social_democrat_DEF:0 "Chahar Clique"
+CHR_social_liberal:0 "Chahar Clique"
+CHR_social_liberal_DEF:0 "Chahar Clique"
+CHR_classic_liberal:0 "Chahar Clique"
+CHR_classic_liberal_DEF:0 "Chahar Clique"
+CHR_communism:0 "Chahar Clique"
+CHR_communism_DEF:0 "Chahar Clique"
+CHR_nihilistic_extremism:0 "Chahar Clique"
+CHR_nihilistic_extremism_DEF:0 "Chahar Clique"
+ 
+CHR_fascism_ADJ:0 "Cha"
+CHR_fascism_ADJ:0 "Cha"
+CHR_libertarian_socialist_ADJ:0 "Cha"
+CHR_democratic_ADJ:0 "Cha"
+CHR_utilitarian_despot_ADJ:0 "Cha"
+CHR_reformist_socialist_ADJ:0 "Cha"
+CHR_neutrality_ADJ:0 "Cha"
+CHR_social_democrat_ADJ:0 "Cha"
+CHR_social_liberal_ADJ:0 "Cha"
+CHR_classic_liberal_ADJ:0 "Cha"
+CHR_communism_ADJ:0 "Cha"
+CHR_nihilistic_extremism_ADJ:0 "Cha"
+
+
+#Chasters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

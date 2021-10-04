@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+JLN_fascism_party:0 ""
+JLN_fascism_party_long:0 ""
+JLN_communism_party:0 ""
+JLN_communism_party_long:0 ""
+JLN_democratic_party:1 ""
+JLN_democratic_party_long:0 ""
+JLN_utilitarian_despot_party:0 ""
+JLN_utilitarian_despot_party_long:0 ""
+JLN_neutrality_party:0 ""
+JLN_neutrality_party_long:0 ""
+JLN_social_democrat_party:0 ""
+JLN_social_democrat_party_long:0 ""
+JLN_social_liberal_party:0 ""
+JLN_social_liberal_party_long:0 ""
+JLN_classic_liberal_party:0 ""
+JLN_classic_liberal_party_long:0 ""
+JLN_libertarian_socialist_party:0 ""
+JLN_libertarian_socialist_party_long:0 ""
+JLN_reformist_socialist_party:0 ""
+JLN_reformist_socialist_party_long:0 ""
+JLN_nihilistic_extremism_party:0 ""
+JLN_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+JLN_fascism:0 "Jilin Clique"
+JLN_fascism_DEF:0 "Jilin Clique"
+JLN_libertarian_socialist:0 "Jilin Clique"
+JLN_libertarian_socialist_DEF:0 "Jilin Clique"
+JLN_utilitarian_despot:0 "Jilin Clique"
+JLN_utilitarian_despot_DEF:0 "the Jilin Clique"
+JLN_democratic:0 "Jilin Clique"
+JLN_democratic_DEF:0 "Jilin Clique"
+JLN_neutrality:1 "Jilin Clique"
+JLN_neutrality_DEF:1 "the Jilin Clique"
+JLN_reformist_socialist:0 "Jilin Clique"
+JLN_reformist_socialist_DEF:0 "Jilin Clique"
+JLN_social_democrat:0 "Jilin Clique"
+JLN_social_democrat_DEF:0 "Jilin Clique"
+JLN_social_liberal:0 "Jilin Clique"
+JLN_social_liberal_DEF:0 "Jilin Clique"
+JLN_classic_liberal:0 "Jilin Clique"
+JLN_classic_liberal_DEF:0 "Jilin Clique"
+JLN_communism:0 "Jilin Clique"
+JLN_communism_DEF:0 "Jilin Clique"
+JLN_nihilistic_extremism:0 "Jilin Clique"
+JLN_nihilistic_extremism_DEF:0 "Jilin Clique"
+ 
+JLN_fascism_ADJ:0 "Ji"
+JLN_fascism_ADJ:0 "Ji"
+JLN_libertarian_socialist_ADJ:0 "Ji"
+JLN_democratic_ADJ:0 "Ji"
+JLN_utilitarian_despot_ADJ:0 "Ji"
+JLN_reformist_socialist_ADJ:0 "Ji"
+JLN_neutrality_ADJ:0 "Ji"
+JLN_social_democrat_ADJ:0 "Ji"
+JLN_social_liberal_ADJ:0 "Ji"
+JLN_classic_liberal_ADJ:0 "Ji"
+JLN_communism_ADJ:0 "Ji"
+JLN_nihilistic_extremism_ADJ:0 "Ji"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

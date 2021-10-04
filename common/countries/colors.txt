@@ -318,11 +318,6 @@ GXC = {
 	color_ui = rgb { 44 80 80 }
 }
 
-SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
-}
-
 XSM = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
@@ -936,7 +931,7 @@ SHG = {
 }
 
 FNG = {
-	color = rgb { 110 145 173 }
+	color = rgb { 255 253 191 }
     color_ui = rgb { 110 145 173 }
 }
 
@@ -968,4 +963,84 @@ DGE = {
 YNG = {
 	color = rgb { 25 151 47 }
     color_ui = rgb { 25 151 47 }
+}
+
+ANH = {
+	color = rgb { 197 178 107 }
+    color_ui = rgb { 197 178 107 }
+}
+
+FUJ = {
+	color = rgb { 86 98 147 }
+    color_ui = rgb { 86 98 147 }
+}
+
+ZHE = {
+	color = rgb { 95 109 174 }
+    color_ui = rgb { 95 109 174 }
+}
+
+JIA = {
+	color = rgb { 204 102 102 }
+    color_ui = rgb { 204 102 102 }
+}
+
+JGS = {
+	color = rgb { 153 153 51 }
+    color_ui = rgb { 153 153 51 }
+}
+
+GAN = {
+	color = rgb { 160 9 34 }
+	color_ui = rgb { 189 17 62 }
+}
+
+NGX = {
+	color = rgb { 122 17 71 }
+	color_ui = rgb { 150 21 87 }
+}
+
+SUI = {
+	color = rgb { 43 135 25 }
+	color_ui = rgb { 66 158 58 }
+}
+
+CHR = {
+	color = rgb { 40 30 104 }
+	color_ui = rgb { 49 36 127 }
+}
+
+ZHI = {
+	color = rgb { 165 165 81 }
+	color_ui = rgb { 181 181 96 }
+}
+
+SHX = {
+	color = rgb { 59 67 206 }
+	color_ui = rgb { 65 73 226 }
+}
+
+SHA = {
+	color = rgb { 219 203 32 }
+	color_ui = rgb { 242 225 36 }
+}
+
+REH = {
+	color = rgb { 166 81 45 }
+	color_ui = rgb { 166 81 45 }
+}
+
+HNN = {
+	color = rgb { 108 202 225 }
+	color_ui = rgb { 108 202 225 }
+}
+
+JLN = {
+	color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}
+
+HEI = {
+	color = rgb { 255 222 169 }
+	color_ui = rgb { 255 222 169 }
 }

@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+SHA_fascism_party:0 ""
+SHA_fascism_party_long:0 ""
+SHA_communism_party:0 ""
+SHA_communism_party_long:0 ""
+SHA_democratic_party:1 ""
+SHA_democratic_party_long:0 ""
+SHA_utilitarian_despot_party:0 ""
+SHA_utilitarian_despot_party_long:0 ""
+SHA_neutrality_party:0 ""
+SHA_neutrality_party_long:0 ""
+SHA_social_democrat_party:0 ""
+SHA_social_democrat_party_long:0 ""
+SHA_social_liberal_party:0 ""
+SHA_social_liberal_party_long:0 ""
+SHA_classic_liberal_party:0 ""
+SHA_classic_liberal_party_long:0 ""
+SHA_libertarian_socialist_party:0 ""
+SHA_libertarian_socialist_party_long:0 ""
+SHA_reformist_socialist_party:0 ""
+SHA_reformist_socialist_party_long:0 ""
+SHA_nihilistic_extremism_party:0 ""
+SHA_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+SHA_fascism:0 "Shaanxi Clique"
+SHA_fascism_DEF:0 "Shaanxi Clique"
+SHA_libertarian_socialist:0 "Shaanxi Clique"
+SHA_libertarian_socialist_DEF:0 "Shaanxi Clique"
+SHA_utilitarian_despot:0 "Shaanxi Clique"
+SHA_utilitarian_despot_DEF:0 "the Shaanxi Clique"
+SHA_democratic:0 "Shaanxi Clique"
+SHA_democratic_DEF:0 "Shaanxi Clique"
+SHA_neutrality:1 "Shaanxi Clique"
+SHA_neutrality_DEF:1 "the Shaanxi Clique"
+SHA_reformist_socialist:0 "Shaanxi Clique"
+SHA_reformist_socialist_DEF:0 "Shaanxi Clique"
+SHA_social_democrat:0 "Shaanxi Clique"
+SHA_social_democrat_DEF:0 "Shaanxi Clique"
+SHA_social_liberal:0 "Shaanxi Clique"
+SHA_social_liberal_DEF:0 "Shaanxi Clique"
+SHA_classic_liberal:0 "Shaanxi Clique"
+SHA_classic_liberal_DEF:0 "Shaanxi Clique"
+SHA_communism:0 "Shaanxi Clique"
+SHA_communism_DEF:0 "Shaanxi Clique"
+SHA_nihilistic_extremism:0 "Shaanxi Clique"
+SHA_nihilistic_extremism_DEF:0 "Shaanxi Clique"
+ 
+SHA_fascism_ADJ:0 "Shan"
+SHA_fascism_ADJ:0 "Shan"
+SHA_libertarian_socialist_ADJ:0 "Shan"
+SHA_democratic_ADJ:0 "Shan"
+SHA_utilitarian_despot_ADJ:0 "Shan"
+SHA_reformist_socialist_ADJ:0 "Shan"
+SHA_neutrality_ADJ:0 "Shan"
+SHA_social_democrat_ADJ:0 "Shan"
+SHA_social_liberal_ADJ:0 "Shan"
+SHA_classic_liberal_ADJ:0 "Sha"
+SHA_communism_ADJ:0 "Shan"
+SHA_nihilistic_extremism_ADJ:0 "Shan"
+
+
+#Shansters
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

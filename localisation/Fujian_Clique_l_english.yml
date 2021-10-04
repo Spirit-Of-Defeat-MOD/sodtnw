@@ -1,0 +1,76 @@
+﻿l_english: 
+
+#Parties
+FUJ_fascism_party:0 ""
+FUJ_fascism_party_long:0 ""
+FUJ_communism_party:0 ""
+FUJ_communism_party_long:0 ""
+FUJ_democratic_party:1 ""
+FUJ_democratic_party_long:0 ""
+FUJ_utilitarian_despot_party:0 ""
+FUJ_utilitarian_despot_party_long:0 ""
+FUJ_neutrality_party:0 ""
+FUJ_neutrality_party_long:0 ""
+FUJ_social_democrat_party:0 ""
+FUJ_social_democrat_party_long:0 ""
+FUJ_social_liberal_party:0 ""
+FUJ_social_liberal_party_long:0 ""
+FUJ_classic_liberal_party:0 ""
+FUJ_classic_liberal_party_long:0 ""
+FUJ_libertarian_socialist_party:0 ""
+FUJ_libertarian_socialist_party_long:0 ""
+FUJ_reformist_socialist_party:0 ""
+FUJ_reformist_socialist_party_long:0 ""
+FUJ_nihilistic_extremism_party:0 ""
+FUJ_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+FUJ_fascism:0 "Fujian Clique"
+FUJ_fascism_DEF:0 "Fujian Clique"
+FUJ_libertarian_socialist:0 "Fujian Clique"
+FUJ_libertarian_socialist_DEF:0 "Fujian Clique"
+FUJ_utilitarian_despot:0 "Fujian Clique"
+FUJ_utilitarian_despot_DEF:0 "the Fujian Clique"
+FUJ_democratic:0 "Fujian Clique"
+FUJ_democratic_DEF:0 "Fujian Clique"
+FUJ_neutrality:1 "Fujian Clique"
+FUJ_neutrality_DEF:1 "the Fujian Clique"
+FUJ_reformist_socialist:0 "Fujian Clique"
+FUJ_reformist_socialist_DEF:0 "Fujian Clique"
+FUJ_social_democrat:0 "Fujian Clique"
+FUJ_social_democrat_DEF:0 "Fujian Clique"
+FUJ_social_liberal:0 "Fujian Clique"
+FUJ_social_liberal_DEF:0 "Fujian Clique"
+FUJ_classic_liberal:0 "Fujian Clique"
+FUJ_classic_liberal_DEF:0 "Fujian Clique"
+FUJ_communism:0 "Fujian Clique"
+FUJ_communism_DEF:0 "Fujian Clique"
+FUJ_nihilistic_extremism:0 "Fujian Clique"
+FUJ_nihilistic_extremism_DEF:0 "Fujian Clique"
+ 
+FUJ_fascism_ADJ:0 "Min"
+FUJ_fascism_ADJ:0 "Min"
+FUJ_libertarian_socialist_ADJ:0 "Min"
+FUJ_democratic_ADJ:0 "Min"
+FUJ_utilitarian_despot_ADJ:0 "Min"
+FUJ_reformist_socialist_ADJ:0 "Min"
+FUJ_neutrality_ADJ:0 "Min"
+FUJ_social_democrat_ADJ:0 "Min"
+FUJ_social_liberal_ADJ:0 "Min"
+FUJ_classic_liberal_ADJ:0 "Min"
+FUJ_communism_ADJ:0 "Min"
+FUJ_nihilistic_extremism_ADJ:0 "Min"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+###French Togo###
+#Parties

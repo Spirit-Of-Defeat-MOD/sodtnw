@@ -11,6 +11,7 @@ state={
 		add_core_of = SHG
 		add_core_of = CHI
 		add_core_of = ROC
+		add_core_of = JGS
 		buildings = {
 			infrastructure = 3
 			7014 = {

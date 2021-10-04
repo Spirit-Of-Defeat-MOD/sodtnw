@@ -9,6 +9,7 @@ state={
 		add_core_of = CHI
 		add_core_of = FNG
 		add_core_of = ROC
+		add_core_of = JLN
 		buildings = {
 			infrastructure = 3
 

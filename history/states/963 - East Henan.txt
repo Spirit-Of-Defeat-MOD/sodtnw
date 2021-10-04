@@ -10,6 +10,7 @@ state={
 		owner = ROC
 		add_core_of = CHI
 		add_core_of = ROC
+		add_core_of = HNN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

@@ -49,7 +49,7 @@ KHO = "countries/MiddleEast.txt" #Khorasan
 
 #China
 ANH = "countries/Asian.txt" #Anhui Province
-CHA = "countries/Asian.txt" #Chahar Province - will have a mongol cosmetic tag
+CHR = "countries/Asian.txt" #Chahar Province - will have a mongol cosmetic tag
 DGE = "countries/Asian.txt"	#Kingdom of Derge
 FNG = "countries/Asian.txt" #Fengtien Clique
 FUJ = "countries/Asian.txt" #Fujian Province
@@ -75,13 +75,14 @@ ROC = "countries/Asian.txt"	#Beiyang China
 SDX = "countries/Asian.txt"	#Deng Xihou Clique
 SHD = "countries/Asian.txt"	#Shangdong Clique
 SHG = "countries/Asian.txt" #Shanghai Triads clique
+SHA = "countries/Asian.txt" #Shaanxi clique
 SLC = "countries/Asian.txt"	#Liu Cunhou Clique
 SLW = "countries/Asian.txt"	#Liu Wenhui Clique
 SLX = "countries/Asian.txt"	#Liu Xiang Clique
 STS = "countries/Asian.txt"	#Tian Songyao Clique
 SUI = "countries/Asian.txt" #Suiyan Province - will have a mongol cosmetic tag
 ZHE = "countries/Asian.txt" #Zhejiang Province
-ZHI = "countries/Asian.txt" #Zhili Province
+ZHI = "countries/Asian.txt" #Zhili Province aka Hebei
 YNG = "countries/Asian.txt" #Yongning Chiefdom
 
 

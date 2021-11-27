@@ -70,7 +70,12 @@ SHG_nihilistic_extremism_ADJ:0 "Hu"
 #Focuses
 #should be reintegrated
 
+SHG_international_settlement:0 "Shanghai International Settlement"
+SHG_international_settlement_desc:0 ""
 #Events
 #should be reintegrated
 ###French Togo###
 #Parties
+
+shanghai_international_settlement:0 "Shanghai International Settlement\n§gThe Shanghai International Settlement originated from the merger in the year 1863 of the British and American enclaves in Shanghai, in which British subjects and American citizens would enjoy extraterritorially and consular jurisdiction under the terms of treaties signed in the nineteenth century with the Qing Dynasty. It is currently led by the Shanghai Municipal Council. There are currently 14 treaty powers apart of the Settlement§!."
+shanghai_international_settlement_tt:0 ""

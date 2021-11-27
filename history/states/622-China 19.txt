@@ -11,34 +11,23 @@ state={
 		add_core_of = CHI
 		add_core_of = ROC
 		add_core_of = SHA
-		victory_points = {
-			8049 3 
-		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 3
 			industrial_complex = 3
-			10733 = {
-				bunker = 2
 
-			}
-			12156 = {
-				bunker = 2
+		}
 
-			}
-			5007 = {
-				bunker = 2
-
-			}
-
+		victory_points ={ #Yulin
+			7659 5
 		}
 
 	}
 
 	provinces={
-		1458 5007 7208 7314 7659 8049 10733 10880 12156 12356 13400
+		1458 7314 7659  10880  13400
 	}
-	manpower=7006200
+	manpower=692951
 	buildings_max_level_factor=1.000
-	state_category=c7
+	state_category=c4
 }

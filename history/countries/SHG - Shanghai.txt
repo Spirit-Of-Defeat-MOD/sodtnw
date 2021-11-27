@@ -10,6 +10,27 @@ set_technology = {
 	early_bomber = 1
 	mass_assault = 1
 }
+949 = {
+	add_province_modifier = { 
+		static_modifiers = { shanghai_international_settlement }
+		province = { id = 7014 }
+	} 
+}
+
+ENG = {SHG_add_to_municipal_council = yes }
+USA = {SHG_add_to_municipal_council = yes }
+JAP = {SHG_add_to_municipal_council = yes }
+FRA = {SHG_add_to_municipal_council = yes }
+ITA = {SHG_add_to_municipal_council = yes }
+NOR = {SHG_add_to_municipal_council = yes }
+SWE = {SHG_add_to_municipal_council = yes }
+DEN = {SHG_add_to_municipal_council = yes }
+HOL = {SHG_add_to_municipal_council = yes }
+SPR = {SHG_add_to_municipal_council = yes }
+POR = {SHG_add_to_municipal_council = yes }
+PRU = {SHG_add_to_municipal_council = yes }
+MEX = {SHG_add_to_municipal_council = yes }
+SWI = {SHG_add_to_municipal_council = yes }
 
 set_convoys = 40
 

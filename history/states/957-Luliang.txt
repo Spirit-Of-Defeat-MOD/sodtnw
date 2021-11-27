@@ -2,7 +2,7 @@
 state={
 	id=957
 	name="STATE_957" # South Chahar
-	manpower = 3490000
+	manpower = 2612968
 	
 	state_category = c3
 
@@ -14,6 +14,15 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
+
+		victory_points = { #Luliang
+			13619 9
+		}
+
+		victory_points = { #Linfen
+			13620 6
+		}
+
 
 	}
 

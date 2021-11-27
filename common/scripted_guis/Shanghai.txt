@@ -1,0 +1,19 @@
+scripted_gui = {
+	shg_municipal_council_list = {
+        context_type = player_context
+        window_name = "smc_list"
+        parent_window_name = decision_tab
+		
+		visible = {
+            tag = SHG
+        }
+		
+        dynamic_lists = {
+            shg_municipal_council_grid = {
+                array = SHG.municipal_council
+                change_scope = yes
+                entry_container = shg_municipal_council_listing_entry
+            }
+        }
+    }
+}

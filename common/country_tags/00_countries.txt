@@ -1,3 +1,4 @@
+#Vanilla
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
@@ -202,3 +203,126 @@ ADU = "countries/Andalusia.txt"
 BRI = "countries/Brittany.txt"
 OCC = "countries/Occitania.txt"
 COR = "countries/Corsica.txt"
+
+##1.11 Tags
+DNZ = "countries/Danzig.txt" #not gonna be used, can use for something else maybe
+SIL = "countries/Silesia.txt"
+KSH = "countries/Kashubia.txt"
+DON = "countries/Don Republic.txt"
+KUB = "countries/Kuban Republic.txt"
+BUK = "countries/Bukharan Republic.txt"
+ALT = "countries/Altay.txt"
+KAL = "countries/Kalmykia.txt"
+KAR = "countries/Karelia.txt"
+CRI = "countries/Crimea.txt"
+TAT = "countries/Tatarstan.txt"
+CIN = "countries/Chechnya Ingushetia.txt"
+DAG = "countries/Dagestan.txt"
+BYA = "countries/Buryatia.txt"
+CKK = "countries/Chukotka.txt"
+FER = "countries/Fareastern Republic.txt"
+YAK = "countries/Yakutia.txt"
+VLA = "countries/Vladivostok.txt"
+KKP = "countries/Karakalpakstan.txt"
+YAM = "countries/Yamalia.txt"
+TAY = "countries/Taymyria.txt"
+OVO = "countries/Ostyak Vogulia.txt"
+NEN = "countries/Nenetsia.txt"
+KOM = "countries/Komi.txt"
+ABK = "countries/Abkhazia.txt"
+KBK = "countries/Kabardino Balkaria.txt"
+NOA = "countries/North Ossetia.txt"
+VGE = "countries/Volga Germany.txt"
+BSK = "countries/Bashkortostan.txt"
+KHI = "countries/Khiva.txt"
+UDM = "countries/Udmurtia.txt"
+CHU = "countries/Chuvashia.txt"
+MEL = "countries/Mariel.txt"
+
+#SOD TAGS
+##North America
+#Canada
+NEW = "countries/Commonwealth.txt" #Newfoundland
+QUE = "countries/Commonwealth.txt" #Quebec
+
+#Mexico
+CED = "countries/SouthAmerican.txt" #Cedillo
+MCT = "countries/SouthAmerican.txt" #Cristero
+PLM = "countries/SouthAmerican.txt" #Magonists
+PNR = "countries/SouthAmerican.txt" #Constituionalists
+VIL = "countries/SouthAmerican.txt"	#Villa
+
+##Africa
+AEF = "countries/African.txt" #French Equitorial Africa
+AJU = "countries/African.txt" #Ajuran(Kelafo)
+AOF = "countries/African.txt" #French West Africa
+AWS = "countries/African.txt" #Aussa Sultanate
+FRE = "countries/WestEurope.txt"  #French govt exile
+IEA = "countries/WestEurope.txt" #Italian East Africa
+TRP = "countries/African.txt"  #Tripoli
+TUA = "countries/African.txt" #Kel Ahaggar
+
+
+##Europe
+CHE = "countries/WestEurope.txt" #Chetniks
+DAN = "countries/WestEurope.txt" #Danzig
+HRZ = "countries/WestEurope.txt" #Second Bosnia
+ITM = "countries/WestEurope.txt" #Italian Military
+ITS = "countries/WestEurope.txt" #Italian Socialists
+LAJ = "countries/WestEurope.txt" #Lajtabánság
+MEM = "countries/WestEurope.txt" #Memel
+TRA = "countries/WestEurope.txt" #Translyvania
+
+#Middle East
+ASR = "countries/MiddleEast.txt" #Asir
+HEJ = "countries/MiddleEast.txt" #Hejaz
+ISZ = "countries/WestEurope.txt" #International Zone of Straits
+JAB = "countries/MiddleEast.txt" #Jabal Shammar
+KUR = "countries/MiddleEast.txt" #Kurdistan
+OMN = "countries/MiddleEast.txt" #Imam of Oman
+
+
+#Persia
+ARB = "countries/MiddleEast.txt" #Arabistab
+AZD = "countries/MiddleEast.txt" #Azadistan
+BLC = "countries/MiddleEast.txt" #Balochistan
+GIL = "countries/MiddleEast.txt" #Gilan
+KHO = "countries/MiddleEast.txt" #Khorasan
+
+#China
+ANH = "countries/Asian.txt" #Anhui Province
+CHR = "countries/Asian.txt" #Chahar Province - will have a mongol cosmetic tag
+DGE = "countries/Asian.txt"	#Kingdom of Derge
+FNG = "countries/Asian.txt" #Fengtien Clique
+FUJ = "countries/Asian.txt" #Fujian Province
+GAN = "countries/Asian.txt" #Gansu Province
+GDG = "countries/Asian.txt"	#Guangdong Clique-CHEN
+GUI = "countries/Asian.txt"	#Guizhou Clique
+HEI = "countries/Asian.txt" #Heilongjiang Province
+HNC = "countries/Asian.txt"	#Hunan Clique
+HNN = "countries/Asian.txt" #Henan Province
+HOT = "countries/MiddleEast.txt" #Hotan Sultanate
+HUB = "countries/Asian.txt"	#Hubei Clique
+JGS = "countries/Asian.txt" #Jiangsu Province
+JIA = "countries/Asian.txt" #Jiangxi Province
+JLN = "countries/Asian.txt" #Jilin Province
+KUM = "countries/Asian.txt"	#Kumul Khanate
+LIN = "countries/Asian.txt" #Kingdom of Lingstang
+MUL = "countries/Asian.txt" #Chiefdom of Muli
+NAN = "countries/Asian.txt" #Kingdom of Nangqen
+NGO = "countries/Asian.txt" #Ngolok Tribes
+NGX = "countries/Asian.txt" #Ningxia Province
+REH = "countries/Asian.txt" #Rehe Province
+ROC = "countries/Asian.txt"	#Beiyang China
+SDX = "countries/Asian.txt"	#Deng Xihou Clique
+SHD = "countries/Asian.txt"	#Shangdong Clique
+SHG = "countries/Asian.txt" #Shanghai Triads clique
+SHA = "countries/Asian.txt" #Shaanxi clique
+SLC = "countries/Asian.txt"	#Liu Cunhou Clique
+SLW = "countries/Asian.txt"	#Liu Wenhui Clique
+SLX = "countries/Asian.txt"	#Liu Xiang Clique
+STS = "countries/Asian.txt"	#Tian Songyao Clique
+SUI = "countries/Asian.txt" #Suiyan Province - will have a mongol cosmetic tag
+ZHE = "countries/Asian.txt" #Zhejiang Province
+ZHI = "countries/Asian.txt" #Zhili Province aka Hebei
+YNG = "countries/Asian.txt" #Yongning Chiefdom

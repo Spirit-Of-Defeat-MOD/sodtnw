@@ -2,9 +2,9 @@ state=
 {
 	id=615
 	name="STATE_615"
-	manpower = 11601000
+	manpower = 6356630
 	
-	state_category = c5
+	state_category = c6
 	
 	history=
 	{
@@ -12,14 +12,32 @@ state=
 		add_core_of = CHI
 		add_core_of = ROC
 		add_core_of = SHX
-		victory_points = {
-			1519 3 
-		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
 		}
+
+		victory_points = { #Taiyuan
+			12344 10
+		}
+
+		victory_points = { #Yangquan
+			12078 8
+		}
+
+		victory_points = { #Changzhi
+			10421 3
+		}
+
+		victory_points = { #Jincheng
+			7571 2
+		}
+
+		victory_points = { #Yuncheng
+			1575 1
+		}
+
 
 	}
 	provinces={

@@ -2,7 +2,7 @@ state={
 	id=744
 	name="STATE_744"
 	provinces={
-		1976 2006 4256 4295 5092 7301 7406 10257 12713 
+		1976 4256  5092 7301 7406 12713 7418
 	}
 
 	history={
@@ -15,8 +15,20 @@ state={
 			infrastructure = 3
 		}
 
+		victory_points = { #Xian
+			7301 10
+		}
+
+		victory_points = { #Ankang
+			7406 4
+		}
+
+		victory_points = { #Shangluo
+			12713 3
+		}
+
 	}
-	manpower=9000000
+	manpower=2778781
 	buildings_max_level_factor=1.000
-	state_category = c5
+	state_category = c6
 }

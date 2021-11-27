@@ -1,0 +1,54 @@
+
+state={
+	id=970
+	name="STATE_970" # South Chahar
+	manpower = 3046041
+	
+	state_category = c5
+
+	history={
+		owner = ROC
+		add_core_of = CHI
+		add_core_of = ROC
+		add_core_of = SHA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			10733 = {
+				bunker = 2
+
+			}
+			12156 = {
+				bunker = 2
+
+			}
+			5007 = {
+				bunker = 2
+
+			}
+
+		}
+
+		victory_points = { #Weinan
+			5007 9
+		}
+
+		victory_points = { #Xianyang
+			13685 8
+		}
+
+		victory_points = { #Baoji
+			13684 7
+		}
+		
+		victory_points = { #Tongchuan(tongguan)
+			13686 1
+		}
+
+	}
+
+	provinces={	
+		13684 13685 13686 13687 10733 12156 5007 
+	}
+}

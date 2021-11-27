@@ -8,6 +8,25 @@ on_actions = {
 		}	
 	}
 	
+	#on_startup = { 
+	#	effect = {
+	#		add_to_array = { SHG.international_settlement = ENG }
+	#		add_to_array = { SHG.international_settlement = USA }
+	#		add_to_array = { SHG.international_settlement = JAP }
+	#		add_to_array = { SHG.international_settlement = FRE }
+	#		add_to_array = { SHG.international_settlement = ITA }
+	#		add_to_array = { SHG.international_settlement = NOR }
+	#		add_to_array = { SHG.international_settlement = SWE }
+	#		add_to_array = { SHG.international_settlement = DEN }
+	#		add_to_array = { SHG.international_settlement = HOL }
+	#		add_to_array = { SHG.international_settlement = SPR }
+	#		add_to_array = { SHG.international_settlement = POR }
+	#		add_to_array = { SHG.international_settlement = PRU }
+	#		add_to_array = { SHG.international_settlement = MEX }
+	#		add_to_array = { SHG.international_settlement = SWI }
+	#	}	
+	#}
+	
 	on_startup = { 
 		effect = {
 			AOF = {

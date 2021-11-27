@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_modifiers_shanghai_international_settlement_icon"
+		texturefile = "gfx/interface/modifiers/prov_modifiers/shanghai_international_settlement.png"
+	}
+
+}

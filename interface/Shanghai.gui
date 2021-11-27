@@ -1,0 +1,57 @@
+guiTypes = {
+	containerWindowType = {
+        name = "smc_list"
+        position = { x = 0 y = 38 }
+        size = { width = 200 height = 300 }
+        background = {
+            name = "Background"        
+            quadTextureSprite ="GFX_tiled_paper_w_frame_bg"
+        }
+
+
+        fade_time = 300
+        fade_type = linear
+        moveable = no
+        clipping = yes
+        instantTextboxType = {
+            name = "TESTING"
+            position = { x = 25% y = 15 }
+            font = "hoi_16mbs"
+            text = "Members of the Municipal Council"
+            format = center
+            maxWidth = 150
+            maxHeight = 20
+            fixedsize = yes
+        }
+        containerWindowType = {
+            name = "shg_municipal_council_menu_grid"
+            position = {x=0 y=0}
+            size = { width = 200 height = 300 }
+            margin = { top = 10 bottom = 10 }
+            Orientation = upper_left
+            clipping = yes
+
+
+            verticalScrollbar = "left_vertical_slider"
+        #    horizontalScrollbar = "top_vertical_slider"
+
+            # background is necesarry for scrollbars to work
+            background = {
+                name = "Background"
+                quadTextureSprite = "GFX_tiled_paper_w_frame_bg"
+            }
+            
+            # this grid will be dynamically populated
+
+            gridboxtype = {
+                name = "shg_municipal_council_listing_entry"
+                position = { x = 0 y = 0 }
+                size = { width = 400 height = 100% }
+                slotsize = { width = 200 height = 25 }
+                max_slots_horizontal = 1
+                add_horizontal = yes
+            }   
+        }
+    }
+	
+}

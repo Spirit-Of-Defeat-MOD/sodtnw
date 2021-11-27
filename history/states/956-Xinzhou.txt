@@ -2,7 +2,7 @@
 state={
 	id=956
 	name="STATE_956" # South Chahar
-	manpower = 3490000
+	manpower = 996471
 	
 	state_category = c3
 
@@ -14,6 +14,10 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+		}
+
+		victory_points = { #Xinzhou
+			13613 7
 		}
 
 	}

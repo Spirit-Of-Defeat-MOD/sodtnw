@@ -15,9 +15,31 @@ state={
 		}
 
 
-		victory_points = {
-			4504 3 
+		victory_points = { #Guiyang
+			10616 10 
 		}
+
+		victory_points = { #Bijie
+			13655 7 
+		}
+
+		victory_points = { #Dunyun
+			13653 5
+		}
+
+		victory_points = { #Liupanshui
+			13374 3
+		}
+
+		victory_points = { #Xingyi
+			13656 2
+		}
+
+		victory_points = { #Anshun
+			4504 1
+		}
+
+
 
 	}
 

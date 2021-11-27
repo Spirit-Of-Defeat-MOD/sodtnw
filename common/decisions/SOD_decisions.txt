@@ -245,3 +245,7 @@ weapon_purchasing = {
 		}
 	}
 }
+
+SHG_international_settlement = {
+	
+}

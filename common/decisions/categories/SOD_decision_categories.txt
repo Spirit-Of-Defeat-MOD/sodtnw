@@ -126,3 +126,11 @@ SIK_power_struggle = {
 		has_country_flag = yang_zengxin_dead
 	}
 }
+
+SHG_international_settlement = {
+	#icon = GFX_decision_cat_annexation
+	#picture = GFX_decision_cat_picture_annexation
+	priority = 90
+	visible_when_empty = yes
+	allowed = { tag = SHG } #manually activated
+}

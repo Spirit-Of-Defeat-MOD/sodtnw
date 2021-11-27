@@ -27,18 +27,6 @@ opinion_modifiers = {
 		trade = yes
 		value = -100
 	}
-	
-	same_ruling_party = {
-		value = 0
-	}
-	
-	similar_ruling_party = {
-		value = 0
-	}
-	
-	different_party_types = {
-		value = 0
-	}
 
 	#####
 	CRO_anti_serbian_rhetoric_modifier = {

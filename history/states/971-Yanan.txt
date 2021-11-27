@@ -1,0 +1,30 @@
+
+state={
+	id=971
+	name="STATE_971" # South Chahar
+	manpower = 452191
+	
+	state_category = c4
+
+	history={
+		owner = ROC
+		add_core_of = CHI
+		add_core_of = ROC
+		add_core_of = SHA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+
+		victory_points = { #Yan'an
+			12356 2
+		}
+		
+
+	}
+
+	provinces={	
+		13689 13688 13690 7208 8049 12356
+	}
+}

@@ -1,0 +1,20 @@
+######################
+#### INFANTRY ########
+######################
+
+####Rework Support Weapons####
+New Buildable Equipment: Support Weapons (Will be a catch all for mortars, MGs and AT rifles)
+New support companies : Machine Gun Company, Mortar Company, Anti tank infantry (all use support weapons)
+progression will follow like normal infantry weapons mixed with support companies
+
+New Buildable Equipment : Flamethrowers
+New support company : Flamethrower infantry
+Flamethrowers will be unlocked after Support weapons 2
+
+####Vehicles#####
+Will remove LaR additions 
+Armored Cars get re-added
+Armored Car Div. HQ will get added
+Armored Cars and trucks will now be one tech tree
+New Tech: Great War Vehicles
+

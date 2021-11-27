@@ -1,0 +1,25 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+SHG_add_to_municipal_council = {
+	add_to_array = { SHG.municipal_council = THIS.id }
+}
+
+SHG_remove_from_municipal_council = {
+	remove_from_array = { SHG.municipal_council = THIS.id }
+}

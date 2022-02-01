@@ -22,10 +22,11 @@ weapon_purchasing = {
 		days_re_enable = 30
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.1
-				hours = 6
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 1500
 			}
+
 		}
 		
 	}
@@ -49,10 +50,7 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.2
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999
@@ -82,10 +80,7 @@ weapon_purchasing = {
 		days_re_enable = 30
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.3
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999
@@ -112,10 +107,7 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.4
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999
@@ -142,10 +134,7 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.5
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999
@@ -173,10 +162,7 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.6
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999
@@ -204,10 +190,6 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.7
-				hours = 6
-			}
 		}
 		ai_will_do = {
 			factor = 999
@@ -235,10 +217,7 @@ weapon_purchasing = {
 		fire_only_once = no
 		
 		complete_effect = {
-			country_event = {
-				id = weapon_purchasing.8
-				hours = 6
-			}
+
 		}
 		ai_will_do = {
 			factor = 999

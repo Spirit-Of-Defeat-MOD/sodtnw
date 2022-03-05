@@ -1,0 +1,28 @@
+
+state={
+	id=973
+	name="STATE_973" # South Chahar
+	manpower = 15000
+	
+	state_category = c2
+
+	history={
+		owner = ENG
+		add_core_of = CHI
+		add_core_of = ROC
+		add_core_of = SHD
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { #Weihaiwei
+			13691 3 
+		}
+		
+
+	}
+
+	provinces={	
+		13691
+	}
+}

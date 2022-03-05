@@ -2,7 +2,9 @@ state=
 {
 	id=597
 	name="STATE_597"
-	manpower = 38373200
+	manpower = 28195902
+
+
 	state_category = c5
 	
 	
@@ -12,9 +14,6 @@ state=
 		add_core_of = SHD
 		add_core_of = CHI
 		add_core_of = ROC
-		victory_points = {
-			1069 3 
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -24,6 +23,54 @@ state=
 				coastal_bunker = 1
 				bunker = 1
 			}
+		}
+
+		victory_points = { #Dongying
+			4089 1 
+		}
+
+		victory_points = { #Binzhou
+			12093 5 
+		}
+
+		victory_points = { #Zibo
+			10102 6 
+		}
+
+		victory_points = { #Jinan
+			1069 16 
+		}
+
+		victory_points = { #Dezhou
+			13432 8 
+		}
+
+		victory_points = { #Tai'an
+			4037 7 
+		}
+
+		victory_points = { #Liaocheng
+			7160 9 
+		}
+
+		victory_points = { #Jining
+			10043 11 
+		}
+
+		victory_points = { #Heze
+			13435 12 
+		}
+
+		victory_points = { #Zaozhuang
+			9956 4 
+		}
+
+		victory_points = { #Linyi
+			1124 15 
+		}
+
+		victory_points = { #Rizhao
+			9971 2
 		}
 	}
 	provinces={

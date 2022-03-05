@@ -2,9 +2,9 @@
 state={
 	id=964
 	name="STATE_964" # South Chahar
-	manpower = 3400000
+	manpower = 6373545
 	
-	state_category = c5
+	state_category = c4
 
 	history={
 		owner = SHD
@@ -16,6 +16,14 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 
+		}
+
+		victory_points = { #Yantai
+			1200 10 
+		}
+
+		victory_points = { #Weifang
+			1184 14 
 		}
 		
 

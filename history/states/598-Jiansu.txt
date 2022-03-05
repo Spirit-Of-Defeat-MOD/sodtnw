@@ -15,14 +15,40 @@ state={
 
 		}
 
-		1938.10.25 = {
-			controller = JAP
+		victory_points = { #Yangzhou
+			4001 4 
 		}
+
+		victory_points = { #Taizhou
+			10095 2 
+		}
+
+		victory_points = { #Yancheng
+			12067 8
+		}
+
+		victory_points = { #Huai'an
+			4123 3 
+		}
+
+		victory_points = { #Suqian
+			1076 6 
+		}
+
+		victory_points = { #Lianyungang
+			1029 5 
+		}
+
+		victory_points = { #Xuzhou
+			12055 11 
+		}
+
 	}
 
 	provinces={
 		 1029 1076 1121  4001 4005 4031 4082 4123 4148 7025 7142 7181 7200 9953 10095 12055 12067 13144 
 	}
-	manpower=23669300
+	manpower=16786065
+
 	buildings_max_level_factor=1.000
 }

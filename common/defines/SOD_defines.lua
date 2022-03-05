@@ -1,4 +1,4 @@
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24;
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 25;
 NDefines.NDiplomacy.MAX_TRUST_VALUE = 200;
 NDefines.NDiplomacy.MIN_TRUST_VALUE = -200;
 NDefines.NDiplomacy.MAX_OPINION_VALUEE = 200;

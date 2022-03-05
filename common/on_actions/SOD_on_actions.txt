@@ -95,22 +95,5 @@ on_actions = {
 
 		}	
 	}
-	
-	on_startup = { 
-		effect = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = allow_microstates
-						option = MICROSTATES_ANNEXED
-					}
-				}
-				TIB = { annex_country = MUL }
-				TIB = { annex_country = NAN }
-				TIB = { annex_country = LIN }
-				TIB = { annex_country = DGE }
-			}
-		}	
-	}
 
 }

@@ -507,9 +507,6 @@ GER_naval_role_ratios_historical = {
 		original_tag = GER
 		has_dlc = "Man the Guns"
 	}
-	enable = {
-		not = { GER_naval_interest_trigger = yes }
-	}
 
 	ai_strategy = {
 		type = role_ratio

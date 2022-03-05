@@ -265,10 +265,6 @@ JAP_destroyers = {
 				front_1_custom_slot = ship_anti_air
 				mid_1_custom_slot = ship_anti_air
 				rear_1_custom_slot = ship_depth_charge
-				rear_2_custom_slot = {
-					module = dp_light_battery
-					module > ship_light_battery_1
-				}
 			}
 		}
 		
@@ -1524,7 +1520,6 @@ JAP_naval_capital_battleship = {
 				mid_2_custom_slot = dp_ship_secondaries
 				mid_3_custom_slot = dp_ship_secondaries
 				rear_1_custom_slot = ship_heavy_battery_3
-				rear_2_custom_slot = ship_anti_air
 			}
 		}
 		
@@ -1992,7 +1987,6 @@ JAP_naval_carrier_light = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_secondaries_slot = ship_secondaries
-				front_1_custom_slot = ship_anti_air
 			}
 		}
 		

@@ -114,7 +114,7 @@ ideas = {
 	
 	hidden_ideas = { }
 	
-	country {
+	country = {
 	# STARTING
 	    SER_podgoricka_skupstina = {
 			

@@ -1,8 +1,9 @@
 
 state={
 	id=613
-	name="STATE_613" # Shanghai
-	manpower = 17305100
+	name="STATE_613" # Suzhou
+	manpower = 19683235
+
 	
 	state_category = c6
 	
@@ -18,17 +19,30 @@ state={
 			dockyard = 1
 
 		}
-		victory_points = {
+		victory_points = { #Nanjing
 			11913 20 
 		}
 
-		victory_points = {
-			10076 3
+		victory_points = { #Suzhou
+			12052 12
 		}
 
-		1938.10.25 = {
-			controller = JAP
+		victory_points = { #Wuxi
+			10076 9
 		}
+
+		victory_points = { #Nantong
+			4091 10 
+		}
+
+		victory_points = { #Changzhou
+			1089 7 
+		}
+
+		victory_points = { #Zhenjiang
+			11982 1 
+		}
+
 	}
 
 	provinces={

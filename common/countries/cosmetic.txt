@@ -680,3 +680,8 @@ MEX_REFORMED = {
 	color = rgb { 82 113 90 }
 	color_ui = rgb { 82 113 90 }
 }
+
+XSM_AMD = {
+	color = rgb { 80 115 45}
+	color_ui = rgb { 222 247 198 }
+}

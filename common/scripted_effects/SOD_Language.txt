@@ -1,25 +1,68 @@
 rename_chinese_states = {
-	619 = { #Kashgar
-		set_state_name = state_619_wade_giles
+##ZHEJIANG###
+	596 ={
+		set_state_name = state_596_wade_giles
 	}
-	916 = { #Aksu
-		set_state_name = state_916_wade_giles
+
+	set_province_name = { #Ningbo
+		id = 9947
+		name = vp_9947_wade_giles
 	}
-	923 = { #Ili
-		set_state_name = state_923_wade_giles
+
+	set_province_name = { #Hangzhou
+		id = 7191
+		name = vp_7191_wade_giles
 	}
-	617 = { #Dihua
-		set_state_name = state_617_wade_giles
+
+	set_province_name = {
+		id = 1055
+		name = vp_1055_wade_giles
 	}
-	924 = { #Tacheng
-		set_state_name = state_924_wade_giles
+
+	set_province_name = {
+		id = 13446
+		name = vp_13446_wade_giles
 	}
-	618 = { #Altay
-		set_state_name = state_618_wade_giles
+
+	set_province_name = {
+		id = 7120
+		name = vp_7120_wade_giles
 	}
-	921 = { #Turpan
-		set_state_name = state_921_wade_giles
+
+	set_province_name = {
+		id = 1096
+		name = vp_1096_wade_giles
 	}
+
+	set_province_name = {
+		id = 11920
+		name = vp_11920_wade_giles
+	}
+
+	set_province_name = {
+		id = 7174
+		name = vp_7174_wade_giles
+	}
+
+	set_province_name = {
+		id = 1168
+		name = vp_1168_wade_giles
+	}
+
+	set_province_name = {
+		id = 11947
+		name = vp_11947_wade_giles
+	}
+
+##Fujian###
+	595 ={
+		set_state_name = state_595_wade_giles
+	}
+
+	962 ={
+		set_state_name = state_962_wade_giles
+	}
+
 }
 
 rename_chinese_states_postal = {}

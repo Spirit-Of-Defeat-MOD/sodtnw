@@ -1,12 +1,14 @@
 on_actions = {
 	
-	on_startup = { 
-		effect = {
-			every_country = {
-				load_oob = "Militia"
-			}
-		}	
-	}
+	#on_startup = { 
+	#	effect = {
+	#		every_country = {
+	#			load_oob = "Militia"
+	#		}
+	#	}	
+	#}
+	
+
 	
 	#on_startup = { 
 	#	effect = {
@@ -94,6 +96,21 @@ on_actions = {
 			#SIA = { country_event = siam.1 }
 
 		}	
+	}
+	
+	#Qinghai to Amdo
+	on_puppet = { ##ROOT is the nation being puppeted, FROM is the overlord.###
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = XSM
+						is_subject_of = TIB
+						}
+					 }
+				set_cosmetic_tag = XSM_AMD
+			}
+		}
 	}
 
 }

@@ -1,13 +1,28 @@
 ﻿l_english:
 
 ##Xinjiang###
-state_619_wade_giles:0 "K'ashih"
-state_916_wade_giles:0 "Ako-su"
-state_923_wade_giles:0 "I-li"
-state_617_wade_giles:0 "Ti-hua"
-state_924_wade_giles:0 "T'a-ch'eng"
-state_618_wade_giles:0 "Ale-t'ai"
-state_921_wade_giles:0 "T'ulu-fan"
+state_619_wade_giles:0 "Kashih"
+state_916_wade_giles:0 "Akosu"
+state_923_wade_giles:0 "Ili"
+state_617_wade_giles:0 "Tihua"
+state_924_wade_giles:0 "Tacheng"
+state_618_wade_giles:0 "Aletai"
+state_921_wade_giles:0 "Tulufan"
 
-state_619_postal:0 "Kashkar"
-state_916_postal:0 "Akesu"
+
+##Zhejiang###
+state_596_wade_giles:0 "Chechiang"
+vp_9947_wade_giles:0 "Ningpo"
+vp_7191_wade_giles:0 "Hangchou"
+vp_1055_wade_giles:0 "Wenchou"
+vp_13446_wade_giles:0 "Chiahsing"
+vp_7120_wade_giles:0 "Huchou"
+vp_1096_wade_giles:0 "Shaohsing"
+vp_11920_wade_giles:0 "Chinhua"
+vp_7174_wade_giles:0 "Ch'üchou"
+vp_1168_wade_giles:0 "T'aichou"
+vp_11947_wade_giles:0 "Lishui"
+
+##Fujian###
+state_595_wade_giles:0 "North Fuchien"
+state_962_wade_giles:0 "South Fuchien"

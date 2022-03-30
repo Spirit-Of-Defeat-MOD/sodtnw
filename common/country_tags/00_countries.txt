@@ -1,14 +1,14 @@
 #Vanilla
-GER	= "countries/Germany.txt"
-ENG = "countries/United Kingdom.txt"
-SOV = "countries/Soviet Union.txt"
-SWE	= "countries/Sweden.txt"
-FRA	= "countries/France.txt"
-LUX	= "countries/Luxemburg.txt"
-BEL	= "countries/Belgium.txt"
-HOL	= "countries/Holland.txt"
-CZE	= "countries/Czechoslovakia.txt"
-POL	= "countries/Poland.txt"
+GER	= "countries/WestEurope.txt"
+ENG = "countries/WestEurope.txt"
+SOV = "countries/EastEurope.txt"
+SWE	= "countries/WestEurope.txt"
+FRA	= "countries/WestEurope.txt"
+LUX	= "countries/WestEurope.txt"
+BEL	= "countries/WestEurope.txt"
+HOL	= "countries/WestEurope.txt"
+CZE	= "countries/EastEurope.txt"
+POL	= "countries/EastEurope.txt"
 AUS	= "countries/Austria.txt"
 LIT	= "countries/Lithuania.txt"
 EST	= "countries/Estonia.txt"
@@ -264,14 +264,14 @@ TUA = "countries/African.txt" #Kel Ahaggar
 
 
 ##Europe
-CHE = "countries/WestEurope.txt" #Chetniks
-DAN = "countries/WestEurope.txt" #Danzig
-HRZ = "countries/WestEurope.txt" #Second Bosnia
+CHE = "countries/EastEurope.txt" #Chetniks
+DAN = "countries/EastEurope.txt" #Danzig
+HRZ = "countries/EastEurope.txt" #Second Bosnia
 ITM = "countries/WestEurope.txt" #Italian Military
 ITS = "countries/WestEurope.txt" #Italian Socialists
-LAJ = "countries/WestEurope.txt" #Lajtabánság
-MEM = "countries/WestEurope.txt" #Memel
-TRA = "countries/WestEurope.txt" #Translyvania
+LAJ = "countries/EastEurope.txt" #Lajtabánság
+MEM = "countries/EastEurope.txt" #Memel
+TRA = "countries/EastEurope.txt" #Translyvania
 
 #Middle East
 ASR = "countries/MiddleEast.txt" #Asir
@@ -326,3 +326,5 @@ SUI = "countries/Asian.txt" #Suiyan Province - will have a mongol cosmetic tag
 ZHE = "countries/Asian.txt" #Zhejiang Province
 ZHI = "countries/Asian.txt" #Zhili Province aka Hebei
 YNG = "countries/Asian.txt" #Yongning Chiefdom
+
+

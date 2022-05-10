@@ -1,0 +1,29 @@
+# Character database
+#
+# Historical characters are listed within the `characters` root property. E.g.
+# 
+# characters = {
+#     # characters go here
+# }
+#
+# The following definition is supported inside:
+#
+# character = {
+# }
+
+##Political Leaders
+characters={
+	AUS_wilhelm_miklas = {
+		name = "Wilhelm Miklas"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AUS/AUS_wilhelm_miklas.tga"
+			}
+		}
+		country_leader={
+			ideology=reactionary_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

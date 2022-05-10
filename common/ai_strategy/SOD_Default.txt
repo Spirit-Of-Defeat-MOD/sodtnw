@@ -1,0 +1,36 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+
+SOD_default_army_production_strategy = {
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = { type = role_ratio   id = area_defense   value = 0  }
+	ai_strategy = { type = role_ratio   id = suppression    value = 0  }
+	ai_strategy = { type = role_ratio   id = militia        value = 25 }
+	ai_strategy = { type = role_ratio   id = infantry       value = 75 }
+	ai_strategy = { type = role_ratio   id = anti_tank      value = 0  }
+	ai_strategy = { type = role_ratio   id = marine         value = 0  }
+	ai_strategy = { type = role_ratio   id = mountaineer    value = 0  }
+	ai_strategy = { type = role_ratio   id = armor          value = 0  } 
+	ai_strategy = { type = role_ratio   id = motorized      value = 0  }
+}
+
+
+
+
+
+

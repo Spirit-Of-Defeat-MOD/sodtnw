@@ -1,0 +1,41 @@
+collapse_decisions = {
+	collapse_mauritania = {
+
+		icon = generic_independence
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			AOF = {
+				release = ADR
+				release = BRK
+				release = TGN
+				release = MRT
+			}
+			
+			MRT = {set_cosmetic_tag = MRT_TRZ}
+			ADR = { transfer_state = 980 transfer_state = 786 }
+			BRK = { transfer_state = 976 }
+			TGN = { transfer_state = 819 transfer_state = 979 }
+		}
+		
+	}
+	
+
+}

@@ -1,0 +1,32 @@
+government_decisions = {
+	government_socialism = {
+
+		icon = generic_independence
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			set_cosmetic_tag = country_socialist_republic
+			set_country_flag = gov_socialist_state
+			fixed_random_seed = no
+			
+		}
+		
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+defined_text = {
+    name = GetSocialistGov
+    text = {
+        trigger = {
+            has_country_flag = gov_socialist_state
+        }
+        random_list = {
+            25 = { localization_key = GOV_PEOPLE_REPUBLIC }
+            25 = { localization_key = GOV_POPULAR_REPUBLIC }
+			25 = { localization_key = GOV_DEM_PEOPLE_REPUBLIC }
+            25 = { localization_key = GOV_PEOPLE_DEM_REPUBLIC }
+
+        }
+    }
+}

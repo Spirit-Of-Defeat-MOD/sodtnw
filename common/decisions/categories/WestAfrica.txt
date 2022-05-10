@@ -1,0 +1,25 @@
+##AOF collapse
+west_africa_independence_war_main = {
+	allowed = {
+		OR = {
+			original_tag = MLI
+			original_tag = DAH
+			original_tag = NGR
+			original_tag = AOF
+		}
+	}
+	
+	priority = 100
+}
+
+west_africa_independence_war_mauretania = {
+	allowed = {
+		OR = {
+			original_tag = MLI
+			original_tag = DAH
+			original_tag = NGR
+		}
+	}
+	
+	priority = 90
+}

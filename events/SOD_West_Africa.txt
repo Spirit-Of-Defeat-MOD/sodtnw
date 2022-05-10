@@ -1,0 +1,187 @@
+###########################
+# Mali Events
+###########################
+
+add_namespace = mali
+add_namespace = mauritania
+
+country_event = { #Maures
+	id = mauritania.1
+	title = mauritania.1.t	# Freedom for MRT
+	desc = mauritania.1.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #puppet
+		name = mauritania.1.a
+		ai_chance = {
+			base = 100
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = ADR }
+			ADR = { transfer_state = PREV }
+		}
+		ROOT = { puppet = ADR }
+	}
+	
+	option = { #free properly
+		name = mauritania.1.b
+		ai_chance = {
+			base = 0
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = ADR }
+			ADR = { transfer_state = PREV }
+		}
+	}
+	
+}
+
+country_event = { #Maures
+	id = mauritania.2
+	title = mauritania.2.t	# Freedom for MRT
+	desc = mauritania.2.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #puppet
+		name = mauritania.2.a
+		ai_chance = {
+			base = 100
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = BRK }
+			BRK = { transfer_state = PREV }
+		}
+		ROOT = { puppet = BRK }
+	}
+	
+	option = { #free properly
+		name = mauritania.2.b
+		ai_chance = {
+			base = 0
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = BRK }
+			BRK = { transfer_state = PREV }
+		}
+	}
+	
+}
+
+country_event = { #Maures
+	id = mauritania.3
+	title = mauritania.3.t	# Freedom for MRT
+	desc = mauritania.3.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #puppet
+		name = mauritania.3.a
+		ai_chance = {
+			base = 100
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = TGN }
+			TGN = { transfer_state = PREV }
+		}
+		ROOT = { puppet = TGN }
+	}
+	
+	option = { #free properly
+		name = mauritania.3.b
+		ai_chance = {
+			base = 0
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = TGN }
+			TGN = { transfer_state = PREV }
+		}
+	}
+	
+}
+
+country_event = { #Maures
+	id = mauritania.4
+	title = mauritania.4.t	# Freedom for MRT
+	desc = mauritania.4.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #puppet
+		name = mauritania.4.a
+		ai_chance = {
+			base = 100
+		}
+		
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = MRT }
+			MRT = { transfer_state = PREV }
+		}
+		hidden_effect = {
+			MRT = { set_cosmetic_tag = MRT_TRZ }
+		}
+		ROOT = { puppet = MRT }
+	}
+	
+	option = { #free properly
+		name = mauritania.4.b
+		ai_chance = {
+			base = 0
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = MRT }
+			MRT = { transfer_state = PREV }
+		}
+		
+		hidden_effect = {
+			MRT = { set_cosmetic_tag = MRT_TRZ }
+		}
+	}
+	
+}
+
+country_event = { #Maures
+	id = mauritania.5
+	title = mauritania.45t	# Freedom for MRT
+	desc = mauritania.5.d	#
+	picture = GFX_report_event_african_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #puppet
+		name = mauritania.5.a
+		ai_chance = {
+			base = 100
+		}
+		
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = MRT }
+			MRT = { transfer_state = PREV }
+		}
+		hidden_effect = {
+			MRT = { set_cosmetic_tag = MRT_SUL }
+		}
+		ROOT = { puppet = MRT }
+	}
+	
+	option = { #free properly
+		name = mauritania.5.b
+		ai_chance = {
+			base = 0
+		}
+		every_state = { 
+			limit = { is_controlled_by = ROOT  is_core_of = MRT }
+			MRT = { transfer_state = PREV }
+		}
+		
+		hidden_effect = {
+			MRT = { set_cosmetic_tag = MRT_KNG }
+		}
+	}
+	
+}

@@ -2,9 +2,11 @@ division_template = {
 	name = "Air Regulars"
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
 	}
 }
 
@@ -28,6 +30,32 @@ units = {
 	
 	division = {
 		name = "Gress Division"
+		location = 13277
+		division_template = "Air Regulars"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "2. Tuareg Division"
+		location = 10917
+		division_template = "Air Regulars"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "2. Sultans Division"
+		location = 13276
+		division_template = "Air Regulars"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	division = {
+		name = "2. Gress Division"
 		location = 13277
 		division_template = "Air Regulars"
 		start_experience_factor = 0.5

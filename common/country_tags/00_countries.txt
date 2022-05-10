@@ -253,6 +253,7 @@ PNR = "countries/SouthAmerican.txt" #Constituionalists
 VIL = "countries/SouthAmerican.txt"	#Villa
 
 ##Africa
+
 AEF = "countries/African.txt" #French Equitorial Africa
 AJU = "countries/African.txt" #Ajuran(Kelafo)
 AOF = "countries/African.txt" #French West Africa
@@ -262,6 +263,12 @@ IEA = "countries/WestEurope.txt" #Italian East Africa
 TRP = "countries/African.txt"  #Tripoli
 TUA = "countries/African.txt" #Kel Ahaggar
 
+#Mauritania
+ADR = "countries/African.txt" #Adrar
+BRK = "countries/African.txt" #Brakna
+TGN = "countries/African.txt" #Taganit
+
+#Mali
 
 ##Europe
 CHE = "countries/EastEurope.txt" #Chetniks

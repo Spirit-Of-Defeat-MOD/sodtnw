@@ -1,0 +1,23 @@
+
+state={
+	id=976
+	name="STATE_976" # Mauritania
+	manpower = 93225
+	
+	state_category = c2
+
+	history={
+		owner = AOF
+		#add_core_of = AOF
+		add_core_of = MRT
+		add_core_of = BRK
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		8058 13704 13705 13706 13707
+	}
+}

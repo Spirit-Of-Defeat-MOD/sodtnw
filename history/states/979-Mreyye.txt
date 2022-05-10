@@ -1,23 +1,24 @@
 
 state={
-	id=819
-	name="STATE_819"
+	id=979
+	name="STATE_979" # Mauritania
+	manpower = 1313
+	
+	state_category = c0
 
 	history={
 		owner = AOF
 		#add_core_of = AOF
 		add_core_of = MRT
+		add_core_of = ADR
 		buildings = {
 			infrastructure = 0
-
 		}
 
 	}
 
 	provinces={
-		1962 10771 
+		13720 13268
 	}
-	manpower=50
-	buildings_max_level_factor=1.000
-	state_category=c0
+	impassable = yes
 }

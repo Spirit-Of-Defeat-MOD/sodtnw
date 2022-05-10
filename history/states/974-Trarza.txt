@@ -1,0 +1,25 @@
+
+state={
+	id=974
+	name="STATE_974" # Mauritania
+	manpower = 123569
+	
+	state_category = c3
+
+	history={
+		owner = AOF
+		victory_points = {
+			5034 1
+		}
+		#add_core_of = AOF
+		add_core_of = MRT
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		5034 13693 13694 13696 13698 13699
+	}
+}

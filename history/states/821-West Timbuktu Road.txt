@@ -18,4 +18,5 @@ state={
 	manpower=50
 	buildings_max_level_factor=1.000
 	state_category=c0
+	impassable=yes
 }

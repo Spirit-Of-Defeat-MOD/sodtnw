@@ -1,0 +1,25 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = AOF
+		#add_core_of = AOF
+		add_core_of = MRT
+		add_core_of = TGN
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		 1897  13708
+	}
+	manpower=71430
+	buildings_max_level_factor=1.000
+	state_category=c0
+	impassable = yes
+}

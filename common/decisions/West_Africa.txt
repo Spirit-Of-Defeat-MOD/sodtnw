@@ -1,0 +1,185 @@
+west_africa_independence_war_main = {
+
+	AOF_Collapse_War = {
+		icon = generic_ignite_civil_war
+
+		available = {
+			NOT = { country_exists = AOF }
+		}
+
+		days_mission_timeout = 250
+		fire_only_once = yes
+
+		priority = 100
+
+		cancel_trigger = {
+			NOT = {
+				has_war_with = AOF
+			}
+		}
+		
+		visible = {
+			has_war_with = AOF
+		}
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout AOF_Collapse_War target: [From.GetName]"
+			
+		}
+	}
+	
+}
+
+
+
+west_africa_independence_war_mauretania = {
+	
+	free_adrar = {
+
+		icon = generic_independence
+
+		available = {
+			AND = {
+				controls_state = 978
+				ADR = { exists = no }
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		days_remove = 15
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_war_with = AOF
+			NOT = { ADR = { exists = yes } }
+		}
+		remove_effect = {
+			country_event = { id = mauritania.1 }
+		}
+		
+	}
+	
+	free_brakna = {
+
+		icon = generic_independence
+
+		available = {
+			AND = {
+				controls_state = 975
+				BRK = { exists = no }
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		days_remove = 15
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_war_with = AOF
+			NOT = { BRK = { exists = yes } }
+		}
+		remove_effect = {
+			country_event = { id = mauritania.2 }
+		}
+		
+	}
+	
+	free_tagant = {
+
+		icon = generic_independence
+
+		available = {
+			AND = {
+				controls_state = 977
+				TGN = { exists = no }
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		days_remove = 15
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_war_with = AOF
+			NOT = { TGN = { exists = yes } }
+		}
+		remove_effect = {
+			country_event = { id = mauritania.3 }
+		}
+		
+	}
+	
+	free_trarza = {
+
+		icon = generic_independence
+
+		available = {
+			AND = {
+				controls_state = 974
+				MRT = { exists = no }
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		days_remove = 30
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_war_with = AOF
+			NOT = { MRT = { exists = yes } }
+		}
+		remove_effect = {
+			country_event = { id = mauritania.4 }
+		}
+		
+		
+	}
+	
+	free_mauritania = {
+
+		icon = generic_independence
+
+		available = {
+			AND = {
+				controls_state = 974
+				controls_state = 975
+				controls_state = 977
+				controls_state = 978
+				MRT = { exists = no }
+			}
+			
+			NOT = { has_country_flag = mauritania_conquered }
+		}
+
+		cost = 0
+		fire_only_once = yes
+		days_remove = 30
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_war_with = AOF
+			NOT = { MRT = { exists = yes } }
+		}
+		remove_effect = {
+			country_event = { id = mauritania.5 }
+		}
+		
+	}
+	
+
+
+}

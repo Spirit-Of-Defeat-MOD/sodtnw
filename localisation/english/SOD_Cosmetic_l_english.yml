@@ -1,0 +1,6 @@
+﻿l_english: 
+ #PartieS
+ GOV_PEOPLE_REPUBLIC:0 "People's Republic of [Root.GetName]"
+ GOV_POPULAR_REPUBLIC:0 "People's Republic of [Root.GetName]"
+ GOV_DEM_PEOPLE_REPUBLIC:0 "Democratic People's Republic of [Root.GetName]"
+ GOV_PEOPLE_DEM_REPUBLIC:0 "People's Democratic Republic of [Root.GetName]"

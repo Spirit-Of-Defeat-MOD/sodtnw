@@ -1,12 +1,12 @@
 on_actions = {
 	
-	#on_startup = { 
-	#	effect = {
-	#		every_country = {
-	#			load_oob = "Militia"
-	#		}
-	#	}	
-	#}
+	on_startup = { 
+		effect = {
+			every_country = {
+				give_AI_templates = yes
+			}
+		}	
+	}
 	
 
 	

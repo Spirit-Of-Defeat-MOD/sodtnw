@@ -1,6 +1,6 @@
 ﻿capital = 959
 
-oob = "MUL"
+oob = ""
 
 # Starting tech
 set_technology = {

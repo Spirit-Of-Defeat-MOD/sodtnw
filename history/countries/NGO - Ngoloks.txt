@@ -1,6 +1,6 @@
 ﻿capital = 950
 
-oob = "NGO"
+oob = ""
 
 # Starting tech
 set_technology = {

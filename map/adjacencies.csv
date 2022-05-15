@@ -453,11 +453,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13657;4096;impassable;-1;-1;-1;-1;-1;;Taiwan
 13657;9955;impassable;-1;-1;-1;-1;-1;;Taiwan
 7214;9955;impassable;-1;-1;-1;-1;-1;;Taiwan
-13708;13707;impassable;-1;-1;-1;-1;-1;;Hodh
-13708;8058;impassable;-1;-1;-1;-1;-1;;Hodh
-13708;10915;impassable;-1;-1;-1;-1;-1;;Hodh
-13708;10812;impassable;-1;-1;-1;-1;-1;;Hodh
-13708;10814;impassable;-1;-1;-1;-1;-1;;Hodh
 13737;13738;impassable;-1;-1;-1;-1;-1;;Mali
 13737;13739;impassable;-1;-1;-1;-1;-1;;Mali
 13737;13736;impassable;-1;-1;-1;-1;-1;;Mali
@@ -473,6 +468,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13754;13751;impassable;-1;-1;-1;-1;-1;;Massina
 13754;13752;impassable;-1;-1;-1;-1;-1;;Massina
 13754;13753;impassable;-1;-1;-1;-1;-1;;Massina
-13754;13754;impassable;-1;-1;-1;-1;-1;;Massina
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -20,9 +20,6 @@ government_decisions = {
 		}
 		
 		complete_effect = {
-			set_cosmetic_tag = country_socialist_republic
-			set_country_flag = gov_socialist_state
-			fixed_random_seed = no
 			
 		}
 		

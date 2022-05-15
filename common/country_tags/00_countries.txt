@@ -264,11 +264,21 @@ TRP = "countries/African.txt"  #Tripoli
 TUA = "countries/African.txt" #Kel Ahaggar
 
 #Mauritania
-ADR = "countries/African.txt" #Adrar
-BRK = "countries/African.txt" #Brakna
-TGN = "countries/African.txt" #Taganit
+ADR = "countries/African.txt" #Emirate of Adrar
+BRK = "countries/African.txt" #Principality of Brakna
+TGN = "countries/African.txt" #Confederation of the Taganit
 
 #Mali
+KKH = "countries/African.txt" #Khassonké Kingdom of Khasso
+KAA = "countries/African.txt" #Bamana Kingdom of Kaarta
+SGU = "countries/African.txt" #Bamana State of Segu
+KND = "countries/African.txt" #Mandinka Kingdom of Kenedugu
+MSA	= "countries/African.txt" #Fuble State of Masina
+DOG	= "countries/African.txt" #Confederation of the Dogon
+KAT = "countries/African.txt" #Kel Ataram (Western Iwillimmidan) 
+KAD = "countries/African.txt" #Kel Adagh
+
+
 
 ##Europe
 CHE = "countries/EastEurope.txt" #Chetniks

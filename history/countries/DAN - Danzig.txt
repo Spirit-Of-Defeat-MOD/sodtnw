@@ -1,6 +1,6 @@
 ﻿capital = 915
 
-oob = "DAN"
+oob = ""
 
 set_research_slots = 3
 

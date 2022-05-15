@@ -37,5 +37,64 @@ collapse_decisions = {
 		
 	}
 	
+	collapse_mali = {
 
+		icon = generic_independence
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			997 = { add_core_of = KKH }
+			556 = { add_core_of = KAA }
+			994 = { add_core_of = SGU }
+			995 = { add_core_of = SGU }
+			993 = { add_core_of = KND }
+			989 = { add_core_of = MSA }
+			991 = { add_core_of = MSA }
+			992 = { add_core_of = DOG }
+			984 = { add_core_of = KAD }
+			918 = { add_core_of = KAD }
+			986 = { add_core_of = KAD }
+			983 = { add_core_of = KAD }
+			821 = { add_core_of = KAD }
+			818 = { add_core_of = KAD }
+			983 = { add_core_of = KAD }
+			981 = { add_core_of = KAD }
+			982 = { add_core_of = KAD }
+			985 = { add_core_of = KAD }
+			987 = { add_core_of = KAT }
+			988 = { add_core_of = KAT }
+			782 = { add_core_of = KAT }
+			
+			MLI = {set_cosmetic_tag = MLI_REP}
+			MLI = {release = KKH}
+			MLI = {release = KAA}
+			MLI = {release = SGU}
+			MLI = {release = KND}
+			MLI = {release = MSA}
+			MLI = {release = DOG}
+			AOF = {release = KAD}
+			AOF = {release = KAT}
+			KAT = { transfer_state = 988 }
+
+		}
+		
+	}
+	
 }

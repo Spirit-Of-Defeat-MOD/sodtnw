@@ -6,27 +6,27 @@ MRT_DEF:0 "the Mauritania"
 MRT_ADJ:0 "Mauritanian"
 
 MRT_TRZ:0 "Emirate of Trarza"
-MRT_TRZ_DEF:0 "the Emirate of Trarza"
+MRT_TRZ_DEF:0 "the Hassaniya Emirate of Trarza"
 MRT_TRZ_ADJ:0 "Mauritanian"
 
 MRT_SUL:0 "Sultanate of Mauritania"
-MRT_SUL_DEF:0 "the Sultanate of Mauritania"
+MRT_SUL_DEF:0 "the Hassaniya Sultanate of Mauritania"
 MRT_SUL_ADJ:0 "Mauritanian"
 
 MRT_KNG:0 "Kingdom of Mauritania"
-MRT_KNG_DEF:0 "the Kingdom of Mauritania"
+MRT_KNG_DEF:0 "the Hassaniya Kingdom of Mauritania"
 MRT_KNG_ADJ:0 "Mauritanian"
 
 ADR:0 "Emirate of Adrar"
-ADR_DEF:0 "the Emirate of Adrar"
+ADR_DEF:0 "the Hassaniya Emirate of Adrar"
 ADR_ADJ:0 "Adrari"
 
-TGN:0 "Emirate of Tagant"
-TGN_DEF:0 "the Emirate of Tagant"
+TGN:0 "Confederation of the Taganit"
+TGN_DEF:0 "the Hassaniya Confederation of the Taganit"
 TGN_ADJ:0 "Taganit"
 
-BRK:0 "Emirate of Brakna"
-BRK_DEF:0 "the Emirate of Brakna"
+BRK:0 "Principality of Brakna"
+BRK_DEF:0 "the Hassaniya Principality of Brakna"
 BRK_ADJ:0 "Braknak"
 
 #Country Names

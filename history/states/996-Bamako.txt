@@ -1,0 +1,22 @@
+state={
+	id=996 
+	name="STATE_996" # Mali
+	manpower = 8150
+	
+	state_category = c3
+
+	history={
+		owner = MLI
+		#add_core_of = AOF
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		13772 13773 13774 13775 13776 10829 12751 12838
+	}
+
+}

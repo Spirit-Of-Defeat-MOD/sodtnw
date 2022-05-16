@@ -1,9 +1,9 @@
 state={
 	id=988
 	name="STATE_988" # Mali
-	manpower = 8150
+	manpower = 104357
 	
-	state_category = c1
+	state_category = c2
 
 	history={
 		owner = MLI

@@ -2,7 +2,7 @@
 state={
 	id=981
 	name="STATE_981" # Mauritania
-	manpower = 8150
+	manpower = 4445
 	
 	state_category = c1
 

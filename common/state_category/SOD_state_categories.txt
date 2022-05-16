@@ -1,48 +1,58 @@
 state_categories = {
 
+	c12 = {
+		local_building_slots = 12 # megapolis
+		color = { 0 200 220 }
+	}
+	
+	c11 = {
+		local_building_slots = 11 # mtro-mega 
+		color = { 0 160 175 }
+	}
+	
 	c10 = {
-		local_building_slots = 10 #300+ #tis an average pop per province
-		color = { 248 8 0 }
+		local_building_slots = 10 # metropolis
+		color = { 0 100 110 }
 	}
 	c9 = {
-		local_building_slots = 9 #151-300
-		color = { 248 64 0 }
+		local_building_slots = 9 # big city
+		color = { 0 128 0 }
 	}
 	c8 = {
-		local_building_slots = 8 #101-150
-		color = { 248 136 0 }
+		local_building_slots = 8 # large city
+		color = { 0 170 0 }
 	}
 	c7 = {
-		local_building_slots = 7 #81-100
-		color = { 248 216 0 }
+		local_building_slots = 7 # med city
+		color = { 0 255 0 }
 	}
 	c6 = {
-		local_building_slots = 6 #61-80
-		color = { 208 248 0 }
+		local_building_slots = 6 # city
+		color = { 160 255 0 }
 	}
 	c5 = {
-		local_building_slots = 5 #41-60
-		color = { 64 248 0 }
+		local_building_slots = 5 #large town
+		color = { 255 255 0 }
 	}
 	c4 = {
-		local_building_slots = 4 #31-40
-		color = { 0 248 96 }
+		local_building_slots = 4 # town
+		color = { 200 130 0 }
 	}
 	c3 = {
-		local_building_slots = 3 #21-30
-		color = { 0 248 208 }
+		local_building_slots = 3 # small town
+		color = { 200 50 0 }
 	}
 	c2 = {
-		local_building_slots = 2 #11-20
-		color = { 0 152 248 }
+		local_building_slots = 2 # rural
+		color = { 100 30 30 }
 	}
 	c1 = {
-		local_building_slots = 1  #6-10
-		color = { 0 40 248 }
+		local_building_slots = 1  #6-10 pastoral
+		color = { 100 100 100 }
 	}
 	c0 = {  #1-5k avg
 		local_building_slots = 0
-		color = { 80 80 80 }
+		color = { 40 40 40 }
 	}
 	wasteland = {
 		local_building_slots = 0
@@ -57,3 +67,20 @@ state_categories = {
 		color = { 40 40 40 }
 	}
 }
+
+
+###TOWN THRESHOLDS 1-100
+# Small 1-10
+# Medium 11-50
+# Large 51-100
+#
+#
+#
+
+###CITY THRESHOLDS 1-100
+# Small 101-300
+# Medium 301-500
+# Large 501-800
+# Big 801-1 mill
+#
+#

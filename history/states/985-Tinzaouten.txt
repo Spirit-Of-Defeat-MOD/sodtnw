@@ -2,9 +2,9 @@
 state={
 	id=985
 	name="STATE_985" # Mali
-	manpower = 8150
+	manpower = 563
 	
-	state_category = c0
+	state_category = c1
 
 	history={
 		owner = AOF

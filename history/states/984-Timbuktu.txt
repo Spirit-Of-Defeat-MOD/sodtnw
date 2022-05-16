@@ -2,7 +2,7 @@
 state={
 	id=984
 	name="STATE_984" # Mali
-	manpower = 8150
+	manpower = 101153
 	
 	state_category = c2
 

@@ -2,9 +2,9 @@
 state={
 	id=556
 	name="STATE_556" # Mali (previously French West Africa)
-	manpower = 3324782
+	manpower = 300927
 	
-	state_category = c3
+	state_category = c2
 
 	history={
 		owner = MLI

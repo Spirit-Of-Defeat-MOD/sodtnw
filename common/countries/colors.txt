@@ -1218,3 +1218,29 @@ KAT = {
 	color = rgb { 87 153 71 }
 	color_ui = rgb { 87 153 71 }
 }
+
+NGR = {
+	color = rgb { 166 87 8 }
+	color_ui = rgb { 166 87 8 }
+}
+DMG = {
+	color = rgb { 128 107 174 }
+	color_ui = rgb { 128 107 174 }
+}
+DOS = {
+	color = rgb { 95 34 16 }
+	color_ui = rgb { 95 34 16 }
+}
+AGA = {
+	color = rgb { 108 147 46 }
+	color_ui = rgb { 108 147 46 }
+}
+KDI = {
+	color = rgb { 209 194 33 }
+	color_ui = rgb { 209 194 33 }
+}
+
+MRD = {
+	color = rgb { 255 148 112 }
+	color_ui = rgb { 255 148 112 }
+}

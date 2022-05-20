@@ -4,7 +4,7 @@ state={
 	name="STATE_979" # Mauritania
 	manpower = 1313
 	
-	state_category = c0
+	state_category = wasteland
 
 	history={
 		owner = AOF

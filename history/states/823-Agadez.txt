@@ -2,12 +2,12 @@ state={
 	id=823
 	name="STATE_823"
 	provinces={
-		10917 13276 13277 
+		4913 10917 13276 13277 13784 13785 13786 13787 13788 13789 13790 13791 13792
 	}
 	
 	history={
-		owner = NGR
-		#add_core_of = AOF
+		owner = AGA
+		add_core_of = AGA
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
@@ -17,7 +17,7 @@ state={
 	}
 	
 	
-	manpower=456356
+	manpower=24489
 	buildings_max_level_factor=1.000
 	state_category=c1
 }

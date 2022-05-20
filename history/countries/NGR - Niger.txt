@@ -1,6 +1,4 @@
-﻿capital = 823
-
-oob = "NGR_1936"
+﻿capital = 781
 
 # Starting tech
 set_technology = {
@@ -19,12 +17,12 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Umaru Agg-Ibrahim"
-	desc = "DESC_AGOLI_AGBO"
-	picture = "Portrait_Umaru_Agg_Ibrahim.png"
-	ideology = utilitarian_despot_subtype
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Umaru Agg-Ibrahim"
+#	desc = "DESC_AGOLI_AGBO"
+#	picture = "Portrait_Umaru_Agg_Ibrahim.png"
+#	ideology = utilitarian_despot_subtype
+#	traits = {
+#		#
+#	}
+#}

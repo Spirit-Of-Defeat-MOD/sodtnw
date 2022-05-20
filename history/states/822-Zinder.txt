@@ -2,7 +2,7 @@ state={
 	id=822
 	name="STATE_822"
 	provinces={
-		8028 10758 10780 10805 
+		10758 13806 13807
 	}
 	history={
 		owner = AOF
@@ -16,7 +16,7 @@ state={
 	}
 	
 	
-	manpower=500000
+	manpower=314533
 	buildings_max_level_factor=1.000
 	state_category=c1
 }

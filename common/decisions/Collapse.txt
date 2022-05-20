@@ -97,4 +97,52 @@ collapse_decisions = {
 		
 	}
 	
+	collapse_niger = {
+
+		icon = generic_independence
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			825 = { add_core_of = AGA }
+			999 = { add_core_of = AGA }
+			832 = { add_core_of = AGA }
+			824 = { add_core_of = AGA }
+			515 = { add_core_of = AGA }
+			1002 = { add_core_of = MRD }
+			1003 = { add_core_of = DOS }
+			822 = { add_core_of = DMG }
+			1000 = { add_core_of = DMG }
+			1001 = { add_core_of = DMG }
+			1002 = { add_core_of = DMG }
+			998 = { add_core_of = KDI }
+			1004 = { add_core_of = KDI }
+			1005 = { add_core_of = KDI }
+			
+			AGA = { transfer_state = 825 transfer_state = 999 transfer_state = 832 transfer_state = 824 transfer_state = 515 }
+			AOF = {release = MRD}
+			AOF = {release = DOS}
+			AOF = {release = DMG}
+			AOF = {release = KDI}
+			AOF = {release = NGR}
+		}
+		
+	}
+	
 }

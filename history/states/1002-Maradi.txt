@@ -1,0 +1,22 @@
+state={
+	id=1002
+	name="STATE_1002"
+	provinces={
+		13801 13802 13803
+	}
+	history={
+		owner = AOF
+		#add_core_of = AOF
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	
+	manpower=413410
+	buildings_max_level_factor=1.000
+	state_category=c5
+}

@@ -269,14 +269,21 @@ BRK = "countries/African.txt" #Principality of Brakna
 TGN = "countries/African.txt" #Confederation of the Taganit
 
 #Mali
-KKH = "countries/African.txt" #Khassonké Kingdom of Khasso
+DOG	= "countries/African.txt" #Confederation of the Dogon
 KAA = "countries/African.txt" #Bamana Kingdom of Kaarta
-SGU = "countries/African.txt" #Bamana State of Segu
+KAD = "countries/African.txt" #Kel Adagh
+KAT = "countries/African.txt" #Kel Ataram (Western Iwillimmidan) 
+KKH = "countries/African.txt" #Khassonké Kingdom of Khasso
 KND = "countries/African.txt" #Mandinka Kingdom of Kenedugu
 MSA	= "countries/African.txt" #Fuble State of Masina
-DOG	= "countries/African.txt" #Confederation of the Dogon
-KAT = "countries/African.txt" #Kel Ataram (Western Iwillimmidan) 
-KAD = "countries/African.txt" #Kel Adagh
+SGU = "countries/African.txt" #Bamana State of Segu
+
+#Niger
+AGA = "countries/African.txt" #Berber Kingdom of Agadez
+DMG	= "countries/African.txt" #Sultanate of Damagaram
+DOS	= "countries/African.txt" #Dosso Kingdom
+KDI	= "countries/African.txt" #Kel Dinnik (Eastern Iwellemmedan)
+MRD = "countries/African.txt" #Hausa State of Maradi
 
 
 

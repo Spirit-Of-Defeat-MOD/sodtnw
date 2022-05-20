@@ -96,7 +96,7 @@ declare_war_on = {
 }
 
 declare_war_on = {
-	target = NGR
+	target = AGA
 	type = annex_everything
 }
 

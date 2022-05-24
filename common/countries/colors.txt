@@ -1244,3 +1244,16 @@ MRD = {
 	color = rgb { 255 148 112 }
 	color_ui = rgb { 255 148 112 }
 }
+CHA = {
+	color = rgb { 204 197 63 }
+	color_ui = rgb { 204 197 63 }
+}
+
+WAD = {
+	color = rgb { 131 101 85 }
+	color_ui = rgb { 131 101 85 }
+}
+BAG = {
+	color = rgb { 177 149 188 }
+	color_ui = rgb { 177 149 188 }
+}

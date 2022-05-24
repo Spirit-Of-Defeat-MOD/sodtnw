@@ -145,4 +145,42 @@ collapse_decisions = {
 		
 	}
 	
+	collapse_chad = {
+
+		icon = generic_independence
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			1015 = { add_core_of = BAG }
+			1014 = { add_core_of = BAG }
+			1009 = { add_core_of = WAD }
+			1010 = { add_core_of = WAD }
+			1012 = { add_core_of = WAD }
+			1013 = { add_core_of = WAD }
+			
+			
+			AEF = {release = BAG}
+			AEF = {release = WAD}
+			AEF = {release = CHA}
+		}
+		
+	}
+	
 }

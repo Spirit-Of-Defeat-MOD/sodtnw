@@ -1,0 +1,25 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+
+	history={
+		owner = AEF
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			2081 1
+		}
+
+	}
+
+	provinces={
+        2081 9152 13841
+	}
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c1
+}

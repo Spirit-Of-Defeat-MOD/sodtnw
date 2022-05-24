@@ -285,6 +285,10 @@ DOS	= "countries/African.txt" #Dosso Kingdom
 KDI	= "countries/African.txt" #Kel Dinnik (Eastern Iwellemmedan)
 MRD = "countries/African.txt" #Hausa State of Maradi
 
+#Chad
+BAG = "countries/African.txt" #Sultanate of Bagirmi
+WAD = "countries/African.txt" #Sultanate of Wadai
+
 
 
 ##Europe

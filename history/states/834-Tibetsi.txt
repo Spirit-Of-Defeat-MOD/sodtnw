@@ -1,0 +1,22 @@
+
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		owner = AEF
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5136 10893 13817 13818 13819 13820
+	}
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=c1
+}

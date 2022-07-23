@@ -2,8 +2,8 @@ state={
 	id=900
 	name="STATE_900"
 	provinces={
-		13344  7985
-		12866 13278
+		  7985
+		12866 10754 4962 
 	}
 	history={
 		owner = ITA

@@ -468,5 +468,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13754;13751;impassable;-1;-1;-1;-1;-1;;Massina
 13754;13752;impassable;-1;-1;-1;-1;-1;;Massina
 13754;13753;impassable;-1;-1;-1;-1;-1;;Massina
+13858;13857;impassable;-1;-1;-1;-1;-1;;Kufra
+13859;13857;impassable;-1;-1;-1;-1;-1;;Kufra
+13859;1057;impassable;-1;-1;-1;-1;-1;;Kufra
+13859;13862;impassable;-1;-1;-1;-1;-1;;Kufra
+13860;13862;impassable;-1;-1;-1;-1;-1;;Kufra
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

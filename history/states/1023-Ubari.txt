@@ -1,0 +1,21 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		10884 13278 13869 13870 13871 
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	manpower=13000
+	buildings_max_level_factor=1.000
+	state_category=c2
+}

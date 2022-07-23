@@ -1,0 +1,22 @@
+
+state={
+	id=1025
+	name="STATE_1025"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		13872 13873 13874 13875 13876
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

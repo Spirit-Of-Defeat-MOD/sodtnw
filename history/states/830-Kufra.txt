@@ -15,7 +15,7 @@ state={
 		}
 
 	}
-	manpower=50104
+	manpower=2497
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=c1
 }

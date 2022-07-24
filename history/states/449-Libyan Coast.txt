@@ -2,9 +2,9 @@
 state={
 	id=449
 	name="STATE_449" # El Agheila
-	manpower = 40431
+	manpower = 27924
 	
-	state_category = c4
+	state_category = c1
 
 	history={
 		owner = ITA

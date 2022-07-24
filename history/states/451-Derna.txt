@@ -2,9 +2,9 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
+	manpower = 17297
 	
-	state_category = wasteland
+	state_category = c1
 
 	history={
 		owner = ITA

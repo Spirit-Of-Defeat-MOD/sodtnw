@@ -18,7 +18,7 @@ state={
 		9980 7066  12009 13881 1174 
 		11940 4117 4176
 	}
-	manpower=20000
+	manpower=79415
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=c2
 }

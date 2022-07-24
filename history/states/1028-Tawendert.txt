@@ -1,20 +1,17 @@
 state={
-	id=816
-	name="STATE_816"
+	id=1028
+	name="STATE_1028"
 	provinces={
-		1967 4903 5035 5053 5095 10749 13888
+		13887
 	}
 	
 	history={
-		owner = TUA
+		owner = ALG
 		add_core_of = TUA
 		add_core_of = ALG
 		buildings = {
 			infrastructure = 0
 
-		}
-		victory_points = {
-			5053 10
 		}
 
 	}
@@ -22,4 +19,5 @@ state={
 	manpower=30000
 	buildings_max_level_factor=1.000
 	state_category=c0
+	impassable = yes
 }

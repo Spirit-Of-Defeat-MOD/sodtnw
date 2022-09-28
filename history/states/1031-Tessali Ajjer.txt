@@ -1,0 +1,24 @@
+
+state={
+	id=1031
+	name="STATE_1031"
+
+	history={
+		owner = TUA
+		add_core_of = TUA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		13896 13897
+	}
+	manpower=207733
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

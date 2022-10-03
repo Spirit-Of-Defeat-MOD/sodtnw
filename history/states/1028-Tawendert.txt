@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = ALG
+		owner = TUA
 		add_core_of = TUA
 		add_core_of = ALG
 		buildings = {

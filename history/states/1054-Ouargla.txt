@@ -1,0 +1,30 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			1901 2 #Ouargla
+		}
+		victory_points = {
+			1958 1 #El Oued
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1901 1958 13921 13922 13923 13924 13925 13926
+	}
+	manpower=199105
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=c2
+}

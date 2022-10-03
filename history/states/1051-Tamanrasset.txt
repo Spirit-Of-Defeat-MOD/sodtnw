@@ -1,0 +1,26 @@
+
+state={
+	id=1051
+	name="STATE_1051"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13903 2 
+		}
+
+	}
+
+	provinces={
+		1095 12849 13903 13904 13905 13906 13907 13908
+	}
+	manpower=47054
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=c1
+}

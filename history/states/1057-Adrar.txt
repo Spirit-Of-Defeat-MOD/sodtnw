@@ -1,0 +1,26 @@
+
+state={
+	id=1057
+	name="STATE_1057"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13934 1 #Adrar
+		}
+		
+	}
+
+	provinces={
+		12711 13930 13931 13932 13933 13934 13935
+	}
+	manpower=90700
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

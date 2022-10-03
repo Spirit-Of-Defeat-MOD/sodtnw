@@ -1,0 +1,21 @@
+state={
+	id=1058
+	name="STATE_1058"
+	impassable = yes
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		12842
+	}
+	manpower=22810
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

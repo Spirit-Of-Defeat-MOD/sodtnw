@@ -1,0 +1,24 @@
+
+state={
+	id=1061
+	name="STATE_1061"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		13944
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

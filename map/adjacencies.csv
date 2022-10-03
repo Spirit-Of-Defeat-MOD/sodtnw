@@ -473,5 +473,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13859;1057;impassable;-1;-1;-1;-1;-1;;Kufra
 13859;13862;impassable;-1;-1;-1;-1;-1;;Kufra
 13860;13862;impassable;-1;-1;-1;-1;-1;;Kufra
+13898;13734;impassable;-1;-1;-1;-1;-1;;Mali/Algeria Border
+13898;13736;impassable;-1;-1;-1;-1;-1;;Mali/Algeria Border
+1095;13904;impassable;-1;-1;-1;-1;-1;;Tamanrasset
+1095;13906;impassable;-1;-1;-1;-1;-1;;Tamanrasset
+1095;12849;impassable;-1;-1;-1;-1;-1;;Tamanrasset
+1095;13907;impassable;-1;-1;-1;-1;-1;;Tamanrasset
+13898;13733;impassable;-1;-1;-1;-1;-1;;Tamanrasset
+13914;13733;impassable;-1;-1;-1;-1;-1;;Tanezrouft
+13915;13733;impassable;-1;-1;-1;-1;-1;;Tanezrouft
+13915;13732;impassable;-1;-1;-1;-1;-1;;Tanezrouft
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1

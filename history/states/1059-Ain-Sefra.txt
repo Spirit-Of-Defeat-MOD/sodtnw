@@ -1,0 +1,26 @@
+state={
+	id=1059
+	name="STATE_1059"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			13936 3 #Tindouf
+		}
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13936 13937 13938 13939 13940 13941 13942
+	}
+	manpower=134000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=c1
+}

@@ -1,0 +1,24 @@
+state={
+	id=1053
+	name="STATE_1053"
+
+	history={
+		owner = ALG	
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13920 1 #In Salah 
+		}
+	}
+
+	provinces={
+		10731 13914 13915 13916 13917 13918 13919 13920
+	}
+	manpower=30615
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

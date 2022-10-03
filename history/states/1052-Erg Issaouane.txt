@@ -1,0 +1,24 @@
+state={
+	id=1052
+	name="STATE_1052"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13910 1 #Illizi 
+		}
+	}
+
+	provinces={
+		1043 13909 13910 13911 13912 13913
+	}
+	manpower=8075
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

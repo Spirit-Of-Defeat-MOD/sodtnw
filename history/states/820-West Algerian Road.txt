@@ -2,7 +2,7 @@ state={
 	id=820
 	name="STATE_820"
 	provinces={
-		7041 
+		7041 13929
 	}
 	
 	history={
@@ -17,5 +17,7 @@ state={
 	
 	manpower=50
 	buildings_max_level_factor=1.000
-	state_category=c0
+	state_category=wasteland
+	impassable = yes
+	
 }

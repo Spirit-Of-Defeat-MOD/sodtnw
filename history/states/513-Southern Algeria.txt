@@ -6,9 +6,7 @@ state={
 	history={
 		owner = ALG
 		add_core_of = ALG
-		victory_points = {
-			12034 1 
-		}
+
 		buildings = {
 			infrastructure = 2
 
@@ -17,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1128 1141 3991 4018 4150 7008 7033 7040 7149 9943 9960 10045 10059 12018 12020 12034 12888 13074 
+		1128  3991 4018 4150 7008 7033 7040 7149 9960 10045 12018 12020 13074 
 	}
 	manpower=811486
 	buildings_max_level_factor=1.000

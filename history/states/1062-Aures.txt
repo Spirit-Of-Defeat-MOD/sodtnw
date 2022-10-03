@@ -1,0 +1,27 @@
+state={
+	id=1062
+	name="STATE_1062"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			9976 3 #Batna 
+		}
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		9976 11953 12034 12888 13954 
+	}
+	manpower=940045
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

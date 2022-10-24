@@ -2,7 +2,7 @@ state={
 	id=800
 	name="STATE_800"
 	provinces={
-		8089 13251 13252 
+		8089 13971 13972 13973 13974
 	}
 	
 	history={
@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = MEX
 		victory_points = {
-			13251 20
+			13972 20
 		}
 	}
 	

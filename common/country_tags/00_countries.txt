@@ -246,11 +246,20 @@ NEW = "countries/Commonwealth.txt" #Newfoundland
 QUE = "countries/Commonwealth.txt" #Quebec
 
 #Mexico
+BJC = "countries/SouthAmerican.txt" #Baja California
 CED = "countries/SouthAmerican.txt" #Cedillo
+CSC = "countries/SouthAmerican.txt" #Chan Santa Cruz
 MCT = "countries/SouthAmerican.txt" #Cristero
 PLM = "countries/SouthAmerican.txt" #Magonists
 PNR = "countries/SouthAmerican.txt" #Constituionalists
+RGR = "countries/SouthAmerican.txt"	#Rio Grande
+SON = "countries/SouthAmerican.txt" #Sonora
+TAB = "countries/SouthAmerican.txt" #Tabasco
 VIL = "countries/SouthAmerican.txt"	#Villa
+YUC = "countries/SouthAmerican.txt" #Yucatan
+ZAC = "countries/SouthAmerican.txt" #Zacatecas
+
+
 
 ##Africa
 

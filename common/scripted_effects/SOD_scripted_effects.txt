@@ -23,3 +23,27 @@ SHG_add_to_municipal_council = {
 SHG_remove_from_municipal_council = {
 	remove_from_array = { SHG.municipal_council = THIS.id }
 }
+
+collapse_mexico = {
+	###CREATE THE CORES
+	484 = { add_core_of = BJC}
+	483 = { add_core_of = SON}
+	479 = { add_core_of = RGR}
+	480 = { add_core_of = RGR}
+	1069 = { add_core_of = ZAC}
+	1070 = { add_core_of = ZAC}
+	799 = { add_core_of = TAB}
+	798 = { add_core_of = YUC}
+	797 = { add_core_of = YUC}
+	474 = { add_core_of = YUC}
+	797 = { add_core_of = CSC}
+
+	#RELEASE TAGS
+	MCT = { release = BJC }
+	VIL = { release = SON }
+	MEX = { release = RGR }
+	MEX = { release = ZAC }
+	PNR = { release = TAB }
+	MCT = { release = YUC }
+	YUC = { release = CSC }
+}

@@ -22,21 +22,16 @@ state={
 		victory_points = {
 			13089 20
 		}
-		victory_points = {
-			10172 5
-		}
+
 		victory_points = {
 			12746 1
 		}
 		
-		MEX = {
-			set_province_controller = 10172
-		}
 
 	}
 
 	provinces={
-		2051 5052 10172 12746 12873 13089 13518
+		2051 5052 12746 12873 13089 13994 13995 13996 13997 13998 13999 14000 14001 14002
 	}
 	
 }

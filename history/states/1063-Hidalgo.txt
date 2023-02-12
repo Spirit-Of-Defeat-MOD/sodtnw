@@ -1,0 +1,24 @@
+state={
+	id=1063
+	name="STATE_1063"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+		victory_points = {
+			13963 3 #Pachuca 
+		}
+	}
+
+	provinces={
+		7913 13962 13963 13964 13965
+	}
+	manpower=677772	
+	state_category = c3
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

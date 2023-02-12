@@ -17,24 +17,18 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			8032 = {
-				naval_base = 3
-			}
+
 		}
 		add_core_of = MEX
 		victory_points = {
 			10730 5
 		}
-		victory_points = {
-			4887 3
-		}
-		victory_points = {
-			8032 1
-		}
+
+
 	}
 
 	provinces={
-		4887 5066 8032 10730 10832 
+		5066 10730 10832 13975 13976 13977 13978 13979 13980
 	}
 	
 }

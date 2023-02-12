@@ -1061,7 +1061,11 @@ STATE_1059:0 "Ain-Sefra"
 STATE_1060:0 "Oued Zouzfana"
 STATE_1061:0 "Grand Erg Occidental"
 STATE_1062:0 "Aures"
-
-
-
-
+STATE_1063:0 "Hidalgo"
+STATE_1064:0 "Guanajuato"
+STATE_1065:0 "Tlaxcala"
+STATE_1066:0 "Michoacán"
+STATE_1067:0 "Colima"
+STATE_1068:0 "Nayarit"
+STATE_1069:0 "Zacatecas"
+STATE_1070:0 "Mazapil"

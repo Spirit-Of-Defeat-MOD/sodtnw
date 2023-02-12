@@ -5,3 +5,6 @@ NDefines.NDiplomacy.MAX_OPINION_VALUEE = 200;
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200;
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.0;
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2;
+
+NDefines_Graphics.NGraphics.COUNTRY_FLAG_TEX_MAX_SIZE = 1024;
+NDefines_Graphics.NGraphics.COUNTRY_FLAG_SMALL_TEX_MAX_SIZE = 512;

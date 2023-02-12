@@ -1257,3 +1257,38 @@ BAG = {
 	color = rgb { 177 149 188 }
 	color_ui = rgb { 177 149 188 }
 }
+
+BJC = {
+	color = rgb { 212 180 52 }
+	color_ui = rgb { 212 180 52 }
+}
+
+CSC = {
+	color = rgb { 64 176 1 }
+	color_ui = rgb { 64 176 1 }
+}
+
+RGR = {
+	color = rgb { 123 142 175 }
+	color_ui = rgb { 123 142 175 }
+}
+
+SON = {
+	color = rgb { 223 142 175 }
+	color_ui = rgb { 223 142 175 }
+}
+
+YUC = {
+	color = rgb { 236 159 89 }
+	color_ui = rgb { 236 159 89 }
+}
+
+ZAC = {
+	color = rgb { 173 173 242 }
+	color_ui = rgb { 173 173 242 }
+}
+
+TAB = {
+	color = rgb { 16 176 192 }
+	color_ui = rgb { 16 176 192 }
+}

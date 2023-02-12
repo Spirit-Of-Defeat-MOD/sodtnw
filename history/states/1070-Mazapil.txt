@@ -1,0 +1,22 @@
+state={
+	id=1070
+	name="STATE_1070"
+	impassable = yes
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = MEX
+		
+	}
+
+	provinces={
+		14014 
+	}
+	manpower=37400
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

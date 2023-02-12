@@ -1616,7 +1616,26 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = FRA }
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 1000 producer = FRA }
+			ROOT = {
+				division_template = {
+					name = "International French Armour Division"
+					is_locked = yes
+					priority = 45
+					template_counter = 12
+					regiments = {
+						light_armor = { x = 0 y = 0 }
+						light_armor = { x = 0 y = 1 }
+						light_armor = { x = 0 y = 2 }
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Brigada armorada\" division_template = \"International French Armour Division\"  start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
 		}
 	}
 

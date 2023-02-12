@@ -247,4 +247,34 @@ MEX_REFORMED_utilitarian_despot_party:0 "LC"
 MEX_REFORMED_utilitarian_despot_party_long:0 "Liga Centralista"
 MEX_REFORMED_fascism_party:0 "UNS" 
 MEX_REFORMED_fascism_party_long:0 "Unión Nacional Sinarquista" 
+
+
+####BREAKAWAYS#####
+RGR:0 "Republic of the Rio Grande"
+RGR_DEF:0 "the Republic of the Rio Grande"
+RGR_ADJ:0 "Río Grandese"
+
+BJC:0 "Republic of Baja California"
+BJC_DEF:0 "the Republic of Baja California"
+BJC_ADJ:0 "Bajacalifornian"
+
+SON:0 "Republic of Sonora"
+SON_DEF:0 "the Republic of Sonora"
+SON_ADJ:0 "Sonoran"
+
+ZAC:0 "Republic of Zacatecas"
+ZAC_DEF:0 "the Republic of Zacatecas"
+ZAC_ADJ:0 "Zacatecan"
+
+YUC:0 "Republic of Yucatán"
+YUC_DEF:0 "the Republic of Yucatán"
+YUC_ADJ:0 "Yucatec"
+
+CSC:0 "Chan Santa Cruz"
+CSC_DEF:0 "the Mayan State of Chan Santa Cruz"
+CSC_ADJ:0 "Maya"
+
+TAB:0 "Republic of Tabasco"
+TAB_DEF:0 "the Republic of Tabasco"
+TAB_ADJ:0 "Tabasqueñ"
  

@@ -120,27 +120,8 @@ collapse_decisions = {
 		}
 		
 		complete_effect = {
-			825 = { add_core_of = AGA }
-			999 = { add_core_of = AGA }
-			832 = { add_core_of = AGA }
-			824 = { add_core_of = AGA }
-			515 = { add_core_of = AGA }
-			1002 = { add_core_of = MRD }
-			1003 = { add_core_of = DOS }
-			822 = { add_core_of = DMG }
-			1000 = { add_core_of = DMG }
-			1001 = { add_core_of = DMG }
-			1002 = { add_core_of = DMG }
-			998 = { add_core_of = KDI }
-			1004 = { add_core_of = KDI }
-			1005 = { add_core_of = KDI }
-			
-			AGA = { transfer_state = 825 transfer_state = 999 transfer_state = 832 transfer_state = 824 transfer_state = 515 }
-			AOF = {release = MRD}
-			AOF = {release = DOS}
-			AOF = {release = DMG}
-			AOF = {release = KDI}
-			AOF = {release = NGR}
+			collapse_niger = yes
+
 		}
 		
 	}
@@ -168,17 +149,8 @@ collapse_decisions = {
 		}
 		
 		complete_effect = {
-			1015 = { add_core_of = BAG }
-			1014 = { add_core_of = BAG }
-			1009 = { add_core_of = WAD }
-			1010 = { add_core_of = WAD }
-			1012 = { add_core_of = WAD }
-			1013 = { add_core_of = WAD }
-			
-			
-			AEF = {release = BAG}
-			AEF = {release = WAD}
-			AEF = {release = CHA}
+			collapse_chad = yes
+
 		}
 		
 	}

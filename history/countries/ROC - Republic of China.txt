@@ -1,6 +1,6 @@
 capital = 608 #Beijing
 
-oob = "ROC"
+oob = ""
 #if = {
 #	limit = { has_dlc = "Man the Guns" }
 #		set_naval_oob = "CHI_1936_naval_mtg"
@@ -35,7 +35,7 @@ if = {
 		early_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
+		#basic_secondary_battery = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 	}

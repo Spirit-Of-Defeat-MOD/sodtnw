@@ -1,0 +1,57 @@
+focus_tree = {
+	id = imp_italy_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = ITA_empire_eternal
+		icon = GFX_unknown
+		x = 15
+		y = 0
+
+		mutually_exclusive = { focus = ITA_death_to_empire }
+
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+		factor = 1
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = ITA_civil_war
+			hidden_effect = {
+				set_global_flag = ITA_chose_empire_route
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_death_to_empire
+		icon = GFX_unknown
+		x = 10
+		y = 0
+
+		relative_position_id = ITA_empire_eternal
+		mutually_exclusive = { focus = ITA_empire_eternal }
+
+		cost = 1
+		
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = ITA_civil_war
+			hidden_effect = {
+				set_global_flag = ITA_chose_non_empire_route
+			}
+		}
+	}
+}

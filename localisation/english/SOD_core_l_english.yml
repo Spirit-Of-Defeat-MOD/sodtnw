@@ -109,14 +109,12 @@ manifest_destiny:0 "Manifest our Destiny"
 economic_corporatism:0 "Corporatism"
 
 ##Generic Tree Ideas
-manifest_destiny:0 "Manifest Destiny"
 
 
 equipment_purchase_tt:0 "Allows the purhcase of motorized and tank equipment"
 aircraft_purchase_tt:0 "Allows the Purchase of Aircraft"
  
 ##UNITS
-militia:0 "Militia"
 division_hq:0 "Division Headquarters"
 infantry_medical_unit:0 "Medical Unit"
 heavy_artillery:0 "Support Heavy Artillery"

@@ -1,6 +1,6 @@
 ﻿capital = 188
 
-oob = "MEM"
+oob = ""
 
 set_research_slots = 3
 

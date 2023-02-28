@@ -402,7 +402,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = generic_motorized_cavalry_brigade
+		id = generic_motorized_cavalry_brigdade
 		icon = GFX_generic_motorized_cavalry_brigade
 		cost = 7
 		x = 1

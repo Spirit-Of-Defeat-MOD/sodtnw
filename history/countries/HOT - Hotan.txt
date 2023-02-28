@@ -1,6 +1,6 @@
 ﻿capital = 917
 
-oob = "HOT"
+oob = ""
 
 set_research_slots = 2
 

@@ -11,6 +11,6 @@ ITA_civil_war = {
 	visible_when_empty = yes
 
 	visible = {
-		NOT = { has_global_flag = italian_civil_war }
+		always = no
 	}
 }

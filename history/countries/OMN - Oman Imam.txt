@@ -1,6 +1,6 @@
 ﻿capital = 890
 
-oob = "OMN"
+oob = ""
 
 # Starting tech
 set_technology = {

@@ -1,6 +1,5 @@
 ﻿capital = 760 # Qumul
 
-oob = "KUM"
 
 set_research_slots = 2
 

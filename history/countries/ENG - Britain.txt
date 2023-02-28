@@ -96,11 +96,11 @@ if = {
 		sonar = 1
 		smoke_generator = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
+		#basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
-		improved_secondary_battery = 1
+		#improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
 	add_ideas = MTG_naval_treaty_adherent
@@ -1325,7 +1325,6 @@ if = {
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
 				front_1_custom_slot = ship_deck_space
 				mid_1_custom_slot = ship_armor_carrier_deck
 			}
@@ -1336,7 +1335,7 @@ if = {
 			name_group = ENG_CLAA_HISTORICAL
 			parent_version = 1
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery
+				#fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 				fixed_ship_radar_slot = empty
@@ -1345,7 +1344,7 @@ if = {
 				front_1_custom_slot = empty
 				mid_1_custom_slot = ship_anti_air_1
 				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = dp_light_battery
+				#rear_1_custom_slot = dp_light_battery
 			}
 		}
 		create_equipment_variant = {
@@ -1362,7 +1361,6 @@ if = {
 				fixed_ship_armor_slot = ship_armor_cruiser_2
 				front_1_custom_slot = ship_anti_air_1
 				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = dp_ship_secondaries
 				rear_1_custom_slot = ship_light_medium_battery_2
 				rear_2_custom_slot = ship_anti_air_1
 			}
@@ -1409,11 +1407,10 @@ if = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
+
 				fixed_ship_armor_slot = ship_armor_bb_2
 				front_1_custom_slot = ship_anti_air_1
 				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = dp_ship_secondaries
 				rear_1_custom_slot = ship_heavy_battery_2
 			}
 		}
@@ -1428,11 +1425,9 @@ if = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
 				fixed_ship_armor_slot = ship_armor_bb_2
 				front_1_custom_slot = ship_anti_air_1
 				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = dp_ship_secondaries
 				rear_1_custom_slot = ship_heavy_battery_3
 			}
 		}

@@ -7,34 +7,34 @@
 # (eg Root or From.From).)
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
-
-defined_text = {
-	name = GetFirstTitle
-	text = {
-		trigger = {
-			original_tag = VIL
-		}
-		localization_key = MEX_VIL_TITLE
-	}
-}
-
-defined_text = {
-	name = GetDualLeaderName
-	text = {
-		trigger = {
-			original_tag = VIL
-		}
-		localization_key = VIL_ESCOBAR
-	}
-}
-
-defined_text = {
-    name = GetDualLeaderPortrait
-	
-	text = {
-		trigger = {
-			original_tag = VIL
-		}
-		localization_key = GFX_VIL_ESCOBAR
-	}
-}
+#
+#defined_text = {
+#	name = GetFirstTitle
+#	text = {
+#		trigger = {
+#			original_tag = VIL
+#		}
+#		localization_key = MEX_VIL_TITLE
+#	}
+#}
+#
+#defined_text = {
+#	name = GetDualLeaderName
+#	text = {
+#		trigger = {
+#			original_tag = VIL
+#		}
+#		localization_key = VIL_ESCOBAR
+#	}
+#}
+#
+#defined_text = {
+#    name = GetDualLeaderPortrait
+#	
+#	text = {
+#		trigger = {
+#			original_tag = VIL
+#		}
+#		localization_key = GFX_VIL_ESCOBAR
+#	}
+#}

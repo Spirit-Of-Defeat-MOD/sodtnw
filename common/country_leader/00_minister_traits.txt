@@ -256,16 +256,6 @@ leader_traits = {
 	}
 	cos_school_of_manoeuvre = {
 		army_speed_factor = 0.1
-		equipment_bonus = {
-			motorized = {
-				soft_attack = 0.1
-				instant = yes
-			}
-			mechanized = {
-				soft_attack = 0.1
-				instant = yes
-			}
-		}
 		army_armor_attack_factor = 0.1
 		army_armor_defence_factor = 0.1
 

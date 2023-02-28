@@ -41,7 +41,7 @@ scripted_gui = {
 		window_name = "dual_leader_politics_view_button_container_open"
 		
 		visible = {
-			#check_variable = { show_dual = 0 }
+			check_variable = { show_dual = 0 }
 			OR = {
 				tag = VIL
 			}

@@ -315,11 +315,11 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		bypass = {
-			ROOT = {
-				has_tech = heavy_artillery1
-			}
-		}
+		#bypass = {
+		#	ROOT = {
+		#		has_tech = heavy_artillery1
+		#	}
+		#}
 		relative_position_id = generic_artillery_effort
 		prerequisite = {
 			focus = generic_artillery_effort

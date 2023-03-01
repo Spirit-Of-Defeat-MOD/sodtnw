@@ -21,11 +21,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		#path = {
-		#	leads_to_tech = gw_heavy_artillery
-		#	research_cost_coeff = 1
-		#}
-
 
 		enable_equipment_modules = { 
 			ship_anti_air_1
@@ -42,56 +37,6 @@ technologies = {
 			artillery
 		}
 
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-	}
-
-	gw_heavy_artillery = {
-
-		enable_equipments = {
-			heavy_artillery_equipment_1
-		}
-
-		enable_subunits = {
-			heavy_artillery
-			heavy_artillery_brigade
-		}
-
-		folder = {
-			name = artillery_folder
-			position = { x = -7 y = 0 }
-		}
-
-		path = {
-			leads_to_tech = heavy_artillery1
-			research_cost_coeff = 1
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1934
-		
-		categories = {
-			artillery
-		}
-
-		
 		
 		ai_will_do = {
 			factor = 2
@@ -198,51 +143,6 @@ technologies = {
 		
 		categories = {
 			artillery
-		}
-
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.6"
-			}
-		}
-	}
-
-	heavy_artillery1 = {
-
-		enable_equipments = {
-			heavy_artillery_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1939
-		
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -7 y = 4 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		path = {
-			leads_to_tech = heavy_artillery2
-			research_cost_coeff = 1
 		}
 
 		
@@ -430,46 +330,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1942.1.6"
-			}
-		}
-	}
-
-	heavy_artillery2 = {
-
-		enable_equipments = {
-			heavy_artillery_equipment_3
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1941
-		
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -7 y = 8 }
-		}
-		
-		categories = {
-			artillery
-		}
-
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.6"
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 ﻿capital = 47
 
 oob = "GRE"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "GRE_naval_mtg"
-	else = {
-		set_naval_oob = "GRE_naval_legacy"
-	}
-}
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "GRE_naval_mtg"
+#	else = {
+#		set_naval_oob = "GRE_naval_legacy"
+#	}
+#}
 
 ###################
 #### 3D MODELS ####

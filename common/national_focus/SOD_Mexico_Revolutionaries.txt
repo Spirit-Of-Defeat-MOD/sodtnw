@@ -1366,9 +1366,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			set_technology = {
-				gw_heavy_artillery = 1
-			}
+			#set_technology = {
+			#	gw_heavy_artillery = 1
+			#}
 
 			add_equipment_to_stockpile = {
 				type = heavy_artillery_equipment

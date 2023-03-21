@@ -66,49 +66,49 @@ set_popularities = {
 	libertarian_socialist = 28
 }
 
-create_country_leader = {
-	name = "Marmaduke Grove"
-	desc = "POLITICS_MARMADUKE_GROVE_DESC"
-	picture = "CHL_Marmaduke_Grove_2.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialist
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Marmaduke Grove"
+#	desc = "POLITICS_MARMADUKE_GROVE_DESC"
+#	picture = "CHL_Marmaduke_Grove_2.tga"
+#	expire = "1965.1.1"
+#	ideology = revolutionary_socialist
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Arturo Alessandri"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "CHL_Alessandri_Cooler.tga"
-	expire = "1965.1.1"
-	ideology = classic_liberal_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Arturo Alessandri"
+#	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+#	picture = "#"
+#	expire = "1965.1.1"
+#	ideology = classic_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Luis Emilio Recabarren"
-	desc = "POLITICS_ARTURO_OSORIO_DESC"
-	picture = "CHL_Recabarren.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialist
-	traits = {
-		union_man
-	}
-}
+#create_country_leader = {
+#	name = "Luis Emilio Recabarren"
+#	desc = "POLITICS_ARTURO_OSORIO_DESC"
+#	picture = "CHL_Recabarren.tga"
+#	expire = "1965.1.1"
+#	ideology = revolutionary_socialist
+#	traits = {
+#		union_man
+#	}
+#}
 
-create_country_leader = {
-	name = "Pedro Aguirre Cerda"
-	desc = "POLITICS_PEDRO_CERDA_DESC"
-	picture = "CHL_Pete_Cerda.tga"
-	expire = "1965.1.1"
-	ideology = reformist_socialist_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Pedro Aguirre Cerda"
+#	desc = "POLITICS_PEDRO_CERDA_DESC"
+#	picture = "CHL_Pete_Cerda.tga"
+#	expire = "1965.1.1"
+#	ideology = reformist_socialist_ideology
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Juan Esteban Montero"
@@ -121,27 +121,27 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Carlos Ibañez del Campo"
-	desc = "POLITICS_CARLOS_CAMPO_DESC"
-	picture = "Portrait_Chile_Carlos_Campo.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		dictator
-	}
-}
+#create_country_leader = {
+#	name = "Carlos Ibañez del Campo"
+#	desc = "POLITICS_CARLOS_CAMPO_DESC"
+#	picture = "Portrait_Chile_Carlos_Campo.tga"
+#	expire = "1965.1.1"
+#	ideology = authoritarian_democrat_subtype
+#	traits = {
+#		dictator
+#	}
+#}
 
-create_country_leader = {
-	name = "Miguel Serrano Fernandez"
-	desc = "POLITICS_MIGUEL_FERNANDEZ_DESC"
-	picture = "CHL_Miguel_Serrano.tga"
-	expire = "1965.1.1"
-	ideology = esoteric_nihilist
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Miguel Serrano Fernandez"
+#	desc = "POLITICS_MIGUEL_FERNANDEZ_DESC"
+#	picture = "CHL_Miguel_Serrano.tga"
+#	expire = "1965.1.1"
+#	ideology = esoteric_nihilist
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Jorge Gonzales von Marées"
@@ -154,16 +154,16 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Francisco Javier Díaz Valderrama"
-	desc = "POLITICS_JORGE_MAREES_DESC"
-	picture = "Portrait_CHL_Fransico_Javier_Dias_Valderrama.tga"
-	expire = "1965.1.1"
-	ideology = utilitarian_despot_subtype
-	traits = {
-		dictator
-	}
-}
+#create_country_leader = {
+#	name = "Francisco Javier Díaz Valderrama"
+#	desc = "POLITICS_JORGE_MAREES_DESC"
+#	picture = "Portrait_CHL_Fransico_Javier_Dias_Valderrama.tga"
+#	expire = "1965.1.1"
+#	ideology = utilitarian_despot_subtype
+#	traits = {
+#		dictator
+#	}
+#}
 
 #create_country_leader = {
 #	name = "Carlos Contreras Labarca"

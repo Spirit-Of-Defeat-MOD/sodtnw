@@ -15,27 +15,27 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Liu Wenhui"
-	desc = ""
-	picture = "Portrait_SZC_Liu_Wenhui.tga"
-	expire = "1965.1.1"
-	ideology = warlord
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Liu Wenhui"
+#	desc = ""
+#	picture = "Portrait_SZC_Liu_Wenhui.tga"
+#	expire = "1965.1.1"
+#	ideology = warlord
+#	traits = {
+#		#
+#	}
+#}
 
-create_field_marshal = {
-	name = "Liu Wenhui"
-	portrait_path = "gfx/leaders/SLW/Portrait_SZC_Liu_Wenhui.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
+#create_field_marshal = {
+#	name = "Liu Wenhui"
+#	portrait_path = "gfx/leaders/SLW/Portrait_SZC_Liu_Wenhui.tga"
+#	traits = { }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 2
+#}
 
 create_corps_commander = {
 	name = "Liu Chengxun"

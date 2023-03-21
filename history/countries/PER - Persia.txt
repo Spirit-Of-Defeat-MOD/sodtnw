@@ -11,7 +11,7 @@ set_technology = {
 	CAS1 = 1
 }
 
-
+#
 set_convoys = 10
 set_politics = {
 	ruling_party = democratic
@@ -30,38 +30,38 @@ set_popularities = {
 
 }
 
-create_country_leader = {
-	name = "Mohammad Hassan Shah"
-	desc = ""
-	picture = "Portrait_Mohammad_Hassan.tga"
-	expire = "1965.1.1"
-	ideology = traditionalism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Mohammad Hassan Shah"
+#	desc = ""
+#	picture = "#"
+#	expire = "1965.1.1"
+#	ideology = traditionalism
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Mohammad Hassan Shah"
-	desc = ""
-	picture = "Portrait_Mohammad_Hassan.tga"
-	expire = "1965.1.1"
-	ideology = conservative_liberalism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Mohammad Hassan Shah"
+#	desc = ""
+#	picture = "Portrait_Mohammad_Hassan.tga"
+#	expire = "1965.1.1"
+#	ideology = conservative_liberalism
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Mohammad Hassan Shah"
-	desc = ""
-	picture = "Portrait_Mohammad_Hassan.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Mohammad Hassan Shah"
+#	desc = ""
+#	picture = "Portrait_Mohammad_Hassan.tga"
+#	expire = "1965.1.1"
+#	ideology = social_democrat_ideology
+#	traits = {
+#		#
+#	}
+#}
 
 
 create_corps_commander = {

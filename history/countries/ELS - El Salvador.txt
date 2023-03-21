@@ -21,14 +21,14 @@ set_popularities = {
 	fascism = 100
 }
 
-create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
-	picture = "Portrait_ELS_Maximiliano_Martinez.tga"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Maximiliano Hernández Martínez"
+#	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+#	picture = "#"
+#	expire = "1965.1.1"
+#	ideology = fascism_ideology
+#	traits = {
+#		#
+#	}
+#}
 

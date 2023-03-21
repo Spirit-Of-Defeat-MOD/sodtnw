@@ -92,16 +92,16 @@ set_popularities = {
 }
 
 	
-create_country_leader = {
-	name = "António de Oliveira Salazar"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "António de Oliveira Salazar"
+#	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
+#	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
+#	expire = "1965.1.1"
+#	ideology = despotism
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Bento Gonçalves"

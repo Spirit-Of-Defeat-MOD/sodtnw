@@ -16,16 +16,16 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Yang Tseng-hsin"
-	desc = ""
-	picture = "Portrait_SIK_Yang_Zengxin.tga"
-	expire = "1965.1.1"
-	ideology = warlord
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Yang Tseng-hsin"
+#	desc = ""
+#	picture = "Portrait_SIK_Yang_Zengxin.tga"
+#	expire = "1965.1.1"
+#	ideology = warlord
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Sheng Shicai"

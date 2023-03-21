@@ -60,9 +60,9 @@ SDX_classic_liberal_ADJ:0 "Deng"
 SDX_communism_ADJ:0 "Deng"
 SDX_nihilistic_extremism_ADJ:0 "Deng"
 
-SDX_SZE_utilitarian_despot:0 "Sichuan Clique"
-SDX_SZE_utilitarian_despot_DEF:0 "Sichuan Clique"
-SDX_SZE_utilitarian_despot_ADJ:0 "Shu"
+SDX_SZE_utilitarian_despot:0 "Sichuan Military Administration"
+SDX_SZE_utilitarian_despot_DEF:0 "Sichuan Military Administration"
+SDX_SZE_utilitarian_despot_ADJ:0 "Chuan"
 
 SDX_SZE_utilitarian_despot_party:0 "Sichuan Military Government"
 SDX_SZE_utilitarian_despot_party_long:0 "Sichuan Military Government"

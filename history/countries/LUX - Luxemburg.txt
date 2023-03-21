@@ -22,16 +22,16 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Charlotte, Grand Duchess of Luxembourg"
-	desc = "POLITICS_CHARLOTTE_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Charlotte, Grand Duchess of Luxembourg"
+#	desc = "POLITICS_CHARLOTTE_DESC"
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
 set_popularities = {
 		communism = 5
 		reformist_socialist = 12

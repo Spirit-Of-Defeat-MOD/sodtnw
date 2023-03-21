@@ -190,21 +190,6 @@ air_wings = {
 	}
 }
 
-units= {
-	fleet = {
-		name = "Kraljevska Mornarica"			
-		naval_base = 9809
-		task_force = {				
-			name = "Kraljevska Mornarica"			
-			location = 9809
-			ship = { name = "KB Beograd" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SER } } }		
-			ship = { name = "KB Novi Sad" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SER } } }				
-			ship = { name = "KB Pristina" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SER } } }				
-			ship = { name = "KB Nis" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SER } } }				
-		}				
-	}
-} 
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

@@ -66,16 +66,16 @@ set_popularities = {
 	communism = 11
 }
 
-create_country_leader = {
-	name = "Luigi Federzoni"
-	desc = "POLITICS_FEDERZONI_DESC"
-	picture = "Portrait_ITA_Luigi_Federzoni_Alt.png"
-	expire = "1965.1.1"
-	ideology = national_syndicalist
-	traits = {
-		
-	}
-}
+#create_country_leader = {
+#	name = "Luigi Federzoni"
+#	desc = "POLITICS_FEDERZONI_DESC"
+#	picture = "Portrait_ITA_Luigi_Federzoni_Alt.png"
+#	expire = "1965.1.1"
+#	ideology = national_syndicalist
+#	traits = {
+#		
+#	}
+#}
 
 create_country_leader = {
 	name = "Ferruccio Parri"

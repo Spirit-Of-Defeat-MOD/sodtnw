@@ -53,14 +53,14 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	name = "Feng Yuxiang"
-	desc = ""
-	picture = "Portrait_ROC_Feng_Yuxiang.png"
-	ideology = partial_democracy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Feng Yuxiang"
+#	desc = ""
+#	picture = "Portrait_ROC_Feng_Yuxiang.png"
+#	ideology = partial_democracy
+#	traits = {
+#		#
+#	}
+#}
 
 

@@ -34,16 +34,16 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Ahmet Muhtar Zogolli"
-	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Ahmet_Zogolli.dds"
-	traits = { politically_connected }
-	skill = 3
-	attack_skill = 2
-    defense_skill = 3
-    planning_skill = 4
-    logistics_skill = 2
-}
+#create_field_marshal = {
+#	name = "Ahmet Muhtar Zogolli"
+#	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Ahmet_Zogolli.dds"
+#	traits = { politically_connected }
+#	skill = 3
+#	attack_skill = 2
+#    defense_skill = 3
+#    planning_skill = 4
+#    logistics_skill = 2
+#}
 
 create_corps_commander = {
 	name = "Gustav Mirdashi"

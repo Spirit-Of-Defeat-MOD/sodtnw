@@ -107,15 +107,15 @@ declare_war_on = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Franchet d'Esperey"
-	desc = "POLITICS_FRANCHET_ESPEREY_DESC"
-	picture = "Portrait_Franchet_Esperey.tga"
-	expire = "1965.1.1"
-	ideology = traditionalism
-	traits = {
-	}
-}
+#create_country_leader = {
+#	name = "Franchet d'Esperey"
+#	desc = "POLITICS_FRANCHET_ESPEREY_DESC"
+#	picture = "Portrait_Franchet_Esperey.tga"
+#	expire = "1965.1.1"
+#	ideology = traditionalism
+#	traits = {
+#	}
+#}
 
 create_country_leader = {
 	name = "Philippe Pétain"

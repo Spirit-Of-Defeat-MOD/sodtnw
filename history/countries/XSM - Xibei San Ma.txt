@@ -28,13 +28,13 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Ma Lin"
-	desc = "MA_LIN_DESC"
-	picture = "Portrait_XSM_Ma_Lin.png"
-	ideology = warlord
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Ma Lin"
+#	desc = "MA_LIN_DESC"
+#	picture = "Portrait_XSM_Ma_Lin.png"
+#	ideology = warlord
+#	traits = {
+#		#
+#	}
+#}
 

@@ -19,15 +19,15 @@ set_popularities = {
 }
 
 
-create_country_leader = {
-	name = "Idris I"
-	desc = "POLITICS_IDRIS"
-	picture = "Portrait_Idris.tga"
-	ideology = absolute_monarchy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Idris I"
+#	desc = "POLITICS_IDRIS"
+#	picture = "Portrait_Idris.tga"
+#	ideology = absolute_monarchy
+#	traits = {
+#		#
+#	}
+#}
 
 create_corps_commander = {# Mohammed al abid Al Senussi
 	name = "Mohammed al abid Al Senussi"

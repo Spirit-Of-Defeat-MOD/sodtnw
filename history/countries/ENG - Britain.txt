@@ -237,71 +237,71 @@ give_military_access = RAJ
 # Order matters - here Chamberlain becomes starting leade
 
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = social_democrat_ideology
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = social_democrat_ideology
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = authoritarian_democrat_subtype
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = utilitarian_despot_subtype
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = utilitarian_despot_subtype
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = classic_liberal_ideology
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = classic_liberal_ideology
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = social_conservatism
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = social_conservatism
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
-create_country_leader = {
-	name = "George V"
-	desc = ""
-	picture = "Portrait_King_George.tga"
-	expire = "1938.1.1"
-	ideology = social_liberal_ideology
-	traits = {
-		conservative_grandee
-	}
-}
+#create_country_leader = {
+#	name = "George V"
+#	desc = ""
+#	picture = "Portrait_King_George.tga"
+#	expire = "1938.1.1"
+#	ideology = social_liberal_ideology
+#	traits = {
+#		conservative_grandee
+#	}
+#}
 
 
 create_field_marshal = {

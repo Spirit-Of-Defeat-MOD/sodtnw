@@ -17,27 +17,27 @@ set_popularities = {
 
 set_cosmetic_tag = SDX_SZE
 
-create_country_leader = {
-	name = "Deng Xihou"
-	desc = ""
-	picture = "Portrait_SZC_Deng_Xihou.tga"
-	expire = "1965.1.1"
-	ideology = warlord
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Deng Xihou"
+#	desc = ""
+#	picture = "Portrait_SZC_Deng_Xihou.tga"
+#	expire = "1965.1.1"
+#	ideology = warlord
+#	traits = {
+#		#
+#	}
+#}
 
-create_field_marshal = {
-	name = "Liu Wenhui"
-	portrait_path = "gfx/leaders/SDX/Portrait_SZC_Deng_Xihou.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
+#create_field_marshal = {
+#	name = "Liu Wenhui"
+#	portrait_path = "gfx/leaders/SDX/Portrait_SZC_Deng_Xihou.tga"
+#	traits = { }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 2
+#}
 
 create_corps_commander = {
 	name = "Li Jiayju"

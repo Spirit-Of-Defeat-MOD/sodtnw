@@ -39,16 +39,16 @@ add_ideas = {
 
 set_stability = 0.85
 
-create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Federal Council"
+#	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+#	picture = "Portrait_Switzerland_Federal_council.dds"
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Ernest Béuin"

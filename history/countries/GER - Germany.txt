@@ -48,7 +48,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "GER_1936_naval"
+	#set_naval_oob = "GER_1936_naval"
 }
 if = {
 	limit = {
@@ -80,7 +80,7 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "GER_1936_naval_mtg"
+	#set_naval_oob = "GER_1936_naval_mtg"
 }
 
 set_variable = { var = ger_gateway_to_europe_influence value = 0 }

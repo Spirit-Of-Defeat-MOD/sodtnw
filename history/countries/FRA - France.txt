@@ -69,16 +69,6 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Franchet d'Esperey"
-	desc = "POLITICS_FRANCHET_ESPEREY_DESC"
-	picture = "Portrait_Franchet_Esperey.tga"
-	expire = "1965.1.1"
-	ideology = traditionalism
-	traits = {
-	}
-}
-
-create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "GFX_portrait_fra_maurice_thorez"

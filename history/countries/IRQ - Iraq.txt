@@ -40,60 +40,60 @@ set_popularities = {
 	fascism = 13
 }
 
-create_country_leader = {
-	name = "Zeid bin Hussein"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = absolute_monarchy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Zeid bin Hussein"
+#	desc = ""
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = absolute_monarchy
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Zeid bin Hussein"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Zeid bin Hussein"
+#	desc = ""
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = authoritarian_democrat_subtype
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Zeid bin Hussein"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Zeid bin Hussein"
+#	desc = ""
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = social_conservatism
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Zeid bin Hussein"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = classic_liberal_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Zeid bin Hussein"
+#	desc = ""
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = classic_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Zeid bin Hussein"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_liberal_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Zeid bin Hussein"
+#	desc = ""
+#	picture = ""
+#	expire = "1965.1.1"
+#	ideology = social_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Rashid Ali al-Gaylani"

@@ -46,49 +46,49 @@ set_popularities = {
 set_convoys = 80
 set_stability = 0.75
 
-create_country_leader = {
-	name = "Albert I"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Albert_I.tga"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Albert I"
+#	desc = "POLITICS_ALBERT_I_DESC"
+#	picture = "Albert_I.tga"
+#	expire = "1965.1.1"
+#	ideology = social_conservatism
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Albert I"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Albert_I.tga"
-	expire = "1965.1.1"
-	ideology = reformist_socialist_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Albert I"
+#	desc = "POLITICS_ALBERT_I_DESC"
+#	picture = "Albert_I.tga"
+#	expire = "1965.1.1"
+#	ideology = reformist_socialist_ideology
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Albert I"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Albert_I.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Albert I"
+#	desc = "POLITICS_ALBERT_I_DESC"
+#	picture = "Albert_I.tga"
+#	expire = "1965.1.1"
+#	ideology = social_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
 
-create_country_leader = {
-	name = "Albert I"
-	desc = "POLITICS_ALBERT_I_DESC"
-	picture = "Albert_I.tga"
-	expire = "1965.1.1"
-	ideology = liberal_conservatism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Albert I"
+#	desc = "POLITICS_ALBERT_I_DESC"
+#	picture = "Albert_I.tga"
+#	expire = "1965.1.1"
+#	ideology = liberal_conservatism
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"

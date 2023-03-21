@@ -42,13 +42,13 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Anastasio Somoza García"
-	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-	picture = "Portrait_NIC_Anastasio_Somoza_Garcia_2.tga"
-	expire = "1965.1.1"
-	ideology = partial_democracy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Anastasio Somoza García"
+#	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+#	picture = "Portrait_NIC_Anastasio_Somoza_Garcia_2.tga"
+#	expire = "1965.1.1"
+#	ideology = partial_democracy
+#	traits = {
+#		#
+#	}
+#}

@@ -45,13 +45,13 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Du Yuesheng"
-	desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
-	picture = "Yuesheng.tga"
-	expire = "1965.1.1"
-	ideology = warlord
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Du Yuesheng"
+#	desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
+#	picture = "Yuesheng.tga"
+#	expire = "1965.1.1"
+#	ideology = warlord
+#	traits = {
+#		#
+#	}
+#}

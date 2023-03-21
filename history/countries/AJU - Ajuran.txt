@@ -1,6 +1,6 @@
 ﻿capital = 858
 
-#oob = "AJU"
+oob = "AJU"
 
 # Starting tech
 set_technology = {

@@ -31,13 +31,13 @@ set_popularities = {
 	
 }
 
-create_country_leader = {
-	name = "Ricardo Jiménez Oreamuno"
-	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-	picture = "Portrait_COS_Ricardo_Oreamuno.tga"
-	expire = "1965.1.1"
-	ideology = christian_democracy
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Ricardo Jiménez Oreamuno"
+#	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+#	picture = "Portrait_COS_Ricardo_Oreamuno.tga"
+#	expire = "1965.1.1"
+#	ideology = christian_democracy
+#	traits = {
+#		#
+#	}
+#}

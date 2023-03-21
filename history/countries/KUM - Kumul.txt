@@ -14,73 +14,73 @@ set_popularities = {
     utilitarian_despot = 100
 }
 
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = reformist_socialist_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = classic_liberal_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = absolute_monarchy
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Nasir Shah"
-	desc = "#"
-	picture = "KUM_Nasir_Shah.tga"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = marxism
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = reformist_socialist_ideology
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = social_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = classic_liberal_ideology
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = social_conservatism
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = absolute_monarchy
+#	traits = {
+#		#
+#	}
+#}
+#create_country_leader = {
+#	name = "Nasir Shah"
+#	desc = "#"
+#	picture = "KUM_Nasir_Shah.tga"
+#	expire = "1965.1.1"
+#	ideology = fascism_ideology
+#	traits = {
+#		#
+#	}
+#}

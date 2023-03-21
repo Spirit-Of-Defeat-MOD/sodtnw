@@ -116,17 +116,17 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Fanny Jabcovsky"
-	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	female = yes
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Fanny Jabcovsky"
+#	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
+#	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+#	expire = "1965.1.1"
+#	ideology = marxism
+#	female = yes
+#	traits = {
+#		#
+#	}
+#}
 
 create_field_marshal = {
 	name = "Arturo Rawson"

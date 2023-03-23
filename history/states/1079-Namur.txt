@@ -1,0 +1,34 @@
+state={
+	id=1079
+	name="STATE_1079"
+
+	history={
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3516 5 #Namur
+		}
+		victory_points = {
+			3516 7 #Charleroi
+		}
+		victory_points = {
+			11519 10
+		}
+
+	}
+
+	provinces={
+		3516 11519 13081 13340
+	}
+	manpower=992350
+	state_category = c5
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

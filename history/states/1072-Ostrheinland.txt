@@ -1,0 +1,22 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		3512 6469 6570 9482 529 
+	}
+	history={
+		owner = GER
+		victory_points = { 3512 10 }
+		victory_points = { 6469 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		set_demilitarized_zone = yes
+	}
+	manpower=3117905
+	buildings_max_level_factor=1.000
+	state_category=c10
+	local_supplies=0.000
+}

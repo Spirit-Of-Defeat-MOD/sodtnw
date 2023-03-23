@@ -1,0 +1,26 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+
+	history={
+		owner = BEL
+		add_core_of = BEL
+		victory_points = {
+			9536 5 #Mons
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		9536 14020 
+	}
+	manpower=983680
+	buildings_max_level_factor=1.000
+	state_category=c4
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1082
+	name="STATE_1082"
+
+	history={
+		victory_points = { 14024 15} #Metz
+		victory_points = { 9559 10 }
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+
+
+
+			9559 = {
+				bunker = 10
+
+			}
+			11502 = {
+				bunker = 10
+
+			}
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		9559 11502 14022 14023 14024
+	}
+	manpower=872075
+	buildings_max_level_factor=1.000
+	state_category=c5
+	local_supplies=0.000
+}

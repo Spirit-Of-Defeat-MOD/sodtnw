@@ -1,0 +1,22 @@
+state={
+	id=1074
+	name="STATE_1074"
+	provinces={
+		11560 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11560 3 
+		}
+		add_core_of = GER
+		set_demilitarized_zone = yes
+	}
+	manpower=170627
+	state_category=c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

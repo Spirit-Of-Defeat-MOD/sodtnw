@@ -1,0 +1,31 @@
+state={
+	id=1080
+	name="STATE_1080"
+
+	history={
+		owner = BEL
+		victory_points = {
+			6598 20 #Antwerp
+		}
+		victory_points = {
+			13068 3 #Leuven
+		}
+		buildings = {
+			infrastructure = 7
+			dockyard = 1
+			industrial_complex = 2
+			6598 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		6598 11419 13068 
+	}
+	manpower=1948475
+	state_category = c7
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

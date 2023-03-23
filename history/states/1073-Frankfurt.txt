@@ -1,0 +1,22 @@
+state={
+	id=1073
+	name="STATE_1073"
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = { 6488 20.0 }
+		add_core_of = GER
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		6444 6488 9486
+	}
+	manpower=753464
+	state_category=c8
+	buildings_max_level_factor=1.000
+	local_supplies=15.000
+}

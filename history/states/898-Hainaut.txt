@@ -12,14 +12,11 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 		}
-		victory_points = {
-			9536 3
-		}
 		add_core_of = BEL
-		victory_points = { 3576 1 }
+		
 	}
 
 	provinces={
-		9536 13340 3576
+		3576  14021 13339
 	}
 }

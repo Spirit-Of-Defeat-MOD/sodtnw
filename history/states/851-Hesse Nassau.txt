@@ -13,9 +13,6 @@ state={
 			arms_factory = 1
 		}
 		victory_points = {
-			6488 20.0 
-		}
-		victory_points = {
 			564 3
 		}
 		add_core_of = GER
@@ -23,6 +20,6 @@ state={
 	}
 
 	provinces={
-		564 3524 6444 6488 9486 9524 9547 11445 11533 
+		564 3524 9524 9547 11445 11533 
 	}
 }

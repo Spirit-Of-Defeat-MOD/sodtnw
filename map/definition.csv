@@ -14025,3 +14025,13 @@
 14024;102;22;35;land;false;hills;1
 14025;84;102;27;land;false;mountain;1
 14026;144;66;79;land;false;forest;1
+14027;137;218;102;land;true;plains;1
+14028;96;210;188;land;true;plains;1
+14029;213;26;185;land;false;plains;1
+14030;46;86;141;land;false;urban;1
+14031;65;142;38;land;false;plains;1
+14032;139;69;173;land;false;urban;1
+14033;46;53;150;land;false;marsh;1
+14034;97;176;119;land;false;urban;1
+14035;235;146;57;land;true;plains;1
+14036;172;161;104;land;false;plains;1

@@ -1,0 +1,31 @@
+#Guangdong
+characters={
+	GDG_Chen_Jiongming={
+		name="Chen Jiongming"
+		portraits={
+			civilian={
+				large="gfx/leaders/GDG/Leaders/Portrait_Chen_Jiongming.png"
+				small = "gfx/leaders/GDG/Ministers/Minister_Chen_Jiongming.png"
+			}
+			army={
+				large="gfx/leaders/GDG/Leaders/Portrait_Chen_Jiongming.png"
+				small = "gfx/leaders/GDG/Ministers/Minister_Chen_Jiongming.png"
+			}
+		}
+		country_leader={
+			
+			ideology=chen_jiongming_ideology
+			expire="1978.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			traits = {
+			}
+		}
+	}
+}

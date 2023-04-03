@@ -1,0 +1,24 @@
+state={
+	id=1087
+	name="STATE_1087"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+		}
+		victory_points = {
+			14034 8 #Utrecht
+		}
+	}
+
+	provinces={
+		14032 14033 14034
+	}
+	manpower=1355940
+	state_category = c5
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

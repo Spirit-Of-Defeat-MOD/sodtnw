@@ -1,0 +1,25 @@
+state={
+	id=1089
+	name="STATE_1089"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			11318 3 #Groningen
+		}
+	}
+
+	provinces={
+		9309 11318 14035
+	}
+	manpower=765680
+	state_category = c4
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1088
+	name="STATE_1088"
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		add_core_of = HOL
+		victory_points = {
+			9403 5 #Anschede
+		}
+		victory_points = {
+			9363 3 #Arnhem
+		}
+		victory_points = {
+			11456 3 #Nijmegen
+		}
+
+	}
+
+	provinces={
+		6241 6286 9363 9403 11456 
+	}
+	manpower=2132940
+	buildings_max_level_factor=1.000
+	state_category=c6
+	local_supplies=0.000
+}

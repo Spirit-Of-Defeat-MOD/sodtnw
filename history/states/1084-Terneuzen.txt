@@ -1,0 +1,23 @@
+state={
+	id=1084
+	name="STATE_1084"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			480 2 #Terneuzen 
+		}
+	}
+	
+	provinces={
+		480 14027
+	}
+	manpower=91960
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

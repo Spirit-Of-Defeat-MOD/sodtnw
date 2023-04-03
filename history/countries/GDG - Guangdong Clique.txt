@@ -44,6 +44,8 @@ if = {
 
 set_convoys = 40
 
+recruit_character = GDG_Chen_Jiongming
+
 set_politics = {
 	ruling_party = libertarian_socialist
 	last_election = "1936.1.1"

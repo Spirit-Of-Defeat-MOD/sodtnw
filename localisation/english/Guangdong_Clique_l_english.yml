@@ -17,7 +17,7 @@ GDG_social_liberal_party:0 "KMT"
 GDG_social_liberal_party_long:0 "Zhōngguó Guómíndǎng"
 GDG_classic_liberal_party:0 "KMT"
 GDG_classic_liberal_party_long:0 "Zhōngguó Guómíndǎng"
-GDG_libertarian_socialist_party:0 ""
+GDG_libertarian_socialist_party:0 "China Zhi Gong Party"
 GDG_libertarian_socialist_party_long:0 "Zhōngguó Zhìgōngdǎng"
 GDG_reformist_socialist_party:0 ""
 GDG_reformist_socialist_party_long:0 ""
@@ -63,7 +63,9 @@ GDG_nihilistic_extremism_ADJ:0 "Yue"
 
 #Ideas
 GDG_little_moscow:0 "A 'Little Moscow'"
+GDG_little_moscow_desc:0 "The city of Guangzhou, where the spirit of revolution burns bright like a fiery sun in the midst of a new dawn. Here, the people have embraced the ideology of their leader, Chen Jiongming, and have transformed their city into a bastion of socialist thought.\n\nAmid the bustling streets and towering buildings, you will find the heart of this new movement, pulsating with the energy of the masses. The people are united, and their voices ring out like a chorus of thunder, declaring their commitment to the cause of the working class.\n\nThe city is awash in the banners of revolution, and the slogans of the proletariat adorn every corner. From the factories to the farms, the people toil with a sense of purpose, knowing that they are building a new world from the ashes of the old.\n\nBehold, then, Guangzhou - a little Moscow in the East, where the people have taken control of their destiny and are forging a new path towards a brighter future."
 GDG_anarchist_influence:0 "Anarchist Influence"
+GDG_anarchist_influence_desc:0 "Amidst the fervor of revolution and the sound of marching boots,another force holds influence in Guangzhou - the anarchists!\n\nTheir influence can be felt in every corner of the city, where their propaganda posters adorn the walls and their ideas have taken root in the hearts of the people. The anarchists believe in a world where freedom and equality reign, where the oppressive structures of authority and hierarchy are dismantled, and where the people are free to live as they choose.\n\nHowever, these ideas have caused tension with the socialists and communists of the revolutionary movement. While the ultimate goal of both movements is the abolition of the state, the anarchists are unhappy with the seizure of the state in the name of progress citing that power corrupts irrespective of who's in charge of the state. And while up until now they have participated in the Revolutionary Government they continuously agitate for the abolition of oppresive institutions."
 GDG_radical_federalism:0 "Radical Federalism"
 
 #Ministers

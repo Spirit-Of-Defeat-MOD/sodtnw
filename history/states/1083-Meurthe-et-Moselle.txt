@@ -24,7 +24,6 @@ state={
 		}
 		add_core_of = FRA
 		add_core_of = FRE
-		add_core_of = FFR
 
 	}
 

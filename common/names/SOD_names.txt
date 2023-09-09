@@ -7,6 +7,27 @@
 ###############################################################
 # New Countries- im spending waay to much time on this
 ###############################################################
+AWS = {
+	male = {
+		names = {
+			Umar Amda Baeda Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
+			Abdi Abdul Abdullahi Abdurahman Ahmed Ali Amin Arif Awal Bashir Bile Bulle Burhan Cabdi Cabdul Cali Cawil Daher Dahir Dalmar Dirir Farah Farhan Faysal Gacal Galib Garaad Gelle 
+			Guled Haji Hamid Hassan Hussein Idris Ilmi Ismail Jama Jamal Jibril Jirde Khalid Khaliif Khayr Liban Mahamoud Mahdi Mahir Mahmud Mohamed Mohamoud Mustafe Nageeye Naji Nasir 
+			Nuh Nur Omar Osman Qadar Qani Qassim Qawi Qays Qorane Qoraneh Qorany Qorax Qoraxe Qori Qowre Raage Rageh Rashid Sabri Said Salad Saleban Salim Samaale Samatar Samsam 
+			Sanweyne Shire Sidahmed Sudi Sugule Suldan Suliman Taufiq Umar Usman Wabari Wali Warsame Xaashi Xirsi Yahye Yasin Yonis Yusuf
+			
+		}
+	}
+			
+	female = {
+		names = { Aamina Abshira Adar Afrah Aisha Amal Amina Asma Awliya Bishara Faiza Farhiya Fathiya Halima Hamdiya Hawa Ibtisam Ikram Imtithal Kaltun }
+	}
+	surnames = {
+		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Hanfadh" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah" Mafatah Seyon Maryam
+		
+	}
+	callsigns = {  }
+}
 
 ITM = {
 	male = {
@@ -118,23 +139,6 @@ ITS = {
 	
 	}
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso }
-}
-
-AWS = {
-	male = {
-		names = {
-			Umar Amda Baeda Kadhafo Aydahis Hanfere Hanfadhe Mahammad Yayyo Alimirah Habib Abdulkadir Muhyadin
-		}
-	}
-			
-	female = {
-		names = {  }
-	}
-	surnames = {
-		"ibn Kadhafo" "ibn Aydahis" "ibn Hanfere" "ibn Hanfadh" "ibn Mahammad" "ibn Yayyo" "ibn Alimirah" Mafatah Seyon Maryam
-		
-	}
-	callsigns = {  }
 }
 
 ###CHINA####

@@ -17,7 +17,7 @@ characters={
 		name = "Wilhelm Miklas"
 		portraits = {
 			civilian = {
-				large="gfx/leaders/AUS/AUS_wilhelm_miklas.tga"
+				large="gfx/leaders/AUS/Portrait_Austria_Wilhelm_Miklas.png"
 			}
 		}
 		country_leader={

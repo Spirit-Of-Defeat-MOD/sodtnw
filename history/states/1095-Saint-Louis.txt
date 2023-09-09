@@ -1,0 +1,24 @@
+state={
+	id=1095
+	name="STATE_1095"
+
+	history={
+		owner = AOF
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			12710 3
+		}
+	}
+
+	provinces={
+		12710 14051 14052
+	}
+	manpower=796500
+	state_category = c4
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -15,22 +15,14 @@ state={
 			dockyard = 4
 			fuel_silo = 1
 			air_base = 5
-			11837 = {
-				naval_base = 10
-			}
 			11998 = {
 				naval_base = 2
 			}
 		}
 		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-			}
-		}
 	}
 
 	provinces={
-		3901 6979 9856 9990 10027 11837 11998 12066 12098 
+		3901 9990 10027  12066 12098 
 	}
 }

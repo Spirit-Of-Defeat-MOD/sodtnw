@@ -1,0 +1,21 @@
+state={
+	id=1094
+	name="STATE_1094"
+
+	history={
+		owner = AOF
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		7972 14049 14050
+	}
+	manpower=998400
+	state_category = c3
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

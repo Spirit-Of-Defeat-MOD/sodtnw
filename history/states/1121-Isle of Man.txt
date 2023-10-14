@@ -1,0 +1,26 @@
+state = {
+	id = 1121
+	manpower = 51000
+	name = "STATE_1121"
+	state_category = c1
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		
+		victory_points = {
+			3311 1 #Douglas
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			3311 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		3311 
+	}
+	
+
+	local_supplies=0.000
+}

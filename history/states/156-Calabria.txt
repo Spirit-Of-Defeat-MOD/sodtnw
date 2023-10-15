@@ -7,9 +7,6 @@ state={
 	state_category = c6
 	history={
 		owner = ITA
-		victory_points = {
-			11837 15 
-		}
 		buildings = {
 			infrastructure = 5
 			dockyard = 4

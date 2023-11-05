@@ -1,0 +1,23 @@
+state={
+	id=1132
+	name="STATE_1132"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14083 2 #Ajman
+		}
+	}
+
+	provinces={
+		14083
+	}
+	manpower=4200
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1137
+	name="STATE_1137"
+
+	history={
+		add_core_of = RAJ
+		add_core_of = SAU
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	provinces={
+		14091
+	}
+	manpower=600
+	state_category = c1
+	impassable = yes
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

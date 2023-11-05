@@ -1,0 +1,23 @@
+state={
+	id=1141
+	name="STATE_1141"
+	history={
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 2
+			
+
+		}
+
+		
+	}
+
+	provinces={
+		14098 14099 14100 14101 
+	}
+	manpower=134965
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

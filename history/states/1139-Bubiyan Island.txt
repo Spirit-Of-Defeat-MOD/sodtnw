@@ -1,0 +1,24 @@
+state={
+	id=1139
+	name="STATE_1139"
+
+	history={
+		add_core_of = KUW
+		add_core_of = IRQ
+		owner = IRQ
+		victory_points = {
+			14097 1 #Az Zawr
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		14097
+	}
+	manpower=9950
+	state_category=c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

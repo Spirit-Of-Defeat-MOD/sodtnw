@@ -1,0 +1,22 @@
+state={
+	id=1129
+	name="STATE_1129"
+
+	history={
+		owner = OMN
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = OMN
+	}
+	
+	provinces={
+		2059 
+	}
+	manpower=35870
+	state_category=c1
+	impassable = yes
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

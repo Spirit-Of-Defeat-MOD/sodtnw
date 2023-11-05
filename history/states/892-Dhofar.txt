@@ -8,15 +8,15 @@ state={
 	impassable = yes
 
 	history={
-		owner = OMA
+		owner = OMN
 		buildings = {
 			infrastructure = 2
 		}
 
-		add_core_of = OMA
+		add_core_of = OMN
 	}
 
 	provinces={
-		2018 2059
+		2018 13336 5049
 	}
 }

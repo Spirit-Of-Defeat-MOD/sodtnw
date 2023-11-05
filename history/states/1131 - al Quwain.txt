@@ -1,0 +1,23 @@
+state={
+	id=1131
+	name="STATE_1131"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14082 1 #Umm Al Quwain
+		}
+	}
+
+	provinces={
+		14082
+	}
+	manpower=3700
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=1138
+	name="STATE_1138"
+
+	history={
+		add_core_of = KUW
+		add_core_of = SAU
+		add_core_of = IRQ
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14093 2
+		}
+	}
+	provinces={
+		14093 14094
+	}
+	manpower= 87100
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=1126
+	name="STATE_1126"
+
+	history={
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14077 3 #AlBuraimi
+		}
+	}
+
+	provinces={
+		14077 14078
+	}
+	manpower=30130
+	state_category = c3
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

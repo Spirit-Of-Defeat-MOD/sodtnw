@@ -1,0 +1,25 @@
+state=
+{
+	id=1124
+	name="STATE_1124"
+	manpower=280350
+	state_category = c2
+	history={
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+			
+		}
+		
+		victory_points = {
+			8020 1 #Sur
+		}
+		victory_points = {
+			8002 1 #Duqm
+		}
+	}
+	provinces={
+		1947 8002 8020 14068
+	}
+}

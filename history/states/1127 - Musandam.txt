@@ -1,0 +1,25 @@
+state={
+	id=1127
+	name="STATE_1127"
+
+	history={
+		owner = OMA
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			14079 1 #Khasab
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		14079
+	}
+	manpower=32120
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

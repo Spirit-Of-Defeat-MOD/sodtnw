@@ -1,0 +1,22 @@
+state=
+{
+	id=1125
+	name="STATE_1125"
+	manpower=310350
+	state_category = c3
+	history={
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+			
+		}
+		
+		victory_points = {
+			4993 4 #Sohar
+		}
+	}
+	provinces={
+		4993 14071 14072
+	}
+}

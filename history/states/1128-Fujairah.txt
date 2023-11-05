@@ -1,0 +1,23 @@
+state={
+	id=1128
+	name="STATE_1128"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14080 2 #Ras Al-Khaimah
+		}
+	}
+
+	provinces={
+		14080
+	}
+	manpower=29100
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -7,7 +7,9 @@ state={
 	
 	history={
 		add_core_of = KUW
-		owner = RAJ #Persian gulf residency under bombay presidency
+		add_core_of = IRQ
+		owner = IRQ
+	 #Persian gulf residency under bombay presidency
 		victory_points = {
 			8085 5
 		}
@@ -20,6 +22,6 @@ state={
 
 	}
 	provinces={
-		8085
+		8085 14095 14096
 	}
 }

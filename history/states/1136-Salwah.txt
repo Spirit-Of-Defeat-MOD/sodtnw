@@ -1,0 +1,21 @@
+state={
+	id=1136
+	name="STATE_1136"
+
+	history={
+		add_core_of = RAJ
+		add_core_of = SAU
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	provinces={
+		4932 14090
+	}
+	manpower=17000
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

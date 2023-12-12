@@ -76,15 +76,15 @@ leader_traits = {
 			factor = 1
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -106,15 +106,15 @@ leader_traits = {
 			factor = 1
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -137,15 +137,15 @@ leader_traits = {
 
 			modifier = {
 				is_army_leader = yes
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -165,7 +165,7 @@ leader_traits = {
 			
 			modifier = {
 				is_army_leader = yes
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
@@ -174,7 +174,7 @@ leader_traits = {
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = {
@@ -215,15 +215,15 @@ leader_traits = {
 			factor = 1
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -250,15 +250,15 @@ leader_traits = {
 				factor = 0 
 			}
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -285,15 +285,15 @@ leader_traits = {
 				factor = 0 
 			}
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -318,15 +318,15 @@ leader_traits = {
 			factor = 1
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -346,15 +346,15 @@ leader_traits = {
 			factor = 1
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 		}
@@ -397,9 +397,9 @@ leader_traits = {
 			owner = {
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
+						#has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}
@@ -420,15 +420,15 @@ leader_traits = {
 			}
 			
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 			
@@ -464,9 +464,9 @@ leader_traits = {
 			owner = {
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
+						#has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}
@@ -480,15 +480,15 @@ leader_traits = {
 			factor = 1
 			
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 			
@@ -528,9 +528,9 @@ leader_traits = {
 			owner = {
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
+						#has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}
@@ -547,15 +547,15 @@ leader_traits = {
 			}
 			
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			modifier = { #Purged Junior Army Officers
-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
+				#FROM = { #has_idea = SOV_purged_junior_army_officers_3 }
 				factor = 0
 			}
 			
@@ -585,14 +585,11 @@ leader_traits = {
 				division_has_battalion_in_template = light_flame_tank
 				division_has_battalion_in_template = medium_flame_tank
 				division_has_battalion_in_template = heavy_flame_tank
-				owner = {
-					has_idea = superior_firepower_academy_spirit
-				}
 			}
 			owner = {
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
 					}
 				}
@@ -603,16 +600,16 @@ leader_traits = {
 			factor = 1
 			
 			modifier = {
-				FROM = { has_idea = superior_firepower_academy_spirit }
+				#FROM = { has_idea = superior_firepower_academy_spirit }
 				factor = 2
 			}
 
 			modifier = {
-				FROM = { has_idea = best_of_the_best_spirit }
+				#FROM = { #has_idea = best_of_the_best_spirit }
 				factor = 0
 			}
 			modifier = {
-				FROM = { has_idea = academy_scholarships_spirit }
+				#FROM = { has_idea = academy_scholarships_spirit }
 				factor = 0
 			}
 			
@@ -659,7 +656,7 @@ leader_traits = {
 				}
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
 					}
 				}
@@ -726,7 +723,7 @@ leader_traits = {
 				original_tag = ITA
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
 					}
 				}
@@ -795,7 +792,7 @@ leader_traits = {
 				}
 				NOT = {
 					OR = {
-						has_idea = best_of_the_best_spirit
+						#has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
 					}
 				}

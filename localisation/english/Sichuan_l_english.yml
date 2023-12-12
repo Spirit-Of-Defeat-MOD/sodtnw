@@ -1,0 +1,47 @@
+﻿l_english:
+
+### Country Names ### - Liu Cunhou
+ SLC: "Chuan-Shaan Defense Army"
+ SLC_ADJ: "Cun"
+ SLC_DEF: "Sichuan-Shaanxi Border Defense Army"
+
+ SLC_libertarian_socialist: "Dazhou Liberated Zone"
+ SLC_libertarian_socialist_ADJ: "Dazhou"
+ SLC_libertarian_socialist_DEF: "the Dazhou Liberated Zone"
+ SLC_communism: "Dazhou Soviet"
+ SLC_communism_ADJ: "Dazhou"
+ SLC_communism_DEF: "the Dazhou Revolutionary Base Area"
+
+### Parties ###
+ SLC_libertarian_socialist_party: "PFP"
+ SLC_communism_party: "WPP"
+ SLC_utilitarian_despot_party: "SSBD"
+
+ SLC_libertarian_socialist_party_long: "People’s Freedom Party - Sichuan Area"
+ SLC_communism_party_long: ""Workers’ and Peasants’ Party - Sichuan Zone"
+ SLC_utilitarian_despot_party_long: "Sichuan-Shaanxi Border Defense Army Leadership"
+
+### Country Names ### - Liu Wenhui
+ SLW: "Chuankang Pacification Army"
+ SLW_ADJ: "Wen"
+ SLW_DEF: "the Sichuan-Xikang Pacification Headquarters"
+
+ SLW_libertarian_socialist: "Chuankang Liberated Zone"
+ SLW_libertarian_socialist_ADJ: "Chuankang"
+ SLW_libertarian_socialist_DEF: "the Chuankang Liberated Zone"
+ SLW_communism: "Chuankang Soviet"
+ SLW_communism_ADJ: "Chuankang"
+ SLW_communism_DEF: "the Chuankang Revolutionary Base Area"
+
+### Parties ###
+ SLW_libertarian_socialist_party: "PFP"
+ SLW_communism_party: "WPP"
+ SLW_utilitarian_despot_party: "SXPH"
+
+ SLW_libertarian_socialist_party_long: "People’s Freedom Party - Xikang Area"
+ SLW_communism_party_long: ""Workers’ and Peasants’ Party - Xikang Zone"
+ SLW_utilitarian_despot_party_long: "Sichuan-Xikang Pacification Headquarters Leadership"
+
+
+
+

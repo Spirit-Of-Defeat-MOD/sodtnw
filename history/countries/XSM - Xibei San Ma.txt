@@ -1,22 +1,7 @@
-﻿capital = 604
-
-oob = "XSM_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
+﻿########################################
+#####- Section 01: Politics - ##########
+########################################
+capital = 604
 
 set_politics = {
 	ruling_party = utilitarian_despot
@@ -28,13 +13,60 @@ set_popularities = {
 	utilitarian_despot = 100
 }
 
-#create_country_leader = {
-#	name = "Ma Lin"
-#	desc = "MA_LIN_DESC"
-#	picture = "Portrait_XSM_Ma_Lin.png"
-#	ideology = warlord
-#	traits = {
-#		#
-#	}
-#}
+
+
+########################################
+#####- Section 02: Technology - ########
+########################################
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+	tech_plateau_cavalry = 1
+}
+
+########################################
+#####- Section 03: Ideas and Events - ##
+########################################
+
+
+
+########################################
+#####- Section 04: Characters - ########
+########################################
+
+###- Country Leaders -###
+recruit_character = XSM_Ma_Lin
+
+###- Commanders -###
+
+###- Political Advisors -###
+
+###- High Command -###
+
+#Air Advisors
+
+#Navy Advisors
+
+#Land Advisors
+
+
+###- Theorists -###
+
+
+########################################
+#####- Section 05: Military Setup - ####
+########################################
+oob = "XSM_1936"
+
+########################################
+#####- Section 06: Foreign Policy - ####
+########################################
+
+
+########################################
+#####- Section 07: Miscellaneous - #####
+########################################
+
+
 

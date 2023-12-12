@@ -1,0 +1,33 @@
+JAP_chinese_military_operations = {
+	priority = 90
+	icon = spr_the_inevitable_civil_war
+
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		always = yes
+	}
+}
+
+JAP_chinese_military_operations_northeast = {
+	priority = 80
+	icon = spr_the_inevitable_civil_war
+
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible_when_empty = yes
+
+	visible = {
+		has_country_flag = manchuria_operation_begin
+	}
+}

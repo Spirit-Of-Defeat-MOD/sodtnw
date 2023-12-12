@@ -1,0 +1,65 @@
+##Political Leaders
+characters={
+	XSM_Ma_Lin = {
+		name = "Ma Lin"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/China/Qinghai/Portrait_XSM_Ma_Lin.png"
+			}
+
+			army = {
+				large="gfx/leaders/China/Qinghai/Portrait_XSM_Ma_Lin.png"
+			}
+		}
+		country_leader={
+			ideology=warlord
+			expire="1945.1.26"
+			traits = { Guardian_of_the_Plateau }
+		}
+
+		field_marshal = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+			traits = {
+			}
+		}
+	}
+
+	XSM_Sun_Lianzhong = {
+		name = "Sun Lianzhong"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/China/Qinghai/Portrait_XSM_Sun_Lianzhong.png"
+				small="gfx/leaders/China/Qinghai/Minister_XSM_Sun_Lianzhong.png"
+			}
+
+			army = {
+				large="gfx/leaders/China/Qinghai/Portrait_XSM_Sun_Lianzhong.png"
+				small="gfx/leaders/China/Qinghai/Minister_XSM_Sun_Lianzhong.png"
+			}
+		}
+
+		country_leader={
+			ideology=warlord
+			expire="1990.8.14"
+			traits = {  }
+		}
+
+		corps_commander = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+
+		advisor = {
+			slot = head_of_government
+			idea_token = sun_lianzhong
+			traits = { head_of_government }
+		}
+	}
+}

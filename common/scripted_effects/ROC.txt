@@ -1,0 +1,40 @@
+ROC_collapse = {
+	if = {
+		limit = {
+			check_variable = {
+				var = ROC_collapse
+				value = 1
+				compare = equals
+			}
+		}
+		add_ideas = ROC_collapse_phase_1
+	}
+
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ROC_collapse
+				value = 2
+				compare = equals
+			}
+		}
+		swap_ideas = {
+			remove_idea = ROC_collapse_phase_1
+			add_idea = ROC_collapse_phase_2
+		}
+	}
+
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ROC_collapse
+				value = 3
+				compare = equals
+			}
+		}
+		swap_ideas = {
+			remove_idea = ROC_collapse_phase_2
+			add_idea = ROC_collapse_phase_3
+		}
+	}
+}

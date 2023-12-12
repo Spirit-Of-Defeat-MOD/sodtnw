@@ -1,36 +1,36 @@
 ﻿l_english: 
 
 #Parties
-ROC_fascism_party:0 ""
-ROC_fascism_party_long:0 ""
-ROC_communism_party:0 ""
-ROC_communism_party_long:0 ""
-ROC_democratic_party:1 ""
-ROC_democratic_party_long:0 ""
-ROC_utilitarian_despot_party:0 ""
-ROC_utilitarian_despot_party_long:0 ""
+ROC_fascism_party:0 "National Workers’ Syndicate"
+ROC_fascism_party_long:0 "National Workers’ Syndicate"
+ROC_communism_party:0 "WPP"
+ROC_communism_party_long:0 "Workers’ and Peasants’ Party"
+ROC_democratic_party:1 "KMT"
+ROC_democratic_party_long:0 "Kuomintang"
+ROC_utilitarian_despot_party:0 "Unity and Progress Society"
+ROC_utilitarian_despot_party_long:0 "Unity and Progress Society"
 ROC_neutrality_party:0 "Guominjun"
 ROC_neutrality_party_long:0 "Nationalist Army"
-ROC_social_democrat_party:0 ""
-ROC_social_democrat_party_long:0 ""
-ROC_social_liberal_party:0 ""
-ROC_social_liberal_party_long:0 ""
-ROC_classic_liberal_party:0 ""
-ROC_classic_liberal_party_long:0 ""
-ROC_libertarian_socialist_party:0 ""
-ROC_libertarian_socialist_party_long:0 ""
-ROC_reformist_socialist_party:0 "Guominjun"
-ROC_reformist_socialist_party_long:0 "Nationalist Army"
-ROC_nihilistic_extremism_party:0 ""
-ROC_nihilistic_extremism_party_long:0 ""
+ROC_social_democrat_party:0 "DLU"
+ROC_social_democrat_party_long:0 "Democratic Labor Union"
+ROC_social_liberal_party:0 "LPC"
+ROC_social_liberal_party_long:0 "Liberal Progress Coalition"
+ROC_classic_liberal_party:0 "FMA"
+ROC_classic_liberal_party_long:0 "Free Market Association"
+ROC_libertarian_socialist_party:0 "PFP"
+ROC_libertarian_socialist_party_long:0 "People’s Freedom Party"
+ROC_reformist_socialist_party:0 "Progressive People’s Party"
+ROC_reformist_socialist_party_long:0 "Progressive People’s Front"
+ROC_nihilistic_extremism_party:0 "Revolutionary Purge Party"
+ROC_nihilistic_extremism_party_long:0 "Revolutionary Purge Party"
 
 #Country Names
 ROC_fascism:0 "Republic of China"
 ROC_fascism_DEF:0 "the Republic of China"
-ROC_libertarian_socialist:0 "Republic of China"
-ROC_libertarian_socialist_DEF:0 "the Republic of China"
-ROC_utilitarian_despot:0 "Republic of China"
-ROC_utilitarian_despot_DEF:0 "the Republic of China"
+ROC_libertarian_socialist:0 "People’s Federation of China"
+ROC_libertarian_socialist_DEF:0 "the People’s Federation of China"
+ROC_utilitarian_despot:0 "United Provinces of China"
+ROC_utilitarian_despot_DEF:0 "the United Provinces of China"
 ROC_democratic:0 "Republic of China"
 ROC_democratic_DEF:0 "the Republic of China"
 ROC_neutrality:1 "Republic of China"
@@ -43,10 +43,10 @@ ROC_social_liberal:0 "Republic of China"
 ROC_social_liberal_DEF:0 "the Republic of China"
 ROC_classic_liberal:0 "Republic of China"
 ROC_classic_liberal_DEF:0 "the Republic of China"
-ROC_communism:0 "Republic of China"
-ROC_communism_DEF:0 "the Republic of China"
-ROC_nihilistic_extremism:0 "Republic of China"
-ROC_nihilistic_extremism_DEF:0 "the Republic of China"
+ROC_communism:0 "People’s Republic of China"
+ROC_communism_DEF:0 "the People’s Republic of China"
+ROC_nihilistic_extremism:0 "New Order of China"
+ROC_nihilistic_extremism_DEF:0 "the New Order of China"
  
 ROC_fascism_ADJ:0 "Beiyang"
 ROC_libertarian_socialist_ADJ:0 "Beiyang"
@@ -73,3 +73,26 @@ ROC_nihilistic_extremism_ADJ:0 "Beiyang"
 #should be reintegrated
 ###French Togo###
 #Parties
+ROC_fall_of_the_republic:0 "Fall of the Republic"
+ROC_fall_of_the_republic_desc:0 "Today marks a critical juncture in the history of China. Feng Yuxiang, the man at the helm of the Beiyang Republic, finds himself in a precarious position, his authority wavering day by day. Down south, a storm is brewing. The nationalists, with the southern warlords in tow, are gearing up for a one final push. In the north, the once steadfast northern warlords are now fanning the flames of rebellion. The end of the Beiyang Repbublic is near.\n\n\n[ROC_collapse_phase]"
+ROC_escalation:0 "Escalating tension"
+northern_authority_collapsed:0 "Northern authority has collapsed"
+
+ROC_collapse_phase:0 "These are phases of collapse"
+ROC_collapse_phase_first_level:0 "We are experiencing internal strife"
+ROC_collapse_phase_second_level:0 "We are experiencing economic strain"
+
+
+ROC_collapse_phase_1:0 "Internal Strife"
+ROC_collapse_phase_2:0 "Internal Strife"
+ROC_collapse_phase_3:0 "Internal Strife"
+
+
+add_1_to_collapse:0 "The Collapse will progress to the next phase"
+
+
+plateau_cavalry:0 "Plateau Cavalry"
+
+
+
+Guardian_of_the_Plateau:0 "Guardian of the Plateau"

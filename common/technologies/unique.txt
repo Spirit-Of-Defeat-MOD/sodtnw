@@ -1,0 +1,14 @@
+technologies = {
+	tech_plateau_cavalry = {
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		enable_subunits = {
+			plateau_cavalry
+		}		
+	}
+}

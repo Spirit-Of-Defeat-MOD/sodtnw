@@ -1,0 +1,16 @@
+defined_text = {
+	name = ROC_collapse_phase
+	text = {
+		trigger = {
+			has_idea = ROC_collapse_phase_1
+		}
+		localization_key = ROC_collapse_phase_first_level
+	}
+
+	text = {
+		trigger = {
+			has_idea = ROC_collapse_phase_2
+		}
+		localization_key = ROC_collapse_phase_second_level
+	}
+}

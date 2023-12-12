@@ -1,0 +1,35 @@
+ROC_fall_of_the_republic ={
+	ROC_escalation = {
+
+		allowed = {
+			original_tag = ROC
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = northern_authority_collapsed
+				check_variable = {
+					var = ROC_collapse
+					value = 5
+					compare = equals
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+		is_good = no #Tooltip purposes
+		fire_only_once = no
+		days_mission_timeout = 100
+
+		timeout_effect = { 
+			add_to_variable = {
+				var = ROC_collapse
+				value = 1
+				tooltip = add_1_to_collapse
+			}
+
+			ROC_collapse = yes
+
+		}
+	}
+}

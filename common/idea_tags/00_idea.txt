@@ -37,11 +37,11 @@ idea_categories = {
 	}
 	
 	cabinet = {
-		slot = head_of_government
-		slot = foreign_minister
-		slot = economy_minister
-		slot = interior_minister
-		slot = political_advisor
+		character_slot = head_of_government
+		character_slot = foreign_minister
+		character_slot = economy_minister
+		character_slot = interior_minister
+		character_slot = political_advisor
 		
 		ledger = civilian
 		
@@ -64,11 +64,11 @@ idea_categories = {
 	}
 	
 	military_staff = {
-		slot = chief_of_staff
-		slot = high_command
-		slot = army_chief 
-		slot = navy_chief 
-		slot = air_chief
+		character_slot = chief_of_staff
+		character_slot = high_command
+		character_slot= army_chief 
+		character_slot = navy_chief 
+		character_slot = air_chief
 
 		
 		ledger = invalid # must be overridden

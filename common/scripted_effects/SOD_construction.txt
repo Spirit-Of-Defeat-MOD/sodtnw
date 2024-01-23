@@ -1,0 +1,79 @@
+construct_building = {
+	if = {
+		limit = { NOT = { has_variable = building_token } }
+		set_temp_variable = { building_token = token:industrial_complex }
+		set_temp_variable = { building_token_for_trigger = token:industrial_complex }
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = { building_token = token:synthetic_refinery }
+				check_variable = { building_token = token:fuel_silo }
+			}
+		}
+		#uses industrial_complex in the trigger due to synthetic_refinery and fuel_silo resulting in no visible tooltip if the tech isn't unlocked yet
+		set_temp_variable = { building_token_for_trigger = token:industrial_complex }
+	}
+	else = {
+		set_temp_variable = { building_token_for_trigger = building_token }
+	}
+
+	meta_effect = {
+		text = {
+			if = {
+				limit = {
+					any_core_state = {
+						free_building_slots = { building = [BUILDING_TOKEN_FOR_TRIGGER] size > 0 include_locked = yes }
+						is_owned_and_controlled_by = PREV
+						is_in_home_area = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = { building = [BUILDING_TOKEN_FOR_TRIGGER] size > 0 include_locked = yes }
+						is_core_of = PREV
+						is_in_home_area = yes
+					}
+					if = {
+						limit = { NOT = { check_variable = { building_token = token:infrastructure } } }
+						add_extra_state_shared_building_slots = 1
+					}
+					add_building_construction = { type = [BUILDING] level = 1 instant_build = yes }
+				}
+			}
+		}
+		BUILDING = "[?building_token.GetTokenKey]"
+		BUILDING_TOKEN_FOR_TRIGGER = "[?building_token_for_trigger.GetTokenKey]"
+	}
+	
+}
+
+add_civilian_factory = {
+	set_temp_variable = { building_token = token:industrial_complex }
+	construct_building = yes
+}
+
+add_military_factory = {
+	set_temp_variable = { building_token = token:arms_factory }
+	construct_building = yes
+}
+
+add_infrastructure = {
+	set_temp_variable = { building_token = token:infrastructure }
+	construct_building = yes
+}
+
+add_dockyard = {
+	set_temp_variable = { building_token = token:dockyard }
+	construct_building = yes
+}
+
+add_synthetic_refinery = {
+	set_temp_variable = { building_token = token:synthetic_refinery }
+	construct_building = yes
+}
+
+add_fuel_silo = {
+	set_temp_variable = { building_token = token:fuel_silo }
+	construct_building = yes
+}

@@ -1,0 +1,25 @@
+state={
+	id=1147
+	name="STATE_1147"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			14106 3 #Houmt Souk
+		}
+		
+		buildings = {
+			infrastructure = 3	
+		}
+
+	}
+
+	provinces={
+		14106
+	}
+	manpower=120876
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

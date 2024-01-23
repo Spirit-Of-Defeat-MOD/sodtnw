@@ -1,0 +1,388 @@
+focus_tree = {
+	id = beiyang_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROC
+		}
+	}
+
+	default = no
+	continuous_focus_position = {
+		x = 2050
+		y = 1500
+	}
+
+	
+    focus = {
+	    id = ROC_the_25th_year
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 12
+	    y = 0
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_the_25th_year"
+	    }
+    }
+
+    focus = {
+	    id = ROC_state_of_the_economy
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_state_of_the_economy"
+	    }
+	    relative_position_id = ROC_the_25th_year
+	    prerequisite = { focus = ROC_the_25th_year     }
+    }
+
+    focus = {
+	    id = ROC_the_southern_question
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = -12
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_the_southern_question"
+	    }
+	    relative_position_id = ROC_the_25th_year
+	    prerequisite = { focus = ROC_the_25th_year     }
+    }
+
+    focus = {
+	    id = ROC_the_affiars_of_the_west
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 12
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_the_affiars_of_the_west"
+	    }
+	    relative_position_id = ROC_the_25th_year
+	    prerequisite = { focus = ROC_the_25th_year     }
+    }
+
+    focus = {
+	    id = ROC_economic_reform_committee
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_economic_reform_committee"
+	    }
+	    relative_position_id = ROC_state_of_the_economy
+	    prerequisite = { focus = ROC_state_of_the_economy     }
+    }
+
+    focus = {
+	    id = ROC_survey_the_provinces
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_survey_the_provinces"
+	    }
+	    relative_position_id = ROC_economic_reform_committee
+	    prerequisite = { focus = ROC_economic_reform_committee     }
+    }
+
+    focus = {
+	    id = ROC_rural_development_initiative
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_rural_development_initiative"
+	    }
+	    relative_position_id = ROC_survey_the_provinces
+	    prerequisite = { focus = ROC_survey_the_provinces     }
+    }
+
+    focus = {
+	    id = ROC_industrial_investment_initiative
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = -1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_industrial_investment_initiative"
+	    }
+	    relative_position_id = ROC_survey_the_provinces
+	    prerequisite = { focus = ROC_survey_the_provinces     }
+    }
+
+    focus = {
+	    id = ROC_oversee_industrial_expansion
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_oversee_industrial_expansion"
+	    }
+	    relative_position_id = ROC_industrial_investment_initiative
+	    prerequisite = { focus = ROC_industrial_investment_initiative     }
+    }
+
+    focus = {
+	    id = ROC_modernization_programs
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_modernization_programs"
+	    }
+	    relative_position_id = ROC_rural_development_initiative
+	    prerequisite = { focus = ROC_rural_development_initiative     }
+    }
+
+    focus = {
+	    id = ROC_develop_local_roads
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_develop_local_roads"
+	    }
+	    relative_position_id = ROC_oversee_industrial_expansion
+	    prerequisite = { focus = ROC_oversee_industrial_expansion     }
+	    prerequisite = { focus = ROC_modernization_programs     }
+    }
+
+    focus = {
+	    id = ROC_industrial_railways
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_industrial_railways"
+	    }
+	    relative_position_id = ROC_develop_local_roads
+	    prerequisite = { focus = ROC_develop_local_roads     }
+    }
+
+    focus = {
+	    id = ROC_land_reform
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 2
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_land_reform"
+	    }
+	    relative_position_id = ROC_modernization_programs
+	    prerequisite = { focus = ROC_modernization_programs     }
+    }
+
+    focus = {
+	    id = ROC_european_technical_assistance
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = -1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_european_technical_assistance"
+	    }
+	    relative_position_id = ROC_oversee_industrial_expansion
+	    prerequisite = { focus = ROC_oversee_industrial_expansion     }
+    }
+
+    focus = {
+	    id = ROC_tech_innovation
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_tech_innovation"
+	    }
+	    relative_position_id = ROC_european_technical_assistance
+	    prerequisite = { focus = ROC_european_technical_assistance     }
+    }
+
+    focus = {
+	    id = ROC_jingwei_mining_company
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_jingwei_mining_company"
+	    }
+	    relative_position_id = ROC_land_reform
+	    prerequisite = { focus = ROC_land_reform     }
+    }
+
+    focus = {
+	    id = ROC_ports_of_entry
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = -1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_ports_of_entry"
+	    }
+	    relative_position_id = ROC_industrial_railways
+	    prerequisite = { focus = ROC_industrial_railways     }
+	    prerequisite = { focus = ROC_tech_innovation     }
+    }
+
+    focus = {
+	    id = ROC_new_trade_agreements
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 1
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_new_trade_agreements"
+	    }
+	    relative_position_id = ROC_industrial_railways
+	    prerequisite = { focus = ROC_industrial_railways     }
+	    prerequisite = { focus = ROC_jingwei_mining_company     }
+    }
+
+    focus = {
+	    id = ROC_evaluate_the_gongxian_arsenal
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 5
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_evaluate_the_gongxian_arsenal"
+	    }
+	    relative_position_id = ROC_survey_the_provinces
+	    prerequisite = { focus = ROC_survey_the_provinces     }
+    }
+
+    focus = {
+	    id = ROC_jingwei_arms_company
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 2
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_jingwei_arms_company"
+	    }
+	    relative_position_id = ROC_evaluate_the_gongxian_arsenal
+	    prerequisite = { focus = ROC_evaluate_the_gongxian_arsenal     }
+    }
+
+    focus = {
+	    id = ROC_expand_taiyuan_arsenal
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_expand_taiyuan_arsenal"
+	    }
+	    relative_position_id = ROC_jingwei_arms_company
+	    prerequisite = { focus = ROC_jingwei_arms_company     }
+    }
+
+    focus = {
+	    id = ROC_open_air_facilities
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 0
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_open_air_facilities"
+	    }
+	    relative_position_id = ROC_expand_taiyuan_arsenal
+	    prerequisite = { focus = ROC_expand_taiyuan_arsenal     }
+    }
+
+    focus = {
+	    id = ROC_new_republic_dockyards
+	    icon = GFX_generic_suspend_constitution
+	    cost = 2
+	    x = 2
+	    y = 1
+	    ai_will_do = {
+		    factor = 1
+	    }
+	    completion_reward = {
+		    log = "[GetDateText]: [Root.GetName]: Focus ROC_new_republic_dockyards"
+	    }
+	    relative_position_id = ROC_jingwei_mining_company
+	    prerequisite = { focus = ROC_jingwei_mining_company     }
+	    prerequisite = { focus = ROC_open_air_facilities     }
+    }
+
+}

@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+11957;14106;sea;-1;-1;-1;-1;-1;;
 14092;14098;impassable;-1;-1;-1;-1;-1;;
 4974;13333;impassable;-1;-1;-1;-1;-1;;
 10901;13333;impassable;-1;-1;-1;-1;-1;;
@@ -313,8 +314,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10765;13214;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 13474;13482;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 10848;13477;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
-10830;13482;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 8033;13482;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
+10830;13482;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 8033;13214;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 10916;13482;impassable;-1;-1;-1;-1;-1;;Sonoran Wilderness
 177;13009;sea;5533;-1;-1;-1;-1;;St Lucia-Martinique

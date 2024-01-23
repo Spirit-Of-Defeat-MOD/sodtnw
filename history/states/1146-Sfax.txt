@@ -1,0 +1,30 @@
+state={
+	id=1146
+	name="STATE_1146"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+
+		victory_points = {
+			11921 10 #Sfax
+		}
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11921 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		1037 4061 10026 11921 11935 
+	}
+	manpower=756800
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

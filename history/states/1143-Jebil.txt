@@ -1,0 +1,23 @@
+state={
+	id=1143
+	name="STATE_1143"
+	impassable = yes
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+	}
+
+	provinces={
+		9983
+	}
+	manpower=2500
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

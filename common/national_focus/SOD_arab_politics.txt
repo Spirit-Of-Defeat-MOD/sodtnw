@@ -21,6 +21,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 50
 		army_experience = 15
+		add_civilian_factory = yes
 	}
 	x = 18
     y = 1

@@ -21,10 +21,15 @@ foreign_minister:0 "Foreign Minister"
 economy_minister:0 "Economic Minister"
 interior_minister:0 "Interior Minister"
 
+premier:0 "Premier of the State Council"
+
  head_of_gov_available:0 "Head of Government Available"
  foreign_minister_available:0 "Foreign Minister Available"
  economy_minister_available:0 "Economic Minister Available"
  interior_minister_available:0 "Interior Minister Available"
+
+minister_election:0 "Minister Changed by Election"
+minister_cabinet:0 "Cabinet Ministers can be changed"
 
 laissez_faire:0 "Laissez Faire"
 interventionism:0 "Interventionism"
@@ -37,6 +42,10 @@ armed_neutrality:0 "Armed Neutrality"
 pacifist:0 "Pacifist"
 
 chief_of_staff:0 "Chief of Staff"
+
+independent:0 "Independent"
+guominjun:0 "Guominjun"
+kuomintang:0 "Kuomintang"
 
 ##Minister Traits
 #Head of State
@@ -54,6 +63,8 @@ hog_federalist:0 "Federalist"
 hog_determined_revolutionary:0 "Determined Revolutionary"
 hog_happy_amateur:0 "Happy Amateur"
 
+hog_admin_reformer:0 "Administrative Reformer"
+
 #Foreign Minister
 frm_great_compromiser:0 "Great Compromiser"
 frm_the_cloak_n_dagger_schemer:0 "Cloak-And-Dagger Schemer"
@@ -62,6 +73,10 @@ frm_soviet_loyalist:0 "Soviet Loyalist"
 frm_skilled_negotiator:0 "Skilled Negotiator"
 frm_charismatic_diplomat:0 "Charismatic Diplomat"
 frm_iron_fisted_brute:0 "Iron-Fisted Brute"
+
+frm_diplomatic_savant:0 "Diplomatic Savant"
+
+
 
 #Economy Minister
 eco_economic_interventionist:0 "Economic Interventionist"
@@ -72,6 +87,8 @@ eco_administrative_genius:0 "Administrative Genius"
 eco_tank_proponent:0 "Tank Proponent"
 eco_infantry_proponent:0 "Infantry Proponent"
 eco_u_boat_proponent:0 "Submarine Proponent"
+
+eco_financial_guru:0 "Financial Guru"
 
 #Interior Minister
 int_prince_of_terror:0 "Prince of Terror"
@@ -84,6 +101,8 @@ int_brash_buffoon:0 "Brash Buffoon"
 int_devoted_ideologue:0 "Devoted Ideologue"
 int_political_specialist:0 "Political Specialist"
 int_man_of_the_people:0 "Man of the People"
+
+int_security_hawk:0 "Security Hawk"
 
 #Chief of Staff
 cos_school_of_mass_combat:0 "School of Mass Combat"
@@ -355,7 +374,7 @@ generic_urban_universities_desc:0 ""
 generic_military_rampd:0 "Military Rampd" 
 generic_military_rampd_desc:0 ""
 generic_nuclear_reactor:0 "Nuclear Reactor" 
-generic_nuclear_reactor_desc:0 ""
+#generic_nuclear_reactor_desc:0 ""
 
 ###Generic Tree Ideas####
 idea_equipment_development:0 "Better Equipment Development"

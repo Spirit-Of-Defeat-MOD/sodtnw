@@ -5,22 +5,24 @@ capital = 608 #Beijing
 set_research_slots = 2
 set_stability = 0.25
 
+
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1934.5.1"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
-	libertarian_socialist = 5
-	communism = 20
-	reformist_socialist = 3
-	social_democrat = 10
-	classic_liberal = 2
-	democratic = 15
-	neutrality = 28
-	utilitarian_despot = 17
+	libertarian_socialist = 0
+	communism = 0
+	reformist_socialist = 12.2
+	social_democrat = 7.5
+	social_liberal = 3.5
+	classic_liberal = 2.8
+	democratic = 26.1
+	neutrality = 47.9
+	utilitarian_despot = 0
 	fascism = 0
 	nihilistic_extremism = 0
 }
@@ -63,7 +65,6 @@ if = {
 ########################################
 
 
-
 ########################################
 #####- Section 04: Characters - ########
 ########################################
@@ -74,6 +75,16 @@ if = {
 ###- Commanders -###
 
 ###- Political Advisors -###
+recruit_character = ROC_feng_yuxiang
+recruit_character = ROC_HH_Kung
+recruit_character = ROC_Wang_Zhengting
+recruit_character = ROC_Yan_Huiqing
+
+
+activate_advisor = feng_yuxiang_hog
+activate_advisor = hh_kung_eco
+activate_advisor = wang_zhengting_frm
+activate_advisor = yan_huiqing_int
 
 ###- High Command -###
 

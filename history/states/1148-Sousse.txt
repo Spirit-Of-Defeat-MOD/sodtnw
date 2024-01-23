@@ -1,0 +1,33 @@
+state={
+	id=1148
+	name="STATE_1148"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			14111 3 #Monastir
+		}
+		victory_points = {
+			7162 7 #Sousse
+		}
+		victory_points = {
+			7077 5 #Kairouan
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			
+		}
+	}
+
+	provinces={
+		4129 7077 7162 14111 
+	}
+	manpower=1234311
+	state_category = c4
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

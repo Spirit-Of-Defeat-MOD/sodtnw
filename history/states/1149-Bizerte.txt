@@ -1,0 +1,32 @@
+state={
+	id=1149
+	name="STATE_1149"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			9994 4 #Bizerte
+		}
+		victory_points = {
+			1046 2 #El Kef
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			9994 = {
+				naval_base = 6
+			}
+		}
+
+	}
+
+	provinces={
+		1046 4163 7180 9994 14112
+	}
+	manpower=834545
+	state_category = c3
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=1145
+	name="STATE_1145"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			10082 3 #Qibili
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		# Religion #
+	}
+
+	provinces={
+		3987 10082 13179 14108 14109 14110
+	}
+	manpower=320876
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

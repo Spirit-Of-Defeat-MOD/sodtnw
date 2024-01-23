@@ -21,6 +21,9 @@ leader_traits = {
 	economy_minister = {}
 	interior_minister = {}
 
+	#Unique
+	premier = {}
+
 #####################
 # Military Staff
 #####################
@@ -46,6 +49,11 @@ leader_traits = {
 	utilitarian_despot = {}
 	national_syndicalist = {}
 	national_collectivist = {}
+
+	guominjun = {}
+	kuomintang ={}
+	
+	independent = {}
 	
 #####################
 # Unique/Personal ideologies
@@ -56,3 +64,8 @@ leader_traits = {
 	escobarist = {}
 
 }
+
+#####################
+# China Unique Affiliations
+#####################
+

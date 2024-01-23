@@ -1,0 +1,136 @@
+characters={
+	ROC_feng_yuxiang = {
+		name = "Feng Yuxiang"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/China/Guominjun/Minister_ROC_Feng_Yuxiang.png"
+			}
+		}
+		advisor={
+			slot = head_of_government
+			idea_token = feng_yuxiang_hog
+			allowed = { original_tag = ROC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_election
+					NOT = { has_country_flag = feng_yuxiang_dead }
+					has_country_flag = hog_elections
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = feng_yuxiang_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea feng_yuxiang_hog"
+			}
+			traits = {
+				premier
+				guominjun
+				hog_admin_reformer
+			}
+
+		}
+	}
+
+	ROC_Wang_Zhengting = {
+		name = "Wang Zhengting"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/China/Guominjun/Minister_ROC_Wang_Zhengting.png"
+			}
+		}
+		advisor={
+			slot = foreign_minister
+			idea_token = wang_zhengting_frm
+			allowed = { original_tag = ROC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_cabinet
+					NOT = { has_country_flag = wang_zhengting_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = wang_zhengting_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea wang_zhengting_frm"
+			}
+			traits = {
+				foreign_minister
+				kuomintang
+				frm_diplomatic_savant
+			}
+
+		}
+	}
+
+	ROC_HH_Kung = {
+		name = "Kung Hsiang-hsi"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/China/Guominjun/Minister_ROC_HH_Kung.png"
+			}
+		}
+		advisor={
+			slot = economy_minister
+			idea_token = hh_kung_eco
+			allowed = { original_tag = ROC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_cabinet
+					NOT = { has_country_flag = hh_kung_eco_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = hh_kung_eco_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea hh_kung_eco"
+			}
+			traits = {
+				economy_minister
+				independent
+				eco_financial_guru
+			}
+			research_bonus = {
+				industry = 0.05
+			}
+
+		}
+	}
+
+	ROC_Yan_Huiqing = {
+		name = "Yan Huiqing"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/China/Guominjun/Minister_ROC_Yan_Huiqing.png"
+			}
+		}
+		advisor={
+			slot = interior_minister
+			idea_token = yan_huiqing_int
+			allowed = { original_tag = ROC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_cabinet
+					NOT = { has_country_flag = yan_huiqing_int_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = yan_huiqing_int_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea hh_kung_eco"
+			}
+			traits = {
+				interior_minister
+				independent
+				int_security_hawk
+			}
+			research_bonus = {
+				decryption_tech = 0.1
+			}
+
+		}
+	}
+}

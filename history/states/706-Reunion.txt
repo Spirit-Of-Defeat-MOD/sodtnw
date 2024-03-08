@@ -6,7 +6,7 @@ state={
 	state_category = c1
 
 	history={
-		owner = FRE
+		owner = MAD
 		add_core_of = MAD
 		buildings = {
 			infrastructure = 3

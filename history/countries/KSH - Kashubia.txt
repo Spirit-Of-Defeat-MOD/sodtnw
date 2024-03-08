@@ -1,6 +1,6 @@
 ﻿capital = 807
 
-oob = ""
+oob = "default"
 
 set_research_slots = 3
 # Starting tech

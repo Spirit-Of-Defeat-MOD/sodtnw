@@ -1,0 +1,29 @@
+state={
+	id=1154
+	name="STATE_1154"
+	history={
+		owner = SAU
+		add_core_of = JAB
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+		victory_points = {
+			14117 2 
+		}
+		victory_points = {
+			12813 1
+		}
+		
+	}
+
+	provinces={
+		12813 14117
+	}
+	manpower=181128
+	state_category = c2
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

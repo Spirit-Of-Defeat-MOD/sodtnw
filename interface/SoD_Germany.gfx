@@ -140,4 +140,21 @@ spriteTypes = {
 		name = "GFX_idea_GER_military_council_hog"
 		texturefile = "gfx/ministers/GER/GER_military_council_hog.tga"
 	}
-}
+	
+	
+	#Officers
+	
+	spriteType = {
+		name = "GFX_officer_Esebeck"
+		texturefile = "gfx/leaders/Germany/Officer_GER_von_Esebeck.png"
+	}
+	
+	spriteType = {
+		name = "GFX_officer_Schniewindt"
+		texturefile = "gfx/leaders/Germany/Officer_GER_Schniewindt.png"
+	}
+	
+	spriteType = {
+		name = "GFX_officer_Rundstedt"
+		texturefile = "gfx/leaders/Germany/Officer_GER_von_Rundstedt.png"
+	}

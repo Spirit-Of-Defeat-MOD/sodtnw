@@ -88,6 +88,8 @@ division_template = {
         cavalry = { x = 0 y = 1 }
         cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
 	}
 	support = {
 	    recon = { x = 0 y = 0 }
@@ -100,31 +102,49 @@ units = {
 	##### Reichswehr #####
 	### 1.Generalkdo ###
 	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
+		name = "1. Division"
 		location = 6332
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		officer = { 
+			name = "Friedrich Freiherr von Esebeck"
+		}
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+				small = "GFX_officer_Esebeck"
+			}
+		}
 	}
 	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
+		name = "2. Division"
 		location = 6282
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		officer = { 
+			name = "Rudolf Schniewindt"
+		}
+		portraits = {
+			army = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+				small = "GFX_officer_Schniewindt"
+			}
+		}
 	}
 	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
+		name = "3. Division"
 		location = 6521
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		officer = { 
+			name = "Gerd von Rundstedt"
+			portraits = {
+				army = {
+					small = "GFX_officer_Rundstedt"
+				}
+			}
+		}
+		
 	}
 	division= {	
 		division_name = {

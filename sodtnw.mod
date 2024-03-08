@@ -1,4 +1,4 @@
-﻿version="0.1"
+version="0.1"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -27,5 +27,5 @@ replace_path="events"
 replace_path="gfx/loadingscreens"
 replace_path="gfx/flags"
 name="Spirit of Defeat: The New War"
-supported_version="1.13.*"
-path="C:/Users/username/Documents/Paradox Interactive/Hearts of Iron IV/mod/sodtnw"
+supported_version="1.14.*"
+path="C:/Users/kagws/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/sodtnw"

@@ -1370,12 +1370,6 @@ focus_tree = {
 			#	gw_heavy_artillery = 1
 			#}
 
-			add_equipment_to_stockpile = {
-				type = heavy_artillery_equipment
-				amount = 100
-				producer = USA
-			}
-
 			ROOT = {
 				division_template = {
 					name = "Heavy Artillery Infantry"
@@ -1391,9 +1385,6 @@ focus_tree = {
 						infantry = { x = 0 y = 4 }
 						infantry = { x = 0 y = 5 }
 					}
-					support = { 
-						heavy_artillery =  { x = 0 y = 0 }
-					} 
 				}
 			}
 			random_owned_controlled_state = {

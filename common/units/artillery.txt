@@ -52,7 +52,7 @@ sub_units = {
 		priority = 0
 		ai_priority = 0
 		active = yes
-		affects_speed = yes
+		#affects_speed = yes
 
 		type = {
 			infantry
@@ -78,7 +78,7 @@ sub_units = {
 		supply_consumption = 0.5
 
 		need = {
-			heavy_artillery_equipment = 8
+			#heavy_artillery_equipment = 8
 		}
 		manpower = 600
 		training_time = 200		

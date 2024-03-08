@@ -6,12 +6,12 @@ sub_units = {
 		
 		priority = 1000
 		ai_priority = 1000
-		active = no
+		active = yes
+		affects_speed = yes
 
 		type = {
 			infantry
 			support
-			motorized
 		}
 		
 		group = support
@@ -25,80 +25,31 @@ sub_units = {
 		
 		combat_width = 0.0
 		
+		##BASE stats
 		#Size Definitions
-		#max_strength = 25
-		max_organisation = 30
-		default_morale = 0.4
-		manpower = 1670
-
+		max_strength = 2
+		max_organisation = 16
+		default_morale = 0.1
+		supply_consumption = 0.04
+		weight = 0.25
+		
+		##COMBAT stats
+		soft_attack = -0.5
+		hard_attack = -0.5
+		defense = -0.5
+		breakthrough = -0.5
+		initiative = 0.03
+		
 		#Misc Abilities
-		training_time = 120
-		suppression = 0.67
-		weight = 1
-
+		training_time = 75
+		manpower = 200 	#500
+		experience_loss_factor = -0.20
 		
-		#Stats
-		defense = 0.433
-		soft_attack = 0.33
-		hard_attack = 0.00
-		initiative = 0.1
-		recon = 0.5
-		
-		supply_consumption = 0.67
+		suppression = 0.1
 	
 		need = {
-			infantry_equipment = 100
-			motorized_equipment = 60
-			support_equipment = 30
-		}
-		
-		plains = {
-			attack = 0
-			defence = 0
-			movement = 0
-		}
-		
-		forest = {
-			attack = -0.5
-			defence = -0.10
-			movement = -0.15
-		}
-		
-		hills = {
-			attack = -0.5
-			defence = -0.10
-			movement = -0.45
-		}
-		jungle = {
-			attack = -0.93
-			defence = -0.7
-			movement = -0.4
-		}
-        mountain = {
-			attack = -0.67
-			defence = -0.1
-			movement = -0.45
-		}
-		marsh = {
-			attack = -0.80
-			defence = -0.35
-			movement = -0.60
-		}
-		urban = {
-			attack = -0.63
-			defence = -0.05
-			movement = 0
-		}
-		desert = {
-			attack = -0.53
-			defence = -0.2
-			movement = -0.15
-		}
-		river = {
-			attack = -0.05
-		}
-		amphibious = {
-			attack = -0.1
+			infantry_equipment = 20
+			support_equipment = 20
 		}
 	}
 }

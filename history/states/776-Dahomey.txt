@@ -18,14 +18,10 @@ state={
 				naval_base = 1
 			}
 		}
-		
-		AOF = {
-			set_province_controller = 12874
-			set_province_controller = 12762
-		}
+	
 	}
 
 	provinces={
-		10919 12874 12762
+		10919 14142
 	}
 }

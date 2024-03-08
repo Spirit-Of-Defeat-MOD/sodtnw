@@ -17,16 +17,11 @@ state={
 			}
 
 		}
-		
-		AOF = {
-			set_province_controller = 12843
-			set_province_controller = 13212
-		}
 
 	}
 
 	provinces={
-		1951 12843 13212 
+		1951 14143
 	}
 	manpower=1101346
 	buildings_max_level_factor=1.000

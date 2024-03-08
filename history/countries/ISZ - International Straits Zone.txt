@@ -1,6 +1,6 @@
 capital = 838
 
-oob = ""
+oob = "default"
 
 set_research_slots = 3
 

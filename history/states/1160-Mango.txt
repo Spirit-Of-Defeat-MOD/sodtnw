@@ -1,0 +1,20 @@
+state={
+	id=1160
+	name="STATE_1160"
+
+	history={
+		owner = AOF
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13212 14153
+	}
+	manpower=251275
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

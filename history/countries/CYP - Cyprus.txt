@@ -1,6 +1,6 @@
 ﻿capital = 183
 
-oob = ""
+oob = "default"
 
 # Starting tech
 set_technology = {

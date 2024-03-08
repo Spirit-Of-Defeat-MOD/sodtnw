@@ -7,7 +7,7 @@ state={
 	state_category = c2
 
 	history={
-		owner = CHI
+		owner = YUN
 		add_core_of = CHI
 		add_core_of = ROC
 		buildings = {

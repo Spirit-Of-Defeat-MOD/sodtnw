@@ -661,17 +661,7 @@ TBE_third_bulgarian_empire_neutrality = {
 	color_ui = rgb { 138 249 195 }
 }
 ###SOD
-FRE_MLI = {
-	color = rgb { 30 84 183 }
-	color_ui = rgb { 35 101 222 }
-}
-
-FRE_NGR = {
-	color = rgb { 30 84 183 }
-	color_ui = rgb { 35 101 222 }
-}
-
-FRE_TOG = {
+MAD_COLONY = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
 }
@@ -685,3 +675,5 @@ XSM_AMD = {
 	color = rgb { 80 115 45}
 	color_ui = rgb { 222 247 198 }
 }
+
+

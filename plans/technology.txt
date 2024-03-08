@@ -3,7 +3,7 @@
 ######################
 
 ####Rework Support Weapons####
-New Buildable Equipment: Support Weapons (Will be a catch all for mortars, MGs and AT rifles)
+New Buildable Equipment: Support Weapons, Will be a catch all for mortars, MGs and AT rifles
 New support companies : Machine Gun Company, Mortar Company, Anti tank infantry (all use support weapons)
 progression will follow like normal infantry weapons mixed with support companies
 

@@ -1,4 +1,3 @@
-ID Changes 2024-01-18 17:49:44
-- Assigned ID 14110 to new province
-- Assigned ID 14109 to new province
-- Assigned ID 14108 to new province
+ID Changes 2024-01-26 00:08:19
+- Reassigned ID 14142 to 13328
+- Deleted IDs 14142 through 14142

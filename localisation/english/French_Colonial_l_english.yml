@@ -1,0 +1,41 @@
+﻿l_english: 
+
+#AOF
+AOF_utilitarian_despot_party:0 "Colonial Administration"
+AOF_utilitarian_despot_party_long:0 "Administration coloniale de l'Afrique occidentale française"
+
+AOF:0 "French West Africa"
+AOF_DEF:0 "French West Africa"
+AOF_ADJ:0 "French West African"
+
+
+#AEF
+
+
+AEF:0 "French Equatorial Africa"
+AEF_DEF:0 "French Equatorial Africa"
+AEF_ADJ:0 "French Equatorial African"
+
+AEF_utilitarian_despot_party:0 "Colonial Administration"
+AEF_utilitarian_despot_party_long:0 "Administration coloniale de l'Afrique équatoriale française"
+
+
+#Madagascar
+MAD:0 "Madagascar"
+MAD_DEF:0 "Madagascar"
+MAD_ADJ:0 "Malagasy"
+
+MAD_COLONY:0 "Colony of Madagascar"
+MAD_COLONY_DEF:0 "the Colony of Madagascar and Dependencies"
+MAD_COLONY_ADJ:0 "Malagasy"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated

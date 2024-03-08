@@ -56,50 +56,8 @@ set_popularities = {
 }
 ##Diplomacy
 #puppets
-FRE = {
-	set_autonomy = {
-		target = AOF
-		autonomy_state = autonomy_colony
-	}
-	
-	set_autonomy = {
-		target = AEF
-		autonomy_state = autonomy_colony
-	}
-	
-	set_autonomy = {
-		target = MOR
-		autonomy_state = autonomy_dominion
-	}
-	
-	set_autonomy = {
-		target = TUN
-		autonomy_state = autonomy_dominion
-	}
-}
 
 #war
-#French Empire Collapse
-declare_war_on = {
-	target = DAH
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = TOG
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = MLI
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = AGA
-	type = annex_everything
-}
-
 
 
 

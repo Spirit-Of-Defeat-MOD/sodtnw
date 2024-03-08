@@ -1,0 +1,21 @@
+
+state={
+	id=1159
+	name="STATE_1159"
+
+	history={
+		owner = AOF
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		12843 14146 14144 14148
+	}
+	manpower=357610
+	buildings_max_level_factor=1.000
+	state_category=c1
+	local_supplies=0.000
+}

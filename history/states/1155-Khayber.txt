@@ -1,0 +1,24 @@
+state={
+	id=1155
+	name="STATE_1155"
+	history={
+		owner = JAB
+		add_core_of = JAB
+		add_core_of = SAU
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7934 1 #Hulayfah
+		}
+	}
+
+	provinces={
+		7934 14122 13325
+	}
+	manpower=56128
+	state_category = c1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

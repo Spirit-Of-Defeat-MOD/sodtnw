@@ -6,7 +6,7 @@ state={
 	state_category = c5
 
 	history={
-		owner = MLI
+		owner = AOF
 		#add_core_of = AOF
 		add_core_of = MLI
 		buildings = {

@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = AGA
+		owner = AOF
 		add_core_of = AGA
 		add_core_of = NGR
 		buildings = {

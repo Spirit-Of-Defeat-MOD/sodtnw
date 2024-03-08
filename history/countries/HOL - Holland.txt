@@ -1,6 +1,6 @@
 ﻿capital = 7
 
-oob = ""
+oob = "default"
 #if = {
 #	limit = { has_dlc = "Man the Guns" }
 #		set_naval_oob = "HOL_1936_naval_mtg"

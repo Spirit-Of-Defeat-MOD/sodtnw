@@ -1,0 +1,24 @@
+state={
+	id=1158
+	name="STATE_1158"
+
+	history={
+		owner = JAB
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = JAB
+
+
+	}
+
+
+	provinces={
+		13328 4951 1631 14136 14137 14138 14139 14140 14141
+	}
+	manpower=43187
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,6 +1,6 @@
 ﻿capital = 479
 
-oob = ""
+oob = "default"
 
 
 # Starting tech

@@ -31,9 +31,6 @@ set_technology = {
 
 set_convoys = 2
 
-add_ideas = {
-	AOF_nationalism
-}
 
 
 

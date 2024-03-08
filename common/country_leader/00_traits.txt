@@ -3051,9 +3051,9 @@ leader_traits = {
 			small_plane_naval_bomber_airframe = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
-			cv_nav_bomber_equipment = {
-				air_range = 0.1 naval_strike_attack = 0.1
-			}
+			#cv_nav_bomber_equipment = {
+			#	air_range = 0.1 naval_strike_attack = 0.1
+			#}
 			cv_small_plane_airframe = {
 				air_range = 0.1 air_agility = 0.1
 			}
@@ -4175,145 +4175,6 @@ leader_traits = {
 		}
 	}
 	
-	
-	air_bomber_interception_1 = { # Bomber Interception mission efficiency increased by 4%
-		sprite = 1
-		air_interception_attack_factor = 0.02
-		air_interception_defence_factor = 0.02
-		air_interception_agility_factor = 0.02
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	air_bomber_interception_2 = { # Bomber Interception mission efficiency increased by 8%
-		sprite = 1
-		air_interception_attack_factor = 0.03
-		air_interception_defence_factor = 0.03
-		air_interception_agility_factor = 0.03
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	air_bomber_interception_3 = { # Bomber Interception mission efficiency increased by 12%
-		sprite = 1
-		air_interception_attack_factor = 0.05
-		air_interception_defence_factor = 0.05
-		air_interception_agility_factor = 0.05
-		
-		ai_will_do = {
-			factor = 3
-		}
-	}
-	
-	
-	air_air_superiority_1 = { # Air Superiority mission efficiency increased by 4%
-		sprite = 1
-		air_air_superiority_attack_factor = 0.02
-		air_air_superiority_defence_factor = 0.02
-		air_air_superiority_agility_factor = 0.02
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	air_air_superiority_2 = { # Air Superiority mission efficiency increased by 8%
-		sprite = 1
-		air_air_superiority_attack_factor = 0.03
-		air_air_superiority_defence_factor = 0.03
-		air_air_superiority_agility_factor = 0.03
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	air_air_superiority_3 = { # Air Superiority mission efficiency increased by 12%
-		sprite = 1
-		air_air_superiority_attack_factor = 0.05
-		air_air_superiority_defence_factor = 0.05
-		air_air_superiority_agility_factor = 0.05
-		
-		ai_will_do = {
-			factor = 3
-		}
-	}
-	
-	
-	air_close_air_support_1 = { # Close Air Support mission efficiency increased by 4%
-		sprite = 1
-		air_close_air_support_attack_factor = 0.02
-		air_close_air_support_defence_factor = 0.02
-		air_close_air_support_agility_factor = 0.02
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	air_close_air_support_2 = { # Close Air Support mission efficiency increased by 8%
-		sprite = 1
-		air_close_air_support_attack_factor = 0.03
-		air_close_air_support_defence_factor = 0.03
-		air_close_air_support_agility_factor = 0.03
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	air_close_air_support_3 = { # Close Air Support mission efficiency increased by 12%
-		sprite = 1
-		air_close_air_support_attack_factor = 0.05
-		air_close_air_support_defence_factor = 0.05
-		air_close_air_support_agility_factor = 0.05
-		
-		ai_will_do = {
-			factor = 3
-		}
-	}
-	
-	
-	air_strategic_bombing_1 = { # Strategic Bombing mission efficiency increased by 4%
-		sprite = 2
-		air_strategic_bomber_attack_factor = 0.01
-		air_strategic_bomber_defence_factor = 0.01
-		air_strategic_bomber_agility_factor = 0.01
-		air_strategic_bomber_bombing_factor = 0.03
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	air_strategic_bombing_2 = { # Strategic Bombing mission efficiency increased by 8%
-		sprite = 2
-		air_strategic_bomber_attack_factor = 0.02
-		air_strategic_bomber_defence_factor = 0.02
-		air_strategic_bomber_agility_factor = 0.02
-		air_strategic_bomber_bombing_factor = 0.05
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	air_strategic_bombing_3 = { # Strategic Bombing mission efficiency increased by 12%
-		sprite = 2
-		air_strategic_bomber_attack_factor = 0.03
-		air_strategic_bomber_defence_factor = 0.03
-		air_strategic_bomber_agility_factor = 0.03
-		air_strategic_bomber_bombing_factor = 0.09
-		
-		ai_will_do = {
-			factor = 3
-		}
-	}
-	
 	# Removed?
 	air_tactical_bombing_1 = { # Tactical Bombing mission efficiency increased
 		sprite = 2
@@ -4342,39 +4203,6 @@ leader_traits = {
 		}
 	}
 	
-	
-	air_airborne_1 = { # Paratrooper drop efficiency increased by 4%
-		sprite = 1
-		air_paradrop_attack_factor = 0.01
-		air_paradrop_defence_factor = 0.03
-		air_paradrop_agility_factor = 0.03
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	air_airborne_2 = { # Paratrooper drop efficiency increased by 8%
-		sprite = 1
-		air_paradrop_attack_factor = 0.02
-		air_paradrop_defence_factor = 0.05
-		air_paradrop_agility_factor = 0.05
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	air_airborne_3 = { # Paratrooper drop efficiency increased by 12%
-		sprite = 1
-		air_paradrop_attack_factor = 0.03
-		air_paradrop_defence_factor = 0.07
-		air_paradrop_agility_factor = 0.07
-		
-		ai_will_do = {
-			factor = 3
-		}
-	}
 
 	air_pilot_training_1 = {
 		sprite = 1

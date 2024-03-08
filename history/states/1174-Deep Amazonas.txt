@@ -1,0 +1,16 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		5008 4980 5214
+	}
+	history={
+		owner = BRA
+		add_core_of = BRA
+	}
+	manpower=12300
+	impassable = yes
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

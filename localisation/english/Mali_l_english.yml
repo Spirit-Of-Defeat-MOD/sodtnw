@@ -2,22 +2,11 @@
 
 #Parties
 
-MLI_democratic_party:1 "Branch of Hamalla"
-MLI_democratic_party_long:0 "Tijaniyyah Hamawiyyah"
-MLI_utilitarian_despot_party:0 "Branch of Tiwaawan"
-MLI_utilitarian_despot_party_long:0 "Tijaniyyah Tiwaawaniyyah"
-MLI_neutrality_party:0 "Branch of Ibrahim"
-MLI_neutrality_party_long:0 "Tijaniyyah Ibrahīmiyyah"
-
 
 #Country Names
-MLI:0 "Tijaniyyah Caliphate"
-MLI_DEF:0 "Tijaniyya Jihad state"
-MLI_ADJ:0 "Tijani"
-
-MLI_REP:0 "State of Soudan"
-MLI_REP_DEF:0 "the State of Soudan"
-MLI_REP_ADJ:0 "Soudanaise"
+MLI:0 "State of Soudan"
+MLI_DEF:0 "the State of Soudan"
+MLI_ADJ:0 "Soudanaise"
 
 
 #Ministers

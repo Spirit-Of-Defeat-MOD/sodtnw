@@ -1,0 +1,24 @@
+
+state={
+	id=1156
+	name="STATE_1156"
+
+	history={
+		owner = JAB
+		add_core_of = HEJ
+		add_core_of = JAB
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		5027 14124 14123
+	}
+	manpower=81828
+	buildings_max_level_factor=1.000
+	state_category=c1
+	local_supplies=0.000
+}

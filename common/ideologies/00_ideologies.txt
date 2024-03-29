@@ -5,7 +5,12 @@ ideologies = {
 			libertarian_socialist_ideology = {} #generic
 			anarchist_syndicalist = {}
 			anarchist_communist = {}
-			chen_jiongming_ideology = {}
+
+			chen_jiongming_ideology = { 
+				can_be_randomly_selected = no
+		
+			}
+
 			individualist_anarchism = {}
 			
 		}
@@ -268,6 +273,7 @@ ideologies = {
 		types = {
 			authoritarian_democrat_subtype = {}
 			national_conservatism = {}
+			semi_constituional_monarchy = {}
 			revolutionary_conservatism = {}
 			managed_democracy = {}
 			partial_democracy = {}
@@ -385,9 +391,9 @@ ideologies = {
 	nihilistic_extremism = {
         types = {
             nihilistic_extremism_subtype = {}
-			himmlerist_nihilism = {}
-			cioranist_nihilism = {}
-			pronayist_nihilism = {}
+			himmlerist_nihilism = {can_be_randomly_selected = no}
+			cioranist_nihilism = {can_be_randomly_selected = no}
+			pronayist_nihilism = {can_be_randomly_selected = no}
 			radical_paramilitarist = {}
 			right_wing_terrorist = {}
 			esoteric_nihilist = {}
@@ -403,7 +409,6 @@ ideologies = {
 			can_puppet = no
 			can_join_factions = no
 			can_create_factions = no
-			can_send_volunteers = yes
 		}
 		can_host_government_in_exile = no
 		can_collaborate = yes

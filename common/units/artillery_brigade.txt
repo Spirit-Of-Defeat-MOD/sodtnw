@@ -73,91 +73,6 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-	
-	heavy_artillery_brigade = {
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
-		active = yes
-
-		type = {
-			infantry
-			artillery
-		}
-		
-		group = infantry
-		
-		categories = {
-			category_army
-			category_line_artillery
-			category_artillery
-		}
-
-
-		
-		##BASE stats
-		maximum_speed = -0.3
-		max_strength = 2
-		max_organisation = -5
-		default_morale = -0.1		#recovery rate
-		weight = 2
-		supply_consumption = 0.5
-
-		need = {
-			heavy_artillery_equipment = 32
-		}
-		manpower = 1200
-		training_time = 200		
-
-		##COMBAT stats
-		# Support nerfs to combat abilities
-		defense = -0.05
-		breakthrough = 1.15
-		soft_attack = 1.15
-		hard_attack = 0.15
-		combat_width = 0.0
-
-
-		can_be_parachuted = no
-		
-		desert = {
-			movement = -0.03
-		}
-		forest = {
-			attack = -0.02
-			movement = -0.03
-		}
-		hills = {
-			attack = -0.03
-			movement = -0.02
-		}
-		mountain = 	{
-			attack = -0.06
-			movement = -0.05
-		}
-		jungle = {
-			attack = -0.06
-			movement = -0.05
-		}
-		marsh = {
-			movement = -0.04
-		}
-		urban = {
-			attack = 0.07
-			defence = -0.03
-		}
-		fort = {
-			attack = 0.1
-		}
-		river = { 
-			movement = -0.05
-		}
-		amphibious = { 
-			attack = -0.05
-			movement = -0.07
-		}
-	}
 
 	mot_artillery_brigade = {
 		sprite = artillery
@@ -450,4 +365,106 @@ sub_units = {
 			attack = -0.4
 		}
 	}
+
+	heavy_artillery_brigade = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 1.3
+
+		manpower = 750
+		need = {
+			heavy_artillery_equipment = 24
+		}
+		
+		max_strength = 5
+		max_organisation = 46
+		default_morale = 0.35
+		training_time = 130
+		weight = 0.5
+		supply_consumption = 2.5
+
+		
+		forest = {		
+			movement = -1.0
+			attack = 1.05
+			defence = 0.95
+		}	
+
+		hills = {		
+			movement = -0.95
+			attack = 1.05
+			defence = 0.825
+		}	
+
+		mountain = {		
+			movement = -1.0
+			attack = 1.1
+			defence = 0.9
+		}
+				
+
+		jungle = {		
+			movement = -1.05
+			attack = 1.175
+			defence = 0.875
+		}	
+
+		marsh = {		
+			movement = -0.9
+			attack = 1.1
+			defence = 0.9
+		}	
+
+		fort = {
+			attack = 1.100
+			defence = 1.000
+		}
+
+		river = {
+			movement = -0.650
+			attack = 1.1
+			defence = 0.95
+		}
+
+		amphibious = {
+			attack = -0.800
+			defence = -0.800
+		}
+
+		plains = {		
+			movement = -0.8
+			attack = 1.1
+			defence = 1
+		}
+
+		desert = {		
+			movement = -0.8
+			attack = 1.1
+			defence = 1.0
+		}
+
+		urban = {		
+			movement = -0.9
+			attack = 0.975
+			defence = 0.8
+		}
+	}
+
 }

@@ -1,0 +1,45 @@
+﻿l_english:
+
+##UNITS
+division_hq:0 "Division Headquarters"
+infantry_medical_unit:0 "Medical Unit"
+heavy_artillery:0 "Support Heavy Artillery"
+heavy_artillery_brigade:0 "Heavy Artillery Brigade"
+siege_artillery:0 "Support Siege Artillery"
+
+
+##TECHNOLOGY
+gw_heavy_artillery:0 "Great War Heavy Artillery"
+heavy_artillery1:0 "Improved Heavy Artillery"
+heavy_artillery2:0 "Advanced Heavy Artillery"
+
+gw_sie  ge_artillery:0 "Great War Siege Artillery"
+siege_artillery2:0 "Improved Siege Artillery"
+
+artillery_ammo1:0 "High Explosive (HE) Shells"
+artillery_ammo1_desc:0 " High Explosive (HE) Shells are designed to explode upon impact, causing widespread damage to infantry and soft targets. They are effective against lightly armored vehicles and fortifications, as well as enemy infantry concentrations."
+
+artillery_ammo2:0 "Fragmentation Shells"
+artillery_ammo2_desc:0 " Fragmentation Shells are designed to explode in mid-air, sending shrapnel over a wide area, making them effective against enemy infantry and unarmored targets in open terrain."
+
+artillery_carriage1:0 "High-Elevation Gun Carriage"
+artillery_carriage1_desc:0 "The high-elevation gun carriage allows for greater flexibility in firing angles, enabling artillery units to engage targets at elevated positions with improved accuracy and effectiveness. This upgrade enhances the artillery's capability to adapt to varied terrain and engage targets from advantageous positions."
+
+artillery_carriage2:0 "Early Gun Carriage"
+artillery_carriage2_desc:0 "The early gun carriage design represents the initial iterations of artillery carriage systems, providing a stable platform for artillery pieces but lacking advanced features for maneuverability and rapid deployment. This basic carriage design serves as the foundation for further developments in artillery mobility and functionality."
+
+artillery_rangefind1:0 "Rangefinder Radar"
+artillery_rangefind1_desc:0 "Equipping artillery units with advanced optical rangefinders enhances accuracy and precision in target acquisition, allowing for more effective long-range engagements and improved performance in varied battlefield conditions."
+
+artillery_rangefind2:0 "Optical Rangefinder"
+artillery_rangefind2_desc:0 "Integrating radar technology into artillery rangefinding systems provides enhanced target tracking capabilities, particularly in low visibility conditions such as fog or darkness, improving accuracy and target acquisition speed."
+
+
+#EQUIPMENT
+heavy_artillery_equipment:0 "Heavy Artillery Equipment"
+heavy_artillery_equipment_1:0 "Great War Heavy Artillery Equipment"
+heavy_artillery_equipment_2:0 "Improved Heavy Artillery Equipment"
+heavy_artillery_equipment_3:0 "Advanced Heavy Artillery Equipment" 
+siege_artillery_equipment:0 "Siege Artillery Equipment Equipment"
+siege_artillery_equipment_1:0 "Great War Siege Artillery Equipment"
+siege_artillery_equipment_2:0 "Advanced Siege Artillery Equipment"

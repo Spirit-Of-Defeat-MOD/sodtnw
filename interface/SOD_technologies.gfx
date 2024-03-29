@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_ENG_gw_heavy_artillery_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery_equipment.png"
+	}
+
+}

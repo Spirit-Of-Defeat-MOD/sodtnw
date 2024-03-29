@@ -1,0 +1,73 @@
+equipments = {
+	siege_artillery_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_siege_artillery_equipment	
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#BASE stats
+		reliability = 0.3
+
+		##COMBAT stats
+		soft_attack = 2.7		# 65
+		hard_attack = 0	# 2
+		air_attack = 0
+		defense = 0		# 24
+		breakthrough = 0		# 8
+		armor_value = 0
+		ap_attack = 0
+		hardness = 0
+		maximum_speed = 1
+		
+		##OTHER
+		#Space taken in convoy
+		lend_lease_cost = 2
+		build_cost_ic = 31
+		resources = {
+			tungsten = 3
+			steel = 5
+		}
+	}
+
+	siege_artillery_equipment_1 = {
+		year = 1918
+
+		archetype = siege_artillery_equipment
+		priority = 50
+		visual_level = 0
+	}
+
+	siege_artillery_equipment_2 = {
+		year = 1943
+		archetype = siege_artillery_equipment
+		parent = siege_artillery_equipment_1
+		priority = 142
+		visual_level = 0
+		
+		##BASE stats
+		reliability = 0.3
+		
+		##COMBAT stats
+		soft_attack = 5.4
+		hard_attack = 0			
+		defense = 0				
+		breakthrough = 0
+		armor_value = 0
+		ap_attack = 0
+		hardness = 0
+	
+		lend_lease_cost = 2
+		build_cost_ic = 37
+		resources = {
+			tungsten = 5
+			steel = 7
+		}
+	}
+}

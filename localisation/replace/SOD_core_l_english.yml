@@ -137,12 +137,16 @@ division_hq:0 "Division Headquarters"
 infantry_medical_unit:0 "Medical Unit"
 heavy_artillery:0 "Support Heavy Artillery"
 heavy_artillery_brigade:0 "Heavy Artillery Brigade"
+siege_artillery:0 "Support Siege Artillery"
 
 
 ##TECHNOLOGY
 gw_heavy_artillery:0 "Great War Heavy Artillery"
 heavy_artillery1:0 "Improved Heavy Artillery"
 heavy_artillery2:0 "Advanced Heavy Artillery"
+
+gw_siege_artillery:0 "Great War Siege Artillery"
+siege_artillery2:0 "Improved Siege Artillery"
 
 #EQUIPMENT
 heavy_artillery_equipment:0 "Heavy Artillery Equipment"
@@ -154,15 +158,17 @@ USA_heavy_artillery_equipment_1:0 "155 mm gun M1"
 USA_heavy_artillery_equipment_2:0 "M1918 240 mm howitzer"
 USA_heavy_artillery_equipment_3:0 "240 mm howitzer M1"
 
-ENG_heavy_artillery_equipment_1:0 "BL 9.2-inch howitzer"
-ENG_heavy_artillery_equipment_2:0 "BL 12-inch howitzer"
-ENG_heavy_artillery_equipment_3:0 "BL 7.2-inch howitzer"
+ENG_artillery_equipment_1:0 "QF 18-Pounder Mk IV"
+ENG_artillery_equipment_2:0 "QF 25-pounder Mk I"
+ENG_artillery_equipment_3_short:0 "QF 25-pounder Mk II"
 
-FRA_heavy_artillery_equipment_1:0 "Canon de 155mm GPF"
+ENG_heavy_artillery_equipment_1:0 "BL 8-inch howitzer"
+ENG_heavy_artillery_equipment_2:0 "BL 7.2-inch howitzer Mk I"
+ENG_heavy_artillery_equipment_3:0 "BL 7.2-inch Howitzer Mk IV"
 
-ITA_heavy_artillery_equipment_1:0 "Obice da 305/17"
-ITA_heavy_artillery_equipment_2:0 "Obice da 149/19 modello 37"
-ITA_heavy_artillery_equipment_3:0 "Obice da 210/22 modello 35"
+ENG_siege_artillery_equipment_1:0 "BL 9.2-inch howitzer"
+ENG_siege_artillery_equipment_2:0 "240 mm howitzer M1"
+
 
 ###DECISIONS
 SOD_border_clash:0 "Border Conflicts"

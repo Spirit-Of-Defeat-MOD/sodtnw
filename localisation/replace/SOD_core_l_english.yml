@@ -134,10 +134,26 @@ aircraft_purchase_tt:0 "Allows the Purchase of Aircraft"
  
 ##UNITS
 division_hq:0 "Division Headquarters"
-infantry_medical_unit:0 "Medical Unit"
 heavy_artillery:0 "Support Heavy Artillery"
 heavy_artillery_brigade:0 "Heavy Artillery Brigade"
 siege_artillery:0 "Support Siege Artillery"
+
+##UNITS
+division_hq:0 "Div. Headquarters"
+
+division_hq_car:0 "Div. Headquarters [Car]"
+division_hq_mech:0 "Div. Headquarters [Mech.]"
+division_hq_armored:0 "Div. Headquarters [Arm.]"
+
+logistics_company_mot:0 "Logistics Company [Mot.]"
+
+signal_company_arm:0 "Signal Company [Arm.]"
+
+maintenance_company_arm:0 "Maintenance Company [Arm.]"
+
+engineer_arm:0 "Engineer [Arm.]"
+
+field_hospital_mot:0 "Field Hospital [Mot.]"
 
 
 ##TECHNOLOGY

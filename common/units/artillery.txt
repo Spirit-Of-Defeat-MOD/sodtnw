@@ -124,7 +124,7 @@ sub_units = {
 		supply_consumption = 6.6
 
 		need = {
-			siege_artillery_equipment = 6
+			siege_artillery_equipment = 12
 		}
 		manpower = 700
 		training_time = 150		

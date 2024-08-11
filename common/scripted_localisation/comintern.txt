@@ -1,0 +1,39 @@
+defined_text = {
+    name = get_comintern_president_name
+    text = {
+        trigger = {
+            has_global_flag = comintern_exists
+        }
+        localization_key = "comintern_president_name"
+    }
+}
+
+defined_text = {
+    name = get_comintern_secretary_name
+    text = {
+        trigger = {
+            has_global_flag = comintern_exists
+        }
+        localization_key = "comintern_secretary_name"
+    }
+}
+
+defined_text = {
+    name = get_comintern_president_portrait
+    text = {
+        trigger = {
+            has_global_flag = comintern_exists
+        }
+        localization_key = "GFX_comintern_president_portrait"
+    }
+}
+
+defined_text = {
+    name = get_comintern_secretary_portrait
+    text = {
+        trigger = {
+            has_global_flag = comintern_exists
+        }
+        localization_key = "GFX_comintern_secretary_portrait"
+    }
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1179
+	name="STATE_1179"
+	provinces={
+		14161 14163 14167 14168 14169 14170 
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GUA
+
+	}
+	manpower=261600
+	state_category = c4
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,8 +2,10 @@ on_actions = {
 	
 	on_startup = { 
 		effect = {
+			set_global_flag = comintern_exists
 			every_country = {
 				#give_AI_templates = yes
+				
 			}
 		}	
 	}

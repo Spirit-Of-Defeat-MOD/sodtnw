@@ -3,14 +3,9 @@ ideologies = {
 	libertarian_socialist = {
 		types = {
 			libertarian_socialist_ideology = {} #generic
-			anarchist_syndicalist = {}
-			anarchist_communist = {}
-
-			chen_jiongming_ideology = { 
-				can_be_randomly_selected = no
-		
-			}
-
+			anarchist_syndicalist = { color = { 201 51 49 } }
+			anarchist_communist = { color = { 131 0 2 } }
+			chen_jiongming_ideology = { can_be_randomly_selected = no }
 			individualist_anarchism = {}
 			
 		}
@@ -117,7 +112,7 @@ ideologies = {
 	social_democrat = {
 		types = {
 			social_democrat_ideology = {}
-			left_agrarian = {}
+			left_agrarian = { color = { 194 70 86 } }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
@@ -153,7 +148,7 @@ ideologies = {
 		types = {
 			social_liberal_ideology = {}
 			progressivism = {}
-			centrism = {}
+			centrism = { color = { 190 190 0 } }
 			radical_liberalism = {}
 			keynesian_liberalism = {}
 			conservative_liberalism = {}
@@ -194,7 +189,7 @@ ideologies = {
 			classic_liberal_ideology = {}
 			market_liberalism = {}
 			constitutionalism = {}
-			liberal_conservatism = {}
+			liberal_conservatism = { color = { 8 110 236 } }
 			right_libertarianism = {}
 			liberalism = {} #to reduce errors
 			moderatism = {}
@@ -314,9 +309,9 @@ ideologies = {
 		types = {
 			utilitarian_despot_subtype = {}
 			paternal_state = {}
-			absolute_monarchy = {}
-			warlord = {}
-			military_junta = {}
+			absolute_monarchy = { color = { 60 45 60 }}
+			warlord = { color = { 74 71 54 } }
+			military_junta = {color = { 30 30 30 }}
 			totalitarian_state = {}
 		}
 		dynamic_faction_names = {
@@ -352,12 +347,12 @@ ideologies = {
 		types = {
 			fascism_ideology = {}
             national_collectivist = {}
-			national_syndicalist = {}
+			national_syndicalist = { color = { 117 20 30 } }
 			national_corporatist = {}
 			falangism = {}
 			integral_nationalist = {}
 			rexism = {}
-			national_bolshevik = {} #???
+			national_bolshevik = { color = { 101 37 39 } } #???
         }
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCISM_1"

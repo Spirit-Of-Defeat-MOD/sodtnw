@@ -1,7 +1,7 @@
 ﻿l_english:
 
 #country names
-ARG_libertarian_socialist:0 "Socialist Argentine Republic"
+ARG_libertarian_socialist:0 "Argentine Regional Workers' Federation"
 ARG_communism:0 "Socialist Argentine Republic"
 ARG_reformist_socialist:0 "Socialist Argentine Republic"
 ARG_social_democrat:0 "Argentine Republic"
@@ -12,7 +12,7 @@ ARG_neutrality:0 "Argentine Republic"
 ARG_utilitarian_despot:0 "Argentine Republic"
 ARG_fascism:0 "Argentine Republic" 
 
-ARG_libertarian_socialist_DEF:0 "the Socialist Argentine Republic"
+ARG_libertarian_socialist_DEF:0 "the Argentine Regional Workers' Federation"
 ARG_communism_DEF:0 "the Socialist Argentine Republic"
 ARG_reformist_socialist_DEF:0 "the Socialist Argentine Republic"
 ARG_social_democrat_DEF:0 "Argentine Republic"

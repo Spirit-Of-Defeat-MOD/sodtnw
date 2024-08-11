@@ -1,0 +1,20 @@
+focus_tree = {
+	id = hubei
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUB
+		}
+	}
+	default = no
+	focus = {
+		id = HUB_retreat_from_shaanxi
+		text = HUB_retreat_from_shaanxi
+		icon = GFX_goal_unknown
+		cost = 4
+		x = 6
+		y = 1
+
+	}
+}

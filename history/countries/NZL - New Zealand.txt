@@ -99,7 +99,7 @@ if = {
 		improved_light_tank = 1
 		basic_medium_tank = 1
 		basic_heavy_tank = 1
-		interwar_artillery = 1
+		
 		interwar_antitank = 1
 		infantry_weapons2 = 1
 		support_weapons = 1

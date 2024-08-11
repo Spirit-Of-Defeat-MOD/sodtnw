@@ -18,10 +18,6 @@ technologies = {
 		enable_equipments = {
 			support_equipment_1
 		}
-
-		enable_subunits = {
-			infantry_medical_unit
-		}
 		
 		
 		path = {
@@ -139,6 +135,10 @@ technologies = {
 	}
 	
 	tech_engineers2 = {
+	
+		enable_subunits = {
+			engineer_arm
+		}
 
 		engineer = {
 			entrenchment  = 2
@@ -655,8 +655,12 @@ technologies = {
 	}
 	
 	tech_maintenance_company2 = {
+	
+		enable_subunits	= {
+			maintenance_company_arm
+		}
 
-		maintenance_company = {
+		category_maintenance = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
 		}
@@ -701,7 +705,7 @@ technologies = {
 	
 	tech_maintenance_company3 = {
 
-		maintenance_company = {
+		category_maintenance = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
 		}
@@ -743,7 +747,7 @@ technologies = {
 	}
 	tech_maintenance_company4 = {
 
-		maintenance_company = {
+		category_maintenance = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
 		}
@@ -781,6 +785,7 @@ technologies = {
 	}
 
 	tech_field_hospital = {
+
 
 		enable_subunits = {
 			field_hospital
@@ -967,10 +972,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		dependencies = {
-			motorised_infantry = 1
-		}
-
 		research_cost = 2
 		start_year = 1936
 		folder = {
@@ -1009,8 +1010,12 @@ technologies = {
 	}
 	
 	tech_logistics_company2 = {
+		
+		enable_subunits = {
+			logistics_company_mot
+		}
 
-		logistics_company = {
+		category_logistics = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1061,7 +1066,7 @@ technologies = {
 	
 	tech_logistics_company3 = {
 
-		logistics_company = {
+		category_logistics = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1104,7 +1109,7 @@ technologies = {
 	}
 	tech_logistics_company4 = {
 
-		logistics_company = {
+		category_logistics = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1184,11 +1189,14 @@ technologies = {
 	}
 	
 	tech_signal_company2 = {
+	
+		enable_subunits = {
+			signal_company_arm
+		}
 
-		signal_company = {
+		category_signal = {
 			initiative = 0.12
 		}
-		
 		
 		path = {
 			leads_to_tech = tech_signal_company3
@@ -1230,7 +1238,7 @@ technologies = {
 	
 	tech_signal_company3 = {
 
-		signal_company = {
+		category_signal = {
 			initiative = 0.12
 		}
 		path = {
@@ -1272,7 +1280,7 @@ technologies = {
 	}
 	tech_signal_company4 = {
 
-		signal_company = {
+		category_signal = {
 			initiative = 0.12
 		}
 

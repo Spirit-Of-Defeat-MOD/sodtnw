@@ -1,11 +1,6 @@
 ﻿l_english:
 
-##UNITS
-division_hq:0 "Division Headquarters"
-infantry_medical_unit:0 "Medical Unit"
-heavy_artillery:0 "Support Heavy Artillery"
-heavy_artillery_brigade:0 "Heavy Artillery Brigade"
-siege_artillery:0 "Support Siege Artillery"
+
 
 
 ##TECHNOLOGY
@@ -13,7 +8,7 @@ gw_heavy_artillery:0 "Great War Heavy Artillery"
 heavy_artillery1:0 "Improved Heavy Artillery"
 heavy_artillery2:0 "Advanced Heavy Artillery"
 
-gw_sie  ge_artillery:0 "Great War Siege Artillery"
+gw_siege_artillery:0 "Great War Siege Artillery"
 siege_artillery2:0 "Improved Siege Artillery"
 
 artillery_ammo1:0 "High Explosive (HE) Shells"
@@ -21,6 +16,15 @@ artillery_ammo1_desc:0 " High Explosive (HE) Shells are designed to explode upon
 
 artillery_ammo2:0 "Fragmentation Shells"
 artillery_ammo2_desc:0 " Fragmentation Shells are designed to explode in mid-air, sending shrapnel over a wide area, making them effective against enemy infantry and unarmored targets in open terrain."
+
+artillery_ammo3:0 "High Explosive Squash-Head (HESH) Shells"
+artillery_ammo3_desc:0 "High Explosive Squash-Head (HESH) Shells are designed to deform upon impact and create shockwaves, making them effective against armored targets by causing spalling and internal damage."
+
+artillery_ammo4:0 "High Explosive Anti-Tank (HEAT) Shells"
+artillery_ammo4_desc:0 "High Explosive Anti-Tank (HEAT) Shells are specifically designed to penetrate armor with a shaped charge, making them highly effective against armored targets such as tanks and armored vehicles."
+
+artillery_ammo5:0 "High Explosive Fragmentation (HEF) Shells"
+artillery_ammo5_desc:0 "High Explosive Fragmentation (HEF) Shells combine the properties of high explosive and fragmentation shells, making them effective against both soft and armored targets."
 
 artillery_carriage1:0 "High-Elevation Gun Carriage"
 artillery_carriage1_desc:0 "The high-elevation gun carriage allows for greater flexibility in firing angles, enabling artillery units to engage targets at elevated positions with improved accuracy and effectiveness. This upgrade enhances the artillery's capability to adapt to varied terrain and engage targets from advantageous positions."

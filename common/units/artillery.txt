@@ -154,4 +154,106 @@ sub_units = {
 			attack = -5 ##no where to set up for supporting fire
 		}
 	}
+	
+	heavy_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = support
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 1.3
+
+		manpower = 250
+		need = {
+			heavy_artillery_equipment = 12
+		}
+		
+		max_strength = 5
+		max_organisation = 46
+		default_morale = 0.35
+		training_time = 130
+		weight = 0.175
+		supply_consumption = 0.075
+		maximum_speed = -0.25
+
+		
+		forest = {		
+			movement = -1.0
+			attack = 1.05
+			defence = 0.95
+		}	
+
+		hills = {		
+			movement = -0.95
+			attack = 1.05
+			defence = 0.825
+		}	
+
+		mountain = {		
+			movement = -1.0
+			attack = 1.1
+			defence = 0.9
+		}
+				
+
+		jungle = {		
+			movement = -1.05
+			attack = 1.175
+			defence = 0.875
+		}	
+
+		marsh = {		
+			movement = -0.9
+			attack = 1.1
+			defence = 0.9
+		}	
+
+		fort = {
+			attack = 1.100
+			defence = 1.000
+		}
+
+		river = {
+			movement = -0.650
+			attack = 1.1
+			defence = 0.95
+		}
+
+		amphibious = {
+			attack = -0.800
+			defence = -0.800
+		}
+
+		plains = {		
+			movement = -0.8
+			attack = 1.1
+			defence = 1
+		}
+
+		desert = {		
+			movement = -0.8
+			attack = 1.1
+			defence = 1.0
+		}
+
+		urban = {		
+			movement = -0.9
+			attack = 0.975
+			defence = 0.8
+		}
+	}
 }

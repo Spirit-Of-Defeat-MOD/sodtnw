@@ -13,7 +13,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
-			10886 = {
+			14154= {
 				naval_base = 1
 
 			}

@@ -834,6 +834,10 @@ technologies = {
 	}
 	
 	tech_field_hospital2 = {
+	
+		enable_subunits = {
+			field_hospital_mot
+		}
 
 		field_hospital = {
 			casualty_trickleback = 0.10

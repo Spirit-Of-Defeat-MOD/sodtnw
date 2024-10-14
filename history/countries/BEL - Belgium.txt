@@ -19,12 +19,12 @@ set_technology = {
 	fuel_refining = 1
 }
 
-add_ideas = {
-	BEL_Paul_Zeeland_hog
-	BEL_Paul_Zeeland_frm
-	BEL_Philip_Isacker_eco
-	BEL_Charles_Warnaffe_int
-}
+#add_ideas = {
+#	BEL_Paul_Zeeland_hog
+#	BEL_Paul_Zeeland_frm
+#	BEL_Philip_Isacker_eco
+#	BEL_Charles_Warnaffe_int
+#}
 
 set_politics = {
 	ruling_party = democratic

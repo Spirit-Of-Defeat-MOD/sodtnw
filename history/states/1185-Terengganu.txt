@@ -1,0 +1,22 @@
+state={
+	id=1185
+	name="STATE_1185"
+	manpower = 189000
+	
+	state_category = c3
+
+	history={
+		owner = TER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = TER
+	}
+
+	provinces = {
+		14184 4355 12199
+	}
+}
+	

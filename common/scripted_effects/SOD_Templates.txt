@@ -38,44 +38,12 @@
 
 
 give_AI_templates = {
-	Militia_AI_templates = yes
 	Infantry_AI_templates = yes
-}
-
-Militia_AI_templates = {
-	division_template = {
-		name = "Militia Division (10w)"
-		priority = 1
-		regiments = {
-			militia = { x = 0 y = 0 }
-			militia = { x = 0 y = 1 }
-			militia = { x = 0 y = 2 }
-			militia = { x = 0 y = 3 }
-			militia = { x = 0 y = 4 }
-		}
-	}
-	
-	division_template = {
-		name = "Militia Division (20w)"
-		priority = 1
-		regiments = {
-			militia = { x = 0 y = 0 }
-			militia = { x = 0 y = 1 }
-			militia = { x = 0 y = 2 }
-			militia = { x = 0 y = 3 }
-			militia = { x = 0 y = 4 }
-			militia = { x = 1 y = 0 }
-			militia = { x = 1 y = 1 }
-			militia = { x = 1 y = 2 }
-			militia = { x = 1 y = 3 }
-			militia = { x = 1 y = 4 }
-		}
-	}
 }
 
 Infantry_AI_templates = {
 	division_template = {
-		name = "Infantry Division (18w)"
+		name = "AI Infantry Division"
 		priority = 1
 		regiments = {
 			infantry = { x = 0 y = 0 }
@@ -87,22 +55,6 @@ Infantry_AI_templates = {
 			infantry = { x = 1 y = 1 }
 			infantry = { x = 1 y = 2 }
 			infantry = { x = 1 y = 3 }
-		}
-	}
-	
-	division_template = {
-		name = "Anti-Tank Infantry Division (20w)"
-		priority = 1
-		regiments = {
-			infantry = { x = 0 y = 0 }
-			infantry = { x = 0 y = 1 }
-			anti_tank_brigade = { x = 0 y = 2 }
-			infantry = { x = 1 y = 0 }
-			infantry = { x = 1 y = 1 }
-			infantry = { x = 1 y = 2 }
-			infantry = { x = 2 y = 0 }
-			infantry = { x = 2 y = 1 }
-			anti_tank_brigade = { x = 2 y = 2 }
 		}
 	}
 	

@@ -4,7 +4,7 @@ on_actions = {
 		effect = {
 			set_global_flag = comintern_exists
 			every_country = {
-				#give_AI_templates = yes
+				give_AI_templates = yes
 				
 			}
 		}	
@@ -100,7 +100,7 @@ on_actions = {
 		}	
 	}
 	
-	#Qinghai to Amdo
+	#Qinghai to Amdo(Move to china eventually)
 	on_puppet = { ##ROOT is the nation being puppeted, FROM is the overlord.###
 		effect = {
 			if = {

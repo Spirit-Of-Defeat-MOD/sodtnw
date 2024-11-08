@@ -364,4 +364,8 @@ ZHE = "countries/Asian.txt" #Zhejiang Province
 ZHI = "countries/Asian.txt" #Zhili Province aka Hebei
 YNG = "countries/Asian.txt" #Yongning Chiefdom
 
+#Malaysia
+JOH = "countries/Asian.txt" #Johor Sultanate
+TER = "countries/Asian.txt" #Terengganu Sultanate
+KEL = "countries/Asian.txt" #Kelantan Sultanate
 

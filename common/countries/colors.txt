@@ -1292,3 +1292,19 @@ TAB = {
 	color = rgb { 16 176 192 }
 	color_ui = rgb { 16 176 192 }
 }
+
+JOH = {
+	color = rgb { 69 80 169 }
+	color_ui = rgb { 69 80 169 }
+}
+
+TER = {
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
+}
+
+KEL = {
+	color = rgb { 183 110 121 }
+	color_ui = rgb { 183 110 121 }
+}
+

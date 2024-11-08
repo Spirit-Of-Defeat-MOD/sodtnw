@@ -1,0 +1,29 @@
+state={
+	id=1186
+	name="STATE_1186"
+	manpower = 378600
+	
+	state_category = c3
+
+	history={
+		owner = KEL
+		victory_points = {
+			7329 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+			7329 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KEL
+	}
+
+	provinces = {
+		14183 7329
+	}
+}
+	

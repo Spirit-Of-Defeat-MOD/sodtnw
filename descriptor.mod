@@ -5,6 +5,7 @@ tags={
 	"Ideologies"
 	"National Focuses"
 }
+replace_path="map/strategicregions"
 replace_path="history/countries"
 replace_path="common/ai_equipment"
 replace_path="common/on_actions"
@@ -27,4 +28,4 @@ replace_path="gfx/loadingscreens"
 replace_path="gfx/flags"
 
 name="Spirit of Defeat: The New War"
-supported_version="1.15.*"
+supported_version="1.16.*"

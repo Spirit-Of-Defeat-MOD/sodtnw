@@ -1,0 +1,24 @@
+state = {
+	id = 1193
+	name = "STATE_1193"
+	
+	state_category = c3
+	manpower = 1662669
+	
+	history = {
+		owner = BRM
+		add_core_of = BRM
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		7254 7382 10223 10267 12197 12267 12284 
+	}
+	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
+
+}

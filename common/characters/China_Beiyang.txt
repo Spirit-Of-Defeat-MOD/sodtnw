@@ -124,7 +124,7 @@ characters={
 			}
 			traits = {
 				interior_minister
-				independent
+				anhui
 				int_security_hawk
 			}
 			research_bonus = {

@@ -1,0 +1,8 @@
+sub_unit_categories = {
+	category_division_hq
+	category_logistics
+	category_signal
+	category_maintenance
+	category_engineer
+	category_field_hospital
+}

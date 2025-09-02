@@ -59,7 +59,7 @@ characters={
 		advisor = {
 			slot = head_of_government
 			idea_token = sun_lianzhong
-			traits = { head_of_government unaffiliated }
+			traits = { head_of_government independent }
 		}
 	}
 }

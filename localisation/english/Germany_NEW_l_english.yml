@@ -1,0 +1,26 @@
+﻿l_english:
+
+##Will combine with old one when done, just need to sort out merging the content###
+
+
+##FOCUS##
+GER_emergency_labour_negotiations:0 "Emergency Labour Negotiations"
+
+
+##FLAGS##
+GER_labour_meeting_flag:0 "Attempting to set up labour meeting"
+
+
+##DECISIONS###
+GER_labour_relations_category:0 "Labour Relations"
+GER_labour_relations_category_desc:0 ""
+GER_labour_meeting_decision:0 "Meeting Preparation"
+GER_send_invite_decision:0 "Send out invites"
+GER_release_detainee_decision:0 "Release SPD Detainees"
+GER_recruit_neutral_mediators_decision:0 "Recruit Neutral Mediators"
+GER_withdraw_military_decision:0 "Withdraw Military from Union Areas"
+GER_open_military_depots_decision:0 "Open Military Depots to Workers"
+
+
+##EVENTS##
+

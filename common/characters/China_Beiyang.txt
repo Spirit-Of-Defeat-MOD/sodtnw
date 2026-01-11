@@ -21,7 +21,7 @@ characters={
 				NOT = { has_country_flag = feng_yuxiang_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea feng_yuxiang_hog"
+				log = "[GetDateText]: [Root.GetName]: add chracter feng_yuxiang_hog"
 			}
 			traits = {
 				premier

@@ -30,46 +30,47 @@ sub_units = {
 		combat_width = 0.0
 		
 		##BASE stats
-		#Size Definitions
-		max_strength = 2
-		max_organisation = 16
+		max_strength = 10
+		max_organisation = 20
 		default_morale = 0.1
 		supply_consumption = 0.04
-		weight = 0.25
+		weight = 0.15
 		
 		##COMBAT stats
-		soft_attack = -0.5
-		hard_attack = -0.5
-		defense = -0.5
-		breakthrough = -0.5
-		initiative = 0.03
+		soft_attack = -0.9
+		hard_attack = -0.9
+		defense = -0.9
+		breakthrough = -0.9
+		initiative = 0.1
+		recon = 2.0
 		
 		#Misc Abilities
-		training_time = 75
-		manpower = 200 	#500
+		training_time = 90
+		manpower = 500
 		experience_loss_factor = -0.20
 		
 		suppression = 0.1
 		
 		own_equipment_fuel_consumption_mult = 0.1
 		
-		maximum_speed = 0.25
+		maximum_speed = 0.0
 		
 		can_be_parachuted = yes
 	
 		need = {
-			infantry_equipment = 20
-			support_equipment = 20
+			infantry_equipment = 50
+			support_equipment = 30
+			motorized_equipment = 5
 		}
 		
 		same_support_type = division_hq
 	}
 	
-	division_hq_car = { #REVISIT STATS, especially "need"
+	division_hq_car = {
 		sprite = infantry
 		map_icon_category = infantry
-		ai_priority = 0
-		priority = 100
+		ai_priority = 750
+		priority = 750
 		active = no
 		affects_speed = yes
 
@@ -85,31 +86,32 @@ sub_units = {
 		}
 		
 		combat_width = 0.0
+		
 		##BASE stats
-		#Size Definitions
-		max_strength = 2
+		max_strength = 12
 		max_organisation = 20
 		default_morale = 0.1
-		supply_consumption = 0.05
-		weight = 0.25
-		#fuel_capacity = 5.0
+		supply_consumption = 0.06
+		weight = 0.20
+		
 		##COMBAT stats
-		soft_attack = -0.5
-		hard_attack = -0.5
-		defense = -0.5
-		breakthrough = -0.5
-		initiative = 0.04
+		soft_attack = -0.75
+		hard_attack = -0.75
+		defense = -0.75
+		breakthrough = -0.75
+		initiative = 0.15
+		recon = 3.0
 		
 		#Misc Abilities
 		training_time = 90
-		manpower = 200 	#500
+		manpower = 450
 		experience_loss_factor = -0.20
 		
 		suppression = 0.1
 		
-		own_equipment_fuel_consumption_mult = 0.5
+		own_equipment_fuel_consumption_mult = 0.1
 		
-		maximum_speed = 0.05 #slightly faster than regular cars, not much to move
+		maximum_speed = 0.0
 		
 		fuel_capacity = 1 # extra fuel for supports
 		
@@ -119,15 +121,15 @@ sub_units = {
 		
 	
 		need = {
-			infantry_equipment = 20
-			support_equipment = 20
-			armored_car_equipment = 10
+			infantry_equipment = 30
+			support_equipment = 35
+			armored_car_equipment = 20
 		}
 		
 		same_support_type = division_hq
 	}
 	
-	division_hq_mech = { #REVISIT STATS, especially "need"
+	division_hq_mech = {
 		sprite = infantry
 		map_icon_category = infantry
 		
@@ -147,29 +149,33 @@ sub_units = {
 		}
 		
 		combat_width = 0.0
+		
 		##BASE stats
 		#Size Definitions
-		max_strength = 2
-		max_organisation = 22
+		max_strength = 15
+		max_organisation = 20
 		default_morale = 0.1
-		supply_consumption = 0.075
+		supply_consumption = 0.08
 		weight = 0.25
-		#fuel_capacity = 5.0
+		
 		##COMBAT stats
-		soft_attack = -0.35
-		hard_attack = -0.35
-		defense = -0.35
-		breakthrough = -0.35
-		initiative = 0.05
+		soft_attack = -0.75
+		hard_attack = -0.75
+		defense = -0.75
+		breakthrough = -0.75
+		initiative = 0.2
+		recon = 3.0
 		
 		#Misc Abilities
-		training_time = 120
-		manpower = 200 	#500
+		training_time = 90
+		manpower = 450
 		experience_loss_factor = -0.20
 		
 		suppression = 0.1
 		
-		own_equipment_fuel_consumption_mult = 0.12
+		own_equipment_fuel_consumption_mult = 0.1
+		
+		maximum_speed = 0.0
 		
 		fuel_capacity = 1 # extra fuel for supports
 		
@@ -178,15 +184,15 @@ sub_units = {
 		transport = mechanized_equipment
 	
 		need = {
-			infantry_equipment = 20
-			support_equipment = 20
-			mechanized_equipment = 10
+			infantry_equipment = 30
+			support_equipment = 35
+			mechanized_equipment = 20
 		}
 		
 		same_support_type = division_hq
 	}
 	
-	division_hq_armored = { #REVISIT STATS, especially "need"
+	division_hq_armored = {
 		sprite = infantry
 		map_icon_category = infantry
 		

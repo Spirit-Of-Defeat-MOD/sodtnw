@@ -40,7 +40,7 @@ set_technology = {
 	basic_carrier = 1
 	transport = 1
 	superior_firepower = 1
-	base_strike = 1
+	#base_strike = 1
 
 }
 
@@ -90,7 +90,7 @@ set_technology = {
 
 		#doctrines
 		#Air
-		air_superiority = 1
+		#air_superiority = 1
 		infrastructure_destruction = 1
 		naval_strike_tactics = 1
 

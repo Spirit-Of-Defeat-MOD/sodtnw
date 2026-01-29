@@ -39,8 +39,8 @@ set_technology = {
 	set_technology = {
 		#doctrines
 		formation_flying = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
+		#grand_battle_plan = 1
+		#trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

@@ -1,0 +1,670 @@
+# Changelog
+
+## Unreleased - 2026-01-29
+
+### AI
+
+- added documentation.info
+- added generic.txt
+- modified ai_bonus_weights.txt
+- added GER.txt
+- added SPR.txt
+- added yalta.txt
+
+### Other
+
+- modified 00_buildings.txt
+- modified China_Beiyang.txt
+- modified Ma Family.txt
+- added _documentation.md
+- added collections.txt
+- added generic_collections.txt
+- modified colors.txt
+- modified 00_position_traits.txt
+- modified 00_countries.txt
+- added _documentation.md
+- added armor_subdoctrines.txt
+- added combat_support_subdoctrines.txt
+- added infantry_subdoctrines.txt
+- added operations_subdoctrines.txt
+- modified 00_ideologies.txt
+- added AUS_organization.txt
+- added BEL_organization.txt
+- added BRA_organization.txt
+- added PHI_organization.txt
+- modified baltic_organization.txt
+- modified 00_on_actions.txt
+- modified 03_wtt_on_actions.txt
+- modified SOD_on_actions.txt
+- added GER_peace.txt
+- added RK_peace.txt
+- added nuclear_raids.txt
+- added script_enums.txt
+- modified SOD_Templates.txt
+- added zzz_scripted_triggers.txt
+- added tags.txt
+- added air_projects.txt
+- added documentation.md
+- added land_projects.txt
+- added naval_projects.txt
+- added nuclear_projects.txt
+- added radar_projects.txt
+- added rocket_projects.txt
+- added documentation.md
+- added generic_air_prototype_rewards.txt
+- added generic_land_prototype_rewards.txt
+- added generic_naval_prototype_rewards.txt
+- added generic_nuclear_prototype_rewards.txt
+- added generic_rocket_prototype_rewards.txt
+- added special_projects_documentation.md
+- added documentation.md
+- added specializations.txt
+- deleted 00_technology.txt
+- added SoD_technology.txt
+- added SoD_categories.txt
+- modified descriptor.mod
+- added 1183-Hotan Pass.txt
+- added SOD_Germany.txt
+- added artillery.txt
+- added big_unit_stats_template_tab_bg.dds
+- added provinces.xcf
+- added provinces_old.bmp
+- added railways_old.txt
+- added unitview.gui
+- modified GER_1936.txt
+- modified USA.txt
+- added bba_songs.txt
+- modified sodtnw.mod
+
+### Decisions
+
+- modified GER.txt
+- added GER Decision Categories.txt
+
+### Ideas & Spirits
+
+- modified _economic.txt
+- modified _manpower.txt
+- modified _trade.txt
+- modified bulgaria.txt
+
+### Focus Trees
+
+- modified SOD_Germany.txt
+- added hubei.txt
+
+### Localization
+
+- added comintern.txt
+- modified Argentina_l_english.yml
+- deleted Chahar_Clique_l_english.yml
+- deleted Deng_Xihou_Clique_l_english.yml
+- deleted Fujian_Clique_l_english.yml
+- added Germany_NEW_l_english.yml
+- deleted Henan_Clique_l_english.yml
+- deleted Hubei_Clique_l_english.yml
+- added Malay_States_l_english.yml
+- modified Anhui_Clique_l_english.yml
+- modified Beiyang_Clique_l_english.yml
+- added Chahar_Clique_l_english.yml
+- modified Dege_l_english.yml
+- added Deng_Xihou_Clique_l_english.yml
+- modified Fengtian_Clique_l_english.yml
+- added Fujian_Clique_l_english.yml
+- modified Guangdong_Clique_l_english.yml
+- modified Guangxi_Clique_l_english.yml
+- modified Guizhou_l_english.yml
+- modified Heilongjiang_Clique_l_english.yml
+- added Henan_Clique_l_english.yml
+- modified Hotan_l_english.yml
+- added Hubei_Clique_l_english.yml
+- modified Hunan_Clique_l_english.yml
+- modified Jiangsu_Clique_l_english.yml
+- modified Jiangxi_Clique_l_english.yml
+- modified Jilin_Clique_l_english.yml
+- modified KMT_Clique_l_english.yml
+- modified Kumul_l_english.yml
+- modified Lingstang_l_english.yml
+- modified Liu_Xiang_Clique_l_english.yml
+- modified Muli_l_english.yml
+- modified Nangqen_l_english.yml
+- modified Ngoloks_l_english.yml
+- modified Ningxia_Clique_l_english.yml
+- modified Qinghai_l_english.yml
+- modified Rehe_Clique_l_english.yml
+- modified Shaanxi_Clique_l_english.yml
+- modified Shandong_Clique_l_english.yml
+- modified Shanghai_Triads_l_english.yml
+- modified Shanxi_Clique_l_english.yml
+- modified Sichuan_l_english.yml
+- modified Suiyuan_Clique_l_english.yml
+- modified Tian_Songyao_Clique_l_english.yml
+- added Xinjiang_Clique_l_english.yml
+- modified Yunnan_Clique_l_english.yml
+- modified Zhejiang_Clique_l_english.yml
+- modified Zhili_Clique_l_english.yml
+- modified china_states_wade_giles_l_english.yml
+- added SOD_Technologies_l_english.yml
+- deleted Xinjiang_Clique_l_english.yml
+- modified state_names_l_english.yml
+- modified strategic_region_names_l_english.yml
+- modified SOD_core_l_english.yml
+
+### Technologies
+
+- modified MTG_naval.txt
+- added MTG_naval_Support.txt
+- deleted air_doctrine.txt
+- modified artillery.txt
+- modified bba_air_techs.txt
+- modified electronic_mechanical_engineering.txt
+- modified infantry.txt
+- deleted land_doctrine.txt
+- deleted naval_doctrine.txt
+- modified special_forces_doctrine.txt
+- added special_projects_tech.txt
+- modified support.txt
+
+### Units & OOB
+
+- modified HQ.txt
+- modified artillery.txt
+- modified artillery_brigade.txt
+- added engineer.txt
+- modified artillery.txt
+- added heavy_artillery.txt
+- added siege_artillery.txt
+- added field_hospital.txt
+- deleted infantry_medical_unit.txt
+- added logistics.txt
+- added maintenance.txt
+- added recon.txt
+- added signal.txt
+- added big_division_designer_popup_bg.dds
+- added divisiondesignerview.gui
+- modified big_division_designer_popup_bg.dds
+- modified division_hq.dds
+- added division_hq_armored.dds
+- added division_hq_car.dds
+- added division_hq_mech.dds
+- modified heavy_art_unit_icon.dds
+- added support_unit_engineer_arm_icon.dds
+- modified support_infantry_medical_unit_icon.dds
+- added support_unit_logistics_company_mot_icon.dds
+- added support_unit_maintenance_company_arm_icon.dds
+- added support_unit_signal_company_arm_icon.dds
+- added unit_art_icon.dds
+- modified divisiondesignerview.gui
+- added divisions_summary.gui
+
+### Events
+
+- added SOD_Germany_Domestic.txt
+
+### Graphics
+
+- modified equipmentupgradedesignerwindow.gui
+- added army_icons.dds
+- added army_icons.txt
+- added KEL.tga
+- added TER.tga
+- added KEL.tga
+- added TER.tga
+- added KEL.tga
+- added TER.tga
+- modified big_unit_stats_template_tab_bg.dds
+- added heavy_artillery_equipment.png
+- added Portrait_RUS_Grigoriy_Zinoviev.png
+- added load_8.dds
+- added load_9.dds
+- added SOD_technologies.gfx
+- modified SOD_units.gfx
+- modified airselectionview.gui
+- added core.gui
+- added countryconstructionsview.gfx
+- added countryconstructionsview.gui
+- modified countrystateview.gfx
+- modified countrystateview.gui
+- modified countrytechtreeview.gui
+- modified mapicons.gui
+- added naviesview.gui
+- modified popupwindow.gui
+- modified unitview.gui
+
+### Countries
+
+- modified ABK - Abkhazia.txt
+- modified AEF - French Equatorial Africa.txt
+- modified ALT - Altai Republic.txt
+- modified ANG - Angola.txt
+- modified AOF - French West Africa.txt
+- modified AST - Australia.txt
+- modified AZR - Azerbaijan.txt
+- modified BAH - Bahamas.txt
+- modified BAN - Bangladesh.txt
+- modified BAS - British Antilles.txt
+- modified BAY - Bavaria.txt
+- modified BEL - Belgium.txt
+- modified BLR - Belarus.txt
+- modified BLZ - Belize.txt
+- modified BOT - Botswana.txt
+- modified BRD - Burundi.txt
+- modified BRI - Brittany.txt
+- modified BRM - Burma.txt
+- modified BSK - Bashkortostan.txt
+- modified BUK - Bukharan Republic.txt
+- modified BUL - Bulgaria.txt
+- modified BYA - Buryatia.txt
+- modified CAM - Cambodia.txt
+- modified CAN - Canada.txt
+- modified CAR - Central African Republic.txt
+- modified CAT - Catalonia.txt
+- modified CAY - Cayenne.txt
+- modified CHA - Chad.txt
+- modified CHI - China.txt
+- modified CHU - Chuvashia.txt
+- modified CIN - Chechnya-Ingushetia.txt
+- modified CKK - Chukotka.txt
+- modified CMR - Cameroon.txt
+- modified COG - Congo.txt
+- modified COR - Corsica.txt
+- modified CRC - Curacao.txt
+- modified CRI - Crimea.txt
+- modified CRO - Croatia.txt
+- modified CSA - CSA.txt
+- modified CYP - Cyprus.txt
+- modified DAG - Dagestan.txt
+- modified DAN - Danzig.txt
+- modified DDR - East Germany.txt
+- modified DEN - Denmark.txt
+- modified DJI - Djibouti.txt
+- modified DNZ - Danzig.txt
+- modified DOM - Dominican Republic.txt
+- modified EGY - Egypt.txt
+- modified ENG - Britain.txt
+- modified EQG - Equatorial Guinea.txt
+- modified ERI - Eritrea.txt
+- modified EST - Estonia.txt
+- modified FER - Far Eastern Republic.txt
+- modified FIJ - Fiji.txt
+- modified FIN - Finland.txt
+- modified FNG - Fengtian.txt
+- modified FRA - France.txt
+- modified FRE - France Exile.txt
+- modified FSM - Micronesia.txt
+- modified GAB - Gabon.txt
+- modified GAM - The Gambia.txt
+- modified GDG - Guangdong Clique.txt
+- modified GDL - Guadeloupe.txt
+- modified GEO - Georgia.txt
+- modified GHA - Ghana.txt
+- modified GLC - Galicia.txt
+- modified GNA - Guinea.txt
+- modified GNB - Guinea-Bissau.txt
+- modified GUM - Guam.txt
+- modified GYA - Guyana.txt
+- modified HAI - Haiti.txt
+- modified HAN - Hanover.txt
+- modified HAW - Hawaii.txt
+- modified HUN - Hungary.txt
+- modified ICE - Iceland.txt
+- modified IEA - Italian East Africa.txt
+- modified INS - Indonesia.txt
+- modified IRE - Ireland.txt
+- modified ISR - Israel.txt
+- modified ITA - Italy.txt
+- modified ITM - Italian Military.txt
+- modified ITS - Italian Socialists.txt
+- modified IVO - Ivory Coast.txt
+- modified JAM - Jamaica.txt
+- modified JAP - Japan.txt
+- added JOH - Johore.txt
+- modified JOR - Jordan.txt
+- modified KAL - Kalmykia.txt
+- modified KAR - Karelia.txt
+- modified KAZ - Kazakhstan.txt
+- modified KBK - Kabardino-Balkaria.txt
+- added KEL - Kelantan.txt
+- modified KEN - Kenya.txt
+- modified KHI - Khiva.txt
+- modified KKP - Karakalpakstan.txt
+- modified KOM - Komi Republic.txt
+- modified KSH - Kashubia.txt
+- modified KUR - Kurdistan.txt
+- modified KUW - Kuwait.txt
+- modified KYR - Kyrgyzstan.txt
+- modified LAO - Laos.txt
+- modified LEB - Lebanon.txt
+- modified LIB - Liberia.txt
+- modified LIT - Lithuania.txt
+- modified MAL - Malaysia.txt
+- modified MAN - Manchukou.txt
+- modified MEK - Mecklenburg.txt
+- modified MEL - Mari El.txt
+- modified MEN - Mengkukuo.txt
+- modified MLD - Maldives.txt
+- modified MLT - Malta.txt
+- modified MLW - Malawi.txt
+- modified MOL - Moldova.txt
+- modified MZB - Mozambique.txt
+- modified NAV - Navarra.txt
+- modified NEN - Nenetsia.txt
+- modified NEP - Nepal.txt
+- modified NEW - Newfoundland.txt
+- modified NGA - Nigeria.txt
+- modified NIR - Northern Ireland.txt
+- modified NMB - Namibia.txt
+- modified NOA - North Ossetia-Alania.txt
+- modified NZL - New Zealand.txt
+- modified OCC - Occitania.txt
+- modified OVO - Ostyakia Vogulia.txt
+- modified PAK - Pakistan.txt
+- modified PHI - Philippines.txt
+- modified POL - Poland.txt
+- modified PRC - ComChina.txt
+- modified PRE - Prussia.txt
+- modified PUE - Puerto Rico.txt
+- modified QAT - Qatar.txt
+- modified RAJ - British Raj.txt
+- modified RCG - Republic of Congo.txt
+- modified ROC - Republic of China.txt
+- modified RWA - Rwanda.txt
+- modified SAF - South Africa.txt
+- modified SAM - Samoa.txt
+- modified SAX - Saxony.txt
+- modified SCO - Scotland.txt
+- modified SEN - Senegal.txt
+- modified SHL - Schleswig-Holstein.txt
+- modified SIA - Siam.txt
+- modified SIE - Sierra Leone.txt
+- modified SIL - Silesia.txt
+- modified SLO - Slovakia.txt
+- modified SOL - Solomon Islands.txt
+- modified SOM - Somalia.txt
+- modified SOV - Soviet union.txt
+- modified SRL - Sri Lanka.txt
+- modified SUD - Sudan.txt
+- modified SUR - Suriname.txt
+- modified SWE - Sweden.txt
+- modified TAH - Tahiti.txt
+- modified TAJ - Tajikistan.txt
+- modified TAT - Tatarstan.txt
+- modified TAY - Taymyria.txt
+- added TER - Terengganu.txt
+- modified TIB - Tibet.txt
+- modified TMS - Turkmenistan.txt
+- modified TRI - Trinidad and Tobago.txt
+- modified TZN - Tanzania.txt
+- modified UAE - United Arab Emirates.txt
+- modified UDM - Udmurtia.txt
+- modified UGA - Uganda.txt
+- modified UKR - Ukraine.txt
+- modified USA - USA.txt
+- modified USA - United States.txt
+- modified USB - USB.txt
+- modified UZB - Uzbekistan.txt
+- modified VGE - Volga Germany.txt
+- modified VIN - Vietnam.txt
+- modified VLA - Vladivostok.txt
+- modified VOL - Upper Volta.txt
+- modified WES - Western Sahara.txt
+- modified WGR - West Germany.txt
+- modified WLS - Wales.txt
+- modified WUR - Wurtemberg.txt
+- modified YAK - Yakutia.txt
+- modified YAM - Yamalia.txt
+- modified YUG - Yugoslavia.txt
+- modified ZAM - Zambia.txt
+
+### States
+
+- added 1178-Paten.txt
+- added 1179-Verapaz.txt
+- added 1180-Izabal.txt
+- added 1181-Solola.txt
+- added 1182-Quiche.txt
+- added 1183-Hotan Pass.txt
+- added 1184-Johor.txt
+- added 1185-Terengganu.txt
+- added 1186-Kelantan.txt
+- added 1187 - Deccan States.txt
+- added 1188 - Madras States.txt
+- added 1189 - Bastar.txt
+- added 1190-Pegu.txt
+- added 1191-Kentung and Yawnghwe.txt
+- added 1192-Tenasserim.txt
+- added 1193-Irrawaddy.txt
+- added 1194-Arakan.txt
+- added 1195-Sagaing.txt
+- added 1196-Federated Shan States.txt
+- added 1197-North West Australia.txt
+- added 1198-South West Australia.txt
+- modified 267-Afghanistan.txt
+- modified 285-Austraila.txt
+- deleted 288-Burma.txt
+- added 288-Magwe.txt
+- modified 313-Guatemala.txt
+- modified 336-Singapore.txt
+- modified 415-South Khorasan.txt
+- added 423-Madras.txt
+- deleted 423-Tamil.txt
+- deleted 425-Karnataka.txt
+- added 425-Mysore.txt
+- modified 426-Odisha.txt
+- added 427-Hyderabad.txt
+- deleted 427-Hydrabad.txt
+- deleted 428-Gujarat.txt
+- added 428-Western Indian States.txt
+- added 429-Bombay.txt
+- deleted 429-Mumbai.txt
+- modified 430-Bangladesh.txt
+- deleted 433-Manipur.txt
+- added 433-Rajputana.txt
+- modified 436-Jharkhand.txt
+- modified 458-Tunisia.txt
+- modified 496-Para.txt
+- modified 497-Maranhao.txt
+- modified 517-Victoria.txt
+- modified 519-South Australia.txt
+- modified 520-Northern Territory.txt
+- modified 521-Queensland.txt
+- modified 522-Western Australia.txt
+- added 640-Mandalay.txt
+- deleted 640-Stae 2.txt
+- modified 674-Central Australia.txt
+- modified 763-Konigsberg.txt
+
+### Map
+
+- modified adjacencies.csv
+- deleted airports.txt
+- modified buildings.txt
+- modified definition.csv
+- modified provinces.bmp
+- added provinces.bmp.aux.xml
+- added provinces.psd
+- modified railways.txt
+- deleted rocketsites.txt
+- modified 1-Southern England.txt
+- modified 10-Southern Sweden.txt
+- modified 100-Red Sea.txt
+- modified 101-Bay of Bengal.txt
+- modified 102-East African Coast.txt
+- modified 103-Mozambique Channel.txt
+- modified 104-Arabian Sea.txt
+- modified 105-Eastern Pacific 1.txt
+- modified 106-Mexican Coast.txt
+- modified 107-Western Canal zone.txt
+- modified 108-South American coast.txt
+- modified 109-Peruivan Coast.txt
+- modified 11-Southern Norway.txt
+- modified 110-East Pacific 2.txt
+- modified 111-East Pacific 3.txt
+- modified 112-Far South Pacific.txt
+- modified 113-South Pacific.txt
+- modified 114-North Pacific.txt
+- modified 115-North East Pacific.txt
+- modified 116-Iran.txt
+- modified 129-Asia minor.txt
+- modified 130-Ukraine.txt
+- modified 131-Belarus.txt
+- modified 133-Central Russia.txt
+- modified 134-Caucasus Region.txt
+- modified 135-Taman Region.txt
+- modified 137-Western Steppe.txt
+- modified 138-Ural Region.txt
+- modified 14-TransUrals.txt
+- modified 141-East India.txt
+- modified 145-Central Asia.txt
+- modified 154-Home Islands.txt
+- modified 156-Austrialia.txt
+- modified 157-New Nealand.txt
+- modified 158-Guinea.txt
+- modified 159-Borneo.txt
+- modified 16-North Sea.txt
+- modified 160-Philippines.txt
+- modified 161-Iceland.txt
+- modified 162-Afghanistan Area.txt
+- modified 165-South West China.txt
+- modified 167-New Guinea.txt
+- modified 168-Adriatic Sea.txt
+- modified 169-Tyrrhenian Sea.txt
+- modified 170-Florida Coast.txt
+- modified 172-South Central Pacific.txt
+- modified 173-Eastern North Sea.txt
+- modified 174-Norwegian Coast.txt
+- modified 175-Southeastern Central Pacific.txt
+- modified 176-Central North Pacific.txt
+- modified 177-Western North Pacific.txt
+- modified 178-West Polynesia.txt
+- modified 179-French Polynesia.txt
+- modified 18-Channel.txt
+- modified 180-Micronesian Gap.txt
+- modified 181-Madgascar.txt
+- modified 182-North West Africa.txt
+- modified 186-Korea.txt
+- modified 187-Sumatra.txt
+- modified 188-Malaya.txt
+- modified 189-Burma.txt
+- modified 19-Northern France.txt
+- modified 190-Pakistan.txt
+- modified 191-Northern Norway.txt
+- modified 193-Northern Australia.txt
+- modified 194-Eastern Australia.txt
+- modified 195-Central Australia.txt
+- modified 2-Northern England.txt
+- modified 20-Southern France.txt
+- modified 202-Aegean Sea.txt
+- modified 203-Persian Gulf.txt
+- modified 204-Sierra Madre.txt
+- modified 205-Yucatan Peninsula.txt
+- modified 206-Lower Baltic Sea.txt
+- modified 207-Danish Belts.txt
+- modified 208-Western France.txt
+- modified 209-Northwestern Iberia.txt
+- modified 21-Alpine Region.txt
+- modified 210-Southern Iberia.txt
+- modified 22-Czechoslovakia.txt
+- modified 23-Italy.txt
+- modified 230-Cape Comorin.txt
+- modified 231-Coromandel Coast.txt
+- modified 236-South Arabia.txt
+- modified 24-Western Balkans.txt
+- modified 240-Zagros.txt
+- modified 241-Dasht-e kavir.txt
+- modified 246-Central China.txt
+- modified 25-Greece.txt
+- modified 250-Kham.txt
+- modified 252-Tien Shan.txt
+- modified 253-Vindhyachal.txt
+- modified 254-Thar Desert.txt
+- modified 26-Eastern Balkans.txt
+- modified 27-Northern Balkans.txt
+- added 289-Southern Afghanistan.txt
+- modified 29-Central Mediterranean Sea.txt
+- added 290-Bengal.txt
+- added 291-Baluchistan.txt
+- added 292-Shan States.txt
+- added 293-Tenasserim.txt
+- added 294-Rangoon.txt
+- added 295-Mandalay.txt
+- added 296-Gujarat.txt
+- added 297-Eastern-Iranian Range.txt
+- added 298-Eastern Zagros.txt
+- modified 3-Scotland and Northern Ireland.txt
+- modified 30-Black Sea.txt
+- modified 31-Indian Area.txt
+- modified 32-Southern Ocean.txt
+- modified 33-North America.txt
+- modified 34-Central America.txt
+- modified 36-Atlantic Ocean.txt
+- modified 37-Baltic States.txt
+- modified 38-Western Poland.txt
+- modified 39-Eastern Poland.txt
+- modified 4-Ireland.txt
+- modified 40-Western Russia.txt
+- modified 41-Northeastern Iberia.txt
+- modified 42-Bay of Biscay.txt
+- modified 43-Western Approaches.txt
+- modified 44-Denmark Strait.txt
+- modified 45-Norwegian Sea.txt
+- modified 46-Barents Sea.txt
+- modified 47-Spanish Coast.txt
+- modified 48-African Coast.txt
+- modified 49-Mid Atlantic 1.txt
+- modified 5-Benelux Region.txt
+- modified 50-Labrador Sea.txt
+- modified 51-Mid atlantic 2.txt
+- modified 52-Gulf of Mexico.txt
+- modified 53-Caribbean.txt
+- modified 54-Eastern Seaboard.txt
+- modified 55-Newfoundland Sea.txt
+- modified 56-Mid Atlandtic 3.txt
+- modified 57-Mid Atlantic 4.txt
+- modified 58-Mid Atlantic 5.txt
+- modified 59-Mid Atlantic 6.txt
+- modified 60-West Indian Ocean.txt
+- modified 61-Central Atlantic.txt
+- modified 62-Cape Approach.txt
+- modified 63-Argintine Coast.txt
+- modified 64-Super Southern atlantic 1.txt
+- modified 65-Cape of Africa.txt
+- modified 66-South central atlantic 1.txt
+- modified 67-Super south atlantic 2.txt
+- modified 68-Western Mediterranean Sea.txt
+- modified 69-Eastern mediterranean Sea.txt
+- modified 7-Western Germany.txt
+- modified 70-Caspian Sea.txt
+- modified 71-East Indian Ocean.txt
+- modified 72-Straits of Malacca.txt
+- modified 73-Gulf of Thailand.txt
+- modified 74-South East Indian Ocean.txt
+- modified 75-South China Sea.txt
+- modified 76-East China Sea.txt
+- modified 77-Yellow Sea.txt
+- modified 78-Philippine Sea.txt
+- modified 79-Sea of Japan.txt
+- modified 8-Eastern Germany.txt
+- modified 80-Celebes Sea.txt
+- modified 81-Coral Sea.txt
+- modified 82-Gulf of Carpentaria.txt
+- modified 83-Soloman Sea.txt
+- modified 84-Bismarck Sea.txt
+- modified 85-South West Indian Ocean.txt
+- modified 86-Tasman Sea.txt
+- modified 87-Sea of Okhotsk.txt
+- modified 88-Bering Sea.txt
+- modified 89-Western Seaboard.txt
+- modified 90-Coast of Japan.txt
+- modified 91-Arafura Sea.txt
+- modified 92-Timor Sea.txt
+- modified 93-Banda Sea.txt
+- modified 94-Western Pacific.txt
+- modified 95-Western pacific 2.txt
+- modified 96-North West Pacific.txt
+- modified 97-South West Pacific.txt
+- modified 98-Great Austrialian Blight.txt
+- modified 99-Far Eastern Indian Ocean.txt
+- modified supply_nodes.txt
+- modified unitstacks.txt
+

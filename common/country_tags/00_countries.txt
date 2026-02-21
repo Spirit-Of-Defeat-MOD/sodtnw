@@ -239,6 +239,31 @@ UDM = "countries/Udmurtia.txt"
 CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
 
+#DLC Tags - Added to prevent errors when base game files reference them
+GDC = "countries/Asian.txt"		#Guangdong Clique - cosmetic variant
+SND = "countries/Asian.txt"		#Shandong Province
+SIC = "countries/Asian.txt"		#Sichuan Province
+NXM = "countries/Asian.txt"		#Ningxia - Mongol variant
+GSM = "countries/Asian.txt"		#Gansu - Tibetan variant
+XIC = "countries/Asian.txt"		#Xinjiang - cosmetic variant
+KHM = "countries/Asian.txt"		#Kokonor
+RNG = "countries/Asian.txt"		#Republic of Ningxia
+HBC = "countries/SouthAmerican.txt"	#Hudson's Bay Company
+FSA = "countries/SouthAmerican.txt"	#Free State of America
+BHR = "countries/MiddleEast.txt"	#Bahrain
+RIF = "countries/African.txt"		#Rif Republic
+SOK = "countries/African.txt"		#South Kasai
+AFA = "countries/African.txt"		#Afar Sultanate
+SIN = "countries/Asian.txt"		#Singapore
+KAS = "countries/Asian.txt"		#Kashmir
+KOS = "countries/EastEurope.txt"	#Kosovo
+IMO = "countries/African.txt"		#Imamate of Oman (cosmetic variant)
+KLT = "countries/Asian.txt"		#Kalat
+HAR = "countries/African.txt"		#Harari
+SAB = "countries/African.txt"		#Sabah
+BRN = "countries/Asian.txt"		#Brunei
+CHM = "countries/MiddleEast.txt"	#Chechnya-Mingrelian
+
 #SOD TAGS
 ##North America
 #Canada

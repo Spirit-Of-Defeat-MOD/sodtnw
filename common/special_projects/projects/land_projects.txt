@@ -142,7 +142,7 @@ sp_land_military_engineering_vehicles = {
 		}
 
 		enable_subunits = {
-			assault_engineer
+			engineer_arm
 		}
 
 		country_effects = {

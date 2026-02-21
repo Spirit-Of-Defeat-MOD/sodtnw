@@ -50,10 +50,6 @@ set_popularities = {
 	neutrality = 40
 }
 
-# probably needs some adjustment before nazi occupation in 1940
-1939.1.1 = {
-	#
-}
 
 create_country_leader = {
 	name = "Karlis Ulmanis"

@@ -1,0 +1,26 @@
+technologies = {
+
+	# Stub technologies to satisfy references from base/DLC and suppress "invalid database object" warnings
+
+	base_strike = {
+		research_cost = 1
+		ai_will_do = { factor = 0 }
+		folder = { name = "air_techs_folder" position = { x = 0 y = 0 } }
+		categories = { air_equipment }
+	}
+
+	fleet_in_being = {
+		research_cost = 1
+		ai_will_do = { factor = 0 }
+		folder = { name = "naval_folder" position = { x = 0 y = 0 } }
+		categories = { naval_equipment }
+	}
+
+	convoy_interdiction_ti = {
+		research_cost = 1
+		ai_will_do = { factor = 0 }
+		folder = { name = "naval_folder" position = { x = 0 y = 0 } }
+		categories = { naval_equipment }
+	}
+
+}

@@ -100,6 +100,3 @@ create_corps_commander = {
 	logistics_skill = 2
 	female = yes
 }
-
-1939.1.1 = {
-}

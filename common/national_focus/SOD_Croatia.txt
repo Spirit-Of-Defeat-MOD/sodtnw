@@ -1192,11 +1192,11 @@ focus_tree = {
 				name = sub_op_bonus
 				bonus = 1.0
 				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
+				#technology = convoy_interdiction_ti
+				#technology = unrestricted_submarine_warfare
+				#technology = wolfpacks
+				#technology = advanced_submarine_warfare
+				#technology = combined_operations_raiding
 			}
 		}
 	}
@@ -2022,16 +2022,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = sub_op_bonus
-				bonus = 1.0
-				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
-			}
 		}
 	}
 

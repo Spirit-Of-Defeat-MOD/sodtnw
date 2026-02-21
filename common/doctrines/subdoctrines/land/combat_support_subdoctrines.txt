@@ -781,14 +781,7 @@ field_engineering = {
             movement = 0.2
         }
     }
-    assault_engineer = {
-        river = {
-            movement = 0.2
-        }
-        forest = {
-            movement = 0.2
-        }
-    }
+    
     pioneer_support = {
         river = {
             movement = 0.2

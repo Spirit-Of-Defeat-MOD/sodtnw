@@ -30,4 +30,4 @@ replace_path="gfx/loadingscreens"
 replace_path="gfx/flags"
 
 name="Spirit of Defeat: The New War"
-supported_version="1.17.*"
+supported_version="1.18.*"

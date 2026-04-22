@@ -240,29 +240,29 @@ CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
 
 #DLC Tags - Added to prevent errors when base game files reference them
-GDC = "countries/Asian.txt"		#Guangdong Clique - cosmetic variant
-SND = "countries/Asian.txt"		#Shandong Province
-SIC = "countries/Asian.txt"		#Sichuan Province
-NXM = "countries/Asian.txt"		#Ningxia - Mongol variant
-GSM = "countries/Asian.txt"		#Gansu - Tibetan variant
-XIC = "countries/Asian.txt"		#Xinjiang - cosmetic variant
-KHM = "countries/Asian.txt"		#Kokonor
-RNG = "countries/Asian.txt"		#Republic of Ningxia
-HBC = "countries/SouthAmerican.txt"	#Hudson's Bay Company
-FSA = "countries/SouthAmerican.txt"	#Free State of America
-BHR = "countries/MiddleEast.txt"	#Bahrain
-RIF = "countries/African.txt"		#Rif Republic
-SOK = "countries/African.txt"		#South Kasai
-AFA = "countries/African.txt"		#Afar Sultanate
-SIN = "countries/Asian.txt"		#Singapore
-KAS = "countries/Asian.txt"		#Kashmir
-KOS = "countries/EastEurope.txt"	#Kosovo
-IMO = "countries/African.txt"		#Imamate of Oman (cosmetic variant)
-KLT = "countries/Asian.txt"		#Kalat
-HAR = "countries/African.txt"		#Harari
-SAB = "countries/African.txt"		#Sabah
-BRN = "countries/Asian.txt"		#Brunei
-CHM = "countries/MiddleEast.txt"	#Chechnya-Mingrelian
+GDC = "countries/Asian.txt"		#
+SND = "countries/Asian.txt"		#
+SIC = "countries/Asian.txt"		#
+NXM = "countries/Asian.txt"		#
+GSM = "countries/Asian.txt"		#
+XIC = "countries/Asian.txt"		#X
+KHM = "countries/Asian.txt"		#
+RNG = "countries/Asian.txt"		#R
+HBC = "countries/SouthAmerican.txt"	#Hebei chahar
+FSA = "countries/SouthAmerican.txt"	#
+BHR = "countries/MiddleEast.txt"	#B
+RIF = "countries/African.txt"		#
+SOK = "countries/African.txt"		#
+AFA = "countries/African.txt"		#
+SIN = "countries/Asian.txt"		#
+KAS = "countries/Asian.txt"		#
+KOS = "countries/EastEurope.txt"	#
+IMO = "countries/African.txt"		#
+KLT = "countries/Asian.txt"		#
+HAR = "countries/African.txt"		#
+SAB = "countries/African.txt"		#
+BRN = "countries/Asian.txt"		#
+CHM = "countries/MiddleEast.txt"	#
 
 #SOD TAGS
 ##North America

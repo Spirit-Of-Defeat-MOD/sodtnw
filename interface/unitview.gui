@@ -684,20 +684,6 @@ guiTypes = {
 			}
 		}
 
-		OverlappingElementsBoxType = {
-			name = "divisions_summary"
-			position = { x=79 y=75 }
-			size = { x=192 y=27 }
-			spacing = 0
-		}
-
-		positionType = {
-			name = "divisions_summary_max_item_count"
-			 # x is used to set the max number of items that will be displayed in the divisions_summary. Any items
-			 # beyond that are not displayed.
-			position = { x=11 y=0 }
-		}
-
 		buttonType = {
 			name = "select_all_button"
 			position = {x=260 y=77}
@@ -753,6 +739,19 @@ guiTypes = {
 			spriteType = "GFX_army_select_wings_btn"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
+		}
+
+		OverlappingElementsBoxType = {
+			name = "divisions_summary"
+			position = { x=79 y=75 }
+			size = { x=192 y=27 }
+			spacing = 0
+		}
+		positionType = {
+			name = "divisions_summary_max_item_count"
+			 # x is used to set the max number of items that will be displayed in the divisions_summary. Any items
+			 # beyond that are not displayed.
+			position = { x=11 y=0 }
 		}
 	}
 
@@ -1378,7 +1377,7 @@ guiTypes = {
 			spriteType = "GFX_UV_unit_entry_bg"
 			clicksound = click_default
 		}
-
+		
 		instantTextboxType = {
 			name = "unit_name"
 			position = {x=180 y=2}
@@ -1413,8 +1412,8 @@ guiTypes = {
 			spriteType = "GFX_unit_infantry_icon_medium" # <- Replaced in code
 			position = { x=21 y=-6 }
 			clicksound = click_default
-		}
-
+		}		
+		
 		iconType = {
 			name = "fake_unit_icon_indicator"
 			spriteType = "GFX_unit_infantry_icon_medium"
@@ -1563,7 +1562,7 @@ guiTypes = {
 			spriteType = "GFX_assign_medal_indicator"
 			position = { x=79 y=4 }
 		}
-
+		
 		iconType = {
 			name = "exile_force_flag_frame"
 			quadTextureSprite ="GFX_unitlist_exile_flag_frame"
@@ -2036,8 +2035,8 @@ guiTypes = {
 
 			iconType = {
 				name = "unit_template_tab_bg"
-				quadTextureSprite ="GFX_big_unit_stats_template_tab_bg"
-				position = { x= -109 y = -1 }
+				quadTextureSprite ="GFX_unit_stats_template_tab_bg"
+				position = { x= -9 y = -1 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -2050,7 +2049,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "combat_header_label"
-				position = { x = 100 y = 47 }
+				position = { x = 105 y = 47 }
 				font = "hoi_18mbs"
 				text = "COMBAT_HEADER"
 				maxWidth = 372
@@ -2061,7 +2060,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "support_header_label"
-				position = { x = 0 y = 47 }
+				position = { x = -12 y = 47 }
 				font = "hoi_18mbs"
 				text = "SUPPORT_HEADER"
 				maxWidth = 110
@@ -2072,7 +2071,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "support_grid"
-				position = { x = -82 y = 78 }
+				position = { x = 4 y = 78 }
 				size = { width = 85 height = 100%% }
 				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
@@ -2080,7 +2079,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "regiments_grid"
-				position = { x = 99 y = 78 }
+				position = { x = 110 y = 78 }
 				size = { width = 445 height = 100%% }
 				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
@@ -2565,7 +2564,6 @@ guiTypes = {
 			position = { x=24 y=33 }
 		}
 
-
 		iconType = {
 			name = "exile_force_flag_frame"
 			quadTextureSprite ="GFX_unitlist_exile_flag_frame"
@@ -2684,6 +2682,43 @@ guiTypes = {
 			name = "unit_level"
 			spriteType = "GFX_unit_level"
 			position = { x = 496 y = 38 }
+		}
+		
+		iconType = {
+			name = "dominance_icon"
+			position = {x=20 y=330}
+			spriteType = "GFX_naval_dominance_texticon"
+		}
+
+		instantTextboxType = {
+			name = "dominance_value"
+			position = { x = 50 y = 332 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 300
+			maxHeight = 20
+			format = left
+		}
+		
+		iconType = {
+			name = "support_icon"
+			position = {x=20 y=300}
+			spriteType = "GFX_naval_dominance_support_strip"
+			frame = 2
+		}
+
+		instantTextboxType = {
+			name = "support_value"
+			position = { x = 50 y = 298 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "0"
+			maxWidth = 300
+			maxHeight = 20
+			format = left
 		}
 
 		iconType = {

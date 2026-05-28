@@ -24,19 +24,16 @@ focus_tree = {
 		id = GER_unitymakesstrength
 		icon = GFX_goal_generic_national_unity
 		cost = 4
-
 		x = 5
 		y = 0
-		
-		available_if_capitulated = yes
-		ai_will_do = { factor = 50 }
-
+		ai_will_do = {
+			factor = 50
+		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GER_unitymakesstrength"
+			log = "[GetLogRoot]: Focus Completed GER_unitymakesstrength"
 			add_stability = 0.1
 			add_war_support = 0.1
 			add_political_power = 50
-
 		}
 	}
 
@@ -44,20 +41,20 @@ focus_tree = {
 		id = GER_emergency_labour_negotiations
 		icon = GFX_goal_generic_national_unity
 		cost = 3
-
-		relative_position_id = GER_unitymakesstrength
 		x = -2
 		y = 1
-		
+		relative_position_id = GER_unitymakesstrength
 		prerequisite = {
 			focus = GER_unitymakesstrength
 		}
-		
-		available_if_capitulated = yes
-		ai_will_do = { factor = 50 }
-
+		ai_will_do = {
+			factor = 50
+		}
+		available = {
+			always = no
+		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GER_emergency_labour_negotiations"
+			log = "[GetLogRoot]: Focus Completed GER_emergency_labour_negotiations"
 			set_country_flag = GER_labour_meeting_flag
 			unlock_decision_category_tooltip = GER_labour_relations_category
 		}

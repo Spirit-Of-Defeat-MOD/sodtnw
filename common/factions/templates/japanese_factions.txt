@@ -1,0 +1,24 @@
+# New Order in East Asia
+faction_template_new_order_in_east_asia_faction = {
+	name = "New Order in East Asia"
+	manifest = faction_manifest_strategic_resource_control
+
+	goals = {
+
+		# Short Term 
+
+		# Medium Term 
+
+		# Long Term 
+		
+	}
+
+	default_rules = {
+		joining_rule_non_communist
+		joining_rule_east_asia_only
+		faction_peace_china_focus
+		change_leader_rule_industry
+	}
+
+	icon = GFX_faction_logo_japanese_co_prosperity_sphere
+}

@@ -239,31 +239,6 @@ UDM = "countries/Udmurtia.txt"
 CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
 
-#DLC Tags - Added to prevent errors when base game files reference them
-GDC = "countries/Asian.txt"		#
-SND = "countries/Asian.txt"		#
-SIC = "countries/Asian.txt"		#
-NXM = "countries/Asian.txt"		#
-GSM = "countries/Asian.txt"		#
-XIC = "countries/Asian.txt"		#X
-KHM = "countries/Asian.txt"		#
-RNG = "countries/Asian.txt"		#R
-HBC = "countries/SouthAmerican.txt"	#Hebei chahar
-FSA = "countries/MiddleEast.txt"	#
-BHR = "countries/MiddleEast.txt"	#B
-RIF = "countries/African.txt"		#
-SOK = "countries/African.txt"		#
-AFA = "countries/African.txt"		#
-SIN = "countries/Asian.txt"		#
-KAS = "countries/Asian.txt"		#
-KOS = "countries/EastEurope.txt"	#
-IMO = "countries/African.txt"		#
-KLT = "countries/Asian.txt"		#
-HAR = "countries/African.txt"		#
-SAB = "countries/African.txt"		#
-BRN = "countries/Asian.txt"		#
-CHM = "countries/MiddleEast.txt"	#
-
 #SOD TAGS
 ##North America
 #Canada

@@ -2457,12 +2457,12 @@ technologies = {
 
 		allow = {
 			ROOT = {
-				is_special_project_completed = sp:sp_naval_support_ships
+				#is_special_project_completed = sp:sp_naval_support_ships
 			}
 		}
 
 		enable_equipments = {
-			support_ship_2
+			#support_ship_2
 		}
 
 		is_special_project_tech = yes
@@ -2491,12 +2491,12 @@ technologies = {
 
 		allow = {
 			ROOT = {
-				is_special_project_completed = sp:sp_naval_support_ships
+				#is_special_project_completed = sp:sp_naval_support_ships
 			}
 		}
 
 		enable_equipments = {
-			repair_ship_2
+			#repair_ship_2
 		}
 
 		is_special_project_tech = yes

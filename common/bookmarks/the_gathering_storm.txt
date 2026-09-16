@@ -6,10 +6,13 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-		
+
+		filters = { new_content continent }
+
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
+			version = base_game
 			ideas = {
 			}
 			focuses = {
@@ -18,6 +21,7 @@ bookmarks = {
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
+			version = base_game
 			ideas = {
 			}
 			focuses = {
@@ -26,16 +30,7 @@ bookmarks = {
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
+			version = base_game
 			ideas = {
 			}
 			focuses = {
@@ -44,6 +39,7 @@ bookmarks = {
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
+			version = base_game
 			ideas = {
 				sour_loser
 				general_staff
@@ -57,47 +53,50 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
+			version = base_game
 			ideas = {
-			}	
+			}
 			focuses = {
-			}		
+			}
 		}
-		"JAP"={
+		JAP = {
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
+			version = base_game
 			ideas = {
-			}	
+			}
 			focuses = {
-
-			}			
+			}
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
+			version = base_game
 			ideas = {
 			}
 			focuses = {
-
-			}	
+			}
 		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		
+
 		"MEX"={
 			minor = yes
 			history = "MEXICO_GATHERING_STORM_DESC"
 			ideology = neutrality
+			version = base_game
 			ideas = {
 
 			}
 		}
-		
+
 		"CRO"={
 			minor = yes
 			history = ""
 			ideology = social_liberal
+			version = base_game
 			ideas = {
 
 			}
@@ -112,6 +111,7 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = utilitarian_despot
+			version = base_game
 			ideas = {
 
 			}
@@ -121,11 +121,12 @@ bookmarks = {
 			minor = yes
 			history = ""
 			ideology = utilitarian_despot
+			version = base_game
 			ideas = {
 
 			}
 		}
-		
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

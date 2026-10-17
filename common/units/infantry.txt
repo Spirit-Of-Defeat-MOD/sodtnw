@@ -695,4 +695,77 @@ sub_units = {
 			infantry_equipment = 80
 		}
 	}
+
+	#a highly specialized, independent light infantry unit
+	ranger_battalion = {
+		abbreviation = "RANBAT"
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		rangers = yes
+		
+		priority = 601
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+
+		group = infantry
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_special_forces
+			category_rangers
+			category_special_forces_leg_infantry
+		}
+
+		combat_width = 1
+
+		#Size Definitions
+		max_strength = 10
+		max_organisation = 85
+		default_morale = 0.6
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 180
+		suppression = 1
+		weight = 0.3
+
+		supply_consumption = 0.03
+		breakthrough = 0.1
+		defense = 4.0
+
+		need = {
+			infantry_equipment = 100
+		}
+		amphibious = {
+			attack = 0.40
+			movement = 0.25
+		}
+		river = {
+			attack = 0.20
+			movement = 0.15
+		}
+		forest = {
+			attack = 0.15
+			defence = 0.1
+			movement = 0.20
+		}
+		jungle = {
+			attack = 0.25
+			defence = 0.15
+			movement = 0.20
+		}
+		mountain = {
+			attack = 0.20
+			defence = 0.1
+			movement = 0.15
+		}
+	}
 }

@@ -156,104 +156,202 @@ sub_units = {
 	}
 	
 	heavy_artillery = {
+		abbreviation = "HVART"
 		sprite = artillery
 		map_icon_category = infantry
-		priority = 1198
-		ai_priority = 100
+		priority = 0
+		ai_priority = 0
 		active = yes
+		affects_speed = no
+		is_artillery_brigade = yes
 		
 		type = {
 			infantry
-			artillery
+			support
 		}
-
+		
 		group = support
 		
 		categories = {
+			category_support_battalions
+			category_divisional_support_battalions
 			category_army
-			category_line_artillery
 			category_artillery
+			category_support_artillery
+			category_heavy_artillery
 		}
 
-		combat_width = 1.3
+		combat_width = 0
 
-		manpower = 250
+		manpower = 500
 		need = {
 			heavy_artillery_equipment = 12
 		}
 		
-		max_strength = 5
-		max_organisation = 46
-		default_morale = 0.35
-		training_time = 130
-		weight = 0.175
-		supply_consumption = 0.075
-		maximum_speed = -0.25
+		max_strength = 20
+		max_organisation = 0
+		default_morale = 0
+		training_time = 120
+		weight = 1.5 #Arguments it could be higher, heavy artillery well..was quite heavy
+		supply_consumption = 0.65
+		maximum_speed = -0.50
 
 		
-		forest = {		
-			movement = -1.0
-			attack = 1.05
-			defence = 0.95
-		}	
-
-		hills = {		
-			movement = -0.95
-			attack = 1.05
-			defence = 0.825
-		}	
-
-		mountain = {		
-			movement = -1.0
-			attack = 1.1
-			defence = 0.9
+		forest = {
+			movement = -0.20	
+			attack = 0.20		
+			defence = -0.10		
 		}
-				
-
-		jungle = {		
-			movement = -1.05
-			attack = 1.175
-			defence = 0.875
-		}	
-
-		marsh = {		
-			movement = -0.9
-			attack = 1.1
-			defence = 0.9
-		}	
-
-		fort = {
-			attack = 1.100
-			defence = 1.000
+		mountain = {
+			movement = -0.45	
+			attack = -0.15		
+			defence = 0.15		
+		}
+		jungle = {
+			movement = -0.50	
+			attack = -0.30		
+			defence = -0.25		
 		}
 
+
+		plains = {
+			movement = 0.05		
+			attack = 0.25		
+			defence = -0.15		
+		}
+		desert = {
+			movement = 0.00		
+			attack = 0.10		
+			defence = -0.20		
+		}
+
+		marsh = {
+			movement = -0.40	
+			attack = -0.20		
+			defence = -0.15		
+		}
 		river = {
-			movement = -0.650
-			attack = 1.1
-			defence = 0.95
+			movement = -0.25	
+			attack = 0.20		
+			defence = -0.30		
 		}
-
 		amphibious = {
-			attack = -0.800
-			defence = -0.800
+			attack = -0.65		
+			defence = -0.40		
 		}
 
-		plains = {		
-			movement = -0.8
-			attack = 1.1
-			defence = 1
+		hills = {
+			movement = -0.10	
+			attack = 0.15		
+			defence = 0.10		
+		}
+		urban = {
+			movement = -0.30	
+			attack = 0.35		
+			defence = -0.15		
+		}
+		fort = {
+			attack = 0.50	
+			defence = 0.10		
+		}
+	}
+
+	super_heavy_artillery = {
+		abbreviation = "SHART"
+		sprite = super_heavy_artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = yes
+		is_artillery_brigade = yes
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_divisional_support_battalions
+			category_army
+			category_artillery
+			category_support_artillery
 		}
 
-		desert = {		
-			movement = -0.8
-			attack = 1.1
-			defence = 1.0
+		regimental = no
+		combat_width = 0
+		
+		essential = {
+			super_heavy_artillery_equipment
 		}
 
-		urban = {		
-			movement = -0.9
-			attack = 0.975
-			defence = 0.8
+		need = {
+			super_heavy_artillery_equipment = 3
 		}
+		manpower = 1000
+		training_time = 180
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.2
+		weight = 0.1
+		
+		supply_consumption = 0.25
+
+		can_be_parachuted = no
+
+		same_support_type = super_heavy_artillery
+	}
+
+	self_propelled_super_heavy_artillery = {
+		abbreviation = "SPSHART"
+		sprite = self_propelled_super_heavy_artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+		is_artillery_brigade = yes
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_divisional_support_battalions
+			category_army
+			category_artillery
+			category_support_artillery
+		}
+
+		regimental = no
+		combat_width = 0
+
+		essential = {
+			self_propelled_super_heavy_artillery_equipment
+		}
+
+		need = {
+			self_propelled_super_heavy_artillery_equipment = 3
+		}
+
+		manpower = 1000
+		training_time = 180
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.2
+		weight = 0.1
+		
+		supply_consumption = 0.35
+
+		can_be_parachuted = no
+
+		same_support_type = super_heavy_artillery
 	}
 }

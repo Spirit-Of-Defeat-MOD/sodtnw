@@ -5,4 +5,5 @@ sub_unit_categories = {
 	category_maintenance
 	category_engineer
 	category_field_hospital
+	category_heavy_artillery
 }

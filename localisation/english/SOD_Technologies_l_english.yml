@@ -40,8 +40,21 @@ artillery_rangefind2_desc:0 "Integrating radar technology into artillery rangefi
 
 
 #EQUIPMENT
+#H-ART 1
 heavy_artillery_equipment:0 "Heavy Artillery Equipment"
 heavy_artillery_equipment_1:0 "Great War Heavy Artillery Equipment"
+GER_heavy_artillery_equipment_1:0 "15 cm schwere Feldhaubitze 18"
+GER_heavy_artillery_equipment_1_short:0 "15 cm sFH 18"
+SOV_heavy_artillery_equipment_1:0 "152 mm howitzer M1909/30"
+SOV_heavy_artillery_equipment_1_short:0 "152 mm Howitzer M1909/30"
+ENG_heavy_artillery_equipment_1:0 "BL 6-inch 26cwt howitzer Mk I"
+ENG_heavy_artillery_equipment_1_short:0 "BL 6-inch 26cwt"
+FRA_heavy_artillery_equipment_1:0 "Canon de 155 C mle 1917 Schneider"
+FRA_heavy_artillery_equipment_1_short:0 "C17S"
+JAP_heavy_artillery_equipment_1:0 "Type 4 15 cm Howitzer"
+JAP_heavy_artillery_equipment_1_short:0 "Type 4 15 cm Howitzer"
+
+#H-ART 2
 heavy_artillery_equipment_2:0 "Improved Heavy Artillery Equipment"
 heavy_artillery_equipment_3:0 "Advanced Heavy Artillery Equipment" 
 siege_artillery_equipment:0 "Siege Artillery Equipment Equipment"

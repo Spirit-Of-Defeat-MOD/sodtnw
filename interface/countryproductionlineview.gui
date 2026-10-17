@@ -92,136 +92,30 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "resources"
-					position = { x = 70 y = 16 }
-					size = { width = 100% height = 60 }
+					name = "resource_strip_container"
+					position = { x = 0 y = 16 }
+					size = { width = -20 height = 25 }
 
-					buttonType = {
-						name = "oil_icon"
-						position = { x=0 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 1
-						#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
-					}
+					#iconType ={
+					#	name = "resources_bg"
+					#	quadTextureSprite = "GFX_trade_filter_bg"
+					#	position = { x= 0 y = 0 }
+					#	Orientation = "UPPER_LEFT"
+					#}
 
-					instantTextboxType = {
-						name = "oil_value"
-						position = { x = 31 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
-					}
-
-					buttonType = {
-						name = "rubber_icon"
-						position = { x=70 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 3
-						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
-					}
-
-					instantTextboxType = {
-						name = "rubber_value"
-						position = { x = 101 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
-					}
-
-					buttonType = {
-						name = "steel_icon"
-						position = { x=140 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 5
-						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
-					}
-
-					instantTextboxType = {
-						name = "steel_value"
-						position = { x = 171 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
-					}
-
-					buttonType = {
-						name = "aluminium_icon"
-						position = { x=210 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 2
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
-					}
-
-					instantTextboxType = {
-						name = "aluminium_value"
-						position = { x = 241 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
-					}
-
-					buttonType = {
-						name = "tungsten_icon"
-						position = { x=280 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 4
-						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
-					}
-
-					instantTextboxType = {
-						name = "tungsten_value"
-						position = { x = 309 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
-					}
-
-					buttonType = {
-						name = "chromium_icon"
-						position = { x=350 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 6
-						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
-					}
-
-					instantTextboxType = {
-						name = "chromium_value"
-						position = { x = 381 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					gridBoxType = {
+						orientation = "CENTER_UP"
+						name = "resources_grid"
+						position = { x = -240 y = 1 }
+						size = { width = 100% height = 100% }
+						slotsize = { width = 70 height = 31 }
+						max_slots = { x = 7 y = 1 }
+						add_horizontal = no
+						format = "UPPER_LEFT"
 					}
 				}
+
+			
 				#################################
 				iconType = {
 					name = "docyards_output_icon"
@@ -1179,16 +1073,16 @@ guiTypes = {
 			iconType = {
 				name ="MIO_icon"
 				spriteType = "GFX_industrial_manufacturer_icon"
-				position = { x= 7 y = 7 }
+				position = { x= 8 y = 8 }
 				Orientation = "UPPER_LEFT"
 			}
 		
 			instantTextBoxType = {
 				name ="available_MIOs"
-				position = { x= 35 y = 8 }
+				position = { x= 30 y = 8 }
 				font = "hoi_18mbs"
 				text = "999"
-				format = left
+				format = center
 				maxWidth = 30
 				maxHeight = 24
 				fixedsize = yes
@@ -1226,8 +1120,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "resources"
-			position = { x = 10 y = 50 }
-			size = { width = 100% height = 100% }
+			position = { x = 18 y = 50 }
+			size = { width = 462 height = 35 }
 
 			background = {
 				name = "Background"
@@ -1245,7 +1139,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "oil_checkbox"
-				position = { x = 22 y = 1 }
+				position = { x = 28 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1253,7 +1147,7 @@ guiTypes = {
 
 			iconType = {
 				name = "rubber_icon"
-				position = { x=58 y=2 }
+				position = { x=66 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 3
 				#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
@@ -1261,7 +1155,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "rubber_checkbox"
-				position = { x = 80 y = 1 }
+				position = { x = 94 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1269,7 +1163,7 @@ guiTypes = {
 
 			iconType = {
 				name = "steel_icon"
-				position = { x=113 y=2 }
+				position = { x=132 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 5
 				#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
@@ -1277,7 +1171,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "steel_checkbox"
-				position = { x = 138 y = 1 }
+				position = { x = 160 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1285,7 +1179,7 @@ guiTypes = {
 
 			iconType = {
 				name = "aluminium_icon"
-				position = { x=173 y=1 }
+				position = { x=198 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 2
 				#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
@@ -1293,7 +1187,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "aluminium_checkbox"
-				position = { x = 195 y = 1 }
+				position = { x = 226 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1301,7 +1195,7 @@ guiTypes = {
 
 			iconType = {
 				name = "tungsten_icon"
-				position = { x=229 y=2 }
+				position = { x=264 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 4
 				#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
@@ -1309,7 +1203,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "tungsten_checkbox"
-				position = { x = 253 y = 1 }
+				position = { x = 292 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1317,7 +1211,7 @@ guiTypes = {
 
 			iconType = {
 				name = "chromium_icon"
-				position = { x=287 y=2 }
+				position = { x=330 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 6
 				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
@@ -1325,7 +1219,23 @@ guiTypes = {
 
 			buttonType = {
 				name = "chromium_checkbox"
-				position = { x = 311 y = 1 }
+				position = { x = 358 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+
+			iconType = {
+				name = "coal_icon"
+				position = { x=396 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 7
+				#pdx_tooltip = "PRODUCTION_MATERIALS_COAL"
+			}
+
+			buttonType = {
+				name = "coal_checkbox"
+				position = { x = 424 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
@@ -1362,7 +1272,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "equipments"
-			position = { x=0 y=112 }
+			position = { x=0 y=144 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			vertical_scroll_step = 41
@@ -1401,16 +1311,16 @@ guiTypes = {
 			iconType = {
 				name ="MIO_icon"
 				spriteType = "GFX_industrial_manufacturer_icon"
-				position = { x= 5 y = 3 }
+				position = { x= 8 y = 8 }
 				Orientation = "UPPER_LEFT"
 			}
 		
 			instantTextBoxType = {
 				name ="available_MIOs"
-				position = { x= 40 y = 8 }
+				position = { x= 30 y = 8 }
 				font = "hoi_18mbs"
 				text = "999"
-				format = left
+				format = center
 				maxWidth = 30
 				maxHeight = 24
 				fixedsize = yes
@@ -1449,7 +1359,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "ship_filters"
 			position = { x = 12 y = 50 }
-			size = { width = 460 height = 64 }
+			size = { width = 460 height = 96 }
 			margin = { top = 4 left = 4 bottom = 4 right = 4 }
 			clipping = no
 
@@ -1918,6 +1828,7 @@ guiTypes = {
 		iconType = {
 			name = "has_mio_background"
 			quadTextureSprite ="GFX_production_item_has_mio"
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -2637,7 +2548,6 @@ guiTypes = {
 			position = { x=245 y=50 }
 			quadTextureSprite = "GFX_carrier_airwing_comp_button"
 			clicksound = click_default
-			pdx_tooltip = CARRIER_AIR_WING_COMPOSITION_TITLE
 		}
 
 		instantTextboxType = {
@@ -3216,7 +3126,7 @@ guiTypes = {
 
 		iconType = {
 			name ="production_line_selected"
-			spriteType = "GFX_production_line_selected"
+			spriteType = "GFX_naval_production_line_selected"
 			position = { x= 2 y = 0 }
 		}
 
@@ -3608,8 +3518,9 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=158 y=76 }
-			scale=0.8
+			#position = { x=158 y=76 }
+			position = { x=102 y=72 }
+			scale=1
 			centerposition = yes
 			alwaystransparent = yes
 		}
@@ -4687,6 +4598,23 @@ guiTypes = {
 			}
 		}
 		
+		iconType = {
+			name ="dominance_icon"
+			spriteType = "GFX_naval_dominance_support_strip"
+			position = { x= 310 y = 8 }
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "dominance_value"
+			position = { x = 343 y = 8 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			maxWidth = 50
+			maxHeight = 20
+			format = left
+		}
+
 		gridBoxType = {
 			name = "resources_grid"
 			position = { x = 376 y = 8 }
@@ -4942,5 +4870,44 @@ guiTypes = {
 			max_slots_vertical = 1
 			format = "UPPER_LEFT"
 		}
+	}
+
+	containerWindowType = {
+		name = "resource_strip_item"
+		position = { x=0 y=0 }
+		size = { width = 70 height = 30 }
+		clipping = no
+
+		buttonType = {
+			name = "button"
+			quadTextureSprite ="resource_item_background"
+		}
+
+		iconType = {
+			name = "energy_ratio_anim"
+			spriteType = "GFX_ongoing_contruction_anim"
+			position = { x = 5 y = 5 }
+		}
+
+		iconType = {
+			name = "icon"
+			position = { x=4 y=2 }
+			spriteType = "GFX_resources_strip"
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "value"
+			position = { x=35 y=7 }
+			font = "hoi_16mbs"
+			fixedsize = yes
+			text = "15"
+			maxWidth = 50
+			maxHeight = 30
+			format = left
+			orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}	
+
 	}
 }

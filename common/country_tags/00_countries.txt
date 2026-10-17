@@ -369,3 +369,15 @@ JOH = "countries/Asian.txt" #Johor Sultanate
 TER = "countries/Asian.txt" #Terengganu Sultanate
 KEL = "countries/Asian.txt" #Kelantan Sultanate
 
+
+#FOR BUGS BECAUSE PARADOX.
+IMO = "countries/Asian.txt"
+RKH = "countries/Asian.txt"
+GDC = "countries/Asian.txt"
+SND = "countries/Asian.txt"
+SIC = "countries/Asian.txt"
+NXM = "countries/Asian.txt"
+GSM = "countries/Asian.txt"
+XIC = "countries/Asian.txt"
+KHM = "countries/Asian.txt"
+HBC = "countries/Asian.txt"

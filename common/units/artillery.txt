@@ -184,6 +184,10 @@ sub_units = {
 		combat_width = 0
 
 		manpower = 500
+		essential = {
+			heavy_artillery_equipment
+		}
+		
 		need = {
 			heavy_artillery_equipment = 12
 		}
@@ -194,6 +198,7 @@ sub_units = {
 		training_time = 120
 		weight = 1.5 #Arguments it could be higher, heavy artillery well..was quite heavy
 		supply_consumption = 0.65
+		recon = 1
 		maximum_speed = -0.50
 
 		

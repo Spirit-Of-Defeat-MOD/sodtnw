@@ -79,6 +79,7 @@ recruit_character = ROC_feng_yuxiang
 recruit_character = ROC_HH_Kung
 recruit_character = ROC_Wang_Zhengting
 recruit_character = ROC_Yan_Huiqing
+recruit_character = ROC_chen_jintao
 
 
 activate_advisor = feng_yuxiang_hog

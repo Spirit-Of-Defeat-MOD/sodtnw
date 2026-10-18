@@ -81,7 +81,9 @@ collapse_decisions = {
 			987 = { add_core_of = KAT }
 			988 = { add_core_of = KAT }
 			782 = { add_core_of = KAT }
+			996 = { add_core_of = MLI }
 			
+			AOF = {release = MLI}
 			MLI = {set_cosmetic_tag = MLI_REP}
 			MLI = {release = KKH}
 			MLI = {release = KAA}
@@ -89,8 +91,8 @@ collapse_decisions = {
 			MLI = {release = KND}
 			MLI = {release = MSA}
 			MLI = {release = DOG}
-			AOF = {release = KAD}
-			AOF = {release = KAT}
+			MLI = {release = KAD}
+			MLI = {release = KAT}
 			KAT = { transfer_state = 988 }
 
 		}

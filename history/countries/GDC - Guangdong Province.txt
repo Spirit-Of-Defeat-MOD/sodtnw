@@ -1,0 +1,18 @@
+﻿capital = 592
+
+oob = "generic"
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = utilitarian_despot
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	utilitarian_despot = 100
+}

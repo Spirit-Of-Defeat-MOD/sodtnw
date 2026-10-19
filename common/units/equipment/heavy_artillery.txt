@@ -80,6 +80,7 @@ equipments = {
 		visual_level = 1
 		
 		##BASE stats
+		reliability = 0.65
 		
 		##COMBAT stats
 		soft_attack = 85

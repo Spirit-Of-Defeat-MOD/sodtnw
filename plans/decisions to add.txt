@@ -1,0 +1,5 @@
+RESOURCE PROSPECTING
+Gongyi Bauxite Deposits +24 aluminium state 963
+Henan Coalfields +16-24 coal state 963
+Zhongfu Deep Mines +20 coal state 1199
+Modernize Anyang +8 steel state 1199

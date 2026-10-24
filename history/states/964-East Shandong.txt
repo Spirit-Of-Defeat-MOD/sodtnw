@@ -7,7 +7,7 @@ state={
 	state_category = c4
 
 	history={
-		owner = SHD
+		owner = ROC
 		add_core_of = SHD
 		add_core_of = CHI
 		add_core_of = ROC

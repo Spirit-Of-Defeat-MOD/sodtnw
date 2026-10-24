@@ -1,0 +1,32 @@
+state = {
+	id = 1200
+	name = "STATE_1200"
+	manpower = 15829300
+	
+	state_category = c4
+	
+	history = {
+		victory_points = { 6932 3 }
+		victory_points = { 1004 12 }
+		owner = ROC
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	local_supplies = 0.0
+	buildings_max_level_factor = 1.000
+	
+	resources = {
+		aluminium = 6
+		tungsten = 12
+		steel = 10
+		chromium = 35
+		coal = 65
+	}
+
+	provinces = {
+		14185 6932 1603 14187 14186 14189 11931 1004 14188
+	}
+}

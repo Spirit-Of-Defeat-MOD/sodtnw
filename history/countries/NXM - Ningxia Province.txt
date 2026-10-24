@@ -15,4 +15,5 @@ set_politics = {
 
 set_popularities = {
 	utilitarian_despot = 100
+	social_liberal = 0
 }

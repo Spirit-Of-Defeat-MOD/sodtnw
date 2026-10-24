@@ -28,6 +28,7 @@ collapse_niger = {
 	999 = { add_core_of = AGA }
 	832 = { add_core_of = AGA }
 	824 = { add_core_of = AGA }
+	823 = { add_core_of = AGA }
 	515 = { add_core_of = AGA }
 	1002 = { add_core_of = MRD }
 	1003 = { add_core_of = DOS }
@@ -39,7 +40,7 @@ collapse_niger = {
 	1004 = { add_core_of = KDI }
 	1005 = { add_core_of = KDI }
 	
-	AGA = { transfer_state = 825 transfer_state = 999 transfer_state = 832 transfer_state = 824 transfer_state = 515 }
+	AOF = {release = AGA}
 	AOF = {release = MRD}
 	AOF = {release = DOS}
 	AOF = {release = DMG}

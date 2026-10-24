@@ -1,14 +1,17 @@
 
 state={
 	id=607
-	name="STATE_607"
-	manpower=34289800
+	name="STATE_607" #Ruyang Dao
+	manpower = 9086850
 	
 	state_category = c5
 	
 	buildings_max_level_factor=1.000
 
 	history={
+		victory_points = { 7540 15 }
+		victory_points = { 7459 17 }
+		victory_points = { 10446 13 }
 		owner = ROC
 		add_core_of = CHI
 		#add_core_of = ROC
@@ -17,14 +20,18 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 		}
-		victory_points = {
-			9958 1 
-		}
 
 
 	}
 
-	provinces={
-		 13437  1004 1139 1603  4114 4144 4519 4547 4606 6932 7074  7459 7508  7656 9958 10364 11931 12012 
+	resources = {
+		aluminium = 24
+		tungsten = 6
+		steel = 12
+		coal = 8
+	}
+
+	provinces = {
+		4519 4547 7459 7508 12012 13665 13664 7568 10446 13666 7540 13667 10434 4158 13438 12426
 	}
 }

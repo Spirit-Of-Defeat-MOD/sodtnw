@@ -7,9 +7,17 @@ can appear. Edits are written into the normal mod files, so they show up in git 
 
 - Double-click `CountryMaster.exe` (it finds the mod by itself when it sits in `tools/country_master/`). Culture
   Master's menu bar has **▸ Country Master** and this one has **▸ Culture Master** to open the other tool.
+- Startup shows an animated loading bar, the current loading stage and elapsed time. Country files and the
+  state map load in the background so the window stays responsive; closing it cancels opening the tool.
+  The loading screen follows the selected theme, including any **Just for Country Master** override.
+- To Do's **Open in master** can launch directly at a linked country or portrait. Leader portraits also select
+  their character when available; generic and base-game portraits open in an image review window.
 - From source: `python country_master.py [mod folder]` (needs `pip install pillow numpy`; it uses
   `../culture_master/culture_master.py` for the map and file code). Rebuild the exe with `build.bat`.
 - The map comes from the same cache as Culture Master (`%LOCALAPPDATA%\CultureMaster`).
+- Country sources and parsed scripts are cached in `%LOCALAPPDATA%\CountryMaster`. Every load checks file
+  sizes and modification times, including mod and base-game overrides. Changed, added and deleted files are
+  picked up on reload. The map reuses state metadata from the same load instead of reading each state again.
 - Flags, portraits and country files the mod doesn't have are read from the base game
   (`C:\SteamLibrary\steamapps\common\Hearts of Iron IV` and the other usual Steam folders, or set `HOI4_GAME`).
 
@@ -46,12 +54,18 @@ Country Master works on any HOI4 mod, not just Revolution Realized:
   Editing the Overview changes the line that is in effect (inside its dated / if block).
 - Leaders made the old way in a history file (`create_country_leader`, `create_field_marshal`,
   `create_corps_commander`, `create_navy_leader` with `name = "..."` and `picture = "x.dds"`, looked for in
-  `gfx/leaders/<TAG>/`) are read as the country's characters: shown in Leaders with their portrait, counted as the
+  `gfx/leaders/<TAG>/`) are read as the country's characters: shown in Characters with their portrait, counted as the
   ruling party's leader and by the Gap Finder; editing them changes their block in the history file.
 - Countries only named per ideology (`SOV_communism`, no `SOV`) use their ruling party's name, else the first there is.
 - The first start on a new mod builds its state map (about half a minute); after that it is cached.
 
 ## The list on the left
+
+**New Tag** (the button row above the list): a new country: tag (3 capitals / digits, not used yet), name, long
+name (`_DEF`), adjective (`_ADJ`), country file (graphics; the one most tags use is picked), map colour, capital
+(typed, or clicked on the map), ruling ideology and flag (82x52 / 41x26 / 10x7 TGAs). It goes into the biggest
+`common/country_tags` file, `colors.txt`, a new `history/countries/TAG - Name.txt` and `countries_l_english.yml`;
+then everything is read again and it's selected. Its states (owner / cores) are still set in the state files.
 
 Every tag in `common/country_tags` (not the dynamic D01... ones), with its flag, its states on the map right now and
 its **Est. pop** (the `manpower` of those states).
@@ -126,6 +140,13 @@ countries on the map have it and their Est. pop.
   `NI_VARIANT_15` are continued), section, note and colour (none = the ideology's). It is written after the last one of
   its section in the same style (one line `X = { ... } #NOTE` or a block), its name next to the others' names, and
   then opens in the edit window.
+- **Sub-ideology map mode** (`subideology_mapmode.py`): a colour saved (or a new sub-ideology) is also written to
+  `common/map_modes/mapmode_subideology.txt`, which takes fractions of 255 with two decimals
+  (`set_temp_variable = { red = 0.27 }`); one that isn't there is added after its ideology's last one. Some values show
+  bright cyan in game: **Shows cyan in game** (next to the colour) records its values in `mapmode_cyan.json` (commit it:
+  the whole team avoids them) and moves it to the nearest values not known to (0.01 steps); `"values"` in that file
+  can list single channel values that always fail. **Tools > Add missing sub-ideologies to the Sub-ideology map mode**
+  adds any never added (with their colour, or their ideology's).
 
 ## Ideology view
 
@@ -184,7 +205,9 @@ back to that country / sub-ideology. Saving writes immediately; the old file is 
   stability, war support, research slots, ruling party, elections, popularities, the leader the game shows at
   start, and its **Collapses** (switch them on / off right there). History values change the line that sets them now (the last one: the game applies them in order) or get a
   new line.
-- **Leaders**: every character it recruits at start plus every `TAG_` character, with portrait (the large one first; the ▶ arrow on the picture switches to the small one used on units / doctrines and to its other portraits (civilian / army / navy); a leader without a working large portrait is red in the list and in the Gap Finder). Name, leader ideology
+- **Country page** above the country panel selects Overview, Characters and the other pages without clipping their names.
+- **Characters layout**: choose a Role from the counted dropdown. Scroll the list vertically for more people or horizontally for more columns; drag the divider below it to give the list or editor more height. The **Edit** dropdown selects **Character**, **Dual leaders** or **Script**. The compact character form needs no scrollbar; the longer dual-leader form scrolls separately. Leader ideology and dual-leader fields complete typed prefixes or open a dropdown; hovering and scrolling never changes their values.
+- **Characters** (was Leaders): every character it recruits at start plus every `TAG_` character, grouped by role (Country leaders, Field marshals, Generals, Admirals, Advisors, Scientists; a character with several roles goes under its first; click a role row to fold it), with a role filter (counts on each) and a **🔍 search** over name, id, roles, leader ideologies and traits. **All countries** searches every country's characters (shown with their tag); picking one opens its country with it picked. The Overview's politics section has **👥 N characters** to jump here (its ruler picked). Each character: with portrait (the large one first; the ▶ arrow on the picture switches to the small one used on units / doctrines and to its other portraits (civilian / army / navy); a leader without a working large portrait is red in the list and in the Gap Finder). Name, leader ideology
   (all sub-ideologies), expire date, leader traits and "recruited at start" have fields; the box below edits the
   whole character (generals' skills, advisor roles, portraits...). **New character...** adds one to
   `common/characters/TAG.txt`, names it and recruits it (its `GFX_` portrait sprite still needs a picture).
@@ -233,7 +256,7 @@ back to that country / sub-ideology. Saving writes immediately; the old file is 
     so the game's tooltip names its ideology, their own names (`USA_party_socialism_2`) and colour (by default a
     lighter / darker shade of the sub-ideology's). When more than 63 party tokens are registered the pie / colour
     sprites get 128 frames (and `noOfFrames` in `RR_parties_ui.gfx` follows).
-- **Leaders added later** (Leaders tab, *Also show leaders added by: National focuses / Decisions / Events* tick
+- **Leaders added later** (Characters tab, *Also show leaders added by: National focuses / Decisions / Events* tick
   boxes, remembered): every leader an event, decision or national focus gives the country is listed with the others,
   in blue, the last column saying *focus* / *decision* / *event*. Leaders they create (`create_country_leader`,
   `create_field_marshal`, `create_corps_commander`, `create_navy_leader`) get the full sheet: name, ideology, expire,
@@ -252,12 +275,14 @@ back to that country / sub-ideology. Saving writes immediately; the old file is 
   *Needs Severe Recorrection* / *Something about it* (or *Not marked*) - see **Rework list** below. Gap Finder: *No generic portraits at all*,
   *No generic portraits of its own (shared)*, *Generic portrait without a picture (large, or small for army /
   navy)*.
-- **Rework list**: right-click a generic (Generics tab) or the leader portrait on the Leaders tab (the one shown:
+- **Rework list**: right-click a generic (Generics tab) or the leader portrait on the Characters tab (the one shown:
   large, small... switch with the arrow) > **Mark for rework** > one of three categories: *Needs Touchup* (orange),
-  *Needs Severe Recorrection* (red), *Something about it* (purple), or *Not marked*. It goes into
-  `tools/country_master/portraits_to_rework.txt` (`mod | sprite | category | used by | date | generic or portrait`, every mod in one file;
+  *Needs Severe Recorrection* (red), *Something about it* (purple), or *Not marked*. Picking a category asks what's
+  wrong with it (optional; **✎ Rework note...** changes it; a generic with one shows 📝, a leader portrait shows it under
+  the ⚑). It goes into
+  `tools/country_master/portraits_to_rework.txt` (`mod | sprite | category | used by | date | generic or portrait | note`, every mod in one file;
   **Open the rework list** on the Generics tab opens it). Marked portraits get a frame and ⚑ in their category's
-  colour; leaders with one get a ⚑ in the Leaders list. Gap Finder: *Portrait marked for rework (any)* and one per
+  colour; characters with one get a ⚑ in the Characters list. Gap Finder: *Portrait marked for rework (any)* and one per
   category list the countries that use a marked generic or leader portrait. (The older `generics_to_rework.txt` is
   read and moved into the new file as *Needs Touchup*.)
   Each mark also becomes a task in Organisation Master's To Do (project **Art Reviews**, grouping *Country Master

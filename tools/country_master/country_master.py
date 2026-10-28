@@ -15,13 +15,16 @@
 import os
 import re
 import sys
+if __name__ == "__main__" and getattr(sys, "frozen", False):  # (the exe runs from a copy so a git pull can replace it: Scripts/run_copy.py)
+	import run_copy
+	run_copy.start("CountryMaster")
 import time
 import shutil
 import subprocess
 import colorsys
 import struct
 import tkinter as tk
-from tkinter import ttk, messagebox, colorchooser, simpledialog
+from tkinter import ttk, messagebox, simpledialog
 
 import numpy as np
 from PIL import Image, ImageTk
@@ -32,7 +35,9 @@ import json
 from collections import defaultdict
 import glob
 from tkinter import filedialog
-from culture_master import TextFile, MapData, strip_comment, RX_LOC_VALUE, split_desc, join_desc, fit_icon, Tooltip, use_rr_theme
+from loading_screen import LoadingCancelled, LoadingScreen
+from country_controls import SafeCombobox, PageStack
+from culture_master import TextFile, MapData, strip_comment, RX_LOC_VALUE, split_desc, join_desc, fit_icon, Tooltip, use_rr_theme, ask_colour, add_guides, open_request, keep_organisation_master
 
 APP_NAME = "Country Master"
 VERSION = "1.0"
@@ -69,6 +74,7 @@ GAP_OPTIONS = {  # Gap Finder: label -> key
 	"Portrait marked: Needs Touchup": "rework:Needs Touchup",
 	"Portrait marked: Needs Severe Recorrection": "rework:Needs Severe Recorrection",
 	"Portrait marked: Something about it": "rework:Something about it",
+	"Portrait marked: Needs a Remini": "rework:Needs a Remini",
 }
 SORT_OPTIONS = ["Name", "Tag", "States", "Est. pop", "Continent"]
 SUB_SORT_OPTIONS = ["File order", "Name", "Token", "Countries", "Est. pop"]
@@ -167,7 +173,12 @@ def build_desc(banner, quote, by, body, lay):
 TOOL_DIR = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, "frozen", False) else __file__))
 REWORK_FILE = os.path.join(TOOL_DIR, "portraits_to_rework.txt")
 OLD_REWORK_FILE = os.path.join(TOOL_DIR, "generics_to_rework.txt")  # before leader portraits could be marked
-REWORK_CATS = {"Needs Touchup": "#e8890c", "Needs Severe Recorrection": "#c62828", "Something about it": "#7b52c7"}
+# 👥 Characters tab: a character is listed under its first role in this order
+ROLE_GROUPS = (("country_leader", "Country leaders"), ("field_marshal", "Field marshals"), ("corps_commander", "Generals"),
+			   ("navy_leader", "Admirals"), ("advisor", "Advisors"), ("scientist", "Scientists"), ("other", "No role"),
+			   ("missing", "Not defined!"))
+REWORK_CATS = {"Needs Touchup": "#e8890c", "Needs Severe Recorrection": "#c62828", "Something about it": "#7b52c7",
+			   "Needs a Remini": "#1f8fb0"}  # (✨ Remini: Organisation Master's GFPGAN upscaler; the same reasons as GFX's for portraits)
 REWORK_DEFAULT = "Needs Touchup"
 REWORK_COLOUR = REWORK_CATS[REWORK_DEFAULT]
 
@@ -178,7 +189,7 @@ def rework_kind(used):
 
 
 def load_rework():
-	"""portraits_to_rework.txt -> {mod folder name: {sprite: (category, used by, marked on, generic / portrait)}}."""
+	"""portraits_to_rework.txt -> {mod folder name: {sprite: (category, used by, marked on, generic / portrait, note)}}."""
 	out = {}
 	path = REWORK_FILE if os.path.exists(REWORK_FILE) else OLD_REWORK_FILE
 	try:
@@ -197,20 +208,21 @@ def load_rework():
 			cat, rest = REWORK_DEFAULT, parts[2:]
 		used = rest[0] if rest else ""
 		kind = rest[2] if len(rest) > 2 and rest[2] in ("generic", "portrait") else rework_kind(used)
-		out.setdefault(parts[0], {})[parts[1]] = (cat, used, rest[1] if len(rest) > 1 else "", kind)
+		out.setdefault(parts[0], {})[parts[1]] = (cat, used, rest[1] if len(rest) > 1 else "", kind, rest[3] if len(rest) > 3 else "")
 	return out
 
 
 def save_rework(marks):
-	lines = ["# Portraits marked for rework in Country Master: generics (Generics tab) and leader portraits (Leaders",
+	lines = ["# Portraits marked for rework in Country Master: generics (Generics tab) and leader portraits (Characters",
 			 "# tab), right-click a portrait. Categories: " + ", ".join(REWORK_CATS) + ".",
 			 "# Gap Finder > 'Portrait marked for rework...' lists the countries using them. To Do Master (Organisation",
 			 "# Master) turns each into a task in Art Reviews (Generic Review / Portrait Review). One per line, any mod:",
-			 "# mod folder | sprite | category | used by | marked on | generic or portrait"]
+			 "# mod folder | sprite | category | used by | marked on | generic or portrait | note (what's wrong, optional)"]
 	for mod in sorted(marks):
 		for sprite in sorted(marks[mod], key=lambda k: (list(REWORK_CATS).index(marks[mod][k][0]), k.lower())):
-			cat, used, when, kind = marks[mod][sprite]
-			lines.append(f"{mod} | {sprite} | {cat} | {used} | {when} | {kind}")
+			cat, used, when, kind, note = (tuple(marks[mod][sprite]) + ("",))[:5]
+			note = " ".join(str(note or "").replace("|", "/").split())  # (one line, no column breaks)
+			lines.append(f"{mod} | {sprite} | {cat} | {used} | {when} | {kind}" + (f" | {note}" if note else ""))
 	with open(REWORK_FILE, "w", encoding="utf-8", newline="\r\n") as f:
 		f.write("\n".join(lines) + "\n")
 	if os.path.exists(OLD_REWORK_FILE):
@@ -292,6 +304,13 @@ class LayeredMap(MapData):
 		return "|".join(parts)
 
 	def _read_state_history(self, root):
+		cached = getattr(self.data, "_map_history_data", None)
+		if cached is not None:
+			provinces, land, owners, population, filenames = cached
+			self.owners.update(owners)
+			self.population.update(population)
+			self.state_file.update(filenames)
+			return dict(provinces), set(land)
 		prov_state, land, seen = {}, set(), set()
 		for f in self._state_files():
 			try:
@@ -407,6 +426,7 @@ class SubForm(ttk.Frame):
 		self.swatch = tk.Label(cf, width=8, relief="solid", bg="#808080")
 		self.swatch.pack(side="left")
 		ttk.Button(cf, text="Pick...", command=self.pick_color).pack(side="left", padx=4)
+		ttk.Button(cf, text="Shows cyan in game", command=lambda: self.editing and app.mapmode_shows_cyan(self.editing)).pack(side="left", padx=(0, 4))
 		self.colour_note = ttk.Label(cf, text="", foreground="#777")
 		self.colour_note.pack(side="left")
 		r += 1
@@ -490,7 +510,7 @@ class SubForm(ttk.Frame):
 						  if users else "No country has a leader with it.")
 
 	def pick_color(self):
-		c = colorchooser.askcolor(color=self.swatch.cget("bg"), parent=self.winfo_toplevel())
+		c = ask_colour(color=self.swatch.cget("bg"), parent=self.winfo_toplevel())
 		if c and c[0]:
 			self.new_rgb = tuple(int(x) for x in c[0])
 			self.swatch.config(bg=c[1])
@@ -664,39 +684,216 @@ class App:
 		root.geometry("1600x950")
 		self.status = ttk.Label(root, text="Loading...", anchor="w", relief="sunken")
 		self.status.pack(side="bottom", fill="x")
-		root.update()
-		self.data = CountryData(mod_root, find_game_dir(mod_root))
-		self._use_saved_start()
-		cache = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "CultureMaster")
-		self.map = LayeredMap(self.data, cache, lambda s: (self.set_status(s), root.update()))
-		self.active = []          # decisions switched on (collapses / bombs)
-		self.preview = None       # a collapse / bomb clicked in the list (shown until another click)
-		self.change_log = []      # (time, what was saved, files, target) - Check recent changes
-		self.highlight, self.highlight_key, self.highlight_label = set(), None, ""  # Show on map
-		self.selected = None      # tag
-		self.selected_state = None
-		self.zoom = None
-		self.ox = self.oy = 0.0
-		self.map_mode = tk.StringVar(value="owner")
-		self._flags = {}
-		self._render_pending = False
-		self._build_ui()
-		self.recompute()
-		self.rebuild_tree()
-		root.after(100, self.fit_map)
+		with LoadingScreen(root, APP_NAME) as loading:
+			game = find_game_dir(mod_root)
+			self.data = loading.run(lambda: CountryData(mod_root, game, progress=loading.report))
+			self._use_saved_start()
+			cache = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "CultureMaster")
+			loading.show("Loading the state map…")
+			self.map = loading.run(lambda: LayeredMap(self.data, cache, loading.report))
+			self.active = []          # decisions switched on (collapses / bombs)
+			self.preview = None       # a collapse / bomb clicked in the list (shown until another click)
+			self.change_log = []      # (time, what was saved, files, target) - Check recent changes
+			self.highlight, self.highlight_key, self.highlight_label = set(), None, ""  # Show on map
+			self.selected = None      # tag
+			self.selected_state = None
+			self.zoom = None
+			self.ox = self.oy = 0.0
+			self.map_mode = tk.StringVar(value="owner")
+			self._flags = {}
+			self._render_pending = False
+			loading.show("Building the interface…")
+			self._build_ui()
+			loading.show("Preparing the map colours…")
+			self.recompute()
+			loading.show("Building the country list…")
+			self.rebuild_tree()
+			loading.show("Ready")
+			root.after(100, self.fit_map)
 		self.set_status(f"{len(self.data.countries)} tags, {len(self.data.characters)} characters, {len(self.data.ideas)} ideas. "
 						"Double-click a collapse or bomb to switch it on.")
+		if hasattr(root, "_sound_feedback"):
+			root._sound_feedback._ready = True
+			root._sound_feedback.play_startup()
+		root.protocol("WM_DELETE_WINDOW", self.quit)
+		root.after(2000, self.now_doing)  # (🟢 what you're doing, for the team: Organisation Master shares it)
+		root.after(3000, lambda: keep_organisation_master(self))
+		try:
+			from master_activity import record
+			record("Country Master", mod_root, action="opened")
+		except ImportError:
+			pass
+
+	def feedback(self, kind="success"):
+		controller = getattr(self.root, "_sound_feedback", None)
+		if controller:
+			controller.feedback(kind)
+
+	def now_doing(self):
+		"""🟢 Every few seconds: what you're doing ("Editing Japan (JAP) · Characters"), for Organisation Master to share."""
+		try:
+			import now_doing
+			now_doing.report("Country Master", self.now_text())
+		except Exception:
+			pass
+		self.root.after(10000, self.now_doing)
+
+	def now_text(self):
+		tag = self.selected
+		if not tag:
+			return "Browsing countries"
+		try:
+			page = self.tabs.tab(self.tabs.select(), "text")
+		except Exception:
+			page = ""
+		return f"Editing {self.data.name(tag)} ({tag})" + (f" · {page}" if page else "")
+
+	def quit(self):
+		try:
+			import now_doing
+			now_doing.clear("Country Master")
+		except Exception:
+			pass
+		controller = getattr(self.root, "_sound_feedback", None)
+		controller.close() if controller else self.root.destroy()
 
 	# ---------- helpers ----------
+	def open_target(self, link):
+		from master_links import parse
+		try:
+			target = parse(link)
+			if target["master"] != APP_NAME:
+				raise ValueError("This link belongs to another master.")
+			if target["kind"] == "portrait":
+				return self.open_linked_portrait(target["value"])
+			if target["kind"] == "ideology":  # (a sub-ideology, e.g. from Organisation Master's 🖼 GFX tab)
+				return self.open_linked_ideology(target["value"])
+			tag = target["value"]
+			if tag not in self.data.countries:
+				raise ValueError(f"Country {tag} is no longer available in this mod.")
+		except ValueError as error:
+			messagebox.showinfo(APP_NAME, str(error), parent=self.root)
+			return False
+		self.layer.set("countries")
+		if self.search_var.get():
+			self.search_var.set("")
+		if self._tree_job:
+			self.root.after_cancel(self._tree_job)
+			self._tree_job = None
+		self.show_var.set(SHOW_ALL)
+		self.gap_var.set(GAP_ALL)
+		self.switch_layer()
+		self.select(tag)
+		self.tabs.select(0)
+		if self.data.countries[tag].states:
+			self.show_on_map(("linked-country", tag), self.data.countries[tag].states, self.data.name(tag))
+		self.root.deiconify()
+		self.root.lift()
+		return True
+
+	def open_linked_ideology(self, token):
+		if self.layer.get() != "subs":
+			self.layer.set("subs")
+			self.switch_layer()
+		for iid in (f"ityp:{token}", f"imain:{token}"):
+			if self.tree.exists(iid):
+				self.tree.selection_set(iid)
+				self.tree.see(iid)
+				break
+		else:
+			self.set_status(f"{token} isn't in the sub-ideology list.")
+		self.root.deiconify()
+		self.root.lift()
+		return True
+
+	def open_linked_portrait(self, value):
+		"""Open the exact source image in Country Master, including generic/base-game portraits."""
+		if value.startswith("game:"):
+			path = os.path.join(self.data.game, value[5:]) if self.data.game else None
+			if not path:
+				from portrait_links import game_link_path
+				path = game_link_path(self.mod_root, value)
+		else:
+			path = self.data.portrait_path(value)
+			if not path and value.startswith("GFX_"):
+				from portrait_links import game_portrait_path
+				path = game_portrait_path(self.mod_root, self.data.game, value)
+		image = load_image(path, (360, 420)) if path else None
+		if image is None:
+			messagebox.showinfo(APP_NAME, f"The linked portrait could not be found:\n{value}", parent=self.root)
+			return False
+		character = next((ch for ch in self.data.characters.values() if any(slot[2] == value for slot in ch.portrait_slots)), None)
+		if character:
+			tag = next((tag for tag, country in self.data.countries.items() if character.id in country.characters), None)
+			tag = tag or (character.id[:3] if character.id[:3] in self.data.countries else None)
+			if tag:
+				from master_links import make
+				self.open_target(make("country", "country", tag))
+				self.tabs.select(self.leaders_tab)
+				if self.lead_tree.exists(character.id):
+					self.lead_tree.selection_set(character.id)
+					self.lead_tree.see(character.id)
+					def show_slot():
+						if not self.lead_tree.exists(character.id):
+							return
+						self.lead_tree.selection_set(character.id)
+						self.lead_tree.see(character.id)
+						self.show_character()
+						def choose_slot():
+							if self.lead_tree.selection() == (character.id,):
+								self.portrait_i = next((i for i, slot in enumerate(self.portrait_slots) if slot[2] == value), 0)
+								self.show_portrait()
+						self.root.after_idle(choose_slot)
+					self.root.after_idle(show_slot)
+		w = tk.Toplevel(self.root)
+		w._om_nonmodal = True
+		w.title("Linked portrait · " + value)
+		body = ttk.Frame(w, padding=16)
+		body.pack(fill="both", expand=True)
+		ttk.Label(body, text=value, wraplength=440, font=("Segoe UI", 11, "bold")).pack(anchor="w", pady=(0, 10))
+		w._portrait_image = ImageTk.PhotoImage(image)
+		picture = ttk.Label(body, image=w._portrait_image, anchor="center")
+		picture.pack(fill="both", expand=True)
+		ttk.Label(body, text=path, wraplength=440).pack(anchor="w", pady=(10, 6))
+		buttons = ttk.Frame(body)
+		buttons.pack(fill="x")
+		if value.startswith("GFX_"):
+			def review_menu(event):
+				marked = self.rework_marks().get(value)
+				used = marked[1] if marked else character.id if character else "linked portrait"
+				kind = marked[3] if marked and len(marked) > 3 else "portrait" if character else "generic"
+				menu = tk.Menu(w, tearoff=0)
+				self.rework_menu_items(menu, value, used, kind)
+				menu.tk_popup(event.x_root, event.y_root)
+			button = ttk.Button(buttons, text="Review status…")
+			button.pack(side="left")
+			button.bind("<Button-1>", review_menu)
+			picture.bind("<Button-3>", review_menu)
+		ttk.Button(buttons, text="Open image file", command=lambda: os.startfile(path)).pack(side="left", padx=4)
+		ttk.Button(buttons, text="Close", command=w.destroy).pack(side="right")
+		self.set_status("Opened linked portrait: " + value)
+		self.root.deiconify()
+		self.root.lift()
+		w.lift()
+		return True
+
 	def set_status(self, text):
 		"""The status line. After files were written, the message that says what was saved goes in the change log."""
 		self.status.config(text=text)
 		written = getattr(self, "_written", [])
 		if written and text.startswith(("Saved", "Made", "Added")):
+			try:
+				from master_activity import record
+				record("Country Master", self.mod_root, files=written, detail=text)
+			except ImportError:
+				pass
 			target = ("sub", self.sub_editing) if self.layer.get() == "subs" and getattr(self, "sub_editing", None) \
 				else ("tag", self.selected) if self.selected else None
 			self.change_log.append((time.strftime("%H:%M:%S"), text, list(written), target))
 			self._written = []
+			self.feedback("new_task" if text.startswith(("Made", "Added")) else "success")
+		elif text.startswith(("Deleted ", "Removed ")):
+			self.feedback("womp")
 
 	def touched(self, rel):
 		"""Remembers a file written for the change log."""
@@ -773,7 +970,8 @@ class App:
 			tf.ends[-1] = ""
 		tf.save()
 		self.reload_file(rel)
-		self.status.config(text=f"Saved {rel} (backup in tools/country_master/backups).")
+		self.set_status(f"Saved {rel} (backup in tools/country_master/backups).")
+		self.feedback()
 
 	def reload_file(self, rel):
 		"""Re-reads what a saved file holds."""
@@ -828,20 +1026,23 @@ class App:
 	# ---------- UI ----------
 	def _build_ui(self):
 		menu = tk.Menu(self.root)
+		add_guides(self, menu, "Country Master", "COUNTRY", lambda: getattr(self, "tabs", None) is not None)
 		fm = tk.Menu(menu, tearoff=0)
 		fm.add_command(label="Open another mod...", command=self.open_other_mod)
 		fm.add_command(label="Reload from disk", command=self.reload_all)
 		fm.add_command(label="Check recent changes", command=self.show_changes)
 		fm.add_command(label="Open Culture Master", command=self.open_culture_master)
 		fm.add_separator()
-		fm.add_command(label="Quit", command=self.root.destroy)
+		fm.add_command(label="Quit", command=self.quit)
 		menu.add_cascade(label="File", menu=fm)
 		tm = tk.Menu(menu, tearoff=0)
 		tm.add_command(label="Collapse all (every collapse on)", command=self.collapse_all)
 		tm.add_command(label="Switch off all collapses / bombs", command=self.clear_active)
 		tm.add_command(label="Problems found while loading...", command=self.show_warnings)
 		tm.add_command(label="New formable nation...", command=self.new_formable)
+		tm.add_command(label="Add missing sub-ideologies to the Sub-ideology map mode", command=self.sync_all_sub_mapmode)
 		menu.add_cascade(label="Tools", menu=tm)
+		menu.add_command(label="💬 Request", command=lambda: open_request(self, "Country Master"))
 		menu.add_command(label="  ▸ Culture Master", command=self.open_culture_master)
 		menu.add_command(label="  ◂ Organisation Master", command=self.open_organisation_master)
 		use_rr_theme(self.root, menu, "Country Master")  # (the theme shared with Organisation / Culture Master)
@@ -936,6 +1137,7 @@ class App:
 		rc.pack(side="bottom", fill="x", pady=(2, 0))
 		Tooltip(rc, self.last_change_text)
 		ttk.Button(lb, text="Switch off all", command=self.clear_active).pack(side="left", padx=4)
+		ttk.Button(lb, text="New Tag", command=self.new_tag).pack(side="left")
 		ttk.Button(lb, text="Fold list", command=lambda: [self.tree.item(i, open=False) for i in self._all_items()]).pack(side="right")
 		ttk.Button(lb, text="Unfold list", command=lambda: [self.tree.item(i, open=True) for i in self._all_items()]).pack(side="right", padx=4)
 		self.left_hint = ttk.Label(left, text="Click a collapse / bomb to preview it on the map; double-click (or right-click) to keep\n"
@@ -989,8 +1191,7 @@ class App:
 		self.head_title.pack(side="left", padx=8)
 		self.head_info = ttk.Label(right, text="", foreground="#555", wraplength=430, justify="left")
 		self.head_info.pack(fill="x", pady=(2, 4))
-		self.tabs = ttk.Notebook(right)
-		self.tabs.pack(fill="both", expand=True)
+		self._build_country_pages(right)
 		self._build_overview()
 		self._build_parties()
 		self.rework = load_rework()
@@ -1001,10 +1202,24 @@ class App:
 		self._build_oob()
 		self._build_history()
 		self._build_spawn()
+		self.country_page.configure(values=[self.tabs.tab(t, "text") for t in self.tabs.tabs()])
+		self.country_page.bind("<<ComboboxSelected>>", lambda e: self.tabs.select(self.country_page.current()))
+		self.tabs.bind("<<NotebookTabChanged>>", lambda e: self.country_page.current(self.tabs.index("current")), add="+")
+		self.country_page.current(0)
 		self.right = right
 		self._build_sub_panel(right)
 		self._build_form_panel(right)
 		pw.add(right, weight=0)
+
+	def _build_country_pages(self, right):
+		# A full-width selector keeps every country page reachable in a narrow panel.
+		nav = ttk.Frame(right)
+		nav.pack(fill="x", pady=(0, 5))
+		ttk.Label(nav, text="Country page").pack(side="left", padx=(0, 8))
+		self.country_page = SafeCombobox(nav, state="readonly", width=18)
+		self.country_page.pack(side="left", fill="x", expand=True)
+		self.tabs = PageStack(right)
+		self.tabs.pack(fill="both", expand=True)
 
 	# ---------- the list ----------
 	def _schedule_tree(self):
@@ -1363,6 +1578,8 @@ class App:
 		dec = self.row_decision(sel[0])
 		was = self.preview
 		self.preview = dec if dec and dec not in self.active else None
+		if self.preview is not None and self.preview is not was:
+			self.feedback("switch")
 		if tag:
 			if was is not None:
 				self.recompute()
@@ -1470,8 +1687,30 @@ class App:
 			c = self.data.countries[tag]
 			if c.history:
 				menu.add_command(label="Open its history file", command=lambda: self.open_path(self.data.path(c.history)))
+			menu.add_separator()
+			menu.add_command(label="🔎 Flag for Review...", command=lambda: self.flag_country_review(tag))
 		if menu.index("end") is not None:
 			menu.tk_popup(ev.x_root, ev.y_root)
+
+	def flag_country_review(self, tag):
+		"""A To Do task (Country System > Review Countries) with reasons, a note and a snapshot of the country."""
+		try:
+			import country_review
+			from master_activity import record
+		except ImportError:
+			messagebox.showerror(APP_NAME, "Organisation Master's files aren't next to Country Master: can't flag reviews.", parent=self.root)
+			return
+		name = self.data.name(tag, self.ruling(tag))
+		result = country_review.ask(self.root, name, tag)
+		if result is None:
+			return
+		reasons, note = result
+		state = dict(country_review.snapshot(self, tag), reasons=reasons, note=note)
+		if not record("Country Master", self.mod_root, action="country_review", state=state):
+			messagebox.showerror(APP_NAME, "The review could not be queued. Please try again.", parent=self.root)
+			return
+		self.feedback("success")
+		self.set_status(f"{name} ({tag}) flagged for Review: Country System > Review Countries in To Do Master.")
 
 	def toggle_decision(self, dec):
 		if dec in self.active:
@@ -1481,6 +1720,7 @@ class App:
 			self.active = [x for x in self.active if x not in dec.siblings]
 			self.active.append(dec)
 		self.preview = None
+		self.feedback("switch")
 		self.recompute()
 		self.rebuild_tree()
 		names = ", ".join(self.dec_label(x) for x in self.active[:3]) + (f" and {len(self.active) - 3} more" if len(self.active) > 3 else "")
@@ -1969,6 +2209,73 @@ class App:
 				else:
 					lines.insert(first + 1, f"{indent}color = {{ {rgb[0]} {rgb[1]} {rgb[2]} }}")
 		self.write_lines(rel, None, None, lines)
+		if rgb is not None:
+			self.sync_sub_mapmode(token, rgb)
+
+	def sync_sub_mapmode(self, token, rgb=None, quiet=False):
+		"""The Sub-ideology map mode file gets the colour too (as fractions of 255; added if it isn't there)."""
+		import subideology_mapmode as sm
+		d = self.data
+		st = d.subs.get(token)
+		rgb = rgb or d.sub_rgb(token)
+		if st is None or not rgb or not os.path.exists(d.path(sm.REL)):
+			return None
+		lines = list(TextFile(d.path(sm.REL)).lines)
+		new, what, triple = sm.sync(lines, token, rgb, d.ideologies.get(st.main, []), sm.load_bad())
+		if what in ("updated", "added"):
+			self.write_lines(sm.REL, None, None, new)
+			if not quiet:
+				self.set_status(f"{token}: map colour {'added to' if what == 'added' else 'set in'} the Sub-ideology map mode "
+								f"(red {triple[0]}, green {triple[1]}, blue {triple[2]}).")
+		return what
+
+	def mapmode_shows_cyan(self, token):
+		"""George's report: this sub-ideology's map mode colour comes out bright cyan. Remembered for everyone
+		(mapmode_cyan.json), and its colour moved to the nearest values that aren't known to."""
+		import subideology_mapmode as sm
+		d = self.data
+		lines = list(TextFile(d.path(sm.REL)).lines) if os.path.exists(d.path(sm.REL)) else []
+		at = sm.find(lines, token)
+		if at is None:
+			messagebox.showinfo(APP_NAME, f"{token} isn't in the Sub-ideology map mode yet: Save its colour first.")
+			return
+		text = "\n".join(lines[at[0]:at[1] + 1])
+		triple = tuple(re.search(r"%s\s*=\s*([\d.]+)" % ch, text).group(1) if re.search(r"%s\s*=\s*([\d.]+)" % ch, text) else "0.50"
+					   for ch in sm.CHANNELS)
+		triple = tuple(f"{float(v):.2f}" for v in triple)
+		if not messagebox.askyesno(APP_NAME, f"Remember red {triple[0]}, green {triple[1]}, blue {triple[2]} as showing cyan in game?\n\n"
+											 "The tool won't write it again for any sub-ideology, and this one moves to the nearest "
+											 "colour that isn't known to (a step of 0.01)."):
+			return
+		bad = sm.load_bad()
+		if list(triple) not in bad["colours"]:
+			bad["colours"].append(list(triple))
+		sm.save_bad(bad)
+		rgb = tuple(round(float(v) * 255) for v in triple)
+		new, what, fixed = sm.sync(lines, token, rgb, d.ideologies.get(d.subs[token].main, []), bad)
+		self.write_lines(sm.REL, None, None, new)
+		self.set_status(f"{token}: red {triple[0]} green {triple[1]} blue {triple[2]} remembered as cyan; the map mode now has "
+						f"red {fixed[0]} green {fixed[1]} blue {fixed[2]} (mapmode_cyan.json: commit it so everyone avoids it).")
+
+	def sync_all_sub_mapmode(self):
+		"""Tools menu: every sub-ideology missing from the Sub-ideology map mode added (with its colour or its ideology's)."""
+		import subideology_mapmode as sm
+		d = self.data
+		if not os.path.exists(d.path(sm.REL)):
+			messagebox.showinfo(APP_NAME, f"The mod has no {sm.REL}.")
+			return
+		lines = list(TextFile(d.path(sm.REL)).lines)
+		bad, added = sm.load_bad(), []
+		for token in sorted(d.subs):
+			rgb = d.sub_rgb(token)
+			if rgb and sm.find(lines, token) is None:
+				lines, what, _ = sm.sync(lines, token, rgb, d.ideologies.get(d.subs[token].main, []), bad)
+				if what == "added":
+					added.append(token)
+		if added:
+			self.write_lines(sm.REL, None, None, lines)
+		messagebox.showinfo(APP_NAME, f"Added {len(added)} sub-ideolog{'ies' if len(added) != 1 else 'y'} to the Sub-ideology map mode"
+									  + (":\n" + ", ".join(added) if added else " (they were all there)."))
 
 	def move_type_to_section(self, token, section):
 		"""Moves a type's lines under another ####SECTION#### banner of its ideology (after its last type)."""
@@ -2093,7 +2400,7 @@ class App:
 		swatch.pack(side="left")
 
 		def pick():
-			c = colorchooser.askcolor(color=swatch.cget("bg"), parent=win)
+			c = ask_colour(color=swatch.cget("bg"), parent=win)
 			if c and c[0]:
 				state["rgb"] = tuple(int(x) for x in c[0])
 				swatch.config(bg=c[1])
@@ -2159,6 +2466,7 @@ class App:
 		self.write_lines(ideo_rel, None, None, lines)
 		self.set_loc_in(token, name, self.sub_loc_file(main))
 		d._load_ideologies()
+		self.sync_sub_mapmode(token, quiet=True)  # (in the Sub-ideology map mode too: its colour, or its ideology's)
 		self.rebuild_tree()
 		if self.tree.exists(f"ityp:{token}"):
 			self.tree.selection_set(f"ityp:{token}")
@@ -2285,6 +2593,9 @@ class App:
 		ttk.Label(g, text="Leader at start:").grid(row=5, column=0, sticky="w")
 		self.ruler_label = ttk.Label(g, text="", foreground="#333", wraplength=300)
 		self.ruler_label.grid(row=5, column=1, columnspan=2, sticky="w")
+		self.chars_link = ttk.Label(g, text="", foreground="#2b5797", cursor="hand2")  # (👥 the Characters tab, its ruler picked)
+		self.chars_link.grid(row=6, column=1, columnspan=2, sticky="w")
+		self.chars_link.bind("<Button-1>", lambda ev: self.open_characters())
 
 		sec = Section(f, "Collapses")
 		sec.pack(fill="x")
@@ -2325,6 +2636,13 @@ class App:
 			tk.Label(row, text=f"{self.dec_label(x)} ({x.kind}): {how}", anchor="w", justify="left", wraplength=330,
 					 fg="#1b6a1b" if on else "#333").pack(side="left", padx=4)
 
+	def open_characters(self):
+		"""Overview's 👥 link: the Characters tab, the ruler picked."""
+		self.tabs.select(self.leaders_tab)
+		self._want_char = getattr(self, "_ruler_id", None)
+		self.root.after(2500, lambda: setattr(self, "_want_char", None))
+		self.fill_leaders(keep=True)
+
 	def fill_overview(self):
 		d, tag = self.data, self.selected
 		c = d.countries[tag]
@@ -2351,6 +2669,9 @@ class App:
 		self.loaded_overview = self._overview_values()
 		ruler = self.start_leader(tag)
 		self.ruler_label.config(text=f"{d.label(ruler.name_key, ruler.id)} ({d.lead_sub(ruler, self.ruling(tag))})" if ruler else "(none recruited for the ruling party)")
+		n = len(set(c.characters) | {x for x in d.characters if x.startswith(tag + "_")})
+		self.chars_link.config(text=f"👥 {n} character{'s' if n != 1 else ''}: open the Characters tab")
+		self._ruler_id = ruler.id if ruler else None
 		self.fill_collapses()
 
 	def fill_cosmetic_list(self, tag):
@@ -2493,7 +2814,7 @@ class App:
 		if not self.selected:
 			return
 		cur = self.color_swatch.cget("bg")
-		c = colorchooser.askcolor(color=cur, parent=self.root)
+		c = ask_colour(color=cur, parent=self.root)
 		if c and c[0]:
 			self.new_rgb = tuple(int(x) for x in c[0])
 			self.color_swatch.config(bg=c[1])
@@ -2774,6 +3095,159 @@ class App:
 				self.tree.selection_set(f"form:{fm.key}")
 			self.show_formable(fm)
 
+	def new_tag(self):
+		"""A window for a brand-new country tag: its names, country file, colour, capital (typed or clicked on the map),
+		ruling ideology and flag."""
+		d = self.data
+		w = tk.Toplevel(self.root)
+		w.title("New tag")
+		w.transient(self.root)
+		f = ttk.Frame(w, padding=10)
+		f.pack(fill="both", expand=True)
+		v = {k: tk.StringVar() for k in ("tag", "name", "def", "adj", "file", "capital", "ruling")}
+		typed = set()
+		files = sorted(os.path.basename(p) for p in glob.glob(os.path.join(d.root, "common", "countries", "*.txt"))
+					   if os.path.basename(p).lower() not in ("colors.txt", "cosmetic.txt"))
+		used = defaultdict(int)
+		for c in d.countries.values():
+			used[os.path.basename(c.country_file or "")] += 1
+		v["file"].set(max(files, key=lambda x: used.get(x, 0)) if files else "")
+		v["ruling"].set("neutrality")
+		state = {"rgb": tuple(int(x) for x in np.random.default_rng().integers(40, 220, 3)), "flag": None}
+		rows = [("tag", "Tag (3 letters / digits):"), ("name", "Name:"), ("def", "Long name (_DEF):"), ("adj", "Adjective (_ADJ):"),
+				("file", "Country file (graphics):"), ("capital", "Capital state (id):"), ("ruling", "Ruling ideology:")]
+		for r, (k, text) in enumerate(rows):
+			ttk.Label(f, text=text).grid(row=r, column=0, sticky="w", pady=1)
+			if k == "file":
+				ttk.Combobox(f, textvariable=v[k], values=files, state="readonly", width=30).grid(row=r, column=1, sticky="w")
+			elif k == "ruling":
+				ttk.Combobox(f, textvariable=v[k], values=list(d.mains or MAIN_IDEOLOGIES), state="readonly", width=20).grid(row=r, column=1, sticky="w")
+			else:
+				e = ttk.Entry(f, textvariable=v[k], width=40)
+				e.grid(row=r, column=1, sticky="we")
+				e.bind("<Key>", lambda ev, k=k: typed.add(k))
+
+		def follow(*_):  # long name / adjective from the name until typed in
+			name = v["name"].get().strip()
+			if "def" not in typed:
+				v["def"].set(name)
+			if "adj" not in typed:
+				v["adj"].set(name)
+		v["name"].trace_add("write", follow)
+		v["tag"].trace_add("write", lambda *_: v["tag"].get() != v["tag"].get().upper() and v["tag"].set(v["tag"].get().upper()))
+		r = len(rows)
+		pick = tk.BooleanVar(value=False)
+
+		def picked(sid):
+			v["capital"].set(str(sid))
+			pick.set(False)
+			self.pick_states_cb = None
+			self.highlight, self.highlight_key, self.highlight_label = {sid}, ("newtag",), "the new tag's capital"
+			self.render()
+		ttk.Checkbutton(f, text="Click its capital on the map", variable=pick,
+						command=lambda: setattr(self, "pick_states_cb", picked if pick.get() else None)).grid(row=r, column=1, sticky="w")
+		r += 1
+		cf = ttk.Frame(f)
+		cf.grid(row=r, column=1, sticky="w", pady=2)
+		sw = tk.Label(cf, width=6, relief="solid", bg="#%02x%02x%02x" % state["rgb"])
+		sw.pack(side="left")
+
+		def pick_colour():
+			c = ask_colour(color=sw.cget("bg"), parent=w)
+			if c and c[0]:
+				state["rgb"] = tuple(int(x) for x in c[0])
+				sw.config(bg=c[1])
+		ttk.Button(cf, text="Map colour...", command=pick_colour).pack(side="left", padx=4)
+		flag_lab = ttk.Label(cf, text="no flag", foreground="#777")
+
+		def pick_flag():
+			p = filedialog.askopenfilename(parent=w, title="Flag picture", filetypes=[("Images", "*.png *.tga *.dds *.jpg *.bmp"), ("All files", "*.*")])
+			if p:
+				state["flag"] = p
+				flag_lab.config(text=os.path.basename(p))
+		ttk.Button(cf, text="Flag...", command=pick_flag).pack(side="left", padx=4)
+		flag_lab.pack(side="left")
+		r += 1
+		f.columnconfigure(1, weight=1)
+
+		def close():
+			self.pick_states_cb = None
+			self.clear_highlight()
+			w.destroy()
+
+		def create():
+			spec = {k: x.get().strip() for k, x in v.items()}
+			spec.update(rgb=state["rgb"], flag=state["flag"])
+			tag = spec["tag"]
+			if not re.fullmatch(r"[A-Z][A-Z0-9]{2}", tag):
+				messagebox.showerror(APP_NAME, "The tag is 3 capital letters or digits, starting with a letter (e.g. NRA).", parent=w)
+				return
+			if tag in d.countries or tag in d.loc or tag in ("AND", "CON", "NOT", "OR_", "PRN", "NUL", "AUX"):
+				messagebox.showerror(APP_NAME, f"{tag} is already used (or not allowed): pick another.", parent=w)
+				return
+			if not spec["name"] or not spec["file"]:
+				messagebox.showerror(APP_NAME, "Give it a name and a country file.", parent=w)
+				return
+			if spec["capital"] and (not spec["capital"].isdigit() or int(spec["capital"]) not in d.state_files):
+				messagebox.showerror(APP_NAME, f"There's no state {spec['capital']}.", parent=w)
+				return
+			close()
+			self.create_tag(spec)
+		bf = ttk.Frame(f)
+		bf.grid(row=r, column=0, columnspan=2, sticky="e", pady=(8, 0))
+		ttk.Button(bf, text="Create", command=create).pack(side="left")
+		ttk.Button(bf, text="Cancel", command=close).pack(side="left", padx=4)
+		w.protocol("WM_DELETE_WINDOW", close)
+
+	def create_tag(self, spec):
+		"""Writes a new tag like the mod's others: country_tags, colors.txt, a history file, its names and flag."""
+		d = self.data
+		tag, name = spec["tag"], spec["name"]
+		# country_tags: the mod's biggest (non-dynamic) tags file
+		tag_files = [p for p in glob.glob(os.path.join(d.root, cd.D_TAGS, "*.txt")) if "dynamic" not in os.path.basename(p).lower()]
+		tag_rel = d.rel(max(tag_files, key=os.path.getsize)) if tag_files else f"{cd.D_TAGS}/country_master_countries.txt"
+		lines = list(TextFile(d.path(tag_rel)).lines) if os.path.exists(d.path(tag_rel)) else []
+		self.write_lines(tag_rel, None, None, lines + [f'{tag} = "countries/{spec["file"]}" #{name}'])
+		# colors.txt
+		r, g, b = spec["rgb"]
+		self.into_mod(cd.F_COLORS)
+		lines = list(TextFile(d.mod_path(cd.F_COLORS)).lines) if os.path.exists(d.mod_path(cd.F_COLORS)) else []
+		self.write_lines(cd.F_COLORS, None, None, lines + [f"{tag} = {{", f"\tcolor = rgb {{ {r} {g} {b} }}", f"\tcolor_ui = rgb {{ {r} {g} {b} }}", "}"])
+		# history/countries/TAG - Name.txt
+		safe_name = re.sub(r'[<>:"/\\|?*]+', "", name).strip() or tag
+		hist_rel = f"{cd.D_HISTORY}/{tag} - {safe_name}.txt"
+		ruling = spec["ruling"] or "neutrality"
+		hist = ([f"capital = {spec['capital']}", ""] if spec["capital"] else []) + [
+			"set_research_slots = 3", "set_stability = 0.5", "set_war_support = 0.5", "",
+			"set_politics = {", f"\truling_party = {ruling}", '\tlast_election = "1932.1.1"', "\telection_frequency = 48",
+			"\telections_allowed = no", "}", "set_popularities = {", f"\t{ruling} = 100", "}", ""]
+		path = d.mod_path(hist_rel)
+		self.check_in_mod(path)
+		os.makedirs(os.path.dirname(path), exist_ok=True)
+		with open(path, "w", encoding="utf-8-sig", newline="\r\n") as fh:
+			fh.write("\n".join(hist))
+		self.touched(hist_rel)
+		# names
+		for key, text in ((tag, name), (tag + "_DEF", spec["def"] or name), (tag + "_ADJ", spec["adj"] or name)):
+			if key not in d.loc:
+				self.set_loc_in(key, text, "localisation/english/countries_l_english.yml")
+		if spec["flag"]:
+			try:
+				src = Image.open(spec["flag"]).convert("RGBA")
+				for sub, size in (("", (82, 52)), ("medium/", (41, 26)), ("small/", (10, 7))):
+					rel = f"gfx/flags/{sub}{tag}.tga"
+					fp = d.mod_path(rel)
+					os.makedirs(os.path.dirname(fp), exist_ok=True)
+					self.touched(rel)
+					src.resize(size, Image.LANCZOS).save(fp)
+			except Exception as ex:
+				messagebox.showerror(APP_NAME, f"The flag couldn't be made:\n{ex}")
+		self.reload_all()  # (a new country touches tags, colours, history and names: everything read again)
+		if tag in self.data.countries:
+			self.select(tag)
+		self.set_status(f"Made {tag} ({name}): {tag_rel}, {cd.F_COLORS}, {hist_rel}, its names"
+						+ (" and flag" if spec["flag"] else "") + ". Give it states (owner / cores) in its capital's state file.")
+
 	def new_formable(self):
 		"""A window for a new formable nation; required states can be typed or clicked on the map."""
 		d = self.data
@@ -2847,7 +3321,7 @@ class App:
 		sw.pack(side="left")
 
 		def pick_colour():
-			c = colorchooser.askcolor(color=sw.cget("bg"), parent=w)
+			c = ask_colour(color=sw.cget("bg"), parent=w)
 			if c and c[0]:
 				state["rgb"] = tuple(int(x) for x in c[0])
 				sw.config(bg=c[1])
@@ -2988,7 +3462,9 @@ class App:
 		self.set_status(f"Made formable {spec['name']} ({dec} in {dec_rel}; category in {cat_rel}; names; cosmetic tag {cos}).")
 
 	# ---------- Parties (Globus's party system) ----------
-	ROLES = ("Opposition", "Ruling party", "Coalition partner", "Banned")
+	ROLES = ("Opposition", "Ruling party", "Coalition partner", "Confidence and supply", "Banned")
+	NO_COALITION = "(none)"
+	NEW_COALITION = "Start a coalition led by this party"
 
 	def _build_parties(self):
 		f = self.parties_tab = ttk.Frame(self.tabs, padding=6)
@@ -3005,8 +3481,9 @@ class App:
 						variable=self.party_generic, command=self._party_generic_changed).pack(side="left")
 		lf = ttk.Frame(b)
 		lf.pack(fill="x", pady=4)
-		t = self.party_tree = ttk.Treeview(lf, columns=("sub", "pop", "leader", "role"), height=8, selectmode="browse")
-		for col, text, w in (("#0", "Party", 135), ("sub", "Sub-ideology", 95), ("pop", "%", 34), ("leader", "Leader", 90), ("role", "Government", 78)):
+		t = self.party_tree = ttk.Treeview(lf, columns=("sub", "pop", "leader", "role", "coal"), height=8, selectmode="browse")
+		for col, text, w in (("#0", "Party", 112), ("sub", "Sub-ideology", 78), ("pop", "%", 28), ("leader", "Leader", 70),
+							 ("role", "Government", 70), ("coal", "Coalition", 92)):
 			t.heading(col, text=text)
 			t.column(col, width=w, anchor="w" if col != "pop" else "e")
 		ys = ttk.Scrollbar(lf, command=t.yview)
@@ -3015,49 +3492,71 @@ class App:
 		ys.pack(side="left", fill="y")
 		t.tag_configure("gov", font=("Segoe UI", 9, "bold"))
 		t.tag_configure("banned", foreground="#999")
+		t.tag_configure("support", foreground="#1b6f3a")
 		t.bind("<<TreeviewSelect>>", lambda ev: self._party_selected())
 		self.party_total = ttk.Label(b, text="")
 		self.party_total.pack(anchor="w")
 		g = ttk.Frame(b)
 		g.pack(fill="x", pady=4)
-		self.pv = {k: tk.StringVar() for k in ("name", "sub", "pop", "leader", "bloc", "role")}
+		self.pv = {k: tk.StringVar() for k in ("name", "sub", "pop", "leader", "bloc", "role", "coal", "coal_name")}
 		ttk.Label(g, text="Name:").grid(row=0, column=0, sticky="w")
 		ttk.Entry(g, textvariable=self.pv["name"], width=34).grid(row=0, column=1, sticky="we", pady=1)
 		ttk.Label(g, text="Sub-ideology:").grid(row=1, column=0, sticky="w")
-		self.party_sub_box = ttk.Combobox(g, textvariable=self.pv["sub"], state="readonly", width=32)
+		self.party_sub_box = ttk.Combobox(g, textvariable=self.pv["sub"], width=32)
 		self.party_sub_box.grid(row=1, column=1, sticky="we", pady=1)
+		# 300+ slots: typing narrows the list (e.g. "trotsk") # Globus
+		self.party_sub_box.bind("<KeyRelease>", lambda ev: self._party_sub_filter())
 		ttk.Label(g, text="Popularity %:").grid(row=2, column=0, sticky="w")
 		ttk.Spinbox(g, textvariable=self.pv["pop"], from_=0, to=100, increment=1, width=8).grid(row=2, column=1, sticky="w", pady=1)
 		ttk.Label(g, text="Leader:").grid(row=3, column=0, sticky="w")
 		self.party_leader_box = ttk.Combobox(g, textvariable=self.pv["leader"], width=32)
 		self.party_leader_box.grid(row=3, column=1, sticky="we", pady=1)
-		ttk.Label(g, text="Bloc (led by):").grid(row=4, column=0, sticky="w")
+		ttk.Label(g, text="Faction of:").grid(row=4, column=0, sticky="w")
 		self.party_bloc_box = ttk.Combobox(g, textvariable=self.pv["bloc"], state="readonly", width=32)
 		self.party_bloc_box.grid(row=4, column=1, sticky="we", pady=1)
 		ttk.Label(g, text="Government:").grid(row=5, column=0, sticky="w")
-		ttk.Combobox(g, textvariable=self.pv["role"], values=self.ROLES, state="readonly", width=20).grid(row=5, column=1, sticky="w", pady=1)
-		ttk.Label(g, text="Colour:").grid(row=6, column=0, sticky="w")
+		ttk.Combobox(g, textvariable=self.pv["role"], values=self.ROLES, state="readonly", width=22).grid(row=5, column=1, sticky="w", pady=1)
+		# Opposition coalitions (any number; a party is in one at most) and coalition names # Globus
+		ttk.Label(g, text="Coalition:").grid(row=6, column=0, sticky="w")
+		self.party_coal_box = ttk.Combobox(g, textvariable=self.pv["coal"], state="readonly", width=32)
+		self.party_coal_box.grid(row=6, column=1, sticky="we", pady=1)
+		ttk.Label(g, text="Coalition name:").grid(row=7, column=0, sticky="w")
+		ttk.Entry(g, textvariable=self.pv["coal_name"], width=34).grid(row=7, column=1, sticky="we", pady=1)
+		self.party_coal_note = ttk.Label(g, text="", foreground="#777", wraplength=330)
+		self.party_coal_note.grid(row=8, column=1, sticky="w")
+		ttk.Label(g, text="Colour:").grid(row=9, column=0, sticky="w")
 		cf = ttk.Frame(g)
-		cf.grid(row=6, column=1, sticky="w")
+		cf.grid(row=9, column=1, sticky="w")
 		self.party_swatch = tk.Label(cf, width=6, relief="solid", bg="#808080")
 		self.party_swatch.pack(side="left")
 		ttk.Button(cf, text="Pick...", command=self.pick_party_colour).pack(side="left", padx=4)
 		self.party_colour_note = ttk.Label(g, text="", foreground="#777", wraplength=330)
-		self.party_colour_note.grid(row=7, column=1, sticky="w")
+		self.party_colour_note.grid(row=10, column=1, sticky="w")
 		g.columnconfigure(1, weight=1)
 		bf = ttk.Frame(b)
 		bf.pack(fill="x", pady=4)
 		ttk.Button(bf, text="Apply to the list", command=self._apply_party_form).pack(side="left")
 		ttk.Button(bf, text="New party...", command=self.new_party).pack(side="left", padx=4)
 		ttk.Button(bf, text="Remove party", command=self.remove_party).pack(side="left")
-		ttk.Button(bf, text="Save parties", command=self.save_parties).pack(side="right")
-		ttk.Button(bf, text="Revert", command=lambda: self.fill_parties()).pack(side="right", padx=4)
-		ttk.Label(b, text="Parties are democratic sub-ideologies (Globus, RR_political_effects.txt). Save writes the party lines "
+		ttk.Button(bf, text="Make leading faction", command=self.make_leading_faction).pack(side="left", padx=4)
+		# Save / Revert on a row of their own: next to the others they were pushed out of the narrow panel
+		bf2 = ttk.Frame(b)
+		bf2.pack(fill="x", pady=(0, 4))
+		ttk.Button(bf2, text="Save parties", command=self.save_parties).pack(side="left")
+		ttk.Button(bf2, text="Revert", command=lambda: self.fill_parties()).pack(side="left", padx=4)
+		ttk.Label(b, text="A party is a sub-ideology slot of any ideology; a communist / fascist / non-aligned one in government "
+						  "shows as Elected Communism / Fascism / Anocracy. 'Faction of' makes it part of another party (Make "
+						  "leading faction lets it take the party over); 'Coalition partner' governs with the ruling party but "
+						  "stays its own party; 'Confidence and supply' keeps a minority government alive from outside (it ends "
+						  "in game once the government has more than 50%). Parties out of power can form coalitions of their own "
+						  "(Coalition); a coalition without a name is called '<leading party> Coalition' (Globus, "
+						  "RR_political_effects.txt). Save writes the party lines "
 						  "of the history file, the names (<TAG>_party_<sub-ideology> in RR_parties_gui_l_english.yml) and "
 						  "colours (the sub-ideology's: its pie / list sprites are made again).",
 				  foreground="#777", wraplength=440, justify="left").pack(anchor="w")
 		self.party_model = None
 		self.party_names = {}
+		self.coal_names = {}
 		self.party_color_changes = {}
 		self._party_sel = None
 
@@ -3073,6 +3572,9 @@ class App:
 		c = d.countries[tag]
 		self.party_model = c.parties.copy() if c.parties else cd.Parties()
 		self.party_names = {t: d.party_name(tag, t) for t in self.party_model.order}
+		pm = self.party_model
+		self.coal_names = {lead: d.label(f"{tag}_coalition_{pm.coal_name[lead]}", "")
+						   for lead in pm.coal_name if lead in pm.coalitions or lead == pm.ruling}
 		self.party_color_changes = {}
 		self.party_generic.set(self.party_model.generic)
 		self.party_info.config(text=(f"{len(self.party_model.order)} parties" if self.party_model.order else "No parties yet")
@@ -3086,15 +3588,35 @@ class App:
 
 	def _role_of(self, t):
 		p = self.party_model
-		return "Banned" if t in p.banned else "Ruling party" if p.ruling == t else "Coalition partner" if t in p.coalition else "Opposition"
+		return ("Banned" if t in p.banned else "Ruling party" if p.ruling == t else "Coalition partner" if t in p.coalition
+				else "Confidence and supply" if t in p.confidence else "Opposition")
+
+	def _coalition_name(self, lead):
+		"""What the game calls the coalition led by lead: its custom name, or '<leading party's name> Coalition'."""
+		return self.coal_names.get(lead) or f"{self._party_display_name(lead)} Coalition"
+
+	def _coalition_label(self, t):
+		"""The coalition column / box text of party t."""
+		p = self.party_model
+		u = p.unit(t)
+		if (u == p.ruling or u in p.coalition) and p.coalition and p.ruling:
+			return f"Government: {self._coalition_name(p.ruling)}"
+		lead = p.coal.get(u)
+		if lead in p.coalitions:
+			return self._coalition_name(lead) + (" (leads it)" if lead == u and u == t else "")
+		return ""
 
 	def _party_tree(self, select=None):
 		d, p = self.data, self.party_model
 		t = self.party_tree
 		t.delete(*t.get_children())
 		self._party_swatches = {}
-		# Bloc members under the party that leads their bloc.
-		for tok in p.order:
+		# Bloc members under the party that leads their bloc; the parties in the game's order: government,
+		# confidence and supply, each opposition coalition, the rest.
+		first = [p.ruling] + p.coalition + p.confidence
+		for lead in p.coalitions:
+			first += [lead] + [x for x in p.order if p.coal.get(x) == lead]
+		for tok in [x for x in dict.fromkeys(first + p.order) if x in p.order]:
 			parent = p.bloc.get(tok) if p.bloc.get(tok) in p.order else ""
 			if parent and not t.exists(parent):
 				continue
@@ -3104,7 +3626,12 @@ class App:
 					self._party_row(tok, m)
 		total = sum(p.pop.get(x, 0) for x in p.order)
 		ok = abs(total - 100) <= 0.5
-		self.party_total.config(text=f"Total: {total:g}%" + ("  (OK)" if ok else "  (should be 100)") if p.order else "",
+		gov = p.government_pop()
+		note = f"   Government: {gov:g}%" if p.ruling else ""
+		if p.confidence and gov > 50:
+			note += " - over 50%, so confidence and supply ends at game start"
+			ok = False
+		self.party_total.config(text=(f"Total: {total:g}%" + ("  (OK)" if abs(total - 100) <= 0.5 else "  (should be 100)") + note) if p.order else "",
 								foreground="#1b7f2a" if ok else "#b00020")
 		sel = select or self._party_sel or (p.order[0] if p.order else None)
 		if sel and t.exists(sel):
@@ -3124,8 +3651,9 @@ class App:
 		role = self._role_of(tok)
 		t.insert(parent, "end", iid=tok, text=" " + self.party_names.get(tok, tok), image=img, open=True,
 				 values=(d.party_ideology_label(tok), f"{p.pop.get(tok, 0):g}", d.label(d.characters[lead].name_key, lead) if lead in d.characters else (lead or ""),
-						 "" if role == "Opposition" else role),
-				 tags=("gov",) if role in ("Ruling party", "Coalition partner") else ("banned",) if role == "Banned" else ())
+						 "" if role == "Opposition" else role, self._coalition_label(tok)),
+				 tags=("gov",) if role in ("Ruling party", "Coalition partner") else ("banned",) if role == "Banned"
+				 else ("support",) if role == "Confidence and supply" else ())
 
 	def _party_selected(self):
 		sel = self.party_tree.selection()
@@ -3143,10 +3671,11 @@ class App:
 		lead = p.leader.get(tok)
 		self.pv["leader"].set(next((k for k, v in self._party_char_labels.items() if v == lead), lead or "(none)"))
 		others = [x for x in p.order if x != tok and not p.bloc.get(x)]
-		self._party_bloc_labels = {f"{self.party_names.get(x, x)} ({x})": x for x in others}
+		self._party_bloc_labels = {f"{self._party_display_name(x)} (led by {self.party_names.get(x, x)})": x for x in others}
 		self.party_bloc_box.config(values=["(none)"] + list(self._party_bloc_labels))
 		self.pv["bloc"].set(next((k for k, v in self._party_bloc_labels.items() if v == p.bloc.get(tok)), "(none)"))
 		self.pv["role"].set(self._role_of(tok))
+		self._fill_coalition_form(tok)
 		rgb = self.party_color_changes.get(tok) or d.party_rgb(tok)
 		self.party_swatch.config(bg="#%02x%02x%02x" % tuple(rgb))
 		users = [x for x, c in d.countries.items() if c.parties and tok in c.parties.order and x != self.selected]
@@ -3155,6 +3684,11 @@ class App:
 		self.party_colour_note.config(text=f"The colour is {what}: shared with "
 										   + (f"{len(users)} other countries' parties ({', '.join(users[:5])})" if users else "every country that has this party")
 										   + "." + ("  (changed - Save)" if tok in self.party_color_changes else ""))
+
+	def _party_sub_filter(self):
+		text = self.pv["sub"].get().strip().lower()
+		labels = list(getattr(self, "_party_sub_labels", {}))
+		self.party_sub_box.config(values=[l for l in labels if text in l.lower()] if text else labels)
 
 	def _sub_choices(self, exclude=None):
 		"""'Socialism (socialism)' -> socialism for every democratic sub-ideology this country can still add a party of
@@ -3165,10 +3699,11 @@ class App:
 			if t != exclude:
 				used[d.party_base(t)] += 1
 		out = {}
-		for sub in d.ideologies.get("democratic", []):
-			n = used.get(sub, 0)
-			if n < cd.MAX_SAME_PARTIES:
-				out[f"{d.label(sub, sub)} ({sub})" + (f" - party #{n + 1}" if n else "")] = sub
+		for main in ["democratic"] + [m for m in d.mains if m != "democratic"]:
+			for sub in d.ideologies.get(main, []):
+				n = used.get(sub, 0)
+				if n < cd.MAX_SAME_PARTIES:
+					out[f"{d.label(main, main)}: {d.label(sub, sub)} ({sub})" + (f" - party #{n + 1}" if n else "")] = sub
 		return out
 
 	def _free_token(self, sub, exclude=None):
@@ -3184,14 +3719,25 @@ class App:
 		"""The party old becomes new (another sub-ideology): everything that names it follows."""
 		p = self.party_model
 		p.order = [new if t == old else t for t in p.order]
-		for dct in (p.pop, p.leader, p.bloc):
+		for dct in (p.pop, p.leader, p.bloc, p.bloc_name):
 			if old in dct:
 				dct[new] = dct.pop(old)
-		for k, v in list(p.bloc.items()):
-			if v == old:
-				p.bloc[k] = new
+		for dct in (p.bloc, p.bloc_name):
+			for k, v in list(dct.items()):
+				if v == old:
+					dct[k] = new
 		p.coalition = [new if t == old else t for t in p.coalition]
 		p.banned = [new if t == old else t for t in p.banned]
+		p.confidence = [new if t == old else t for t in p.confidence]
+		p.coalitions = [new if t == old else t for t in p.coalitions]
+		for dct in (p.coal, p.coal_name):
+			if old in dct:
+				dct[new] = dct.pop(old)
+		for k, v in list(p.coal.items()):
+			if v == old:
+				p.coal[k] = new
+		if old in self.coal_names:
+			self.coal_names[new] = self.coal_names.pop(old)
 		if p.ruling == old:
 			p.ruling = new
 		if old in self.party_names:
@@ -3232,6 +3778,7 @@ class App:
 			p.bloc.pop(tok, None)
 		role = self.pv["role"].get()
 		p.coalition = [x for x in p.coalition if x != tok]
+		p.confidence = [x for x in p.confidence if x != tok]
 		p.banned = [x for x in p.banned if x != tok]
 		if p.ruling == tok and role != "Ruling party":
 			p.ruling = None
@@ -3241,10 +3788,115 @@ class App:
 			p.ruling = tok
 		elif role == "Coalition partner":
 			p.coalition.append(tok)
+		elif role == "Confidence and supply":
+			p.confidence.append(tok)
 		elif role == "Banned":
 			p.banned.append(tok)
+		self._apply_coalition_form(tok)
 		if redraw:
 			self._party_tree(select=tok)
+
+	def _party_display_name(self, lead):
+		"""The name a party (its leading faction lead) carries: its own, or the one it kept when it took over."""
+		p = self.party_model
+		src = p.bloc_name.get(lead, lead) if p else lead
+		return self.party_names.get(src) or self.data.party_name(self.selected, src)
+
+	def _fill_coalition_form(self, tok):
+		"""The Coalition box: (none), every opposition coalition, or starting one; the name box edits the name
+		of the coalition the party is in (the government's, if it is in government)."""
+		p = self.party_model
+		u = p.unit(tok)
+		self._party_coal_labels = {self.NO_COALITION: None}
+		for lead in p.coalitions:
+			self._party_coal_labels[f"{self._coalition_name(lead)} (led by {self.party_names.get(lead, lead)})"] = lead
+		if u not in p.coalitions:
+			self._party_coal_labels[self.NEW_COALITION] = u
+		self.party_coal_box.config(values=list(self._party_coal_labels))
+		lead = p.coal.get(u) if p.coal.get(u) in p.coalitions else None
+		self.pv["coal"].set(next((k for k, v in self._party_coal_labels.items() if v == lead and k != self.NEW_COALITION), self.NO_COALITION))
+		in_gov = u == p.ruling or u in p.coalition
+		self._coal_name_for = p.ruling if in_gov and p.ruling else lead
+		self.pv["coal_name"].set(self.coal_names.get(self._coal_name_for, "") if self._coal_name_for else "")
+		if in_gov:
+			note = "In government: the name is the governing coalition's." + ("" if p.coalition else " (It has no partners yet.)")
+		elif lead:
+			note = f"Its slices get the coalition's line in the pie. Empty name: '{self._party_display_name(lead)} Coalition'."
+		else:
+			note = "Not in a coalition: pick one to join, or start one."
+		if u != tok:
+			note += " (A faction: the whole party is in it; change it on the leading faction.)"
+		self.party_coal_note.config(text=note)
+
+	def _leave_coalition(self, t):
+		"""t leaves its opposition coalition; if it led it, the coalition ends."""
+		p = self.party_model
+		lead = p.coal.pop(t, None)
+		if lead == t:
+			p.coalitions = [x for x in p.coalitions if x != t]
+			p.coal = {k: v for k, v in p.coal.items() if v != t}
+			p.coal_name.pop(t, None)
+			self.coal_names.pop(t, None)
+
+	def _apply_coalition_form(self, tok):
+		"""Coalition box and name of the form, for the party tok (its leading faction decides for the party)."""
+		p = self.party_model
+		u = p.unit(tok)
+		labels = getattr(self, "_party_coal_labels", {})
+		choice = self.pv["coal"].get()
+		in_gov = u == p.ruling or u in p.coalition
+		target = getattr(self, "_coal_name_for", None)
+		if u == tok and choice in labels and not in_gov:
+			want = labels[choice]
+			if want != p.coal.get(u):
+				self._leave_coalition(u)
+				target = None  # the name box showed the old coalition's name
+				if want:
+					if want not in p.coalitions:
+						p.coalitions.append(want)
+						p.coal[want] = want
+						target = want  # a coalition started just now takes the name typed with it
+					p.coal[u] = want
+		elif in_gov and u in p.coal:
+			self._leave_coalition(u)  # a party in government is in no opposition coalition
+		if target and (target == p.ruling or target in p.coalitions):
+			self.coal_names[target] = self.pv["coal_name"].get().strip()
+
+	def make_leading_faction(self):
+		"""The selected faction takes over its party: the old leading faction and the others follow it, and
+		the party keeps its name, government role and so on (as rr_party_make_leading_faction in game)."""
+		self._apply_party_form(redraw=False)
+		tok, p = self._party_sel, self.party_model
+		if not tok or p is None or not p.bloc.get(tok):
+			messagebox.showinfo(APP_NAME, "Pick a faction of a party (one with 'Faction of' set) to make it the party's leading faction.")
+			return
+		old = p.bloc[tok]
+		name = p.bloc_name.pop(old, old)
+		for m in p.order:
+			if p.bloc.get(m) == old:
+				p.bloc[m] = tok
+		p.bloc.pop(tok, None)
+		p.bloc[old] = tok
+		if name != tok:
+			p.bloc_name[tok] = name
+		if p.ruling == old:
+			p.ruling = tok
+		p.coalition = [tok if x == old else x for x in p.coalition]
+		p.coalition = [x for x in dict.fromkeys(p.coalition) if x != p.ruling]  # the ruling party is no partner of itself
+		p.confidence = [tok if x == old else x for x in p.confidence]
+		# its coalition (or the one it leads, with the name) goes along
+		if old in p.coal:
+			p.coal[tok] = p.coal.pop(old)
+		if old in p.coalitions:
+			p.coalitions = [tok if x == old else x for x in p.coalitions]
+			p.coal = {k: (tok if v == old else v) for k, v in p.coal.items()}
+		if old in p.coal_name:
+			p.coal_name[tok] = p.coal_name.pop(old)
+		if old in self.coal_names:
+			self.coal_names[tok] = self.coal_names.pop(old)
+		self._party_tree(select=tok)
+		self._party_selected()
+		self.set_status(f"{self.party_names.get(tok, tok)} now leads the {self._party_display_name(tok)}: Save parties to write it.")
 
 	def _party_generic_changed(self):
 		if self.party_model is not None:
@@ -3254,7 +3906,7 @@ class App:
 		tok = self._party_sel
 		if not tok:
 			return
-		c = colorchooser.askcolor(color=self.party_swatch.cget("bg"), parent=self.root)
+		c = ask_colour(color=self.party_swatch.cget("bg"), parent=self.root)
 		if c and c[0]:
 			self.party_color_changes[tok] = tuple(int(x) for x in c[0])
 			self.party_swatch.config(bg=c[1])
@@ -3319,6 +3971,9 @@ class App:
 				del p.bloc[m]
 		p.coalition = [x for x in p.coalition if x != tok]
 		p.banned = [x for x in p.banned if x != tok]
+		p.confidence = [x for x in p.confidence if x != tok]
+		self._leave_coalition(tok)
+		p.coal_name.pop(tok, None)
 		if p.ruling == tok:
 			p.ruling = None
 		self._party_sel = None
@@ -3344,6 +3999,17 @@ class App:
 			if self.party_names.get(t) and self.party_names[t] != d.party_name(tag, t):
 				self.set_loc_in(f"{tag}_party_{t}", self.party_names[t], cd.F_PARTY_LOC)
 				done.append("names")
+		# coalition names: <TAG>_coalition_<token>, used through rr_coalition_name@<leading party> = <token>
+		for lead in [x for x in [p.ruling] + p.coalitions if x]:
+			name = (self.coal_names.get(lead) or "").strip()
+			if not name:
+				p.coal_name.pop(lead, None)
+				continue
+			src = p.coal_name.setdefault(lead, lead)
+			if d.label(f"{tag}_coalition_{src}") != name:
+				self.set_loc_in(f"{tag}_coalition_{src}", name, cd.F_PARTY_LOC)
+				done.append("coalition names")
+		p.coal_name = {k: v for k, v in p.coal_name.items() if k == p.ruling or k in p.coalitions}
 		old = c.parties or cd.Parties()
 		if not p.same(old):
 			rel = c.history
@@ -3393,7 +4059,7 @@ class App:
 		"""As RR_party_tokens.txt says: a sub-ideology becomes a party token in rr_party_registry_setup, as a dummy idea
 		in RR_party_tokens.txt and a synchronized token; then the sprites get its frame."""
 		d = self.data
-		for rel, rx, line in ((cd.F_PARTY_EFFECTS, r"global\.rr_dem_subideologies\s*=\s*token:", "add_to_array = {{ global.rr_dem_subideologies = token:{t} }}"),
+		for rel, rx, line in ((cd.F_PARTY_EFFECTS, r"global\.(?:rr_party_registry|rr_dem_subideologies)\s*=\s*token:", "add_to_array = {{ global.rr_party_registry = token:{t} }}"),
 							  (cd.F_PARTY_IDEAS, r"^\s*\w+\s*=\s*\{\s*allowed\s*=", "{t} = {{ allowed = {{ always = no }} }}"),
 							  (cd.F_PARTY_TOKENS, r"^\s*[a-z]\w*\s*$", "{t}")):
 			if not os.path.exists(d.path(rel)):
@@ -3404,6 +4070,29 @@ class App:
 			indent = re.match(r"\s*", lines[at]).group(0) if hits else ""
 			lines[at + 1:at + 1] = [indent + line.format(t=t) for t in subs]
 			self.write_lines(rel, None, None, lines)
+		# a 2nd / 3rd party of a communist / non-aligned / fascist slot: into its ideology's group array too
+		grouped = defaultdict(list)
+		for t in subs:
+			main = next((m for m in cd.PARTY_GROUPS if d.party_base(t) in d.ideologies.get(m, [])), None)
+			if main:
+				grouped[main].append(t)
+		if grouped and os.path.exists(d.path(cd.F_PARTY_EFFECTS)):
+			lines = list(TextFile(d.path(cd.F_PARTY_EFFECTS)).lines)
+			for main, toks in grouped.items():
+				hits = [i for i, l in enumerate(lines) if re.search(r"global\.rr_party_group_%s\s*=\s*token:" % main, strip_comment(l))]
+				if hits:
+					indent = re.match(r"\s*", lines[hits[-1]]).group(0)
+					lines[hits[-1] + 1:hits[-1] + 1] = [f"{indent}add_to_array = {{ global.rr_party_group_{main} = token:{t} }}" for t in toks]
+			self.write_lines(cd.F_PARTY_EFFECTS, None, None, lines)
+		# a 2nd / 3rd party of a slot takes office as that slot's sub-ideology (rr_party_take_office)
+		variants = [t for t in subs if d.party_base(t) != t]
+		if variants and os.path.exists(d.path(cd.F_PARTY_EFFECTS)):
+			lines = list(TextFile(d.path(cd.F_PARTY_EFFECTS)).lines)
+			hits = [i for i, l in enumerate(lines) if re.search(r"global\.rr_party_base@", strip_comment(l))]
+			if hits:
+				indent = re.match(r"\s*", lines[hits[-1]]).group(0)
+				lines[hits[-1] + 1:hits[-1] + 1] = [f"{indent}set_variable = {{ global.rr_party_base@token:{t} = token:{d.party_base(t)} }}" for t in variants]
+				self.write_lines(cd.F_PARTY_EFFECTS, None, None, lines)
 		for t in subs:
 			base = d.party_base(t)
 			if base != t and t not in d.loc:  # the tooltip's "Ideology:" line reads the token's name
@@ -3425,7 +4114,7 @@ class App:
 				for k in range(i, min(i + 6, len(lines))):
 					m = re.search(r"noOfFrames\s*=\s*(\d+)", lines[k])
 					if m:
-						if int(m.group(1)) < n:
+						if int(m.group(1)) != n:
 							lines[k] = re.sub(r"noOfFrames\s*=\s*\d+", f"noOfFrames = {n}", lines[k])
 							changed = True
 						break
@@ -3439,13 +4128,13 @@ class App:
 		import math as _m
 		d = self.data
 		reg = d.party_registry
-		N = cd.PARTY_FRAMES if len(reg) + 1 <= cd.PARTY_FRAMES else 128
-		if len(reg) + 1 > N:
-			messagebox.showerror(APP_NAME, f"{len(reg)} party tokens don't fit in {N - 1} sprite frames.")
+		N = len(reg) + 1
+		if N * cd.PARTY_SLICE > 16384:
+			messagebox.showerror(APP_NAME, f"{len(reg)} party slots don't fit in one texture ({N} x {cd.PARTY_SLICE} px > 16384).")
 			return
 		self._set_party_frames(N)
 		frames = [None] + [tuple(d.party_rgb(t)) for t in reg]
-		S, SS = 128, 4
+		S, SS = cd.PARTY_SLICE, 8
 		big = S * SS
 		pie = Image.new("RGBA", (S * N, S), (0, 0, 0, 0))
 		for k, rgb in enumerate(frames):
@@ -3589,18 +4278,36 @@ class App:
 		sub = tk.Menu(menu, tearoff=0)
 		for cat, colour in REWORK_CATS.items():
 			sub.add_radiobutton(label=cat, variable=var, value=cat, foreground=colour,
-								command=lambda c=cat: self.mark_rework(sprite, used, c, kind))
+								command=lambda c=cat: self.mark_rework(sprite, used, c, kind, note=self.ask_rework_note(sprite, c)))
 		sub.add_separator()
 		sub.add_radiobutton(label="Not marked", variable=var, value="", command=lambda: self.mark_rework(sprite, used, None, kind))
 		menu.add_cascade(label="Mark for rework" + (f"  (now: {cur})" if cur else ""), menu=sub)
+		if cur:
+			note = self.rework_note(sprite)
+			menu.add_command(label="✎ Rework note..." + (f"  ({note[:40]}{'...' if len(note) > 40 else ''})" if note else ""),
+							 command=lambda: self.mark_rework(sprite, used, cur, kind, note=self.ask_rework_note(sprite, cur)))
 
-	def mark_rework(self, sprite, used, cat, kind):
-		"""cat: a REWORK_CATS category, or None to unmark. kind: generic / portrait (a leader's)."""
+	def rework_note(self, sprite):
+		m = self.rework_marks().get(sprite)
+		return (m[4] if m and len(m) > 4 else "") or ""
+
+	def ask_rework_note(self, sprite, cat):
+		"""What's wrong with it (optional): the note goes with the mark to the To Do's Art Reviews and the GFX tab.
+		None (Cancel) keeps the note it has."""
+		return simpledialog.askstring("Rework note", f"{sprite.removeprefix('GFX_')}: {cat}\n\nWhat's wrong with it? (optional - "
+									  "e.g. \"the face is blurry\", \"wrong uniform for 1936\")",
+									  initialvalue=self.rework_note(sprite), parent=self.root)
+
+	def mark_rework(self, sprite, used, cat, kind, note=None):
+		"""cat: a REWORK_CATS category, or None to unmark. kind: generic / portrait (a leader's). note: what's wrong
+		(None keeps the one it has)."""
 		mod = os.path.basename(os.path.normpath(self.mod_root))
 		self.rework = load_rework()  # someone (or another window) may have changed it
 		marks = self.rework.setdefault(mod, {})
 		if cat:
-			marks[sprite] = (cat, used, time.strftime("%Y-%m-%d"), kind)
+			old = marks.get(sprite)
+			keep = (old[4] if old and len(old) > 4 else "") if note is None else note.strip()
+			marks[sprite] = (cat, used, old[2] if old and old[0] == cat and note is not None else time.strftime("%Y-%m-%d"), kind, keep)
 		else:
 			marks.pop(sprite, None)
 		try:
@@ -3608,11 +4315,18 @@ class App:
 		except OSError as ex:
 			messagebox.showerror(APP_NAME, f"Can't write {REWORK_FILE}:\n{ex}")
 			return
+		try:
+			from master_activity import record
+			record("Country Master", self.mod_root, action="portrait_marked" if cat else "portrait_unmarked", sprite=sprite,
+				   state={"cat": cat, "used": used, "kind": "leader" if kind == "portrait" else "generic", "note": marks[sprite][4]} if cat else None)
+		except ImportError:
+			pass
 		self._show_rework(sprite)
 		self._update_rework_label()
 		self._show_portrait_rework()
 		self._mark_leader_rows()
-		self.set_status(f"{sprite}: {cat or 'no longer marked for rework'} ({os.path.basename(REWORK_FILE)}: "
+		self.set_status(f"{sprite}: {cat or 'no longer marked for rework'}" + (f" - {marks[sprite][4]}" if cat and marks[sprite][4] else "") +
+						f" ({os.path.basename(REWORK_FILE)}: "
 						f"{len(marks)} marked in this mod).")
 		if GAP_OPTIONS.get(self.gap_var.get(), "").startswith("rework:"):
 			self.rebuild_tree()
@@ -3625,7 +4339,7 @@ class App:
 			bg = cell.cget("bg")
 			col = REWORK_CATS[m[0]] if m else bg
 			cell.config(highlightbackground=col, highlightcolor=col)
-			name_lab.config(text=(f"⚑ {m[0]}\n" if m else "") + sprite.removeprefix("GFX_"), fg=REWORK_CATS[m[0]] if m else "#555",
+			name_lab.config(text=(f"⚑ {m[0]}{' 📝' if len(m) > 4 and m[4] else ''}\n" if m else "") + sprite.removeprefix("GFX_"), fg=REWORK_CATS[m[0]] if m else "#555",
 							font=("Segoe UI", 7, "bold" if m else "normal"))
 
 	def _update_rework_label(self):
@@ -3667,36 +4381,78 @@ class App:
 			self.gen_note.config(text=self._gen_base_note + f"  -  {n} picture{'s' if n != 1 else ''} missing (red).")
 
 	def _build_leaders(self):
-		f = ttk.Frame(self.tabs, padding=6)
-		self.tabs.add(f, text="Leaders")
+		f = self.leaders_tab = ttk.Frame(self.tabs, padding=6)
+		self.tabs.add(f, text="Characters")
+		# Filters use rows and selectors rather than overflowing single-line button strips.
+		qf = ttk.Frame(f)
+		qf.pack(fill="x", pady=(0, 4))
+		qf.columnconfigure(1, weight=1)
+		ttk.Label(qf, text="Search").grid(row=0, column=0, padx=(0, 6))
+		self.char_q = tk.StringVar()
+		qe = ttk.Entry(qf, textvariable=self.char_q, width=12)
+		qe.grid(row=0, column=1, sticky="ew")
+		Tooltip(qe, "Search names, character IDs, ideologies and traits")
+		self.char_q.trace_add("write", lambda *_: self.fill_leaders(keep=True))
+		self.char_all = tk.BooleanVar(value=False)
+		ttk.Checkbutton(qf, text="All countries", variable=self.char_all, command=lambda: self.fill_leaders(keep=True)).grid(row=0, column=2, padx=(6, 0))
+		self.char_role = tk.StringVar(value="all")
+		rf = self.char_role_row = ttk.Frame(f)
+		rf.pack(fill="x", pady=(0, 4))
+		ttk.Label(rf, text="Role").pack(side="left", padx=(0, 8))
+		self.char_role_box = ttk.Combobox(rf, state="readonly", width=18)
+		self.char_role_box.pack(side="left", fill="x", expand=True)
+		self._char_role_keys = ["all"] + [key for key, _ in ROLE_GROUPS]
+		self.char_role_box.bind("<<ComboboxSelected>>", self._character_role_changed)
 		sf = ttk.Frame(f)
-		sf.pack(fill="x", pady=(0, 2))
-		ttk.Label(sf, text="Also show leaders added by:").pack(side="left")
+		sf.pack(fill="x", pady=(0, 4))
+		ttk.Label(sf, text="Added later by").grid(row=0, column=0, sticky="w")
 		saved = load_config().get("show_script_leaders", ["Focus", "Decision", "Event"])
 		self.script_show = {}
-		for kind, text in (("Focus", "National focuses"), ("Decision", "Decisions"), ("Event", "Events")):
+		for col, (kind, text) in enumerate((("Focus", "Focuses"), ("Decision", "Decisions"), ("Event", "Events"))):
 			v = self.script_show[kind] = tk.BooleanVar(value=kind in saved)
-			ttk.Checkbutton(sf, text=text, variable=v, command=self._script_show_changed).pack(side="left", padx=(4, 0))
-		self.script_count = ttk.Label(sf, text="", foreground="#2b5797")
-		self.script_count.pack(side="left", padx=6)
-		top = ttk.Frame(f)
-		top.pack(fill="x")
+			ttk.Checkbutton(sf, text=text, variable=v, command=self._script_show_changed).grid(row=1, column=col, sticky="w", padx=(0, 8))
+		self.script_count = ttk.Label(sf, text="")
+		self.script_count.grid(row=2, column=0, columnspan=3, sticky="w")
+		self.character_split = ttk.Panedwindow(f, orient="vertical")
+		self.character_split.pack(fill="both", expand=True)
+		top = ttk.Frame(self.character_split)
+		self.character_split.add(top, weight=1)
 		self.lead_tree = ttk.Treeview(top, columns=("roles", "ideology", "start"), height=9, selectmode="browse")
-		for col, text, w in (("#0", "Character", 150), ("roles", "Roles", 105), ("ideology", "Ideology", 125), ("start", "At start / by", 72)):
+		self.lead_tree.tag_configure("rolegroup", font=("Segoe UI", 9, "bold"))
+		for col, text, w in (("#0", "Character", 190), ("roles", "Roles", 105), ("ideology", "Ideology", 125), ("start", "At start / by", 72)):
 			self.lead_tree.heading(col, text=text)
 			self.lead_tree.column(col, width=w, anchor="w" if col != "start" else "center")
 		ys = ttk.Scrollbar(top, command=self.lead_tree.yview)
 		self.lead_tree.config(yscrollcommand=ys.set)
-		self.lead_tree.pack(side="left", fill="x", expand=True)
-		ys.pack(side="left", fill="y")
-		self.lead_tree.bind("<<TreeviewSelect>>", lambda ev: self.show_character())
+		xs = ttk.Scrollbar(top, orient="horizontal", command=self.lead_tree.xview)
+		self.lead_tree.configure(xscrollcommand=xs.set)
+		self.lead_tree.grid(row=0, column=0, sticky="nsew")
+		ys.grid(row=0, column=1, sticky="ns")
+		xs.grid(row=1, column=0, sticky="ew")
+		top.columnconfigure(0, weight=1)
+		top.rowconfigure(0, weight=1)
+		self.lead_tree.bind("<<TreeviewSelect>>", lambda ev: self.character_picked())
 		self.lead_tree.tag_configure("noport", foreground="#b00")  # no large portrait
 		for i, colour in enumerate(REWORK_CATS.values()):
 			self.lead_tree.tag_configure(f"rw_{i}", foreground=colour)  # a portrait marked for rework
 		self.lead_tree.bind("<Button-3>", self._lead_menu)
 		self.lead_tree.tag_configure("script", foreground="#2b5797")  # added later by a focus / decision / event
-		mid = ttk.Frame(f)
-		mid.pack(fill="x", pady=6)
+		editor_host = ttk.Frame(self.character_split)
+		self.character_split.add(editor_host, weight=1)
+		editor_nav = ttk.Frame(editor_host)
+		editor_nav.pack(fill="x", pady=(4, 3))
+		ttk.Label(editor_nav, text="Edit").pack(side="left", padx=(0, 8))
+		self.character_page = SafeCombobox(editor_nav, state="readonly", values=("Character", "Dual leaders", "Script"), width=14)
+		self.character_page.pack(side="left", fill="x", expand=True)
+		editor = self.character_editor = PageStack(editor_host)
+		editor.pack(fill="both", expand=True)
+		self.character_page.current(0)
+		self.character_page.bind("<<ComboboxSelected>>", lambda e: editor.select(self.character_page.current()))
+		editor.bind("<<NotebookTabChanged>>", lambda e: self.character_page.current(editor.index("current")), add="+")
+		details = ttk.Frame(editor)
+		editor.add(details, text="Character")
+		mid = ttk.Frame(details, padding=4)
+		mid.pack(fill="x")
 		pf = ttk.Frame(mid)
 		pf.pack(side="left", anchor="n")
 		self.portrait = tk.Label(pf, text="", width=16, height=8, relief="groove")
@@ -3712,80 +4468,387 @@ class App:
 		self.portrait.bind("<Button-3>", self._leader_portrait_menu)
 		self.portrait_slots, self.portrait_i = [], 0
 		form = ttk.Frame(mid)
-		form.pack(side="left", fill="x", expand=True, padx=8)
+		form.pack(side="left", anchor="n", fill="x", expand=True, padx=(8, 0))
 		self.ch_vars = {k: tk.StringVar() for k in ("name", "ideology", "expire", "traits")}
-		ttk.Label(form, text="Name:").grid(row=0, column=0, sticky="w")
-		ttk.Entry(form, textvariable=self.ch_vars["name"], width=30).grid(row=0, column=1, sticky="we")
-		ttk.Label(form, text="Leader ideology:").grid(row=1, column=0, sticky="w")
-		self.ideo_box = ttk.Combobox(form, textvariable=self.ch_vars["ideology"], width=28)
-		self.ideo_box.grid(row=1, column=1, sticky="we")
-		ttk.Label(form, text="Expire:").grid(row=2, column=0, sticky="w")
-		ttk.Entry(form, textvariable=self.ch_vars["expire"], width=30).grid(row=2, column=1, sticky="we")
-		ttk.Label(form, text="Leader traits:").grid(row=3, column=0, sticky="w")
-		ttk.Entry(form, textvariable=self.ch_vars["traits"], width=30).grid(row=3, column=1, sticky="we")
+		for row, (key, label) in enumerate((("name", "Name"), ("ideology", "Leader ideology"), ("expire", "Expires"), ("traits", "Leader traits"))):
+			ttk.Label(form, text=label).grid(row=row * 2, column=0, sticky="w")
+			if key == "ideology":
+				widget = self.ideo_box = SafeCombobox(form, complete=True, textvariable=self.ch_vars[key], width=12)
+			else:
+				widget = ttk.Entry(form, textvariable=self.ch_vars[key], width=12)
+			widget.grid(row=row * 2 + 1, column=0, sticky="ew", pady=(0, 4))
+		form.columnconfigure(0, weight=1)
 		self.recruit_var = tk.BooleanVar()
-		self.recruit_check = ttk.Checkbutton(form, text="Recruited at game start (recruit_character in its history)", variable=self.recruit_var)
-		self.recruit_check.grid(
-			row=4, column=0, columnspan=2, sticky="w")
-		bf = ttk.Frame(form)
-		bf.grid(row=5, column=0, columnspan=2, sticky="w", pady=(4, 0))
-		ttk.Button(bf, text="Save character", command=self.save_character).pack(side="left")
-		ttk.Button(bf, text="New character...", command=self.new_character).pack(side="left", padx=4)
-		form.columnconfigure(1, weight=1)
-		ttk.Label(f, text="The whole character (everything else: generals' skills, advisor roles, portraits...):",
-				  foreground="#555").pack(anchor="w")
-		self.char_raw = RawEditor(f, self, height=12, on_saved=lambda: self.fill_leaders(keep=True))
+		self.recruit_check = ttk.Checkbutton(form, text="Recruited at game start", variable=self.recruit_var)
+		self.recruit_check.grid(row=8, column=0, sticky="w", pady=(2, 0))
+		bf = ttk.Frame(details, padding=(4, 0, 4, 4))
+		bf.pack(fill="x")
+		for col, (text, command) in enumerate((("Save character", self.save_character), ("New character...", self.new_character))):
+			bf.columnconfigure(col, weight=1, uniform="actions")
+			ttk.Button(bf, text=text, width=1, command=command).grid(row=0, column=col, sticky="ew", padx=(0, 4) if col == 0 else (0, 0))
+		# Dual leader (Globus's dual leader system): any character, one per government.
+		dual_page = ScrollFrame(editor)
+		editor.add(dual_page, text="Dual leaders")
+		dl = ttk.Frame(dual_page.inner, padding=4)
+		dl.pack(fill="x")
+		self.dual_vars, self.dual_boxes = {}, {}
+		for row, (g, _, label) in enumerate(cd.DUAL_GOVS):
+			ttk.Label(dl, text=f"{label}:").grid(row=row, column=0, sticky="w", padx=(0, 4))
+			v = self.dual_vars[g] = tk.StringVar()
+			box = self.dual_boxes[g] = SafeCombobox(dl, complete=True, textvariable=v, width=12)
+			box.grid(row=row, column=1, sticky="we", pady=1)
+			box.bind("<KeyRelease>", lambda ev, g=g: self._dual_filter(g), add="+")
+			box.bind("<<ComboboxSelected>>", lambda ev: self._dual_note())
+			ttk.Button(dl, text="◀ Use", width=5, command=lambda g=g: self._dual_from_selection(g)).grid(
+				row=row, column=2, sticky="w", padx=2)
+		dl.columnconfigure(1, weight=1)
+		dbf = ttk.Frame(dl)
+		dbf.grid(row=len(cd.DUAL_GOVS), column=0, columnspan=3, sticky="we", pady=(3, 0))
+		ttk.Button(dbf, text="Save dual leaders", command=self.save_dual_leaders).pack(side="left")
+		self.dual_note = ttk.Label(dl, text="", foreground="#777", wraplength=420, justify="left")
+		self.dual_note.grid(row=len(cd.DUAL_GOVS) + 1, column=0, columnspan=3, sticky="w")
+		raw_page = ttk.Frame(editor, padding=4)
+		editor.add(raw_page, text="Script")
+		self.char_raw = RawEditor(raw_page, self, height=8, on_saved=lambda: self.fill_leaders(keep=True))
 		self.char_raw.pack(fill="both", expand=True)
 
+	def _character_role_changed(self, event=None):
+		self.char_role.set(self._char_role_keys[self.char_role_box.current()])
+		self.fill_leaders(keep=True)
+
+	def role_of(self, ch):
+		"""The ROLE_GROUPS key a character is listed under (its first role)."""
+		if ch is None:
+			return "missing"
+		return next((k for k, _ in ROLE_GROUPS if k in (ch.roles or [])), "other")
+
+	def char_words(self, cid, ch):
+		"""What 🔍 matches: its name, id, roles, leader ideologies and every trait."""
+		if ch is None:
+			return cid.lower()
+		d = self.data
+		traits = []
+		for e in (ch.entry.value if getattr(ch.entry, "block", False) else []):
+			if e.block:
+				for t in e.value:
+					if t.key == "traits" and t.block:
+						traits += [str(v) for v in t.values()]
+		ideos = [r[0] or "" for r in ch.leaders()]
+		return " ".join([d.label(ch.name_key, cid), cid, " ".join(ch.roles), " ".join(ideos), " ".join(d.label(i, i) for i in ideos if i),
+						 " ".join(traits)]).lower()
+
+	def char_tag(self, cid):
+		"""The country a character belongs to: whose history recruits it, else its TAG_ prefix, else its own tag."""
+		if not hasattr(self, "_char_tags") or self._char_tags[0] is not self.data:
+			own = {}
+			for tag, c in self.data.countries.items():
+				for x in c.characters:
+					own.setdefault(x, tag)
+			self._char_tags = (self.data, own)
+		ch = self.data.characters.get(cid)
+		return self._char_tags[1].get(cid) or getattr(ch, "tag", None) or (cid[:3] if cid[:3] in self.data.countries else "?")
+
 	def fill_leaders(self, keep=False):
+		"""👥 Characters: the country's characters (or, searching with All countries, everyone's that match), under
+		their role, with the ones its focuses / decisions / events add later in blue."""
+		d, tag = self.data, self.selected
+		words = self.char_q.get().lower().split()
+		everyone = self.char_all.get() and bool(words)
+		if not tag and not everyone:  # (searching every country works with no country picked)
+			return
+		t = self.lead_tree
+		sel = t.selection()
+		closed = {g for g in t.get_children() if g.startswith("role:") and not t.item(g, "open")}
+		t.delete(*t.get_children())
+		c = d.countries.get(tag)
+		subs = sorted(d.sub_ideology)
+		self.ideo_box.set_completion_values(subs)
+		rows = []  # (cid, character or None, "At start / by", extra tags)
+		if everyone:
+			for cid, ch in d.characters.items():
+				rows.append((cid, ch, self.char_tag(cid), ()))
+		else:
+			ids = list(c.characters) + sorted(cid for cid in d.characters if cid.startswith(tag + "_") and cid not in c.characters)
+			rows = [(cid, d.characters.get(cid), "yes" if cid in c.characters else "", ()) for cid in ids]
+			# Leaders its national focuses / decisions / events add later (ticked kinds), in blue.
+			shown = {k for k, v in self.script_show.items() if v.get()}
+			recs = d.script_leaders.get(tag, [])
+			have = {r[0]: i for i, r in enumerate(rows)}
+			later = 0
+			for r in recs:
+				cid = r.get("char_id")
+				if r["kind"] not in shown or not cid:
+					continue
+				word = {"Focus": "focus", "Decision": "decision", "Event": "event"}[r["kind"]]
+				if cid in have:  # already listed (recruited or a TAG_ character): say what adds it
+					i = have[cid]
+					if not rows[i][2]:
+						rows[i] = (rows[i][0], rows[i][1], word, rows[i][3])
+					continue
+				later += 1
+				have[cid] = len(rows)
+				rows.append((cid, d.characters.get(cid), word, ("script",)))
+			total = len([r for r in recs if r.get("char_id")])
+			self.script_count.config(text=f"{later} added later" + (f" (of {total})" if later != total else "") if total else "none added later")
+		if words:
+			rows = [r for r in rows if all(w in self.char_words(r[0], r[1]) for w in words)]
+		counts = {}
+		for r in rows:
+			counts[self.role_of(r[1])] = counts.get(self.role_of(r[1]), 0) + 1
+		role = self.char_role.get()
+		self.char_role_box.configure(values=[f"{'All roles' if key == 'all' else dict(ROLE_GROUPS)[key]} ({len(rows) if key == 'all' else counts.get(key, 0)})" for key in self._char_role_keys])
+		self.char_role_box.current(self._char_role_keys.index(role))
+		if role != "all":
+			rows = [r for r in rows if self.role_of(r[1]) == role]
+		if everyone and len(rows) > 300:
+			rows = rows[:300]
+		first = None
+		for key, title in ROLE_GROUPS:
+			group = [r for r in rows if self.role_of(r[1]) == key]
+			if not group:
+				continue
+			gid = "role:" + key
+			t.insert("", "end", iid=gid, text=f"{title}  ({len(group)})", open=gid not in closed or bool(words), tags=("rolegroup",))
+			for cid, ch, start, extra in sorted(group, key=lambda r: (r[2] not in ("yes", ""), d.label(r[1].name_key, r[0]).lower() if r[1] else r[0])):
+				if t.exists(cid):
+					continue
+				name = d.label(ch.name_key, cid) if ch else f"{cid} (not defined!)"
+				if everyone:
+					name += f"  ({start})"
+				values = (", ".join(ch.roles) if ch else "", " / ".join(x[0] or "?" for x in ch.leaders()) if ch else "", "" if everyone else start)
+				t.insert(gid, "end", iid=cid, text=name, values=values,
+						 tags=tuple(extra) + (() if ch is not None and d.has_large_portrait(ch) else ("noport",)))
+				first = first or cid
+		self._mark_leader_rows()
+		self.fill_dual_leaders()
+		want = getattr(self, "_want_char", None)  # (a character found under 🔍 All countries: picked once its country shows)
+		if want and t.exists(want):  # (kept for a moment: switching country fills the list more than once)
+			t.item(t.parent(want), open=True)
+			t.selection_set(want)
+			t.see(want)
+		elif keep and sel and t.exists(sel[0]):
+			t.selection_set(sel[0])
+			t.see(sel[0])
+		elif first and not everyone:  # (searching every country: nothing picked until you pick one - picking moves country)
+			t.selection_set(first)
+		elif not everyone:
+			self.char_raw.show(None)
+
+	def character_picked(self):
+		"""A role row only opens / closes (the form keeps its character); a character found in another country (🔍 All
+		countries) takes you to that country with it picked."""
+		t = self.lead_tree
+		sel = t.selection()
+		if not sel:
+			return
+		if sel[0].startswith("role:"):
+			t.item(sel[0], open=not t.item(sel[0], "open"))
+			prev = getattr(self, "_char_picked", None)
+			if prev and t.exists(prev):
+				t.selection_set(prev)
+			else:
+				t.selection_remove(sel[0])
+			return
+		self._char_picked = sel[0]
+		if self.char_all.get() and self.char_q.get().strip():
+			tag = self.char_tag(sel[0])
+			if tag in self.data.countries and tag != self.selected:
+				self._want_char = sel[0]
+				self.root.after(2500, lambda: setattr(self, "_want_char", None))
+				self.char_all.set(False)
+				self.char_q.set("")
+				self.select(tag)
+				self.tabs.select(self.leaders_tab)
+				self.fill_leaders(keep=True)
+				return
+		self.show_character()
+
+	# ---------- Dual leaders ----------
+	def _dual_label(self, cid):
+		d = self.data
+		ch = d.characters.get(cid)
+		return f"{d.label(ch.name_key, cid)} ({cid})" if ch else cid
+
+	def fill_dual_leaders(self):
+		"""The dual leader boxes: the country's own characters first, then every other character of the mod."""
+		d, tag = self.data, self.selected
+		if not tag or not hasattr(self, "dual_boxes"):
+			return
+		c = d.countries[tag]
+		own = list(c.characters) + sorted(x for x in d.characters if x.startswith(tag + "_") and x not in c.characters)
+		rest = sorted((x for x in d.characters if x not in set(own) and not getattr(d.characters[x], "legacy", False)),
+					  key=lambda x: self._dual_label(x).lower())
+		self._dual_choices = {self._dual_label(x): x for x in own + rest if x in d.characters}
+		values = ["(none)"] + list(self._dual_choices)
+		for g, box in self.dual_boxes.items():
+			box.set_completion_values(values)
+			cur = c.dual.get(g)
+			self.dual_vars[g].set(self._dual_label(cur) if cur else "(none)")
+		self._dual_loaded = dict(c.dual)
+		self._dual_note()
+
+	def _dual_filter(self, g):
+		"""Typing in a box narrows its list to the characters whose name or id has the text."""
+		text = self.dual_vars[g].get().strip().lower()
+		all_values = ["(none)"] + list(getattr(self, "_dual_choices", {}))
+		self.dual_boxes[g].config(values=[v for v in all_values if text in v.lower()] if text else all_values)
+
+	def _dual_from_selection(self, g):
+		sel = self.lead_tree.selection()
+		if sel and sel[0] in self.data.characters:
+			self.dual_vars[g].set(self._dual_label(sel[0]))
+
+	def _dual_chosen(self):
+		"""{gov: character id} as the boxes are now (a typed id counts too)."""
+		out = {}
+		for g, v in self.dual_vars.items():
+			text = v.get().strip()
+			if not text or text == "(none)":
+				continue
+			cid = getattr(self, "_dual_choices", {}).get(text)
+			if not cid:
+				m = re.search(r"\((\w+)\)\s*$", text)
+				cid = m.group(1) if m else text
+			out[g] = cid
+		return out
+
+	def _dual_problems(self, cid):
+		"""What a character still needs to work as a dual leader (Save fixes them)."""
+		d = self.data
+		ch = d.characters.get(cid)
+		out = []
+		if ch is None:
+			return ["no such character"]
+		if not self._sprite_defined(f"GFX_{cid}"):
+			out.append(f"no GFX_{cid} sprite")
+		if cid not in d.loc:
+			out.append(f"no {cid} name key")
+		if cid not in self._synced_tokens():
+			out.append("not a synchronized token")
+		return out
+
+	def _dual_note(self):
+		tag = self.selected
+		if not tag:
+			return
+		chosen = self._dual_chosen()
+		bits = []
+		for g, _, label in cd.DUAL_GOVS:
+			if g in chosen:
+				p = self._dual_problems(chosen[g])
+				bits.append(f"{label}: {chosen[g]}" + (f" ({', '.join(p)} - Save adds it)" if p and p != ["no such character"] else
+														" (no such character!)" if p else ""))
+		self.dual_note.config(text=("; ".join(bits) if bits else "No dual leader. Pick a character for any government and Save.")
+							  + "  Countries without one for their government show none.")
+
+	def _sprite_defined(self, name):
+		"""A spriteType of that name in interface/*.gfx (not commented out)."""
+		if not hasattr(self, "_sprite_names"):
+			names = set()
+			for f in self.data._files("interface", "*.gfx"):
+				try:
+					text = re.sub(r"#[^\n]*", "", read_text(f))
+				except OSError:
+					continue
+				names.update(n.lower() for n in re.findall(r'\bname\s*=\s*"?([\w.\-]+)"?', text))
+			self._sprite_names = names
+		return name.lower() in self._sprite_names
+
+	def _synced_tokens(self):
+		if not hasattr(self, "_tokens_cache"):
+			toks = set()
+			for f in self.data._files(cd.D_TOKENS, "*.txt"):
+				try:
+					toks.update(l.split("#")[0].strip() for l in read_text(f).splitlines())
+				except OSError:
+					pass
+			self._tokens_cache = toks
+		return self._tokens_cache
+
+	def save_dual_leaders(self):
+		"""Writes set_variable = { dual_leader_<gov> = token:<id> } into the history and makes sure each character
+		works as one: its token is synchronized, GFX_<id> exists (an alias of its large portrait in dual_leader.gfx)
+		and <id> has a name (an alias of its name key)."""
 		d, tag = self.data, self.selected
 		if not tag:
 			return
-		sel = self.lead_tree.selection()
-		self.lead_tree.delete(*self.lead_tree.get_children())
 		c = d.countries[tag]
-		ids = list(c.characters) + sorted(cid for cid in d.characters if cid.startswith(tag + "_") and cid not in c.characters)
-		subs = sorted(d.sub_ideology)
-		self.ideo_box.config(values=subs)
-		for cid in ids:
-			ch = d.characters.get(cid)
-			if ch is None:
-				self.lead_tree.insert("", "end", iid=cid, text=f"{cid} (not defined!)", values=("", "", "yes"))
-				continue
-			self.lead_tree.insert("", "end", iid=cid, text=d.label(ch.name_key, cid),
-								  values=(", ".join(ch.roles), " / ".join(r[0] or "?" for r in ch.leaders()), "yes" if cid in c.characters else ""),
-								  tags=() if d.has_large_portrait(ch) else ("noport",))
-		# Leaders its national focuses / decisions / events add later (ticked kinds), in blue.
-		shown = {k for k, v in self.script_show.items() if v.get()}
-		recs = d.script_leaders.get(tag, [])
-		later = 0
-		for r in recs:
-			cid = r.get("char_id")
-			if r["kind"] not in shown or not cid:
-				continue
-			word = {"Focus": "focus", "Decision": "decision", "Event": "event"}[r["kind"]]
-			if self.lead_tree.exists(cid):  # already listed (recruited or a TAG_ character): say what adds it
-				if not self.lead_tree.set(cid, "start"):
-					self.lead_tree.set(cid, "start", word)
-				continue
-			later += 1
-			ch = d.characters.get(cid)
-			if ch is None:
-				self.lead_tree.insert("", "end", iid=cid, text=f"{cid} (not defined!)", values=(r["role"].replace("_", " "), "", word),
-									  tags=("script", "noport"))
-				continue
-			self.lead_tree.insert("", "end", iid=cid, text=d.label(ch.name_key, cid),
-								  values=(", ".join(ch.roles), " / ".join(x[0] or "?" for x in ch.leaders()), word),
-								  tags=("script",) + (() if d.has_large_portrait(ch) else ("noport",)))
-		total = len([r for r in recs if r.get("char_id")])
-		self.script_count.config(text=f"{later} added later" + (f" (of {total})" if later != total else "") if total else "none added later")
-		self._mark_leader_rows()
-		if keep and sel and self.lead_tree.exists(sel[0]):
-			self.lead_tree.selection_set(sel[0])
-		elif ids:
-			self.lead_tree.selection_set(ids[0])
-		else:
-			self.char_raw.show(None)
+		chosen = self._dual_chosen()
+		bad = [cid for cid in chosen.values() if cid not in d.characters]
+		if bad:
+			messagebox.showerror(APP_NAME, "Not a character of the mod: " + ", ".join(bad))
+			return
+		if not c.history:
+			self.make_history(tag)
+			c = d.countries[tag]
+		done = []
+		if chosen != cd.read_dual(c.hist):
+			rel = c.history
+			lines = list(TextFile(d.path(rel)).lines)
+			found = cd.dual_lines(c.hist)
+			new = [f"set_variable = {{ dual_leader_{g} = token:{chosen[g]} }}" for g, _, _ in cd.DUAL_GOVS if g in chosen]
+			if found:
+				at = min(e.first for e in found)
+				drop = set()
+				for e in found:
+					drop |= set(range(e.first, e.last + 1))
+				out = []
+				for i, l in enumerate(lines):
+					if i == at:
+						out += new
+					if i not in drop:
+						out.append(l)
+			else:
+				last = max((e.last for e in c.hist if e.key == "recruit_character" and not e.block), default=None)
+				if last is None:
+					out = lines + ["", "# Dual leaders (dual_leader_scripted_loc.txt) # Country Master"] + new
+				else:
+					out = lines[:last + 1] + ["", "# Dual leaders (dual_leader_scripted_loc.txt) # Country Master"] + new + lines[last + 1:]
+			self.write_lines(rel, None, None, out)
+			self.reload_file(rel)
+			done.append("history")
+		for cid in dict.fromkeys(chosen.values()):
+			done += self._make_dual_ready(cid)
+		self.fill_dual_leaders()
+		self.set_status(f"Saved {tag}'s dual leaders: {', '.join(dict.fromkeys(done))}." if done else "Nothing changed.")
+
+	def _make_dual_ready(self, cid):
+		"""The token, sprite alias and name alias a character needs to be shown as a dual leader."""
+		d = self.data
+		ch = d.characters[cid]
+		done = []
+		if cid not in self._synced_tokens():
+			rel = cd.F_TOKENS
+			lines = list(TextFile(d.path(rel)).lines)
+			at = len(lines)
+			while at > 0 and not lines[at - 1].strip():  # before the blank lines at the end
+				at -= 1
+			lines.insert(at, f" {cid}")
+			self.write_lines(rel, None, None, lines)
+			self._tokens_cache.add(cid)
+			done.append(f"token {cid}")
+		if not self._sprite_defined(f"GFX_{cid}"):
+			large = next((v for typ, size, v in ch.portrait_slots if size == "large" and typ == "civilian"), None) or \
+				next((v for typ, size, v in ch.portrait_slots if size == "large"), None)
+			tex = None
+			if large and large.startswith("GFX_"):
+				d.sprite_texture(large)  # fills the sprite table
+				tex = d._sprites.get(large) or d._sprites_lower.get(large.lower())
+			elif large:
+				tex = large
+			if tex:
+				rel = self.new_lines_file(cd.F_DUAL_GFX, "gfx")
+				lines = list(TextFile(d.path(rel)).lines)
+				end = max(i for i, l in enumerate(lines) if l.strip().startswith("}"))
+				lines[end:end] = ["\t# Dual leader portrait of %s (its own sprite is %s) # Country Master" % (cid, large),
+								  "\tspriteType = {", f'\t\tname = "GFX_{cid}"', f'\t\ttexturefile = "{tex}"', "\t}"]
+				self.write_lines(rel, None, None, lines)
+				self._sprite_names.add(f"gfx_{cid}".lower())
+				done.append(f"GFX_{cid} (alias of {large})")
+		if cid not in d.loc and ch.name_key in d.loc:
+			self.set_loc_in(cid, f"${ch.name_key}$", cd.F_DUAL_LOC)
+			done.append(f"name {cid}")
+		return done
 
 	def _script_show_changed(self):
 		save_config(show_script_leaders=[k for k, v in self.script_show.items() if v.get()])
@@ -3835,7 +4898,7 @@ class App:
 		self.show_portrait()
 
 	def _shown_portrait(self):
-		"""(character id, (civilian/army/navy, large/small, sprite)) of the portrait on the Leaders tab, or None."""
+		"""(character id, (civilian/army/navy, large/small, sprite)) of the portrait on the Characters tab, or None."""
 		sel = self.lead_tree.selection()
 		if not sel or not self.portrait_slots:
 			return None
@@ -3865,15 +4928,15 @@ class App:
 		bg = self.portrait.master.cget("background") if isinstance(self.portrait.master, tk.Frame) else ttk.Style().lookup("TFrame", "background")
 		col = REWORK_CATS[m[0]] if m else bg
 		self.portrait.config(highlightbackground=col, highlightcolor=col)
-		self.portrait_rework.config(text=f"⚑ {m[0]}" if m else "", fg=REWORK_CATS[m[0]] if m else "#555")
+		self.portrait_rework.config(text=(f"⚑ {m[0]}" + (f"\n📝 {m[4]}" if len(m) > 4 and m[4] else "")) if m else "", fg=REWORK_CATS[m[0]] if m else "#555")
 
 	def _mark_leader_rows(self):
-		"""Leaders list: a character with a portrait marked for rework gets a ⚑ (in the colour of its worst one)."""
+		"""Characters list: a character with a portrait marked for rework gets a ⚑ (in the colour of its worst one)."""
 		if not hasattr(self, "lead_tree"):
 			return
 		marks = self.rework_marks()
 		order = list(REWORK_CATS)
-		for cid in self.lead_tree.get_children():
+		for cid in [x for g in self.lead_tree.get_children() for x in self.lead_tree.get_children(g)]:  # (inside the role rows)
 			ch = self.data.characters.get(cid)
 			cats = [marks[v][0] for _, _, v in (ch.portrait_slots if ch else []) if v in marks]
 			tags = [t for t in self.lead_tree.item(cid, "tags") if not t.startswith("rw_")]
@@ -4249,7 +5312,7 @@ class App:
 	def _build_history(self):
 		f = ttk.Frame(self.tabs, padding=6)
 		self.tabs.add(f, text="History file")
-		ttk.Label(f, text="Everything the country starts with (the Overview, Leaders and Ideas tabs edit parts of this):",
+		ttk.Label(f, text="Everything the country starts with (the Overview, Characters and Ideas tabs edit parts of this):",
 				  foreground="#555").pack(anchor="w")
 		self.hist_raw = RawEditor(f, self, height=30, on_saved=lambda: self.select(self.selected))
 		self.hist_raw.pack(fill="both", expand=True)
@@ -4915,6 +5978,7 @@ class App:
 
 	def show_warnings(self):
 		w = self.data.warnings
+		self.feedback("validation_problem" if w else "validation_ok")
 		messagebox.showinfo(APP_NAME, "\n".join(w[:60]) if w else "Nothing found.")
 
 	def open_other_mod(self):
@@ -4930,7 +5994,13 @@ class App:
 		for w in root.winfo_children():
 			w.destroy()
 		root.config(menu="")
-		App(root, d)
+		try:
+			App(root, d)
+		except LoadingCancelled:
+			try:
+				root.destroy()
+			except tk.TclError:
+				pass
 
 	def open_organisation_master(self):
 		"""Back to Organisation Master (tools/organisation_master), the central RR tool."""
@@ -5043,7 +6113,18 @@ def main():
 	if not mod:
 		root.destroy()
 		return
-	App(root, mod)
+	try:
+		app = App(root, mod)
+	except LoadingCancelled:
+		try:
+			root.destroy()
+		except tk.TclError:
+			pass
+		return
+	from master_links import argument
+	link = argument(sys.argv)
+	if link is not None:
+		root.after(200, lambda: app.open_target(link))
 	root.mainloop()
 
 

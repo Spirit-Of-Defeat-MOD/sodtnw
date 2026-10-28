@@ -12,6 +12,7 @@ import re
 import sys
 import glob
 from collections import defaultdict
+from country_load_cache import SourceCache
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "culture_master"))
@@ -176,34 +177,55 @@ F_PARTY_LOC = "localisation/english/RR_parties_gui_l_english.yml"
 F_PARTY_SUBS = "tools/party_gfx/subs.json"
 F_PARTY_PIE = "gfx/interface/parties_ui/rr_party_pie_slices.dds"
 F_PARTY_SWATCH = "gfx/interface/parties_ui/rr_party_colors.dds"
-PARTY_FRAMES = 64  # frames in the pie / colour strips: frame 1 empty, frame k + 2 = k-th registered sub-ideology
+PARTY_FRAMES = 64  # (old) frames in the strips; now always registry + 1: frame 1 empty, frame k + 2 = k-th registered slot
+PARTY_SLICE = 48  # px per pie slice frame: 300+ slots must fit in 16384 px (the GUI scales the slices up)
+PARTY_GROUPS = ("communism", "neutrality", "fascism")  # global.rr_party_group_<x> arrays; democratic is in none
 F_PARTY_GFX = "interface/RR_parties_ui.gfx"
 MAX_SAME_PARTIES = 3  # parties of one sub-ideology in a country: socialism, socialism_2, socialism_3
 
 
 class Parties:
 	"""A country's parties at the start date (from its history): rr_parties, rr_party_pop@, rr_party_bloc@,
-	rr_party_leader@ (random_character ... = PREV), rr_ruling_party, rr_coalition, rr_banned_parties."""
+	rr_party_leader@ (random_character ... = PREV), rr_ruling_party, rr_coalition, rr_confidence, the opposition
+	coalitions (rr_coalitions, rr_party_coalition@, rr_coalition_name@) and rr_banned_parties."""
 
 	def __init__(self):
 		self.order = []      # party tokens (sub-ideologies), as added
 		self.pop = {}        # token -> popularity %
-		self.bloc = {}       # token -> the party leading its bloc
+		self.bloc = {}       # token -> the leading faction of the party it is a faction of
+		self.bloc_name = {}  # leading faction -> the slot whose name the party carries (after a faction took over)
 		self.leader = {}     # token -> character id
 		self.ruling = None
 		self.coalition = []
+		self.confidence = []  # parties giving the government confidence and supply
+		self.coalitions = []  # the leading party of every opposition coalition
+		self.coal = {}        # party -> the leading party of its opposition coalition (the leader too)
+		self.coal_name = {}   # coalition leader (or the ruling party) -> token of its <TAG>_coalition_<token> name
 		self.banned = []
 		self.generic = False  # rr_party_generic_names = 1
 
 	def copy(self):
 		p = Parties()
 		p.order, p.pop, p.bloc, p.leader = list(self.order), dict(self.pop), dict(self.bloc), dict(self.leader)
+		p.bloc_name = dict(self.bloc_name)
 		p.ruling, p.coalition, p.banned, p.generic = self.ruling, list(self.coalition), list(self.banned), self.generic
+		p.confidence, p.coalitions, p.coal, p.coal_name = list(self.confidence), list(self.coalitions), dict(self.coal), dict(self.coal_name)
 		return p
 
 	def same(self, o):
-		return (self.order, self.pop, self.bloc, self.leader, self.ruling, self.coalition, self.banned, self.generic) == \
-			(o.order, o.pop, o.bloc, o.leader, o.ruling, o.coalition, o.banned, o.generic)
+		return (self.order, self.pop, self.bloc, self.bloc_name, self.leader, self.ruling, self.coalition, self.banned, self.generic,
+				self.confidence, self.coalitions, self.coal, self.coal_name) == \
+			(o.order, o.pop, o.bloc, o.bloc_name, o.leader, o.ruling, o.coalition, o.banned, o.generic,
+			 o.confidence, o.coalitions, o.coal, o.coal_name)
+
+	def unit(self, t):
+		"""The party t belongs to: its leading faction, or t itself."""
+		b = self.bloc.get(t)
+		return b if b in self.order else t
+
+	def government_pop(self):
+		"""Popularity of the government: the ruling party and its partners, all their factions."""
+		return sum(self.pop.get(t, 0) for t in self.order if self.unit(t) == self.ruling or self.unit(t) in self.coalition)
 
 
 def party_lines(entries):
@@ -213,7 +235,7 @@ def party_lines(entries):
 		if not e.block:
 			continue
 		if e.key in ("add_to_array", "set_variable") and any(
-				(x.key or "").startswith(("rr_parties", "rr_party_", "rr_ruling_party", "rr_coalition", "rr_banned_parties"))
+				(x.key or "").startswith(("rr_parties", "rr_party_", "rr_ruling_party", "rr_coalition", "rr_confidence", "rr_banned_parties"))
 				for x in e.value):
 			out.append(e)
 		elif e.key == "random_character" and any((x.key or "").startswith("rr_party_leader@") for x in walk(e.value)):
@@ -238,6 +260,10 @@ def read_parties(entries):
 					p.order.append(tok(v))
 				elif k == "rr_coalition" and tok(v) not in p.coalition:
 					p.coalition.append(tok(v))
+				elif k == "rr_confidence" and tok(v) not in p.confidence:
+					p.confidence.append(tok(v))
+				elif k == "rr_coalitions" and tok(v) not in p.coalitions:
+					p.coalitions.append(tok(v))
 				elif k == "rr_banned_parties" and tok(v) not in p.banned:
 					p.banned.append(tok(v))
 			else:
@@ -246,6 +272,12 @@ def read_parties(entries):
 						p.pop[tok(k.split("@", 1)[1])] = float(v)
 					except ValueError:
 						pass
+				elif k.startswith("rr_party_coalition@"):
+					p.coal[tok(k.split("@", 1)[1])] = tok(v)
+				elif k.startswith("rr_coalition_name@"):
+					p.coal_name[tok(k.split("@", 1)[1])] = tok(v)
+				elif k.startswith("rr_party_bloc_name@"):
+					p.bloc_name[tok(k.split("@", 1)[1])] = tok(v)
 				elif k.startswith("rr_party_bloc@"):
 					p.bloc[tok(k.split("@", 1)[1])] = tok(v)
 				elif k == "rr_ruling_party":
@@ -266,15 +298,56 @@ def party_block(tag, p, recruit=()):
 		out += ["", f"add_to_array = {{ rr_parties = token:{t} }}", f"set_variable = {{ rr_party_pop@token:{t} = {num(p.pop.get(t, 0))} }}"]
 		if p.bloc.get(t):
 			out.append(f"set_variable = {{ rr_party_bloc@token:{t} = token:{p.bloc[t]} }}")
+		if p.bloc_name.get(t) and not p.bloc.get(t):
+			out.append(f"set_variable = {{ rr_party_bloc_name@token:{t} = token:{p.bloc_name[t]} }}")
 		if p.leader.get(t):
 			out.append(f"random_character = {{ limit = {{ is_character = {p.leader[t]} }} ROOT = {{ set_variable = {{ "
 					   f"rr_party_leader@token:{t} = PREV }} }} }}")
-	if p.ruling or p.coalition or p.banned:
+	if p.ruling or p.coalition or p.banned or p.confidence:
 		out.append("")
 	if p.ruling:
 		out.append(f"set_variable = {{ rr_ruling_party = token:{p.ruling} }}")
 	out += [f"add_to_array = {{ rr_coalition = token:{t} }}" for t in p.coalition]
+	if p.ruling and p.coal_name.get(p.ruling):
+		out.append(f"set_variable = {{ rr_coalition_name@token:{p.ruling} = token:{p.coal_name[p.ruling]} }}")
+	out += [f"add_to_array = {{ rr_confidence = token:{t} }}" for t in p.confidence]
 	out += [f"add_to_array = {{ rr_banned_parties = token:{t} }}" for t in p.banned]
+	for lead in p.coalitions:  # opposition coalitions: the leader, its name, then every member (the leader too)
+		out += ["", f"add_to_array = {{ rr_coalitions = token:{lead} }}"]
+		if p.coal_name.get(lead):
+			out.append(f"set_variable = {{ rr_coalition_name@token:{lead} = token:{p.coal_name[lead]} }}")
+		out += [f"set_variable = {{ rr_party_coalition@token:{t} = token:{lead} }}"
+				for t in [lead] + [x for x in p.order if p.coal.get(x) == lead and x != lead]]
+	return out
+
+
+#################################################
+# Dual leaders (Globus, dual_leader_scripted_loc.txt): a second leader per government, shown in the politics
+# view. In the history: set_variable = { dual_leader_dem = token:<character id> } (dem / com / aut / nat). The
+# game shows the loc key <character id> as the name and the sprite GFX_<character id> as the portrait, and the
+# token has to be listed in a synchronized_dynamic_tokens file.
+DUAL_GOVS = (("dem", "democratic", "Democratic"), ("com", "communism", "Communist"),
+			 ("aut", "neutrality", "Non-aligned"), ("nat", "fascism", "Fascist"))
+F_DUAL_GFX = "interface/dual_leader.gfx"
+F_DUAL_LOC = "localisation/english/dual_leaders_l_english.yml"
+F_TOKENS = "common/synchronized_dynamic_tokens/tokens.txt"
+D_TOKENS = "common/synchronized_dynamic_tokens"
+
+
+def dual_lines(entries):
+	"""The history's set_variable = { dual_leader_xxx = token:... } entries."""
+	return [e for e in entries if e.key == "set_variable" and e.block
+			and any((x.key or "").startswith("dual_leader_") for x in e.value)]
+
+
+def read_dual(entries):
+	"""{'dem': character id, ...} from the history (the last one of each wins, as in the game)."""
+	out = {}
+	for e in dual_lines(entries):
+		for x in e.value:
+			k = (x.key or "")[len("dual_leader_"):]
+			if k in {g for g, _, _ in DUAL_GOVS}:
+				out[k] = str(x.value).replace("token:", "").strip()
 	return out
 
 
@@ -310,6 +383,7 @@ class Country:
 		self.hist = []             # parsed history (the whole file)
 		self.eff = []              # what the game applies at the start date: undated lines, dated blocks up to it, if / else
 		self.parties = None        # Parties (RR party system), None when it has none
+		self.dual = {}             # dual leaders: {'dem' / 'com' / 'aut' / 'nat': character id}
 		self.rgb = None
 		self.characters = []       # character ids recruited in its history
 		self.ideas = []            # add_ideas in its history
@@ -443,19 +517,20 @@ class CountryData:
 	"""Reads a mod the way HOI4 does: each file from the mod when it has it, else from the base game, except in
 	folders the mod replaces (replace_path in its descriptor.mod). Writes always go into the mod."""
 
-	def __init__(self, root, game=None):
+	def __init__(self, root, game=None, cache_dir=None, progress=None):
+		self._cache_dir = cache_dir or os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~")), "CountryMaster")
 		self.root = root
 		self.game = game
 		self.warnings = []
 		self.replaced = self._read_replace_paths()
-		self.load()
+		self.load(progress)
 
 	def _read_replace_paths(self):
 		out = set()
 		for name in ("descriptor.mod",):
 			p = os.path.join(self.root, name)
 			if os.path.exists(p):
-				for m in re.finditer(r'^\s*replace_path\s*=\s*"([^"]+)"', read_text(p), re.M):
+				for m in re.finditer(r'^\s*replace_path\s*=\s*"([^"]+)"', self._text(p), re.M):
 					out.add(m.group(1).strip("/").replace("\\", "/"))
 		return out
 
@@ -505,6 +580,14 @@ class CountryData:
 
 	def rel(self, path):
 		"""A file's path inside the mod or the base game (the same for both: 'history/countries/AUS - Austria.txt')."""
+		cache = getattr(self, "_load_relpaths", None)
+		if cache is not None:
+			if path not in cache:
+				cache[path] = self._relative_path(path)
+			return cache[path]
+		return self._relative_path(path)
+
+	def _relative_path(self, path):
 		full = os.path.normcase(os.path.abspath(path))
 		for base in sorted(self.bases, key=len, reverse=True):
 			b = os.path.normcase(os.path.abspath(base))
@@ -516,31 +599,52 @@ class CountryData:
 		return not self.in_mod(rel) and self.path(rel) != self.mod_path(rel)
 
 	# ---------- loading ----------
-	def load(self):
-		self._load_tags()
-		self._load_loc()
-		self._load_colors()
-		self._load_history()
-		self._load_states()
-		self._load_characters()
+	def load(self, progress=None):
+		progress = progress or (lambda text: None)
+		progress("Reading the saved file cache…")
+		self._load_relpaths = {}
+		self._load_cache = SourceCache(self.root, self.game, self._cache_dir, Entry, parse, read_text)
+		self._load_filelists = {}
+		for label, loader in (("country tags", self._load_tags), ("localisation", self._load_loc),
+				("country colours", self._load_colors), ("country history", self._load_history),
+				("states and provinces", self._load_states), ("characters", self._load_characters)):
+			progress(f"Loading {label}…")
+			loader()
+		progress("Loading legacy leaders…")
 		for c in self.countries.values():
 			if c.eff:
 				self._legacy_leaders(c)
-		self._load_ideas()
-		self._load_ideologies()
-		self._load_decisions()
-		self._load_spawn_mentions()
-		self._load_event_spawns()
-		self._load_party_system()
-		self._load_formables()
-		self._load_script_leaders()
-		self._load_generics()
-		self._load_continents()
-		self._load_flag_files()
-		self._load_cosmetics()
-		self._add_released_tags()
+		for label, loader in (("national ideas", self._load_ideas), ("ideologies", self._load_ideologies),
+				("collapse and bomb decisions", self._load_decisions), ("scripted country spawns", self._load_spawn_mentions),
+				("event spawns", self._load_event_spawns), ("parties and factions", self._load_party_system),
+				("formable countries", self._load_formables), ("scripted leaders", self._load_script_leaders),
+				("generic portraits", self._load_generics), ("continents", self._load_continents),
+				("flags", self._load_flag_files), ("cosmetic tags", self._load_cosmetics),
+				("released countries", self._add_released_tags)):
+			progress(f"Loading {label}…")
+			loader()
+		progress("Updating the file cache…")
+		self._load_cache.save()
+		del self._load_cache, self._load_filelists, self._load_relpaths
+
+	def _text(self, path):
+		cache = getattr(self, "_load_cache", None)
+		return cache.text(path) if cache is not None else read_text(path)
+
+	def _entries(self, path):
+		cache = getattr(self, "_load_cache", None)
+		return cache.entries(path) if cache is not None else parse(read_text(path))
 
 	def _files(self, d, pattern="*.txt"):
+		cache = getattr(self, "_load_filelists", None)
+		if cache is None:
+			return self._scan_files(d, pattern)
+		key = (d, pattern)
+		if key not in cache:
+			cache[key] = self._scan_files(d, pattern)
+		return list(cache[key])
+
+	def _scan_files(self, d, pattern="*.txt"):
 		"""Every file in a folder (and below): the mod's first, then the base game's that the mod doesn't have
 		(same path) or replace (replace_path)."""
 		mod = sorted(glob.glob(os.path.join(self.root, d, "**", pattern), recursive=True))
@@ -561,7 +665,7 @@ class CountryData:
 		self.tag_order = []
 		for f in self._files(D_TAGS):
 			dynamic = False
-			for e in parse(read_text(f)):
+			for e in self._entries(f):
 				if e.key == "dynamic_tags":
 					dynamic = True
 					continue
@@ -578,7 +682,7 @@ class CountryData:
 		for f in self._files(D_LOC, "*.yml"):
 			rel = self.rel(f)
 			try:
-				text = read_text(f)
+				text = self._text(f)
 			except OSError:
 				continue
 			for i, line in enumerate(text.split("\n")):
@@ -621,7 +725,7 @@ class CountryData:
 	def _load_colors(self):
 		self.cosmetic_entries, self.cosmetic_rgb = {}, {}
 		if os.path.exists(self.path(F_COSMETIC)):
-			for e in parse(read_text(self.path(F_COSMETIC))):
+			for e in parse(self._text(self.path(F_COSMETIC))):
 				if e.key and e.block:
 					self.cosmetic_entries[e.key] = e
 					col = next((c for c in e.value if c.key == "color" and c.block), None)
@@ -631,7 +735,7 @@ class CountryData:
 		self.colors_entries = {}
 		self.bad_colors = {}  # tag -> its numbers when one is outside 0-255 (shown clamped)
 		if os.path.exists(self.path(F_COLORS)):
-			color_text = read_text(self.path(F_COLORS))
+			color_text = self._text(self.path(F_COLORS))
 			color_lines = color_text.split("\n")
 			for e in parse(color_text):
 				if e.key in self.countries and e.block:
@@ -656,7 +760,7 @@ class CountryData:
 		default = []
 		for f in self._files("common/bookmarks"):
 			try:
-				top = parse(read_text(f))
+				top = self._entries(f)
 			except Exception:
 				continue
 			for b in walk(top):
@@ -753,6 +857,7 @@ class CountryData:
 		c.cosmetic = c.get("set_cosmetic_tag") or None
 		p = read_parties(c.eff)
 		c.parties = p if p.order or p.ruling else None
+		c.dual = read_dual(c.eff)
 		if hasattr(self, "characters"):
 			self._legacy_leaders(c)
 
@@ -808,7 +913,7 @@ class CountryData:
 				self.warnings.append(f"{self.rel(f)}: {tag} isn't in common/country_tags")
 			c.history = self.rel(f)
 			try:
-				c.hist = parse(read_text(f))
+				c.hist = self._entries(f)
 			except Exception as ex:
 				self.warnings.append(f"{c.history}: can't read ({ex})")
 				continue
@@ -822,11 +927,30 @@ class CountryData:
 		self.state_pop = {}        # state -> manpower (the game's population)
 		self.state_provinces = {}
 		self.state_history = {}  # state -> its history = { } entries
+		# The map uses the undated source values; retain those while the source is already in memory.
+		provinces, land, owners, population, filenames, seen = {}, set(), {}, {}, {}, set()
+		self._map_history_data = provinces, land, owners, population, filenames
 		for f in self._files(D_STATES):
 			try:
-				top = parse(read_text(f))
+				top = self._entries(f)
+				text = "\n".join(strip_comment(line) for line in self._text(f).splitlines())
 			except Exception:
 				continue
+			match = re.search(r"\bid\s*=\s*(\d+)", text)
+			if match and int(match.group(1)) not in seen:
+				sid = int(match.group(1))
+				seen.add(sid)
+				pm = re.search(r"\bprovinces\s*=\s*\{([^}]*)\}", text)
+				if pm:
+					provinces.update((int(p), sid) for p in pm.group(1).split() if p.isdigit())
+				om = re.search(r"\bowner\s*=\s*(\w+)", text)
+				if om:
+					owners[sid] = om.group(1)
+				mm = re.search(r"\bmanpower\s*=\s*(\d+)", text)
+				if mm:
+					population[sid], filenames[sid] = int(mm.group(1)), self.rel(f)
+				if not re.search(r"impassable\s*=\s*yes", text):
+					land.add(sid)
 			for st in top:
 				if st.key != "state" or not st.block:
 					continue
@@ -876,7 +1000,7 @@ class CountryData:
 		for f in self._files(D_CHARACTERS):
 			rel = self.rel(f)
 			try:
-				top = parse(read_text(f))
+				top = self._entries(f)
 			except Exception:
 				continue
 			for e in top:
@@ -890,7 +1014,7 @@ class CountryData:
 		for f in self._files(D_IDEAS):
 			rel = self.rel(f)
 			try:
-				top = parse(read_text(f))
+				top = self._entries(f)
 			except Exception:
 				continue
 			for e in top:
@@ -929,7 +1053,7 @@ class CountryData:
 
 	def _load_ideology_file(self, f):
 		rel = self.rel(f)
-		lines = read_text(f).split("\n")
+		lines = self._text(f).split("\n")
 		for e in parse("\n".join(lines)):
 			if e.key != "ideologies" or not e.block:
 				continue
@@ -1017,13 +1141,13 @@ class CountryData:
 		cats = []
 		for f in self._files(D_DECISIONS):
 			try:
-				text = read_text(f)
+				text = self._text(f)
 			except OSError:
 				continue
 			low = text.lower()
 			if "collapse" not in low and "bomb" not in low:
 				continue
-			for cat in parse(text):
+			for cat in self._entries(f):
 				if not cat.block or not cat.key:
 					continue
 				k = cat.key.lower()
@@ -1089,7 +1213,7 @@ class CountryData:
 		texts, parsed = {}, {}
 		for f in self._files(D_EVENTS):
 			try:
-				texts[f] = read_text(f)
+				texts[f] = self._text(f)
 			except OSError:
 				pass
 		done = set()
@@ -1100,7 +1224,7 @@ class CountryData:
 				if not any(eid in text for eid in todo):
 					continue
 				if f not in parsed:
-					parsed[f] = parse(text)
+					parsed[f] = self._entries(f)
 				for e in parsed[f]:
 					if e.block and e.key in ("country_event", "news_event", "state_event"):
 						eid = e.get("id")
@@ -1308,14 +1432,14 @@ class CountryData:
 		for kind, folder in (("Event", D_EVENTS), ("Decision", D_DECISIONS), ("Focus", D_FOCUS)):
 			for f in self._files(folder):
 				try:
-					text = read_text(f)
+					text = self._text(f)
 				except OSError:
 					continue
 				if not kw.search(text):
 					continue
 				rel = self.rel(f)
 				try:
-					top = parse(text)
+					top = self._entries(f)
 				except Exception:
 					continue
 				if kind == "Event":
@@ -1423,14 +1547,14 @@ class CountryData:
 
 		for f in self._files(D_DECISIONS):
 			try:
-				text = read_text(f)
+				text = self._text(f)
 			except OSError:
 				continue
 			if "set_cosmetic_tag" not in text and "change_tag_from" not in text:
 				continue
 			rel = self.rel(f)
 			try:
-				top = parse(text)
+				top = self._entries(f)
 			except Exception:
 				continue
 			for cat in top:
@@ -1489,12 +1613,12 @@ class CountryData:
 		self.party_registry, self.party_colors = [], {}
 		if not os.path.exists(self.path(F_PARTY_EFFECTS)):
 			return
-		text = read_text(self.path(F_PARTY_EFFECTS))
+		text = self._text(self.path(F_PARTY_EFFECTS))
 		m = re.search(r"rr_party_registry_setup\s*=\s*\{", text)
 		if not m:
 			return
 		body = text[m.end():text.find("\n}", m.end())]
-		self.party_registry = re.findall(r"global\.rr_dem_subideologies\s*=\s*token:(\w+)", re.sub(r"#[^\n]*", "", body))
+		self.party_registry = re.findall(r"global\.(?:rr_party_registry|rr_dem_subideologies)\s*=\s*token:(\w+)", re.sub(r"#[^\n]*", "", body))
 		try:
 			import json
 			self.party_colors = {k: tuple(v) for k, v in json.load(open(self.path(F_PARTY_SUBS), encoding="utf-8")).get("colors", {}).items()}
@@ -1545,14 +1669,14 @@ class CountryData:
 		seen = set()
 		for f in self._files(D_EVENTS):
 			try:
-				text = read_text(f)
+				text = self._text(f)
 			except OSError:
 				continue
 			if not rx.search(re.sub(r"#[^\n]*", "", text)):
 				continue
 			rel = self.rel(f)
 			try:
-				top = parse(text)
+				top = self._entries(f)
 			except Exception:
 				continue
 			for ev in top:
@@ -1611,7 +1735,7 @@ class CountryData:
 		for d in (D_DECISIONS, D_EVENTS, D_FOCUS, "common/scripted_effects", "common/on_actions"):
 			for f in self._files(d):
 				try:
-					text = read_text(f)
+					text = self._text(f)
 				except OSError:
 					continue
 				text = re.sub(r"#[^\n]*", "", text)
@@ -1646,13 +1770,13 @@ class CountryData:
 		names = []
 		cpath = self.file_path("map/continent.txt")
 		if os.path.exists(cpath):
-			for e in parse(read_text(cpath)):
+			for e in self._entries(cpath):
 				if e.key == "continents" and e.block:
 					names = e.values()
 		prov_cont = {}
 		dpath = self.file_path("map/definition.csv")
 		if os.path.exists(dpath):
-			for line in read_text(dpath).splitlines():
+			for line in self._text(dpath).splitlines():
 				f = line.split(";")
 				if len(f) >= 8 and f[0].isdigit() and f[7].strip().isdigit():
 					prov_cont[int(f[0])] = int(f[7])
@@ -1713,7 +1837,7 @@ class CountryData:
 		for top in ("common", "events", "history/countries"):
 			for f in self._files(top):
 				try:
-					text = read_text(f)
+					text = self._text(f)
 				except OSError:
 					continue
 				if "set_cosmetic_tag" not in text:
@@ -1782,7 +1906,7 @@ class CountryData:
 			if "english" not in f.lower():
 				continue
 			try:
-				text = read_text(f)
+				text = self._text(f)
 			except OSError:
 				continue
 			for m in rx.finditer(text):
@@ -1794,7 +1918,7 @@ class CountryData:
 		cp = os.path.join(self.game, "common", "countries", "cosmetic.txt")
 		if os.path.exists(cp):
 			try:
-				game |= {e.key.lower() for e in parse(read_text(cp)) if e.key}
+				game |= {e.key.lower() for e in self._entries(cp) if e.key}
 			except Exception:
 				pass
 		self.vanilla_cosmetics = {lower[g] for g in game if g in lower}
@@ -1822,7 +1946,7 @@ class CountryData:
 
 		for f in self._files("portraits"):
 			try:
-				top = parse(read_text(f))
+				top = self._entries(f)
 			except Exception:
 				continue
 			rel = self.rel(f)
@@ -1909,7 +2033,7 @@ class CountryData:
 			rx = re.compile(r'\bname\s*=\s*"?([\w.\-]+)"?((?:(?!\bname\s*=)[\s\S]){0,400}?)\btexturefile\s*=\s*"([^"]+)"', re.I)
 			for f in self._files("interface", "*.gfx"):
 				try:
-					text = read_text(f)
+					text = self._text(f)
 				except OSError:
 					continue
 				for m in rx.finditer(text):

@@ -1,0 +1,175 @@
+# Portraits marked for rework in Country Master: generics (Generics tab) and leader portraits (Leaders
+# tab), right-click a portrait. Categories: Needs Touchup, Needs Severe Recorrection, Something about it.
+# Gap Finder > 'Portrait marked for rework...' lists the countries using them. To Do Master (Organisation
+# Master) turns each into a task in Art Reviews (Generic Review / Portrait Review). One per line, any mod:
+# mod folder | sprite | category | used by | marked on | generic or portrait
+Revolution_Realized | GFX_ZDK_generic_1 | Needs Touchup | ZDK (army / male) | 2026-10-23 | generic
+Revolution_Realized | GFX_ZDK_generic_2 | Needs Touchup | ZDK (army / male) | 2026-10-23 | generic
+Revolution_Realized | GFX_ZDK_generic_3 | Needs Touchup | ZDK (army / male) | 2026-10-23 | generic
+Revolution_Realized | GFX_ZDK_hiroo_onoda | Needs Touchup | ZDK_hiroo_onoda (civilian large) | 2026-10-23 | portrait
+Revolution_Realized | GFX_ZDK_shoichi_yokoi | Needs Touchup | ZDK_shoichi_yokoi (civilian large) | 2026-10-23 | portrait
+Revolution_Realized | GFX_ZDK_takahito | Needs Touchup | ZDK_takahito (civilian large) | 2026-10-23 | portrait
+Revolution_Realized | GFX_ZDK_tetsuzo_fuwa | Needs Touchup | ZDK_tetsuzo_fuwa (civilian large) | 2026-10-23 | portrait
+Revolution_Realized | GFX_RDS_generic_1 | Needs Severe Recorrection | RDS (army / male) | 2026-10-22 | generic
+Revolution_Realized | GFX_RDS_generic_4 | Needs Severe Recorrection | RDS (army / male) | 2026-10-22 | generic
+Revolution_Realized | GFX_AAC_generic_ADM_1 | Needs Touchup | AAC_generic_ADM_1 | 2026-10-24 | generic | Background is blue where the others aren't.
+Revolution_Realized | GFX_ACT_vivian_fuchs | Something about it | ACT_vivian_fuchs | 2026-10-24 | portrait | Hair is not quite right; should it be blond?
+Revolution_Realized | GFX_Portrait_Africa_Generic_5 | Needs Touchup | Portrait_Africa_Generic_5 | 2026-10-24 | generic | Too dark; brighten shading.
+Revolution_Realized | GFX_Portrait_Africa_Generic_6 | Something about it | Portrait_Africa_Generic_6 | 2026-10-24 | generic | Something is wrong with the shading.
+Revolution_Realized | GFX_ANG_generic_1 | Needs Severe Recorrection | ANG_generic_1 | 2026-10-24 | generic | Generic flip of ANG_Elias_Salupeto_Pena; needs redo.
+Revolution_Realized | GFX_ANG_generic_2 | Needs Severe Recorrection | ANG_generic_2 | 2026-10-24 | generic | Generic flip of ANG_Elias_Salupeto_Pena; needs redo.
+Revolution_Realized | GFX_ANG_generic_3 | Needs Severe Recorrection | ANG_generic_3 | 2026-10-24 | generic | Generic flip of ANG_Kafundanga_Chingunji; needs redo.
+Revolution_Realized | GFX_ANG_generic_4 | Needs Severe Recorrection | ANG_generic_4 | 2026-10-24 | generic | Generic flip of ANG_Kafundanga_Chingunji; needs redo.
+Revolution_Realized | GFX_ANG_generic_ADM_2 | Needs Severe Recorrection | ANG_generic_ADM_2 | 2026-10-24 | generic | Generic flip of ANG_generic_ADM_1; needs redo.
+Revolution_Realized | GFX_ASK_generic_1 | Needs Severe Recorrection | ASK_generic_1 | 2026-10-24 | generic | Generic flip of ASK_C_F_Necrason; needs redo.
+Revolution_Realized | GFX_ASK_generic_2 | Needs Severe Recorrection | ASK_generic_2 | 2026-10-24 | generic | Generic flip of ASK_C_F_Necrason; needs redo.
+Revolution_Realized | GFX_ASK_generic_3 | Needs Severe Recorrection | ASK_generic_3 | 2026-10-24 | generic | Generic flip of ASK_William_Elmore; needs redo.
+Revolution_Realized | GFX_ASK_generic_4 | Needs Severe Recorrection | ASK_generic_4 | 2026-10-24 | generic | Generic flip of ASK_William_Elmore; needs redo.
+Revolution_Realized | GFX_ASR_muhammad_sharif | Needs Severe Recorrection | ASR_muhammad_sharif | 2026-10-24 | portrait | Wonky aspect ratio; needs redo.
+Revolution_Realized | GFX_ASY_eshai_shimun | Needs Touchup | ASY_eshai_shimun | 2026-10-24 | portrait | Update shading to modern RR style.
+Revolution_Realized | GFX_ATY_nikolai_kiselev | Something about it | ATY_nikolai_kiselev | 2026-10-24 | portrait | Shading on suit looks washed out.
+Revolution_Realized | GFX_BAH_generic_ADM_1 | Needs Severe Recorrection | BAH_generic_ADM_1 | 2026-10-24 | generic | Generic flip of BAH_William_Swinley; needs redo.
+Revolution_Realized | GFX_BAH_generic_ADM_2 | Needs Severe Recorrection | BAH_generic_ADM_2 | 2026-10-24 | generic | Generic flip of BAH_William_Swinley; needs redo.
+Revolution_Realized | GFX_BAI_abdul_bakir | Needs Touchup | BAI_abdul_bakir | 2026-10-24 | portrait | Touch up shading; perhaps upscale.
+Revolution_Realized | GFX_BAI_generic_3 | Something about it | BAI_generic_3 | 2026-10-24 | generic | Face looks weird; optional review.
+Revolution_Realized | GFX_BAN_athar_ali | Needs Touchup | BAN_athar_ali | 2026-10-24 | portrait | Beard cuts off sharply. Consider more lighting contrast or darkening around the edges.
+Revolution_Realized | gfx/leaders/bandits/bandit_Luo_Huo.dds | Needs Touchup | gfx/leaders/bandits/bandit_Luo_Huo.dds | 2026-10-24 | portrait | Lighting is a bit too dark.
+Revolution_Realized | GFX_BEL_bru_jacques_grippa | Needs Touchup | BEL_bru_jacques_grippa | 2026-10-24 | portrait | Could use another upscale and shading touch-ups.
+Revolution_Realized | GFX_BHU_yeshey_singye | Needs Touchup | BHU_yeshey_singye | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_BLI_generic_2 | Needs Severe Recorrection | BLI_generic_2 | 2026-10-24 | generic | Generic flip of BLI_generic_1; needs redo.
+Revolution_Realized | GFX_BLS_gen_yu_jishi | Something about it | BLS_gen_yu_jishi | 2026-10-24 | portrait | Perhaps too bright; perhaps needs upscaling.
+Revolution_Realized | GFX_BLZ_george_price | Something about it | BLZ_george_price | 2026-10-24 | portrait | Shading seems off.
+Revolution_Realized | GFX_BLZ_gilroy_lewis | Needs Touchup | BLZ_gilroy_lewis | 2026-10-24 | portrait | Wonky facial features, especially eyes; hopefully upscaling helps.
+Revolution_Realized | GFX_BNI_omar_saifuddien | Needs Touchup | BNI_omar_saifuddien | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_BOL_generic_1 | Needs Touchup | BOL_generic_1 | 2026-10-24 | generic | Same suit source and positioning as BOL_generic_2; different caps but little differentiation.
+Revolution_Realized | GFX_BOL_generic_2 | Needs Touchup | BOL_generic_2 | 2026-10-24 | generic | Same suit source and positioning as BOL_generic_1; different caps but little differentiation.
+Revolution_Realized | GFX_BOL_rene_barrientos | Needs Touchup | BOL_rene_barrientos | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_BOT_generic_2 | Needs Severe Recorrection | BOT_generic_2 | 2026-10-24 | generic | Generic flip of BOT_generic_1; needs redo.
+Revolution_Realized | GFX_BOT_generic_4 | Needs Severe Recorrection | BOT_generic_4 | 2026-10-24 | generic | Generic flip of BOT_generic_3; needs redo.
+Revolution_Realized | GFX_BRA_adm_pedro_suzano | Needs Touchup | BRA_adm_pedro_suzano | 2026-10-24 | portrait | Eyebrows are incorrectly shaded.
+Revolution_Realized | GFX_BRA_edgard_cerqueira | Needs Touchup | BRA_edgard_cerqueira | 2026-10-24 | portrait | Could use a little more soft light shading.
+Revolution_Realized | GFX_BRA_gen_newton_cruz | Needs Touchup | BRA_gen_newton_cruz | 2026-10-24 | portrait | Sharp hair cut-off; light halo on the shadowed side of face seems misplaced.
+Revolution_Realized | GFX_BRB_clement_payne | Needs Touchup | BRB_clement_payne | 2026-10-24 | portrait | Hair has a sharp cut-off.
+Revolution_Realized | GFX_BRB_generic_1 | Needs Severe Recorrection | BRB_generic_1 | 2026-10-24 | generic | Generic flip of BRB_Rudyard_Lewis; needs redo.
+Revolution_Realized | GFX_BRB_generic_2 | Needs Severe Recorrection | BRB_generic_2 | 2026-10-24 | generic | Generic flip of BRB_Rudyard_Lewis; needs redo.
+Revolution_Realized | GFX_BRB_generic_ADM_2 | Needs Severe Recorrection | BRB_generic_ADM_2 | 2026-10-24 | generic | Generic flip of BRB_generic_ADM_1; needs redo.
+Revolution_Realized | GFX_BRB_sydney_burnett_alleyne | Needs Touchup | BRB_sydney_burnett_alleyne | 2026-10-24 | portrait | Very dark.
+Revolution_Realized | GFX_BRM_aung_shwe | Needs Touchup | BRM_aung_shwe | 2026-10-24 | portrait | Hat shadow is weird.
+Revolution_Realized | GFX_BRM_aye_ko | Needs Touchup | BRM_aye_ko | 2026-10-24 | portrait | Lips too red; ears do not look right.
+Revolution_Realized | GFX_BRM_generic_ADM_1 | Needs Touchup | BRM_generic_ADM_1 | 2026-10-24 | generic | Lighting needs brightening.
+Revolution_Realized | GFX_BRM_generic_ADM_2 | Needs Touchup | BRM_generic_ADM_2 | 2026-10-24 | generic | Lighting needs brightening.
+Revolution_Realized | GFX_BRM_generic_ADM_3 | Needs Touchup | BRM_generic_ADM_3 | 2026-10-24 | generic | Lighting needs brightening.
+Revolution_Realized | GFX_BRM_ne_win | Needs Touchup | BRM_ne_win | 2026-10-24 | portrait | Alter contrast/levels; looks washed out.
+Revolution_Realized | GFX_BUG_mutesa | Needs Touchup | BUG_mutesa | 2026-10-24 | portrait | Brighten slightly and blur the edges.
+Revolution_Realized | GFX_BUL_adm_generic_1 | Needs Severe Recorrection | BUL_adm_generic_1 | 2026-10-24 | generic | Generic flip of BUL_ADM_Branimir_Ormanov; needs redo.
+Revolution_Realized | GFX_BUL_adm_generic_2 | Needs Severe Recorrection | BUL_adm_generic_2 | 2026-10-24 | generic | Generic flip of BUL_ADM_Ivan_Dobrev; needs redo.
+Revolution_Realized | GFX_BUL_adm_generic_3 | Needs Severe Recorrection | BUL_adm_generic_3 | 2026-10-24 | generic | Generic flip of BUL_ADM_Ivan_Dobrev; needs redo.
+Revolution_Realized | GFX_BUL_generic_3 | Needs Touchup | BUL_generic_3 | 2026-10-24 | generic | Darken right hair edge.
+Revolution_Realized | GFX_BUL_georgi_popov | Needs Touchup | BUL_georgi_popov | 2026-10-24 | portrait | Increase contrast slightly.
+Revolution_Realized | GFX_BUL_marie_louise | Needs Touchup | BUL_marie_louise | 2026-10-24 | portrait | Dampen harsh lighting.
+Revolution_Realized | GFX_BUL_simeon_ii | Needs Touchup | BUL_simeon_ii | 2026-10-24 | portrait | Increase contrast slightly.
+Revolution_Realized | GFX_BUL_traicho_kostov | Needs Touchup | BUL_traicho_kostov | 2026-10-24 | portrait | Blur hair edge.
+Revolution_Realized | GFX_BUL_portrait_valko_chervenkov | Needs Touchup | BUL_portrait_valko_chervenkov | 2026-10-24 | portrait | Blur hair edge.
+Revolution_Realized | GFX_CAM_nuon_chea | Needs Touchup | CAM_nuon_chea | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_CAM_pol_pot | Needs Touchup | CAM_pol_pot | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_CAM_son_sen | Something about it | CAM_son_sen | 2026-10-24 | portrait | Looks weird; review.
+Revolution_Realized | GFX_CAN_adm_douglas_boyle | Needs Touchup | CAN_adm_douglas_boyle | 2026-10-24 | portrait | Face needs levels adjustment.
+Revolution_Realized | GFX_CAN_john_ross_taylor_militia | Needs Touchup | CAN_john_ross_taylor_militia | 2026-10-24 | portrait | Needs slight levels adjustment.
+Revolution_Realized | GFX_CAR_abel_goumba | Needs Touchup | CAR_abel_goumba | 2026-10-24 | portrait | Edges need erasing and blurring.
+Revolution_Realized | GFX_CAR_barthelemy_boganda | Needs Touchup | CAR_barthelemy_boganda | 2026-10-24 | portrait | Darken right neck corner.
+Revolution_Realized | GFX_CAR_generic_1 | Needs Severe Recorrection | CAR_generic_1 | 2026-10-24 | generic | Generic flip of CAR_Alexandre_Banza; needs redo.
+Revolution_Realized | GFX_CAR_generic_2 | Needs Severe Recorrection | CAR_generic_2 | 2026-10-24 | generic | Generic flip of CAR_Alexandre_Banza; needs redo.
+Revolution_Realized | GFX_CAR_generic_3 | Needs Severe Recorrection | CAR_generic_3 | 2026-10-24 | generic | Generic flip of CAR_Andre_Kolingba; needs redo.
+Revolution_Realized | GFX_CAR_generic_4 | Needs Severe Recorrection | CAR_generic_4 | 2026-10-24 | generic | Generic flip of CAR_Andre_Kolingba; needs redo.
+Revolution_Realized | GFX_SPR_cat_jose_gandia | Needs Touchup | SPR_cat_jose_gandia | 2026-10-24 | portrait | Could use another upscaling run.
+Revolution_Realized | GFX_CAY_justin_catayee | Needs Touchup | CAY_justin_catayee | 2026-10-24 | portrait | Update old shading method; erase and blur hair edge.
+Revolution_Realized | GFX_CGN_liu_guitang | Something about it | CGN_liu_guitang | 2026-10-24 | portrait | Transplant could be better.
+Revolution_Realized | GFX_CHA_generic_1 | Needs Severe Recorrection | CHA_generic_1 | 2026-10-24 | generic | Generic flip of CHA_Wadel_Abdelkader_Kamougue; needs redo.
+Revolution_Realized | GFX_CHA_generic_2 | Needs Severe Recorrection | CHA_generic_2 | 2026-10-24 | generic | Generic flip of CHA_Wadel_Abdelkader_Kamougue; needs redo.
+Revolution_Realized | GFX_CHA_generic_3 | Needs Severe Recorrection | CHA_generic_3 | 2026-10-24 | generic | Generic flip of CHA_Felix_Malloum_General; needs redo.
+Revolution_Realized | GFX_CHA_generic_4 | Needs Severe Recorrection | CHA_generic_4 | 2026-10-24 | generic | Generic flip of CHA_Felix_Malloum_General; needs redo.
+Revolution_Realized | GFX_CHL_sotero_rio | Needs Touchup | CHL_sotero_rio | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_CIL_arthur_kardashian | Needs Touchup | CIL_arthur_kardashian | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_CIL_george_deukmejian | Needs Touchup | CIL_george_deukmejian | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_CMR_generic_2 | Needs Severe Recorrection | CMR_generic_2 | 2026-10-24 | generic | Generic flip of CMR_generic_1; needs redo.
+Revolution_Realized | GFX_CMR_generic_3 | Needs Severe Recorrection | CMR_generic_3 | 2026-10-24 | generic | Generic flip of CMR_Rene_Claude_Meka; needs redo.
+Revolution_Realized | GFX_CMR_generic_4 | Needs Severe Recorrection | CMR_generic_4 | 2026-10-24 | generic | Generic flip of CMR_Rene_Claude_Meka; needs redo.
+Revolution_Realized | GFX_CMR_generic_ADM_2 | Needs Severe Recorrection | CMR_generic_ADM_2 | 2026-10-24 | generic | Generic flip of CMR_ADM_generic_1; needs redo.
+Revolution_Realized | GFX_CNS_generic_1 | Needs Severe Recorrection | CNS_generic_1 | 2026-10-24 | generic | Generic flip of CNS_Camilio_Alonso_Vega; needs redo.
+Revolution_Realized | GFX_CNS_generic_3 | Needs Touchup | CNS_generic_3 | 2026-10-24 | generic | Adjust levels.
+Revolution_Realized | GFX_CNS_portrait_cns_cubillo | Needs Touchup | CNS_portrait_cns_cubillo | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_COC_generic_2 | Something about it | COC_generic_2 | 2026-10-24 | generic | Weird angle.
+Revolution_Realized | GFX_COG_generic_1 | Needs Severe Recorrection | COG_generic_1 | 2026-10-24 | generic | Generic flip of COG_Frederic_Vandewalle; needs redo.
+Revolution_Realized | GFX_COG_generic_3 | Needs Severe Recorrection | COG_generic_3 | 2026-10-24 | generic | Generic flip of COG_Emile_Janssens; needs redo. Also listed under COL as a flip of COG_generic_1; source notes conflict.
+Revolution_Realized | GFX_COG_generic_4 | Needs Severe Recorrection | COG_generic_4 | 2026-10-24 | generic | Generic flip of COG_Emile_Janssens; needs redo.
+Revolution_Realized | GFX_COG_generic_native_3 | Needs Severe Recorrection | COG_generic_native_3 | 2026-10-24 | generic | Generic flip of COG_Leonard_Mulamba; needs redo.
+Revolution_Realized | GFX_COG_generic_native_4 | Needs Severe Recorrection | COG_generic_native_4 | 2026-10-24 | generic | Generic flip of COG_Leonard_Mulamba; needs redo.
+Revolution_Realized | GFX_COG_generic_native_5 | Needs Severe Recorrection | COG_generic_native_5 | 2026-10-24 | generic | Generic flip of COG_Louis_Bobozo; needs redo.
+Revolution_Realized | GFX_COG_generic_native_6 | Needs Severe Recorrection | COG_generic_native_6 | 2026-10-24 | generic | Generic flip of COG_Louis_Bobozo; needs redo.
+Revolution_Realized | GFX_COI_albert_henry | Needs Touchup | COI_albert_henry | 2026-10-24 | portrait | Looks to use an older shading method.
+Revolution_Realized | GFX_COL_gabriel_gordillo | Needs Touchup | COL_gabriel_gordillo | 2026-10-24 | portrait | Adjust shading and colouring.
+Revolution_Realized | GFX_COM_generic_1 | Needs Severe Recorrection | COM_generic_1 | 2026-10-24 | generic | Generic flip of COM_Ali_Soilih_General; needs redo.
+Revolution_Realized | GFX_COM_generic_2 | Needs Severe Recorrection | COM_generic_2 | 2026-10-24 | generic | Generic flip of COM_Ali_Soilih_General; needs redo.
+Revolution_Realized | GFX_COM_generic_ADM_2 | Needs Severe Recorrection | COM_generic_ADM_2 | 2026-10-24 | generic | Generic flip of COM_generic_ADM_1; needs redo. Reviewer prefers the second portrait to the first.
+Revolution_Realized | GFX_COS_raul_cervantes | Needs Touchup | COS_raul_cervantes | 2026-10-24 | portrait | Update older shading method; hair edge needs minor erasing/blurring.
+Revolution_Realized | GFX_CPV_generic_2 | Needs Severe Recorrection | CPV_generic_2 | 2026-10-24 | generic | Generic flip of CPV_generic_1; needs redo.
+Revolution_Realized | GFX_CRC_ciro_kroon | Needs Touchup | CRC_ciro_kroon | 2026-10-24 | portrait | Adjust shading/levels.
+Revolution_Realized | GFX_CRC_efrain_jonckheer | Needs Touchup | CRC_efrain_jonckheer | 2026-10-24 | portrait | Adjust shading/levels.
+Revolution_Realized | GFX_CRZ_generic_3 | Needs Touchup | CRZ_generic_3 | 2026-10-24 | generic | Darken facial hair.
+Revolution_Realized | GFX_CUB_generic_4 | Needs Severe Recorrection | CUB_generic_4 | 2026-10-24 | generic | Facial deformity; needs redo.
+Revolution_Realized | GFX_CUB_generic_5 | Needs Touchup | CUB_generic_5 | 2026-10-24 | generic | Needs substantial shading redo.
+Revolution_Realized | GFX_CYP_nikos_sampson | Needs Touchup | CYP_nikos_sampson | 2026-10-24 | portrait | Adjust shading; brighten.
+Revolution_Realized | GFX_CZE_portrait_alois_muna | Something about it | CZE_portrait_alois_muna | 2026-10-24 | portrait | Appearance looks wrong; review.
+Revolution_Realized | GFX_ARG_Generic_1 | Something about it | ARG_Generic_1 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_ARG_Generic_2 | Something about it | ARG_Generic_2 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_ARG_Generic_3 | Something about it | ARG_Generic_3 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_ARG_Generic_ADM_1 | Something about it | ARG_Generic_ADM_1 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_ARG_Generic_ADM_2 | Something about it | ARG_Generic_ADM_2 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_ARG_Generic_ADM_3 | Something about it | ARG_Generic_ADM_3 | 2026-10-24 | generic | Country-wide review: ARG generics are flips; reviewer is uncertain how obvious they are. Assess differentiation.
+Revolution_Realized | GFX_AWD_anthony_peden | Something about it | AWD_anthony_peden | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_augustus_sol_invictus | Something about it | AWD_augustus_sol_invictus | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_brandon_russell | Something about it | AWD_brandon_russell | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_christopher_salmon | Something about it | AWD_christopher_salmon | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_devon_arthurs | Something about it | AWD_devon_arthurs | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_issac_aguigui | Something about it | AWD_issac_aguigui | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_james_mason | Something about it | AWD_james_mason | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_james_mason_military | Something about it | AWD_james_mason_military | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_jarett_smith | Something about it | AWD_jarett_smith | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_jeffrey_clark | Something about it | AWD_jeffrey_clark | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_kent_mclellan | Something about it | AWD_kent_mclellan | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_liam_j_collins | Something about it | AWD_liam_j_collins | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_michael_burnett | Something about it | AWD_michael_burnett | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_nicholas_giampa | Something about it | AWD_nicholas_giampa | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_AWD_samuel_woodward | Something about it | AWD_samuel_woodward | 2026-10-24 | portrait | Country-wide review: shading is ported from TFR. Assess whether intentional; consider updating to current TFR versions to maintain relevancy.
+Revolution_Realized | GFX_BRG_heinrich_himmler | Something about it | BRG_heinrich_himmler | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_bert_eriksson | Something about it | BRG_portrait_burgundy_bert_eriksson | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_edgar_puaud | Something about it | BRG_portrait_burgundy_edgar_puaud | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_fritz_klingenberg | Something about it | BRG_portrait_burgundy_fritz_klingenberg | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_georg_lassen | Something about it | BRG_portrait_burgundy_georg_lassen | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_gustav_krukenberg | Something about it | BRG_portrait_burgundy_gustav_krukenberg | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_hans_erich_voss | Something about it | BRG_portrait_burgundy_hans_erich_voss | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_henri_fenet | Something about it | BRG_portrait_burgundy_henri_fenet | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_herbert_kuppisch | Something about it | BRG_portrait_burgundy_herbert_kuppisch | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_jacques_correze | Something about it | BRG_portrait_burgundy_jacques_correze | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_jean_bassompierre | Something about it | BRG_portrait_burgundy_jean_bassompierre | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_jean_de_vaugelas | Something about it | BRG_portrait_burgundy_jean_de_vaugelas | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_jef_francois | Something about it | BRG_portrait_burgundy_jef_francois | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_klaus_scholtz | Something about it | BRG_portrait_burgundy_klaus_scholtz | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_leon_degrelle | Something about it | BRG_portrait_burgundy_leon_degrelle | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_leon_gaultier | Something about it | BRG_portrait_burgundy_leon_gaultier | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_marc_augier | Something about it | BRG_portrait_burgundy_marc_augier | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_otto_skorzeny | Something about it | BRG_portrait_burgundy_otto_skorzeny | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_sepp_dietrich | Something about it | BRG_portrait_burgundy_sepp_dietrich | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_siegfried_von_forstner | Something about it | BRG_portrait_burgundy_siegfried_von_forstner | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_theodor_eicke | Something about it | BRG_portrait_burgundy_theodor_eicke | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_theodor_krancke | Something about it | BRG_portrait_burgundy_theodor_krancke | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BRG_portrait_burgundy_werner_best | Something about it | BRG_portrait_burgundy_werner_best | 2026-10-24 | portrait | Country-wide review: portraits look odd in RR frames. Decide whether to retain, remake in RR style from the same sources, or remove.
+Revolution_Realized | GFX_BSR_gen_bert_hoorick | Needs Touchup | BSR_gen_bert_hoorick | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_gen_paul_halter | Needs Touchup | BSR_gen_paul_halter | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_gen_raoul_baligand | Needs Touchup | BSR_gen_raoul_baligand | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_gen_suzanne_gregoire | Needs Touchup | BSR_gen_suzanne_gregoire | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_gen_theo_dejace | Needs Touchup | BSR_gen_theo_dejace | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_gen_youra_livchitz | Needs Touchup | BSR_gen_youra_livchitz | 2026-10-24 | portrait | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_generic_1 | Needs Touchup | BSR_generic_1 | 2026-10-24 | generic | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_generic_2 | Needs Touchup | BSR_generic_2 | 2026-10-24 | generic | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.
+Revolution_Realized | GFX_BSR_generic_3 | Needs Touchup | BSR_generic_3 | 2026-10-24 | generic | Country-wide review: generals and army generics need brighter shading and sharpening; some, especially BSR_generic_3, look blurry.

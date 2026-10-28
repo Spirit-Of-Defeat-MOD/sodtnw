@@ -1,0 +1,5874 @@
+{
+ "music_mods": {},
+ "plans": [
+  {
+   "mod": "",
+   "title": "Silver Screen Radio",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "From Movies and TV",
+   "songs": [
+    {
+     "title": "Batman",
+     "artist": "Neal Hefti",
+     "link": "https://www.youtube.com/watch?v=kK4H-LkrQjQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4c3824c4b36dface510f"
+    },
+    {
+     "title": "The Good, The Bad and the Ugly",
+     "artist": "Hugo Montenegro",
+     "link": "https://www.youtube.com/watch?v=kHfbzoq-grE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-93ae31e46706dcb2f6c6"
+    },
+    {
+     "title": "I Wanna Be Like You",
+     "artist": "Louis Prima",
+     "link": "https://www.youtube.com/watch?v=u3oTAlHkpjU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7fcc4b28b47cee3fe5d4"
+    },
+    {
+     "title": "You Only Live Twice",
+     "artist": "Nancy Sinatra",
+     "link": "https://www.youtube.com/watch?v=jd03vtQgtVc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d97cf817b51bb6e3baae"
+    },
+    {
+     "title": "The Pink Panther",
+     "artist": "Henry Mancini",
+     "link": "https://www.youtube.com/watch?v=VyZiIuMufTA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e0e1e97b1f6972d8ab58"
+    },
+    {
+     "title": "The Magnificent Seven",
+     "artist": "Elmer Bernstein",
+     "link": "https://www.youtube.com/watch?v=8XDB7GMnbUQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-abd6c980d929178ca141"
+    },
+    {
+     "title": "Zulu",
+     "artist": "John Barry",
+     "link": "https://www.youtube.com/watch?v=DSjPoUtlkyk",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c5a94a84108dd1f96662"
+    },
+    {
+     "title": "Where Eagles Dare",
+     "artist": "Ron Goodwin",
+     "link": "https://www.youtube.com/watch?v=v1TowvCSIVA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3900609de95a6f2ac2b8"
+    },
+    {
+     "title": "America",
+     "artist": "Leonard Bernstein",
+     "link": "https://www.youtube.com/watch?v=_Tihl3pzWRc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3d894efd7dffa0930150"
+    },
+    {
+     "title": "Tonight",
+     "artist": "Leonard Bernstein",
+     "link": "https://www.youtube.com/watch?v=CJWHMns2YcU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5005d0e9de20dfc51fc0"
+    },
+    {
+     "title": "Lawrence of Arabia",
+     "artist": "Maurice Jarre",
+     "link": "https://www.youtube.com/watch?v=VC9NEAXxcas",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8268136146ce6604780a"
+    },
+    {
+     "title": "2001: A Space Odyssey",
+     "artist": "Richard Strauss",
+     "link": "https://www.youtube.com/watch?v=cn0wwIXyYIU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-45b2342faeb78dd90d0a"
+    },
+    {
+     "title": "From How the West was Won",
+     "artist": "Alfred Newman",
+     "link": "https://www.youtube.com/watch?v=RG-b-muPEWg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8599d22c461dcefbde51"
+    },
+    {
+     "title": "Dolce Vita",
+     "artist": "Nino Rota",
+     "link": "https://www.youtube.com/watch?v=OFTGYaCmBwQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f3186ddb392000c6390f"
+    },
+    {
+     "title": "The Great Escape",
+     "artist": "Elmer Bernstein",
+     "link": "https://www.youtube.com/watch?v=MbsuAbTTsV8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a2beab51f5a1c01e724c"
+    },
+    {
+     "title": "Doctor Zhivago",
+     "artist": "Maurice Jarre",
+     "link": "https://www.youtube.com/watch?v=OIZ1yhPHlUo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5841d0efe36b208d65da"
+    },
+    {
+     "title": "Born Free",
+     "artist": "John Barry",
+     "link": "https://www.youtube.com/watch?v=Pb7k7LFT_Gw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fcbfcce276521891d49a"
+    },
+    {
+     "title": "Breakfast at Tiffany's",
+     "artist": "Erich Kunzel",
+     "link": "https://www.youtube.com/watch?v=shahbZwtZBU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7c581c6e7429923813bf"
+    },
+    {
+     "title": "Moon River",
+     "artist": "Henry Mancini & Audrey Hepburn",
+     "link": "https://www.youtube.com/watch?v=0BfUDyvdTSE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c4192b7b688c03d292b0"
+    },
+    {
+     "title": "Planet of the Apes",
+     "artist": "Jerry Goldsmith",
+     "link": "https://www.youtube.com/watch?v=a1rq6NoddX0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d52fffd41cce7a5c5a4f"
+    },
+    {
+     "title": "Midnight Cowboy",
+     "artist": "John Barry",
+     "link": "https://www.youtube.com/watch?v=ZGORPUzLxtU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-980c9a5aa3f92c4c8297"
+    },
+    {
+     "title": "Everybody's Talkin'",
+     "artist": "Harry Nilsson",
+     "link": "https://www.youtube.com/watch?v=5zHVFXorF38",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f70476a55efaaf409039"
+    },
+    {
+     "title": "Barbarella",
+     "artist": "Bob Crewe & Charles Fox",
+     "link": "https://www.youtube.com/watch?v=WyhcLFtee4o",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9b38e0e137d726e6552a"
+    },
+    {
+     "title": "When the Boys Meet the Girls",
+     "artist": "Connie Francis",
+     "link": "https://www.youtube.com/watch?v=NESCYF1FUxI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2be73cd994151723f86a"
+    },
+    {
+     "title": "My Favourite Things",
+     "artist": "Julie Andrews",
+     "link": "https://www.youtube.com/watch?v=bACiODIbf84",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-80193c0c906b85784dbc"
+    },
+    {
+     "title": "The Cincinnati Kid",
+     "artist": "Ray Charles",
+     "link": "https://www.youtube.com/watch?v=rfn1YrwG2Oc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5314b5dd48c89a3cd27c"
+    },
+    {
+     "title": "James Bond Theme",
+     "artist": "Monty Norman",
+     "link": "https://www.youtube.com/watch?v=U9FzgsF2T-s",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e4c82e0d0fac9a062d1d"
+    },
+    {
+     "title": "Supercalifragilisticexpialidocious",
+     "artist": "Julie Andrews",
+     "link": "https://www.youtube.com/watch?v=_73NJLrXdII",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b2bf114cf2bb9443fe61"
+    },
+    {
+     "title": "Sunday in New York",
+     "artist": "Bobby Darin",
+     "link": "https://www.youtube.com/watch?v=gYwv-MScLY4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-16e4c02c21148116a005"
+    },
+    {
+     "title": "Shadow of your Smile",
+     "artist": "Tony Bennett",
+     "link": "https://www.youtube.com/watch?v=mP2ZaQ7Wq24",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a176e0c9019caf902dac"
+    },
+    {
+     "title": "G.I. Blues",
+     "artist": "Elvis Presley",
+     "link": "https://www.youtube.com/watch?v=i6-jrAKj3DI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ff1cde2e19c3bfa56f52"
+    },
+    {
+     "title": "Bring Down the Birds",
+     "artist": "Herbie Hancock",
+     "link": "https://www.youtube.com/watch?v=xmqRTtSDzCQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-03442f2c94df19b291b7"
+    },
+    {
+     "title": "Hello Dolly",
+     "artist": "Louis Armstrong",
+     "link": "https://www.youtube.com/watch?v=cy1na9qA5y0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b21cc06218500b24af45"
+    },
+    {
+     "title": "Ya Got Trouble & Seventy Six Trombones",
+     "artist": "Robert Preston",
+     "link": "https://www.youtube.com/watch?v=-FQUvZwsGIY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef1915581f8d38523a94"
+    },
+    {
+     "title": "Scooby Doo",
+     "artist": "Larry Marks",
+     "link": "https://www.youtube.com/watch?v=FysobubtDcI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5a9b15a57eb74bd55da0"
+    },
+    {
+     "title": "Mission: Impossible",
+     "artist": "Lalo Schifrin",
+     "link": "https://www.youtube.com/watch?v=AvBVGsd4Lzc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-55eb5f9d28d8888a4c83"
+    },
+    {
+     "title": "Hawaii Five O",
+     "artist": "The Ventures",
+     "link": "https://www.youtube.com/watch?v=Rcvo4U33_L4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-42881bbeaac62464d954"
+    },
+    {
+     "title": "The Ballad of Jed Clampett",
+     "artist": "Lester Flatt",
+     "link": "https://www.youtube.com/watch?v=8Ps-AEP0YA4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2144196c5fab2283e055"
+    },
+    {
+     "title": "Gilligan's Island",
+     "artist": "Sherwood Schwartz & George Wyle",
+     "link": "https://www.youtube.com/watch?v=-fqXcKFg08w",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2255d1c0ad16d131e465"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "silver_screen_radio-84cdbd"
+  },
+  {
+   "mod": "",
+   "title": "Smooth South Sounds",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Louisiana Jazz and Swamp Rock",
+   "songs": [
+    {
+     "title": "Born on the Bayou",
+     "artist": "Creedence Clearwater Revival",
+     "link": "https://youtu.be/fcTQCNntGEs?is=mdQcL7XRgxAG8OB1",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-46bbc4bbf757d9126a87"
+    },
+    {
+     "title": "Amos Moses",
+     "artist": "Jerry Reed",
+     "link": "https://youtu.be/B4udFxRTtug?is=1c1MTu1tkhL4Gy7g",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-237aa2e9537499da6352"
+    },
+    {
+     "title": "I'm a King Bee",
+     "artist": "Slim Harpo",
+     "link": "https://youtu.be/XWLvm11MAaM?is=G7dHBiMFmTfCT6vR",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b9aae9e19d50b19bb74e"
+    },
+    {
+     "title": "Cajun Moon",
+     "artist": "J.J. Cale",
+     "link": "https://youtu.be/lhGeVuu0p_A?is=Kz90jWryq5k6ydY9",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b309a031a5e6857d5bee"
+    },
+    {
+     "title": "Polk Salad Annie",
+     "artist": "Tony Joe White",
+     "link": "https://youtu.be/IBfMLmNjFn4?is=j57podTjVbwgpNG4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3845dc54142fc1f14793"
+    },
+    {
+     "title": "Fire on the Bayou",
+     "artist": "The Meters",
+     "link": "https://youtu.be/KoHJZT8U-wE?is=NBo9GFsnGsn9xSEP",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2b2d599f90dba20e8a1f"
+    },
+    {
+     "title": "Dixie Chicken",
+     "artist": "Little Feat",
+     "link": "https://youtu.be/yaHEfJApEVM?is=X7b3Mlq4PSrxuF6V",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d9b71af2afded43f5492"
+    },
+    {
+     "title": "I Walk on Guilded Splinters",
+     "artist": "Dr. John",
+     "link": "https://youtu.be/ylZ635QtyGc?is=Et2Sq4sPR8p2fZir",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-41a104616b5f03f3a16a"
+    },
+    {
+     "title": "Green River",
+     "artist": "Creedence Clearwater Revival",
+     "link": "https://youtu.be/cYPK_sl7h44?is=bbehhmxGwGBeCG4a",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-890fbd9afd2525866be6"
+    },
+    {
+     "title": "Street People",
+     "artist": "Bobby Charles",
+     "link": "https://youtu.be/z4gTGs1AoXk?is=ZP4vZfWKI0mlgAFF",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ecff2e098e1452264168"
+    },
+    {
+     "title": "Roosevelt and Ira Lee",
+     "artist": "Tony Joe White",
+     "link": "https://youtu.be/nuz616YTQ7Y?is=-4rzc8Jm29F7qeTM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0e3e4ba66ee62c5f0ead"
+    },
+    {
+     "title": "Sea Cruise",
+     "artist": "Frankie Ford",
+     "link": "https://youtu.be/b__fI0xeTyI?is=R3Mbf7XAGvjrxNoN",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d76c72cdd7c9a2be0d06"
+    },
+    {
+     "title": "Ain't Got No Home",
+     "artist": "Clarence \"Frogman\" Henry",
+     "link": "https://youtu.be/qIvy9nSlZf0?is=gj9gBPdz3PZsaWTc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-50b78e4f90677fc6d65a"
+    },
+    {
+     "title": "Mathilda",
+     "artist": "Cookie and the Cupcakes",
+     "link": "https://youtu.be/O2No4A92EkU?is=HBt-m7gC8J6IOrS_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b19b06a9661420fe9713"
+    },
+    {
+     "title": "Sea of Love",
+     "artist": "Phil Phillips",
+     "link": "https://youtu.be/dVo21MMQlKM?is=mVHV_wBCeGI5WGCB",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e7f03692e30aee0ddd62"
+    },
+    {
+     "title": "Out in the Woods",
+     "artist": "Leon Russell",
+     "link": "https://youtu.be/RW62LP9a5Yc?is=-dHeP-JXR84ruPHh",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-65faf55ab1983c34de2c"
+    },
+    {
+     "title": "Fire and Brimstone",
+     "artist": "Link Wray",
+     "link": "https://youtu.be/H4b4oj6-1bI?is=yABeIZw8CUndgaDX",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-701fccf6615de254eb36"
+    },
+    {
+     "title": "Big Chief",
+     "artist": "Professor Longhair",
+     "link": "https://youtu.be/4j5PprDVYgU?is=wHc_I6KAq7ROv74L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d997210dd3facaf9eece"
+    },
+    {
+     "title": "Java",
+     "artist": "Al Hirt",
+     "link": "https://youtu.be/e1APLQb7L5w?is=onVynm0DYwOzMB_G",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cf0872d8261ff5d43853"
+    },
+    {
+     "title": "Just A Closer Walk With Thee",
+     "artist": "Pete Fountain",
+     "link": "https://youtu.be/YbJgLmUGSS0?is=GlsCuuUlL6lzyg4Y",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2ee4c9814e14456ae5a0"
+    },
+    {
+     "title": "Bourbon Street Parade",
+     "artist": "Louis Armstrong",
+     "link": "https://youtu.be/KaX9Fwf1Rq8?is=Myjx_IOX_gMXBMTq",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9fa57b904619ae8ae04f"
+    },
+    {
+     "title": "Tiger Rag",
+     "artist": "Preservation Hall Jazz Band",
+     "link": "https://youtu.be/6XCoCoqqdCI?is=VvgtWggFfzDZQKyT",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2e858c8dbd126065d146"
+    },
+    {
+     "title": "Jump, Jive, an' Wail",
+     "artist": "Louis Prima",
+     "link": "https://youtu.be/5GlOE1YTPfY?is=jBlT29qymHu4esjd",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef283cf2dd5acf305c63"
+    },
+    {
+     "title": "Walking to New Orleans",
+     "artist": "Fats Domino",
+     "link": "https://youtu.be/aTQs34AdlFE?is=vgf53MWnPqfC6Xg7",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b509bc3b10e872a321fc"
+    },
+    {
+     "title": "Cissy Strut",
+     "artist": "The Meters",
+     "link": "https://youtu.be/COUt4JOSIVE?is=C0oQJ4lPjtnlKTRR",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b906a4216cff97570338"
+    },
+    {
+     "title": "Southern Nights",
+     "artist": "Allen Toussaint",
+     "link": "https://youtu.be/mCscZ2tPFmI?is=P7EQVHSzuV4n8Cvv",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-23a3e0e021a899de922d"
+    },
+    {
+     "title": "Right Place Wrong Time",
+     "artist": "Dr. John",
+     "link": "https://youtu.be/W4PjWgiH-LQ?is=LBAWb1_lkMobhEX0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-feeec1b6a44db8f0c706"
+    },
+    {
+     "title": "Ruler Of My Heart",
+     "artist": "Irma Thomas",
+     "link": "https://youtu.be/6Jet85Q2seM?is=UNmgsCj6E8gLXIwh",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f2ca6ee881b5fb9344b4"
+    },
+    {
+     "title": "Mardi Gras Mambo",
+     "artist": "The Hawketts",
+     "link": "https://youtu.be/wyFSPkPZpUA?is=ZXxm7iNXx7_55cEz",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8c99aeadef29f2c628d7"
+    },
+    {
+     "title": "St. James Infirmary",
+     "artist": "Preservation Hall Jazz Band",
+     "link": "https://youtu.be/cJj4ppzWd-g?is=zOGF2fSUEUnv27Rp",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4b064e683d08a0d879c9"
+    },
+    {
+     "title": "Let the Good Times Roll",
+     "artist": "Shirley & Lee",
+     "link": "https://youtu.be/NlKvcQ-hWXY?is=PZJ0Zbh_5U4FrWjL",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-14b4f7a7c306a8bb657f"
+    },
+    {
+     "title": "Tipitina",
+     "artist": "Professor Longhair",
+     "link": "https://youtu.be/fxlGz8ONZ1A?is=uP0wGDR9-xr4f_VH",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f14b1ca4118cbe16a8da"
+    },
+    {
+     "title": "Meet de Boys on de Battlefront",
+     "artist": "The Wild Tchoupitoulas",
+     "link": "https://youtu.be/n643nLCbMoE?is=fiHf9YM2Yo37rfOP",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-683fd0940a51fb74c2f0"
+    },
+    {
+     "title": "Hello, Dolly!",
+     "artist": "Louis Armstrong",
+     "link": "https://youtu.be/Kx2AYFvwxKY?is=InYjc-I3sLZIwIi6",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-962c25f57306446dc6ba"
+    },
+    {
+     "title": "Go To The Mardi Gras",
+     "artist": "Professor Longhair",
+     "link": "https://youtu.be/ib3ui2TlC4Q?is=WV7UBtKXMnup5XaC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-77ab76fc888a1a34e7c2"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "smooth_south_sounds-e4bd38"
+  },
+  {
+   "mod": "",
+   "title": "Caribbean Breeze",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Calypso Music & Reggae",
+   "songs": [
+    {
+     "title": "Take Yuh Meat Out Me Rice",
+     "artist": "Lord Kitchener",
+     "link": "https://www.youtube.com/watch?v=TcbXHCnx17g",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-38370a4d4eaf83b76702"
+    },
+    {
+     "title": "Simmer Down",
+     "artist": "The Wailing Wailers",
+     "link": "https://www.youtube.com/watch?v=7xo-BCAjMiM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1f8f225758d0aafdd29b"
+    },
+    {
+     "title": "One Love",
+     "artist": "Bob Marley",
+     "link": "https://www.youtube.com/watch?v=vdB-8eLEW8g",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dcfbe66cf035b56457f5"
+    },
+    {
+     "title": "Get Up Stand Up",
+     "artist": "Bob Marley",
+     "link": "https://www.youtube.com/watch?v=Tg97JiBn1kE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e8f08e57c32075830a58"
+    },
+    {
+     "title": "Midnight Hour",
+     "artist": "The Silvertones",
+     "link": "https://www.youtube.com/watch?v=S39pDpFZlGI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9603fd7596310d55f626"
+    },
+    {
+     "title": "Mad About You",
+     "artist": "Bruce Ruffin",
+     "link": "https://www.youtube.com/watch?v=GU-7wvh6YHs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef547eab520c174e490d"
+    },
+    {
+     "title": "Yamar",
+     "artist": "Dry Bread",
+     "link": "https://youtu.be/EVyZPhSpTok",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-3ca714e1bac7b087b1b4"
+    },
+    {
+     "title": "Archie Buck Me Up",
+     "artist": "King Striker",
+     "link": "https://youtu.be/km_kA9H7Xao",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-8295ca7bca480ca20cba"
+    },
+    {
+     "title": "Human Race",
+     "artist": "Lord Pretender",
+     "link": "https://youtu.be/IIyk96umu7Y?list=PLj49iYBYQ-ajni_EXFyBitM3uLJXxhnZr",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-991874680310ce12c66c"
+    },
+    {
+     "title": "Carnival Proclamation",
+     "artist": "Lord Melody",
+     "link": "https://www.youtube.com/watch?v=-mRXZGv2rnk",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-45f067b584ca24a15dd7"
+    },
+    {
+     "title": "Steel Band Music",
+     "artist": "Lord Kitchener",
+     "link": "https://www.youtube.com/watch?v=OZYAuQEsOis",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-a39023b5d22be5ad85f3"
+    },
+    {
+     "title": "Christmas Time Is Near",
+     "artist": "Lord Creator",
+     "link": "https://www.youtube.com/watch?v=qidGiUvkMVU",
+     "in_game": false,
+     "added_by": "Atka",
+     "added": "2026-10-22",
+     "id": "song-ef496ce5eeb5ace19939"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "caribbean_breeze-8bd106"
+  },
+  {
+   "mod": "",
+   "title": "Songs from Siberia",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Gulag Songs, Anti-Soviet",
+   "songs": [
+    {
+     "title": "Comrade Stalin",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=c20C1v1J5_s",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-26ae889061157a1ed15c"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "songs_from_siberia-709161"
+  },
+  {
+   "mod": "",
+   "title": "Marchons Camarade!",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "French Communist Songs",
+   "songs": [
+    {
+     "title": "Quand fera-t-il jour, camarade?",
+     "artist": "Mireille Mathieu",
+     "link": "https://www.youtube.com/watch?v=tZ228CKcPgs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-99dbbc759aa9b61b24d7"
+    },
+    {
+     "title": "Vive la Commune",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=_gSTjOdojPo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7ade6e36a7249cac07d7"
+    },
+    {
+     "title": "Song of the Comintern",
+     "artist": "",
+     "link": "https://youtu.be/DcUDAlRT5a0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f7d34edc0d6aff634b26"
+    },
+    {
+     "title": "Mutins de 1917",
+     "artist": "Jacques Debronckart",
+     "link": "https://www.youtube.com/watch?v=462oq4hBACA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-df86af84cba036a6a803"
+    },
+    {
+     "title": "Les Partisans",
+     "artist": "Dmitri Pokrass",
+     "link": "https://www.youtube.com/watch?v=TmCAo2b1Vi4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8e32a80b2398bfcf199e"
+    },
+    {
+     "title": "La Varsovienne",
+     "artist": "Wacław Święcicki",
+     "link": "https://www.youtube.com/watch?v=T5BllldNrf4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c1323649f2b22e8118d0"
+    },
+    {
+     "title": "Les Chant Des Partisans",
+     "artist": "Eugene Delacroix",
+     "link": "https://www.youtube.com/watch?v=9JQ16NLpeoI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c39bd1957ec37c36f23d"
+    },
+    {
+     "title": "Les Chants des Martyrs",
+     "artist": "N. N. Ikonnikov",
+     "link": "https://www.youtube.com/watch?v=0yUD_7_iBhw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2fbea01f15d15593f192"
+    },
+    {
+     "title": "Fleur Cueillie",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=07O-nOO0uRw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-03df24212a15035c06c7"
+    },
+    {
+     "title": "La Jeune Garde",
+     "artist": "G. M. B. Montéhus",
+     "link": "https://www.youtube.com/watch?v=SPBI4I4rBN8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1954cf2ef392bc354a23"
+    },
+    {
+     "title": "Le chant des Africains",
+     "artist": "Felix Boyer",
+     "link": "https://www.youtube.com/watch?v=X3PRNAJsdqM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c46040d102f2ec15f209"
+    },
+    {
+     "title": "La Complainte du Partisan",
+     "artist": "Emmanuel de La Vigerie",
+     "link": "https://www.youtube.com/watch?v=kcArQpo9zQU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d3bcad7e32fdde8581e2"
+    },
+    {
+     "title": "Ni Dieu ni Maitre",
+     "artist": "Léo Ferré",
+     "link": "https://www.youtube.com/watch?v=oMHKXJzwXD8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b43297e971a5f37d1be6"
+    },
+    {
+     "title": "La vie s'ecoule la vie s'enfuit",
+     "artist": "Jacques Marchais",
+     "link": "https://www.youtube.com/watch?v=TQWvjqrHdiQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-447303121a700f365e83"
+    },
+    {
+     "title": "La Java des bons enfants",
+     "artist": "Guy Debord",
+     "link": "https://www.youtube.com/watch?v=HS79_Cz9lfE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b6b1e93ee2b2ff2884d0"
+    },
+    {
+     "title": "Les Nouveaux Partisans",
+     "artist": "Dominique Grange",
+     "link": "https://www.youtube.com/watch?v=ofwI7yfjvUw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-492c437f5c0ee3d79885"
+    },
+    {
+     "title": "La Canaille",
+     "artist": "Marc Ogeret",
+     "link": "https://www.youtube.com/watch?v=rwXNxPu_Ykk",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-867060115e29b64ae6c0"
+    },
+    {
+     "title": "La Semaine",
+     "artist": "Marc Ogeret",
+     "link": "https://www.youtube.com/watch?v=djuLvrGSFiI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-57f4793a33f4bc227d2d"
+    },
+    {
+     "title": "Le Triomphe de l'Anarchie",
+     "artist": "Marc Ogeret",
+     "link": "https://www.youtube.com/watch?v=dx53bKWie6I",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-eadaf0f04bfe8ba7d6ed"
+    },
+    {
+     "title": "La Ligne anti Prussienne",
+     "artist": "Marc Ogeret",
+     "link": "https://www.youtube.com/watch?v=qLQ8CXlgr_c",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e4635c937355394a1394"
+    },
+    {
+     "title": "Les Canuts",
+     "artist": "Yves Montand",
+     "link": "https://www.youtube.com/watch?v=orUYSLW76b0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-06da5001afa0b4ca2add"
+    },
+    {
+     "title": "Les danse des bombes",
+     "artist": "Michele Bernard",
+     "link": "https://www.youtube.com/watch?v=S9WH4p0BKaw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6c5a99a2aacfbfdd681f"
+    },
+    {
+     "title": "La Dynamite",
+     "artist": "Jean-Baptisete Martenot",
+     "link": "https://www.youtube.com/watch?v=XFPFxHpn7jU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-86db369a30284e5bdf00"
+    },
+    {
+     "title": "La Commune est en lutte",
+     "artist": "Jean-Roger Caussimn",
+     "link": "https://www.youtube.com/watch?v=pYEayEBAaDk",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-788196e0f543461ffafa"
+    },
+    {
+     "title": "Le Temps des Cerises",
+     "artist": "Yves Montand",
+     "link": "https://www.youtube.com/watch?v=OYNJbuBoMIA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7ac98b24e3dd44454557"
+    },
+    {
+     "title": "Camarade",
+     "artist": "Jean Ferrat",
+     "link": "https://www.youtube.com/watch?v=vSJTtIFyMas",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef28a288a4439ff48fe2"
+    },
+    {
+     "title": "Les Bourgeois",
+     "artist": "Jacques Brel",
+     "link": "https://www.youtube.com/watch?v=y-ewGIghpyo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9aaf2c6c6121047842dd"
+    },
+    {
+     "title": "Octobre",
+     "artist": "Jean Dréjac",
+     "link": "https://www.youtube.com/watch?v=7cqj5K5kSKE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a6e8a0a489fdfb46d8d5"
+    },
+    {
+     "title": "Quand vient le temps des élections",
+     "artist": "En Lutte",
+     "link": "https://www.youtube.com/watch?v=7qCIrQ8Gddg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-76254983adaa79052c15"
+    },
+    {
+     "title": "Chantons l'Unité",
+     "artist": "En Lutte",
+     "link": "https://www.youtube.com/watch?v=lRpJW2VmlhU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8eb8e735255a1b5e6b21"
+    },
+    {
+     "title": "La Révolte",
+     "artist": "Les Quatres Barbus",
+     "link": "https://www.youtube.com/watch?v=mUoufZpUtAs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c033f89d013e6d79a691"
+    },
+    {
+     "title": "Hymne du Parti Populaire Francais",
+     "artist": "Georges Briez",
+     "link": "https://www.youtube.com/watch?v=34xBaXRWoMw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ad6da9026f91404ca178"
+    },
+    {
+     "title": "Marche du Francisme",
+     "artist": "Marcel Bucard",
+     "link": "https://www.youtube.com/watch?v=ZkeyTgiDQkQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b89b66c01150b7e5a511"
+    },
+    {
+     "title": "Les ricains",
+     "artist": "Michel Sardou",
+     "link": "https://www.youtube.com/watch?v=Kxk9y81Q3bo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-72d91ff1329a4efa46cb"
+    },
+    {
+     "title": "Hymn of the Comintern",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=DcUDAlRT5a0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2af6606bd785da04b8cb"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "marchons_camarade-379f34"
+  },
+  {
+   "mod": "",
+   "title": "La Resistance Radio",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Non Communist French Songs",
+   "songs": [
+    {
+     "title": "La Blanche Hermine",
+     "artist": "Gilles Servat",
+     "link": "https://www.youtube.com/watch?v=X-vIVwPRtf8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fa0701c51a3c29824214"
+    },
+    {
+     "title": "Ceux du Maquis",
+     "artist": "Maurice Van Moppes",
+     "link": "https://www.youtube.com/watch?v=W_Iqb123MTQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-66463da1822f40588d22"
+    },
+    {
+     "title": "Kan Bale an arb",
+     "artist": "Glenmor",
+     "link": "https://www.youtube.com/watch?v=6aZs0zq_Mqw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-932757fe86d64c8d34b8"
+    },
+    {
+     "title": "Sans la Nommer",
+     "artist": "Georges Moustaki",
+     "link": "https://www.youtube.com/watch?v=ouaytC9njFU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8a86c01969336ea3611c"
+    },
+    {
+     "title": "Le Deserteur",
+     "artist": "Boris Vian",
+     "link": "https://www.youtube.com/watch?v=f0fxfog_ShY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-de7fb3f362679f8f8df3"
+    },
+    {
+     "title": "L' affiche rouge",
+     "artist": "Léo Ferré",
+     "link": "https://www.youtube.com/watch?v=RaGfKg0ZC3I",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0b819278b26139d16312"
+    },
+    {
+     "title": "Á bas l'État policier",
+     "artist": "Dominique Grange",
+     "link": "https://www.youtube.com/watch?v=rN-n2B2CyFY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4ce33654707b56790fa0"
+    },
+    {
+     "title": "Il est cinq heures",
+     "artist": "Vanessa Hachloum",
+     "link": "https://www.youtube.com/watch?v=0FXJ8RCc4wg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b64335a6f8de7fb62421"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "la_resistance_radio-0454f0"
+  },
+  {
+   "mod": "",
+   "title": "Free France Philharmonics",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "French Pop from outside France",
+   "songs": [
+    {
+     "title": "Mon Coeur est fou",
+     "artist": "Diana Dufresne",
+     "link": "https://www.youtube.com/watch?v=LotXYJB4kKE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-edf58bde63f6be2025ec"
+    },
+    {
+     "title": "Les Épies",
+     "artist": "Claude Dubois Les Nomades",
+     "link": "https://www.youtube.com/watch?v=rgWXL6sgxn8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9fa9c39fc3ca576c09d2"
+    },
+    {
+     "title": "On ne cherchait pas",
+     "artist": "Donald Lautrec",
+     "link": "https://www.youtube.com/watch?v=cCF62p3ejZ4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-506f7e7a838a40be39bf"
+    },
+    {
+     "title": "Prise 1",
+     "artist": "Steve Fiset Alice Long",
+     "link": "https://www.youtube.com/watch?v=cAA6zJAECtg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fb12602d0ac1fc98e747"
+    },
+    {
+     "title": "Chez Moi",
+     "artist": "Nanette Workman",
+     "link": "https://www.youtube.com/watch?v=tc2ayTwtxyI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-66f11472e2823038d220"
+    },
+    {
+     "title": "Moi ta main",
+     "artist": "Donne",
+     "link": "https://www.youtube.com/watch?v=XP__zw4dFAg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-83717e9c4a3e984c8ab2"
+    },
+    {
+     "title": "Je t'appartiens",
+     "artist": "Pierre Lalonde",
+     "link": "https://www.youtube.com/watch?v=LOiXexxUryQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-77e40a50f89b3168c334"
+    },
+    {
+     "title": "Winnipeg",
+     "artist": "Pierre Lalonde",
+     "link": "https://www.youtube.com/watch?v=vq3sJf-fSso",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0434b3ef3b7fbf84f597"
+    },
+    {
+     "title": "Caroline",
+     "artist": "Pierre Lalonde",
+     "link": "https://www.youtube.com/watch?v=c8_hYsfkIBw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d76561ca3c9e22ac3ace"
+    },
+    {
+     "title": "Chanson Pour Petula",
+     "artist": "André Gagnon",
+     "link": "https://www.youtube.com/watch?v=86IJsvJZCuM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bbd2c1071af6ce77d970"
+    },
+    {
+     "title": "Donne moi le temps",
+     "artist": "Renée Claude",
+     "link": "https://www.youtube.com/watch?v=1tWXpTX6By4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-becca721c0a94f87e206"
+    },
+    {
+     "title": "Le Temps est long",
+     "artist": "Katy Lauran",
+     "link": "https://www.youtube.com/watch?v=5cBh1LwoYiU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-81e6cec36c4f513bc567"
+    },
+    {
+     "title": "Je Suis Ton Amie",
+     "artist": "Anne-Renée Kirouac",
+     "link": "https://www.youtube.com/watch?v=ni2eYUov-S4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1d2e6efb7f3a1ce9d316"
+    },
+    {
+     "title": "Plus fort chaque jour",
+     "artist": "Bel Air",
+     "link": "https://www.youtube.com/watch?v=5KeA9xm5wn4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-616d2ff5412d6a55bb07"
+    },
+    {
+     "title": "Un jour, un jour",
+     "artist": "Michéle Richard",
+     "link": "https://www.youtube.com/watch?v=CxcL1d01iBQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b14e8f3e21bbc7599a8b"
+    },
+    {
+     "title": "Dégénération",
+     "artist": "Mes Aïeux",
+     "link": "https://www.youtube.com/watch?v=eF92-uSiVZQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef2203f88df10fe63128"
+    },
+    {
+     "title": "Par Les Yeux Du Coeur",
+     "artist": "Ginette Reno",
+     "link": "https://www.youtube.com/watch?v=JhoCgY1eR88",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b3fe3d71c1a1c0c5b6a1"
+    },
+    {
+     "title": "Mon Grand ballon jaune",
+     "artist": "Raymond Berthiaume",
+     "link": "https://www.youtube.com/watch?v=e2SRxGb2_8o",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8e6530067f4399ec82bb"
+    },
+    {
+     "title": "La sirène de mes rêves",
+     "artist": "Patrick Zabé",
+     "link": "https://www.youtube.com/watch?v=-jAE_aQnu7Q",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-69d2e3ccdb8856e1a6ed"
+    },
+    {
+     "title": "Bam Bam Bam",
+     "artist": "Claire Lepage",
+     "link": "https://www.youtube.com/watch?v=z9zc0sZ59A8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-62d53c3c3da629ef5c6d"
+    },
+    {
+     "title": "Embrasse-Moi",
+     "artist": "Robert Demontigny",
+     "link": "https://www.youtube.com/watch?v=LvJ_plpGfd0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5d32f2e1278e42bd9d38"
+    },
+    {
+     "title": "Vingt Cinq Ans",
+     "artist": "Lorraine Myra",
+     "link": "https://www.youtube.com/watch?v=PCNN1IgttxM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-463481e784960541de13"
+    },
+    {
+     "title": "Demains",
+     "artist": "Les Nouveaux Baronets",
+     "link": "https://www.youtube.com/watch?v=Nj7mevhgm1E",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-00472280af9620648e7b"
+    },
+    {
+     "title": "Les Marquises",
+     "artist": "Jacques Brel",
+     "link": "https://www.youtube.com/watch?v=PEwmj4Mq9kc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cb758537efbf923d57cb"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "free_france_philharmonics-2f3f76"
+  },
+  {
+   "mod": "",
+   "title": "Gun-ken Rekodo",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Pro Japanese Songs Gunken",
+   "songs": [
+    {
+     "title": "Holding the Remains of the Dead",
+     "artist": "Hachiro Kasuga",
+     "link": "https://www.youtube.com/watch?v=6-KOpI75Mik",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-922e4ae5f3ffce7613da"
+    },
+    {
+     "title": "Battotai",
+     "artist": "Japanese Imperial Army Band",
+     "link": "https://youtu.be/5WvRSImZlCA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-38cd298701aa148714f9"
+    },
+    {
+     "title": "Song of the Japanese Army",
+     "artist": "Japanese Imperial Army Band",
+     "link": "https://youtu.be/jvU3kpR9E3U?si=atYlYx_2ZJ-cqCl3",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d7130f375bbf55c95c19"
+    },
+    {
+     "title": "Song of Battleship Yamato",
+     "artist": "Shigeichi Iwata",
+     "link": "https://youtu.be/UhFfjbpXuM4?si=oC4qHiCzs56gR0LK",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e584382d3c944c58cf01"
+    },
+    {
+     "title": "Around the Foot of Akagi",
+     "artist": "Kirishima Nobura",
+     "link": "https://youtu.be/PRgh-jYrSTk?si=3aTTzqDUh7co2Qxo",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c32af1f1cfb6d274ed55"
+    },
+    {
+     "title": "Encampent Song",
+     "artist": "Yūji Koseki",
+     "link": "https://www.youtube.com/watch?v=34zE1BDw6Gw",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e2265677cab6a4f668c3"
+    },
+    {
+     "title": "There are Thousands of Enemies",
+     "artist": "Sakunosuke Koyama",
+     "link": "https://www.youtube.com/watch?v=szkurm5YYF0",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-acf0fdf7c874adfa7331"
+    },
+    {
+     "title": "Thirteenth Period Counting Song",
+     "artist": "Military Preparatory Training Town Mission",
+     "link": "https://www.youtube.com/watch?v=tiZpDLLnpok",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1f7b1dd5ec475e95e187"
+    },
+    {
+     "title": "Kaiyo Maru's Song",
+     "artist": "Maru Street Mission Military",
+     "link": "https://www.youtube.com/watch?v=bVYqlrXpWKo",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-aa9531b35943f62a10f8"
+    },
+    {
+     "title": "Song of the Shiga Naval Air Corps",
+     "artist": "King Choir",
+     "link": "https://www.youtube.com/watch?v=0QIPYqSZeAw",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cccb8a562cde9c871f1e"
+    },
+    {
+     "title": "Oh, South Pacific",
+     "artist": "Requiem",
+     "link": "https://www.youtube.com/watch?v=ShgrGsgd8hk",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-427430ceea074a5e16bf"
+    },
+    {
+     "title": "Decision",
+     "artist": "New Japan Military Choir",
+     "link": "https://www.youtube.com/watch?v=UX-vQzTAiTE",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-549fe5daaa5b3ade05d7"
+    },
+    {
+     "title": "The Sea March",
+     "artist": "Hideo Murata",
+     "link": "https://www.youtube.com/watch?v=lQMahRpXOX0",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f53d365d1a2007359f02"
+    },
+    {
+     "title": "Song of Wakasakura",
+     "artist": "New Japan Military Choir",
+     "link": "https://www.youtube.com/watch?v=n82Fpi-IGFY",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-538a0502f26ba0f5737c"
+    },
+    {
+     "title": "The Strange Hills",
+     "artist": "Koji Tsuruta",
+     "link": "https://www.youtube.com/watch?v=00lu_eI9Am0",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8e26f26155c920b73b3c"
+    },
+    {
+     "title": "The Song of Young Japan",
+     "artist": "Taku Izumi",
+     "link": "https://www.youtube.com/watch?v=MUWMOXvRBLQ",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-90f5792d2668fc119609"
+    },
+    {
+     "title": "Battle of Teshima",
+     "artist": "Daiei Male Chorus",
+     "link": "https://www.youtube.com/watch?v=mwdkcjXDsHo",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-65f85f64d45786b2f3a9"
+    },
+    {
+     "title": "Japanese Southern Expeditionary Army Song",
+     "artist": "Isao Hayashi",
+     "link": "https://youtu.be/lbLvxNLoeS8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-396aaf55e551f2b96d35"
+    },
+    {
+     "title": "Sunk!",
+     "artist": "Yoshi Eguchi",
+     "link": "https://youtu.be/TgXWNsDhbVE?si=4OEOw9D9Dp321dFE",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c884fd2ee27027332e60"
+    },
+    {
+     "title": "Battotai Orchestral",
+     "artist": "Old Tokyo Grand Orchestra and Choir",
+     "link": "https://youtu.be/tkoDHCKqpkY",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c4c1bf3e98c68398a618"
+    },
+    {
+     "title": "Battle Training Song",
+     "artist": "Yosaku Suma",
+     "link": "https://youtu.be/tXJihgDWWqA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-11e8ecffc27969d450de"
+    },
+    {
+     "title": "Cavalry Bandit Song",
+     "artist": "Yuji Koseki",
+     "link": "https://youtu.be/SQFxVbD1-kQ?si=8Rj4BEByJTeJJl4J",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f184c92c94180f597e20"
+    },
+    {
+     "title": "The Specialty of Infantry",
+     "artist": "Kenko Nagai",
+     "link": "https://youtu.be/PXDzvJ4Yb04",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-760e323937b46084399c"
+    },
+    {
+     "title": "Father and Son",
+     "artist": "Fujiyoshi Setoguchi",
+     "link": "https://youtu.be/_lOoJBKPgjQ",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1f016380b75a347c021d"
+    },
+    {
+     "title": "Forward, 100 Million Fireballs!",
+     "artist": "Kanji Nagatsuma",
+     "link": "https://www.youtube.com/watch?v=63oufeSQH-o",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-815292ca0bcd83e40f70"
+    },
+    {
+     "title": "55 Days in Beijing",
+     "artist": "The Columbia Symphonette",
+     "link": "https://youtu.be/ujMLlhM49fE",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-73267c6ba20c70bf7a52"
+    },
+    {
+     "title": "Patriotic March",
+     "artist": "Tōkichi Setoguchi",
+     "link": "https://youtu.be/UbD3r1MRB6s",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e1cc7c2beacaef3d6a43"
+    },
+    {
+     "title": "The Kamikaze Special Attack Corps",
+     "artist": "Yuji Koseki",
+     "link": "https://youtu.be/9Rt5RAc3E4U",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bc65f734796a12947a16"
+    },
+    {
+     "title": "Song of the Kamikaze Pilots",
+     "artist": "Nippon Columbia Male Choir",
+     "link": "https://youtu.be/bb-DiUZDgOE",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ce93d8ea5f8a1c532d2f"
+    },
+    {
+     "title": "Father You Were Strong",
+     "artist": "Kyosei Akimoto",
+     "link": "https://youtu.be/-cbgtbEqQxY",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-db1ad4222f594486d2bb"
+    },
+    {
+     "title": "The Crimson Blood is Burning",
+     "artist": "Kyosei Akimoto",
+     "link": "https://youtu.be/ujWbbpMTSRA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-81a512ade2bf735b1518"
+    },
+    {
+     "title": "Song of the Great East Asian Decisive Battle",
+     "artist": "Japanese Imperial Navy Military Band and Choir",
+     "link": "https://youtu.be/tdSPPkHuMog",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ac7cdfcb15ace232ce2a"
+    },
+    {
+     "title": "600 Years Before the Deadline",
+     "artist": "Japanese Imperial Navy Military Band and Choir",
+     "link": "https://youtu.be/50TcEIohWkg",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-30086df962a31841187f"
+    },
+    {
+     "title": "Anthem of the Kwantung Army",
+     "artist": "Kwantung Specialist Band and Choir",
+     "link": "https://youtu.be/_gRaYNVa0B4",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bd75319134468485b217"
+    },
+    {
+     "title": "Song Of The Taiwan Army",
+     "artist": "Japanese Imperial Navy Military Band and Choir",
+     "link": "https://youtu.be/WBxWsAyBb1A",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a3f87b644385d1c15c5c"
+    },
+    {
+     "title": "Song of Etajima Boys",
+     "artist": "Japanese Imperial Navy Military Band and Choir",
+     "link": "https://youtu.be/RzO6lVmaN3E",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ad28795240ade8845aad"
+    },
+    {
+     "title": "Warship March",
+     "artist": "Yukio Mishima and the Yomiuri Nippon Symphony Orchestra",
+     "link": "https://youtu.be/5smjjQXkUUk",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-589db838dc93e97b4645"
+    },
+    {
+     "title": "If I Go Away to the Sea",
+     "artist": "Kiyoshi Nobutoki",
+     "link": "https://youtu.be/FTyrdgQVFms",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-eac865eaa4f5dbbed913"
+    },
+    {
+     "title": "Song of the Fierce Eagles",
+     "artist": "Yuji Koseki",
+     "link": "https://youtu.be/-Ht6peCFi4M",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e39c2e48fd4796149a6f"
+    },
+    {
+     "title": "Pray at Dawn",
+     "artist": "Gu Yuer",
+     "link": "https://youtu.be/KdkSOHyB0kM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-482915a53d1021ae3503"
+    },
+    {
+     "title": "Sakura March",
+     "artist": "Daiei Male Chorus",
+     "link": "https://youtu.be/VUAR4r7rF_M",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c40987581ec7258d5924"
+    },
+    {
+     "title": "Second Song of Encampment",
+     "artist": "Yuji Koseki",
+     "link": "https://youtu.be/AGJwiw2vWa8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d448458ffaff25390c12"
+    },
+    {
+     "title": "Song of the Northern China Expeditionary Force",
+     "artist": "Keizo Horiuchi",
+     "link": "https://youtu.be/OqFlu7ZGsR4",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7840dfc2fc903e65035f"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "gun_ken_rekodo-132f0f"
+  },
+  {
+   "mod": "",
+   "title": "Sakura Station",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Japanese Folk, String, Wind Music",
+   "songs": [
+    {
+     "title": "Cherry Blossoms",
+     "artist": "Toshiko Yonekawa",
+     "link": "https://www.youtube.com/watch?v=AK51LblcEOw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-135233a60476ebf4d577"
+    },
+    {
+     "title": "Nest of Vines",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=vLN4wkGjGZY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e37070588d90ca7d9550"
+    },
+    {
+     "title": "Tsugaru Shamisen Suite",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=p8lZncGuoUg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f208757d533a6143e147"
+    },
+    {
+     "title": "Yasaburo Bushi (Aomori)",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=joMKffiaCdk",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6d7e0c8cd98dd43f8c1c"
+    },
+    {
+     "title": "Ajikan",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=CcZW3rsYvDo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a5dcf93f8272efa0e72f"
+    },
+    {
+     "title": "Void",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=1dY8jL3De6s",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-29faef5e9b37c9917fa5"
+    },
+    {
+     "title": "Backstep",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=G5agbTgQOGU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2c6cfa638ea0e3f4971f"
+    },
+    {
+     "title": "Yamaya",
+     "artist": "",
+     "link": "https://youtu.be/9qUucPGScmE?si=Dih80pnXOYgYGT53",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-299bd44d3436491a62db"
+    },
+    {
+     "title": "San'an",
+     "artist": "",
+     "link": "https://youtu.be/uOJwTfG9mn4?si=TqoS6W4RucDFfgNC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7827b1de30e1627e4374"
+    },
+    {
+     "title": "Maple Flower",
+     "artist": "",
+     "link": "https://youtu.be/Gjp4WnjxPgI?si=g1TtJ3KHT9Cu3yHJ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-57fcf8d4e82cff22023c"
+    },
+    {
+     "title": "Empty Sky",
+     "artist": "",
+     "link": "https://youtu.be/POzH86_9L3Y?si=6_5cfPmDwbfwIKym",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6fb75ee23c7f4483f1a4"
+    },
+    {
+     "title": "Autumn Music",
+     "artist": "",
+     "link": "https://youtu.be/ME8MpFh6xrA?si=cKMNc46mZ3aI7dk3",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-eb5df219ef0156dc1753"
+    },
+    {
+     "title": "Akita Sugagaki",
+     "artist": "",
+     "link": "https://youtu.be/c2H8OEL3IDw?si=HD3_pcDaGezXepEW",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-14be6988c6566699772a"
+    },
+    {
+     "title": "Echigojishi",
+     "artist": "",
+     "link": "https://youtu.be/XJCwIriF-_o?si=chHbKubWwAIMob9n",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-13e3e1009cdab9c18975"
+    },
+    {
+     "title": "Hanayagi",
+     "artist": "",
+     "link": "https://youtu.be/WbJhisL9NLE?si=e3ZLiMKIPVb8QmaM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c7953e916d69d0984662"
+    },
+    {
+     "title": "Rokudan",
+     "artist": "",
+     "link": "https://youtu.be/o4ZVesCNwOM?si=pFYpdzi27-n8hQ0P",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a9efc91e8086f17df4ca"
+    },
+    {
+     "title": "Autumn Leaves in Winter",
+     "artist": "",
+     "link": "https://youtu.be/oiRikRXdVqI?si=Dxk_DcrSnCiibk-y",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c4ca5e07506b6caa382d"
+    },
+    {
+     "title": "The Moment of Spring",
+     "artist": "",
+     "link": "https://youtu.be/qeh8EKzRLU8?si=l5TPxz3OuM68jwqC and https://youtu.be/F5S7AdplspI?si=Pr1_BI9XaWW0DJAl",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-baf459974de5c7d2972f"
+    },
+    {
+     "title": "Oedo-Nihonbashi",
+     "artist": "",
+     "link": "https://youtu.be/GJK4Efw_bhM?si=ruYB9UhyJSPW3o0z",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8e0c070093e25d95c742"
+    },
+    {
+     "title": "Disorder",
+     "artist": "",
+     "link": "https://youtu.be/KLP7m18kTsw?si=eagXqe9vkl-Ecfxd",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2ddc9fa7e309d13e2853"
+    },
+    {
+     "title": "Over the Mountain",
+     "artist": "",
+     "link": "https://youtu.be/LU0KHS7T8w8?si=uCJbnCyglIqbv05g",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c8994cdd0541971eefb7"
+    },
+    {
+     "title": "Pick Some From Here",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=Y2e1pVlSpW8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d5fd48ec585066ae92a3"
+    },
+    {
+     "title": "Pick Some From Here",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=r0uD3T56Hec",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d6c56c8a8b4f2e067bb6"
+    },
+    {
+     "title": "Pick Some From Here",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=-JpoKVulMi4",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-371795ab8af498b40587"
+    },
+    {
+     "title": "Pick Some From Here",
+     "artist": "",
+     "link": "https://youtu.be/t-URZ6t6LBM?si=RB2Du_v8iKp6FKW6",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d2725fbbf83abadabfd7"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "sakura_station-53ead6"
+  },
+  {
+   "mod": "",
+   "title": "Rejuvination of Japan",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Japanese Communist, Leftist, Alt Music",
+   "songs": [
+    {
+     "title": "Lets Do Our Best",
+     "artist": "Sakae Araki",
+     "link": "https://www.youtube.com/watch?v=6n5YypxPbx4",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-82ce9424f8a40fd331cd"
+    },
+    {
+     "title": "Warsaw Workers' Song",
+     "artist": "Jozef Plawinski",
+     "link": "https://www.youtube.com/watch?v=WGdd5Jc3ZU8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ce35b201a3f5853db435"
+    },
+    {
+     "title": "Hymn of the Democratic Youth",
+     "artist": "Kanko Seki",
+     "link": "https://www.youtube.com/watch?v=UZyus1Iwg6s",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ee1e014f18d00151ef13"
+    },
+    {
+     "title": "Song About Disturbed Youth",
+     "artist": "Tadasuke Seki",
+     "link": "https://www.youtube.com/watch?v=QJd6uquTmSk",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-16f3e4191cc926160589"
+    },
+    {
+     "title": "Red and Black Blues",
+     "artist": "Koji Tsuruta",
+     "link": "https://www.youtube.com/watch?v=vPHrOE8Dq5M",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5ae7c3d3fdfd8f492647"
+    },
+    {
+     "title": "The Internationale",
+     "artist": "Seki Sano",
+     "link": "https://www.youtube.com/watch?v=KFlGfHCCZdQ",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9bb1d99f2a81415963c7"
+    },
+    {
+     "title": "Song of the Red Flag",
+     "artist": "Katsumaro Akamatsu",
+     "link": "https://www.youtube.com/watch?v=jMf-qLljzNg",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d42eb18a8815d9ea52d8"
+    },
+    {
+     "title": "Comrades Have Fallen",
+     "artist": "Wataru Kaji",
+     "link": "https://www.youtube.com/watch?v=fa6BswG-dU8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-418a897068422e901d68"
+    },
+    {
+     "title": "May Day Song",
+     "artist": "Uichi Kuribayashi",
+     "link": "https://www.youtube.com/watch?v=F0d8G35La-I",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9940f6f4193fc37c0d18"
+    },
+    {
+     "title": "Sunny May",
+     "artist": "Tadasuke Seki",
+     "link": "https://www.youtube.com/watch?v=SkUP0gG4_4U",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-be7239e8014066bfe5a3"
+    },
+    {
+     "title": "Hymn of Free Russia in Japanese",
+     "artist": "",
+     "link": "https://youtu.be/3uxCvx8j-5s",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a213c1f2a48cc087eb12"
+    },
+    {
+     "title": "Defend Peace",
+     "artist": "Underground Leftist Revolutionary Choir",
+     "link": "https://youtu.be/viFJdDzZ9TA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ca7347c040eb9a946b21"
+    },
+    {
+     "title": "Girls on Picketing",
+     "artist": "Underground Leftist Revolutionary Choir",
+     "link": "https://youtu.be/aRTWKnMysGo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8718bf30b87f416937ad"
+    },
+    {
+     "title": "Song of Workers in Nankatsu",
+     "artist": "Underground Leftist Revolutionary Choir",
+     "link": "https://youtu.be/1CRlrWH3SVQ",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c2098efbe4b39adcd0f0"
+    },
+    {
+     "title": "Sunny May",
+     "artist": "Central Choir",
+     "link": "https://youtu.be/fxTlhe2P16c",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5508330c02ee1647f31b"
+    },
+    {
+     "title": "Connecting the World into a Circle of Flowers",
+     "artist": "Mitsukuri Shukichi",
+     "link": "https://youtu.be/z0NKp9eWpmg",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f4d938658ce74da86a0b"
+    },
+    {
+     "title": "Comrades, Come Together Firmly!",
+     "artist": "Keitaro Libuchi",
+     "link": "https://youtu.be/fFP_6UZvbhY",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-43890e7959de4f61c52b"
+    },
+    {
+     "title": "This Triumph, Sound!",
+     "artist": "Sakae Araki",
+     "link": "https://youtu.be/IE8DvXCn_SU",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9d28d759cbeee70aca32"
+    },
+    {
+     "title": "Underground Song",
+     "artist": "Sakae Araki",
+     "link": "https://youtu.be/eK5hwNv7vj8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e2df0c9c7a088eca60f5"
+    },
+    {
+     "title": "Song Of The National Independence Action Corps",
+     "artist": "Kazuo Okada",
+     "link": "https://youtu.be/PxRK_nQur-0",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-97841ba3cbdef0388e60"
+    },
+    {
+     "title": "Youth Of The World",
+     "artist": "Choir Shirakaba",
+     "link": "https://youtu.be/amaxYMO4-6M",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a2db439da9d15d63d209"
+    },
+    {
+     "title": "We Build Our Motherland",
+     "artist": "Susumu Onishi",
+     "link": "https://youtu.be/U_qRfK7n2oE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7f818f9d73664268fc36"
+    },
+    {
+     "title": "We Are The Glorious Miike Coal Mine Workers",
+     "artist": "Sakae Araki",
+     "link": "https://youtu.be/xRyA3SI5QeU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-66287b65b5dd2316f720"
+    },
+    {
+     "title": "Ah, the Revolution is Getting Closer",
+     "artist": "Shoichi Kusunoki",
+     "link": "https://youtu.be/tpGGbqjWWRk",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-365d7a85fcf819767b14"
+    },
+    {
+     "title": "Listen, Workers of the World",
+     "artist": "Uichi Kuribayashi",
+     "link": "https://youtu.be/AWjcyJCsexA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-69597559917857da608c"
+    },
+    {
+     "title": "Beyond the Field, the Voice of the Mountains",
+     "artist": "Satoshi Saki?",
+     "link": "https://youtu.be/mse710ndbtw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f1baece12af1dedc626f"
+    },
+    {
+     "title": "Crucible of Hatred",
+     "artist": "Rajin?",
+     "link": "https://youtu.be/JLHCNdLWfvM",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7fbff9afbc0701bde23d"
+    },
+    {
+     "title": "I am a Blacksmith",
+     "artist": "Southern Cities People's Choir",
+     "link": "https://youtu.be/cZ-dJWE_fLs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-eb67611e71c31f172659"
+    },
+    {
+     "title": "Forwards, Towards the Dawn!",
+     "artist": "Southern Cities People's Choir",
+     "link": "https://youtu.be/NKTR8T_JvSs?feature=shared&t=540",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-12531eeb3033b190cf5c"
+    },
+    {
+     "title": "Glory!",
+     "artist": "Underground Leftist Revolutionary Choir",
+     "link": "https://youtu.be/DEm1P_g1N_M",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-34f6c4d1f03e8237ddbf"
+    },
+    {
+     "title": "Song of Liberation",
+     "artist": "Buraku Liberation League Choir",
+     "link": "https://www.youtube.com/watch?v=9Y3FNY16rXs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b940d709e948d79c0b90"
+    },
+    {
+     "title": "Green Mountains and Rivers",
+     "artist": "Southern Cities People's Choir",
+     "link": "https://youtu.be/yMv9Zd232DY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-80bcb46bcff8b0a61922"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "rejuvination_of_japan-ae2906"
+  },
+  {
+   "mod": "",
+   "title": "Radio Setting Sun",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Underground Japanese Pop Music, Alt Music",
+   "songs": [
+    {
+     "title": "Snow March",
+     "artist": "Edmundo Ros",
+     "link": "https://youtu.be/SwJnwImwKdk?si=738R_Ml5wgERNktH",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a30d1047b9b68361e7b2"
+    },
+    {
+     "title": "My Love Only For You",
+     "artist": "The Golden Cups",
+     "link": "https://www.youtube.com/watch?v=lPreo8o8ubc",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6b4137f3e187adbe0d82"
+    },
+    {
+     "title": "Dreams Open at Night",
+     "artist": "Marie Sono",
+     "link": "https://www.youtube.com/watch?v=z478Skh93Vw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2432d57f229e3946fec0"
+    },
+    {
+     "title": "Season of Love",
+     "artist": "Pinky & Killers",
+     "link": "https://www.youtube.com/watch?v=KTa_1DOvoeA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9771956d94bcb1b1870b"
+    },
+    {
+     "title": "Two From the Northern Country",
+     "artist": "Jackey Yoshikawa and his Blue Comets",
+     "link": "https://www.youtube.com/watch?v=KQorTLwx20E",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d78c16739725872fe231"
+    },
+    {
+     "title": "Love You Tokyo",
+     "artist": "Los Primos",
+     "link": "https://www.youtube.com/watch?v=QV78dQsYSvo",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ef92199ac4a29c12fa07"
+    },
+    {
+     "title": "The Sad and Unbearable",
+     "artist": "The Folk Crusaders",
+     "link": "https://www.youtube.com/watch?v=kP4oluZmjzA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-afc0df9f6b2292c072e2"
+    },
+    {
+     "title": "Drop of Love",
+     "artist": "Yukari Ito",
+     "link": "https://www.youtube.com/watch?v=x8Lv1OxkghE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7edd8a9ef5c88ca81bb6"
+    },
+    {
+     "title": "Secret of Last Night",
+     "artist": "Tomoko Ogawa",
+     "link": "https://www.youtube.com/watch?v=MkMm60SWKKk",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f8688f42faf91545a543"
+    },
+    {
+     "title": "Flower Necklace",
+     "artist": "The Tigers",
+     "link": "https://www.youtube.com/watch?v=Khgh1Fb5E4Y",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3a034b06a9dde5f8b95d"
+    },
+    {
+     "title": "Starlight Waltz",
+     "artist": "Masao Sen",
+     "link": "https://www.youtube.com/watch?v=gjBuxB-Jj1o",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6e61e754b315ca363a59"
+    },
+    {
+     "title": "Th Legend of Emerald",
+     "artist": "The Tempters",
+     "link": "https://www.youtube.com/watch?v=DfSzKWWWgZM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-db79fa78532af3736749"
+    },
+    {
+     "title": "C-C-C",
+     "artist": "The Tigers",
+     "link": "https://www.youtube.com/watch?v=I8xlsglaKp8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fead60021a581d87d8af"
+    },
+    {
+     "title": "Are You Happy Now?",
+     "artist": "Mitsuo Sagawa",
+     "link": "https://www.youtube.com/watch?v=J4p1coOqvAc",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6834cf1587fba5f9dd80"
+    },
+    {
+     "title": "Blue Light Yokohoma",
+     "artist": "Ayumi Ishida",
+     "link": "https://www.youtube.com/watch?v=xqgqRI0fjXM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4378b03de31e835df835"
+    },
+    {
+     "title": "Port Town Blues",
+     "artist": "Shinichi Mori",
+     "link": "https://www.youtube.com/watch?v=sK7Qi3lZRLM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e9de9dd6ba215d0c20f2"
+    },
+    {
+     "title": "Forbidden Love",
+     "artist": "Ryoko Moriyama",
+     "link": "https://www.youtube.com/watch?v=cfHWad6YyBc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a071975783964b6e49a7"
+    },
+    {
+     "title": "Night in Ikebukuro",
+     "artist": "Mina Aoe",
+     "link": "https://www.youtube.com/watch?v=XsRpv49HHrI",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-34f05a2e56e9de75f601"
+    },
+    {
+     "title": "Sukiyaki",
+     "artist": "Kyu Sakamoto",
+     "link": "https://www.youtube.com/watch?v=C35DrtPlUbc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b4042fce065038f73376"
+    },
+    {
+     "title": "Sake, Tears, Men and Women",
+     "artist": "Eigo Kawashima",
+     "link": "https://www.youtube.com/watch?v=Uxy9Keo_KVc",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7adaddcf692330f00229"
+    },
+    {
+     "title": "Pray to the Stars",
+     "artist": "The Broadside Four",
+     "link": "https://www.youtube.com/watch?v=dW3QfljW8Mc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f18a53538dd9b4060ec1"
+    },
+    {
+     "title": "When the Sun Rises in the Sky Again",
+     "artist": "The Broadside Four",
+     "link": "https://www.youtube.com/watch?v=aokgj_z21dg",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-64f357d561b79b4a25ca"
+    },
+    {
+     "title": "The Courageous",
+     "artist": "Sayuri Yoshinaga with Tony's",
+     "link": "https://www.youtube.com/watch?v=ZuATYTkYKBc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ed8c0e2ddc71b17754cc"
+    },
+    {
+     "title": "\"Memorial Tree\" Theme Song",
+     "artist": "Crown Pony Boys",
+     "link": "https://www.youtube.com/watch?v=8Qoii6JU540",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d7890a09cc2ee41b40ac"
+    },
+    {
+     "title": "Life Full of Scars",
+     "artist": "Koji Tsuruta",
+     "link": "https://www.youtube.com/watch?v=sz0CuwJX6ZM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dab6db5df72104544edc"
+    },
+    {
+     "title": "Gardenia Flowers",
+     "artist": "Tetsuya Watari",
+     "link": "https://www.youtube.com/watch?v=CTe0a7o5TQY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f315fddb0661eeb9901d"
+    },
+    {
+     "title": "Clair de Lune",
+     "artist": "Isao Tomita",
+     "link": "https://www.youtube.com/watch?v=rlCzO0GX_bA",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ce4c7a5b094ba55132cc"
+    },
+    {
+     "title": "Tengu",
+     "artist": "Osamu Kitajima",
+     "link": "https://www.youtube.com/watch?v=MmYJd9bjdWk",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a8be83373af92f363c2b"
+    },
+    {
+     "title": "Meadowlands (Polyushke Polye)",
+     "artist": "Matsuura Yasunobu & All Star Family",
+     "link": "https://youtu.be/wrHLshdxEBs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b7609dd3d02843dfa3a7"
+    },
+    {
+     "title": "Farewell Samba",
+     "artist": "Kiyoshi Hasegawa",
+     "link": "https://youtu.be/1cQwv2PnTUo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3e3a28ef382e2f3b5406"
+    },
+    {
+     "title": "Silver Road",
+     "artist": "Dark Ducks",
+     "link": "https://youtu.be/e6cJTKXIM_g",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7ce36e5536e3caa425c1"
+    },
+    {
+     "title": "Ballad",
+     "artist": "Fujiko Nara",
+     "link": "https://youtu.be/ELocV9auDiw?si=De0re4jU18-PrOTL",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7c9306316e91ca0be9f3"
+    },
+    {
+     "title": "That's All",
+     "artist": "Maki Hayashi",
+     "link": "https://youtu.be/Eti2xHoxjWk?si=3fInyNI0g9m8iITd",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f6397bdb841b335c97ce"
+    },
+    {
+     "title": "I'm Glad I Gave it to You",
+     "artist": "Pear Lily of the Valley",
+     "link": "https://youtu.be/lmocUWNot30?si=OiB4OPpJx-bL-Oh8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8ebf57b5749bbe470446"
+    },
+    {
+     "title": "Ukiyoe Town",
+     "artist": "Akari Uchida",
+     "link": "https://youtu.be/kyppRLcpUEk?si=Cd5Aws4Yri-rhANj",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-73ba7253998cdcf344f0"
+    },
+    {
+     "title": "Love, Venus",
+     "artist": "Maria Anzai",
+     "link": "https://youtu.be/CgtvgvWlfh0?si=uCa4YVHsmCBeJFcp",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f85e6f1c661a983a55e6"
+    },
+    {
+     "title": "Hanging Tree",
+     "artist": "J.A. Caesar",
+     "link": "https://youtu.be/AasOJiEn3R8?si=nziV7fe85_vowT7D",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-03886499b8a881ad23ab"
+    },
+    {
+     "title": "Dhoop",
+     "artist": "Flower Travellin' Band",
+     "link": "https://youtu.be/o4Cq7bcKjV8?si=fYUfLqpimpdDZKum",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-053124268f75b0d0b429"
+    },
+    {
+     "title": "How Many More Times",
+     "artist": "Flower Travellin' Band",
+     "link": "https://youtu.be/rBCWNDumMZU?si=AvumMEqCmAa75j5R",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-96d598a3fce63e2696b7"
+    },
+    {
+     "title": "Ko Ko Ko Ke Ko",
+     "artist": "The Spiders",
+     "link": "https://youtu.be/VYa8V3WqrA0?si=_orPTtqKrbdyvVWh",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8b61cacd2fe9c93bcab8"
+    },
+    {
+     "title": "What the Wind Blows",
+     "artist": "Michiko Honda",
+     "link": "https://youtu.be/GA9wlTFJ0Jo?si=838p0bLYt9sjBKjF",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-49861c9ecfe3c412720f"
+    },
+    {
+     "title": "Going Leisurely",
+     "artist": "Hiroshi Kamayatsu",
+     "link": "https://youtu.be/IQP6R1-6bfw?si=Mar8K8o5NIfT8QZc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8fffd95c78d9db5b202a"
+    },
+    {
+     "title": "Four Leaf Clover",
+     "artist": "Hiroshi Kamayatsu and Garo",
+     "link": "https://youtu.be/bxV4Hqdu52M?si=jFCJQGY5AmgTiXKY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ec223ecd85fb63f0042f"
+    },
+    {
+     "title": "Wednesday Afternoon",
+     "artist": "The Off Course",
+     "link": "https://youtu.be/F9Z5qePppcU?si=cyHB4iUjnG_LjoD8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e45d36f1310844f70b0e"
+    },
+    {
+     "title": "Angel in the Mirror",
+     "artist": "Mieko Hirota",
+     "link": "https://youtu.be/S_6wqal7WiE?si=P7Kc9EEIIGJ7YEq-",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3f65af80c4830cae8fa8"
+    },
+    {
+     "title": "Rain Doesn't Suit You",
+     "artist": "N.S.P.",
+     "link": "https://youtu.be/WZTjjmmUocY?si=QZiIcKTeNT8BeRZK",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e61cac71474a379cfe47"
+    },
+    {
+     "title": "White Waves",
+     "artist": "Hide and Rosanna",
+     "link": "https://youtu.be/weYBGTqZuNI?si=00UwjioUK8KIQ5U8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1916782a167d1a805168"
+    },
+    {
+     "title": "Stop at Dawn",
+     "artist": "Masatsugu Ishibashi",
+     "link": "https://youtu.be/CYV6N8mK3jc?si=BZ-ZAF5Zp6-lrzuN",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3fd999150973e7754673"
+    },
+    {
+     "title": "Festival",
+     "artist": "Red Bird",
+     "link": "https://youtu.be/Io0hgFU_VGQ?si=kN8e0SvKXBg4fSSA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e4162aa787eaf0b0e5f1"
+    },
+    {
+     "title": "24000 Kisses",
+     "artist": "Takashi Fujiki",
+     "link": "https://youtu.be/5GBBqMXEKGs?si=MTZbVDdlGelfrQxH",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a9474b2cf49726b3c12a"
+    },
+    {
+     "title": "The Mistakes of Youth",
+     "artist": "Toi et Moi",
+     "link": "https://youtu.be/vCCEcTdG49k?si=ppayJ-iH-UTswj9G",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7a9af5f789d6d8805350"
+    },
+    {
+     "title": "Light Blue Town",
+     "artist": "Tricycle",
+     "link": "https://youtu.be/OiP9K1MNa8g?si=dqAW2E-f1fAOs4Nj",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bfbd8db446d10635e50b"
+    },
+    {
+     "title": "Cherry Blossoms of The Same Period",
+     "artist": "Takeshi Terauchi & Blue Jeans",
+     "link": "https://www.youtube.com/watch?v=GMGTwlUPeF4",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cdd75502d915177094f1"
+    },
+    {
+     "title": "Hymn of Japan-China Friendship",
+     "artist": "Minami Haruo",
+     "link": "https://www.youtube.com/watch?v=8SXr8FPCJlo",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-07fe0ab94d3ff95dbf18"
+    },
+    {
+     "title": "Army Ballad",
+     "artist": "Asahi Kobayashi",
+     "link": "https://youtu.be/QAqiF2b66-g",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b2bc0209f52ad947ce67"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "radio_setting_sun-be1098"
+  },
+  {
+   "mod": "",
+   "title": "Radio Reclamation",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Nationalist Chinese/Right Wing Chinese Music",
+   "songs": [
+    {
+     "title": "March of the Volunteers",
+     "artist": "",
+     "link": "https://youtu.be/SledvEqMxF8",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-20f2dc5cbf14445f5a3f"
+    },
+    {
+     "title": "The Sword March",
+     "artist": "",
+     "link": "https://youtu.be/ObvwLEjXfe0?si=upriGHbA58gX38wR",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bf2e2003682575258cda"
+    },
+    {
+     "title": "On Songhua River",
+     "artist": "",
+     "link": "https://youtu.be/Rz4r0wtDV9M?si=czGYXzQqz2-fnMAI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-361ec2c3941b8935e444"
+    },
+    {
+     "title": "Military Parade Review March",
+     "artist": "",
+     "link": "https://youtu.be/Nplj18zyfnA?si=BBGOFjB_IlPkQn5K",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-11b3bbdd1545b74f41bd"
+    },
+    {
+     "title": "Anthem of the Republic of China Army",
+     "artist": "",
+     "link": "https://youtu.be/DQBEB8jp9Qs?si=1HLVC60c6XdkUMzJ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7e822e6752d5f2100999"
+    },
+    {
+     "title": "Indomitable Spirit",
+     "artist": "",
+     "link": "https://youtu.be/I84t8_VRjf0?si=i6DldlFRcTZPvfu5",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5aaed9bacfafef3b6208"
+    },
+    {
+     "title": "Flying our Flags",
+     "artist": "",
+     "link": "https://youtu.be/4I9Y4xBYZqA?si=dgUkLQK-RYIM3PG-",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a8e7fe1958837f3e9047"
+    },
+    {
+     "title": "National Banner Song of the Republic of China",
+     "artist": "",
+     "link": "https://youtu.be/wPiPgvZjNtg?si=5hmZdL_d4ky-jxZ5",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4360540e05c6508dc0eb"
+    },
+    {
+     "title": "The Anti-Communist and Anti-Russian Aggression Song",
+     "artist": "",
+     "link": "https://youtu.be/Th0Ehv-xVQs?si=07MDPyHfLXMbwNu2",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fe5666e600a76651a5ba"
+    },
+    {
+     "title": "China Heroically Stands in The Universe",
+     "artist": "",
+     "link": "https://youtu.be/HBTmMhx-Tjk?si=BLmBtM2OKFpDufJ0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f725c3d40e5a0abefa26"
+    },
+    {
+     "title": "Beiyang Navy Military Song",
+     "artist": "",
+     "link": "https://youtu.be/CCEkozl1vyo?si=Q4ekNYSNflqXP9Lb",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c826898ec13bc2aa5feb"
+    },
+    {
+     "title": "Night Raid",
+     "artist": "",
+     "link": "https://youtu.be/Juf6Q6lJIvw?si=FZWQSLF-wkdnx0gp&t=976",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2d7c7b5f3c39b0b49587"
+    },
+    {
+     "title": "Great China",
+     "artist": "",
+     "link": "https://youtu.be/a5KZWT1Hv-Y?si=4JPG9UNa9d10PxfV",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-467bdbb893ed7c490418"
+    },
+    {
+     "title": "Sons and Daughters of Greater China",
+     "artist": "",
+     "link": "https://youtu.be/gFxuWOyHVts?si=Zl9JOhwLLYEAuqfq",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7a6643d78e2306e3a802"
+    },
+    {
+     "title": "Song of National Revolution",
+     "artist": "",
+     "link": "https://youtu.be/kQNkhGU0Ve8?si=bEGNxJqcfbOFS1Ww or https://youtu.be/JST-TlOTRec?si=Vc0phyTanlGk4Llp",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2ff389d93014e2739d57"
+    },
+    {
+     "title": "Warriors of the Three Kingdoms",
+     "artist": "",
+     "link": "https://youtu.be/em1TVNoM9Zg?si=7Y3zZktQxFVtOmit or https://youtu.be/FcQXKq1czxE?si=jycYfgpw-iBtY_sW",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f8c7140ae2ee7d69206a"
+    },
+    {
+     "title": "China Must be Strong",
+     "artist": "",
+     "link": "https://youtu.be/p5lKoNFvzmA?si=XoLtogVUjSw8lG9k or https://youtu.be/38EZE_Pp-9I?si=oHlwzYOWGoIIKW8B",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-805c55e76964725dc64b"
+    },
+    {
+     "title": "Veteran",
+     "artist": "",
+     "link": "https://youtu.be/5E6DjzGzh-Y?si=nsGk85ZXM9KX9_DV",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b9b8028854c32ff6c0b3"
+    },
+    {
+     "title": "The Flag is Fluttering",
+     "artist": "",
+     "link": "https://youtu.be/vrU2zoW21q8?si=decTFcPreW1uqlBb",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-565b9baa100601c1976d"
+    },
+    {
+     "title": "Chinese Soldier's Training Song",
+     "artist": "",
+     "link": "https://youtu.be/7tyUdAYoRrk?si=rVHNIuZR1DbybEy0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-aa6759f83eb058779fd1"
+    },
+    {
+     "title": "Upright and Equal Spirit",
+     "artist": "",
+     "link": "https://youtu.be/Ib0RzxRChXo?si=EZKMLMemzZSsNMca",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-db78bf0f29ff240c5085"
+    },
+    {
+     "title": "Republic of China Armed Forces Medley",
+     "artist": "",
+     "link": "https://youtu.be/1qT6JV14V8I?si=3rqRwUWjQsfbPma1",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-29c229897ac972afdf7d"
+    },
+    {
+     "title": "Military Anthem of the Land Force",
+     "artist": "",
+     "link": "https://youtu.be/cb4YgRzJcwk?si=iDsUx9jeiIuQO5v_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-317dad66b11c8d4a09aa"
+    },
+    {
+     "title": "Sun Yet Sen Memorial Song",
+     "artist": "",
+     "link": "https://youtu.be/VRlq0R_zlRc?si=OYu8nfYEJv2kD2nt",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-aad6dc7a98dd43c4cfa7"
+    },
+    {
+     "title": "Soul of Whampoa",
+     "artist": "",
+     "link": "https://youtu.be/quYip8VvvJA?si=FMpdctkMPrdFy4XN",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-808a8b367fb67572892c"
+    },
+    {
+     "title": "Song of Resistance to the Enemy",
+     "artist": "",
+     "link": "https://youtu.be/KaKdRO-hGmg?si=NiGrRmMC55xa9kJ_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-855cb423ee2024e24dba"
+    },
+    {
+     "title": "Ever Victorious",
+     "artist": "",
+     "link": "https://youtu.be/CuQAI6kPRqw?si=nRAHEvevlJvqSOyJ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bbf5c591e701b571225c"
+    },
+    {
+     "title": "March of Plum Blossom",
+     "artist": "",
+     "link": "https://youtu.be/eBejFuU1WGw?si=mbtgY5RcWoSCbk8l",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6defe22adeb4012e6a72"
+    },
+    {
+     "title": "Faith Grows Amid Storms",
+     "artist": "",
+     "link": "https://youtu.be/qdO-38cyYNw?si=TTVELtbhSiHFWDDr",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3afdb19b1ed7ad02438f"
+    },
+    {
+     "title": "Spirit of Kinmen is Young for Eternal",
+     "artist": "",
+     "link": "https://youtu.be/XnYJIp5Vksk?si=znOEB2_TUy32JCF-",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bf12ed30ee1434c059d5"
+    },
+    {
+     "title": "Song of the NRA 60th Army",
+     "artist": "",
+     "link": "https://youtu.be/j96PE4ropXg?si=cka--CDeap23H4o_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fa15dfb9d473139aee74"
+    },
+    {
+     "title": "With Great Loyalty and Courage",
+     "artist": "",
+     "link": "https://youtu.be/2KzlHrv8zTY?si=lNUaPj63ynVenGhL",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4b42d209f77a3dcf9b92"
+    },
+    {
+     "title": "Song of the Kuangsi Conscription",
+     "artist": "",
+     "link": "https://youtu.be/S9Eqii5FkFk?si=P3LBx5utWNZb7h61",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-49cd8cd7126805180f5c"
+    },
+    {
+     "title": "To Battle",
+     "artist": "",
+     "link": "https://youtu.be/upui4ynfgpQ?si=iSr73UdQttkAf_wD",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3487c9cac97624a8955b"
+    },
+    {
+     "title": "March of July 7th",
+     "artist": "",
+     "link": "https://youtu.be/ncRvcy1_J10?si=n9B1XKbJ9j860Up-",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-65a5313b9d15c5485d82"
+    },
+    {
+     "title": "Song of the Yellow Dragon Troops",
+     "artist": "",
+     "link": "https://youtu.be/DyXA6SC5hYA?si=sTUq3G0g7idXh9eg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7d74dc2de621b4507f57"
+    },
+    {
+     "title": "March of August 13th",
+     "artist": "",
+     "link": "https://youtu.be/ko7IXVvEHtI?si=M3zitGDae__34D-R",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9f6bb0326c5a0d100f42"
+    },
+    {
+     "title": "Defend the Great Kwangtung",
+     "artist": "",
+     "link": "https://youtu.be/sXEOPGrlIYY?si=DepOLJDF6dSxf1pA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-062f03493938bc71eda9"
+    },
+    {
+     "title": "I Love China",
+     "artist": "",
+     "link": "https://youtu.be/mdj5aePjokM?si=Gp2zJb9Lq-fq5GRT",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-042c94507ca7475d6517"
+    },
+    {
+     "title": "Return to Our Lost Land",
+     "artist": "",
+     "link": "https://youtu.be/fPlUM-hHesk?si=hgf0QRfu6g9r270O",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-823a0b440cd56e1d4dce"
+    },
+    {
+     "title": "Bloodshed Yellow Flower",
+     "artist": "",
+     "link": "https://youtu.be/mFwCu7pba10?si=IBf9_6_MET_wAVle",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7bbbdf190a5678452af6"
+    },
+    {
+     "title": "March of Robust Men",
+     "artist": "",
+     "link": "https://youtu.be/6E5-vK0ACNk?si=PgYyvVcLptK0lT-N",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2b290b6c9620480977ed"
+    },
+    {
+     "title": "Street Fighting Song",
+     "artist": "",
+     "link": "https://youtu.be/O9eCdc8sVco?si=_ebefr6XlmbylmiW",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-91110d132a6ae09814a3"
+    },
+    {
+     "title": "I Have a Gun",
+     "artist": "",
+     "link": "https://youtu.be/Sog3wL8coCA?si=zrJTjxbl1O122yjT",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c69dbcb7fc212233a4a3"
+    },
+    {
+     "title": "Heroic Soldiers",
+     "artist": "",
+     "link": "https://youtu.be/Juf6Q6lJIvw?si=x_KfGIHcErt0Cs2g&t=324",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-92200f5fcc955ae1db38"
+    },
+    {
+     "title": "Nine Heroes",
+     "artist": "",
+     "link": "https://youtu.be/Juf6Q6lJIvw?si=OV4SoqnBTyAVnnGE&t=1824",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d78c09bc27803135d255"
+    },
+    {
+     "title": "Song of Asian Revival",
+     "artist": "East Asian Friendship Association Band",
+     "link": "https://youtu.be/AidtYv9NARE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4146a3236278ad93ae2f"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "radio_reclamation-d5a35f"
+  },
+  {
+   "mod": "",
+   "title": "The People's Programme",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Communist Chinese Music",
+   "songs": [
+    {
+     "title": "Internationale (Chinese)",
+     "artist": "Xiao San (Translator)",
+     "link": "https://youtu.be/dSHP-YIM3_g or https://youtu.be/nhSj2LQkAvE",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-225ce4d0226a28912fbe"
+    },
+    {
+     "title": "March of the Volunteers (1978 Version)",
+     "artist": "",
+     "link": "https://youtu.be/LyXA2uXduss or https://youtu.be/W3TkuoPyjhk?si=SjBrFoX59tHYyo8d",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dd8fc3f46f16dc1b5fd8"
+    },
+    {
+     "title": "March of the People's Volunteer Army",
+     "artist": "",
+     "link": "https://youtu.be/KgcIgfRx-as?si=hGob4V9ROrPs4af8",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b255f89e637f3cf8f7b3"
+    },
+    {
+     "title": "Without the Communist Party, There Would be No New China",
+     "artist": "",
+     "link": "https://youtu.be/uZV3hvz4IXQ?si=W2UyB3McrSN8YM8H",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4a94a15027dcda437f32"
+    },
+    {
+     "title": "Militia March",
+     "artist": "",
+     "link": "https://youtu.be/JCpQ_N3yy1U?si=kMFvpJyk78eT98SB",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d1952629b3b636e4669d"
+    },
+    {
+     "title": "Sailing the Seas Depend on the Helmsman",
+     "artist": "",
+     "link": "https://youtu.be/KoiaAzrtyIY?si=vj5v37d5ow4fAFIB",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a47badcdee67084eff6e"
+    },
+    {
+     "title": "The People of the World Will Surely Be Victorious",
+     "artist": "",
+     "link": "https://youtu.be/7JoNYDTtshg?si=Xh9FhWYsbvHsHW0y",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-96293783e3208234d3ac"
+    },
+    {
+     "title": "Protect the Yellow River",
+     "artist": "",
+     "link": "https://youtu.be/KOuPN_UUudY?si=a5YC41MomiAIu7Iv",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fbfb3dd5bba7f70ef7c5"
+    },
+    {
+     "title": "As the War Approaches",
+     "artist": "",
+     "link": "https://youtu.be/AX_lu_Wc5vQ?si=5BlW77r8zl6QVm6d",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-18e7e556a9b83f7d24e5"
+    },
+    {
+     "title": "Three Rules and Eight Notices For Attention",
+     "artist": "",
+     "link": "https://youtu.be/y3yWxOEog-M?si=vmHD28lrOuKM4fSO",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-123b97a7445a37422911"
+    },
+    {
+     "title": "Our Leader, Mao Zedong",
+     "artist": "",
+     "link": "https://youtu.be/76kTbklPSAs?si=pu3nXXY4ezKDkbnb",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-927ebf6f326a341614ca"
+    },
+    {
+     "title": "Red Sun in the Sky",
+     "artist": "",
+     "link": "https://youtu.be/pbe9SlIqhtM?si=R7vSPrEbDHNjlnMz",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-18451ed7141f5609834b"
+    },
+    {
+     "title": "Learn From Lei Feng's Good Example",
+     "artist": "",
+     "link": "https://youtu.be/700Kb-e4Skg?si=ebcpMhSokxD-_izI",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-12f54506936838006d5d"
+    },
+    {
+     "title": "Sun is Red over the Jinggang Mountains",
+     "artist": "",
+     "link": "https://youtu.be/BxJ55gFvn5M?si=YlHNnrb-z4GmM0P-",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-05742894e7ab5b726e86"
+    },
+    {
+     "title": "Socialism is Good",
+     "artist": "",
+     "link": "https://youtu.be/Ky36xpE9yBk?si=EdbPv7UzuPjweloG",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e3560f04e10fd3e33b29"
+    },
+    {
+     "title": "We Will Liberate Taiwan",
+     "artist": "",
+     "link": "https://youtu.be/UBNs2kLHgGU?si=yI4ZidKuCOMKRKVI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-08888ba90ed5e25914d9"
+    },
+    {
+     "title": "The People's Army is loyal to the Party",
+     "artist": "",
+     "link": "https://youtu.be/eNNm-j5kkMc?si=oz2OojoRhnY9XkyU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e261757eaa6b1a3d44ed"
+    },
+    {
+     "title": "We Walk on the Great Road",
+     "artist": "",
+     "link": "https://youtu.be/jWSBEeux3aE?si=HaMMKXTfbOzyHOWn",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a3a70cd85e4cb67c1e0e"
+    },
+    {
+     "title": "The Red Sun Shining Over the Frontiers",
+     "artist": "",
+     "link": "https://youtu.be/dL1yIr9RLqY?si=Gzzf_6t2bplUNOFd",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-86f7b5695b0401c32ee6"
+    },
+    {
+     "title": "Ode to the Motherland",
+     "artist": "",
+     "link": "https://youtu.be/jH1NG8ws298?si=Rdq0yPYro5OjTciY",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7425e3fb1ba184bd515b"
+    },
+    {
+     "title": "August Bloom of the Fragrant Osmanthus",
+     "artist": "",
+     "link": "https://youtu.be/dTx0QStCrIw?si=ChW2j5n11d8Qi5TH",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e4b7779f9b19106d8c8e"
+    },
+    {
+     "title": "Father and Mother Are Not as Dear as Chairman Mao",
+     "artist": "",
+     "link": "https://youtu.be/uYVQdON3xeU?si=RWANcut0EiaRZB9p",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-61de87d4167236cd68cc"
+    },
+    {
+     "title": "Workers, Peasants and Soldiers, Arise!",
+     "artist": "Wang Shen",
+     "link": "https://youtu.be/aXFWdgSpraA?si=hUuFQuk2j4zYx8um",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-669487c022dfeb0a54e4"
+    },
+    {
+     "title": "Crossing Chishui Four Times",
+     "artist": "",
+     "link": "https://youtu.be/d_unEpQD2i0?si=aszY7TLjlGjk9KUb",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b581fc75e90951cb07bb"
+    },
+    {
+     "title": "The People's Communes are Golden Bridges",
+     "artist": "",
+     "link": "https://youtu.be/QDA3OCovLto?si=eMWrpniT86ViHObt",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b15f3cab9a1c91918464"
+    },
+    {
+     "title": "Eternal Glory to Chairman Mao",
+     "artist": "",
+     "link": "https://youtu.be/pIVYG07h25U?si=YxKNNt8LK_0gUfvV",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-79b575633eab62e9ee79"
+    },
+    {
+     "title": "Comrade Mao Zedong",
+     "artist": "",
+     "link": "https://youtu.be/eVTzA1JcdQI?si=D03Bn5sj9jO6-0aZ",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b9321ca3ef9d80856d54"
+    },
+    {
+     "title": "The Long March",
+     "artist": "",
+     "link": "https://youtu.be/wCG47mvN3eM?si=sou4rQeRR16W1uyi",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7c7b97e2a70abad460cc"
+    },
+    {
+     "title": "Chairman Mao's Works I Love to Read the Most",
+     "artist": "",
+     "link": "https://youtu.be/zIItwfgdwTY?si=jPW5J8aWTOAWh1o7",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7458583555572ee168fa"
+    },
+    {
+     "title": "Japanese Jackal Warlords",
+     "artist": "",
+     "link": "https://youtu.be/6aJxBCkfkYw?si=JTUQ54sEGPIIww6j",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0b1f23b5021878d2321d"
+    },
+    {
+     "title": "Never Forget Class Suffering",
+     "artist": "",
+     "link": "https://youtu.be/VQlqd2qe9Cw?si=73KngzdLhBM4O_bM",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0b246269a257bd15959b"
+    },
+    {
+     "title": "Sing Of The Great, Glorious & Correct Communist Party Of China!",
+     "artist": "",
+     "link": "https://youtu.be/eyGkouIYSjY?si=HoyRtHi8AMFpREio",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-750c8eb25cb9cb068d83"
+    },
+    {
+     "title": "The Poor and Lower-Middle Peasants Love Chairman Mao the Most",
+     "artist": "",
+     "link": "https://youtu.be/-FQXTRLH9kM?si=ClLoVaI5qKSST3Ux",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4f34c38284f29352ba9c"
+    },
+    {
+     "title": "The Red Guards Greet Chairman Mao on the Steppe",
+     "artist": "",
+     "link": "https://youtu.be/StwNR9MSXxc?si=WU8zITTwtrWqaKGc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1e2e1ba76137d771a9ce"
+    },
+    {
+     "title": "The Great Proletarian Cultural Revolution is Just Good!",
+     "artist": "",
+     "link": "https://youtu.be/dup7QgTweBc?si=dVEyMmwbme-06SOs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ff5f7bf43057448cf0dd"
+    },
+    {
+     "title": "The Force at the Core Leading our Cause Forward",
+     "artist": "",
+     "link": "https://youtu.be/L4raV0HMG6g?si=3n9wNGk9v6Skplu7",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cab21f85e88ac2456b5e"
+    },
+    {
+     "title": "Without a Break!",
+     "artist": "",
+     "link": "https://youtu.be/328Z522W6Rg?si=EHZeZtVQbFf8aB47",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-550c26b999f229fb6f96"
+    },
+    {
+     "title": "Our Political Party is Great, like Heaven and Earth!",
+     "artist": "",
+     "link": "https://youtu.be/O5VRMjMu5k4?si=M1Sm7Lw3xms18BLl",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-acdaf81d4381e9c43bb2"
+    },
+    {
+     "title": "We are Chairman Mao's Red Guards",
+     "artist": "",
+     "link": "https://youtu.be/MdeZiZiqvEo?si=9UrNfpExIzxXhKaY",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d0c541d19a855f4d7816"
+    },
+    {
+     "title": "Follow Mao Zedong, The World is Red!",
+     "artist": "",
+     "link": "https://youtu.be/EMHDmYh3_gE?si=U38mm0OAqpLwnQDa",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c642655b6871faa9ccc8"
+    },
+    {
+     "title": "Great Leader Mao Zedong!",
+     "artist": "",
+     "link": "https://youtu.be/lKHulJrytB8?si=YzaqEbW698cJubsF",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3213179147fab30fe242"
+    },
+    {
+     "title": "Mao's Speech at 9th Congress of The CPC",
+     "artist": "",
+     "link": "https://youtu.be/4PRzCsfZgVU?si=OyWcPeUo63hIejUz",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-30d0e936dcd4131253a5"
+    },
+    {
+     "title": "Guerrilla Army",
+     "artist": "",
+     "link": "https://youtu.be/hdY2PopeaEQ?si=oMK3PI60SJsVRCNc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2dd95180aac70d812aea"
+    },
+    {
+     "title": "The East is Red",
+     "artist": "",
+     "link": "https://youtu.be/RslJ249O_bA?si=l8fupOy4n6wN3_A2",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-00e84e6d8b71e45b85e4"
+    },
+    {
+     "title": "Anthem of the Eighth Route Army",
+     "artist": "",
+     "link": "https://youtu.be/sgN-X9lO3DQ?si=U13XSiSQ7GTvDQTz",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-acdc4389336fa55d6e19"
+    },
+    {
+     "title": "Song of the Dockers",
+     "artist": "",
+     "link": "https://youtu.be/wos1r3e-Ykw?si=DHOCK_knWCAxLwWz",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cb2b973cc5af8fbc8fb6"
+    },
+    {
+     "title": "The People of the World Will Surely be Victorious",
+     "artist": "",
+     "link": "https://youtu.be/bBHrGsarV-4?si=F793_JcxOwgLX9Zo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-246c2a996b6783835ec5"
+    },
+    {
+     "title": "We are the Northeast Anti-Japanese United Army",
+     "artist": "",
+     "link": "https://youtu.be/xUhlGnGqMq0?si=KlANcbPdaxIG2N9d",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3408e8cc5b802a079d29"
+    },
+    {
+     "title": "Goodbye, Cities and Houses",
+     "artist": "",
+     "link": "https://youtu.be/FkLqfIl8yQ4?si=P1Zmr2PaJ-nyg72g",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-53406dbde6078027d30b"
+    },
+    {
+     "title": "I Am a Soldier",
+     "artist": "",
+     "link": "https://youtu.be/MSfMoaQ6n9E?si=_gsy-f9VbFsThD4a",
+     "in_game": true,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dfabf6cfea6d6138eab7"
+    },
+    {
+     "title": "Set off a New Wave of Revolutionary Criticism",
+     "artist": "",
+     "link": "https://youtu.be/l5pvVFqf0z8?si=zF_ud1MWuL_aa4YX",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-48510e5e596ee8340967"
+    },
+    {
+     "title": "(no title)",
+     "artist": "",
+     "link": "https://youtu.be/FPZbgfZA_Cs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d988e968771e56a82376"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "the_people_s_programme-77f91f"
+  },
+  {
+   "mod": "",
+   "title": "Guang's Records",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Chinese Folk and String Music",
+   "songs": [
+    {
+     "title": "Lofty Mountains and Flowing Waters",
+     "artist": "",
+     "link": "https://youtu.be/VC3AMAesK5U?si=dnk0xUDh6LOLcJHw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5f312b063f8951f911b1"
+    },
+    {
+     "title": "Butterflies in Love With Flowers",
+     "artist": "Fan Shange",
+     "link": "https://youtu.be/rVQk6Inq58E?si=_p-ezkYC9G7Qldod",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8ab4ccea0cb41d6d63ec"
+    },
+    {
+     "title": "A Vulture Fighting a Crane",
+     "artist": "Wang Changyuan",
+     "link": "https://youtu.be/OdYd9G7hapc?si=MmOXNqw-ypHep45x",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9e379f1ef35bf4df04a7"
+    },
+    {
+     "title": "Joyful Scenes at the Lantern Festival",
+     "artist": "Li Bian",
+     "link": "https://youtu.be/DasC_1wXwmA?si=2KipT1-uJtJpGYGS",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-56d11aee42ae73c4560a"
+    },
+    {
+     "title": "Wild Geese Descending on a Sandy Beach",
+     "artist": "Su Qiao",
+     "link": "https://youtu.be/W0O2MI8R6to?si=gYZO91oDwriLyuah",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-135cb8b3c51c6e2a37ec"
+    },
+    {
+     "title": "Nightingale and Chaffinch",
+     "artist": "Zhao Yuzhai",
+     "link": "https://youtu.be/55f-BafSVaQ?si=otI3CzH8K_f93hv3",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2df6d7fe116639b06aad"
+    },
+    {
+     "title": "The Grievance of Lady Zhaojun",
+     "artist": "Rao Ningxin",
+     "link": "https://youtu.be/YyRWoFhon0w?si=GKJ-nt8vC2-HCbpc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4de7f87e640349373ae6"
+    },
+    {
+     "title": "High Mountain and Flowing Water",
+     "artist": "Chen Leishi",
+     "link": "https://youtu.be/A3ivOaCV7Bk?si=6zRLAqE85RktOlTh",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b75db63b6f9ecc12a50f"
+    },
+    {
+     "title": "Solo",
+     "artist": "Chen Leishi",
+     "link": "https://youtu.be/rDJ8Xjbh_uQ?si=EhYJ1-n1TYhO_roh",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-24424a8ec92d316b5aa2"
+    },
+    {
+     "title": "Duo",
+     "artist": "Chen Leishi and Zheng Sisen",
+     "link": "https://youtu.be/tT2Csd7zJsM?si=re15GWw7rh-X1XmO",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4a9d09638f5d355137d3"
+    },
+    {
+     "title": "(no title)",
+     "artist": "Feng Hua",
+     "link": "https://youtu.be/msIHItnr8YM?si=UQJfsZJWmLnCb5nt",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4491ee3f98017b9712de"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "guang_s_records-44b527"
+  },
+  {
+   "mod": "",
+   "title": "Shanghai Shuffle",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Chinese Pop, Rock, Funk, etc.",
+   "songs": [
+    {
+     "title": "I'll Just Live for You One More Day",
+     "artist": "You Ya",
+     "link": "https://youtu.be/YLHbENAM0UM?si=Cb3LDXRo92VNqoJp",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f03c0d80d979f4d20fe6"
+    },
+    {
+     "title": "Carmen",
+     "artist": "Grace Chang",
+     "link": "https://youtu.be/wqI4h1uODng?si=EnIJcJqpUhpE1_Hf",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a2d22e898d028c1b0614"
+    },
+    {
+     "title": "It's Raining Tonight",
+     "artist": "Yang Xiaoping",
+     "link": "https://youtu.be/20I24XHEtgs?si=gbjFx1yva-rq7Lq0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7b24a621504edbbc70ba"
+    },
+    {
+     "title": "Return My Love To Me)",
+     "artist": "Yao Su Rong",
+     "link": "https://youtu.be/u5qDrV4WW5U?si=iXRx2U_hKC6DGBNS",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3df4216bc98de6ae6bd8"
+    },
+    {
+     "title": "A Smart Idiot, A Past Love",
+     "artist": "Xu Guanjie",
+     "link": "https://youtu.be/VObM6vx3JkQ?si=POlMXFVtFIEBd1aK",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-df0723286f601e22ebba"
+    },
+    {
+     "title": "How Can I Help But Think of You",
+     "artist": "Winnie Wei",
+     "link": "https://youtu.be/IMD5Jw4CkbM?si=j5l7KYJre5G8UKe2",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dd3bb5cdab5925b2e5b5"
+    },
+    {
+     "title": "Mysterious Girl",
+     "artist": "Ye Feng",
+     "link": "https://youtu.be/AJwbJxPddlM?si=z9v3bSeKRv_J7VL_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e0f87d88ec13e7023793"
+    },
+    {
+     "title": "Lover's Tears",
+     "artist": "Jing Ting",
+     "link": "https://youtu.be/oD2KM9fZhRs?si=fSvCfFDlVoc-0a62",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c240b38041b224d650bf"
+    },
+    {
+     "title": "Tunes from Kanton",
+     "artist": "The Stylers",
+     "link": "https://youtu.be/IclW1sooyYk?si=rWJRx5HZIKDQP3wd",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1d18e3bf7285ad6fa611"
+    },
+    {
+     "title": "Always Together",
+     "artist": "Stephen Cheng",
+     "link": "https://youtu.be/QgPTgq-rN3U?si=Da7us10-pRwy-D40",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ca7d42e8011ac2571d0a"
+    },
+    {
+     "title": "Liu Guan Lin",
+     "artist": "Liu Guan Lin",
+     "link": "https://youtu.be/W9Uf_atn2mI?si=Yz5ZM8xLzRcPTpng",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3bf846f8769fb57864f0"
+    },
+    {
+     "title": "Boa La La",
+     "artist": "Bao Nana",
+     "link": "https://youtu.be/unS_0VoJqxw?si=sGPJa2aUIEyRbVmn",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-66d50d4190cb73a9ead2"
+    },
+    {
+     "title": "Crossroads",
+     "artist": "Hua Shiuan Shiuan",
+     "link": "https://youtu.be/Cqq9m14lA1w?si=84YC3mkLIgf_6P-b",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-36881ff29ff5abd02235"
+    },
+    {
+     "title": "No Circles",
+     "artist": "Lei Si Si",
+     "link": "https://youtu.be/nYvux_KIlpY?si=4Dzjn3kRtkrHqrxf",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-823c162e7c8d49ca5011"
+    },
+    {
+     "title": "Storm",
+     "artist": "Cui Tai Jing",
+     "link": "https://youtu.be/EOU31xvD0K8?si=o2EWdcqMNifPH1H6",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-19ad25efe9b1ad9e0d9f"
+    },
+    {
+     "title": "A Flowing Cloud",
+     "artist": "Li Yaping",
+     "link": "https://youtu.be/cKWiwaz3Z34?si=GDlsY8o7gacuynzB",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6c51459963b3837af7fd"
+    },
+    {
+     "title": "Love You for 360 years",
+     "artist": "Yao Su Yong",
+     "link": "https://youtu.be/aqR0jLNG6zA?si=D7mUzndhdBO-huZ2",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6fa183ffd6b88d30fffe"
+    },
+    {
+     "title": "When Spring Comes",
+     "artist": "Xiang Yinyan",
+     "link": "https://youtu.be/fRG0x1sVaaY?si=z_w14zAyvNwttyfW",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-eb9b194e05a4fa58514f"
+    },
+    {
+     "title": "Sigh of Love",
+     "artist": "Bao Nana",
+     "link": "https://youtu.be/b5B8OSUQwbM?si=GRrZy2cO91o7cDGc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-efc98e8f699ec243effa"
+    },
+    {
+     "title": "Summer Glow",
+     "artist": "Lagerstroemia",
+     "link": "https://youtu.be/RfPjWqBWNlc?si=7QEKhIZNfNaZnNd9",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8d764b8a320508ec91fe"
+    },
+    {
+     "title": "Ding Dong Twist",
+     "artist": "The Quests",
+     "link": "https://youtu.be/AZYXXjKXD1Q?si=Lpxl3hFVa4kXQxQq&t=232",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-084a1165c092068a53ef"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "shanghai_shuffle-f1dcb7"
+  },
+  {
+   "mod": "",
+   "title": "Red Tide Radio",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Socialist marches/songs in countries ouside of the Soviet Union",
+   "songs": [
+    {
+     "title": "https://youtu.be/8R3ztuDYcTI",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-293228256e19069b8a3f"
+    },
+    {
+     "title": "https://youtu.be/sq5y60jUhxk",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8025bebd9911aed516b7"
+    },
+    {
+     "title": "https://youtu.be/xK-mpyeW_JQ",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1833238867bce242d67c"
+    },
+    {
+     "title": "https://youtu.be/Oo7pm5Vljp0",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ac6e6f81b0abae6acf21"
+    },
+    {
+     "title": "https://youtu.be/y2VGN_GHA0k",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-decd298b7afae114200e"
+    },
+    {
+     "title": "https://youtu.be/Dx0Iinzn5uY",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b18f1a8bc8142778d470"
+    },
+    {
+     "title": "https://youtu.be/h839-aVmvn4",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-98022405827e88b55b36"
+    },
+    {
+     "title": "https://youtu.be/Z4BTsifVWw8",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-916c81ccff0adc7923ee"
+    },
+    {
+     "title": "https://youtu.be/WkShTZWhHEA",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-04fc2159eab96093a814"
+    },
+    {
+     "title": "https://youtu.be/Xtfloykdu50",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d377032e20aefae993cb"
+    },
+    {
+     "title": "https://youtu.be/gFi-XF97NNg",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-cdd4170fb0cb7f56e4ec"
+    },
+    {
+     "title": "https://youtu.be/u69cRIuANSk",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bc0d12670aa1852e050c"
+    },
+    {
+     "title": "https://youtu.be/_m-bdymRErg",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-15edd94eff927db5df36"
+    },
+    {
+     "title": "https://youtu.be/Vhg-PNlBk4M",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-08be310c4749813f8b54"
+    },
+    {
+     "title": "https://youtu.be/Laj2BvrQ35A",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0a41f3e16b06b6dd5b5b"
+    },
+    {
+     "title": "https://youtu.be/DRf_ReAIbwU",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b800819f5e3139eb5ad6"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "red_tide_radio-62088c"
+  },
+  {
+   "mod": "",
+   "title": "St. Peter's Sounds",
+   "token": "",
+   "status": "Idea",
+   "theme": "White Russian Music, Orthodox Music, Anti-Communist Russian Music",
+   "songs": [],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "st_peter_s_sounds-36cd38"
+  },
+  {
+   "mod": "",
+   "title": "Deutsch Defense Radio",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "German Anti-Doriotist Marches, Political Music",
+   "songs": [
+    {
+     "title": "Lied der Werktätigen",
+     "artist": "",
+     "link": "https://youtu.be/PgbVUpfMy8Q",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b6ab30c115e332395a32"
+    },
+    {
+     "title": "Marschieren Millionen",
+     "artist": "",
+     "link": "https://youtu.be/dF3bdZDmasc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e0b1ca90f7ebafc06c49"
+    },
+    {
+     "title": "Partisanen von Amur",
+     "artist": "",
+     "link": "https://youtu.be/vglBfSqdj0M",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e3522df61d8d1d2ea851"
+    },
+    {
+     "title": "Gemeinsam sind wir stark",
+     "artist": "",
+     "link": "https://youtu.be/5R4Td8yLB1k",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-36c14e03c692f9dd4a4a"
+    },
+    {
+     "title": "Lied der unruhevollen",
+     "artist": "",
+     "link": "https://youtu.be/-WhPgipqi7c",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-73ad69be29cae0cc9243"
+    },
+    {
+     "title": "Es lebe das Brot",
+     "artist": "",
+     "link": "https://youtu.be/ReZo3lLD_7k",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5662bbc71a78565768ff"
+    },
+    {
+     "title": "Die Rote Front Marschiert",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=FbHu2GeoIPs",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d3b72088dcfc67456a19"
+    },
+    {
+     "title": "Unser Panzerdivision",
+     "artist": "",
+     "link": "https://youtu.be/w7n2CcrqQ6w",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0e4284f55fbd31c2c356"
+    },
+    {
+     "title": "Die Moorsoldaten",
+     "artist": "",
+     "link": "https://www.youtube.com/watch?v=-boCKJsDe5U",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-249e2672a1c48d021147"
+    },
+    {
+     "title": "https://youtu.be/HYJmGaBMQJ8",
+     "artist": "Ernst Busch",
+     "link": "Der heimliche Aufmarsch",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2c9c228b7c2e2a8b8c64"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "deutsch_defense_radio-c110fc"
+  },
+  {
+   "mod": "",
+   "title": "Berlin Bop",
+   "token": "",
+   "status": "Idea",
+   "theme": "German Pop, Rock, etc.",
+   "songs": [],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "berlin_bop-9bb863"
+  },
+  {
+   "mod": "",
+   "title": "Golden Triangle Grooves",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Shan State Psychedelic and Garage Rock",
+   "songs": [
+    {
+     "title": "Khin Kam",
+     "artist": "Saing Saing Maw",
+     "link": "https://youtu.be/sYzwNAFFwQ0?is=OvQJUWUS371uXQe0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9e46cd368b88fb68a39e"
+    },
+    {
+     "title": "Hopes and Goals",
+     "artist": "Khun Paw Yann",
+     "link": "https://youtu.be/4g-NlOq1AsI?is=oWDVkLayw0_LxAxa",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-96f1a0f5230e9141fcc2"
+    },
+    {
+     "title": "Track 8",
+     "artist": "Khun Paw Yann",
+     "link": "https://youtu.be/DO4KYhcrF7A?is=9J2hr1xpSkVUH7xf",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9c40f8a1a746740fc24e"
+    },
+    {
+     "title": "You Got What You Got",
+     "artist": "Lashio Thien Aung",
+     "link": "https://youtu.be/NcT_1vSVhsw?is=Mhv75RCxxBx4V7I2",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9a2da7109ef1bc929d86"
+    },
+    {
+     "title": "Lik Hom Mai Panglong",
+     "artist": "Sai Kham Leik",
+     "link": "https://youtu.be/CLiM8_Y7EeU?is=tsjrE2coquvP02sS",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ebb87724efaee9698b59"
+    },
+    {
+     "title": "Pauk Sone Nay Thaw Nirban Bone",
+     "artist": "Sai Htee Saing",
+     "link": "https://youtu.be/hsHTl1dJNXk?is=lYl_12tt3d2KIz03",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-beec831f7a967e300065"
+    },
+    {
+     "title": "Moon",
+     "artist": "Khun Hla Maung Law",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-868270655dd572278be0"
+    },
+    {
+     "title": "Mistake of a Small Bird",
+     "artist": "Lashio Thien Aung",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d663c0fb7ff2daed528b"
+    },
+    {
+     "title": "Mu Nohn Taan",
+     "artist": "Nan Phin Sar",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fee9ae55597e40e2f0ee"
+    },
+    {
+     "title": "Nar Merng Tai",
+     "artist": "Nang Mo Sing",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-afe048371dab329913c7"
+    },
+    {
+     "title": "Naung Ywe",
+     "artist": "Khun Kan Chwain",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-240f8d59430415c0fe90"
+    },
+    {
+     "title": "Chit Tae Shan Yo Ma",
+     "artist": "Sai Htee Saing",
+     "link": "https://youtu.be/lk0JQaRT-co?is=n5yDPQqOyRaJrh_6",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c9cd81d77cd9c02072d6"
+    },
+    {
+     "title": "Pyout Sone Nay Taw Nate Ban Bon",
+     "artist": "The Wild Ones",
+     "link": "https://youtu.be/2EdOgbyL1WQ?is=MB2RY81DQdzfiIck",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-50c7d309a3a0df256321"
+    },
+    {
+     "title": "Lam Lah Mo May Shoke",
+     "artist": "Saing Saing Maw",
+     "link": "https://youtu.be/e_C7hqhrSHs?is=7qehDMdO_iClxi5L",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-bcda5e8bdddffd3481e4"
+    },
+    {
+     "title": "Don't Say Goodbye",
+     "artist": "Lashio Thien Aung",
+     "link": "https://youtu.be/cSm1yqRqhKY?is=Frxxj3XSDmO1Ljbr",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-88114032324103778564"
+    },
+    {
+     "title": "A Sone A Phyat",
+     "artist": "Sai Htee Saing",
+     "link": "https://youtu.be/doHBGTclJow?is=JiQk7_3DQfQ56M34",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-a7f1b56f3693f40e0d61"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "golden_triangle_grooves-55a0c4"
+  },
+  {
+   "mod": "",
+   "title": "Songs of the Sangha",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Traditional Court Music, Theravada Chants, Orchestral",
+   "songs": [
+    {
+     "title": "Lam Sithandone",
+     "artist": "Thao Sikhone",
+     "link": "https://youtu.be/p9Y9w6ZzDW4?is=omCLEjxVn4UpgJtC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5912a028057ab8c0e109"
+    },
+    {
+     "title": "Khène",
+     "artist": "Nouthong Phimvilayphone",
+     "link": "https://youtu.be/KLpSSVgJXbY?is=OFUm9RzFMyxSyFL9",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-d080d13d1efc2b01e1cf"
+    },
+    {
+     "title": "Lam Phoutaiy",
+     "artist": "Royal Orchestra of Luang Prabang",
+     "link": "https://youtu.be/3V2K8zBPxgA?is=z_TuxJI9lZnMUYZ1",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ad043699194bf1c3874f"
+    },
+    {
+     "title": "Lao Chao Su",
+     "artist": "Sep Nyai Court Orchestra",
+     "link": "https://www.youtube.com/results?search_query=Lao+Phene+Sep+Nyai",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-55b7abffa70e8088b001"
+    },
+    {
+     "title": "Pheng Phi Fa",
+     "artist": "Phu Thao Tène",
+     "link": "https://youtu.be/UMvkP66Y0wM?t=0&is=4JPDVDIc13U0jlKy",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e4baebd290518e570d47"
+    },
+    {
+     "title": "Pheng Kom",
+     "artist": "Royal Orchestra of Champassak",
+     "link": "https://youtu.be/UMvkP66Y0wM?t=312&is=cwK5NmpWL-ZGINR9",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-82796b57f06026cb16d9"
+    },
+    {
+     "title": "Lam of Savannakhet",
+     "artist": "Tha Bunthong",
+     "link": "https://youtu.be/UMvkP66Y0wM?t=696&is=3Fa4qbevx6eNUBAB",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dc86c3a9a79152fb75aa"
+    },
+    {
+     "title": "Ceremony of the Buffalo Sacrifice",
+     "artist": "Thao Nay Chong",
+     "link": "https://youtu.be/UMvkP66Y0wM?t=2302&is=vltEEu5GdiROKS57",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1870cfa1a3d5fc82478e"
+    },
+    {
+     "title": "Laotian Folk Dance",
+     "artist": "Traditional Laotian Ensemble",
+     "link": "https://youtu.be/yrnH2oXpf6s?is=Fa6o_1_8hNXLmplt",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-35e4c1cdd135f94f826f"
+    },
+    {
+     "title": "Woman's Song",
+     "artist": "Laotian Singer",
+     "link": "https://youtu.be/vtR3nLTrnSc?is=6yryh96KNWPLni8x",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0fe97d686bdf52e34561"
+    },
+    {
+     "title": "Hang Meas",
+     "artist": "Mohori Orchestra",
+     "link": "https://youtu.be/Z4k0SfqSmAE?is=rYPih0Gr135THa3Z",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8d41d1789d34d9b382dc"
+    },
+    {
+     "title": "Rabam Traloak",
+     "artist": "Students at the University of Fine Arts, Phnom Penh",
+     "link": "https://youtu.be/opharsKmnuA?t=1996&is=3z5RD7KUrGQ8_mno",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-82b195f3a66a49d042a7"
+    },
+    {
+     "title": "Krom Phleng Mohori",
+     "artist": "Ayaii Dance Ensemble",
+     "link": "https://youtu.be/opharsKmnuA?is=3nzrhaChz9jR3q9t",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-57c4f780a09f17b0057b"
+    },
+    {
+     "title": "Salamar",
+     "artist": "Orchestra of the Royal Palace",
+     "link": "https://youtu.be/cJfRu9BF1nk?is=qNi5W5gIJeD1xUax",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0bb6eb835495eee087b7"
+    },
+    {
+     "title": "Pey Kéo",
+     "artist": "Orchestra of the Royal Palace",
+     "link": "https://youtu.be/cJfRu9BF1nk?is=qNi5W5gIJeD1xUax",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-22a48239b1ebd5ef6ebc"
+    },
+    {
+     "title": "Phat Cheay and Sampong",
+     "artist": "Orchestra of the Royal Palace",
+     "link": "https://youtu.be/cJfRu9BF1nk?is=qNi5W5gIJeD1xUax",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4dad5494057359004b15"
+    },
+    {
+     "title": "Chayyam",
+     "artist": "Cambodian Percussion Ensemble",
+     "link": "https://youtu.be/VWUCVeeVSkY?is=QnCnw3q4xS8HGBbi",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-fab2a08dc84ed7909b76"
+    },
+    {
+     "title": "Krom Phleng Pinpeat",
+     "artist": "Musicians of the Royal Palace",
+     "link": "https://youtu.be/Q3aRqV-Lrsk?is=VycdKG6No1NYnSfV",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1485a0bec9a9a689e83e"
+    },
+    {
+     "title": "Soy Sar Kat",
+     "artist": "Ek Sam At",
+     "link": "https://youtu.be/cJfRu9BF1nk?is=qNi5W5gIJeD1xUax",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-dcfb247fe2fada24672f"
+    },
+    {
+     "title": "Phléng Néang Lot",
+     "artist": "Pinpeat Orchestra",
+     "link": "https://youtu.be/wZGZt1bUaQw?is=xDSb0V34_17ihoPI",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2473b43a698d3eb57f41"
+    },
+    {
+     "title": "Admiration of a Sleeping Maiden",
+     "artist": "Bang Khun Phrom Palace Orchestra",
+     "link": "https://youtu.be/zlKeSaLyaJY?is=iXnfLh9p2JWy5zL_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-39b91b5948cc90b74d19"
+    },
+    {
+     "title": "Or",
+     "artist": "Bang Khun Phrom Palace Orchestra",
+     "link": "https://youtu.be/e3S4zsZ71Eg?is=w3Sle9rmtLWmSiNV",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-69d2ae6e0793a9762a47"
+    },
+    {
+     "title": "Phrayasok",
+     "artist": "Saw Sam Sai Player",
+     "link": "https://youtu.be/QVCWJj1JCFM?is=oeEfyt_jW8ThLMXC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-753ad59bf4c8a944cea3"
+    },
+    {
+     "title": "Chakay and Ching",
+     "artist": "Mahori Ensemble",
+     "link": "https://youtu.be/QVCWJj1JCFM?is=oeEfyt_jW8ThLMXC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0ee132f7722c761089f3"
+    },
+    {
+     "title": "Rotchanasangtaung",
+     "artist": "Piphat Ensemble",
+     "link": "https://youtu.be/QVCWJj1JCFM?is=oeEfyt_jW8ThLMXC",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5a40044ec511c7b6ba01"
+    },
+    {
+     "title": "Thai-oi-kamen",
+     "artist": "Siamese Court Orchestra",
+     "link": "https://youtu.be/6rbseK85dM8?is=QArtGX93PH0BKiCJ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e89ca478e55aec58ca4f"
+    },
+    {
+     "title": "Plasat Vai",
+     "artist": "Vat Nantaram Monastery Ritual Orchestra",
+     "link": "https://youtu.be/RL8hDQ4WKrg?t=768&is=EQH--Qz3dleZdCMS",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e8010470a5032577196e"
+    },
+    {
+     "title": "Pleng Tao Haey",
+     "artist": "Nai Yanyong Prongnamchai",
+     "link": "https://youtu.be/qG-DwzZCpAM?is=PgaAsF1rAYQRX60A",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3365d61f91c4a39196cc"
+    },
+    {
+     "title": "Pleng Samrap Mahori",
+     "artist": "Mahori Ensemble",
+     "link": "https://youtu.be/8oIZr87j56E?is=YY8vJMx8am3x99c7",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4d5012f1c8cc6b981ad9"
+    },
+    {
+     "title": "Pleng Farung Ram Tao / Pleng Sarama",
+     "artist": "Thai Percussion Ensemble",
+     "link": "https://youtu.be/NicYEy_CumA?is=Ao094y1V5kEHAa6_",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4b316cd4633a3273b9e2"
+    },
+    {
+     "title": "Sein Che Yaung",
+     "artist": "U Ba Than",
+     "link": "https://youtu.be/BLJ2xZAbCuk?is=IAvvHjd5OTLtFGFa",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0895f05cc916bea36bde"
+    },
+    {
+     "title": "Khine Pan Zone",
+     "artist": "Sein Bo Tint",
+     "link": "https://youtu.be/Kyi-65Cs8jw?is=gj3yDYyC6c8zCFCO",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-baa35f485357a3839884"
+    },
+    {
+     "title": "Pat Sa Poe",
+     "artist": "Sein Ba Maw",
+     "link": "https://youtu.be/-A2VuA-utVI?is=jfrS5NFApmDrW0Yv",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-b1bdfda9f18e35eff7d4"
+    },
+    {
+     "title": "Chauk Pauk Say Tan to Tee Lone",
+     "artist": "U Sein Nwae",
+     "link": "https://youtu.be/ArxLO0CfVjY?is=i1Y1KlX2PcbprM31",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-c4270fdfaff6efafa8c2"
+    },
+    {
+     "title": "Akywa Tee Lone",
+     "artist": "Sein Sting",
+     "link": "https://youtu.be/KBbajpMDYRc?is=q2u0C0LS9o5fAfTe",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e26892055f395ffa7069"
+    },
+    {
+     "title": "Aung Zayya Tu Tee Lone",
+     "artist": "Shwe Daung Myaing",
+     "link": "https://youtu.be/vJVb8HCfgWs?is=EE0ai8THAecB9xV2",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7b94a31c4a00bba17cd5"
+    },
+    {
+     "title": "Shwe Kyar Pan",
+     "artist": "Daw May Si",
+     "link": "https://youtu.be/YGPXD85K3WQ?is=oIY1qy0v5OS0S1QX",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8f69327fdab62ff0cfb0"
+    },
+    {
+     "title": "Shwe Bo Tha Netkhar",
+     "artist": "Mar Mar Aye",
+     "link": "https://youtu.be/ENB5d-DHst4?is=OET8UJ8wtuolrRSw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-15d3d63042becd135c27"
+    },
+    {
+     "title": "Pone Pa Mar",
+     "artist": "Pantra Sein Mya Aung",
+     "link": "https://youtu.be/JCk_NgFlru4?is=jnzi3QXRmOv3EVoH",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7ddd3789c70f79132117"
+    },
+    {
+     "title": "Gandamar Taung",
+     "artist": "U Han Pa",
+     "link": "https://youtu.be/2KloHQkS-1E?is=feN3x81BQkaCZo7e",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-01b142c72ba2dd3fcbfe"
+    },
+    {
+     "title": "Yama (The Dance of Rama)",
+     "artist": "Sein Tin Htang",
+     "link": "https://youtu.be/qnG66gTZiKE?is=ZwO1ZxIITb3lcnVP",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-afbced9ff05984c6833a"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "songs_of_the_sangha-548a78"
+  },
+  {
+   "mod": "",
+   "title": "Radio Zero",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Khmer Rouge Revolutionary Music",
+   "songs": [
+    {
+     "title": "Dap Prampi Mesa Moha Chokchey (Glorious Seventeenth of April)",
+     "artist": "",
+     "link": "https://youtu.be/NZELEumh0h4?is=hFDyzv0MSXaeg1fz",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6244704024ee9a773be0"
+    },
+    {
+     "title": "Koma (Children of the Revolution)",
+     "artist": "",
+     "link": "https://youtu.be/txR36qImrw4?is=WeA8DfXTz7oY5YAo",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-f92ab371397a345b35bf"
+    },
+    {
+     "title": "The Red Flag of Revolution",
+     "artist": "",
+     "link": "https://youtu.be/4zF3wLL2pR8?is=V5-sZj4WkTRhSfEQ",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-24cdd5552329e730730d"
+    },
+    {
+     "title": "Harvest",
+     "artist": "",
+     "link": "https://youtu.be/zrg3UMjf-ro?is=fLhilSHQVAsIoDgD",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-8dd8ba52232dc78e200f"
+    },
+    {
+     "title": "Song of the Salt Workers",
+     "artist": "",
+     "link": "https://youtu.be/lwvzawef8FY?is=KLBfANnG33ViDTIc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-84f15b950e58a622095b"
+    },
+    {
+     "title": "Bravery of the Revolutionaries of Kampuchea",
+     "artist": "",
+     "link": "https://youtu.be/Mzy8XLUvedE?is=Elr_A3hmONskwx1t",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-5269fd7375b975be9ef5"
+    },
+    {
+     "title": "Committed to Learning from the Heroic Might of the Great Kampuchean",
+     "artist": "",
+     "link": "https://youtu.be/vP1kEraI5e0?is=FzMt0uQa5pSSs6Uh",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-4c678be5c20488c1bf30"
+    },
+    {
+     "title": "The Revolutionary Flag is Flying Over the Four-Facet River",
+     "artist": "",
+     "link": "https://youtu.be/xseXZVRC9lA?is=TpMgFOtln-UIaGUU",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0cc17fadfca91f7374c1"
+    },
+    {
+     "title": "Democratic Kampuchea",
+     "artist": "",
+     "link": "https://youtu.be/8tCArOTjzHs?is=db2oRhTTA8yKUlOB",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9063539326ee1d32cc14"
+    },
+    {
+     "title": "Children, Please Do Not Forget the Fresh Blood of Our Soldiers",
+     "artist": "",
+     "link": "https://youtu.be/85aSamFYGbk?is=QXaXbi9N5K5B7YXV",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-9914f27d3c724c3624b3"
+    },
+    {
+     "title": "Our Revolutionary Soldiers Liberated Phnom Penh",
+     "artist": "",
+     "link": "https://youtu.be/kLAidzgU1rc?is=tYuFubOdxzQLyUiS",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-756a9c6e767f0942ba1b"
+    },
+    {
+     "title": "Fighting to Build Dams, Dig Canals",
+     "artist": "",
+     "link": "https://youtu.be/l7QDOHYnAw0?is=5AbJvEgF1itzd61Q",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3d2e1a08110b4ad535d8"
+    },
+    {
+     "title": "First Anniversary of the Great Historical Victory",
+     "artist": "",
+     "link": "https://youtu.be/zonAWBvH9Jo?is=DJMgKm4E16KZf17a",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-60910d2b3161b0f7aa0b"
+    },
+    {
+     "title": "Best Wishes to Great Kampuchean Revolution",
+     "artist": "",
+     "link": "https://youtu.be/nfhBB4oMdkQ?is=HGlx2lUy8ds9cfTw",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-61f1d7dc922bf42982cb"
+    },
+    {
+     "title": "Brothers and Sisters Who Are Soldiers, Carry Your Guns...",
+     "artist": "",
+     "link": "https://youtu.be/7iPHxs_OTSQ?is=6_ksVfgIlWVMZI_7",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-480a86f6ec45ee35719b"
+    },
+    {
+     "title": "Warm Wishes and Love to Disabled Soldiers",
+     "artist": "",
+     "link": "https://youtu.be/iPgB5-n-iF4?is=WFb3jVuFNCVAkm8D",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0e9a156f921bd43f8534"
+    },
+    {
+     "title": "We Are Committed to Following Revolutionary Angkar",
+     "artist": "",
+     "link": "https://youtu.be/VjfS88Wy6uM?is=22nl7WP4Sz47rn9c",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-2352ee76669b6546d249"
+    },
+    {
+     "title": "Best Wishes to Brothers-Sisters of Eastern Region",
+     "artist": "",
+     "link": "https://youtu.be/ayvI5aTLKO8?is=DplDgHYnZ0kp57yf",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-0a9b1f2c94aaec1d5906"
+    },
+    {
+     "title": "Always Remember our Revolutionary Living Tradition",
+     "artist": "",
+     "link": "https://youtu.be/50nfAeJ1B6g?is=0Z75BYIAP_Vd7Qpg",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7b42e3b3f4c014f7249f"
+    },
+    {
+     "title": "The Fighting Principles of Kampuchean Revolutionary Youths",
+     "artist": "",
+     "link": "https://youtu.be/rdWED_GdEv8?is=vHOxwLd74Xr0x0-N",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-ae60d62b850aebcc0d5c"
+    },
+    {
+     "title": "We Are Committed to Building Ourselves for Revolution",
+     "artist": "",
+     "link": "https://youtu.be/g-KMYRjTJjU?is=YhvHzJrvl1dgR60j",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-7d0e819574ae7e28c47d"
+    },
+    {
+     "title": "Strengthening of Collective and Economic Stance",
+     "artist": "",
+     "link": "https://youtu.be/j9i7u74Zp8M?is=U3UbQBVzB7OCgWPb",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-1059a0bfb71edb97c68d"
+    },
+    {
+     "title": "Brothers-Sisters Fight Courageously, Defying Obstacles",
+     "artist": "",
+     "link": "https://youtu.be/vX9pdpQjemg?is=KwFGuyt07MpvQLou",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-6c97d2f6f903f4924308"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "radio_zero-1c63cb"
+  },
+  {
+   "mod": "",
+   "title": "Malindo Muses",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Indonesian & Malaysian Funk, Pop, & Yeh-Yeh",
+   "songs": [
+    {
+     "title": "Bis Sekolah",
+     "artist": "Koes Bersaudara",
+     "link": "https://youtu.be/xgMntrFG_E0?is=bTIA3tDtsfw1DSVR",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-90a2786d1dd0cf967cd6"
+    },
+    {
+     "title": "Suzana",
+     "artist": "M. Osman",
+     "link": "https://youtu.be/rRmH2oomNrc?is=vEf1ClHpl6z26OgW",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-3d3cec8b5ae62d547f83"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "malindo_muses-374f85"
+  },
+  {
+   "mod": "",
+   "title": "Productions of Polynesia",
+   "token": "",
+   "status": "Collecting songs",
+   "theme": "Hawaiian Slack-Key, Tahitian Temure, Samoan Sunday Music",
+   "songs": [
+    {
+     "title": "Ruben",
+     "artist": "",
+     "link": "",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-20",
+     "source": "spreadsheet",
+     "id": "song-e193af2aaddf8ff38983"
+    }
+   ],
+   "notes": "From the RR spreadsheet (Music tab).",
+   "added_by": "Deathlinger",
+   "added": "2026-10-20",
+   "source": "spreadsheet",
+   "id": "productions_of_polynesia-09abc0"
+  },
+  {
+   "title": "Country Freedom",
+   "mod": "Revolution_Realized_Musics",
+   "token": "country_freedom",
+   "status": "Made",
+   "songs": [
+    {
+     "title": "Delta Dawn",
+     "artist": "Tanya Tucker",
+     "link": "https://www.youtube.com/watch?v=g6ymXTFFtnc",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-22",
+     "id": "song-8006d2c5ce94a00621ae"
+    },
+    {
+     "title": "My Rifle, My Pony And Me",
+     "artist": "Dean Martin",
+     "link": "https://www.youtube.com/watch?v=xyg3VUrevbA",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-25",
+     "id": "song-c02010d72c80ca325afa"
+    }
+   ],
+   "notes": "",
+   "added_by": "Deathlinger",
+   "added": "2026-10-22",
+   "id": "country_freedom-cfc928"
+  },
+  {
+   "title": "Voice of the Worker",
+   "mod": "Revolution_Realized_Musics",
+   "token": "voice_of_the_worker",
+   "status": "Made",
+   "songs": [
+    {
+     "title": "Preacher and the Slave",
+     "artist": "Joe Hill",
+     "link": "https://www.youtube.com/watch?v=-9uFqcYVQl0",
+     "in_game": false,
+     "added_by": "Deathlinger",
+     "added": "2026-10-25",
+     "id": "song-0914fa7092f9db1e0c0d"
+    }
+   ],
+   "notes": "",
+   "added_by": "Deathlinger",
+   "added": "2026-10-25",
+   "id": "voice_of_the_worker-991a8e"
+  }
+ ]
+}

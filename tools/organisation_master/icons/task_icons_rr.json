@@ -1,0 +1,973 @@
+{
+  "sheet": "task_icons_rr.png",
+  "size": [
+    1402,
+    1122
+  ],
+  "columns": 10,
+  "rows": 8,
+  "count": 80,
+  "coordinate_format": "Pillow crop box: left, top, right, bottom; right and bottom exclusive. Zero-based rows and columns.",
+  "icons": [
+    {
+      "id": "clipboard",
+      "label": "Clipboard",
+      "row": 0,
+      "column": 0,
+      "box": [
+        0,
+        0,
+        140,
+        140
+      ]
+    },
+    {
+      "id": "checkmark",
+      "label": "Checkmark",
+      "row": 0,
+      "column": 1,
+      "box": [
+        140,
+        0,
+        280,
+        140
+      ]
+    },
+    {
+      "id": "checklist",
+      "label": "Checklist",
+      "row": 0,
+      "column": 2,
+      "box": [
+        280,
+        0,
+        421,
+        140
+      ]
+    },
+    {
+      "id": "pencil",
+      "label": "Pencil",
+      "row": 0,
+      "column": 3,
+      "box": [
+        421,
+        0,
+        561,
+        140
+      ]
+    },
+    {
+      "id": "fountain_pen",
+      "label": "Fountain pen",
+      "row": 0,
+      "column": 4,
+      "box": [
+        561,
+        0,
+        701,
+        140
+      ]
+    },
+    {
+      "id": "document",
+      "label": "Document",
+      "row": 0,
+      "column": 5,
+      "box": [
+        701,
+        0,
+        841,
+        140
+      ]
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "row": 0,
+      "column": 6,
+      "box": [
+        841,
+        0,
+        981,
+        140
+      ]
+    },
+    {
+      "id": "notebook",
+      "label": "Notebook",
+      "row": 0,
+      "column": 7,
+      "box": [
+        981,
+        0,
+        1122,
+        140
+      ]
+    },
+    {
+      "id": "open_book",
+      "label": "Open book",
+      "row": 0,
+      "column": 8,
+      "box": [
+        1122,
+        0,
+        1262,
+        140
+      ]
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "row": 0,
+      "column": 9,
+      "box": [
+        1262,
+        0,
+        1402,
+        140
+      ]
+    },
+    {
+      "id": "clock",
+      "label": "Clock",
+      "row": 1,
+      "column": 0,
+      "box": [
+        0,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "id": "hourglass",
+      "label": "Hourglass",
+      "row": 1,
+      "column": 1,
+      "box": [
+        140,
+        140,
+        280,
+        280
+      ]
+    },
+    {
+      "id": "bell",
+      "label": "Bell",
+      "row": 1,
+      "column": 2,
+      "box": [
+        280,
+        140,
+        421,
+        280
+      ]
+    },
+    {
+      "id": "flag",
+      "label": "Flag",
+      "row": 1,
+      "column": 3,
+      "box": [
+        421,
+        140,
+        561,
+        280
+      ]
+    },
+    {
+      "id": "star",
+      "label": "Star",
+      "row": 1,
+      "column": 4,
+      "box": [
+        561,
+        140,
+        701,
+        280
+      ]
+    },
+    {
+      "id": "trophy",
+      "label": "Trophy",
+      "row": 1,
+      "column": 5,
+      "box": [
+        701,
+        140,
+        841,
+        280
+      ]
+    },
+    {
+      "id": "target",
+      "label": "Target",
+      "row": 1,
+      "column": 6,
+      "box": [
+        841,
+        140,
+        981,
+        280
+      ]
+    },
+    {
+      "id": "warning",
+      "label": "Warning",
+      "row": 1,
+      "column": 7,
+      "box": [
+        981,
+        140,
+        1122,
+        280
+      ]
+    },
+    {
+      "id": "stop",
+      "label": "Stop",
+      "row": 1,
+      "column": 8,
+      "box": [
+        1122,
+        140,
+        1262,
+        280
+      ]
+    },
+    {
+      "id": "question",
+      "label": "Question",
+      "row": 1,
+      "column": 9,
+      "box": [
+        1262,
+        140,
+        1402,
+        280
+      ]
+    },
+    {
+      "id": "gear",
+      "label": "Gear",
+      "row": 2,
+      "column": 0,
+      "box": [
+        0,
+        280,
+        140,
+        421
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "row": 2,
+      "column": 1,
+      "box": [
+        140,
+        280,
+        280,
+        421
+      ]
+    },
+    {
+      "id": "hammer",
+      "label": "Hammer",
+      "row": 2,
+      "column": 2,
+      "box": [
+        280,
+        280,
+        421,
+        421
+      ]
+    },
+    {
+      "id": "wrench",
+      "label": "Wrench",
+      "row": 2,
+      "column": 3,
+      "box": [
+        421,
+        280,
+        561,
+        421
+      ]
+    },
+    {
+      "id": "screwdriver",
+      "label": "Screwdriver",
+      "row": 2,
+      "column": 4,
+      "box": [
+        561,
+        280,
+        701,
+        421
+      ]
+    },
+    {
+      "id": "nut_and_bolt",
+      "label": "Nut and bolt",
+      "row": 2,
+      "column": 5,
+      "box": [
+        701,
+        280,
+        841,
+        421
+      ]
+    },
+    {
+      "id": "toolbox",
+      "label": "Toolbox",
+      "row": 2,
+      "column": 6,
+      "box": [
+        841,
+        280,
+        981,
+        421
+      ]
+    },
+    {
+      "id": "gear_check",
+      "label": "Gear check",
+      "row": 2,
+      "column": 7,
+      "box": [
+        981,
+        280,
+        1122,
+        421
+      ]
+    },
+    {
+      "id": "chain",
+      "label": "Chain",
+      "row": 2,
+      "column": 8,
+      "box": [
+        1122,
+        280,
+        1262,
+        421
+      ]
+    },
+    {
+      "id": "broken_chain",
+      "label": "Broken chain",
+      "row": 2,
+      "column": 9,
+      "box": [
+        1262,
+        280,
+        1402,
+        421
+      ]
+    },
+    {
+      "id": "speech",
+      "label": "Speech",
+      "row": 3,
+      "column": 0,
+      "box": [
+        0,
+        421,
+        140,
+        561
+      ]
+    },
+    {
+      "id": "discussion",
+      "label": "Discussion",
+      "row": 3,
+      "column": 1,
+      "box": [
+        140,
+        421,
+        280,
+        561
+      ]
+    },
+    {
+      "id": "microphone",
+      "label": "Microphone",
+      "row": 3,
+      "column": 2,
+      "box": [
+        280,
+        421,
+        421,
+        561
+      ]
+    },
+    {
+      "id": "headphones",
+      "label": "Headphones",
+      "row": 3,
+      "column": 3,
+      "box": [
+        421,
+        421,
+        561,
+        561
+      ]
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "row": 3,
+      "column": 4,
+      "box": [
+        561,
+        421,
+        701,
+        561
+      ]
+    },
+    {
+      "id": "loudspeaker",
+      "label": "Loudspeaker",
+      "row": 3,
+      "column": 5,
+      "box": [
+        701,
+        421,
+        841,
+        561
+      ]
+    },
+    {
+      "id": "envelope",
+      "label": "Envelope",
+      "row": 3,
+      "column": 6,
+      "box": [
+        841,
+        421,
+        981,
+        561
+      ]
+    },
+    {
+      "id": "telephone",
+      "label": "Telephone",
+      "row": 3,
+      "column": 7,
+      "box": [
+        981,
+        421,
+        1122,
+        561
+      ]
+    },
+    {
+      "id": "handshake",
+      "label": "Handshake",
+      "row": 3,
+      "column": 8,
+      "box": [
+        1122,
+        421,
+        1262,
+        561
+      ]
+    },
+    {
+      "id": "team",
+      "label": "Team",
+      "row": 3,
+      "column": 9,
+      "box": [
+        1262,
+        421,
+        1402,
+        561
+      ]
+    },
+    {
+      "id": "globe",
+      "label": "Globe",
+      "row": 4,
+      "column": 0,
+      "box": [
+        0,
+        561,
+        140,
+        701
+      ]
+    },
+    {
+      "id": "map",
+      "label": "Map",
+      "row": 4,
+      "column": 1,
+      "box": [
+        140,
+        561,
+        280,
+        701
+      ]
+    },
+    {
+      "id": "compass",
+      "label": "Compass",
+      "row": 4,
+      "column": 2,
+      "box": [
+        280,
+        561,
+        421,
+        701
+      ]
+    },
+    {
+      "id": "location",
+      "label": "Location",
+      "row": 4,
+      "column": 3,
+      "box": [
+        421,
+        561,
+        561,
+        701
+      ]
+    },
+    {
+      "id": "mountain",
+      "label": "Mountain",
+      "row": 4,
+      "column": 4,
+      "box": [
+        561,
+        561,
+        701,
+        701
+      ]
+    },
+    {
+      "id": "tree",
+      "label": "Tree",
+      "row": 4,
+      "column": 5,
+      "box": [
+        701,
+        561,
+        841,
+        701
+      ]
+    },
+    {
+      "id": "river",
+      "label": "River",
+      "row": 4,
+      "column": 6,
+      "box": [
+        841,
+        561,
+        981,
+        701
+      ]
+    },
+    {
+      "id": "castle",
+      "label": "Castle",
+      "row": 4,
+      "column": 7,
+      "box": [
+        981,
+        561,
+        1122,
+        701
+      ]
+    },
+    {
+      "id": "factory",
+      "label": "Factory",
+      "row": 4,
+      "column": 8,
+      "box": [
+        1122,
+        561,
+        1262,
+        701
+      ]
+    },
+    {
+      "id": "railway",
+      "label": "Railway",
+      "row": 4,
+      "column": 9,
+      "box": [
+        1262,
+        561,
+        1402,
+        701
+      ]
+    },
+    {
+      "id": "paintbrush",
+      "label": "Paintbrush",
+      "row": 5,
+      "column": 0,
+      "box": [
+        0,
+        701,
+        140,
+        842
+      ]
+    },
+    {
+      "id": "palette",
+      "label": "Palette",
+      "row": 5,
+      "column": 1,
+      "box": [
+        140,
+        701,
+        280,
+        842
+      ]
+    },
+    {
+      "id": "picture",
+      "label": "Picture",
+      "row": 5,
+      "column": 2,
+      "box": [
+        280,
+        701,
+        421,
+        842
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "row": 5,
+      "column": 3,
+      "box": [
+        421,
+        701,
+        561,
+        842
+      ]
+    },
+    {
+      "id": "scissors",
+      "label": "Scissors",
+      "row": 5,
+      "column": 4,
+      "box": [
+        561,
+        701,
+        701,
+        842
+      ]
+    },
+    {
+      "id": "ruler",
+      "label": "Ruler",
+      "row": 5,
+      "column": 5,
+      "box": [
+        701,
+        701,
+        841,
+        842
+      ]
+    },
+    {
+      "id": "drafting_triangle",
+      "label": "Drafting triangle",
+      "row": 5,
+      "column": 6,
+      "box": [
+        841,
+        701,
+        981,
+        842
+      ]
+    },
+    {
+      "id": "eye",
+      "label": "Eye",
+      "row": 5,
+      "column": 7,
+      "box": [
+        981,
+        701,
+        1122,
+        842
+      ]
+    },
+    {
+      "id": "lightbulb",
+      "label": "Lightbulb",
+      "row": 5,
+      "column": 8,
+      "box": [
+        1122,
+        701,
+        1262,
+        842
+      ]
+    },
+    {
+      "id": "magnifier",
+      "label": "Magnifier",
+      "row": 5,
+      "column": 9,
+      "box": [
+        1262,
+        701,
+        1402,
+        842
+      ]
+    },
+    {
+      "id": "code",
+      "label": "Code",
+      "row": 6,
+      "column": 0,
+      "box": [
+        0,
+        842,
+        140,
+        982
+      ]
+    },
+    {
+      "id": "terminal",
+      "label": "Terminal",
+      "row": 6,
+      "column": 1,
+      "box": [
+        140,
+        842,
+        280,
+        982
+      ]
+    },
+    {
+      "id": "monitor",
+      "label": "Monitor",
+      "row": 6,
+      "column": 2,
+      "box": [
+        280,
+        842,
+        421,
+        982
+      ]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "row": 6,
+      "column": 3,
+      "box": [
+        421,
+        842,
+        561,
+        982
+      ]
+    },
+    {
+      "id": "circuit",
+      "label": "Circuit",
+      "row": 6,
+      "column": 4,
+      "box": [
+        561,
+        842,
+        701,
+        982
+      ]
+    },
+    {
+      "id": "bug",
+      "label": "Bug",
+      "row": 6,
+      "column": 5,
+      "box": [
+        701,
+        842,
+        841,
+        982
+      ]
+    },
+    {
+      "id": "shield",
+      "label": "Shield",
+      "row": 6,
+      "column": 6,
+      "box": [
+        841,
+        842,
+        981,
+        982
+      ]
+    },
+    {
+      "id": "lock",
+      "label": "Lock",
+      "row": 6,
+      "column": 7,
+      "box": [
+        981,
+        842,
+        1122,
+        982
+      ]
+    },
+    {
+      "id": "key",
+      "label": "Key",
+      "row": 6,
+      "column": 8,
+      "box": [
+        1122,
+        842,
+        1262,
+        982
+      ]
+    },
+    {
+      "id": "branches",
+      "label": "Branches",
+      "row": 6,
+      "column": 9,
+      "box": [
+        1262,
+        842,
+        1402,
+        982
+      ]
+    },
+    {
+      "id": "upload",
+      "label": "Upload",
+      "row": 7,
+      "column": 0,
+      "box": [
+        0,
+        982,
+        140,
+        1122
+      ]
+    },
+    {
+      "id": "download",
+      "label": "Download",
+      "row": 7,
+      "column": 1,
+      "box": [
+        140,
+        982,
+        280,
+        1122
+      ]
+    },
+    {
+      "id": "refresh",
+      "label": "Refresh",
+      "row": 7,
+      "column": 2,
+      "box": [
+        280,
+        982,
+        421,
+        1122
+      ]
+    },
+    {
+      "id": "play",
+      "label": "Play",
+      "row": 7,
+      "column": 3,
+      "box": [
+        421,
+        982,
+        561,
+        1122
+      ]
+    },
+    {
+      "id": "pause",
+      "label": "Pause",
+      "row": 7,
+      "column": 4,
+      "box": [
+        561,
+        982,
+        701,
+        1122
+      ]
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "row": 7,
+      "column": 5,
+      "box": [
+        701,
+        982,
+        841,
+        1122
+      ]
+    },
+    {
+      "id": "bookmark_book",
+      "label": "Bookmark book",
+      "row": 7,
+      "column": 6,
+      "box": [
+        841,
+        982,
+        981,
+        1122
+      ]
+    },
+    {
+      "id": "archive",
+      "label": "Archive",
+      "row": 7,
+      "column": 7,
+      "box": [
+        981,
+        982,
+        1122,
+        1122
+      ]
+    },
+    {
+      "id": "scales",
+      "label": "Scales",
+      "row": 7,
+      "column": 8,
+      "box": [
+        1122,
+        982,
+        1262,
+        1122
+      ]
+    },
+    {
+      "id": "rocket",
+      "label": "Rocket",
+      "row": 7,
+      "column": 9,
+      "box": [
+        1262,
+        982,
+        1402,
+        1122
+      ]
+    }
+  ]
+}

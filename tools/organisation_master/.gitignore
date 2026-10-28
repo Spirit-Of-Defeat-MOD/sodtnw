@@ -1,0 +1,7 @@
+build/
+backups/
+__pycache__/
+todo_tasks.json
+idea_pictures/
+
+.rr_games_cache/

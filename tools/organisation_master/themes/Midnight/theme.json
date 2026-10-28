@@ -1,0 +1,36 @@
+{
+  "name": "Midnight",
+  "id": "midnight",
+  "version": 2,
+  "description": "Deep navy panels, steel-blue headers, petrol-teal controls and warm amber accents.",
+  "colors": {
+    "background": "#141a24",
+    "surface": "#1b2330",
+    "sidebar": "#161f2b",
+    "foreground": "#dfe6f0",
+    "muted": "#8b98aa",
+    "border": "#425269",
+    "copper": "#d99a3d",
+    "header_background": "#25324a",
+    "header_foreground": "#f2e5cb",
+    "header_hover": "#2f3f5c",
+    "stripe": "#202535",
+    "selection_background": "#315b78",
+    "selection_foreground": "#ffffff",
+    "button_background": "#203e43",
+    "button_foreground": "#e3e9f2",
+    "button_active": "#2a5259",
+    "input_background": "#111720",
+    "input_foreground": "#dfe6f0",
+    "age_green": "#7ccf8a",
+    "age_yellow": "#f0c96a",
+    "age_red": "#f08a80",
+    "blocked_background": "#3d2228",
+    "button_pressed": "#315b78",
+    "button_pressed_foreground": "#ffffff"
+  },
+  "fonts": {
+    "family": "Segoe UI",
+    "mono_family": "Consolas"
+  }
+}

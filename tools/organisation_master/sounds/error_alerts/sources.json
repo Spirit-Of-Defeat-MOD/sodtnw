@@ -1,0 +1,19 @@
+{
+  "source": "Original procedural sound design; no external recordings.",
+  "scenes": {
+    "pipe": "Water drips, frantic wrench ratchets, then a small repair ding",
+    "constellation": "Rising star pings forming the warning constellation",
+    "bugle": "Soft brass call and the warning flag unfurling",
+    "thermometer": "Descending icy whistle followed by crystalline frost crackles",
+    "folder": "Paper rustle, low ominous hum and a violet shimmer",
+    "gear": "Mechanical ticks, heating hiss and a settling clunk",
+    "sandwich": "Soft bread pop, paper unfolding and a playful report ping",
+    "web": "Tiny spider footsteps, web plucks and a ghostly warning trill",
+    "snowglobe": "Glass tap, swirling snow and a festive bug-reveal chime",
+    "sunset": "Retro synth descent, digital glitches and neon warning chord",
+    "blossoms": "Airy petal swishes and delicate blossom chimes",
+    "coin": "Spinning gold shimmer and a final warning coin ring",
+    "stamp": "Rubber stamp lift, firm desk thump and paper shuffle",
+    "terminal": "WarGames terminal radar blips, descending vector whistle and muted impact rumble"
+  }
+}

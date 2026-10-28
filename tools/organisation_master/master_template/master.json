@@ -1,0 +1,8 @@
+{
+ "name": "Template Master",
+ "exe": "TemplateMaster.exe",
+ "script": "template_master.py",
+ "description": "One line about what this master does (shown in Organisation Master's side bar).",
+ "link": "template",
+ "link_kinds": ["thing"]
+}

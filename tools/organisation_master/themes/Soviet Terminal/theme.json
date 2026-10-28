@@ -1,0 +1,36 @@
+{
+  "name": "Soviet Terminal",
+  "id": "soviet-terminal",
+  "version": 2,
+  "description": "WarGames-inspired black terminal with phosphor-green highlights, subtle cyan-green controls and amber/red diagnostics.",
+  "colors": {
+    "background": "#030503",
+    "surface": "#0b130e",
+    "sidebar": "#080f11",
+    "foreground": "#b9f1c7",
+    "muted": "#8cbb99",
+    "border": "#426746",
+    "copper": "#73ed92",
+    "header_background": "#102c23",
+    "header_foreground": "#c5ffd0",
+    "header_hover": "#194333",
+    "stripe": "#0e1b12",
+    "selection_background": "#23483e",
+    "selection_foreground": "#e2ffe8",
+    "button_background": "#102a24",
+    "button_foreground": "#b9f1c7",
+    "button_active": "#1a4038",
+    "input_background": "#020603",
+    "input_foreground": "#c5ffd0",
+    "age_green": "#83eaa0",
+    "age_yellow": "#f2ce74",
+    "age_red": "#ffa292",
+    "blocked_background": "#3a2520",
+    "button_pressed": "#23483e",
+    "button_pressed_foreground": "#e2ffe8"
+  },
+  "fonts": {
+    "family": "Consolas",
+    "mono_family": "Consolas"
+  }
+}

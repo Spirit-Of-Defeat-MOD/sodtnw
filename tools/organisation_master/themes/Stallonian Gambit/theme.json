@@ -1,0 +1,73 @@
+{
+  "name": "Stallonian Gambit",
+  "id": "stallonian-gambit",
+  "version": 2,
+  "dark": true,
+  "description": "Petrol-teal and slate-blue panels, copper controls, plum selections, shearling-cream text and portrait cameos.",
+  "colors": {
+    "background": "#0f1c22",
+    "surface": "#182c33",
+    "sidebar": "#18212f",
+    "foreground": "#fff0d8",
+    "muted": "#adc8c7",
+    "border": "#82948a",
+    "copper": "#eab07a",
+    "header_background": "#2c455b",
+    "header_foreground": "#fff1db",
+    "header_hover": "#3a5c73",
+    "stripe": "#25383e",
+    "selection_background": "#583a50",
+    "selection_foreground": "#fff0d8",
+    "button_background": "#dfb682",
+    "button_foreground": "#2c2018",
+    "button_active": "#f0c996",
+    "parchment_foreground": "#2c2018",
+    "input_background": "#0c1a20",
+    "input_foreground": "#fff0d8",
+    "age_green": "#b0dea5",
+    "age_yellow": "#f3d58e",
+    "age_red": "#f5a6a0",
+    "blocked_background": "#453037",
+    "button_pressed": "#583a50",
+    "button_pressed_foreground": "#fff0d8"
+  },
+  "fonts": {
+    "family": "Segoe UI",
+    "mono_family": "Consolas"
+  },
+  "assets": {
+    "button": {
+      "file": "assets/button.png",
+      "size": [
+        160,
+        40
+      ]
+    },
+    "logo": {
+      "file": "assets/stallonian_badge.png",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  },
+  "gradients": {
+    "button": {
+      "direction": "vertical",
+      "stops": [
+        [
+          0,
+          "#f4d5a5"
+        ],
+        [
+          0.5,
+          "#dfb682"
+        ],
+        [
+          1,
+          "#cda16e"
+        ]
+      ]
+    }
+  }
+}

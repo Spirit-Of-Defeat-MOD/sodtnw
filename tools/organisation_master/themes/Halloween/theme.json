@@ -1,0 +1,36 @@
+{
+  "name": "Halloween",
+  "id": "halloween",
+  "version": 3,
+  "description": "Dark slasher horror: charcoal-blue panels, bruised-violet headers, blood-red buttons, bone text, cold teal selections and pumpkin-orange highlights.",
+  "colors": {
+    "background": "#0d0e13",
+    "surface": "#1b1c25",
+    "sidebar": "#17111e",
+    "foreground": "#f6e7ce",
+    "muted": "#c6b2c7",
+    "border": "#7d493f",
+    "copper": "#ffae62",
+    "header_background": "#34213f",
+    "header_foreground": "#f9dfae",
+    "header_hover": "#4e2c50",
+    "stripe": "#251c2d",
+    "selection_background": "#174c48",
+    "selection_foreground": "#eaffeb",
+    "button_background": "#681f2c",
+    "button_foreground": "#ffecdb",
+    "button_active": "#8e2936",
+    "input_background": "#090e0e",
+    "input_foreground": "#f9eee3",
+    "age_green": "#b4d184",
+    "age_yellow": "#f6c573",
+    "age_red": "#ff9b99",
+    "blocked_background": "#451a23",
+    "button_pressed": "#174c48",
+    "button_pressed_foreground": "#eaffeb"
+  },
+  "fonts": {
+    "family": "Segoe UI",
+    "mono_family": "Consolas"
+  }
+}

@@ -66,7 +66,9 @@
 #Ministers
 #should be reintegrated
 
-
+##Ideas
+gansu_crisis: "Crisis in the Northwest"
+gansu_crisis_desc: "Gansu, the land where one watches the bright moon rises from the Tianshan Mountains, In an ocean of clouds, vast and dim. Alas in this ancient frontier fortune has not been on the side of the populace. The 1920 Haiyuan earthquake shattered the political and social order of the province. Not only was the province left in economic ruin, but the decapitation of islamic leadership following the death of Ma Yuanzhang and his son a bridge between Beijing and its Muslim populace has collapse. Now the vaccum is being filled by various groups aiming to be not only the spiritual leaders of the Hui, but also ensuring their rivals cannot usurp any status they have gained. While the aggressive taxation policy to fund wars has stopped since Feng's unification, The social breakdown along with the continued cultivation of opium has left the province in a tense status quo."
  
 #Focuses
 #should be reintegrated
@@ -98,3 +100,50 @@ plateau_cavalry:0 "Plateau Cavalry"
 
 
 Guardian_of_the_Plateau:0 "Guardian of the Plateau"
+
+ gansuincident.1.t: "The Dalachi Incident"
+ gansuincident.1.d: "A report has arrived from Gansu. Liu Yufen, has reported that his chief-of-staff Yang Guangyuan was killed on official business in Shaanxi. The car had to drive along the road from Jingyuan to Guyuan. When Yang Guangyuan passed through Dalachi on his way to Yanchi in Gansu, he encountered a group of anti-Nationalist troops led by Yang Lao'er, a Hui Muslim from Yuwangchuan, Ningxia. An imam named Ga Huzi dug a section of the road to trap the car. Yang Guangyuan jumped out of the car and into a ditch, but was pursued and killed.\n\nLiu Yufen has the men under arrest but insists this was a conspiracy by Xining and Liangzhou, and suspects Ma Tingxiang, son of Ma Anliang and the garrison commander of Liangzhou."
+ gansuincident.1.a: "Let Liu Yufen lead the investigation"
+ gansuincident.1.b: "Dispatch Investigators from Beijing"
+
+ gansuincident.2.t: "Justice of Dalachi"
+ gansuincident.2.d: "Liu Yufen’s investigation has concluded in a way that one can only find as convenient. He ordered his troops to surround Liangzhou, forcing Ma Tingxiang to take blame for failing to stop the attack. Imam Ga Huzi and many Hui leaders and notables from Yuwangchuan were publicly beheaded. To make matters worse, while as governor of Gansu, he is free to enact his justice with impunity for the most part, Ma Hongkui will likely not appreciate Gansu acting in his territory just because it is de jure apart of the province. The Ningxia Circuit is firmly the domain of the Ma family. Liu’s actions along with the existing ethnic tensions will not improve the situation."
+ gansuincident.2.a: "Alone a swan arrives from sea" #Source for this line Thoughts 1 感遇其一 Gǎn yùqí yī by Zhang Jiuling, Chancellor of the Tang Dynasty to Emperor Xuanzong.
+ gansuincident.2.a.tt: "Gansu slips further from Beijing's grasp"
+
+ gansuincident.3.t: "The Commision's Findings"
+ gansuincident.3.d: "The judicial commission sent from Beijing has finally concluded it’s investigation of the Dalachi Incident. While Ma Tinghxiang has been aware of the local unrest, There is no evidence to suggest he is actively agitating. In fact, when the attack on Yang Guangyuang occurred, Ma Tingxiang along with local dignitaries were visiting the grave of his late uncle Ma Guoliang. The commission has therefore concluded the ambush of Yang Guangyuan was an isolated act, insofar there being a mastermind. It will be treated as an outgrowth of the tension in the province. We will remind Liu Yufen of his duty as governor. He has also demanded that Beijing send reinforcements if we bypass his local authority."
+ gansuincident.3.a: "They respond to you with baseless stories" #source is Dang (荡 / Mighty) — The Book of Odes (诗经 / Shijing)
+ gansuincident.3.a.tt: "Reprimanding Liu will likely aggravate him more"
+ gansuincident.3.b: "Send reinforcements to help Liu."
+ gansuincident.3.b.tt: "Why does Liu need our help?"
+
+ gansuincident.4.t: "Unrest in Hezhou"
+ gansuincident.4.d: "The situation in Gansu has never been stable since the 1920 Haiyuan earthquake. More over, the running of the province since has likely exacerbated the situation. A fresh report from Hezhou reveals that Zhao Xiping, acting under orders of Liu Yufen has began a campaign to pacify the region trying to put a stop to the sectarian violence between the various Islamic groups. Zhao is currently acting under the premise that regardless of who is right or wrong, arresting the ringleaders and publicly beheading them would suffice to suppress the supposed rebellion brewing."
+ gansuincident.4.a: "Holding firewood to put out a fire, Let Liu enact his Justice."
+ gansuincident.4.b: "Demand Liu stop the senseless violence"
+
+ gansuincident.5.t: "The Xunhua Raid"
+ gansuincident.5.d: "One can only begin to question the effectiveness of Gansu as it currently exists. Despite Liu Yufen expanding his Army to 40,000 men, bandits still operate as if theres no military presence. This morning we recieved news that the government's stockpiled weapons of Xunhua County was seized. By whom? No one has an answer.\nIn Beijing, the political anxiety has left the cabinet paralyzed. Premier Yang Hucheng has approached his peer, whom he treats with cordial respect, President Song Zheyuan with a rather bleak outlook. Perhaps a privilege born from shared struggle. While both men's origins in the Guominjun differ a sense of camaraderie and respect was born when Song, acting as the Commander of the Guominjun's West Route Army at the time saved Yang, by defeating Liu Zenhua's Zhensong Army and ending the The Siege of Xi'an where Yang was besieged.\nStill, both men deliberated on the way forward. The cabinet was filled with technocrats and intellectuals, men who were lawyers and financiers, not military men. The option to ask their master, Feng Yuxiang was also on the table, however, both could already guess what he would suggest.\n"
+ gansuincident.5.a: "Ask Cabinet for advice"
+ gansuincident.5.b: "Ask Feng Yuxiang for advice"
+
+ gansuincident.6.t: "The Siege of Hezhou"
+ gansuincident.6.d: "Ma Zhongying, the nephew of Ma Lin, having ammassed tens of thousands of men has surrounded the city of Hezhou. Zhao Xiping attempted to break the siege, seeing the Hui soldiers lacked proper weapons. The following report of that attempted Sortie makes it seem the battle occured a millenia go. Offically, the bare-chested, unarmed muslims charged straight at Zhao's forces, closed the gaps, and physically tore weapons from the hands of the defending soldiers. Zhao had to retreat behind Hezhou's walls after having catastrophic casualties inflicted on his forces. He has already sent a telegram to Liu Yufen asking to be relieved."
+ gansuincident.6.a: "A world of dreariness and misery..."
+
+ gansuincident.7.t: "The Defense of Hezhou"
+ gansuincident.7.d: "While Liu's rule over Gansu has been, questionable, to put it lightly. His response to the siege was swift. Like all things with the Gansu Governor, it simply is never that simple.\n\nLiu dispatched Division Commander Dai Jingyu to lead troops to attack the southern part of Hezhou; Brigade Commanders Liu Zhaoxiang and Li Songkun led troops to attack the east. However, Li Songkun was blocked at Niuxin Mountain. They burned over a thousand innocent homes in Tangwangchuan. Only through the efforts of peace advocates Ma Zuxian and Ma Guoli, who persuaded the people to welcome the troops through, were they able to easily pass through the eastern part of the region and reach the outskirts of Hezhou.\n\nStill after fierce fighting which led to Dai Jingyu being shot in the chest and having to be evacuated to the provincial capital. Ma Zhongying lifted the siege after suffering massive casualties and lacking the firearms to maintain the siege. Intelligence suggests he has retreated to Shuangcheng and Hanjiaji areas in western Hezhou but the defenders are in no shape to give pursuit.\n\nPerhaps Liu isn't wholly responsible however. The Xining Garrison commander, Ma Lin, has been oddly neutral while his rogue relative wrecks havoc across the province."
+ gansuincident.7.a: "Order Liu Prepare for Pursuit. Demand an Audience with Ma Lin"
+ gansuincident.7.b: "Enough is Enough. Summon Liu and Ma Lin"
+
+ gansuincident.8.t: "The Laoyaxia Massacre"
+ gansuincident.8.d: "Discussions with Liu and Ma Lin were tense. And the agreements on paper should set the foundation for peace. Lin reaffirmed his commitments as Xining Garrison Commander but also warned Liu of disrupting the Ma network in the Northwest. Liu did not take kindly to such warning and demanded Lin keep his relative, Ma Zhongying in check. Lin agreed.\nSeeing the temporary lull in violence.Zhou Xiwu and others from Xining, who were close to the Guominjun, went to Lanzhou for business. Ma Lin departed from Lanzhou to recieve them. They reached Laoyaxia, near Lanzhou, where the road was narrow, too narrow for two people to walk side-by-side. Ma Lin believing the location was safe stayed behind to perform ablutions and prayers. Zhou Xiwu and his entourage, believing the road was safe continued on their way without waiting for Ma Lin. Unexpectedly, the bandits had already infiltrated the escorting troops and took advantage of the opportunity to strike and kill Zhou Xiwu and several others before crossing the river and leaving. Ma Lin arrived from behind, but it was too late to save them. He wept over the corpses and still transported them back to Qinghai for burial.\n"
+ gansuincident.8.a: "Perhaps peace was folly..."
+
+
+
+
+
+
+

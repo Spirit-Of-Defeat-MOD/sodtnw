@@ -1,6 +1,0 @@
-Built-in image_gen asset. Six 256x256 cells, 3 columns by 2 rows, transparent alpha.
-Prompt: Same cheerful small golden rubber duck holding an unfolded world map, crisp chunky pixel art, orange outline. Six headwear variants in order: American cowboy hat, Mexican sombrero, British bowler, respectful carved geometric African ceremonial mask, woven conical rice-field hat, fur ushanka. Fixed body and map position, no frame, text, background or confetti.
-Background-removal edit: preserve all six duck silhouettes; remove all gradients, halos and shadows to genuine transparent alpha.
-Source: exec-9dda7478-3024-46ba-91a6-77d16f6fd7f1.png. Packaged at 768x512.
-
-Identity refinement (built-in image_gen): edit the six-hat sheet using secret_assets/duck.png as the character identity reference. Keep all hats, maps, aligned cells and chunky pixel art. Cream-white Trotsky duck with swept white hair visible below hats, round black-rimmed glasses, white goatee, orange bill/feet and red neckerchief. Mask hides glasses but keeps white feathers and map. Actual alpha=0 outside silhouettes; no flags, backgrounds, halos or shadows. Final generated source: exec-d4c0147d-9f68-4537-9a40-3d5147974cb6.png.

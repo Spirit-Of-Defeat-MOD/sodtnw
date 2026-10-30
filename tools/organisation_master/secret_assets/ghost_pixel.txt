@@ -1,3 +1,0 @@
-Halloween ghost sprite atlas, built-in image_gen, 24 October 2026.
-Reference: secret_assets/duck.png (style). Final RGBA 640x320, 4 columns by 2 rows.
-Prompt: Tiny cute Halloween ghost in the duck's compact chibi style, warm dark outlines, cream-white cloth with lavender undersides, charcoal oval eyes, O mouth, small sheet arms and wavy three-point tail. Transparent equal cells, generous gutters, no text, labels, scenery or pink halo. First row: four looping floating/billowing/waving poses. Second row: surprise, puffed delighted Ooh, fluffy vapor puff, separated little wisps and star motes. Consistent identity and scale, pixel-friendly broad shapes for 55px display.

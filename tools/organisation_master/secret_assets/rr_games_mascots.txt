@@ -1,3 +1,0 @@
-RR Games mascot atlas — built-in image_gen, 24 October 2026.
-Reference: secret_assets/duck.png (style). Final RGBA sheet 800x320, 5 columns x 2 rows.
-Prompt: Ten compact chibi quiz illustrations matching the duck, warm orange outlines, pixel-friendly broad shapes, transparent equal cells. Reading order: scholar duck/book; culture duck/globe/patterns; minority detective duck/magnifier/map; duck/two generic flags; explorer duck/parchment map; passport officer duck; ideology professor duck/podium/rosettes; music penguin/headphones/radio; RRdle duck/hint tiles/globe; cartographer duck/map pin/globe. No frame, scenery, text, real flags or quiz answers. Consistent scale and transparent margins.

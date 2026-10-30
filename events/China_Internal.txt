@@ -1,0 +1,169 @@
+add_namespace = gansuincident
+
+# gansuincident events
+
+country_event = {  #Dalachi Incident
+	id = gansuincident.1
+	title = gansuincident.1.t
+	desc = gansuincident.1.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.1.a
+		country_event = { id = gansuincident.2 days = 14 }
+					
+	}
+
+	option = {
+		name = gansuincident.1.b
+		country_event = { id = gansuincident.3 days = 21 }
+	}
+}
+
+country_event = {
+	id = gansuincident.2
+	title = gansuincident.2.t
+	desc = gansuincident.2.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.2.a
+		custom_effect_tooltip = gansuincident.2.a.tt
+		
+	}
+}
+
+country_event = {
+	id = gansuincident.3
+	title = gansuincident.3.t
+	desc = gansuincident.3.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.3.a
+		custom_effect_tooltip = gansuincident.3.a.tt
+		
+	}
+
+	option = {
+		name = gansuincident.3.b
+		custom_effect_tooltip = gansuincident.3.b.tt
+		
+	}
+}
+
+country_event = { #Hezhou Violence
+	id = gansuincident.4
+	title = gansuincident.4.t
+	desc = gansuincident.4.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.4.a
+		hidden_effect = {country_event = { id = gansuincident.5 days = 14 }}
+	}
+}
+
+country_event = { #Xunhua Armory
+	id = gansuincident.5
+	title = gansuincident.5.t
+	desc = gansuincident.5.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.5.a
+		hidden_effect = {country_event = { id = gansuincident.6 days = 10 }}	
+	}
+}
+
+country_event = { #First Siege of Hezhou
+	id = gansuincident.6
+	title = gansuincident.6.t
+	desc = gansuincident.6.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.6.a
+		hidden_effect = {country_event = { id = gansuincident.7 days = 7 }}	
+	}
+}
+
+country_event = { #Response to the Siege of Hezhou
+	id = gansuincident.7
+	title = gansuincident.7.t
+	desc = gansuincident.7.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.7.a
+		hidden_effect = {
+			country_event = { id = gansuincident.8 days = 14 }
+			set_country_flag = Liu_will_act_independently
+		}	
+	}
+
+	option = {
+		name = gansuincident.7.b
+		hidden_effect = {
+			country_event = { id = gansuincident.8 days = 21 }
+			set_country_flag = Liu_will_be_restrained
+		}	
+	}
+}
+
+country_event = { #Laoyaxia Massacre
+	id = gansuincident.8
+	title = gansuincident.8.t
+	desc = gansuincident.8.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.8.a
+		hidden_effect = {
+			if = {
+				limit = { has_country_flag = Liu_will_act_independently }
+				country_event = { id = gansuincident.9 days = 3 }
+				clr_country_flag = Liu_will_act_independently
+			}
+			else_if = {
+				limit = { has_country_flag = Liu_will_be_restrained }
+				country_event = { id = gansuincident.10 days = 7 }
+				clr_country_flag = Liu_will_be_restrained
+			}
+		}
+	}
+}
+
+country_event = { #Ma Lin is arrested.
+	id = gansuincident.9
+	title = gansuincident.9.t
+	desc = gansuincident.9.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.9.a
+		hidden_effect = {country_event = { id = gansuincident.11 days = 7 }}	
+	}
+}
+
+country_event = { #Ma Lin is NOT arrested.
+	id = gansuincident.10	
+	title = gansuincident.10.t
+	desc = gansuincident.10.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = gansuincident.10.a
+		hidden_effect = {country_event = { id = gansuincident.11 days = 14 }}	
+	}
+}

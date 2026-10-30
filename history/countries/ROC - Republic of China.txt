@@ -63,7 +63,12 @@ if = {
 ########################################
 #####- Section 03: Ideas and Events - ##
 ########################################
+add_ideas = {
+	#gansu_crisis
+}
 
+country_event = {id = gansuincident.1 days = 62} #Dalachi Incident
+country_event = {id = gansuincident.4 days = 83} #Hezhou Violence
 
 ########################################
 #####- Section 04: Characters - ########
@@ -79,7 +84,6 @@ recruit_character = ROC_feng_yuxiang
 recruit_character = ROC_HH_Kung
 recruit_character = ROC_Wang_Zhengting
 recruit_character = ROC_Yan_Huiqing
-recruit_character = ROC_chen_jintao
 
 
 activate_advisor = feng_yuxiang_hog
@@ -113,11 +117,17 @@ oob = "ROC"
 #####- Section 07: Miscellaneous - #####
 ########################################
 set_convoys = 40
-set_variable = {
-	ROC_collapse = 0
-}
+#set_variable = {
+#	ROC_collapse = 0
+#}
 
-ROC_collapse = yes
+#ROC_collapse = yes
+
+###Ma Zhongyings Uprising###
+set_variable = { GAN_MZ_attack_modifier = 0.0 }
+set_variable = { GAN_MZ_bonus_divisions = 0 }
+set_variable = { GAN_MZ_planning_modifier = 0.0 }
+set_variable = { GAN_MZ_uprising_delay = 0 }
 
 
 #create_country_leader = {
@@ -129,5 +139,7 @@ ROC_collapse = yes
 #		#
 #	}
 #}
+
+
 
 

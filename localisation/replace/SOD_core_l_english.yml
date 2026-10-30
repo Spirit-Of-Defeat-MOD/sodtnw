@@ -1,13 +1,13 @@
 ﻿l_english:
 ##STATE CATEGORIES##
 c10:0 "Superb Development"
-c9:0 ""
-c8:0 ""
+c9:0 "Exceptional Development"
+c8:0 "Excellent Development"
 c7:0 "Great Development"
 c6:0 "Good Development"
 c5:0 "Average Development"
-c4:0 ""
-c3:0 ""
+c4:0 "Modest Development"
+c3:0 "Sparse Development"
 c2:0 "Poor Development"
 c1:0 "Little Development"
 c0:0 "No Development"
@@ -170,17 +170,9 @@ heavy_artillery_equipment_1:0 "Great War Heavy Artillery Equipment"
 heavy_artillery_equipment_2:0 "Improved Heavy Artillery Equipment"
 heavy_artillery_equipment_3:0 "Advanced Heavy Artillery Equipment"
 
-USA_heavy_artillery_equipment_1:0 "155 mm gun M1"
-USA_heavy_artillery_equipment_2:0 "M1918 240 mm howitzer"
-USA_heavy_artillery_equipment_3:0 "240 mm howitzer M1"
-
 ENG_artillery_equipment_1:0 "QF 18-Pounder Mk IV"
 ENG_artillery_equipment_2:0 "QF 25-pounder Mk I"
 ENG_artillery_equipment_3_short:0 "QF 25-pounder Mk II"
-
-ENG_heavy_artillery_equipment_1:0 "BL 8-inch howitzer"
-ENG_heavy_artillery_equipment_2:0 "BL 7.2-inch howitzer Mk I"
-ENG_heavy_artillery_equipment_3:0 "BL 7.2-inch Howitzer Mk IV"
 
 ENG_siege_artillery_equipment_1:0 "BL 9.2-inch howitzer"
 ENG_siege_artillery_equipment_2:0 "240 mm howitzer M1"

@@ -1,6 +1,0 @@
-Stallonian sandwich sprite sheet
-Generated with the built-in image_gen tool, 24 October 2026.
-Reference images: secret_assets/duck.png (style), themes/Stallonian Gambit/assets/stallonian_badge.png (identity).
-Final sheet: 768 x 384 RGBA, four columns by two rows.
-
-Prompt: Cute small chibi sprite animation of the curly brown-haired, moustached, headset-wearing man from the Stallonian Gambit badge in his brown shearling jacket. Match the duck's charming compact silhouette, warm outlines and shading; pixel-friendly broad shapes. Eight equally spaced poses in a transparent 4x2 sheet: reaching; holding a blank idea card; compressing it into a bread/lettuce/cheese sandwich; proudly holding sandwich; raising to mouth; biting with puffed cheeks; chewing a last morsel; empty-handed cheeky wink. Consistent character scale and baseline, full body, no frame, scenery, labels, text or pink halo.

@@ -1,4 +1,0 @@
-{
- "remote": "https://github.com/IMD-Collective/RR_Organiser.git",
- "_note": "Live To Do: the https URL of the To Do's own GitHub repository (private, empty to start; not the RR repository, so the Discord tracker stays quiet). Empty = off. See README > Live sync."
-}

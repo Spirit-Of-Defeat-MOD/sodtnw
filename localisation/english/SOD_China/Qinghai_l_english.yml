@@ -25,9 +25,9 @@ XSM_nihilistic_extremism_party:0 ""
 XSM_nihilistic_extremism_party_long:0 ""
 
 #Country Names
-XSM:0 "Qinghai Clique"
-XSM_DEF:0 "the Qinghai Clique"
-XSM_ADJ:0 "Qing"
+XSM:0 "Xining Circuit"
+XSM_DEF:0 "Xining Circuit"
+XSM_ADJ:0 "Qīng"
 
 XSM_AMD:0 "Amdowa"
 XSM_AMD_DEF:0 "the Region of Amdo"

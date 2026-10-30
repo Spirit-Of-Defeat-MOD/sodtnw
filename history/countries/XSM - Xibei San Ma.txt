@@ -1,7 +1,7 @@
 ﻿########################################
 #####- Section 01: Politics - ##########
 ########################################
-capital = 604
+capital = 754
 
 set_politics = {
 	ruling_party = utilitarian_despot

@@ -25,8 +25,9 @@ idea_categories = {
 	
 	government = {
 		slot = trade_laws
-		slot = economy
-		slot = economic_policy
+		slot = economy #Economic readiness for war
+		slot = economic_policy #Economic Structure
+		slot = economy_rations #How an economy pays for war
 		slot = foreign_policy
 		slot = mobilization_laws
 		

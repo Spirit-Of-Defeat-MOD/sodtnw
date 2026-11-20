@@ -32,4 +32,137 @@ ROC_fall_of_the_republic ={
 
 		}
 	}
+
+	##### Selecting start state
+	ROC_guominjun_chahar_deployment = { #Zhangjiakou
+
+		state_target = yes
+
+		target_root_trigger = {
+			has_country_flag = ROC_tiger_generals_summoned
+		}
+
+		targets = {
+			state = 936 # Chahar
+		}
+
+		target_trigger = {
+			FROM = { state = 936 }# Chahar
+		}
+		available = {
+			NOT = { has_country_flag = ROC_align_state_in_process }
+			NOT = { has_country_flag = ROC_hq_state_selected_country_flag }
+		}
+		fire_only_once = yes
+
+		visible = {
+			936 = { is_owned_by = ROOT }
+		}
+
+		cost = 15
+		days_remove = 5
+
+		on_map_mode = map_and_decisions_view
+
+		complete_effect = {
+			ROC_start_setting_up_hq_state = yes
+			936 = { set_state_flag = chosen_for_hq }
+		}
+		remove_effect = {
+			set_variable = {ROC_deployment_start_state = FROM }
+		}
+		ai_will_do = {
+			base = 150
+		}
+	}
+
+	ROC_guominjun_beijing_deployment = { #Beijing
+
+		state_target = yes
+
+		target_root_trigger = {
+			has_country_flag = ROC_tiger_generals_summoned
+		}
+
+		targets = {
+			state = 608 # Chahar
+		}
+
+		target_trigger = {
+			FROM = { state = 608 }# Chahar
+		}
+		available = {
+			NOT = { has_country_flag = ROC_align_state_in_process }
+			NOT = { has_country_flag = ROC_hq_state_selected_country_flag }
+		}
+		fire_only_once = yes
+
+		visible = {
+			608 = { is_owned_by = ROOT }
+		}
+
+		cost = 15
+		days_remove = 5
+
+		on_map_mode = map_and_decisions_view
+
+		complete_effect = {
+			ROC_start_setting_up_hq_state = yes
+			608 = { set_state_flag = chosen_for_hq }
+		}
+		remove_effect = {
+			set_variable = {ROC_deployment_start_state = FROM }
+		}
+		ai_will_do = {
+			base = 150
+		}
+	}
+
+	ROC_guominjun_shaanxi_deployment = { #Shaanxi
+
+		state_target = yes
+
+		target_root_trigger = {
+			has_country_flag = ROC_tiger_generals_summoned
+		}
+
+		targets = {
+			state = 744 # Shaanxi
+		}
+
+		target_trigger = {
+			FROM = { state = 744 }# Shaanxi
+		}
+		available = {
+			NOT = { has_country_flag = ROC_align_state_in_process }
+			NOT = { has_country_flag = ROC_hq_state_selected_country_flag }
+		}
+		fire_only_once = yes
+
+		visible = {
+			744 = { is_owned_by = ROOT }
+		}
+
+		cost = 15
+		days_remove = 5
+
+		on_map_mode = map_and_decisions_view
+
+		complete_effect = {
+			ROC_start_setting_up_hq_state = yes
+			744 = { set_state_flag = chosen_for_hq }
+		}
+		remove_effect = {
+			set_variable = {ROC_deployment_start_state = FROM }
+		}
+		ai_will_do = {
+			base = 150
+		}
+	}
+}
+
+
+foreign_politics = {
+	renegotiate_unequal_treaties = {}
+	lobby_washington = {}
 }

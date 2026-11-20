@@ -5,4 +5,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/heavy_artillery_equipment.png"
 	}
 
+	spriteType = {
+    	name = "GFX_gw_hvyart_tech"
+    	texturefile = "gfx/texticons/Technologies/Artillery/gw_hvyart_desc_icon.png"
+    	legacy_lazy_load = no
+	}
+
+	spriteType = {
+    	name = "GFX_eng_gw_hvyart_tech"
+    	texturefile = "gfx/texticons/Technologies/Artillery/eng_gw_hvyart_desc_icon.png"
+    	legacy_lazy_load = no
+	}
+
 }

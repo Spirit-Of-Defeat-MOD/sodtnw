@@ -38,3 +38,45 @@ ROC_collapse = {
 		}
 	}
 }
+
+# Start creating HQ for Civil war
+ROC_start_setting_up_hq_state = {
+	set_country_flag = { flag = ROC_align_state_in_process days = 5 value = 1 }
+	FROM = { set_state_flag = ROC_hq_state_selected }
+	set_country_flag = ROC_hq_state_selected_country_flag
+}
+
+deploy_the_first_national_army = {
+	if = {
+		limit = {
+			936 = { has_state_flag = chosen_for_hq }
+		}
+		ROC = { release = CHR }
+		CHR = {
+			set_cosmetic_tag = GMJ_first_army
+			inherit_technology = ROC
+		}
+	}
+
+	if = {
+		limit = {
+			608 = { has_state_flag = chosen_for_hq }
+		}
+		ROC = { release = ZHI }
+		ZHI = {
+			set_cosmetic_tag = GMJ_first_army
+			inherit_technology = ROC
+		}
+	}
+
+	if = {
+		limit = {
+			744 = { has_state_flag = chosen_for_hq }
+		}
+		ROC = { release = XIC }
+		XIC = {
+			set_cosmetic_tag = GMJ_first_army
+			inherit_technology = ROC
+		}
+	}
+}

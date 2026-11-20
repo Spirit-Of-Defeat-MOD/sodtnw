@@ -47,3 +47,10 @@ is_literally_china = {
 		original_tag = HBC
 	}
 }
+
+can_equip_mech = {
+    OR = {
+        has_tech = enable_mech
+        has_tech = mechanised_infantry
+    }
+}

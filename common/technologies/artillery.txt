@@ -119,6 +119,21 @@ technologies = {
 			}
 
 		}
+		
+		on_research_complete = {
+			if = {
+				limit = {
+					original_tag = GER
+				}
+				custom_effect_tooltip = gw_hvyart_tech_tt
+			}
+			if = {
+				limit = {
+					original_tag = ENG
+				}
+				custom_effect_tooltip = ENG_gw_hvyart_tech_tt
+			}
+		}
 
 	}
 

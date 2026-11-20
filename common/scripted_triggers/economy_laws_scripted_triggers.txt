@@ -1,0 +1,59 @@
+#ECONOMIC STRUCTURE TRIGGERS
+can_adopt_laissez_faire = {
+	OR = {
+		# All Classical Liberals
+		has_government = classic_liberal
+
+		# Free-market Conservatives
+		has_country_leader_ideology = fiscal_conservatism
+		has_country_leader_ideology = social_conservatism
+		has_country_leader_ideology = conservatism
+
+		# Right-leaning Social Liberals
+		has_country_leader_ideology = conservative_liberalism
+		has_country_leader_ideology = centrism
+
+		# Narrative / Focus override
+		has_country_flag = allowed_laissez_faire
+	}
+}
+
+can_adopt_interventionism = {
+	OR = {
+		# Core Mixed-Economy Democrats
+		has_government = social_liberal
+		has_government = social_democrat
+		has_government = reformist_socialist
+
+		# Interventionist Conservatives
+		has_country_leader_ideology = christian_democracy
+		has_country_leader_ideology = social_conservatism
+		has_country_leader_ideology = traditionalism
+		has_country_leader_ideology = conservatism
+
+		# Moderate Authoritarians & Paternalists
+		has_country_leader_ideology = authoritarian_democrat_subtype
+		has_country_leader_ideology = national_conservatism
+		has_country_leader_ideology = semi_constituional_monarchy
+		has_country_leader_ideology = managed_democracy
+		has_country_leader_ideology = partial_democracy
+		has_country_leader_ideology = paternal_state
+
+		# Pragmatic Classical Liberals (Wartime or Crisis only)
+		AND = {
+			OR = {
+				has_country_leader_ideology = constitutionalism
+				has_country_leader_ideology = liberal_conservatism
+				has_country_leader_ideology = moderatism
+				has_country_leader_ideology = fiscal_conservatism
+			}
+			OR = {
+				has_war = yes
+				threat > 0.5
+			}
+		}
+
+		# Narrative / Focus override
+		has_country_flag = allowed_interventionism
+	}
+}

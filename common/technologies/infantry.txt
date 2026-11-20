@@ -304,7 +304,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 1 y = @1941 }
 		}
 
 		categories = {
@@ -354,7 +354,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 1 y = @1943 }
 		}
 
 		categories = {
@@ -2079,7 +2079,7 @@ technologies = {
 		enable_equipments = {
 			gw_armored_car_equipment
 		}
-		allow_branch = { has_dlc = "La Resistance" }
+		#allow_branch = { has_dlc = "La Resistance" }
 		path = {
 			leads_to_tech = armored_car2
 			research_cost_coeff = 1
@@ -2425,7 +2425,7 @@ technologies = {
 		}
 
 		allow_branch = {
-			has_dlc = "Man the Guns"
+			#has_dlc = "Man the Guns"
 		}
 
 		enable_subunits = {
@@ -3231,6 +3231,150 @@ technologies = {
 
 		enable_subunits = {
 			northern_territory_recon_support
+		}
+	}
+
+
+
+
+	#####################################################MODDED TECHS####################################################
+	tech_division_hq_1 = {
+		
+		enable_subunits = {
+			division_hq
+		}
+		
+		# Also enables the specialized HQs once their vehicle techs are unlocked
+		# (Or you can place enable_subunits inside motorized/armored_car/mechanized/medium_tank techs)
+		
+		path = {
+			leads_to_tech = tech_division_hq_2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			motorised_infantry = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1936 } # Adjust X/Y to fit your support tech UI layout
+		}
+		
+		categories = {
+			support_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	# 1939 - Tier 2: Portable Ciphers, Mobile Printing & Liaison Networks
+	tech_division_hq_2 = {
+
+		category_division_hq = {
+			initiative = 0.05
+			max_organisation = 3
+			recon = 0.25
+		}
+		
+		enable_subunits = {
+			division_hq_car
+		}
+
+		path = {
+			leads_to_tech = tech_division_hq_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1939 }
+		}
+		
+		categories = {
+			support_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	# 1942 - Tier 3: FM Voice Radios, SIGINT Detachments & Organic Liaison Aircraft (AOP)
+	tech_division_hq_3 = {
+
+		enable_subunits = {
+			division_hq_mech
+			division_hq_armored
+		}
+
+		category_division_hq = {
+			initiative = 0.08
+			recon = 0.50 # Aerial spotters (L-4 / Storch) & radio direction finding
+			breakthrough = 0.15 # Real-time FM voice coordination during assaults
+			default_morale = 0.05
+		}
+
+		path = {
+			leads_to_tech = tech_division_hq_4
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			mechanised_infantry = 1
+			basic_medium_tank_chassis = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1942 }
+		}
+		
+		categories = {
+			support_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	# 1945 - Tier 4: Radio Teletype (RATT), Tactical Air Control (TACP) & Counter-Battery Radar
+	tech_division_hq_4 = {
+
+		category_division_hq = {
+			initiative = 0.10
+			max_organisation = 5
+			defense = 0.25 # Counter-battery radar (SCR-584) & rapid defensive coordination
+			breakthrough = 0.20 # Embedded TACPs calling in immediate close air support
+			experience_loss_factor = -0.05 # Automated RATT administration & replacement tracking
+		}
+
+		research_cost = 2.0
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = @1945 }
+		}
+		
+		categories = {
+			support_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 3
 		}
 	}
 

@@ -1,97 +1,280 @@
-ideas = {
+##Trigger definitions in economy_laws_scripted_triggers
 
-	economic_policy = { 
+ideas = {
+	economic_policy = {
 		law = yes
 		use_list_view = yes
-		
 		laissez_faire = {
 			cost = 150
 			removal_cost = -1
-			level = 4
+			
+			available = {
+				can_adopt_laissez_faire = yes
+			}
 			
 			modifier = {
-				industrial_capacity_dockyard = 0.05
-				industrial_capacity_factory = 0.05
-				
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.3
+				conversion_cost_civ_to_mil_factor = 0.5
+				line_change_production_efficiency_factor = -0.2
+				production_factory_max_efficiency_factor = 0.15
+				research_speed_factor = 0.1
+				trade_opinion_factor = 0.2
+				resource_trade_cost_bonus_per_factory = 1
 			}
 		}
+		
 		interventionism = {
 			cost = 150
 			removal_cost = -1
-			level = 3
 			
-			modifier = {
-
+			available = {
+				can_adopt_interventionism = yes
 			}
-			
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				conversion_cost_civ_to_mil_factor = -0.2
+				line_change_production_efficiency_factor = 0.1
+				trade_opinion_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				research_speed_factor = 0.05
+			}
 		}
+		
+		
 		state_capitalism = {
 			cost = 150
 			removal_cost = -1
-			level = 2
-			
+
 			modifier = {
+				consumer_goods_factor = -0.25
+				production_speed_buildings_factor = 0.25
+				conversion_cost_civ_to_mil_factor = -0.5
+				line_change_production_efficiency_factor = 0.2
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_start_efficiency_factor = 0.25
+				research_speed_factor = -0.05
 			}
-			
 			default = yes
 		}
+		revolutionary_collectivism = {
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.15				
+				local_resources_factor = 0.2
+
+				production_factory_efficiency_gain_factor = 0.25				
+				production_speed_buildings_factor = 0.1				
+				line_change_production_efficiency_factor = 0.15
+
+				resistance_growth_on_our_occupied_states = -0.5				
+				stability_factor = 0.15				
+			
+				trade_opinion_factor = -0.5				
+				production_factory_max_efficiency_factor = -0.1
+				research_speed_factor = -0.1				
+			}
+		}
+		
+		corporatism = {
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15              
+				consumer_goods_factor = -0.15            
+                         
+				local_resources_factor = 0.10            
+				conversion_cost_civ_to_mil_factor = -0.35 
+				production_speed_buildings_factor = 0.10 
+    
+				production_factory_max_efficiency_factor = -0.20
+				production_factory_efficiency_gain_factor = -0.10 
+				research_speed_factor = -0.05           			
+			}
+		}
+		
 		planned_economy = {
 			cost = 150
 			removal_cost = -1
-			level = 1
+
+			modifier = {
+				consumer_goods_factor = -0.4
+				trade_opinion_factor = -0.3
+				production_speed_buildings_factor = 0.35
+				conversion_cost_civ_to_mil_factor = -0.75
+				production_factory_start_efficiency_factor = 0.4
+				production_factory_max_efficiency_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.2
+				research_speed_factor = -0.1
+			}
+		}
+		
+		#Special
+		colonial_extraction_economy = {
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {	
+				local_resources_factor = 0.50                                 
+				trade_opinion_factor = -0.20             
+    
+				production_speed_buildings_factor = 0.15 
+    
+				consumer_goods_factor = 0.60             
+				industrial_capacity_factory = -0.30     
+				production_factory_max_efficiency_factor = -0.20 
+				research_speed_factor = -0.20            
+    
+				resistance_activity = 0.25               
+				stability_factor = -0.15
+			}
+		}
+	
+		dual_sector_economy = { #Nascent industrial tier should be put after traditionalist
+			cost = 150
+			removal_cost = -1
 			
 			modifier = {
+				consumer_goods_factor = 0.25             
+				production_factory_max_efficiency_factor = -0.15 
+				research_speed_factor = -0.10            
+    
+				# The "Take-Off" Surge (Arthur Lewis Surplus Labor)
+				production_factory_efficiency_gain_factor = 0.15 
+				production_speed_infrastructure_factor = 0.20    
+				production_speed_industrial_complex_factor = 0.10
+    
+                      
+				political_power_factor = -0.10
+			}
+		}
+	
+		traditional_subsistence_economy = {	
+			cost = 150
+			removal_cost = -1
+	
+			modifier = {
+				# Structural Anti-Industrial Inertia
+				production_speed_buildings_factor = -0.50 # -50% Severe lack of heavy machinery, financial capital, and engineering infrastructure
+				production_factory_start_efficiency_factor = -0.30 # -30% Total absence of factory-floor discipline or standardization
+				conversion_cost_civ_to_mil_factor = 1.00 # +100% Retooling artisanal shops into munitions factories requires a total cultural shift
+				research_speed_factor = -0.25            # -25% High illiteracy and a lack of formalized institutional scientific funding
+    
+				# Financial Autarky & Isolation
+				consumer_goods_factor = 0.50             # +50% Virtually all output is locked in the agricultural/survival loop
+		
+				# Tribal Resilience & Local Autonomy
+				supply_consumption_factor = -0.10
+				no_supply_grace = 2.0
+				resistance_growth_on_our_occupied_states = -0.60
+				stability_factor = 0.20	# +20% Deep horizontal social cohesion anchored in ancient custom and lineage
+			}
+		}
+	}
+	
+	economy_rations = {
+		law = yes
+		use_list_view = yes
+		sound_finance = {
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+
+				political_power_factor = 0.10
+				stability_weekly = 0.005
+
+				production_speed_industrial_complex_factor = 0.05
+			}
+			default = yes
+		}
+		
+		
+		war_bonds = {
+			cost = 150
+			removal_cost = -1
+			level = 3
+			modifier = {
+				consumer_goods_factor = -0.05
+
+				war_support_weekly = 0.05
+				stability_weekly = -0.002
+
+				political_power_factor = -0.05
+				production_speed_industrial_complex_factor = 0.10
+			}
+		}
+		
+		strict_rationing = {
+			cost = 150
+			removal_cost = -1
+			level = 2
+			modifier = {
+				consumer_goods_factor = -0.15
+
+				industrial_capacity_factory = 0.03
+				stability_weekly = -0.005
+				war_support_weekly = -0.02
+
+				political_power_factor = -0.05
 			}
 		}
 		
 		
+		forced_requisition = {
+			cost = 150
+			removal_cost = -1
+			level = 1
+			modifier = {
+				consumer_goods_factor = -0.30
+
+				industrial_capacity_factory = 0.05
+				political_power_factor = -0.10
+
+				stability_weekly = -0.015
+				war_support_weekly = -0.05
+			}
+			
+		}
 	}
 	
-	foreign_policy = { 
+	foreign_policy = {
 		law = yes
 		use_list_view = yes
-		
 		expansionist = {
 			cost = 150
 			removal_cost = -1
 			level = 4
-			
 			modifier = {
-
 			}
 		}
 		interventionist = {
 			cost = 150
 			removal_cost = -1
 			level = 3
-			
 			modifier = {
-
 			}
 		}
 		armed_neutrality = {
 			cost = 150
 			removal_cost = -1
 			level = 2
-			
 			modifier = {
-
-
 			}
 		}
 		pacifist = {
 			cost = 150
 			removal_cost = -1
 			level = 1
-			
 			modifier = {
-
 			}
-			
 			default = yes
 		}
-		
-		
 	}
-
 }

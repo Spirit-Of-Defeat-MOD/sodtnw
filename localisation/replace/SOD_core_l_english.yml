@@ -12,6 +12,11 @@ c2:0 "Poor Development"
 c1:0 "Little Development"
 c0:0 "No Development"
 
+##AUTONOMY####
+autonomy_personal_subordinate_army: "Personal Subordinate Army"
+autonomy_personal_subordinate_army_desc: "A subordinate army is a highly militarized franchise within a loose warlrod coalition. Rather than forming an integrated national force, it exists as a semi-autonomous force bound to the paramount commander by transactional loyalty and shared political branding"
+
+
 ##Government Laws/Minister
 foreign_policy:0 "Foreign Policy"
 economic_policy:0 "Economic Policy"
@@ -35,6 +40,7 @@ laissez_faire:0 "Laissez Faire"
 interventionism:0 "Interventionism"
 state_capitalism:0 "State Capitalism"
 planned_economy:0 "Planned Economy"
+revolutionary_collectivism:0 "Revolutionary Collectivism"
 
 expansionist:0 "Expansionist"
 interventionist:0 "Interventionist"
@@ -139,11 +145,10 @@ heavy_artillery_brigade:0 "Heavy Artillery Brigade"
 siege_artillery:0 "Support Siege Artillery"
 
 ##UNITS
-division_hq:0 "Div. Headquarters"
-
-division_hq_car:0 "Div. Headquarters [Car]"
-division_hq_mech:0 "Div. Headquarters [Mech.]"
-division_hq_armored:0 "Div. Headquarters [Arm.]"
+division_hq: "Div. Headquarters"
+division_hq_car: "Div. Headquarters [Car]"
+division_hq_mech: "Div. Headquarters [Mech.]"
+division_hq_armored: "Div. Headquarters [Arm.]"
 
 logistics_company_mot:0 "Logistics Company [Mot.]"
 
@@ -157,25 +162,24 @@ field_hospital_mot:0 "Field Hospital [Mot.]"
 
 
 ##TECHNOLOGY
-gw_heavy_artillery:0 "Great War Heavy Artillery"
-heavy_artillery1:0 "Improved Heavy Artillery"
-heavy_artillery2:0 "Advanced Heavy Artillery"
 
 gw_siege_artillery:0 "Great War Siege Artillery"
 siege_artillery2:0 "Improved Siege Artillery"
 
+ tech_division_hq_1:0 "Divisional Command Staff I"
+ tech_division_hq_1_desc:0 "Standardizing staff sections (Personnel, Intelligence, Operations, and Logistics) alongside motorized transport pools, field telephone switchboards, and motorcycle dispatch riders enables a division to coordinate complex combined-arms operations."
+
+ tech_division_hq_2:0 "Divisional Command Staff II"
+ tech_division_hq_2_desc:0 "Integrating electro-mechanical cipher machines, mobile map-printing trucks, and dedicated Liaison Officer networks dramatically shrinks the time required to encode orders, reproduce updated battlefield overlays, and verify frontline conditions."
+
+ tech_division_hq_3:0 "Divisional Command Staff III"
+ tech_division_hq_3_desc:0 "Replacing fragile telephone wire and slow Morse keys with static-free FM voice radios, radio-intercept (SIGINT) detachments, and organic light liaison aircraft gives the division commander real-time situational awareness over the entire sector."
+
+ tech_division_hq_4:0 "Divisional Command Staff IV"
+ tech_division_hq_4_desc:0 "Incorporating automated Radio Teletype (RATT) vans, embedded Tactical Air Control Parties (TACPs) with VHF air-to-ground radios, and counter-battery radar transforms the divisional headquarters into a modern C3I hub capable of calling in immediate air and artillery strikes."
+
+
 #EQUIPMENT
-heavy_artillery_equipment:0 "Heavy Artillery Equipment"
-heavy_artillery_equipment_1:0 "Great War Heavy Artillery Equipment"
-heavy_artillery_equipment_2:0 "Improved Heavy Artillery Equipment"
-heavy_artillery_equipment_3:0 "Advanced Heavy Artillery Equipment"
-
-ENG_artillery_equipment_1:0 "QF 18-Pounder Mk IV"
-ENG_artillery_equipment_2:0 "QF 25-pounder Mk I"
-ENG_artillery_equipment_3_short:0 "QF 25-pounder Mk II"
-
-ENG_siege_artillery_equipment_1:0 "BL 9.2-inch howitzer"
-ENG_siege_artillery_equipment_2:0 "240 mm howitzer M1"
 
 
 ###DECISIONS

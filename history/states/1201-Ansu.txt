@@ -1,0 +1,22 @@
+state = {
+	id = 1201
+	name = "STATE_1201"
+	manpower = 1
+	
+	state_category = rural
+	
+	history = {
+		owner = ROC
+		add_core_of = ROC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	local_supplies = 0.0
+	buildings_max_level_factor = 1.000
+	
+	provinces = {
+		5076 12596 12820 14192 1778 13389 7971 8102 13390 14190 14193 14191
+	}
+}

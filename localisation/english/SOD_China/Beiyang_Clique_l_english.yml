@@ -66,6 +66,12 @@
 #Ministers
 #should be reintegrated
 
+
+#Cosmetics
+GMJ_first_army: "First National Army"
+GMJ_first_army_DEF: "First Army of the National People's Army"
+GMJ_first_army_ADJ: "Guominjun"
+
 ##Ideas
 gansu_crisis: "Crisis in the Northwest"
 gansu_crisis_desc: "Gansu, the land where one watches the bright moon rises from the Tianshan Mountains, In an ocean of clouds, vast and dim. Alas in this ancient frontier fortune has not been on the side of the populace. The 1920 Haiyuan earthquake shattered the political and social order of the province. Not only was the province left in economic ruin, but the decapitation of islamic leadership following the death of Ma Yuanzhang and his son a bridge between Beijing and its Muslim populace has collapse. Now the vaccum is being filled by various groups aiming to be not only the spiritual leaders of the Hui, but also ensuring their rivals cannot usurp any status they have gained. While the aggressive taxation policy to fund wars has stopped since Feng's unification, The social breakdown along with the continued cultivation of opium has left the province in a tense status quo."
@@ -140,6 +146,36 @@ Guardian_of_the_Plateau:0 "Guardian of the Plateau"
  gansuincident.8.t: "The Laoyaxia Massacre"
  gansuincident.8.d: "Discussions with Liu and Ma Lin were tense. And the agreements on paper should set the foundation for peace. Lin reaffirmed his commitments as Xining Garrison Commander but also warned Liu of disrupting the Ma network in the Northwest. Liu did not take kindly to such warning and demanded Lin keep his relative, Ma Zhongying in check. Lin agreed.\nSeeing the temporary lull in violence.Zhou Xiwu and others from Xining, who were close to the Guominjun, went to Lanzhou for business. Ma Lin departed from Lanzhou to recieve them. They reached Laoyaxia, near Lanzhou, where the road was narrow, too narrow for two people to walk side-by-side. Ma Lin believing the location was safe stayed behind to perform ablutions and prayers. Zhou Xiwu and his entourage, believing the road was safe continued on their way without waiting for Ma Lin. Unexpectedly, the bandits had already infiltrated the escorting troops and took advantage of the opportunity to strike and kill Zhou Xiwu and several others before crossing the river and leaving. Ma Lin arrived from behind, but it was too late to save them. He wept over the corpses and still transported them back to Qinghai for burial.\n"
  gansuincident.8.a: "Perhaps peace was folly..."
+
+ gansuincident.9.t: "Ma Lin Arrested."
+ gansuincident.9.d: "It seems Liu Yufen was waiting for his chance to strike. Perhaps calling Ma Lin before summoning him allowed him to think the central government was aligned with him on this issue. While a new agreement was stipulated, that did not stop him from marching to Xining and demanding Ma Lin surrender himself. Ma Lin being the bureaucratic civilian administrator he is, naturally obliged. But now the Ninghai Army has no general. And theres only one likely sucessor, the rather aggressive and less diplomatic, nephew of Lin, Son of Ma Qi, Ma Bufang. Liu has declared this is the first step in eliminating Ma influence in the northwest."
+ gansuincident.9.a: "The water already poured out cannot be gathered back"
+
+ gansuincident.10.t: "Liu drops the pretense."
+ gansuincident.10.d: "In the aftermath of Laoyaxia, Liu has demanded we do something about the Muslim conspiracy; he insists the Ma families are plotting to oust the Guominjun from the region. He needs to know if the central government is willing; if not, he hinted he will bypass Beijing and ask Feng Yuxiang directly instead.\nIt is no secret that Feng is still the master of the National Army, however it concurrently serves as the Army of the Republic. If he bypasses the system he himself established in 1925, the risk of entering another era of extreme militarism will become likely."
+ gansuincident.10.a: "Does he intend to tear the Republic apart?"
+
+ gansuincident.11.t: "Western Border Defense Allied Army?"
+ gansuincident.11.d: "The Black Tiger has once again returned. Under the new banner of the Western Border Defense Allied Army and the slogan 'Oppose the Guominjun, drive out Liu Yufen', Ma Zhongying and his deputy commander Ma Tingxian, who is the younger brother of Ma Tingxiang, have led thousands of troops to besiege Hezhou. The first wave of attacks focused on the Army's engineering company's garrison in the eight wards of Hezhou. The garrison HQ was once Ma Anliang's 'General's Mansion'. Two-thirds of the 480-strong engineering company were killed or wounded; only one-third escaped through their underground bunkers. Liu Yufen's chief of staff, Yu Jiapei, was also seriously wounded. The General's Mansion was subsequently burned down by Ma Zhongying. Liu has dispatched troops to end the siege, though he himself remains in Lanzhou, the provincial capital."
+ gansuincident.11.a: "To the singing and dancing by the Yellow River, when will there be an end?"
+
+ gansuincident.12.t: "Anarchy at Liangzhou"
+ gansuincident.12.d: "With the recent unrest in the province, The Gansu Army has been haphazardly mobilizing. Liu Zhiyuan, the commander of the National Army's training regiment, went to Liangzhou to buy horses. However, whether under orders from Liu Yufen or his own whim, risked everything and launched an uprising. Zhiyuan led dozens of his subordinates and over a hundred county policemen straight to the garrison headquarters forcing Ma Tingxiang to flee.\n\nZhiyuan also discovered that Ma Tingxiang had in store over 100,000 taels of silver ingots and silver coins, over 100,000 yuan of silver dollars, over 300 gold bars (worth over 3,000 taels), and countless jewels, antiques, and paintings.  He loaded these items onto large carts and sent them to Lanzhou to claim credit, while completely disregarding the defenses of Liangzhou, leaving the outpost without a proper defensive force."
+ gansuincident.12.a: "Well I supposed one should know thyself..."
+
+ gansuincident.13.t: "The Bloodbath at Hezhou"
+ gansuincident.13.d: "The siege of Hezhou has once again been lifted, although this time Lanzhou was in dire straits. While the three urgently dispatched divisions led by Zhao Xiping, Tong Lingge and Li Songkun were able to force Ma Zhongying to retreat, this siege was unlike the first. The road from Hezhou to Lanzhou was actually cut off this time. During the battle, Zhao Chonghua, commander of the National Army's 49th Brigade, was killed. Ma Zhongying also marched along the Beiyuan East Township to the Tangwangchuan area, where dozens of refugees from the Daxi Township were killed at Lianhua Ferry, and thousands were forced into the river and drowned.\n\nFeng is reportedly furious at the news. While his symbolic stepping down from the Presidency was supposed to signal a new era for the Republic, it is becoming increasingly clear the Guominjun without guidance is seemingly failing at enforcing order. And the main National Armies will not move without his order. While Song Zheyuan is a respected General, he is not Feng.\n\nThe contradictions of the 1925 Unification are being laid bare; now Feng is thinking, perhaps the idea of a civilian administration should once again be put on hold until Wǔlì Tǒngyī, that is, Unification by Force can be achieved in totality."
+ gansuincident.13.a: "Could the coalition of eight provinces ever be called a Republic?"
+
+ gansuincident.14.t: "The Meeting of the Tiger Generals."
+ gansuincident.14.d: "Four invitations sent. Song Zheyuan, Zhang Zhijiang, Lu Zhonglin and Liu Yufen. Four invitations answered. There was a certain irony in the meeting about to unfold. Then again, Feng Yuxiang was a man of extreme asceticism. After stepping down from President at the end of his second term in 1935, he has spent most of his time away from any public life. So calling his generals to the place that represents life-giving yang, Mount Tai, to discuss the death of the republic.\n\nThe day was odd for a supposed meeting. Feng had the men read classic literature, composing songs and even engaging in manual labor. The men knew their master had a hatred for aristocratic luxury, but this was a bit much. As the day wound down, the atmosphere became somber. Feng told his subordinates he had a lot to ponder while here on the mountain, and admitted that unification may have been too early. After all, the northeast, northwest and the entire south do not belong to them. Song asked what this would mean for the civilian administration and bureaucracy.\n\nFeng merely looked at the landscape below. He assured Song a proper administration would return once Unification by Force was completed thoroughly, but for now the next step should be full mobilization of the National People's Army, a.k.a. the Guominjun, in preparation for a war of unification. Lu, who had been silent, asked what becomes of the provinces if the garrisons are withdrawn. Feng admitted the abandoned provinces will likely be left with hollowed administrations that the local gentry will take over; however, as long as costs are removed from them, it may be better in the short term.\n\nStill, the most pressing issue now is choosing which provinces to secure and choosing which will be abandoned. There will likely be no consequence-free choices."
+ gansuincident.14.a: "What is divided for a long time must unite, and what is united for a long time must divide."
+
+
+
+
+
+
 
 
 
